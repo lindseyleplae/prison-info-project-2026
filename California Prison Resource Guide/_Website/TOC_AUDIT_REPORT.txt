@@ -1,0 +1,220 @@
+================================================================================
+COMPREHENSIVE TABLE OF CONTENTS AUDIT REPORT
+California Prison Resource Guide Website
+================================================================================
+
+EXECUTIVE SUMMARY
+================================================================================
+Total HTML files scanned: 16
+Files with "page-toc" sections: 11 (68.75%)
+Files without "page-toc" sections: 5 (31.25%)
+
+All 68 TOC items that have links point to valid section IDs.
+Total broken links found: 0 ✓
+
+================================================================================
+FILES WITH TABLE OF CONTENTS SECTIONS (11 files)
+================================================================================
+
+1. guides/first-time.html
+   ✓ Status: ALL LINKS VALID
+   TOC Items: 10
+   - Before Your First Visit [LINKED] → #before-first-visit ✓
+   - Timeline of Visit Day [LINKED] → #day-timeline ✓
+   - Getting There and Parking [LINKED] → #getting-there ✓
+   - Check-In and Security [LINKED] → #check-in ✓
+   - The Waiting Room [LINKED] → #the-wait ✓
+   - The Visiting Room [LINKED] → #the-visit ✓
+   - After the Visit [LINKED] → #after-visit ✓
+   - Visiting With Children [LINKED] → #with-kids ✓
+   - What Gets Easier Over Time [LINKED] → #getting-easier ✓
+   - On this page: [UNLINKED - label only]
+
+2. guides/know-your-rights.html
+   ✓ Status: ALL LINKS VALID
+   TOC Items: 8
+   - Your Rights as a Visitor [LINKED] → #visitor-rights ✓
+   - What's Monitored [LINKED] → #whats-monitored ✓
+   - Searches and What's Allowed [LINKED] → #searches ✓
+   - When You're Denied a Visit [LINKED] → #denied-visit ✓
+   - Filing Complaints and Grievances [LINKED] → #filing-complaints ✓
+   - Retaliation Concerns [LINKED] → #retaliation ✓
+   - Organizations That Can Help [LINKED] → #organizations ✓
+   - What Rights the Incarcerated Person Has [LINKED] → #incarcerated-rights ✓
+
+3. guides/sending-money.html
+   Status: INCOMPLETE - TOC LABEL ONLY
+   TOC Items: 1
+   - On this page: [UNLINKED - appears to be template with no actual content]
+   Note: This file has no actual TOC links. Check if this is intentional.
+
+4. guides/staying-in-touch.html
+   Status: INCOMPLETE - TOC LABEL ONLY
+   TOC Items: 1
+   - On this page: [UNLINKED - appears to be template with no actual content]
+   Note: This file has no actual TOC links. Check if this is intentional.
+
+5. guides/visiting-basics.html
+   ✓ Status: ALL LINKS VALID
+   TOC Items: 8
+   - Types of Facilities [LINKED] → #types-of-facilities ✓
+   - Types of Visits [LINKED] → #types-of-visits ✓
+   - How Visiting Approval Works [LINKED] → #approval-process ✓
+   - What to Wear [LINKED] → #what-to-wear ✓
+   - What You Can and Cannot Bring [LINKED] → #what-to-bring ✓
+   - Visiting Hours and Scheduling [LINKED] → #visiting-hours ✓
+   - What to Expect on Visit Day [LINKED] → #what-to-expect ✓
+   - On this page: [UNLINKED - label only]
+
+6. states/california/guides/mail.html
+   ✓ Status: ALL LINKS VALID
+   TOC Items: 7
+   - Sending Letters [LINKED] → #letters ✓
+   - Electronic Mail System [LINKED] → #electronic-mail ✓
+   - Sending Packages [LINKED] → #packages ✓
+   - What Gets Rejected & Why [LINKED] → #what-rejected ✓
+   - Sending Books & Publications [LINKED] → #books ✓
+   - Additional Information [LINKED] → #reality-check ✓
+   - On This Page [UNLINKED - label only]
+
+7. states/california/guides/medical.html
+   ✓ Status: ALL LINKS VALID
+   TOC Items: 8
+   - How Healthcare Works [LINKED] → #healthcare-system ✓
+   - Mental Health Services & Tiers [LINKED] → #mental-health ✓
+   - Accessing Medical Care [LINKED] → #accessing-care ✓
+   - Medications & Chronic Illness [LINKED] → #medications ✓
+   - Advocating from Outside [LINKED] → #advocacy ✓
+   - Filing 602 Grievances [LINKED] → #grievances ✓
+   - Additional Information [LINKED] → #reality-check ✓
+   - On This Page [UNLINKED - label only]
+
+8. states/california/guides/money.html
+   ✓ Status: ALL LINKS VALID
+   TOC Items: 7
+   - How Trust Accounts Work [LINKED] → #trust-accounts ✓
+   - Ways to Send Money [LINKED] → #sending-money ✓
+   - Fees & Costs [LINKED] → #fees ✓
+   - Commissary: What They Can Buy [LINKED] → #commissary ✓
+   - Spending Limits & Restrictions [LINKED] → #limits ✓
+   - Additional Information [LINKED] → #reality-check ✓
+   - On This Page [UNLINKED - label only]
+
+9. states/california/guides/phone-video.html
+   ✓ Status: ALL LINKS VALID
+   TOC Items: 9
+   - Understanding the Phone System [LINKED] → #phone-system ✓
+   - Setting Up Your Account [LINKED] → #setting-up ✓
+   - Phone Call Costs [LINKED] → #costs ✓
+   - Call Schedules & Hours [LINKED] → #call-schedules ✓
+   - Video Visits [LINKED] → #video-visits ✓
+   - Tablet Visits in Substance Abuse Programs [LINKED] → #tablets ✓
+   - Troubleshooting & Issues [LINKED] → #troubleshooting ✓
+   - Additional Information [LINKED] → #reality-check ✓
+   - On This Page [UNLINKED - label only]
+
+10. states/california/guides/transfers.html
+    ✓ Status: ALL LINKS VALID
+    TOC Items: 8
+    - Why Transfers Happen [LINKED] → #why-transfers ✓
+    - Finding Your Inmate After Transfer [LINKED] → #finding-inmate ✓
+    - The Transfer Process [LINKED] → #transfer-process ✓
+    - Impact on Visiting & Approval [LINKED] → #visiting-impact ✓
+    - Staying in Contact During Transfer [LINKED] → #communication ✓
+    - Reception Centers & Initial Transfers [LINKED] → #acceptance-transfers ✓
+    - Additional Information [LINKED] → #reality-check ✓
+    - On This Page [UNLINKED - label only]
+
+11. states/california/guides/visiting.html
+    Status: INCOMPLETE - TOC LABEL ONLY
+    TOC Items: 1
+    - In this guide [UNLINKED - label only]
+    Note: File has 10 section IDs but TOC is not populated. Check if intentional.
+
+================================================================================
+FILES WITHOUT TABLE OF CONTENTS SECTIONS (5 files)
+================================================================================
+
+These files exist but do not have a "page-toc" div. They may be landing pages,
+index pages, or simply have not yet been updated with TOC sections.
+
+1. about.html
+   - Contains 10 headings (h2-h6) but 0 section IDs
+   - Potential candidate for adding TOC
+
+2. index.html (main homepage)
+   - Contains 12 headings (h2-h6) and 1 section ID
+   - Landing page - may intentionally not have TOC
+
+3. states/california/index.html
+   - Contains 6 headings (h2-h6) and 0 section IDs
+   - Section index page - may intentionally not have TOC
+
+4. states/california/facilities/cim-chino.html
+   - Contains 21 headings (h2-h6) but 0 section IDs
+   - Facility page - MISSING TOC and section IDs despite having substantial content
+
+5. states/california/facilities/san-quentin.html
+   - Contains 17 headings (h2-h6) but 0 section IDs
+   - Facility page - MISSING TOC and section IDs despite having substantial content
+
+================================================================================
+KEY FINDINGS
+================================================================================
+
+POSITIVE:
+✓ All 68 linked TOC items point to valid section IDs
+✓ No broken links found
+✓ 9 out of 11 files with TOC have fully functional navigation
+✓ Consistent structure across most guide pages
+
+ISSUES IDENTIFIED:
+
+1. INCOMPLETE TOC IMPLEMENTATIONS (2 files):
+   - guides/sending-money.html: Has TOC div but no actual items
+   - guides/staying-in-touch.html: Has TOC div but no actual items
+   ACTION: Either populate these TOCs or remove the empty div
+
+2. UNLINKED TOC LABEL (1 file):
+   - states/california/guides/visiting.html: Has "In this guide" label but no
+     actual TOC items (despite 10 section IDs existing in the page)
+   ACTION: Populate this TOC with the available sections
+
+3. MISSING TOC STRUCTURE (5 files):
+   - about.html: 10 sections, no TOC
+   - states/california/facilities/cim-chino.html: 21 sections, no TOC
+   - states/california/facilities/san-quentin.html: 17 sections, no TOC
+   - index.html, states/california/index.html: May be intentional
+   ACTION: Decide if these should have TOCs; if so, add section IDs first
+
+4. MISSING SECTION IDs (5 files):
+   - about.html: 0 IDs out of 10 headings
+   - states/california/facilities/cim-chino.html: 0 IDs out of 21 headings
+   - states/california/facilities/san-quentin.html: 0 IDs out of 17 headings
+   - states/california/index.html: 0 IDs out of 6 headings
+   - index.html: 1 ID out of 12 headings
+   ACTION: Add id attributes to section headers if TOCs are desired
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+1. PRIORITY - Complete the incomplete TOCs:
+   - Populate guides/sending-money.html with actual TOC items
+   - Populate guides/staying-in-touch.html with actual TOC items
+   - Populate states/california/guides/visiting.html with TOC items
+
+2. CONSISTENCY - Add section IDs to major pages:
+   - cim-chino.html and san-quentin.html facility pages should have IDs for
+     better accessibility and potential TOC
+
+3. OPTIONAL - Consider adding TOCs to:
+   - about.html (has substantial content)
+   - The facility pages if they're meant as reference material
+
+4. TESTING:
+   - Verify that all anchor links work when clicked from the TOC
+   - Test on mobile devices for proper navigation
+   - Ensure keyboard navigation (tab) properly focuses TOC links
+
+================================================================================
