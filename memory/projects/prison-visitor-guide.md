@@ -1,59 +1,56 @@
 # Prison Visitor Guide
 
-**Domain:** prisonvisitorguide.org (planned)
+**Domain:** prisonvisitorguide.org (LIVE as of Apr 2026, HTTPS enabled)
 **Email:** prisonvisitorguide@gmail.com
 **Status:** Active, in development
-**Hosting:** GitHub Pages (planned)
-**Technology:** Static HTML/CSS only. No JavaScript, no frameworks, no build tools.
+**Hosting:** GitHub Pages, auto-deploy via GitHub Actions on push to main
+**Technology:** Astro 6 (static mode, zero client JS by default), Markdown content collections, vanilla CSS
 
 ## What It Is
 A national reference website that compiles publicly available information about prison visiting procedures, policies, and related processes across the United States. Sources include official corrections department websites, state regulations, published policies, and advocacy organizations.
 
-## Design
-- **Theme:** Warm Editorial
-- **Colors:** Terracotta accent (#c05621), cream background (#fffbf0), gold decorative (#ecc94b)
-- **Typography:** Georgia serif for headings, system sans-serif for body
-- **Layout:** Single-column, 860px max-width, responsive
+## Design (Grounded Guide theme)
+- **Primary:** #3D405B (slate blue-grey)
+- **Background:** #FDFCF0 (warm aged paper)
+- **Card:** #FEFDF5 (slightly warmer white)
+- **Text:** #2D2F42 (deep slate)
+- **Typography:** Inter / system sans-serif throughout
+- **Tokens:** All styling via CSS custom properties in src/styles/tokens.css
 
-## Current Coverage
+## Current Coverage (~36 pages)
 - **National guides:** 5 (visiting basics, first visit, staying in touch, sending money, know your rights)
-- **States:** California only
-- **California guides:** 6 (visiting, mail, phone-video, money, medical, transfers)
-- **Facility pages:** 2 (San Quentin, CIM Chino)
-- **Total pages:** 16
+- **States:** California (CDCR), Texas (TDCJ)
+- **California:** 6 state guides + 2 facility pages (San Quentin, CIM Chino)
+- **Texas:** 6 state guides + 4 facility pages
+- **Showcase page:** /showcase/ — living style guide of every component
 
-## Key Files
+## Key Files (all paths relative to repo root)
 | File | Purpose |
 |------|---------|
-| _Website/STYLE-GUIDE.md | Single source of truth for page structure |
-| _Website/CONTENT-TRACKER.md | Inventory of all pages and their status |
-| _Website/css/style.css | Single shared stylesheet (1052 lines) |
-| Skill: prison-visitor-guide | Automated rules for building/editing pages |
+| SPEC.md | Master blueprint — architecture, content model, decisions |
+| TASKS.md | Active task tracking |
+| PLAYBOOK.md | How to add a new state or facility (step-by-step) |
+| CLAUDE.md | Project instructions for Claude (tone rules, theme, etc.) |
+| src/content.config.ts | Zod schemas — strict validation of every content field |
+| src/content/ | All site content (Markdown + frontmatter) |
+| src/styles/tokens.css | Design tokens |
+| src/pages/showcase.astro | Component showcase |
+| scripts/lint-tone.mjs | Banned phrase enforcement |
+| scripts/check-links.mjs | Internal link validation |
 
-## History of Issues (Learn From These)
-| Issue | Root Cause | Fix |
-|-------|-----------|-----|
-| Pages completely unstyled | Content in `<div class="container">` instead of `<article class="container">` | Always use article wrapper |
-| Purple visited links | Missing `a:visited` CSS rule | Added to stylesheet |
-| Bullet points sticking out left | CSS reset removed padding, insufficient margin-left | Switched to padding-left: 28px |
-| Inconsistent typography across pages | 10 pages missing article wrapper | Added article to all pages |
-| TOC links not clickable | TOC items were plain text, not `<a>` tags | Rebuilt TOCs with proper anchor links |
-| Wrong CSS variable names | Used var(--text-light) instead of var(--color-text-light) | Use full --color- prefix |
-| Site title inconsistency | Some pages said "prisonvisitorguide.org", others different | Standardized to "Prison Visitor Guide" |
-| Homepage link broken from subpages | Site-title href was "index.html" regardless of depth | Set correct relative path per depth |
+## Quality Gates (run before any deploy)
+- `npm run build` — fails on schema/syntax errors
+- `npm run check:links` — internal link validation
+- `npm run lint:tone` — hard-fails on banned phrases
+- `npm run visual-check` — Playwright screenshot comparison
 
-## Planned States (Priority)
-1. Texas (large system, high demand)
-2. Florida (large system)
-3. New York
-4. Illinois, Ohio, Georgia, Pennsylvania
+## Multi-Agent Setup
+- **Claude Code** — Orchestrator (vision, judgment, quality gate)
+- **Codex** — Builder (writes most code via terminal CLI)
+- **Gemini** — Designer/tiebreaker
 
-## Open Items
-- Full tone audit needed on most pages (first-time.html was done thoroughly)
-- Facility pages need section IDs and TOCs added
-- Terms of Use page recommended (legal research done)
-- Privacy policy page recommended
-- Source citations should be added where practical
-- "Last verified" dates should be added to guides
-- Deploy to GitHub Pages
-- Purchase prisonvisitorguide.org domain
+## Planned States (Priority order)
+1. Florida (large system, high demand)
+2. New York, Illinois, Ohio, Georgia, Pennsylvania (medium priority)
+3. Expand existing California (30 of 32 CDCR institutions still need pages)
+4. Expand existing Texas (~97 of 101 TDCJ units still need pages)

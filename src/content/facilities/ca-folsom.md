@@ -19,7 +19,7 @@ providers:
   phone: "ViaPath (GTL)"
 visiting:
   days: "Friday-Sunday"
-  hours: "Friday 12:00 PM - 6:30 PM; Saturday-Sunday 7:00 AM - 2:00 PM"
+  hours: "7:00 AM - 2:00 PM (Sat-Sun)"
   scheduling: "Appointments and walk-ins are managed through CDCR's Visitation Scheduling Application (VSA); non-contact visits must be scheduled."
   contactVisits: true
 links:

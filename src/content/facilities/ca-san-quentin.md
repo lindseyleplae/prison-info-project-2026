@@ -19,8 +19,6 @@ lastVerified: 2026-03-29
 reviewBy: 2026-06-27
 ---
 
-## Quick Facts
-
 ## Visiting Hours & Basics
 
 San Quentin operates on a modified visiting schedule. **Always confirm current hours** with the facility directly, as schedules change and visits may be suspended.

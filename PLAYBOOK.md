@@ -109,6 +109,15 @@ Path: `src/content/facilities/[state]-[slug].md`
 
 Example: `src/content/facilities/fl-union.md`
 
+#### Visual rules — DON'T BREAK THESE
+The facility page layout auto-renders a "Quick facts" sidebar from frontmatter. Anything that violates these rules will look broken on the live page:
+
+1. **DO NOT add `## Quick Facts` (or any duplicate Quick Facts heading) in the body content.** The sidebar widget already creates this. A body heading creates an empty section.
+2. **Keep `visiting.hours` short and scannable** — it renders as a single line in the sidebar. Use one weekend range like `"8:30 AM - 2:30 PM (Sat-Sun)"`. Multi-day breakdowns ("Friday X-Y; Saturday-Sunday A-B; Monday by appointment") look terrible squished into the sidebar.
+3. **Put detailed/multi-day visiting schedules in the body's `## Visiting Basics` section** where there is room for them.
+4. **Keep `visiting.days` short** too — `"Friday-Sunday"` not `"Friday-Sunday plus Monday by appointment for selected units"`.
+5. **`visitingOffice` (in `contact:`) is the schema field name** — not `visitingPhone`. Always include the area code in parentheses.
+
 ```yaml
 ---
 title: "Union Correctional Institution"

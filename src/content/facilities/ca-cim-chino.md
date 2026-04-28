@@ -24,8 +24,6 @@ reviewBy: 2026-06-27
 **Important:** CIM is a reception center, not a long-term facility. Many incarcerated individuals pass through here temporarily. If the incarcerated person has been transferred from CIM to another facility, they will not be at this location. Always verify the current facility location through CDCR's Offender Locator tool before visiting.
 :::
 
-## Quick Facts
-
 ## What It Means That CIM Is a Reception Center
 
 CIM is California's main reception center, which means:
