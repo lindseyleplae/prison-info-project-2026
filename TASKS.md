@@ -1,11 +1,7 @@
 # Tasks
 
 ## Active
-- [ ] **Lindsey: Buy prisonvisitorguide.org domain** — see DEPLOY.md for instructions
-- [ ] **Lindsey: Configure DNS to point at GitHub Pages** — see DEPLOY.md
-
-## Waiting On
-- [ ] **First user feedback** — share live URL once domain is connected
+- [ ] **First user feedback** — share live URL (https://prisonvisitorguide.org)
 
 ## Someday
 - [ ] **Add Florida** — Large prison system, high demand
@@ -34,3 +30,4 @@
 - [x] ~~Mobile responsive pass~~ (Apr 2026)
 - [x] ~~PLAYBOOK.md — how to add a new state~~ (Apr 2026)
 - [x] ~~GitHub Actions auto-deploy to GitHub Pages~~ (Apr 2026)
+- [x] ~~Custom domain prisonvisitorguide.org connected with HTTPS~~ (Apr 2026)
