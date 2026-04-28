@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const guides = await getCollection('national-guides', ({ data }) => !data.draft);
+guides.sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
+---
+
+<BaseLayout
+  title="National Guides"
+  description="General guides about prison visiting, communication, sending money, and visitor rights — applicable across all states."
+>
+  <div class="container">
+    <div class="content-width">
+      <h1>National Guides</h1>
+      <p class="subtitle">
+        General information about prison visiting, communication, sending money, and visitor rights.
+        These guides apply broadly across all states. For state-specific rules, visit the state pages.
+      </p>
+    </div>
+
+    <div class="content-width section-card-list">
+      {guides.map((guide) => (
+        <article class="section-card">
+          <h2><a href={`/guides/${guide.data.slug}/`}>{guide.data.title}</a></h2>
+          {guide.data.description && <p>{guide.data.description}</p>}
+        </article>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

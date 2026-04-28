@@ -1,0 +1,30 @@
+---
+import { buildBreadcrumbs } from '../lib/breadcrumbs';
+
+const { pageTitle, stateLabel } = Astro.props;
+const items = buildBreadcrumbs({
+  pathname: Astro.url.pathname,
+  pageTitle,
+  stateLabel
+});
+---
+
+{
+  items.length > 1 && (
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <ol>
+        {items.map((item, index) => (
+          <li>
+            {item.href ? (
+              <a href={item.href} aria-current={index === items.length - 1 ? 'page' : undefined}>
+                {item.label}
+              </a>
+            ) : (
+              <span aria-current={index === items.length - 1 ? 'page' : undefined}>{item.label}</span>
+            )}
+          </li>
+        ))}
+      </ol>
+    </nav>
+  )
+}

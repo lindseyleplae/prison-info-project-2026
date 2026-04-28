@@ -1,0 +1,143 @@
+---
+import { getCollection } from 'astro:content';
+import { siteConfig, siteNavigation } from '../data/site';
+
+const [guides, states] = await Promise.all([
+  getCollection('national-guides', ({ data }) => !data.draft),
+  getCollection('states', ({ data }) => !data.draft)
+]);
+
+guides.sort((left, right) => (left.data.order ?? 999) - (right.data.order ?? 999) || left.data.title.localeCompare(right.data.title));
+states.sort((left, right) => left.data.title.localeCompare(right.data.title));
+---
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-title" href="/">{siteConfig.name}</a>
+
+    <button type="button" class="mobile-menu-toggle" aria-expanded="false" aria-controls="primary-nav">
+      Menu
+    </button>
+
+    <nav id="primary-nav" class="site-nav" aria-label="Primary">
+      <div class="nav-group" data-nav-group>
+        <div class="nav-group__trigger">
+          <a class="nav-link" href="/guides/">National Guides</a>
+          <button
+            type="button"
+            class="nav-submenu-toggle"
+            aria-expanded="false"
+            aria-controls="nav-menu-guides"
+            data-submenu-toggle
+          >
+            <span class="sr-only">Toggle National Guides submenu</span>
+            <span aria-hidden="true">+</span>
+          </button>
+        </div>
+        <div id="nav-menu-guides" class="nav-menu">
+          <a href="/guides/" class="nav-menu__view-all">All national guides</a>
+          {guides.map((guide) => (
+            <a href={`/guides/${guide.data.slug}/`}>{guide.data.title}</a>
+          ))}
+        </div>
+      </div>
+
+      <div class="nav-group" data-nav-group>
+        <div class="nav-group__trigger">
+          <a class="nav-link" href="/states/">States</a>
+          <button
+            type="button"
+            class="nav-submenu-toggle"
+            aria-expanded="false"
+            aria-controls="nav-menu-states"
+            data-submenu-toggle
+          >
+            <span class="sr-only">Toggle States submenu</span>
+            <span aria-hidden="true">+</span>
+          </button>
+        </div>
+        <div id="nav-menu-states" class="nav-menu">
+          <a href="/states/" class="nav-menu__view-all">All states</a>
+          {states.map((state) => (
+            <a href={`/states/${state.data.slug}/`}>{state.data.title}</a>
+          ))}
+        </div>
+      </div>
+
+      {siteNavigation.staticLinks.map((link) => (
+        <a class="nav-link" href={link.href}>
+          {link.label}
+        </a>
+      ))}
+    </nav>
+  </div>
+</header>
+
+<script is:inline>
+  const toggle = document.querySelector('.mobile-menu-toggle');
+  const nav = document.querySelector('#primary-nav');
+  const submenuToggles = Array.from(document.querySelectorAll('[data-submenu-toggle]'));
+  const mobileNav = window.matchMedia('(max-width: 63.99rem)');
+
+  const closeSubmenus = () => {
+    submenuToggles.forEach((button) => {
+      button.setAttribute('aria-expanded', 'false');
+      button.closest('[data-nav-group]')?.removeAttribute('data-open');
+    });
+  };
+
+  if (toggle && nav) {
+    toggle.addEventListener('click', () => {
+      const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!isExpanded));
+      if (isExpanded) {
+        closeSubmenus();
+      }
+    });
+  }
+
+  submenuToggles.forEach((button) => {
+    button.addEventListener('click', (event) => {
+      if (!mobileNav.matches) {
+        return;
+      }
+
+      event.preventDefault();
+      const group = button.closest('[data-nav-group]');
+      const isExpanded = button.getAttribute('aria-expanded') === 'true';
+
+      closeSubmenus();
+
+      if (!isExpanded && group) {
+        button.setAttribute('aria-expanded', 'true');
+        group.setAttribute('data-open', 'true');
+      }
+    });
+  });
+
+  document.addEventListener('click', (event) => {
+    if (!(event.target instanceof Node)) {
+      return;
+    }
+
+    if (!nav?.contains(event.target) && !toggle?.contains(event.target)) {
+      closeSubmenus();
+    }
+  });
+
+  window.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') {
+      return;
+    }
+
+    toggle?.setAttribute('aria-expanded', 'false');
+    closeSubmenus();
+  });
+
+  mobileNav.addEventListener('change', (event) => {
+    if (!event.matches) {
+      toggle?.setAttribute('aria-expanded', 'false');
+      closeSubmenus();
+    }
+  });
+</script>

@@ -1,0 +1,87 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+const { facility, stateTitle, phone, directionsUrl } = Astro.props as {
+  facility: CollectionEntry<'facilities'>;
+  stateTitle: string;
+  phone?: string;
+  directionsUrl?: string;
+};
+
+const formatDate = (value: Date) =>
+  new Intl.DateTimeFormat('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric',
+    timeZone: 'UTC'
+  }).format(value);
+
+const phoneHref = phone?.replace(/[^\d+]/g, '');
+
+const factGroups = [
+  {
+    label: 'Facility details',
+    facts: [
+      ['State', stateTitle],
+      ['System', facility.data.system],
+      ['Type', facility.data.facilityType],
+      ['Security level', facility.data.securityLevel]
+    ]
+  },
+  {
+    label: 'Location',
+    facts: [
+      ['City', facility.data.city],
+      ['County', facility.data.county],
+      ['Address', facility.data.address]
+    ]
+  },
+  {
+    label: 'Contact and visiting',
+    facts: [
+      ['Main phone', facility.data.contact.mainPhone],
+      ['Visiting hours', facility.data.visiting?.hours],
+      ['Visiting days', facility.data.visiting?.days]
+    ]
+  },
+  {
+    label: 'Verification',
+    facts: [['Last verified', formatDate(facility.data.lastVerified)]]
+  }
+]
+  .map((group) => ({
+    ...group,
+    facts: group.facts.filter((entry): entry is [string, string] => Boolean(entry[1]))
+  }))
+  .filter((group) => group.facts.length > 0);
+---
+
+<aside class="quick-facts">
+  <p class="key-info-label">Quick facts</p>
+  {factGroups.map((group) => (
+    <section class="quick-facts__group" aria-label={group.label}>
+      <dl>
+        {group.facts.map(([label, value]) => (
+          <div class="quick-facts__item fact">
+            <dt>{label}</dt>
+            <dd>{value}</dd>
+          </div>
+        ))}
+      </dl>
+    </section>
+  ))}
+  {(phone || directionsUrl) && (
+    <div class="quick-facts__actions">
+      {phone && (
+        <a href={`tel:${phoneHref}`} class="btn btn--primary">
+          Call to Verify
+        </a>
+      )}
+      {directionsUrl && (
+        <a href={directionsUrl} class="btn btn--secondary" target="_blank" rel="noopener">
+          Get Directions
+        </a>
+      )}
+    </div>
+  )}
+</aside>

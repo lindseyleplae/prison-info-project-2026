@@ -1,0 +1,13 @@
+---
+import { siteConfig } from '../data/site';
+---
+
+<aside class="feedback" aria-labelledby="feedback-heading">
+  <div class="feedback-inner">
+    <h2 id="feedback-heading">See something that needs updating?</h2>
+    <p>Prison policies change frequently. If you find outdated information, an error, or have something to add, please let us know.</p>
+    <p>
+      <a href={`mailto:${siteConfig.email}`} class="feedback__email">{siteConfig.email}</a>
+    </p>
+  </div>
+</aside>

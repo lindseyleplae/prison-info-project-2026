@@ -1,0 +1,46 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+const {
+  facility,
+  stateTitle,
+  stateSlug
+} = Astro.props as {
+  facility: CollectionEntry<'facilities'>;
+  stateTitle: string;
+  stateSlug: string;
+};
+
+const href = `/states/${stateSlug}/facilities/${facility.data.slug}/`;
+---
+
+<article class="card facility-card">
+  <header>
+    <h3><a href={href}>{facility.data.title}</a></h3>
+    <p class="meta-line">
+      {stateTitle}
+      {facility.data.county && ` · ${facility.data.county} County`}
+      {facility.data.securityLevel && ` · ${facility.data.securityLevel}`}
+    </p>
+    {facility.data.summary && <p>{facility.data.summary}</p>}
+  </header>
+
+  <dl>
+    {facility.data.city && (
+      <div class="fact">
+        <dt>City</dt>
+        <dd>{facility.data.city}</dd>
+      </div>
+    )}
+    <div class="fact">
+      <dt>Main phone</dt>
+      <dd>{facility.data.contact.mainPhone}</dd>
+    </div>
+    {facility.data.visiting?.hours && (
+      <div class="fact">
+        <dt>Visiting hours</dt>
+        <dd>{facility.data.visiting.hours}</dd>
+      </div>
+    )}
+  </dl>
+</article>

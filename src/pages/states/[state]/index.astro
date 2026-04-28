@@ -1,0 +1,66 @@
+---
+import { getCollection, render } from 'astro:content';
+import PageLayout from '../../../layouts/PageLayout.astro';
+import { topicMap } from '../../../data/topics';
+
+export async function getStaticPaths() {
+  const [states, guides, facilities] = await Promise.all([
+    getCollection('states', ({ data }) => !data.draft),
+    getCollection('state-guides', ({ data }) => !data.draft),
+    getCollection('facilities', ({ data }) => !data.draft)
+  ]);
+
+  return states.map((entry) => ({
+    params: { state: entry.data.slug },
+    props: {
+      entry,
+      guides: guides.filter((guide) => guide.data.state === entry.data.state),
+      facilities: facilities.filter((facility) => facility.data.state === entry.data.state)
+    }
+  }));
+}
+
+const { entry, guides, facilities } = Astro.props;
+const { Content } = await render(entry);
+
+guides.sort((left, right) => {
+  const leftKey = left.data.topic ?? left.data.slug;
+  const rightKey = right.data.topic ?? right.data.slug;
+  const leftOrder = topicMap.get(leftKey)?.order ?? left.data.order ?? 999;
+  const rightOrder = topicMap.get(rightKey)?.order ?? right.data.order ?? 999;
+  return leftOrder - rightOrder || left.data.title.localeCompare(right.data.title);
+});
+
+facilities.sort((left, right) => left.data.title.localeCompare(right.data.title));
+---
+
+<PageLayout title={entry.data.title} description={entry.data.summary}>
+  <Content />
+
+  <section>
+    <h2>State guides</h2>
+    <div class="section-card-list">
+      {guides.map((guide) => (
+        <article class="section-card">
+          <h3><a href={`/states/${entry.data.slug}/guides/${guide.data.topic ?? guide.data.slug}/`}>{guide.data.title}</a></h3>
+          <p>{guide.data.description ?? guide.data.summary ?? 'State-specific process and policy detail.'}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section>
+    <h2>Facilities</h2>
+    <div class="section-card-list">
+      {facilities.map((facility) => (
+        <article class="section-card">
+          <h3><a href={`/states/${entry.data.slug}/facilities/${facility.data.slug}/`}>{facility.data.title}</a></h3>
+          <p>
+            {facility.data.city ?? 'Location pending'}
+            {facility.data.securityLevel && ` · ${facility.data.securityLevel}`}
+          </p>
+        </article>
+      ))}
+    </div>
+  </section>
+</PageLayout>

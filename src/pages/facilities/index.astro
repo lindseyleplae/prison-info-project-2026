@@ -1,0 +1,188 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const [states, allFacilities] = await Promise.all([
+  getCollection('states', ({ data }) => !data.draft),
+  getCollection('facilities', ({ data }) => !data.draft)
+]);
+
+states.sort((a, b) => a.data.title.localeCompare(b.data.title));
+allFacilities.sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const facilitiesByState = new Map<
+  (typeof states)[number],
+  Array<(typeof allFacilities)[number]>
+>();
+
+for (const state of states) {
+  const stateFacilities = allFacilities.filter((facility) => facility.data.state === state.data.state);
+  if (stateFacilities.length > 0) {
+    facilitiesByState.set(state, stateFacilities);
+  }
+}
+---
+
+<BaseLayout
+  title="Facility Directory"
+  description="Find visiting information and contact details for prison facilities across the United States."
+>
+  <div class="container">
+    <div class="content-width">
+      <h1>Facility Directory</h1>
+      <p class="subtitle">
+        Find visiting information and contact details for prison facilities across the United States.
+      </p>
+    </div>
+
+    <section class="search-panel content-width">
+      <form class="search-tools" id="facility-directory-form">
+        <div class="search-row">
+          <input
+            class="search-input"
+            id="facility-directory-query"
+            name="q"
+            type="search"
+            placeholder="Search by facility name or city"
+          />
+          <select class="search-select" id="facility-directory-state" name="state">
+            <option value="">All states</option>
+            {states.map((state) => (
+              <option value={state.data.slug}>{state.data.title}</option>
+            ))}
+          </select>
+        </div>
+      </form>
+    </section>
+
+    <div class="directory-results content-width" id="facility-directory-results">
+      {[...facilitiesByState.entries()].map(([state, facilities]) => (
+        <section class="directory-state-group">
+          <h2><a href={`/states/${state.data.slug}/`}>{state.data.title}</a></h2>
+          <div class="directory-list">
+            {facilities.map((facility) => (
+              <a href={`/states/${state.data.slug}/facilities/${facility.data.slug}/`} class="directory-item">
+                <span class="directory-item__name">{facility.data.title}</span>
+                <span class="directory-item__meta">
+                  {facility.data.city ?? 'Location pending'}
+                  {facility.data.securityLevel && ` · ${facility.data.securityLevel}`}
+                </span>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </div>
+
+  <script is:inline>
+    const queryInput = document.querySelector('#facility-directory-query');
+    const stateSelect = document.querySelector('#facility-directory-state');
+    const resultsRoot = document.querySelector('#facility-directory-results');
+    const params = new URLSearchParams(window.location.search);
+    if (queryInput && params.get('q')) queryInput.value = params.get('q');
+    if (stateSelect && params.get('state')) stateSelect.value = params.get('state');
+    const originalHTML = resultsRoot?.innerHTML;
+
+    function updateUrl(query, state) {
+      const url = new URL(window.location.href);
+      if (query) url.searchParams.set('q', query);
+      else url.searchParams.delete('q');
+      if (state) url.searchParams.set('state', state);
+      else url.searchParams.delete('state');
+      window.history.replaceState({}, '', `${url.pathname}${url.search}`);
+    }
+
+    async function filterDirectory() {
+      if (!resultsRoot) return;
+
+      const query = (queryInput?.value || '').trim().toLowerCase();
+      const state = stateSelect?.value || '';
+
+      if (!query && !state) {
+        resultsRoot.innerHTML = originalHTML;
+        updateUrl('', '');
+        return;
+      }
+
+      const response = await fetch('/facilities.json');
+      const facilities = await response.json();
+
+      const filtered = facilities.filter((facility) => {
+        const matchesState = !state || facility.stateSlug === state;
+        const haystack = [facility.title, facility.city, facility.county, ...(facility.aliases || [])]
+          .filter(Boolean)
+          .join(' ')
+          .toLowerCase();
+
+        return matchesState && (!query || haystack.includes(query));
+      });
+
+      resultsRoot.replaceChildren();
+
+      if (filtered.length === 0) {
+        const empty = document.createElement('p');
+        empty.className = 'meta';
+        empty.textContent = 'No facilities found matching your search.';
+        resultsRoot.appendChild(empty);
+        updateUrl(query, state);
+        return;
+      }
+
+      const grouped = new Map();
+      for (const facility of filtered) {
+        if (!grouped.has(facility.stateTitle)) {
+          grouped.set(facility.stateTitle, { slug: facility.stateSlug, items: [] });
+        }
+        grouped.get(facility.stateTitle).items.push(facility);
+      }
+
+      const sortedGroups = [...grouped.entries()].sort(([left], [right]) => left.localeCompare(right));
+
+      for (const [stateName, group] of sortedGroups) {
+        group.items.sort((left, right) => left.title.localeCompare(right.title));
+
+        const section = document.createElement('section');
+        section.className = 'directory-state-group';
+
+        const heading = document.createElement('h2');
+        const headingLink = document.createElement('a');
+        headingLink.href = `/states/${group.slug}/`;
+        headingLink.textContent = stateName;
+        heading.appendChild(headingLink);
+        section.appendChild(heading);
+
+        const list = document.createElement('div');
+        list.className = 'directory-list';
+
+        for (const facility of group.items) {
+          const link = document.createElement('a');
+          link.href = facility.route;
+          link.className = 'directory-item';
+
+          const name = document.createElement('span');
+          name.className = 'directory-item__name';
+          name.textContent = facility.title;
+
+          const meta = document.createElement('span');
+          meta.className = 'directory-item__meta';
+          meta.textContent = [facility.city || 'Location pending', facility.securityLevel]
+            .filter(Boolean)
+            .join(' · ');
+
+          link.append(name, meta);
+          list.appendChild(link);
+        }
+
+        section.appendChild(list);
+        resultsRoot.appendChild(section);
+      }
+
+      updateUrl(query, state);
+    }
+
+    queryInput?.addEventListener('input', filterDirectory);
+    stateSelect?.addEventListener('change', filterDirectory);
+    filterDirectory();
+  </script>
+</BaseLayout>

@@ -1,0 +1,35 @@
+---
+const {
+  caption,
+  headers = [],
+  rows = []
+} = Astro.props as {
+  caption?: string;
+  headers?: string[];
+  rows?: string[][];
+};
+---
+
+<div class="cost-table">
+  <table>
+    {caption && <caption>{caption}</caption>}
+    {headers.length > 0 && (
+      <thead>
+        <tr>
+          {headers.map((header) => (
+            <th scope="col">{header}</th>
+          ))}
+        </tr>
+      </thead>
+    )}
+    <tbody>
+      {rows.map((row) => (
+        <tr>
+          {row.map((value) => (
+            <td>{value}</td>
+          ))}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

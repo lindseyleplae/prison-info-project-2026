@@ -1,0 +1,285 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Callout from '../components/Callout.astro';
+import DisclaimerBar from '../components/DisclaimerBar.astro';
+import FacilityHero from '../components/FacilityHero.astro';
+import Footer from '../components/Footer.astro';
+import QuickFacts from '../components/QuickFacts.astro';
+import Steps from '../components/Steps.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+
+const [states, facilities] = await Promise.all([
+  getCollection('states', ({ data }) => !data.draft),
+  getCollection('facilities', ({ data }) => !data.draft)
+]);
+
+const texas = states.find((state) => state.data.slug === 'texas');
+const huntsville = facilities.find((facility) => facility.data.slug === 'huntsville');
+const texasFacilities = facilities
+  .filter((facility) => facility.data.state === 'TX')
+  .sort((left, right) => left.data.title.localeCompare(right.data.title))
+  .slice(0, 3);
+
+if (!texas || !huntsville) {
+  throw new Error('Showcase page requires Texas state content and the Huntsville facility entry.');
+}
+
+const tocHeadings = [
+  { depth: 2, slug: 'arrival', text: 'Arrival and check-in' },
+  { depth: 2, slug: 'dress-code', text: 'Dress code reminders' },
+  { depth: 2, slug: 'after-the-visit', text: 'After the visit' }
+];
+---
+
+<BaseLayout title="Component Showcase" description="Development-only component gallery for visual review.">
+  <div class="container showcase-page">
+    <div class="content-width">
+      <p class="eyebrow">Development review</p>
+      <h1>Component showcase</h1>
+      <p class="subtitle">
+        A living style guide for the visual system: typography, utility patterns, and the real components used
+        across the site.
+      </p>
+    </div>
+
+    <section class="showcase-section">
+      <h2>Typography</h2>
+      <p class="showcase-label">Headings, body copy, links, and support text</p>
+      <div class="section-card">
+        <h1>Families need fast answers before they travel.</h1>
+        <h2>Section headings should separate complicated topics clearly.</h2>
+        <h3>Subheads need enough weight to orient scanning readers.</h3>
+        <h4>Small headings still need hierarchy.</h4>
+        <p>
+          This site exists for people making high-stakes decisions with incomplete information. The typography
+          needs to stay calm, readable, and direct even when a guide runs long. <a href="/guides/first-visit/">See the first-visit guide</a>.
+        </p>
+        <p class="meta">Small support text appears in metadata, timestamps, and cautionary notes.</p>
+      </div>
+    </section>
+
+    <section class="showcase-section">
+      <h2>Buttons</h2>
+      <p class="showcase-label">Primary, secondary, large CTA, and hero-action variants</p>
+      <div class="showcase-actions">
+        <a class="btn btn--primary" href="/guides/visiting-basics/">Primary action</a>
+        <a class="btn btn--secondary" href="/states/">Secondary action</a>
+        <a class="btn btn--primary btn--large" href="/states/texas/facilities/huntsville/">Large CTA</a>
+        <a class="hero-action" href="/facilities/">Hero action</a>
+      </div>
+    </section>
+
+    <section class="showcase-section">
+      <h2>Cards</h2>
+      <p class="showcase-label">Homepage and directory cards with hover treatment</p>
+      <div class="section-card-list showcase-two-up">
+        <article class="section-card">
+          <h3><a href="/guides/first-visit/">First Visit</a></h3>
+          <p>What to bring, what to expect at check-in, and where delays usually happen.</p>
+        </article>
+        <article class="section-card">
+          <h3><a href="/states/texas/">Texas</a></h3>
+          <p>Visiting rules, mail, money, phone and video information, plus listed facilities.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="showcase-section">
+      <h2>Callouts</h2>
+      <p class="showcase-label">Warning, tip, info, and success variations</p>
+      <div class="showcase-stack">
+        <Callout variant="warning" title="Travel can be wasted by one outdated detail.">
+          <p>Visiting schedules shift with lockdowns, staffing shortages, and local policy changes. Call before you drive.</p>
+        </Callout>
+        <Callout variant="tip" title="Bring a paper backup.">
+          <p>Even when a department uses online approvals, a printed confirmation can save time at the gate.</p>
+        </Callout>
+        <Callout variant="info" title="Rules vary by unit, not just by state.">
+          <p>Two facilities in the same state may use different check-in windows, dress rules, or vendor systems.</p>
+        </Callout>
+        <Callout variant="success" title="You can reduce day-of stress.">
+          <p>Verify the schedule, map the route, check required ID, and pack only what the facility allows.</p>
+        </Callout>
+      </div>
+    </section>
+
+    <section class="showcase-section">
+      <h2>Key info</h2>
+      <p class="showcase-label">Highlight structured reference information</p>
+      <aside class="key-info">
+        <p class="key-info-label">Before you leave</p>
+        <p>Bring government-issued ID, arrive early enough for screening, and confirm whether the facility requires advance approval for minors.</p>
+      </aside>
+    </section>
+
+    <section class="showcase-section">
+      <h2>Reality check</h2>
+      <p class="showcase-label">Editorial sidebars for practical expectations</p>
+      <aside class="reality-check">
+        <p class="reality-check-label">What families usually find hardest</p>
+        <p>The official visiting window may look simple on paper, but long lines, abrupt unit restrictions, and inconsistent enforcement often shape the real experience.</p>
+      </aside>
+    </section>
+
+    <section class="showcase-section">
+      <h2>Steps</h2>
+      <p class="showcase-label">Sequential guidance with numbered markers and connectors</p>
+      <Steps
+        items={[
+          '<p>Confirm the facility schedule and the specific unit rules.</p>',
+          '<p>Pack identification, vehicle paperwork, and any approved child items.</p>',
+          '<p>Arrive early enough for parking, line time, and screening delays.</p>',
+          '<p>Expect the return trip to start later than planned.</p>'
+        ]}
+      />
+    </section>
+
+    <section class="showcase-section">
+      <h2>Quick facts</h2>
+      <p class="showcase-label">Grouped facility reference data</p>
+      <QuickFacts
+        facility={huntsville}
+        stateTitle={texas.data.title}
+        phone={huntsville.data.contact.visitingOffice ?? huntsville.data.contact.mainPhone}
+        directionsUrl={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(huntsville.data.address)}`}
+      />
+    </section>
+
+    <section class="showcase-section">
+      <h2>Facility hero</h2>
+      <p class="showcase-label">Facility header with verification CTA</p>
+      <FacilityHero facility={huntsville.data} stateTitle={texas.data.title} />
+    </section>
+
+    <section class="showcase-section">
+      <h2>Directory items</h2>
+      <p class="showcase-label">State group headings and facility rows</p>
+      <section class="directory-state-group">
+        <h2><a href="/states/texas/">Texas</a></h2>
+        <div class="directory-list">
+          {texasFacilities.map((facility) => (
+            <a href={`/states/texas/facilities/${facility.data.slug}/`} class="directory-item">
+              <span class="directory-item__name">{facility.data.title}</span>
+              <span class="directory-item__meta">
+                {facility.data.city ?? 'Location pending'}
+                {facility.data.securityLevel && ` · ${facility.data.securityLevel}`}
+              </span>
+            </a>
+          ))}
+        </div>
+      </section>
+    </section>
+
+    <section class="showcase-section">
+      <h2>Search panel</h2>
+      <p class="showcase-label">Facility search input with state filter</p>
+      <section class="search-panel content-width">
+        <p class="eyebrow">Facility finder</p>
+        <form class="search-tools">
+          <div class="search-row">
+            <input class="search-input" type="search" placeholder="Search by facility name or city" />
+            <select class="search-select">
+              <option>All states</option>
+              {states.map((state) => (
+                <option>{state.data.title}</option>
+              ))}
+            </select>
+            <button class="btn btn--primary" type="button">Search</button>
+          </div>
+        </form>
+      </section>
+    </section>
+
+    <section class="showcase-section">
+      <h2>TOC</h2>
+      <p class="showcase-label">Guide sidebar navigation</p>
+      <div class="showcase-toc">
+        <TableOfContents headings={tocHeadings} />
+      </div>
+    </section>
+
+    <section class="showcase-section">
+      <h2>Disclaimer bar</h2>
+      <p class="showcase-label">Top informational chrome</p>
+      <div class="showcase-chrome-preview">
+        <DisclaimerBar />
+      </div>
+    </section>
+
+    <section class="showcase-section">
+      <h2>Footer</h2>
+      <p class="showcase-label">Bottom navigation and legal messaging</p>
+      <div class="showcase-chrome-preview">
+        <Footer />
+      </div>
+    </section>
+
+    <section class="showcase-section">
+      <h2>Breadcrumbs</h2>
+      <p class="showcase-label">Context trail for deep pages</p>
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li><a href="/states/">States</a></li>
+          <li><a href="/states/texas/">Texas</a></li>
+          <li><span aria-current="page">Huntsville Unit (The Walls)</span></li>
+        </ol>
+      </nav>
+    </section>
+  </div>
+</BaseLayout>
+
+<style>
+  .showcase-page {
+    display: grid;
+    gap: var(--space-8);
+  }
+
+  .showcase-section {
+    display: grid;
+    gap: var(--space-4);
+  }
+
+  .showcase-label {
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-medium);
+    margin-bottom: 0;
+  }
+
+  .showcase-actions,
+  .showcase-stack {
+    display: grid;
+    gap: var(--space-3);
+  }
+
+  .showcase-stack > * {
+    margin-top: 0 !important;
+  }
+
+  .showcase-two-up {
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  }
+
+  .showcase-toc {
+    max-width: 18rem;
+  }
+
+  .showcase-chrome-preview {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+  }
+
+  .showcase-chrome-preview .footer {
+    margin-top: 0;
+  }
+
+  @media (min-width: 52rem) {
+    .showcase-actions {
+      grid-template-columns: repeat(4, max-content);
+      align-items: center;
+    }
+  }
+</style>

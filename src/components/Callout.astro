@@ -1,0 +1,16 @@
+---
+const {
+  variant = 'info',
+  title,
+  class: className
+} = Astro.props as {
+  variant?: 'warning' | 'tip' | 'info' | 'success';
+  title?: string;
+  class?: string;
+};
+---
+
+<aside class:list={['callout', `callout--${variant}`, className]} data-variant={variant} role="note">
+  {title && <p class="callout-title">{title}</p>}
+  <slot />
+</aside>

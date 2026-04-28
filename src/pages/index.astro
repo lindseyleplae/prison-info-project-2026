@@ -1,0 +1,64 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getFacilityIndex } from '../lib/facility-index';
+
+const [homeEntry, guides, states, facilityIndex] = await Promise.all([
+  getEntry('pages', 'home'),
+  getCollection('national-guides', ({ data }) => !data.draft),
+  getCollection('states', ({ data }) => !data.draft),
+  getFacilityIndex()
+]);
+
+if (!homeEntry) {
+  throw new Error('Missing pages/home.md');
+}
+
+guides.sort((left, right) => (left.data.order ?? 999) - (right.data.order ?? 999) || left.data.title.localeCompare(right.data.title));
+states.sort((left, right) => left.data.title.localeCompare(right.data.title));
+
+const { Content } = await render(homeEntry);
+---
+
+<BaseLayout title={homeEntry.data.title} description={homeEntry.data.description}>
+  <div class="container">
+    <section class="hero-router">
+      <div class="content-width">
+        <p class="eyebrow">Search first</p>
+        <h1>Which facility are you visiting?</h1>
+        <p class="lede">
+          Search by facility name, city, or state, then move into state guides and facility-specific details.
+        </p>
+      </div>
+
+      <form class="search-form content-width" action="/facilities/" method="get">
+        <div class="search-row">
+          <input class="search-input" type="search" name="q" placeholder="San Quentin, Chino, California" />
+          <button class="btn btn--primary" type="submit">Find a facility</button>
+          <a class="hero-action" href="/facilities/">Facility directory</a>
+          <a class="hero-action" href="#states">Browse by state</a>
+        </div>
+      </form>
+    </section>
+
+    <section class="page-section-grid">
+      <div class="content-width">
+        <Content />
+      </div>
+    </section>
+
+    <section class="page-section-grid" id="states" aria-labelledby="states-heading">
+      <div class="content-width">
+        <h2 id="states-heading">Browse by state</h2>
+        <div class="section-card-list">
+          {states.map((state) => (
+            <article class="section-card">
+              <h3><a href={`/states/${state.data.slug}/`}>{state.data.title}</a></h3>
+              <p>{state.data.summary ?? `${state.data.title} system overview, guides, and facilities.`}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

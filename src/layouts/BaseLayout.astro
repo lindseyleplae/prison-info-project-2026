@@ -1,0 +1,70 @@
+---
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Feedback from '../components/Feedback.astro';
+import DisclaimerBar from '../components/DisclaimerBar.astro';
+import { buildSeo, createWebsiteStructuredData, type StructuredData } from '../lib/seo';
+import '../styles/tokens.css';
+import '../styles/base.css';
+import '../styles/layout.css';
+import '../styles/components.css';
+import '../styles/print.css';
+
+const {
+  title,
+  description,
+  image,
+  noindex = false,
+  structuredData = []
+} = Astro.props as {
+  title?: string;
+  description?: string;
+  image?: string;
+  noindex?: boolean;
+  structuredData?: StructuredData[];
+};
+
+const seo = buildSeo({
+  title,
+  description,
+  image,
+  noindex,
+  canonicalPath: Astro.url.pathname,
+  structuredData: [createWebsiteStructuredData(), ...structuredData]
+});
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{seo.title}</title>
+    <meta name="description" content={seo.description} />
+    <link rel="canonical" href={seo.canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={seo.title} />
+    <meta property="og:description" content={seo.description} />
+    <meta property="og:url" content={seo.canonical} />
+    {seo.image && <meta property="og:image" content={seo.image} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={seo.title} />
+    <meta name="twitter:description" content={seo.description} />
+    {seo.noindex && <meta name="robots" content="noindex, nofollow" />}
+    {seo.structuredData.map((schema) => (
+      <script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
+    ))}
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="site-shell">
+      <DisclaimerBar />
+      <Header />
+      <main id="main-content" class="site-main">
+        <slot />
+      </main>
+      <Feedback />
+      <Footer />
+    </div>
+  </body>
+</html>

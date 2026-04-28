@@ -1,54 +1,93 @@
-# Memory
+# Prison Visitor Guide — Project Instructions
 
-## Me
-Lindsey Leplae, creator of Prison Visitor Guide (prisonvisitorguide.org). Building a national reference website for families of incarcerated people. Not a computer science background — needs technical concepts explained clearly. Has a strong vision for the end product and wants Claude to be a proactive partner, not just follow instructions.
+## What This Is
+A national reference website (prisonvisitorguide.org) for families of incarcerated people. Factual, organized information about prison visiting procedures, communication, costs, and rights — state by state, facility by facility.
 
-## Key Decisions Made
-| Decision | Details |
-|----------|---------|
-| **Site name** | "Prison Visitor Guide" (in header), domain: prisonvisitorguide.org |
-| **Tone** | STRICTLY informational. No emotional language, no advice, no condescension. Like Wikipedia. This is the #1 rule. |
-| **Theme** | Warm Editorial — terracotta accent (#c05621), cream background (#fffbf0), Georgia serif headings, gold accents |
-| **Architecture** | Static HTML/CSS only. No JavaScript. Planned for GitHub Pages. |
-| **Content structure** | National overview → State-specific guides → Individual facility pages |
-| **Homepage approach** | Short orientation paragraphs that funnel to state-level detailed guides |
-| **Email** | prisonvisitorguide@gmail.com |
+## The #1 Rule: Tone
+**Strictly informational. Like Wikipedia.** No emotional language, no advice-giving, no therapy speak, no condescension, no overuse of "loved one." This is non-negotiable. See `scripts/lint-tone.mjs` for the enforced banned phrase list.
 
-## Active Project
-| Name | What |
-|------|------|
-| **Prison Visitor Guide** | National reference website about prison visiting procedures, policies, and related processes |
-→ Details: memory/projects/prison-visitor-guide.md
+## Owner
+Lindsey Leplae. Non-technical — communicates in vibes and goals, not specs. Don't show her code unless she asks. Translate her intent; don't ask her to be more precise.
 
-## Terms
-| Term | Meaning |
+## Multi-Agent Setup
+- **Claude Code** (this agent) — Orchestrator. Owns vision, judgment, quality gate.
+- **Codex** — Builder. Writes most code via terminal CLI.
+- **Gemini** — Designer/tiebreaker.
+
+### How to Call Them
+```bash
+# Codex
+eval "$(/opt/homebrew/bin/brew shellenv)"
+cat prompt.md | codex exec --json -s danger-full-access -C /Users/lindseyleplae/Documents/GitHub/prison-info-project-2026 -o output.md -
+
+# Gemini
+eval "$(/opt/homebrew/bin/brew shellenv)"
+cat prompt.md | gemini -p "Your instructions here"
+```
+
+## Technical Architecture
+- **Framework:** Astro 6 (static mode, zero client JS by default)
+- **Content:** Markdown + YAML frontmatter in Astro content collections
+- **Styling:** Vanilla CSS with custom properties
+- **Search:** Pagefind (full-text) + pre-built JSON (facility finder)
+- **Hosting:** GitHub Pages via GitHub Actions
+- **Visual regression:** Playwright screenshots compared against baselines
+
+## Key Files
+| File | Purpose |
 |------|---------|
-| **the website** | Prison Visitor Guide site (_Website directory) |
-| **the style guide** | STYLE-GUIDE.md in _Website directory — single source of truth for page structure |
-| **content tracker** | CONTENT-TRACKER.md — inventory of all pages and their status |
-| **tone examples** | Reference doc with before/after writing examples (bundled in skill) |
-| **warm editorial** | The chosen design theme |
-| **article wrapper** | `<article class="container">` — CRITICAL for styling. Without it, pages have no formatting. |
-| **TOC** | Table of contents on guide pages — must use anchor links |
+| SPEC.md | Master blueprint — architecture, content model, decisions |
+| TASKS.md | Active task tracking |
+| PLAYBOOK.md | How to add a new state or facility (step-by-step) |
+| src/content.config.ts | Zod schemas — strict validation of every content field |
+| src/content/ | All site content (Markdown + frontmatter) |
+| src/styles/tokens.css | Design tokens (Grounded Guide theme) |
+| src/pages/showcase.astro | Living style guide — every component on one page |
+| scripts/lint-tone.mjs | Tone validation — catches banned phrases |
+| scripts/check-links.mjs | Internal link validation |
+| scripts/visual-check.mjs | Screenshot comparison vs baselines |
 
-## Preferences
-- Explain technical concepts clearly — no CS background
-- Be a proactive partner: suggest improvements, flag issues, don't just follow orders
-- If something should be a skill or organizational tool, just suggest it or do it
-- Keep the site consistent and clean — this will be high-volume
-- Don't use emotional/advisory language on the website, ever
-- When in doubt, read the style guide before making changes
-- Always update CONTENT-TRACKER.md when pages change
+## Content Types
+- **National Guide** — broad topic (e.g., "Visiting Basics")
+- **State Overview** — landing page per state (auto-shows state guides + facility cards)
+- **State Guide** — state-specific version of a topic
+- **Facility Page** — individual prison/facility info
+- **Tool** — printable quick reference
+- **Static Page** — about, privacy, terms
 
-## Critical Technical Rules (Quick Reference)
-- Content goes in `<article class="container">` NOT `<div class="container">`
-- CSS paths depend on page depth (see STYLE-GUIDE.md)
-- Site-title always links to homepage with correct relative path
-- All mailto: links → prisonvisitorguide@gmail.com
-- TOC items must be `<a href="#id">` links with matching section ids
-- No inline styles, no JavaScript
-- CSS variables use `--color-` prefix (e.g., `var(--color-text-light)`)
+## Design Theme: Grounded Guide
+- Primary: `#3D405B` (slate blue-grey)
+- Background: `#FDFCF0` (warm aged paper)
+- Card: `#FEFDF5` (slightly warmer white)
+- Text: `#2D2F42` (deep slate)
+- Body font: Inter / system sans-serif
+- Heading font: Inter / system sans-serif
 
-→ Full glossary: memory/glossary.md
-→ Full project details: memory/projects/prison-visitor-guide.md
-→ Site rules: _Website/STYLE-GUIDE.md
+## Critical Rules
+1. All content tone must be strictly informational (run `npm run lint:tone`)
+2. All styling goes through CSS custom properties — never hardcoded color values
+3. Adding a state or facility = adding content files only, nothing else
+4. Every facility page should include "call to verify" language
+5. No live status claims — reference info only, never real-time data
+6. Mobile-first — majority of users are on phones, often with bad signal
+7. WCAG 2.1 AA minimum accessibility
+
+## Quality Gates (run before any deploy)
+```bash
+npm run build         # Builds all pages, fails on schema or syntax errors
+npm run check:links   # Validates every internal link
+npm run lint:tone     # Hard-fails on banned phrases
+npm run visual-check  # Screenshots key pages, compares vs baselines
+```
+
+## Current Scope
+- California (CDCR): 6 state guides + 2 facility pages
+- Texas (TDCJ): 6 state guides + 4 facility pages
+- 5 national guides
+- 36 pages total
+
+## Email
+prisonvisitorguide@gmail.com (all mailto: links)
+
+## Adding New Content
+See PLAYBOOK.md for the step-by-step process.

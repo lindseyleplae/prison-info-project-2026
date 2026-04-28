@@ -1,0 +1,40 @@
+---
+import { getCollection, render } from 'astro:content';
+import FacilityLayout from '../../../../layouts/FacilityLayout.astro';
+
+export async function getStaticPaths() {
+  const [states, facilities] = await Promise.all([
+    getCollection('states', ({ data }) => !data.draft),
+    getCollection('facilities', ({ data }) => !data.draft)
+  ]);
+
+  const stateByCode = new Map(states.map((entry) => [entry.data.state, entry]));
+
+  return facilities
+    .map((entry) => {
+      const state = stateByCode.get(entry.data.state);
+      if (!state) {
+        return undefined;
+      }
+
+      return {
+        params: {
+          state: state.data.slug,
+          slug: entry.data.slug
+        },
+        props: {
+          entry,
+          stateTitle: state.data.title
+        }
+      };
+    })
+    .filter(Boolean);
+}
+
+const { entry, stateTitle } = Astro.props;
+const { Content, headings } = await render(entry);
+---
+
+<FacilityLayout facility={entry} stateTitle={stateTitle} headings={headings}>
+  <Content />
+</FacilityLayout>

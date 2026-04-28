@@ -1,0 +1,59 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import FacilityHero from '../components/FacilityHero.astro';
+import QuickFacts from '../components/QuickFacts.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import { createBreadcrumbStructuredData } from '../lib/seo';
+
+type Heading = {
+  depth: number;
+  slug: string;
+  text: string;
+};
+
+const {
+  facility,
+  stateTitle,
+  headings = []
+} = Astro.props as {
+  facility: CollectionEntry<'facilities'>;
+  stateTitle: string;
+  headings?: Heading[];
+};
+
+const breadcrumbItems = [
+  { label: 'Home', href: '/' },
+  { label: 'States' },
+  { label: stateTitle, href: `/states/${Astro.params.state}/` },
+  { label: 'Facilities' },
+  { label: facility.data.title, href: Astro.url.pathname }
+];
+---
+
+<BaseLayout
+  title={facility.data.title}
+  description={facility.data.summary ?? facility.data.address}
+  structuredData={[createBreadcrumbStructuredData(breadcrumbItems)]}
+>
+  <div class="container guide-grid">
+    <article class="guide-content content-width">
+      <Breadcrumbs pageTitle={facility.data.title} stateLabel={stateTitle} />
+      <FacilityHero facility={facility.data} stateTitle={stateTitle} />
+      {facility.data.summary && <p class="facility-page-summary subtitle">{facility.data.summary}</p>}
+      <slot />
+    </article>
+
+    <div class="guide-sidebar">
+      <QuickFacts
+        facility={facility}
+        stateTitle={stateTitle}
+        phone={facility.data.contact.visitingOffice ?? facility.data.contact.mainPhone}
+        directionsUrl={facility.data.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(facility.data.address)}` : undefined}
+      />
+      <div style="height: var(--space-4);"></div>
+      <TableOfContents headings={headings} />
+    </div>
+  </div>
+</BaseLayout>

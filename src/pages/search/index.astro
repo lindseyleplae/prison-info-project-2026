@@ -1,0 +1,145 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Search" description="Search facilities and full-text content across the site.">
+  <div class="container">
+    <div class="content-width">
+      <h1>Search</h1>
+      <p class="subtitle">Find a facility by name or city, or search across all guides and pages.</p>
+    </div>
+
+    <section class="search-panel content-width">
+      <p class="eyebrow">Facility finder</p>
+      <div class="search-row">
+        <input class="search-input" id="search-facility-query" type="search" placeholder="Search facilities, cities, or providers" />
+      </div>
+      <div class="search-results" id="search-facility-results"></div>
+    </section>
+
+    <section class="search-panel content-width">
+      <p class="eyebrow">Full-text search</p>
+      <div class="search-row">
+        <input class="search-input" id="pagefind-query" type="search" placeholder="Search guide text" />
+      </div>
+      <p id="pagefind-status" class="meta">Type above to search all guides and pages.</p>
+      <div class="search-results" id="pagefind-results"></div>
+    </section>
+  </div>
+
+  <script is:inline>
+    const facilityQuery = document.querySelector('#search-facility-query');
+    const facilityResults = document.querySelector('#search-facility-results');
+    const pagefindQuery = document.querySelector('#pagefind-query');
+    const pagefindResults = document.querySelector('#pagefind-results');
+    const pagefindStatus = document.querySelector('#pagefind-status');
+
+    function stripTags(value) {
+      return String(value || '').replace(/<[^>]*>/g, '');
+    }
+
+    function createSearchResultCard({ href, title, metaLine, excerpt }) {
+      const article = document.createElement('article');
+      article.className = 'card search-result';
+
+      const header = document.createElement('header');
+      const heading = document.createElement('h2');
+      const link = document.createElement('a');
+      link.href = href;
+      link.textContent = title;
+      heading.append(link);
+      header.append(heading);
+
+      if (metaLine) {
+        const meta = document.createElement('p');
+        meta.className = 'meta-line';
+        meta.textContent = metaLine;
+        header.append(meta);
+      }
+
+      if (excerpt) {
+        const paragraph = document.createElement('p');
+        paragraph.textContent = excerpt;
+        header.append(paragraph);
+      }
+
+      article.append(header);
+      return article;
+    }
+
+    async function renderFacilities() {
+      if (!facilityResults) return;
+
+      const response = await fetch('/facilities.json');
+      const facilities = await response.json();
+      const query = (facilityQuery?.value || '').trim().toLowerCase();
+      const filtered = facilities
+        .filter((facility) => {
+          if (!query) return false;
+          const haystack = [
+            facility.title,
+            facility.stateTitle,
+            facility.city,
+            facility.county,
+            facility.system,
+            ...(facility.aliases || []),
+            ...(facility.providers || [])
+          ]
+            .filter(Boolean)
+            .join(' ')
+            .toLowerCase();
+          return haystack.includes(query);
+        })
+        .slice(0, 8);
+
+      facilityResults.replaceChildren(
+        ...filtered.map((facility) =>
+          createSearchResultCard({
+            href: facility.route,
+            title: facility.title,
+            metaLine: `${facility.stateTitle}${facility.city ? ` · ${facility.city}` : ''}`
+          })
+        )
+      );
+    }
+
+    facilityQuery?.addEventListener('input', renderFacilities);
+
+    let pagefind;
+    async function loadPagefind() {
+      try {
+        pagefind = await import('/pagefind/pagefind.js');
+        if (pagefindStatus) {
+          pagefindStatus.textContent = '';
+        }
+      } catch (error) {
+        if (pagefindStatus) {
+          pagefindStatus.textContent = 'Full-text search is available on the live site.';
+        }
+      }
+    }
+
+    async function renderPagefindResults() {
+      const query = (pagefindQuery?.value || '').trim();
+      if (!pagefind || !query) {
+        pagefindResults?.replaceChildren();
+        return;
+      }
+
+      const search = await pagefind.search(query);
+      const results = await Promise.all(search.results.slice(0, 8).map((result) => result.data()));
+      pagefindResults?.replaceChildren(
+        ...results.map((result) =>
+          createSearchResultCard({
+            href: result.url,
+            title: result.meta.title,
+            excerpt: stripTags(result.excerpt)
+          })
+        )
+      );
+    }
+
+    pagefindQuery?.addEventListener('input', renderPagefindResults);
+    loadPagefind();
+  </script>
+</BaseLayout>

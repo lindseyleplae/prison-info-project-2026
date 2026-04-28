@@ -1,0 +1,59 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import TableOfContents from '../components/TableOfContents.astro';
+import { createBreadcrumbStructuredData } from '../lib/seo';
+
+type Heading = {
+  depth: number;
+  slug: string;
+  text: string;
+};
+
+const {
+  title,
+  description,
+  headings = [],
+  stateLabel,
+  lastReviewed
+} = Astro.props as {
+  title: string;
+  description?: string;
+  headings?: Heading[];
+  stateLabel?: string;
+  lastReviewed?: Date;
+};
+
+const breadcrumbItems = [
+  { label: 'Home', href: '/' },
+  ...(stateLabel
+    ? [
+        { label: 'States' },
+        { label: stateLabel, href: Astro.params.state ? `/states/${Astro.params.state}/` : undefined }
+      ]
+    : [{ label: 'Guides' }]),
+  { label: title, href: Astro.url.pathname }
+];
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  structuredData={[createBreadcrumbStructuredData(breadcrumbItems)]}
+>
+  <div class="container guide-grid">
+    <article class="guide-content content-width">
+      <Breadcrumbs pageTitle={title} stateLabel={stateLabel} />
+      <header class="page-header">
+        <h1>{title}</h1>
+        {description && <p class="subtitle">{description}</p>}
+        {lastReviewed && <p class="meta">Last reviewed: {lastReviewed.toISOString().slice(0, 10)}</p>}
+      </header>
+      <slot />
+    </article>
+
+    <div class="guide-sidebar">
+      <TableOfContents headings={headings} />
+    </div>
+  </div>
+</BaseLayout>

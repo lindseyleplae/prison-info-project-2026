@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const states = await getCollection('states', ({ data }) => !data.draft);
+states.sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const stateGuides = await getCollection('state-guides', ({ data }) => !data.draft);
+const facilities = await getCollection('facilities', ({ data }) => !data.draft);
+---
+
+<BaseLayout title="States" description="State-specific prison visiting guides and facility information.">
+  <div class="container">
+    <div class="content-width">
+      <h1>States</h1>
+      <p class="subtitle">
+        Each state runs its prison system differently. Select a state for specific visiting rules,
+        facility information, and contact details.
+      </p>
+    </div>
+
+    <div class="content-width section-card-list">
+      {states.map((state) => {
+        const guideCount = stateGuides.filter((guide) => guide.data.state === state.data.state).length;
+        const facilityCount = facilities.filter((facility) => facility.data.state === state.data.state).length;
+
+        return (
+          <article class="section-card">
+            <h2><a href={`/states/${state.data.slug}/`}>{state.data.title}</a></h2>
+            <p>{state.data.summary}</p>
+            <p class="meta-line">{guideCount} guides · {facilityCount} facilities listed</p>
+          </article>
+        );
+      })}
+    </div>
+
+    <div class="content-width" style="margin-top: var(--space-8);">
+      <p class="meta">
+        More states coming soon. <a href="/about/">Get in touch</a> if you can help add your state.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

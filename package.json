@@ -1,0 +1,36 @@
+{
+  "name": "prison-info-project-2026",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "check": "astro check",
+    "visual-check": "node scripts/visual-check.mjs",
+    "lint:tone": "node scripts/lint-tone.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "migrate:html": "node scripts/migrate-html.mjs",
+    "validate": "astro check && npm run lint:tone && npm run build && npm run check:links"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "3.7.2",
+    "astro": "6.1.1",
+    "cheerio": "1.2.0",
+    "pagefind": "1.4.0",
+    "remark-directive": "4.0.0",
+    "remark-gfm": "4.0.1",
+    "turndown": "7.2.2",
+    "turndown-plugin-gfm": "1.0.2",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.8",
+    "pixelmatch": "^7.1.0",
+    "playwright": "^1.54.2",
+    "pngjs": "^7.0.0",
+    "typescript": "5.9.3"
+  }
+}

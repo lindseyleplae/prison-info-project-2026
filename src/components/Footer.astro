@@ -1,0 +1,63 @@
+---
+import { getCollection } from 'astro:content';
+import { siteConfig, siteNavigation } from '../data/site';
+
+const [guides, states, tools] = await Promise.all([
+  getCollection('national-guides', ({ data }) => !data.draft),
+  getCollection('states', ({ data }) => !data.draft),
+  getCollection('tools', ({ data }) => !data.draft)
+]);
+
+guides.sort((left, right) => (left.data.order ?? 999) - (right.data.order ?? 999) || left.data.title.localeCompare(right.data.title));
+states.sort((left, right) => left.data.title.localeCompare(right.data.title));
+tools.sort((left, right) => left.data.title.localeCompare(right.data.title));
+---
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <section>
+        <h2 class="eyebrow">Guides</h2>
+        <ul>
+          {guides.map((guide) => (
+            <li>
+              <a href={`/guides/${guide.data.slug}/`}>{guide.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="eyebrow">States</h2>
+        <ul>
+          {states.map((state) => (
+            <li>
+              <a href={`/states/${state.data.slug}/`}>{state.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="eyebrow">Site</h2>
+        <ul>
+          {siteNavigation.footerLinks.map((link) => (
+            <li>
+              <a href={link.href}>{link.label}</a>
+            </li>
+          ))}
+          {tools.map((tool) => (
+            <li>
+              <a href={`/tools/${tool.data.slug}/`}>{tool.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Not affiliated with any corrections department. Information may change without notice.</p>
+      <p>Contact: <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></p>
+    </div>
+  </div>
+</footer>

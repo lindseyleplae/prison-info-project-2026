@@ -1,0 +1,41 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+const { facility, stateTitle } = Astro.props as {
+  facility: CollectionEntry<'facilities'>['data'];
+  stateTitle: string;
+};
+
+const meta = [facility.securityLevel, facility.facilityType, facility.system].filter(Boolean).join(' · ');
+const location = [
+  facility.city,
+  facility.county ? `${facility.county} County` : undefined,
+  stateTitle
+].filter(Boolean).join(', ');
+const verifyPhone = facility.contact.visitingOffice ?? facility.contact.mainPhone;
+const verifyPhoneHref = verifyPhone.replace(/[^\d+]/g, '');
+const formattedLastVerified = new Intl.DateTimeFormat('en-US', {
+  month: 'long',
+  year: 'numeric',
+  timeZone: 'UTC'
+}).format(facility.lastVerified);
+---
+
+<header class="facility-hero">
+  {meta && (
+    <div class="facility-hero__meta">
+      <span class="facility-hero__type">{meta}</span>
+    </div>
+  )}
+  <h1 class="facility-hero__name">{facility.title}</h1>
+  {location && <p class="facility-hero__location">{location}</p>}
+  <div class="facility-hero__verify">
+    <p>
+      Visiting schedules change without notice. <strong>Always call before traveling.</strong>
+    </p>
+    <a href={`tel:${verifyPhoneHref}`} class="btn btn--primary btn--large">
+      Call Visiting Office: {verifyPhone}
+    </a>
+    <span class="facility-hero__updated">Info last verified: {formattedLastVerified}</span>
+  </div>
+</header>

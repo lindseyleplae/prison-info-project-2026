@@ -1,0 +1,27 @@
+---
+type Heading = {
+  depth: number;
+  slug: string;
+  text: string;
+};
+
+const { headings = [] } = Astro.props as { headings?: Heading[] };
+const tocHeadings = headings.filter((heading) => heading.depth === 2);
+---
+
+{
+  tocHeadings.length > 0 && (
+    <aside class="toc">
+      <p class="toc-label">On this page</p>
+      <nav aria-label="Table of contents">
+        <ul class="toc__list">
+          {tocHeadings.map((heading) => (
+            <li>
+              <a href={`#${heading.slug}`} class="toc__link">{heading.text}</a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </aside>
+  )
+}

@@ -1,0 +1,13 @@
+---
+const { items = [] } = Astro.props as { items?: string[] };
+---
+
+<section class="steps">
+  <ol>
+    {items.map((item) => (
+      <li>
+        <div class="step-content" set:html={item} />
+      </li>
+    ))}
+  </ol>
+</section>
