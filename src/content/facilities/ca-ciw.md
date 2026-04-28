@@ -11,7 +11,7 @@ city: Chino
 county: San Bernardino
 address: "16756 Chino-Corona Road, Corona, CA 92880"
 securityLevel: "Mixed"
-facilityType: "Women's Facility"
+facilityType: "Women's Prison"
 contact:
   mainPhone: "(909) 597-1772"
   visitingOffice: "(909) 597-1771 ext. 5560"
@@ -20,54 +20,88 @@ providers:
 visiting:
   days: "Friday-Sunday"
   hours: "8:30 AM - 2:45 PM (Sat-Sun)"
-  scheduling: "Appointments are made through CDCR's Visitation Scheduling Application (VSA); walk-ins are processed after appointments when space allows."
+  scheduling: "Appointments use CDCR's Visitation Scheduling Application (VSA); walk-ins are processed after scheduled appointments if space is available."
   contactVisits: true
 links:
   official: "https://www.cdcr.ca.gov/facility-locator/ciw/"
-  inmateLocator: "https://inmatelocator.cdcr.ca.gov/"
+  inmateLocator: "https://ciris.mt.cdcr.ca.gov/"
 lastVerified: 2026-04-28
 reviewBy: 2026-07-28
 ---
 
 :::key-info
-**Location:** San Bernardino County near Chino; CDCR uses a Corona street address for the institution.
+**Location:** San Bernardino County near Chino, Chino Hills, and Eastvale; CDCR uses a Corona street address for the institution
 
-**Capacity:** About 1,700 designed beds at the main institution.
+**Capacity:** About 1,700 designed beds at the main institution, with mixed custody and specialized health services
 
-**Notable feature:** Long-running women's institution with psychiatric, medical, and firefighter-training functions.
+**Notable:** Long-running women's institution with pregnancy, psychiatric, methadone, and firefighter-training functions
 
-**Visitation:** Friday-Sunday in-person visiting through VSA, with walk-ins processed after scheduled appointments if space is available.
+**Visitation:** Friday-Sunday through VSA, with walk-ins processed after appointments when space is available
 :::
 
 ## Overview
 
-California Institution for Women is CDCR's long-established women's facility in the Chino area. CDCR says its primary mission is to house Level I and Level III women while also providing programs and health services geared to the needs of female incarcerated people.
+California Institution for Women is CDCR's long-established women's prison in the Chino area. CDCR says the institution's primary mission is to house primarily Level I and Level III women while providing education, vocational training, and health services designed for female incarcerated people.
 
-The institution also accommodates other custody and treatment needs. CDCR notes that CIW houses people with pregnancy-related, psychiatric, methadone, and other medical needs, and that it serves as a hub for selecting and training women for conservation camp firefighter assignments.
+The prison also serves broader system functions beyond general housing. CDCR says CIW accommodates all custody levels and houses people with pregnancy-related, psychiatric, methadone, and other medical needs.
 
-## Visiting Basics
+## What Makes California Institution for Women Different
 
-CIW's current visiting schedule is Friday from 12:00 p.m. to 6:45 p.m. and Saturday-Sunday from 8:30 a.m. to 2:45 p.m. Appointments are scheduled through CDCR's Visitation Scheduling Application, and CIW states that walk-ins are processed after all scheduled visitors have been handled.
+- Until 1987, CIW was California's only prison for women, and the former name "Frontera" is still used in some local references.
+- CDCR says CIW serves as a hub for selecting and physically training women for conservation camp firefighter assignments.
+- The institution includes both outpatient and inpatient mental health services, including a licensed psychiatric inpatient program.
+- Visiting can be affected by weather and space because CDCR says some visits are assigned to outdoor tables and indoor capacity is limited.
 
-The visiting page notes that some visiting may be assigned to outdoor tables and that modified programs or weather can change the day's operations. Visitors housed in quarantine, isolation, or ineligible units may not be available for visits. General statewide requirements are in [Visiting in California](/states/california/guides/visiting/).
+## Visiting Hours and Procedures
 
-## Directions
+CIW posts appointment, walk-in, and weather-related visiting information on its institution page.
 
-From Los Angeles, the usual route is east on I-10 or CA-60 toward the Inland Empire, then south on local connectors toward Chino-Corona Road. The final approach is on local surface streets in the Chino-Eastvale area rather than on a remote institutional road.
+:::key-info
+**Hours:**
+- Friday: 12:00 p.m. - 6:45 p.m.
+- Saturday-Sunday: 8:30 a.m. - 2:45 p.m.
+- Walk-ins: after scheduled visitors are processed, space permitting
 
-## Parking and Entry
+**Scheduling:** Appointments are made through the Visitation Scheduling Application at `cdcr.gtlvisitme.com/app`; walk-ins are first come, first served after the appointment queue.
 
-CIW directs visitors to park only in authorized visitor spaces and not in staff parking. The institution also notes that all adults must present identification at processing and that indoor visiting space can be limited during weather events.
+**What to bring:** Valid photo ID and the certified birth certificate, guardianship papers, or notarized minor-consent form required by CDCR when a minor is visiting.
 
-Parking is available on-site. Confirm the current visitor entrance and any weather-related visiting adjustments before departure.
+**What's not allowed:** Phones, staff parking use, prohibited attire, and metal-heavy accessories that can delay or block processing.
+:::
+
+CDCR says walk-in visitors are not processed until all scheduled visitors have been handled, and walk-in entry is not guaranteed when space is limited. The institution also notes that quarantine, isolation, or modified housing status can affect whether some incarcerated people are eligible for visiting on a given day.
+
+Weather is part of the institution's regular visiting context because some tables are outdoors. CDCR says indoor capacity is limited and modified programs or weather conditions can trigger changes to the visiting day. General statewide rules, dress code, and approval requirements are covered in [Visiting in California](/states/california/guides/visiting/).
+
+## Getting There and Parking
+
+CIW is in the Chino-Eastvale-Corona area of the Inland Empire, reached through a mix of freeways and local surface streets.
+
+:::key-info
+**From Los Angeles:** I-10 East or CA-60 East to the Chino/Corona area, then local roads to Chino-Corona Road; usually about 60-90 minutes
+
+**From Orange County:** CA-91 East and local connectors toward Chino-Corona Road; often about 45-75 minutes
+
+**From Riverside/Ontario:** Local Inland Empire routes to Chino-Corona Road; usually about 30-45 minutes
+
+**Parking:** Visitor parking is available on-site, and CDCR directs visitors to use only authorized visitor spaces.
+
+**Entry:** Adults need valid identification for processing, and visitors should expect both screening and possible delays when weather or institutional programs reduce available indoor space.
+:::
 
 ## Nearby Services
 
-Gas, grocery, and chain food options are available along the Chino, Eastvale, and Ontario commercial corridors before the final approach to the prison. Lodging is more common around Ontario and the I-10 corridor than immediately next to the institution.
+Gas, restaurants, and basic retail are spread across the Chino, Eastvale, and Ontario corridors rather than concentrated immediately outside the prison. The largest clusters are along Chino Hills Parkway, the CA-71 and CA-91 corridors, and the Ontario commercial districts farther north.
+
+Lodging is more common in Ontario and along the I-10 corridor than next to the institution itself. Visitors making longer trips often rely on those larger Inland Empire service areas before heading to the prison.
 
 ## Learn More
 
-- [Visiting in California](/states/california/guides/visiting/)
-- [Mail & Packages](/states/california/guides/mail/)
-- [Phone & Video Calls](/states/california/guides/phone-video/)
-- [Transfers](/states/california/guides/transfers/)
+For detailed information about visiting and communicating with someone at a California state prison:
+
+- [Visiting in California](/states/california/guides/visiting/) — CDCR approval process, dress code, scheduling
+- [Mail & Packages](/states/california/guides/mail/) — What you can send and what gets rejected
+- [Phone & Video Calls](/states/california/guides/phone-video/) — GTL accounts, call costs, video visits
+- [Sending Money](/states/california/guides/money/) — How to add funds to a CDCR trust account
+- [Medical & Mental Health](/states/california/guides/medical/) — Healthcare in CDCR facilities
+- [Transfers](/states/california/guides/transfers/) — What happens during transfers

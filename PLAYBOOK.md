@@ -118,68 +118,125 @@ The facility page layout auto-renders a "Quick facts" sidebar from frontmatter. 
 4. **Keep `visiting.days` short** too — `"Friday-Sunday"` not `"Friday-Sunday plus Monday by appointment for selected units"`.
 5. **`visitingOffice` (in `contact:`) is the schema field name** — not `visitingPhone`. Always include the area code in parentheses.
 
-```yaml
+#### The unified facility template
+Every facility page follows this structure. Sections marked OPTIONAL only appear when there's real, factual content for them — never include an empty section.
+
+```markdown
 ---
-title: "Union Correctional Institution"
-slug: union
-state: fl
-system: FDC
-summary: "[One-sentence summary]"
+title: "[Full official name]"
+slug: [lowercase-hyphenated]
+state: [2-letter]
+system: [System Abbrev]
+summary: "[One sentence, 15-25 words, factual]"
 aliases:
-  - [common nicknames]
+  - [common abbreviations / nicknames]
 city: [City]
 county: [County]
-address: "[Full address]"
-securityLevel: "[Maximum/Medium/etc]"
-facilityType: "State Prison"
+address: "[Full visitor mailing address]"
+securityLevel: "[Level / Mixed (Level X-Y) / Reception Center]"
+facilityType: "[State Prison / Reception Center / Women's Prison]"
 contact:
   mainPhone: "([area]) [number]"
+  visitingOffice: "([area]) [number] ext. [if known]"
 providers:
-  phone: [Provider name]
-  video: [Provider name]
+  phone: "ViaPath (GTL)"  # CDCR statewide; check for other states
+  video: "[Provider]"  # OPTIONAL
 visiting:
-  days: "[Saturday-Sunday or specific days]"
-  hours: "[8:00 AM - 5:00 PM]"
-  scheduling: "[How visits are scheduled]"
-  contactVisits: true
+  days: "[Short string, e.g. 'Friday-Sunday']"
+  hours: "[SHORT summary that fits the sidebar, e.g. '8:30 AM - 2:30 PM (Sat-Sun)']"
+  scheduling: "[1 sentence]"
+  contactVisits: true  # or false
 links:
-  official: "[URL]"
-  inmateLocator: "[URL]"
-lastVerified: 2026-MM-DD
-reviewBy: 2026-MM-DD  # Set ~3 months out
+  official: "[Official facility URL]"
+  inmateLocator: "[State inmate locator URL]"
+lastVerified: YYYY-MM-DD
+reviewBy: YYYY-MM-DD  # ~3 months out
 ---
 
+[OPTIONAL warning callout — only when there's something critical
+the visitor must know first, e.g. CIM is a reception center and
+the person may have been transferred. Most facilities don't need this.]
+:::callout{variant="warning"}
+**Important:** [Single factual paragraph.]
+:::
+
 :::key-info
-**Location:** [Brief location description]
+**Location:** [City, county, brief context]
 
-**Capacity:** [Approximate, if known]
+**Capacity:** [Approximate beds, with custody mix if known]
 
-**Notable:** [Any distinguishing features]
+**Notable:** [One factual distinguishing feature]
 
-**Visitation:** [Standard schedule + scheduling method]
+**Visitation:** [Snapshot — days and primary hours]
 :::
 
 ## Overview
-[1-2 paragraphs about the facility's role, history, character]
+[1-2 short paragraphs on the facility's role and population.]
 
-## Visiting Basics
-[Specifics for THIS facility — not general state rules. Link to the state visiting guide for general rules.]
+## What Makes [Facility] Different  [OPTIONAL]
+[Bulleted list of 3-5 factual differentiators. Skip the section
+if the facility doesn't have a real distinguishing feature.]
 
-## Directions
-[How to get there from the nearest major city]
+## Visiting Hours and Procedures
+[Open with a short framing sentence, then a key-info block with the FULL multi-day schedule as a bulleted list.]
 
-## Parking and Entry
-[Practical visitor logistics]
+:::key-info
+**Hours:**
+- Friday: 12:00 p.m. - 6:30 p.m.
+- Saturday-Sunday: 7:00 a.m. - 2:00 p.m.
+- [Other windows if any]
+
+**Scheduling:** [How to book.]
+
+**What to bring:** [Photo ID required, plus any facility-specific items.]
+
+**What's not allowed:** [Standard restrictions, brief.]
+:::
+
+[1-2 paragraphs of facility-specific visiting context — RHU rules,
+walk-in windows, count pauses, non-contact visit rules. End with a
+link to the state visiting guide for general statewide rules.]
+
+## Getting There and Parking
+[Short opening sentence on the location.]
+
+:::key-info
+**From [Major City 1]:** [Highway routing + drive time]
+
+**From [Major City 2]:** [Highway routing + drive time]
+
+**From [Major City 3]:** [Highway routing + drive time]
+
+**Parking:** [Where, free/paid, peak time advice]
+
+**Entry:** [Check-in location, ID requirements]
+:::
+
+## Phones, Mail, and Video  [OPTIONAL]
+[Only include if there's something facility-specific. Most facilities
+use the same statewide providers — skip if there's nothing different.]
 
 ## Nearby Services
-[Gas, food, lodging — frame as factual, not sales-y]
+[1-2 paragraphs on gas, food, lodging in the area. Factual, not
+promotional. Note when services are sparse and where to detour.]
 
 ## Learn More
-- [Visiting in [State]](/states/[state]/guides/visiting/)
-- [Mail and Packages in [State]](/states/[state]/guides/mail/)
-- [Phone and Video Calls in [State]](/states/[state]/guides/phone-video/)
-- [Transfers in [State]](/states/[state]/guides/transfers/)
+For detailed information about visiting and communicating with someone at a [State] state prison:
+
+- [Visiting in [State]](/states/[state]/guides/visiting/) — approval process, dress code, scheduling
+- [Mail & Packages](/states/[state]/guides/mail/) — what you can send and what gets rejected
+- [Phone & Video Calls](/states/[state]/guides/phone-video/) — accounts, call costs, video visits
+- [Sending Money](/states/[state]/guides/money/) — how to add funds to a trust account
+- [Medical & Mental Health](/states/[state]/guides/medical/) — healthcare in [State] facilities
+- [Transfers](/states/[state]/guides/transfers/) — what happens during transfers
 ```
+
+#### What NOT to include
+- `## Quick Facts` heading in the body — the sidebar widget already shows this
+- Hand-coded `## Other [State] Facilities` cross-link sections — the layout doesn't auto-generate these so they go stale
+- Filler "Reception Center Operations" / "Facility Visit Information" sections with multiple `:::reality-check` blocks of stilted auto-generated language
+- "Tips for Managing X Visits" sections — advice-giving violates tone rules
+- Multi-day schedules in the `visiting.hours` frontmatter field — those go in the body's key-info block
 
 ### Step 5: Run quality gates
 

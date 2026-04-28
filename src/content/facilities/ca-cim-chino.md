@@ -1,183 +1,117 @@
 ---
-title: "California Institution for Men (CIM)"
+title: "California Institution for Men"
 slug: cim-chino
 state: ca
 system: CDCR
-summary: "Chino Reception Center — A guide to visiting"
+summary: "Chino CDCR institution with Level I-II housing, reception-center functions, and Friday-Sunday visiting that can change as intake and classification needs shift."
 aliases:
   - CIM
+  - Chino Reception Center
 city: Chino
 county: San Bernardino
-address: "14901 Central Ave, Chino, CA 91710"
-facilityType: Reception Center
+address: "14901 Central Avenue, Chino, CA 91710"
+securityLevel: "Mixed (Level I-II)"
+facilityType: "Reception Center"
 contact:
-  mainPhone: "(909) 628-5600"
+  mainPhone: "(909) 597-1821"
+  visitingOffice: "(909) 597-1821 ext. 4186"
 providers:
   phone: "ViaPath (GTL)"
+visiting:
+  days: "Friday-Sunday"
+  hours: "8:00 AM - 2:45 PM (Sat-Sun)"
+  scheduling: "Appointments and walk-ins use CDCR's Visitation Scheduling Application (VSA); RHU visits are scheduled separately as one-hour non-contact visits."
+  contactVisits: true
 links:
-  official: https://inmatelocator.cdcr.ca.gov/
-lastVerified: 2026-03-29
-reviewBy: 2026-06-27
+  official: "https://www.cdcr.ca.gov/facility-locator/cim/"
+  inmateLocator: "https://ciris.mt.cdcr.ca.gov/"
+lastVerified: 2026-04-28
+reviewBy: 2026-07-28
 ---
 
 :::callout{variant="warning"}
-**Important:** CIM is a reception center, not a long-term facility. Many incarcerated individuals pass through here temporarily. If the incarcerated person has been transferred from CIM to another facility, they will not be at this location. Always verify the current facility location through CDCR's Offender Locator tool before visiting.
+**Important:** CIM includes reception-center operations. CDCR's location search is the main way to confirm current placement before travel because incarcerated people may be moved during intake and classification.
 :::
-
-## What It Means That CIM Is a Reception Center
-
-CIM is California's main reception center, which means:
 
 :::key-info
--   **Most people don't stay long:** When someone enters CDCR custody, they typically arrive at CIM for initial processing, assessment, and classification before being transferred to their long-term facility. Some stays are only weeks or months.
--   **Uncertainty is normal:** You may not know when the person you're visiting will be transferred, or where they're going. Transfer decisions can happen with little notice.
--   **Facility conditions are transitional:** Because it's a reception center, the focus is processing, not long-term housing comfort. Conditions can be crowded and chaotic.
--   **Visits may be limited:** Because the population is constantly changing, visiting policies can be stricter than at permanent facilities.
+**Location:** Chino in San Bernardino County, west of central Chino and near the Chino Hills and Ontario corridors
+
+**Capacity:** About 4,700 beds across four facilities, including Level I and Level II housing plus reception-center functions
+
+**Notable:** Opened in 1941 as California's third state correctional institution and long known as the "prison without walls"
+
+**Visitation:** Friday-Sunday, with separate RHU non-contact appointments and walk-in windows after scheduled processing
 :::
 
-If you're looking for someone newly incarcerated in California, CIM is likely where they'll be first. Use CDCR's Offender Locator to find out if the incarcerated person is at CIM and get their current custody status.
+## Overview
 
-## Visiting Hours & Procedures
+California Institution for Men is a large CDCR complex in Chino. CDCR says the institution opened in 1941 and now operates four separate facilities under one warden, with Level I and Level II housing, work programs, and reception-center functions.
 
-CIM has specific visiting protocols designed for a reception center environment. **Always confirm current hours before visiting**, as they change frequently and may be restricted without notice.
+Reception-center placement is the main feature that changes visitor logistics at CIM. Some incarcerated people are at CIM only during intake, classification, or transfer processing, while others are assigned to longer-term housing on the institution's mainline facilities.
+
+## What Makes California Institution for Men Different
+
+- CDCR says CIM includes reception-center operations, so some placements are temporary and can change during classification.
+- The institution combines four separate facilities in one complex, including large Level I and Level II housing areas and administrative segregation functions.
+- CDCR describes CIM as the first major minimum-security institution built and operated in the United States.
+- Visiting rules vary more by housing area than at many permanent mainline prisons because RHU visits, overnight family visits, and reception-center movement each follow separate procedures.
+
+## Visiting Hours and Procedures
+
+CDCR's visiting status page separates CIM's general visiting schedule from its RHU and overnight family visiting schedules.
 
 :::key-info
-**Standard visiting hours:** Generally Saturday and Sunday, times vary by custody level. Call ahead to confirm.
+**Hours:**
+- Friday: 12:00 p.m. - 6:45 p.m.
+- Saturday-Sunday: 8:00 a.m. - 2:45 p.m.
+- RHU non-contact visits: Friday-Sunday, 12:00 p.m. - 1:00 p.m. and 1:00 p.m. - 2:00 p.m.
 
-**What to expect:** Visits may be no-contact or video-only, depending on the incarcerated person's custody classification and current facility status.
+**Scheduling:** General visits are scheduled through the Visitation Scheduling Application at `cdcr.gtlvisitme.com/app`; walk-ins are also accepted, and RHU visits use one-hour scheduled blocks.
 
-**Approved visitor list:** You must be on the incarcerated person's approved visitor list. They can request to add visitors through their unit counselor.
+**What to bring:** Valid photo ID and, when needed, the incarcerated person's CDCR number and minor paperwork required under CDCR rules.
 
-**Valid ID required:** Bring a current government-issued photo ID.
+**What's not allowed:** Phones, bags, outside food, contraband, and clothing or metal items that do not clear visiting-room screening.
 :::
 
-### Restrictions You Should Know
+CDCR says CIM runs appointment times before walk-in processing each day. The current posted walk-in windows begin at 2:00 p.m. on Fridays and 10:00 a.m. on Saturdays and Sundays, with walk-in processing ending at 6:00 p.m. on Fridays and 2:00 p.m. on weekends. The visiting page also limits general visits to five visitors at one time and RHU visits to three visitors at one time.
 
-:::callout{variant="warning"}
-**CIM visiting is more restrictive than many permanent facilities.** Because of the high volume and transient population, the facility may:
+Reception-center movement can affect who is available for contact visiting, non-contact visiting, or no visiting at all on a given weekend. CDCR also notes that visiting can be shortened when the room reaches maximum capacity. General statewide rules, dress code, and approval requirements are covered in [Visiting in California](/states/california/guides/visiting/).
 
--   Limit visiting days or hours without much notice
--   Require pre-authorization even if you're on the approved list
--   Suspend visiting during processing backlogs or facility incidents
--   Offer video or phone visitation as an alternative to in-person visits
+## Getting There and Parking
 
-Don't be surprised if your plan to visit gets disrupted. Have a backup plan (like phone calls or video visitation) ready.
-:::
-
-### Phone Calls & Communication at CIM
+CIM is in Chino near the Inland Empire's western edge, with freeway access from Los Angeles, Orange County, and San Bernardino County.
 
 :::key-info
-**Phone access:** CIM has phones available, but waits can be long, especially during busy times. Limited phone time is typically allowed per day.
+**From Los Angeles:** CA-60 East or I-10 East to Central Avenue in Chino; often 45-60 minutes depending on traffic
 
-**Video visitation:** If in-person visits are restricted, video visitation through CDCR's system may be available.
+**From Orange County:** CA-91 East and local connectors toward Chino and Central Avenue; often 45-70 minutes
 
-**Mail:** Mail gets through, but delays are common at reception centers due to the volume of mail processing and transfers. Don't be alarmed if it takes 2-3 weeks for a letter to arrive.
+**From San Bernardino/Riverside:** I-10 or CA-60 westbound routes to Chino; usually 30-45 minutes
+
+**Parking:** Visitor parking is available at the institution and is generally used for main-gate processing.
+
+**Entry:** CDCR directs visitors to the Main Gate Visiting Processing Center for check-in, identification review, and security screening.
 :::
 
-## Getting There & Parking
+## Phones, Mail, and Video
 
-CIM is located in Chino, in San Bernardino County, about 30-40 minutes from Los Angeles and 60+ minutes from Orange County.
+CIM's reception-center role affects communication more than at many permanent mainline institutions. Phone access can be limited by population movement and shared-phone demand, and mail delivery may run slower when an incarcerated person is moving through intake or transfer processing.
 
-:::key-info
-**From Los Angeles:** I-10 East toward San Bernardino, take CA-60 East, merge onto I-10 East, exit on Central Ave in Chino (approximately 45 minutes depending on traffic).
+Mail delivery typically runs about two to three weeks in reception-center settings because of processing volume. CDCR's current visiting page also states that the Division of Adult Institutions no longer offers video visiting statewide at CIM. For statewide phone, mail, and video details, see [Phone & Video Calls in California](/states/california/guides/phone-video/) and [Mail & Packages in California](/states/california/guides/mail/).
 
-**From Orange County:** I-5 North toward Los Angeles, merge to I-10 East, follow to Central Ave exit in Chino (approximately 60-75 minutes).
+## Nearby Services
 
-**From San Bernardino area:** Take Central Ave directly to the facility (5-15 minutes depending on location).
+The main commercial corridors for gas, food, and hotel options are along Central Avenue, Chino Hills Parkway, and the larger Ontario retail areas to the north. Those corridors have the broadest mix of chain restaurants, grocery stores, and fuel before the final approach to the prison.
 
-**Parking:** Visitor parking is available at the facility. Arrive early, especially on weekends. Parking is free.
-:::
-
-### Visitor Entry Procedures
-
-:::key-info
-Check in at the main visiting gate. You'll need:
-
--   Valid government-issued photo ID
--   The incarcerated person's name and CDCR number (if you have it)
--   Proof of being on the approved visitor list (or be prepared to wait while they verify)
-
-**What you cannot bring:** Bags, phones, outside food/drinks, weapons, or contraband of any kind. You'll go through a security screening.
-:::
-
-## Nearby Food & Gas
-
-Chino has commercial areas nearby with restaurants, gas stations, and other services:
-
-:::key-info
-**Gas:** Shell, Chevron, and other major brands along Central Ave and near the I-10 corridor.
-
-**Food:** Fast food chains, casual restaurants, and coffee shops along Central Ave and nearby areas. McDonald's, In-N-Out, and other quick options are close by.
-
-**Rest stops:** If you're traveling from far away, there are rest areas on I-10, though the closest are further east or west.
-
-**Inside facility:** Limited vending machines. Bring cash and plan accordingly.
-:::
-
-## Reception Center Operations
-
-:::reality-check
-### Transfer timing from reception center
-
-CIM is a reception center and inmates do not remain permanently. Transfer timeline is typically 1-6 weeks after intake. Transfer timing varies based on classification processing and facility assignments.
-:::
-
-:::reality-check
-### Visiting schedule variability
-
-Reception center visiting schedules may change due to processing volume and facility operations. Visiting hour confirmation by phone call prior to visits is recommended.
-:::
-
-:::reality-check
-### Mail delivery at reception centers
-
-Mail processing times are longer at reception centers due to high processing volume. Mail delivery timelines are typically 2-3 weeks. Important documents should be sent well in advance.
-:::
-
-:::reality-check
-### Phone availability at reception centers
-
-Phone access time is limited at reception centers due to high inmate population and limited phone resources. Phone call frequency varies and may be infrequent. Video visitation can provide supplemental communication method.
-:::
-
-:::reality-check
-### Reception center operational structure
-
-Reception centers operate under processing-focused procedures due to transient population. Visiting and communication policies reflect the temporary nature of the facility. Regular status monitoring is necessary for facility location and transfer timing information.
-:::
-
-:::reality-check
-### Transfer notification procedures
-
-CDCR does not provide advance family notification of transfers from reception centers. Inmate Locator tool should be checked regularly to monitor location status and confirm transfers to permanent facilities.
-:::
-
-## Tips for Managing CIM Visits & Communication
-
-Reception centers require a different approach than permanent facilities:
-
-:::callout{variant="tip"}
--   **Check the Offender Locator frequently.** Use CDCR's Offender Locator tool (cdcr.ca.gov) to verify the incarcerated person's location at least weekly.
--   **Call the facility before visiting.** Don't assume visiting hours are active. A quick call can save you a wasted trip.
--   **Set up video visitation early.** Get your account ready and make sure the person you're visiting adds you so you have an alternative if in-person visits aren't available.
--   **Use a phone tree with other family members.** If they get limited phone time, create a system so one person doesn't use up all their calls.
--   **Write letters, but don't expect fast delivery.** Mail does eventually arrive, but it's slow. Send important information through other methods if time-sensitive.
--   **Don't count on predictability.** Have backup plans for everything. Visiting hours changing? Video visitation be ready. Emails confusing? Call the facility directly.
-:::
+Services are much denser in Ontario, Chino Hills, and along the CA-60 and I-10 corridors than immediately outside the prison entrance. That matters for longer trips because most overnight lodging options are outside Chino itself.
 
 ## Learn More
 
 For detailed information about visiting and communicating with someone at a California state prison:
 
--   [Visiting in California](/states/california/guides/visiting/) — CDCR approval process, dress code, scheduling
--   [Mail & Packages](/states/california/guides/mail/) — What you can send and what gets rejected in CDCR
--   [Phone & Video Calls](/states/california/guides/phone-video/) — GTL accounts, call costs, video visits
--   [Sending Money](/states/california/guides/money/) — How to add funds to a CDCR trust account
--   [Medical & Mental Health](/states/california/guides/medical/) — Healthcare in CDCR facilities
--   [Transfers](/states/california/guides/transfers/) — What happens during transfers
-
-**Inmate locator:** Use [CDCR's Inmate Locator](https://inmatelocator.cdcr.ca.gov/) to verify current facility placement and custody status.
-
-## Other California Facilities
-
--   [San Quentin State Prison](/states/california/facilities/san-quentin/)
+- [Visiting in California](/states/california/guides/visiting/) — CDCR approval process, dress code, scheduling
+- [Mail & Packages](/states/california/guides/mail/) — What you can send and what gets rejected
+- [Phone & Video Calls](/states/california/guides/phone-video/) — GTL accounts, call costs, video visits
+- [Sending Money](/states/california/guides/money/) — How to add funds to a CDCR trust account
+- [Medical & Mental Health](/states/california/guides/medical/) — Healthcare in CDCR facilities
+- [Transfers](/states/california/guides/transfers/) — What happens during transfers

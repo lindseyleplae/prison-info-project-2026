@@ -20,54 +20,88 @@ providers:
 visiting:
   days: "Friday-Sunday"
   hours: "7:00 AM - 2:00 PM (Sat-Sun)"
-  scheduling: "Appointments and walk-ins are managed through CDCR's Visitation Scheduling Application (VSA); non-contact visits must be scheduled."
+  scheduling: "Appointments and limited walk-ins use CDCR's Visitation Scheduling Application (VSA); non-contact visits must be scheduled."
   contactVisits: true
 links:
   official: "https://www.cdcr.ca.gov/facility-locator/fsp/"
-  inmateLocator: "https://inmatelocator.cdcr.ca.gov/"
+  inmateLocator: "https://ciris.mt.cdcr.ca.gov/"
 lastVerified: 2026-04-28
 reviewBy: 2026-07-28
 ---
 
 :::key-info
-**Location:** Near Folsom in Sacramento County; CDCR lists the physical address in Represa.
+**Location:** Represa near Folsom in Sacramento County, east of the Sacramento urban core
 
-**Capacity:** About 2,000 designed beds, with Level I, II, and III housing.
+**Capacity:** About 2,000 designed beds across medium-custody housing and a Level I minimum support facility
 
-**Notable feature:** California's second-oldest prison and one of the state's most historically prominent institutions.
+**Notable:** California's second-oldest prison, built with local granite and tied to early American River dam and canal work
 
-**Visitation:** Friday-Sunday in-person visiting, with scheduled non-contact visits and limited walk-in availability.
+**Visitation:** Friday-Sunday, with scheduled non-contact appointments and limited walk-in processing for eligible contact visits
 :::
 
 ## Overview
 
-Folsom State Prison is one of the oldest institutions in the California state system. CDCR says the prison primarily houses Level II and Level III general population men, along with Level I men in a minimum support facility outside the main perimeter.
+Folsom State Prison is one of the oldest institutions in the California prison system. CDCR says Folsom primarily houses Level II and Level III general population men and also operates a Level I minimum support facility outside the main perimeter.
 
-The institution's history is closely tied to early prison construction in California. CDCR notes that the site was selected for its granite and water access and that incarcerated labor helped build early dam and canal infrastructure on the American River.
+The institution's history is closely tied to California's early prison expansion. CDCR says the site was selected for its granite and water access, and incarcerated labor helped build early dam and canal infrastructure on the American River.
 
-## Visiting Basics
+## What Makes Folsom State Prison Different
 
-Folsom posts institution-specific visiting details on CDCR's visiting status page. General in-person hours are Friday from 12:00 p.m. to 6:30 p.m. and Saturday-Sunday from 7:00 a.m. to 2:00 p.m.
+- CDCR identifies Folsom as California's second-oldest prison and one of the nation's earliest maximum-security prison sites.
+- The prison includes both the main medium-custody institution and a separate minimum support facility just outside the primary security perimeter.
+- Folsom's location was chosen for native granite, and the institution's early construction history is tied to the first dam and canal on the American River.
+- Visiting rules split sharply between contact walk-ins and non-contact visits. CDCR states that non-contact visits are always one-hour scheduled appointments and are not accepted as walk-ins.
 
-Appointments are handled through the CDCR Visitation Scheduling Application at `cdcr.gtlvisitme.com/app`. Folsom states that non-contact visits are one-hour appointments and must be scheduled. General population contact visits and minimum support facility visits follow the standard Friday-Sunday schedule. General statewide rules, identification requirements, and dress restrictions are covered in [Visiting in California](/states/california/guides/visiting/).
+## Visiting Hours and Procedures
 
-## Directions
+CDCR posts both the general visiting hours and the walk-in sign-up rules on Folsom's visiting status page.
 
-From Sacramento, the most direct route is east on US-50 toward Folsom, then onto local roads leading to Prison Road. The prison is in the Folsom area east of the Sacramento urban core, and the last segment is on local streets rather than a remote highway approach.
+:::key-info
+**Hours:**
+- Friday: 12:00 p.m. - 6:30 p.m.
+- Saturday-Sunday: 7:00 a.m. - 2:00 p.m.
+- Non-contact visits: one-hour appointments within the posted daily schedule
 
-## Parking and Entry
+**Scheduling:** Appointments are handled through the Visitation Scheduling Application at `cdcr.gtlvisitme.com/app`; contact walk-ins are accepted on a space-available basis, but non-contact visits must be pre-scheduled.
 
-Folsom states that visitors may arrive on institutional grounds no more than 30 minutes before processing begins. The institution opens the door for processing at 11:30 a.m. on Fridays and 6:30 a.m. on Saturdays and Sundays. Check-in closes after each scheduled group, and non-contact visits are not accepted as walk-ins.
+**What to bring:** Valid photo ID and any minor paperwork required by CDCR visiting rules.
 
-Parking is available on-site. Confirm the current visitor processing location with the institution before departure, especially when visiting a restricted-housing or non-contact population.
+**What's not allowed:** Phones, large bags, clothing that fails dress code or metal-detector screening, and walk-in requests for non-contact visits.
+:::
+
+CDCR says visitors may arrive no more than 30 minutes before processing begins. The institution opens processing at 11:30 a.m. on Fridays and 6:30 a.m. on Saturdays and Sundays. Scheduled visitors who arrive late can lose their appointment slot, and the walk-in queue is handled separately through the institution's numbered pass system.
+
+Walk-ins are narrower than the posted general hours. CDCR says Friday walk-in sign-up starts at noon, with first walk-ins accepted at 1:00 p.m. if no-show space is available, and weekend walk-in sign-up starts at 7:00 a.m. with first walk-ins accepted at 8:00 a.m. Non-contact visits remain appointment-only. General statewide rules, dress code, and approval requirements are covered in [Visiting in California](/states/california/guides/visiting/).
+
+## Getting There and Parking
+
+Folsom State Prison is east of Sacramento in the Represa/Folsom area, reached by regional freeways and then local roads for the final approach.
+
+:::key-info
+**From Sacramento:** US-50 East toward Folsom, then local roads to Prison Road; usually about 35-45 minutes
+
+**From Roseville:** I-80 to local connectors through the Folsom area; usually about 45-60 minutes
+
+**From Stockton:** CA-99 or I-5 north to US-50 East and then local roads; often 75-90 minutes
+
+**Parking:** Visitor parking is available on-site near processing areas.
+
+**Entry:** Processing begins before each visiting window; adults must present identification, and the exact processing location may vary for restricted-housing or non-contact populations.
+:::
 
 ## Nearby Services
 
-Fuel, restaurants, and lodging are available in Folsom and along the US-50 corridor before the final local approach to the prison. The Historic Folsom and East Bidwell areas have the largest concentration of gas stations, chain food, and hotel options.
+Most fuel, food, and hotel options are in Folsom rather than in Represa itself. The largest clusters are along East Bidwell Street, Historic Folsom, and the US-50 corridor before the final drive toward the prison.
+
+Visitors coming from outside Sacramento County often stop in the commercial areas around Folsom or Rancho Cordova before turning onto the smaller local roads near the prison. Those areas offer a broader mix of chain food, grocery, and lodging than the immediate prison approach.
 
 ## Learn More
 
-- [Visiting in California](/states/california/guides/visiting/)
-- [Mail & Packages](/states/california/guides/mail/)
-- [Phone & Video Calls](/states/california/guides/phone-video/)
-- [Transfers](/states/california/guides/transfers/)
+For detailed information about visiting and communicating with someone at a California state prison:
+
+- [Visiting in California](/states/california/guides/visiting/) — CDCR approval process, dress code, scheduling
+- [Mail & Packages](/states/california/guides/mail/) — What you can send and what gets rejected
+- [Phone & Video Calls](/states/california/guides/phone-video/) — GTL accounts, call costs, video visits
+- [Sending Money](/states/california/guides/money/) — How to add funds to a CDCR trust account
+- [Medical & Mental Health](/states/california/guides/medical/) — Healthcare in CDCR facilities
+- [Transfers](/states/california/guides/transfers/) — What happens during transfers
