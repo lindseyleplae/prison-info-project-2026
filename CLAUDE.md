@@ -6,6 +6,9 @@ A national reference website (prisonvisitorguide.org) for families of incarcerat
 ## The #1 Rule: Tone
 **Strictly informational. Like Wikipedia.** No emotional language, no advice-giving, no therapy speak, no condescension, no overuse of "loved one." This is non-negotiable. See `scripts/lint-tone.mjs` for the enforced banned phrase list.
 
+## Before Bulk Content Work
+**Read [SCALING.md](SCALING.md) at the start of any session that creates or modifies more than one content file.** It is the project's institutional memory — every rule in it exists because someone broke it and Lindsey caught it. Skipping it means repeating prior mistakes.
+
 ## Owner
 Lindsey Leplae. Non-technical — communicates in vibes and goals, not specs. Don't show her code unless she asks. Translate her intent; don't ask her to be more precise.
 
@@ -37,6 +40,7 @@ cat prompt.md | gemini -p "Your instructions here"
 | File | Purpose |
 |------|---------|
 | SPEC.md | Master blueprint — architecture, content model, decisions |
+| SCALING.md | Discipline + process + traps for bulk content work — READ FIRST |
 | TASKS.md | Active task tracking |
 | PLAYBOOK.md | How to add a new state or facility (step-by-step) |
 | src/content.config.ts | Zod schemas — strict validation of every content field |
@@ -81,10 +85,10 @@ npm run visual-check  # Screenshots key pages, compares vs baselines
 ```
 
 ## Current Scope
-- California (CDCR): 6 state guides + 2 facility pages
+- California (CDCR): 6 state guides + 7 facility pages
 - Texas (TDCJ): 6 state guides + 4 facility pages
 - 5 national guides
-- 36 pages total
+- 41 pages total
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)
