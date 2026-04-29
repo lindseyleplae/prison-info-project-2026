@@ -1,9 +1,9 @@
 ---
-title: "Huntsville Unit (The Walls)"
+title: "Huntsville Unit"
 slug: huntsville
 state: tx
 system: TDCJ
-summary: "The oldest TDCJ unit and the site of all Texas state executions. Located in Huntsville, Walker County."
+summary: "Historic Walker County TDCJ prison known as The Walls, with execution, release, and downtown Huntsville functions."
 aliases:
   - The Walls
   - Walls Unit
@@ -15,85 +15,93 @@ facilityType: "State Prison"
 contact:
   mainPhone: "(936) 437-1555"
 providers:
-  phone: Securus
-  video: Securus Video Connect
+  phone: "Securus"
+  video: "Securus Video Connect"
 visiting:
   days: "Saturday-Sunday"
-  hours: "8:00 AM - 5:00 PM"
-  scheduling: "TDCJ Online Visitation Portal"
+  hours: "8:00 AM - 5:00 PM (Sat-Sun)"
+  scheduling: "Visits are scheduled through the TDCJ Online Visitation Portal."
   contactVisits: true
+  videoVisits: true
 links:
   official: "https://www.tdcj.texas.gov/unit_directory/hv.html"
   inmateLocator: "https://offender.tdcj.texas.gov/OffenderSearch/"
-lastVerified: 2026-03-29
-reviewBy: 2026-06-29
+lastVerified: 2026-04-29
+reviewBy: 2026-07-29
 ---
 
 :::key-info
-**Location:** Near downtown Huntsville in Walker County
+**Location:** Downtown Huntsville in Walker County, inside the city street grid rather than on a rural approach road
 
-**Capacity:** About 1,090
+**Capacity:** About 1,090 beds
 
-**Historical status:** Opened in 1849 and recognized as the oldest prison in Texas
+**Notable:** TDCJ says the unit opened in 1849, making it the oldest prison in Texas
 
-**Visitation:** Weekend visits scheduled through the TDCJ portal
+**Visitation:** Weekend visits scheduled through the TDCJ Online Visitation Portal
 :::
 
 ## Overview
 
-The Huntsville Unit is commonly called "The Walls." It is the oldest prison in the Texas system and the site of all state executions. The unit also serves release functions for some male prisoners and remains one of the most historically significant facilities in TDCJ.
+The Huntsville Unit is a historic TDCJ prison in Walker County. TDCJ identifies it as the oldest prison in the state, and the facility is widely known by its nickname, "The Walls."
 
-Because of its role in executions, releases, and system administration, the unit is more visible in public records and media coverage than a typical prison.
+The unit serves more than one system function. In addition to housing incarcerated people, TDCJ uses the prison for release-related functions, and the Texas execution chamber is located here. Those responsibilities keep the Huntsville Unit central to the state's correctional system and public records.
 
-## Visiting Basics
+## What Makes Huntsville Unit Different
 
-Weekend visitation follows standard TDCJ scheduling rules unless the unit posts a change.
+- TDCJ says the Huntsville Unit opened in 1849, making it the oldest prison in Texas.
+- The unit is the site of all Texas state executions.
+- TDCJ also uses the facility for release-related functions for some male prisoners.
+- The prison is in downtown Huntsville rather than in a remote rural corridor, which is unusual for a major TDCJ unit.
 
--   Visits are usually scheduled through the TDCJ Online Visitation Portal.
--   Standard visiting days are Saturday and Sunday.
--   Visits are subject to cancellation, counts, and other operational restrictions.
+## Visiting Hours and Procedures
 
-:::callout{variant="tip"}
-Huntsville is one of the easier TDCJ units to reach from a major city, but that does not reduce entry screening. Photo ID, dress-code compliance, and item restrictions still control entry.
+Weekend visiting at the Huntsville Unit follows TDCJ's standard scheduling structure unless the unit posts a change.
+
+:::key-info
+**Hours:**
+- Saturday: 8:00 a.m. - 5:00 p.m.
+- Sunday: 8:00 a.m. - 5:00 p.m.
+
+**Scheduling:** Visits are arranged through the TDCJ Online Visitation Portal at `tdcj.texas.gov`.
+
+**What to bring:** Adult visitors need valid photo identification, and minors or guardianship situations use the paperwork TDCJ requires for statewide visiting.
+
+**What's not allowed:** Phones, large bags, prohibited clothing, and personal items that do not clear standard TDCJ screening remain outside.
 :::
 
-## What Maximum Security Means Here
+TDCJ's normal rules on counts, staffing, and operational restrictions still apply here. The unit's visibility in execution and release operations does not change the statewide approval process, and visiting can still be delayed, shortened, or canceled when prison operations take priority.
 
-The Huntsville Unit frontmatter classifies the site as maximum security, but the unit also houses transient and release-related populations. Visitors should expect close supervision and limited flexibility at check-in.
+The Huntsville Unit is in downtown Huntsville rather than on a remote farm road. Standard TDCJ entry screening still applies. General approval, dress code, and item rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
 
-:::reality-check
-Security processing can be slower at a historically prominent unit. A visitor may arrive on time and still spend a large share of the morning waiting for movement, clearance, or count procedures.
+## Getting There and Parking
+
+The unit is inside Huntsville's street grid a short distance from I-45, so the final approach is more urban and direct than at many TDCJ facilities.
+
+:::key-info
+**From Houston:** I-45 North into Huntsville, then local streets to 12th Street; often about 70-85 minutes
+
+**From Dallas:** I-45 South into Huntsville, then local streets near downtown; often about 2.75-3.25 hours
+
+**From College Station:** TX-30 East and connecting roads into Huntsville; often about 55-70 minutes
+
+**Parking:** Visitor parking is available near the unit.
+
+**Entry:** Check-in takes place through the unit's visiting entrance, where identification review, dress-code review, and standard screening occur before movement into the visiting area.
 :::
-
-## Directions From Houston
-
-Huntsville is roughly 70 miles north of Houston.
-
--   Take I-45 North toward Huntsville.
--   Exit into downtown Huntsville and follow local streets toward 12th Street.
--   The unit is inside the city rather than on a remote farm road, which makes the final approach simpler than many TDCJ sites.
-
-## Parking and Entry
-
--   Visitor parking is available near the unit.
--   Standard TDCJ item restrictions apply.
--   Coins for vending are permitted within TDCJ limits; larger personal items remain in the vehicle.
 
 ## Nearby Services
 
-Because the unit is in Huntsville rather than in a rural unincorporated area, nearby services are easier to find than at many Texas prisons.
+Fuel, restaurants, pharmacies, groceries, and hotels are available in Huntsville and along the I-45 corridor.
 
--   Gas stations are available along I-45 and inside Huntsville.
--   Restaurants, chain food options, and coffee shops are available in town.
--   Lodging is available along the interstate corridor for visitors traveling long distances.
-
-:::reality-check
-The unit is accessible, but the experience is still prison visitation. Parking convenience and nearby restaurants do not affect line movement, counts, or visiting-room decisions.
-:::
+That location changes the travel logistics but not the prison process. Nearby parking and commercial services do not affect count procedures, visiting-room capacity, or same-day operational decisions inside the unit.
 
 ## Learn More
 
--   [Visiting in Texas](/states/texas/guides/visiting/)
--   [Mail and Packages in Texas](/states/texas/guides/mail/)
--   [Phone and Video Calls in Texas](/states/texas/guides/phone-video/)
--   [Transfers and Facility Changes in Texas](/states/texas/guides/transfers/)
+For detailed information about visiting and communicating with someone at a Texas state prison:
+
+- [Visiting in Texas](/states/texas/guides/visiting/) — TDCJ approval process, dress code, scheduling
+- [Mail & Packages](/states/texas/guides/mail/) — what you can send and what gets rejected
+- [Phone & Video Calls](/states/texas/guides/phone-video/) — Securus accounts, call costs, video visits
+- [Sending Money](/states/texas/guides/money/) — how to add funds to a TDCJ trust account
+- [Medical & Mental Health](/states/texas/guides/medical/) — healthcare in TDCJ facilities
+- [Transfers](/states/texas/guides/transfers/) — what happens during transfers
