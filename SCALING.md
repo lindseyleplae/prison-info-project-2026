@@ -167,6 +167,59 @@ These are the rules Codex must follow and Claude must verify:
 
 ---
 
+## UI and CSS changes need behavior testing, not just render checks
+
+The "render-check before pushing" rule (rule 3 above) is about confirming the HTML output matches what the markdown said. That's necessary for content work but **insufficient for changes to layouts, components, CSS, or JavaScript.** A page can have perfectly correct HTML and still be broken interactively.
+
+For any change to:
+- Layouts (`src/layouts/*.astro`)
+- Components (`src/components/*.astro`)
+- CSS (`src/styles/*.css`) — especially `:hover`, `:focus`, `:focus-within`, `:active`, transitions, z-index, position
+- The header script or any other inline `<script>`
+- Anything affecting mobile viewport behavior
+
+**You must also do interactive verification.** Inspecting the rendered HTML doesn't catch:
+- Z-index stacking issues (an overlay rendered correctly but invisible behind another element)
+- CSS state rules leaking into the wrong viewport (e.g. `:focus-within` keeping mobile menus visible after tap)
+- JS that runs but has no visible effect because CSS overrides it
+- Hover-vs-touch differences
+- Tap targets too small or in the wrong place
+
+### The interactive verification checklist
+
+For UI/CSS changes, before pushing:
+
+1. **Run the dev server** (`npm run dev`) and open the affected page.
+2. **Test the actual interaction** — click the thing, tap it, trigger every state. Don't just look at the static page.
+3. **Test on a small viewport.** Open DevTools, switch to mobile preview (iPhone SE / 375px width is a good worst case), AND test the live site on your actual phone after deploy. Mobile is the majority of this audience.
+4. **Test every state of an interactive component.** Examples:
+   - **For a menu:** open, close via the toggle, close by clicking outside, close by scrolling, expand and collapse submenus, navigate links inside it, escape key closes it.
+   - **For a card:** tap on heading, tap on body text, tap on description paragraph, tap on white space inside the card. All should follow the same link.
+   - **For a callout/box:** confirm spacing on mobile and desktop, confirm text wrapping, confirm any internal lists render as lists not as run-together prose.
+5. **Test the worst case explicitly.** If the change touches mobile menu behavior, open the menu and try the things that broke before (scroll, tap submenus, close).
+
+### CSS traps that have actually bitten us — never repeat these
+
+Each of these is in this section because we shipped it broken and Lindsey caught it. Read these BEFORE writing CSS that involves the listed pattern:
+
+- **`:hover`, `:focus`, `:focus-within` rules for hover dropdowns must be scoped to desktop.** Touch devices retain focus on tapped buttons, so a rule like `.menu:focus-within .submenu { display: grid }` will keep the submenu visible on mobile after the user thinks they closed it. Always wrap such rules in `@media (min-width: 64rem)`. Mobile interactive state should come from JS (e.g. `data-open` attributes), not from focus pseudo-classes.
+
+- **Whole-card-clickable overlays need `z-index`.** The pattern is `position: relative` on the card plus `::after { content: ''; position: absolute; inset: 0 }` on the heading link. Without `z-index: 1` on the pseudo, the descriptive paragraph below the heading paints on top in stacking order and eats the click. Always add `z-index: 1` to the overlay. Currently used in `.section-card` and `.facility-card` — follow the same pattern for any new card type.
+
+- **CSS for `:hover` color/border changes implies the whole element is clickable.** If you add a hover style to a container, the user expects to click anywhere in that container and have something happen. Either make the whole container clickable (card-overlay pattern above) or remove the hover style. A "looks clickable but isn't" element is worse than no hover style at all.
+
+- **The Markdown directive parser eats colons in body text** unless the parser fix in `src/lib/remark-content-blocks.mjs` is in place. Times like `12:00`, ratios, ports — all of them — render as broken empty `<div>` elements without that fix. Already fixed (April 2026); just don't remove it.
+
+### When you have to touch a layout/component to do a content task
+
+The PLAYBOOK says "adding a state or facility = content files only, never touch layouts or CSS." That rule still holds. But sometimes a content task surfaces a real layout/CSS bug (e.g. multi-day visiting hours don't render because the field is too long for the sidebar). In that case:
+
+1. **Stop and surface the question to Lindsey.** Don't silently work around it by overstuffing strings or doing weird hacks.
+2. If she approves the layout/CSS fix, treat it as a separate change, with the interactive verification checklist above.
+3. Update SCALING.md with whatever new trap you uncovered, so the next person doesn't relearn it.
+
+---
+
 ## Common scaling tasks
 
 ### Adding a new state
@@ -218,6 +271,8 @@ The goal is to make every mistake the last time that mistake happens. If the sam
 ## What to never do
 
 - Push without a render check
+- Push UI/CSS/component changes without interactive verification on a mobile viewport
+- Add CSS hover styles to a container without making the whole container clickable (or remove the hover style)
 - Trust the tone linter alone — it doesn't catch advice-giving or editorializing
 - Generate content from a blank template without reading existing examples first
 - Invent facts when the source isn't clear — write less rather than guess
@@ -235,9 +290,10 @@ The goal is to make every mistake the last time that mistake happens. If the sam
 - Build locally and inspect the rendered HTML
 - Run all three quality gates
 - Verify the live site after deploy
+- For UI/CSS/component changes: actually click and tap the affected interactive elements on a mobile viewport before pushing
 - Keep this file updated as new lessons surface
 
 ---
 
-*Last updated: 2026-04-29*
+*Last updated: 2026-04-29 (added UI/CSS interactive verification section after mobile menu and card-overlay bugs)*
 *Add updates inline as new lessons emerge. This file is the project's institutional memory for scaling.*
