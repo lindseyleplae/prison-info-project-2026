@@ -379,6 +379,7 @@ h3 + .steps {
   content: '';
   position: absolute;
   inset: 0;
+  z-index: 1;
 }
 
 .facility-card header,
@@ -635,12 +636,14 @@ h3 + .steps {
 }
 
 /* Whole-card-clickable: the heading link's pseudo-element covers the
-   entire card so taps anywhere on the card follow the same href. */
+   entire card so taps anywhere on the card follow the same href.
+   z-index sits the overlay above the descriptive <p> below the heading. */
 .section-card h2 a::after,
 .section-card h3 a::after {
   content: '';
   position: absolute;
   inset: 0;
+  z-index: 1;
 }
 
 .section-card h2,

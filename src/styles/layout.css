@@ -102,9 +102,11 @@
   cursor: pointer;
 }
 
-.nav-group:hover .nav-menu,
-.nav-group:focus-within .nav-menu {
-  display: grid;
+@media (min-width: 64rem) {
+  .nav-group:hover .nav-menu,
+  .nav-group:focus-within .nav-menu {
+    display: grid;
+  }
 }
 
 .nav-link,
