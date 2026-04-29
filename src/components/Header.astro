@@ -79,11 +79,26 @@ states.sort((left, right) => left.data.title.localeCompare(right.data.title));
   const submenuToggles = Array.from(document.querySelectorAll('[data-submenu-toggle]'));
   const mobileNav = window.matchMedia('(max-width: 63.99rem)');
 
+  let scrollAnchor = 0;
+
+  const setSubmenuIcon = (button) => {
+    const icon = button.querySelector('[aria-hidden="true"]');
+    if (icon) {
+      icon.textContent = button.getAttribute('aria-expanded') === 'true' ? '−' : '+';
+    }
+  };
+
   const closeSubmenus = () => {
     submenuToggles.forEach((button) => {
       button.setAttribute('aria-expanded', 'false');
       button.closest('[data-nav-group]')?.removeAttribute('data-open');
+      setSubmenuIcon(button);
     });
+  };
+
+  const closeMainMenu = () => {
+    toggle?.setAttribute('aria-expanded', 'false');
+    closeSubmenus();
   };
 
   if (toggle && nav) {
@@ -92,6 +107,8 @@ states.sort((left, right) => left.data.title.localeCompare(right.data.title));
       toggle.setAttribute('aria-expanded', String(!isExpanded));
       if (isExpanded) {
         closeSubmenus();
+      } else {
+        scrollAnchor = window.scrollY;
       }
     });
   }
@@ -104,13 +121,14 @@ states.sort((left, right) => left.data.title.localeCompare(right.data.title));
 
       event.preventDefault();
       const group = button.closest('[data-nav-group]');
-      const isExpanded = button.getAttribute('aria-expanded') === 'true';
+      const wasExpanded = button.getAttribute('aria-expanded') === 'true';
 
       closeSubmenus();
 
-      if (!isExpanded && group) {
+      if (!wasExpanded && group) {
         button.setAttribute('aria-expanded', 'true');
         group.setAttribute('data-open', 'true');
+        setSubmenuIcon(button);
       }
     });
   });
@@ -121,7 +139,7 @@ states.sort((left, right) => left.data.title.localeCompare(right.data.title));
     }
 
     if (!nav?.contains(event.target) && !toggle?.contains(event.target)) {
-      closeSubmenus();
+      closeMainMenu();
     }
   });
 
@@ -129,15 +147,28 @@ states.sort((left, right) => left.data.title.localeCompare(right.data.title));
     if (event.key !== 'Escape') {
       return;
     }
-
-    toggle?.setAttribute('aria-expanded', 'false');
-    closeSubmenus();
+    closeMainMenu();
   });
+
+  // Close the menu when the user scrolls more than ~40px from where it was
+  // opened. Small allowance prevents the menu from snapping closed due to
+  // layout shift on open.
+  window.addEventListener(
+    'scroll',
+    () => {
+      if (toggle?.getAttribute('aria-expanded') !== 'true') {
+        return;
+      }
+      if (Math.abs(window.scrollY - scrollAnchor) > 40) {
+        closeMainMenu();
+      }
+    },
+    { passive: true }
+  );
 
   mobileNav.addEventListener('change', (event) => {
     if (!event.matches) {
-      toggle?.setAttribute('aria-expanded', 'false');
-      closeSubmenus();
+      closeMainMenu();
     }
   });
 </script>
