@@ -22,6 +22,14 @@ const { Content } = await render(homeEntry);
 
 <BaseLayout title={homeEntry.data.title} description={homeEntry.data.description}>
   <div class="container">
+    <section class="page-intro">
+      <div class="content-width">
+        <p class="lede">
+          Prison Visitor Guide is a free reference site for families and friends of incarcerated people in the United States. It organizes publicly available information about visiting, mail, phones, money, and rights — by state and by facility — so the rules that apply to your situation are in one place.
+        </p>
+      </div>
+    </section>
+
     <section class="hero-router">
       <div class="content-width">
         <p class="eyebrow">Search first</p>
@@ -36,7 +44,6 @@ const { Content } = await render(homeEntry);
           <input class="search-input" type="search" name="q" placeholder="San Quentin, Chino, California" />
           <button class="btn btn--primary" type="submit">Find a facility</button>
           <a class="hero-action" href="/facilities/">Facility directory</a>
-          <a class="hero-action" href="#states">Browse by state</a>
         </div>
       </form>
     </section>

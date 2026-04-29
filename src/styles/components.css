@@ -521,10 +521,14 @@ h3 + .steps {
   margin-bottom: var(--space-6);
 }
 
+.page-intro {
+  padding: var(--space-6) 0 0;
+}
+
 .hero-router {
   display: grid;
   gap: var(--space-4);
-  padding: var(--space-7) 0 var(--space-5);
+  padding: var(--space-5) 0 var(--space-5);
 }
 
 .hero-actions {
