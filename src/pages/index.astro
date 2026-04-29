@@ -58,10 +58,10 @@ const { Content } = await render(homeEntry);
         <h2 id="states-heading">Browse by state</h2>
         <div class="section-card-list">
           {states.map((state) => (
-            <article class="section-card">
-              <h3><a href={`/states/${state.data.slug}/`}>{state.data.title}</a></h3>
+            <a class="section-card" href={`/states/${state.data.slug}/`}>
+              <h3>{state.data.title}</h3>
               <p>{state.data.summary ?? `${state.data.title} system overview, guides, and facilities.`}</p>
-            </article>
+            </a>
           ))}
         </div>
       </div>

@@ -361,25 +361,32 @@ h3 + .steps {
   margin-top: var(--space-5);
 }
 
+/* Facility cards are anchors so the entire card is the click target.
+   See .section-card above for the same pattern. */
 .facility-card {
-  position: relative;
   display: grid;
   gap: var(--space-4);
+  color: inherit;
+  text-decoration: none;
   transition:
     box-shadow 150ms ease,
     border-color 150ms ease;
 }
 
-.facility-card:hover {
+.facility-card:hover,
+.facility-card:focus-visible {
   border-color: var(--color-primary);
+  box-shadow: var(--shadow-md);
+  outline: none;
 }
 
-/* Whole-card-clickable: the heading link covers the whole card. */
-.facility-card h3 a::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: 1;
+.facility-card h3 {
+  color: var(--color-primary);
+}
+
+.facility-card:hover h3,
+.facility-card:focus-visible h3 {
+  text-decoration: underline;
 }
 
 .facility-card header,
@@ -619,31 +626,28 @@ h3 + .steps {
   gap: var(--space-4);
 }
 
+/* Section cards are anchors so the entire card is the click target.
+   Display block so the anchor fills its grid cell; color: inherit and
+   text-decoration: none keep the body text reading as normal text even
+   though it's inside the link. */
 .section-card {
-  position: relative;
+  display: block;
   padding: var(--space-4);
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
+  color: inherit;
+  text-decoration: none;
   transition:
     box-shadow 150ms ease,
     border-color 150ms ease;
 }
 
-.section-card:hover {
+.section-card:hover,
+.section-card:focus-visible {
   border-color: var(--color-primary);
   box-shadow: var(--shadow-sm);
-}
-
-/* Whole-card-clickable: the heading link's pseudo-element covers the
-   entire card so taps anywhere on the card follow the same href.
-   z-index sits the overlay above the descriptive <p> below the heading. */
-.section-card h2 a::after,
-.section-card h3 a::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: 1;
+  outline: none;
 }
 
 .section-card h2,
@@ -651,18 +655,13 @@ h3 + .steps {
   margin: 0 0 var(--space-1);
   font-size: var(--text-lg);
   line-height: var(--leading-snug);
-}
-
-.section-card h2 a,
-.section-card h3 a {
   color: var(--color-primary);
-  text-decoration: none;
 }
 
-.section-card h2 a:hover,
-.section-card h2 a:focus-visible,
-.section-card h3 a:hover,
-.section-card h3 a:focus-visible {
+.section-card:hover h2,
+.section-card:hover h3,
+.section-card:focus-visible h2,
+.section-card:focus-visible h3 {
   text-decoration: underline;
 }
 

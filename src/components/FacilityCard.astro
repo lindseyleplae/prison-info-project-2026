@@ -14,9 +14,9 @@ const {
 const href = `/states/${stateSlug}/facilities/${facility.data.slug}/`;
 ---
 
-<article class="card facility-card">
+<a class="card facility-card" href={href}>
   <header>
-    <h3><a href={href}>{facility.data.title}</a></h3>
+    <h3>{facility.data.title}</h3>
     <p class="meta-line">
       {stateTitle}
       {facility.data.county && ` · ${facility.data.county} County`}
@@ -43,4 +43,4 @@ const href = `/states/${stateSlug}/facilities/${facility.data.slug}/`;
       </div>
     )}
   </dl>
-</article>
+</a>

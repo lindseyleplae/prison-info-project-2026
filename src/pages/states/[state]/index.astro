@@ -41,10 +41,10 @@ facilities.sort((left, right) => left.data.title.localeCompare(right.data.title)
     <h2>State guides</h2>
     <div class="section-card-list">
       {guides.map((guide) => (
-        <article class="section-card">
-          <h3><a href={`/states/${entry.data.slug}/guides/${guide.data.topic ?? guide.data.slug}/`}>{guide.data.title}</a></h3>
+        <a class="section-card" href={`/states/${entry.data.slug}/guides/${guide.data.topic ?? guide.data.slug}/`}>
+          <h3>{guide.data.title}</h3>
           <p>{guide.data.description ?? guide.data.summary ?? 'State-specific process and policy detail.'}</p>
-        </article>
+        </a>
       ))}
     </div>
   </section>
@@ -53,13 +53,13 @@ facilities.sort((left, right) => left.data.title.localeCompare(right.data.title)
     <h2>Facilities</h2>
     <div class="section-card-list">
       {facilities.map((facility) => (
-        <article class="section-card">
-          <h3><a href={`/states/${entry.data.slug}/facilities/${facility.data.slug}/`}>{facility.data.title}</a></h3>
+        <a class="section-card" href={`/states/${entry.data.slug}/facilities/${facility.data.slug}/`}>
+          <h3>{facility.data.title}</h3>
           <p>
             {facility.data.city ?? 'Location pending'}
             {facility.data.securityLevel && ` · ${facility.data.securityLevel}`}
           </p>
-        </article>
+        </a>
       ))}
     </div>
   </section>

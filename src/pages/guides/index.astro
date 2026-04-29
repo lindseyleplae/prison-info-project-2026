@@ -21,10 +21,10 @@ guides.sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
 
     <div class="content-width section-card-list">
       {guides.map((guide) => (
-        <article class="section-card">
-          <h2><a href={`/guides/${guide.data.slug}/`}>{guide.data.title}</a></h2>
+        <a class="section-card" href={`/guides/${guide.data.slug}/`}>
+          <h2>{guide.data.title}</h2>
           {guide.data.description && <p>{guide.data.description}</p>}
-        </article>
+        </a>
       ))}
     </div>
   </div>

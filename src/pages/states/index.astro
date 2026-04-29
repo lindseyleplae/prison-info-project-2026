@@ -25,11 +25,11 @@ const facilities = await getCollection('facilities', ({ data }) => !data.draft);
         const facilityCount = facilities.filter((facility) => facility.data.state === state.data.state).length;
 
         return (
-          <article class="section-card">
-            <h2><a href={`/states/${state.data.slug}/`}>{state.data.title}</a></h2>
+          <a class="section-card" href={`/states/${state.data.slug}/`}>
+            <h2>{state.data.title}</h2>
             <p>{state.data.summary}</p>
             <p class="meta-line">{guideCount} guides · {facilityCount} facilities listed</p>
-          </article>
+          </a>
         );
       })}
     </div>
