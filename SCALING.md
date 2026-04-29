@@ -23,6 +23,14 @@ The tone linter catches a fixed list of banned phrases. It does not catch advice
 ### 5. Preserve facts when restructuring.
 Rewriting an existing page means starting from the existing facts and improving the structure — not generating new prose from scratch. Any verified contact info, address, schedule, or facility-specific detail in the old version must survive the rewrite or be replaced with a verified source.
 
+### 6. Sourced or attributed — never invented.
+For any factual claim on a page, you must be able to point to a source. The hierarchy:
+1. **Official source** (state DOC website, government data) — preferred for addresses, phones, schedules, capacity, custody levels, formal rules.
+2. **Attributed source** (visitor forums, nonprofit handbooks like Friends Outside or TIFA, news coverage with concrete observations) — acceptable for practical info that families commonly need but isn't formally documented (cell signal, processing-time experience, parking-lot patterns). Frame as "Visitors have reported that..." or "Per [source]...". Never dress up an inference as if it were attributed.
+3. **No source** — omit. Do not guess. "The parking lot has 47 spots" is wrong if you don't know it. "Parking is available on-site" is fine when verified; "Parking can fill on busy weekends per visitor accounts" is fine when the pattern is observed in family forums.
+
+This is not theoretical: the site is a public reference families rely on during real prison visits. A made-up number that families plan around can cause real harm. When in doubt, leave it out.
+
 ---
 
 ## Lindsey's reality (the human side)
