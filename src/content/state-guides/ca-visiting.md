@@ -5,8 +5,8 @@ state: ca
 topic: visiting
 relatedNationalGuide: visiting-basics
 system: CDCR
-description: "Everything you need to know to get approved, plan your trip, and make the most of your time together."
-lastReviewed: 2026-03-29
+description: "How to get approved to visit, schedule through VSA, follow the dress code, and what to expect on visiting day at a California state prison."
+lastReviewed: 2026-05-28
 ---
 
 :::key-info{title="Key info"}
@@ -21,7 +21,7 @@ lastReviewed: 2026-03-29
 
 ## Getting Approved
 
-You can't just show up. Everyone needs to be approved before their first visit, and the process takes time — usually 4 to 6 weeks, sometimes longer depending on the facility.
+Everyone must be approved before a first visit, and the process takes time — usually 4 to 6 weeks, and sometimes longer depending on the facility.
 
 ### Who Can Visit
 
@@ -70,7 +70,7 @@ Processing times vary by facility and time of day, ranging from 20 minutes to ov
 
 ## What to Wear
 
-The dress code is strict, and getting turned away for clothing is one of the most common and frustrating experiences for visitors. Take this seriously.
+The dress code is strict, and being turned away over clothing is one of the most common reasons a visit is delayed or denied.
 
 ### Colors to Avoid
 
@@ -106,7 +106,7 @@ You can bring very little inside. Almost everything stays in your car or a locke
 
 -   **Government-issued photo ID** — current and matching your application name
 -   **Car key** — one or two keys only, no keychains or extra attachments
--   **Vending machine money** — up to $70 in coins and $1 bills, in a clear bag
+-   **Vending machine money** — up to $70 per adult visitor and $40 per minor, in coins and $1 bills, in a clear bag
 -   **Small clear bag** — for your money and key
 
 ### Leave in Your Car
@@ -150,14 +150,14 @@ What counts as "brief" or "excessive" is up to the officer on duty. Staff interp
 
 ### Vending Machines
 
-Most visiting rooms have vending machines with snacks and drinks. The incarcerated person cannot handle money or operate machines — you buy, they eat. For many families, sharing a meal from the vending machines is the highlight of the visit. Bring coins and $1 bills ($70 max).
+Most visiting rooms have vending machines with snacks and drinks. The incarcerated person cannot handle money or operate the machines, so the visitor makes the purchases. Bring coins or $1 bills only — up to $70 per adult visitor and $40 per minor.
 
 ### Photos
 
-Many facilities offer photos during visits, usually for $3–5. Staff takes the photo with an instant camera. These are often the only family photos you'll have during incarceration — take advantage of this when offered.
+Many facilities offer photos during visits, usually for $3–5. Staff takes the photo with an instant camera.
 
 :::reality-check{title="Additional information"}
-Vending machine selection varies and machines break often. Bring a full $70 even if you don't plan to spend it all — there's no ATM inside. Also, the visiting room can be cold. You can't bring a jacket in (no extra layers), so wear something warm but that still meets the dress code.
+Vending machine selection varies and machines can be out of service. There is no ATM inside, so the money for vending must be brought in advance. The visiting room can be cold, and extra layers such as a jacket cannot be brought in, so clothing that is both warm and dress-code compliant is the practical choice.
 :::
 
 ## Visiting with Children
@@ -216,7 +216,7 @@ First visits involve multiple processing steps and may take longer than subseque
 
 ## What It Actually Costs
 
-Visiting is "free," but it's not. Here's what a typical visit actually costs, so you can budget.
+There is no fee to visit, but a visit still carries real costs. The table below outlines what a typical visit can involve, for budgeting.
 
 :::cost-table
 | Expense | Typical Cost | Notes |
@@ -239,4 +239,4 @@ For families visiting regularly — say twice a month — the costs add up quick
 -   [CDCR Attire Restrictions](https://www.cdcr.ca.gov/visitors/attire-restrictions/)
 -   California Code of Regulations, Title 15
 
-Last updated February 2026
+Last updated May 2026

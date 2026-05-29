@@ -14,9 +14,9 @@ securityLevel: "Mixed"
 facilityType: "Women's Prison"
 contact:
   mainPhone: "(909) 597-1772"
-  visitingOffice: "(909) 597-1771 ext. 5560"
+  visitingOffice: "(909) 597-1772 ext. 5560"
 providers:
-  phone: "ViaPath (GTL)"
+  phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
   days: "Friday-Sunday"
   hours: "8:30 AM - 2:45 PM (Sat-Sun)"
@@ -62,7 +62,7 @@ CIW posts appointment, walk-in, and weather-related visiting information on its 
 - Saturday-Sunday: 8:30 a.m. - 2:45 p.m.
 - Walk-ins: after scheduled visitors are processed, space permitting
 
-**Scheduling:** Appointments are made through the Visitation Scheduling Application at `cdcr.gtlvisitme.com/app`; walk-ins are first come, first served after the appointment queue.
+**Scheduling:** Appointments are made through CDCR's Visitation Scheduling Application (VSA); walk-ins are first come, first served after the appointment queue.
 
 **What to bring:** Valid photo ID and the certified birth certificate, guardianship papers, or notarized minor-consent form required by CDCR when a minor is visiting.
 
@@ -86,14 +86,20 @@ CIW is in the Chino-Eastvale-Corona area of the Inland Empire, reached through a
 
 **Parking:** Visitor parking is available on-site, and CDCR directs visitors to use only authorized visitor spaces.
 
-**Entry:** Adults need valid identification for processing, and visitors should expect both screening and possible delays when weather or institutional programs reduce available indoor space.
+**Entry:** Adults need valid identification for processing, and screening can take longer when weather or institutional programs reduce available indoor space.
 :::
+
+The nearest public transit serves the Corona and Eastvale area rather than the institution. The City of Corona runs the Corona Cruiser, and the Riverside Transit Agency operates Route 3 through Corona, Norco, and Eastvale; neither is listed as reaching the prison gate, so the final approach to Chino-Corona Road is by car.
+
+Hospital and urgent care are in the surrounding cities rather than at the institution. Corona Regional Medical Center in Corona operates a 24-hour emergency room serving the Corona and Eastvale area, and additional walk-in urgent care clinics operate along the Chino and Eastvale corridors.
 
 ## Nearby Services
 
 Gas, restaurants, and basic retail are spread across the Chino, Eastvale, and Ontario corridors rather than concentrated immediately outside the prison. The largest clusters are along Chino Hills Parkway, the CA-71 and CA-91 corridors, and the Ontario commercial districts farther north.
 
-Lodging is more common in Ontario and along the I-10 corridor than next to the institution itself. Visitors making longer trips often rely on those larger Inland Empire service areas before heading to the prison.
+Lodging is more common in Ontario and along the I-10 corridor than next to the institution itself, and visitors making longer trips often rely on those larger Inland Empire service areas before heading to the prison. Hotel sites list chain properties across the corridor, including Hampton Inn Norco-Corona-Eastvale and the Chino Hills cluster off Chino Hills Parkway.
+
+For broader family support beyond the institution itself, Friends Outside is a California nonprofit, operating since 1955, that assists families of incarcerated people and operates visitor centers at state prisons. The California Coalition for Women Prisoners is a separate grassroots organization that visits incarcerated women, documents prison conditions, and supports reentry.
 
 ## Learn More
 
@@ -101,7 +107,7 @@ For detailed information about visiting and communicating with someone at a Cali
 
 - [Visiting in California](/states/california/guides/visiting/) — CDCR approval process, dress code, scheduling
 - [Mail & Packages](/states/california/guides/mail/) — What you can send and what gets rejected
-- [Phone & Video Calls](/states/california/guides/phone-video/) — GTL accounts, call costs, video visits
+- [Phone & Video Calls](/states/california/guides/phone-video/) — Call costs, tablets, and video visits
 - [Sending Money](/states/california/guides/money/) — How to add funds to a CDCR trust account
 - [Medical & Mental Health](/states/california/guides/medical/) — Healthcare in CDCR facilities
 - [Transfers](/states/california/guides/transfers/) — What happens during transfers

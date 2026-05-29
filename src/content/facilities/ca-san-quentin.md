@@ -17,7 +17,7 @@ contact:
   mainPhone: "(415) 454-1460"
   visitingOffice: "(415) 454-1460 ext. 5811"
 providers:
-  phone: "ViaPath (GTL)"
+  phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
   days: "Friday-Sunday"
   hours: "7:30 AM - 2:00 PM (Sat-Sun)"
@@ -63,7 +63,7 @@ CDCR posts separate schedules for San Quentin's visiting areas on the institutio
 - Saturday-Sunday: 7:30 a.m. - 2:00 p.m.
 - Main B contact visits (Infirmary) and Main B non-contact visits (Adjustment Center) use separate timeslots within those windows.
 
-**Scheduling:** Mainline and H-Unit appointments are arranged through CDCR's Visitation Scheduling Application at `cdcr.gtlvisitme.com/app`; long-distance accommodation requests are handled by the San Quentin visiting team.
+**Scheduling:** Mainline and H-Unit appointments are arranged through CDCR's Visitation Scheduling Application (VSA); long-distance accommodation requests are handled by the San Quentin visiting team.
 
 **What to bring:** Valid photo ID, minor paperwork when applicable, and only the small permitted items CDCR allows in the visiting room.
 
@@ -90,11 +90,17 @@ San Quentin sits just off US-101 in southern Marin County, close to San Francisc
 **Entry:** Visitor processing begins before each visiting window; adults need valid identification, Mainline visitors walk to the rooms, and H-Unit visitors use institution shuttle transport.
 :::
 
+Public transit comes closer to San Quentin than to most prisons. Golden Gate Transit runs regional bus service in Marin County, including Route 580 between San Rafael and Richmond, which has a stop near the San Quentin access road at the Highway 580 on-ramp and Main Street. Marin Transit operates local county routes, and SMART rail serves downtown San Rafael a few miles away rather than the prison gate.
+
+Hospital and urgent care are in central Marin County. MarinHealth Medical Center in Greenbrae is the county's primary acute-care hospital and operates a 24-hour emergency department, and MarinHealth Urgent Care in San Rafael accepts walk-ins.
+
 ## Nearby Services
 
 The closest concentration of gas, food, and hotel options is in San Rafael, a short drive north of the prison. Additional services are available in Larkspur and along the US-101 corridor, but there are no major commercial strips immediately outside the prison entrance.
 
-Visitors using bridge routes from San Francisco or the East Bay also pass larger service areas before reaching the peninsula. That is useful because the prison grounds themselves have limited parking and no off-site cluster of businesses within walking distance.
+Visitors using bridge routes from San Francisco or the East Bay also pass larger service areas before reaching the peninsula. That is useful because the prison grounds themselves have limited parking and no off-site cluster of businesses within walking distance. Hotel sites list chain properties in San Rafael, including Four Points by Sheraton San Rafael Marin County, Embassy Suites by Hilton San Rafael at Marin Center, and AC Hotel San Rafael Downtown.
+
+For broader family support beyond the institution itself, Friends Outside is a California nonprofit, operating since 1955, that assists families of incarcerated people and operates visitor centers at state prisons.
 
 ## Learn More
 
@@ -102,7 +108,7 @@ For detailed information about visiting and communicating with someone at a Cali
 
 - [Visiting in California](/states/california/guides/visiting/) — CDCR approval process, dress code, scheduling
 - [Mail & Packages](/states/california/guides/mail/) — What you can send and what gets rejected
-- [Phone & Video Calls](/states/california/guides/phone-video/) — GTL accounts, call costs, video visits
+- [Phone & Video Calls](/states/california/guides/phone-video/) — Call costs, tablets, and video visits
 - [Sending Money](/states/california/guides/money/) — How to add funds to a CDCR trust account
 - [Medical & Mental Health](/states/california/guides/medical/) — Healthcare in CDCR facilities
 - [Transfers](/states/california/guides/transfers/) — What happens during transfers

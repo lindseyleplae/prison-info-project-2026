@@ -59,16 +59,18 @@ Weekend visiting at Coffield follows TDCJ's standard portal-based scheduling sys
 - Saturday: 8:00 a.m. - 5:00 p.m.
 - Sunday: 8:00 a.m. - 5:00 p.m.
 
-**Scheduling:** Visits are arranged through the TDCJ Online Visitation Portal at `tdcj.texas.gov`.
+**Scheduling:** Visits are arranged through the TDCJ Online Visitation Portal one to seven days ahead. TDCJ's April 2025 rules treat one visit per visiting cycle as the norm, and the public visitation index says each incarcerated person is allowed one visit per weekend. Remote Securus video visits and tablet visits are separate monthly 60-minute options that do not count against in-person visiting.
 
-**What to bring:** Adult visitors need valid photo identification, and minors or guardianship situations use the paperwork TDCJ requires for statewide visiting.
+**What to bring:** Adult visitors must present a current government-issued photo ID, and TDCJ says at least one identification document must show a current physical address. Children 17 and younger may be asked for identification such as a birth certificate, state ID, or student ID. The approved visitors list is capped at 10 names.
 
-**What's not allowed:** Phones, large bags, prohibited clothing, and personal items that do not clear standard TDCJ screening remain outside.
+**What's not allowed:** Phones and smartwatches are prohibited inside the secure perimeter. TDCJ also bars paper money, outside food, cameras, gifts, larger bags, and personal property exchanges. Permitted items are limited to a small wallet or clear bag, up to $35 in coins for vending machines, and infant-care items in a clear plastic bag.
 :::
 
 The unit's custody mix is the main reason a single schedule does not always mean a single visiting experience. General population housing can use standard contact visiting, while more restrictive settings may use different room assignments or non-contact procedures on the same weekend.
 
-Large population size can also slow movement from check-in to the visiting area. General approval, dress code, and item rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
+Large population size can also slow movement from check-in to the visiting area, so the same posted hours can produce a longer wait than at a smaller unit.
+
+Statewide dress-code and conduct rules fill in the practical details. TDCJ says clothing cannot be tight, revealing, or see-through; sleeveless tops must still cover the shoulders; shorts and skirts must be no shorter than three inches above the middle of the knee while standing; and visitors are not permitted to wear all white. The rules also prohibit photographing buildings, fences, or other parts of the unit. TDCJ says its visitation schedule is updated once daily on weekdays and multiple times per day on visitation days, and unit-wide cancellations are posted on the agency homepage. General approval and item rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
 
 ## Getting There and Parking
 
@@ -86,11 +88,17 @@ Coffield is in a rural section of Anderson County, so the last part of the drive
 **Entry:** Check-in takes place at the unit's visitor processing point, where identification review and standard TDCJ screening happen before movement into the visiting area.
 :::
 
+Public transit in the area is demand-response rather than fixed-route. GoBus, the transit program of the East Texas Council of Governments, provides shared-ride, advance-reservation service across Anderson County and a GoNOW microtransit zone within Palestine. No fixed-route bus reaches the Coffield Unit, so the FM-road approach near Tennessee Colony is by car.
+
+Hospital and urgent care are in Palestine rather than near the unit. Palestine Regional Medical Center on South Loop 256 operates a 24-hour emergency room, and a CHRISTUS emergency room also operates in Palestine. Access Medical Clinic on South Loop 256 is a walk-in option.
+
 ## Nearby Services
 
 Tennessee Colony is small and has limited commercial services. Palestine is the nearest larger service center for gas, restaurants, groceries, and hotels before the prison cluster.
 
-Fuel and food options thin out significantly past the Palestine area, and the final approach is on rural farm-to-market roads. That is the practical travel pattern for Coffield and the surrounding Tennessee Colony units.
+Fuel and food options thin out significantly past the Palestine area, and the final approach is on rural farm-to-market roads. That is the practical travel pattern for Coffield and the surrounding Tennessee Colony units. Hotel sites list chain properties in Palestine, including Hampton Inn & Suites Palestine and Holiday Inn Express Palestine.
+
+For broader family support beyond the unit itself, the Texas Inmate Families Association is a statewide nonprofit focused on education, advocacy, and prison-system navigation resources for families with someone in TDCJ custody.
 
 ## Learn More
 

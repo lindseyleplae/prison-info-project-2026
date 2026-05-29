@@ -69,14 +69,14 @@ TDCJ's statewide weekend visitation structure applies at Polunsky, but death row
 
 **Scheduling:** Visits are arranged through the TDCJ Online Visitation Portal at `tdcj.texas.gov`; death row placement and restrictive-housing status can affect which visits are available on a given weekend.
 
-**What to bring:** Adult visitors need valid photo identification, and minors or guardianship situations use the paperwork TDCJ requires for statewide visiting.
+**What to bring:** Adult visitors must present a current government-issued photo ID, and TDCJ says at least one identification document must show a current physical address. Children 17 and younger may be asked for identification such as a birth certificate, state ID, or student ID. The approved visitors list is capped at 10 names.
 
-**What's not allowed:** Phones, large bags, prohibited clothing, metal-heavy accessories, and unapproved personal items remain outside under standard TDCJ screening rules.
+**What's not allowed:** Phones and smartwatches are prohibited inside the secure perimeter. TDCJ also bars paper money, outside food, cameras, gifts, larger bags, and personal property exchanges. Permitted items are limited to a small wallet or clear bag, up to $35 in coins for vending machines, and infant-care items in a clear plastic bag.
 :::
 
 Death row visits remain non-contact from start to finish. The visitor and the incarcerated person do not share the same room, no physical contact occurs, and conversation takes place through the unit's non-contact system. That format does not change because of travel distance or family relationship.
 
-General population and other high-security housing at Polunsky still use TDCJ's normal approval and scheduling system, but restrictive placements can change whether a visit is contact, non-contact, shortened, or unavailable on a given day. Statewide dress code, approval, and item rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
+General population and other high-security housing at Polunsky still use TDCJ's normal approval and scheduling system, but restrictive placements can change whether a visit is contact, non-contact, shortened, or unavailable on a given day. Statewide dress-code rules apply throughout: TDCJ says clothing cannot be tight, revealing, or see-through; sleeveless tops must still cover the shoulders; shorts and skirts must be no shorter than three inches above the middle of the knee while standing; and visitors are not permitted to wear all white. General approval and item rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
 
 ## Getting There and Parking
 
@@ -94,6 +94,10 @@ The Polunsky Unit is outside Livingston rather than on an interstate corridor, s
 **Entry:** Check-in takes place at the unit's visitor processing area, where identification review and standard TDCJ screening occur before internal movement begins.
 :::
 
+Public transit in the area is demand-response rather than fixed-route. The Brazos Transit District serves Polk County, including Livingston, by curb-to-curb advance reservation and keeps a local office in Livingston; its fixed routes run in other cities, so no fixed-route bus reaches the unit. The FM 350 approach south of Livingston is by car.
+
+Hospital and urgent care are in Livingston rather than near the unit. CHI St. Luke's Health Memorial Livingston on the US-59 Loop operates a 24-hour emergency room and is designated a Level IV trauma center. Texas MedClinic Urgent Care on West Church Street is a walk-in option.
+
 ## Phones, Mail, and Video
 
 Polunsky uses Securus for phone service, and TDCJ lists Securus Video Connect where video visiting is available. Housing status matters more here than at many standard units because death row and other restrictive settings can limit when a person is available for calls or remote contact.
@@ -104,7 +108,9 @@ Mail and communication patterns can also reflect the unit's security level. Deli
 
 Livingston is the nearest full service center for fuel, food, groceries, and hotels. The retail strip in town has the broadest set of options before the final drive south toward the unit.
 
-Services thin out on the FM-road approach away from Livingston. That is the practical difference between Polunsky and a prison in a larger city: the final segment is rural, and there is no dense commercial corridor around the prison entrance.
+Services thin out on the FM-road approach away from Livingston. That is the practical difference between Polunsky and a prison in a larger city: the final segment is rural, and there is no dense commercial corridor around the prison entrance. Hotel sites list chain properties in Livingston, including La Quinta Inn & Suites by Wyndham Livingston and Holiday Inn Express & Suites Livingston.
+
+For broader family support beyond the unit itself, the Texas Inmate Families Association is a statewide nonprofit focused on education, advocacy, and prison-system navigation resources for families with someone in TDCJ custody.
 
 ## Learn More
 

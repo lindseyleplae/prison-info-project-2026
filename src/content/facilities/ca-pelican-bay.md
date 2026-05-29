@@ -16,7 +16,7 @@ contact:
   mainPhone: "(707) 465-1000"
   visitingOffice: "(707) 465-1000 ext. 5425"
 providers:
-  phone: "ViaPath (GTL)"
+  phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
   days: "Friday-Sunday"
   hours: "8:45 AM - 2:45 PM (Sat-Sun)"
@@ -62,7 +62,7 @@ Pelican Bay uses one schedule for most general visiting and another for RHU visi
 - Saturday-Sunday: 8:45 a.m. - 2:45 p.m.
 - RHU: Friday 12:00 p.m. - 3:00 p.m.; Saturday-Sunday 8:15 a.m. - 11:15 a.m.
 
-**Scheduling:** General appointments are arranged through the Visitation Scheduling Application at `cdcr.gtlvisitme.com/app`; RHU visits are scheduled only, while some general population housing areas accept walk-ins.
+**Scheduling:** General appointments are arranged through CDCR's Visitation Scheduling Application (VSA); RHU visits are scheduled only, while some general population housing areas accept walk-ins.
 
 **What to bring:** Valid photo ID and any required minor or guardianship documents under CDCR rules.
 
@@ -89,11 +89,17 @@ Pelican Bay is north of most California population centers, and nearly every rou
 **Entry:** Adults need valid identification, and CDCR directs visitors to confirm both appointment status and road conditions before leaving for the prison.
 :::
 
+Public transit serves Crescent City rather than the prison. Redwood Coast Transit is the public transit agency for Del Norte County, running city routes in Crescent City plus regional routes toward Smith River, Eureka, and Gasquet; no published route reaches Pelican Bay, so the final approach along Lake Earl Drive is by car. Caltrans QuickMap and the state highway information line are the standard references for US-101 and US-199 road and weather conditions.
+
+Hospital care is limited to a single facility in the area. Sutter Coast Hospital on East Washington Boulevard in Crescent City is the region's only hospital, a 49-bed facility with a 24-hour emergency department; more specialized care requires travel toward Eureka or out of the area.
+
 ## Nearby Services
 
 Crescent City has the area's main concentration of gas stations, grocery stores, chain food, and limited hotel inventory along US-101 and the larger commercial streets in town. Services thin out noticeably closer to Lake Earl Drive and around the prison itself.
 
-Visitors traveling from inland Northern California or southern Oregon often make their last full-service stop in Crescent City before heading to the prison. Lodging choices are more limited than in larger California prison markets, especially during peak coastal travel periods.
+Visitors traveling from inland Northern California or southern Oregon often make their last full-service stop in Crescent City before heading to the prison. Lodging choices are more limited than in larger California prison markets, especially during peak coastal travel periods. Hotel sites list properties in Crescent City, including Travelodge by Wyndham Crescent City, Hampton Inn & Suites Crescent City, and Best Western Plus Northwoods Inn.
+
+For broader family support beyond the institution itself, Friends Outside is a California nonprofit, operating since 1955, that assists families of incarcerated people and operates visitor centers at state prisons.
 
 ## Learn More
 
@@ -101,7 +107,7 @@ For detailed information about visiting and communicating with someone at a Cali
 
 - [Visiting in California](/states/california/guides/visiting/) — CDCR approval process, dress code, scheduling
 - [Mail & Packages](/states/california/guides/mail/) — What you can send and what gets rejected
-- [Phone & Video Calls](/states/california/guides/phone-video/) — GTL accounts, call costs, video visits
+- [Phone & Video Calls](/states/california/guides/phone-video/) — Call costs, tablets, and video visits
 - [Sending Money](/states/california/guides/money/) — How to add funds to a CDCR trust account
 - [Medical & Mental Health](/states/california/guides/medical/) — Healthcare in CDCR facilities
 - [Transfers](/states/california/guides/transfers/) — What happens during transfers

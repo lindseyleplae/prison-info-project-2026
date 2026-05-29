@@ -16,7 +16,7 @@ contact:
   mainPhone: "(909) 597-1821"
   visitingOffice: "(909) 597-1821 ext. 4186"
 providers:
-  phone: "ViaPath (GTL)"
+  phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
   days: "Friday-Sunday"
   hours: "8:00 AM - 2:45 PM (Sat-Sun)"
@@ -66,7 +66,7 @@ CDCR's visiting status page separates CIM's general visiting schedule from its R
 - Saturday-Sunday: 8:00 a.m. - 2:45 p.m.
 - RHU non-contact visits: Friday-Sunday, 12:00 p.m. - 1:00 p.m. and 1:00 p.m. - 2:00 p.m.
 
-**Scheduling:** General visits are scheduled through the Visitation Scheduling Application at `cdcr.gtlvisitme.com/app`; walk-ins are also accepted, and RHU visits use one-hour scheduled blocks.
+**Scheduling:** General visits are scheduled through CDCR's Visitation Scheduling Application (VSA); walk-ins are also accepted, and RHU visits use one-hour scheduled blocks.
 
 **What to bring:** Valid photo ID and, when needed, the incarcerated person's CDCR number and minor paperwork required under CDCR rules.
 
@@ -93,6 +93,10 @@ CIM is in Chino near the Inland Empire's western edge, with freeway access from 
 **Entry:** CDCR directs visitors to the Main Gate Visiting Processing Center for check-in, identification review, and security screening.
 :::
 
+The nearest public transit serves Chino rather than the institution itself. Omnitrans is the public transit operator for the San Bernardino Valley, and its Chino and Chino Hills coverage is now OmniRide, a reservation-based on-demand shared ride rather than a fixed bus route. CDCR's CIM page does not list transit service to the prison gate, so the final approach to Central Avenue is by car.
+
+Hospital and urgent care are in the surrounding cities rather than at the institution. Chino Valley Medical Center on Walnut Avenue in Chino operates a 24-hour emergency room, though it is not a designated trauma center; San Bernardino County routes major trauma to Arrowhead Regional Medical Center in Colton and to Loma Linda University Medical Center. Concentra on El Prado Road in Chino is one of the area's walk-in urgent care options.
+
 ## Phones, Mail, and Video
 
 CIM's reception-center role affects communication more than at many permanent mainline institutions. Phone access can be limited by population movement and shared-phone demand, and mail delivery may run slower when an incarcerated person is moving through intake or transfer processing.
@@ -103,7 +107,9 @@ Mail delivery typically runs about two to three weeks in reception-center settin
 
 The main commercial corridors for gas, food, and hotel options are along Central Avenue, Chino Hills Parkway, and the larger Ontario retail areas to the north. Those corridors have the broadest mix of chain restaurants, grocery stores, and fuel before the final approach to the prison.
 
-Services are much denser in Ontario, Chino Hills, and along the CA-60 and I-10 corridors than immediately outside the prison entrance. That matters for longer trips because most overnight lodging options are outside Chino itself.
+Services are much denser in Ontario, Chino Hills, and along the CA-60 and I-10 corridors than immediately outside the prison entrance. That matters for longer trips because most overnight lodging options are outside Chino itself. Hotel sites list chain properties across the area, including Hampton Inn & Suites Chino Hills, Ayres Hotel Chino Hills, and Holiday Inn Express & Suites Ontario-Chino Hills.
+
+For broader family support beyond the institution itself, Friends Outside is a California nonprofit, operating since 1955, that assists families of incarcerated people and operates visitor centers at state prisons.
 
 ## Learn More
 
@@ -111,7 +117,7 @@ For detailed information about visiting and communicating with someone at a Cali
 
 - [Visiting in California](/states/california/guides/visiting/) — CDCR approval process, dress code, scheduling
 - [Mail & Packages](/states/california/guides/mail/) — What you can send and what gets rejected
-- [Phone & Video Calls](/states/california/guides/phone-video/) — GTL accounts, call costs, video visits
+- [Phone & Video Calls](/states/california/guides/phone-video/) — Call costs, tablets, and video visits
 - [Sending Money](/states/california/guides/money/) — How to add funds to a CDCR trust account
 - [Medical & Mental Health](/states/california/guides/medical/) — Healthcare in CDCR facilities
 - [Transfers](/states/california/guides/transfers/) — What happens during transfers

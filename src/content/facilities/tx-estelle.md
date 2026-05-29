@@ -59,16 +59,16 @@ Weekend visiting uses TDCJ's standard scheduling system, but medical and psychia
 - Saturday: 8:00 a.m. - 5:00 p.m.
 - Sunday: 8:00 a.m. - 5:00 p.m.
 
-**Scheduling:** Visits are arranged through the TDCJ Online Visitation Portal at `tdcj.texas.gov`.
+**Scheduling:** Visits are arranged through the TDCJ Online Visitation Portal one to seven days ahead. TDCJ's April 2025 rules treat one visit per visiting cycle as the norm, and the public visitation index says each incarcerated person is allowed one visit per weekend. Remote Securus video visits and tablet visits are separate monthly 60-minute options that do not count against in-person visiting.
 
-**What to bring:** Adult visitors need valid photo identification, and minors or guardianship situations use the paperwork TDCJ requires for statewide visiting.
+**What to bring:** Adult visitors must present a current government-issued photo ID, and TDCJ says at least one identification document must show a current physical address. Children 17 and younger may be asked for identification such as a birth certificate, state ID, or student ID. The approved visitors list is capped at 10 names.
 
-**What's not allowed:** Phones, bags, prohibited clothing, and personal items that do not clear standard TDCJ screening remain outside.
+**What's not allowed:** Phones and smartwatches are prohibited inside the secure perimeter. TDCJ also bars paper money, outside food, cameras, gifts, larger bags, and personal property exchanges. Permitted items are limited to a small wallet or clear bag, up to $35 in coins for vending machines, and infant-care items in a clear plastic bag.
 :::
 
 Medical status, housing status, and treatment movement can change visit eligibility at Estelle more often than at a typical general population unit. A person may be unavailable for a scheduled visit because of treatment, psychiatric placement, infirmary movement, or a transfer tied to medical needs.
 
-That same dynamic affects temporary placements. A person may be at Estelle for evaluation or treatment rather than a long-term assignment, so location records can change during a medical stay. General approval, dress code, and item rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
+That same dynamic affects temporary placements. A person may be at Estelle for evaluation or treatment rather than a long-term assignment, so location records can change during a medical stay. Statewide dress-code rules still apply: TDCJ says clothing cannot be tight, revealing, or see-through; sleeveless tops must still cover the shoulders; shorts and skirts must be no shorter than three inches above the middle of the knee while standing; and visitors are not permitted to wear all white. General approval and item rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
 
 ## Getting There and Parking
 
@@ -86,6 +86,10 @@ Estelle is outside Huntsville on a rural approach road, but the trip still relie
 **Entry:** Check-in takes place at the unit's visitor processing point, where identification review and standard TDCJ screening happen before internal movement begins.
 :::
 
+Public transit in the area is limited. The Brazos Transit District ("The District") serves the broader region, but its fixed-route bus service runs in cities such as Bryan-College Station, Lufkin, and Nacogdoches rather than Huntsville, so no fixed route reaches the unit; demand-response service is requested through the District's dispatch. The FM 3478 approach north of Huntsville is by car.
+
+Hospital and urgent care are in Huntsville rather than near the unit. Huntsville Memorial Hospital on Memorial Hospital Drive operates a 24-hour emergency room and is designated a Level IV trauma center, and a St. Luke's Health freestanding emergency room operates on the I-45 frontage. Texpress Urgent Care on I-45 is a walk-in option.
+
 ## Phones, Mail, and Video
 
 Estelle uses Securus for phone service, and TDCJ lists Securus Video Connect where video visiting is available. Communication patterns can be less predictable here than at a standard permanent-housing unit because housing and treatment status can interrupt access to calls or remote contact.
@@ -96,7 +100,9 @@ Mail routing can also be affected by temporary medical placement. A person who i
 
 Most fuel, food, pharmacies, and hotel options are in Huntsville rather than near the unit entrance. Visitors usually pass the fullest set of services in town before the final FM-road segment north of Huntsville.
 
-Immediate services near the prison are limited. That is the main travel difference between Estelle and the downtown Huntsville Unit even though both are in the same general area.
+Immediate services near the prison are limited. That is the main travel difference between Estelle and the downtown Huntsville Unit even though both are in the same general area. Hotel sites list chain properties along the I-45 corridor in Huntsville, including Holiday Inn Express & Suites Huntsville and Hampton Inn & Suites Huntsville.
+
+For broader family support beyond the unit itself, the Texas Inmate Families Association is a statewide nonprofit focused on education, advocacy, and prison-system navigation resources for families with someone in TDCJ custody.
 
 ## Learn More
 

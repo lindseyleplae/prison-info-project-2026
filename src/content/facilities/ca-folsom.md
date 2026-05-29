@@ -16,7 +16,7 @@ contact:
   mainPhone: "(916) 985-2561"
   visitingOffice: "(916) 985-2561 ext. 4178"
 providers:
-  phone: "ViaPath (GTL)"
+  phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
   days: "Friday-Sunday"
   hours: "7:00 AM - 2:00 PM (Sat-Sun)"
@@ -62,7 +62,7 @@ CDCR posts both the general visiting hours and the walk-in sign-up rules on Fols
 - Saturday-Sunday: 7:00 a.m. - 2:00 p.m.
 - Non-contact visits: one-hour appointments within the posted daily schedule
 
-**Scheduling:** Appointments are handled through the Visitation Scheduling Application at `cdcr.gtlvisitme.com/app`; contact walk-ins are accepted on a space-available basis, but non-contact visits must be pre-scheduled.
+**Scheduling:** Appointments are handled through CDCR's Visitation Scheduling Application (VSA); contact walk-ins are accepted on a space-available basis, but non-contact visits must be pre-scheduled.
 
 **What to bring:** Valid photo ID and any minor paperwork required by CDCR visiting rules.
 
@@ -89,11 +89,17 @@ Folsom State Prison is east of Sacramento in the Represa/Folsom area, reached by
 **Entry:** Processing begins before each visiting window; adults must present identification, and the exact processing location may vary for restricted-housing or non-contact populations.
 :::
 
+Public transit serves the city of Folsom rather than the prison. Sacramento Regional Transit District (SacRT) runs the Gold Line light rail to the Historic Folsom station, and the Folsom Stage Line operates local routes F10 and F20 that connect to the light rail. CDCR does not list transit to the prison at Represa, so the final segment along Prison Road is by car.
+
+Hospital and urgent care are in the city of Folsom. Mercy Hospital of Folsom, a Dignity Health hospital on Creekside Drive, operates an emergency department, and Sutter Health runs a walk-in care clinic in Folsom. Additional hospitals are in nearby Roseville.
+
 ## Nearby Services
 
 Most fuel, food, and hotel options are in Folsom rather than in Represa itself. The largest clusters are along East Bidwell Street, Historic Folsom, and the US-50 corridor before the final drive toward the prison.
 
-Visitors coming from outside Sacramento County often stop in the commercial areas around Folsom or Rancho Cordova before turning onto the smaller local roads near the prison. Those areas offer a broader mix of chain food, grocery, and lodging than the immediate prison approach.
+Visitors coming from outside Sacramento County often stop in the commercial areas around Folsom or Rancho Cordova before turning onto the smaller local roads near the prison. Those areas offer a broader mix of chain food, grocery, and lodging than the immediate prison approach. Hotel sites list chain properties around the Iron Point Road area in Folsom, including Hilton Garden Inn Folsom, Hampton Inn & Suites Folsom, and Larkspur Landing Folsom.
+
+For broader family support beyond the institution itself, Friends Outside is a California nonprofit, operating since 1955, that assists families of incarcerated people and operates visitor centers at state prisons.
 
 ## Learn More
 
@@ -101,7 +107,7 @@ For detailed information about visiting and communicating with someone at a Cali
 
 - [Visiting in California](/states/california/guides/visiting/) — CDCR approval process, dress code, scheduling
 - [Mail & Packages](/states/california/guides/mail/) — What you can send and what gets rejected
-- [Phone & Video Calls](/states/california/guides/phone-video/) — GTL accounts, call costs, video visits
+- [Phone & Video Calls](/states/california/guides/phone-video/) — Call costs, tablets, and video visits
 - [Sending Money](/states/california/guides/money/) — How to add funds to a CDCR trust account
 - [Medical & Mental Health](/states/california/guides/medical/) — Healthcare in CDCR facilities
 - [Transfers](/states/california/guides/transfers/) — What happens during transfers

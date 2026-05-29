@@ -9,8 +9,8 @@ aliases:
   - Walls Unit
 city: Huntsville
 county: Walker
-address: "815 12th Street, Huntsville, TX 77320"
-securityLevel: "Maximum Security"
+address: "815 12th Street, Huntsville, TX 77348"
+securityLevel: "Mixed (G1-G3), Security Detention, and Transient"
 facilityType: "State Prison"
 contact:
   mainPhone: "(936) 437-1555"
@@ -62,16 +62,16 @@ Weekend visiting at the Huntsville Unit follows TDCJ's standard scheduling struc
 - Saturday: 8:00 a.m. - 5:00 p.m.
 - Sunday: 8:00 a.m. - 5:00 p.m.
 
-**Scheduling:** Visits are arranged through the TDCJ Online Visitation Portal at `tdcj.texas.gov`.
+**Scheduling:** Visits are arranged through the TDCJ Online Visitation Portal one to seven days ahead. TDCJ's April 2025 rules treat one visit per visiting cycle as the norm, and the public visitation index says each incarcerated person is allowed one visit per weekend. Remote Securus video visits and tablet visits are separate monthly 60-minute options that do not count against in-person visiting.
 
-**What to bring:** Adult visitors need valid photo identification, and minors or guardianship situations use the paperwork TDCJ requires for statewide visiting.
+**What to bring:** Adult visitors must present a current government-issued photo ID, and TDCJ says at least one identification document must show a current physical address. Children 17 and younger may be asked for identification such as a birth certificate, state ID, or student ID. The approved visitors list is capped at 10 names.
 
-**What's not allowed:** Phones, large bags, prohibited clothing, and personal items that do not clear standard TDCJ screening remain outside.
+**What's not allowed:** Phones and smartwatches are prohibited inside the secure perimeter. TDCJ also bars paper money, outside food, cameras, gifts, larger bags, and personal property exchanges. Permitted items are limited to a small wallet or clear bag, up to $35 in coins for vending machines, and infant-care items in a clear plastic bag.
 :::
 
 TDCJ's normal rules on counts, staffing, and operational restrictions still apply here. The unit's visibility in execution and release operations does not change the statewide approval process, and visiting can still be delayed, shortened, or canceled when prison operations take priority.
 
-The Huntsville Unit is in downtown Huntsville rather than on a remote farm road. Standard TDCJ entry screening still applies. General approval, dress code, and item rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
+The Huntsville Unit is in downtown Huntsville rather than on a remote farm road, but standard TDCJ entry screening still applies. Statewide dress-code and conduct rules fill in the practical details. TDCJ says clothing cannot be tight, revealing, or see-through; sleeveless tops must still cover the shoulders; shorts and skirts must be no shorter than three inches above the middle of the knee while standing; and visitors are not permitted to wear all white. The rules also prohibit photographing buildings, fences, or other parts of the unit. TDCJ says its visitation schedule is updated once daily on weekdays and multiple times per day on visitation days, and unit-wide cancellations are posted on the agency homepage. General approval and item rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
 
 ## Getting There and Parking
 
@@ -89,11 +89,17 @@ The unit is inside Huntsville's street grid a short distance from I-45, so the f
 **Entry:** Check-in takes place through the unit's visiting entrance, where identification review, dress-code review, and standard screening occur before movement into the visiting area.
 :::
 
+Public transit in the area is limited. The Brazos Transit District ("The District") serves the broader region, but its fixed-route bus service runs in cities such as Bryan-College Station, Lufkin, and Nacogdoches rather than Huntsville; demand-response service is requested through the District's dispatch. The unit's downtown location keeps it within the city street grid rather than on a rural approach road.
+
+Hospital and urgent care are in Huntsville. Huntsville Memorial Hospital on Memorial Hospital Drive operates a 24-hour emergency room and is designated a Level IV trauma center, and a St. Luke's Health freestanding emergency room operates on the I-45 frontage. Texpress Urgent Care on I-45 is a walk-in option.
+
 ## Nearby Services
 
-Fuel, restaurants, pharmacies, groceries, and hotels are available in Huntsville and along the I-45 corridor.
+Fuel, restaurants, pharmacies, groceries, and hotels are available in Huntsville and along the I-45 corridor. Hotel sites list chain properties along that corridor, including Holiday Inn Express & Suites Huntsville and Hampton Inn & Suites Huntsville.
 
 That location changes the travel logistics but not the prison process. Nearby parking and commercial services do not affect count procedures, visiting-room capacity, or same-day operational decisions inside the unit.
+
+For broader family support beyond the unit itself, the Texas Inmate Families Association is a statewide nonprofit focused on education, advocacy, and prison-system navigation resources for families with someone in TDCJ custody.
 
 ## Learn More
 

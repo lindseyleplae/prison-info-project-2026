@@ -16,7 +16,7 @@ contact:
   mainPhone: "(559) 992-8800"
   visitingOffice: "(559) 992-8800 ext. 5705"
 providers:
-  phone: "ViaPath (GTL)"
+  phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
   days: "Friday-Monday"
   hours: "8:30 AM - 2:30 PM (Sat-Sun)"
@@ -62,7 +62,7 @@ CDCR's visiting status page separates Corcoran's general schedule from unit-spec
 - Saturday-Sunday: 8:30 a.m. - 2:30 p.m.
 - Monday: 10:55 a.m. - 1:15 p.m. (appointment only)
 
-**Scheduling:** General visits use the Visitation Scheduling Application at `cdcr.gtlvisitme.com/app`; several specialized units and treatment areas require advance coordination.
+**Scheduling:** General visits use CDCR's Visitation Scheduling Application (VSA); several specialized units and treatment areas require advance coordination.
 
 **What to bring:** Valid photo ID and the minor or guardianship paperwork required by CDCR when applicable.
 
@@ -86,14 +86,20 @@ Corcoran is in the western San Joaquin Valley, reached by valley highways and th
 
 **Parking:** Visitor parking is available on-site.
 
-**Entry:** The check-in point depends on the housing area being visited; adults need valid identification and appointment-only populations should have their scheduling status confirmed before travel.
+**Entry:** The check-in point depends on the housing area being visited; adults need valid identification, and appointment-only populations require confirmed scheduling status before travel.
 :::
+
+Local public transit reaches Corcoran through a demand-response service rather than a fixed route. The City of Corcoran operates Corcoran Area Transit, a dial-a-ride whose published fare table includes a "State Prisons" fare, so it serves the institution by advance reservation. Kings Area Regional Transit (KART) covers Hanford, Lemoore, and Avenal but does not run a core route into Corcoran.
+
+Emergency care is in Hanford rather than Corcoran. Corcoran District Hospital closed its emergency room in 2013 and no longer operates an ER, so the nearest 24-hour emergency department is Adventist Health Hanford on Mall Drive, about 20 miles away; major trauma is routed farther north to Community Regional Medical Center in Fresno, the region's Level I trauma center. Adventist Health also runs a walk-in Rapid Care clinic in Hanford.
 
 ## Nearby Services
 
 Corcoran has basic fuel and food options in town, but the larger concentration of restaurants, grocery stores, and hotels is in Hanford. Visitors coming from Fresno or Bakersfield typically pass broader commercial corridors before reaching the final local roads into Corcoran.
 
-That gap matters for overnight travel because lodging choices in Corcoran are limited compared with nearby valley cities. Hanford is the most common nearby service center, with Fresno offering the deepest hotel inventory for longer-distance travelers.
+That gap matters for overnight travel because lodging choices in Corcoran are limited compared with nearby valley cities. Hanford is the most common nearby service center, with Fresno offering the deepest hotel inventory for longer-distance travelers. Hotel sites list chain properties in Hanford, including Best Western Hanford Inn and Comfort Inn Hanford.
+
+For broader family support beyond the institution itself, Friends Outside is a California nonprofit, operating since 1955, that assists families of incarcerated people and operates visitor centers at state prisons.
 
 ## Learn More
 
@@ -101,7 +107,7 @@ For detailed information about visiting and communicating with someone at a Cali
 
 - [Visiting in California](/states/california/guides/visiting/) — CDCR approval process, dress code, scheduling
 - [Mail & Packages](/states/california/guides/mail/) — What you can send and what gets rejected
-- [Phone & Video Calls](/states/california/guides/phone-video/) — GTL accounts, call costs, video visits
+- [Phone & Video Calls](/states/california/guides/phone-video/) — Call costs, tablets, and video visits
 - [Sending Money](/states/california/guides/money/) — How to add funds to a CDCR trust account
 - [Medical & Mental Health](/states/california/guides/medical/) — Healthcare in CDCR facilities
 - [Transfers](/states/california/guides/transfers/) — What happens during transfers

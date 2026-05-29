@@ -16,7 +16,7 @@ contact:
   mainPhone: "(805) 547-7900"
   visitingOffice: "(805) 547-7872"
 providers:
-  phone: "ViaPath (GTL)"
+  phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
   days: "Friday-Sunday"
   hours: "8:45 AM - 3:00 PM (Sat-Sun)"
@@ -62,7 +62,7 @@ CMC posts separate appointment and walk-in windows, with a Friday pause during c
 - Saturday-Sunday: 8:45 a.m. - 3:00 p.m.
 - Walk-ins: Friday 2:30 p.m. - 7:00 p.m.; Saturday-Sunday 11:15 a.m. - 3:00 p.m.
 
-**Scheduling:** Appointments are handled through the Visitation Scheduling Application at `cdcr.gtlvisitme.com/app`; walk-ins are accepted after the appointment windows open and capacity allows.
+**Scheduling:** Appointments are handled through CDCR's Visitation Scheduling Application (VSA); walk-ins are accepted after the appointment windows open and capacity allows.
 
 **What to bring:** Valid photo ID and the certified birth certificate or minor-consent paperwork CDCR requires when a child is visiting.
 
@@ -86,14 +86,20 @@ CMC is on the north side of San Luis Obispo, close to city services compared wit
 
 **Parking:** Visitor parking is available on-site.
 
-**Entry:** Adults need valid identification, and Friday visitors should account for the late-afternoon count pause before resuming check-in.
+**Entry:** Adults need valid identification, and Friday processing pauses for the late-afternoon institutional count before check-in resumes.
 :::
+
+Public transit reaches this institution more directly than at most California prisons. The San Luis Obispo Regional Transit Authority runs RTA Route 12 between San Luis Obispo, Cuesta College, Morro Bay, and Los Osos, and its published schedule lists a "California Men's Colony" call-in stop served on request rather than as a fixed timed stop. The City of San Luis Obispo also runs SLO Transit within the city.
+
+Hospital and urgent care are in San Luis Obispo, a short drive from the institution. Sierra Vista Regional Medical Center is the county's designated trauma center, verified at Level III by the American College of Surgeons, and French Hospital Medical Center operates a 24-hour emergency department. Med Stop Urgent Care on Madonna Road is one of the city's walk-in clinics.
 
 ## Nearby Services
 
 San Luis Obispo has one of the broadest service clusters near any California prison. Fuel, restaurants, groceries, and hotels are concentrated along US-101, the downtown core, and the main commercial streets before the final turn toward Colony Drive.
 
-That proximity makes CMC less isolated than most state prisons. Lodging and food are available within the city itself rather than requiring a detour to a neighboring town, although the prison entrance area is still separate from the main retail corridors.
+That proximity makes CMC less isolated than most state prisons. Lodging and food are available within the city itself rather than requiring a detour to a neighboring town, although the prison entrance area is still separate from the main retail corridors. Hotel sites list chain properties in San Luis Obispo, including SpringHill Suites by Marriott San Luis Obispo, Courtyard by Marriott San Luis Obispo, and Holiday Inn Express San Luis Obispo.
+
+For broader family support beyond the institution itself, Friends Outside is a California nonprofit, operating since 1955, that assists families of incarcerated people and operates visitor centers at state prisons. CMC's visitor processing area includes a Friends Outside waiting area.
 
 ## Learn More
 
@@ -101,7 +107,7 @@ For detailed information about visiting and communicating with someone at a Cali
 
 - [Visiting in California](/states/california/guides/visiting/) — CDCR approval process, dress code, scheduling
 - [Mail & Packages](/states/california/guides/mail/) — What you can send and what gets rejected
-- [Phone & Video Calls](/states/california/guides/phone-video/) — GTL accounts, call costs, video visits
+- [Phone & Video Calls](/states/california/guides/phone-video/) — Call costs, tablets, and video visits
 - [Sending Money](/states/california/guides/money/) — How to add funds to a CDCR trust account
 - [Medical & Mental Health](/states/california/guides/medical/) — Healthcare in CDCR facilities
 - [Transfers](/states/california/guides/transfers/) — What happens during transfers
