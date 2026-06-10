@@ -16,15 +16,18 @@ providers:
   video: "Securus Video Connect"
 visiting:
   days: "Saturday-Sunday"
-  hours: "8:00 AM - 5:00 PM (Sat-Sun)"
+  hours: "8:00 AM - 5:30 PM (Sat-Sun)"
   scheduling: "Visits are scheduled through the TDCJ Online Visitation Portal."
   contactVisits: true
   videoVisits: true
 links:
   official: "https://www.tdcj.texas.gov/unit_directory/e2.html"
-  inmateLocator: "https://offender.tdcj.texas.gov/OffenderSearch/"
-lastVerified: 2026-04-29
-reviewBy: 2026-07-29
+  inmateLocator: "https://inmate.tdcj.texas.gov/InmateSearch/"
+sources:
+  - name: "TDCJ Inmate Rules and Regulations for Visitation (I-218, rev. April 2025)"
+    url: "https://www.tdcj.texas.gov/documents/cid/Inmate_Rules_and_Regulations_for_Visitation_English.pdf"
+lastVerified: 2026-06-09
+reviewBy: 2026-09-09
 ---
 
 :::key-info
@@ -56,19 +59,13 @@ Weekend visiting uses TDCJ's standard scheduling system, but medical and psychia
 
 :::key-info
 **Hours:**
-- Saturday: 8:00 a.m. - 5:00 p.m.
-- Sunday: 8:00 a.m. - 5:00 p.m.
-
-**Scheduling:** Visits are arranged through the TDCJ Online Visitation Portal one to seven days ahead. TDCJ's April 2025 rules treat one visit per visiting cycle as the norm, and the public visitation index says each incarcerated person is allowed one visit per weekend. Remote Securus video visits and tablet visits are separate monthly 60-minute options that do not count against in-person visiting.
-
-**What to bring:** Adult visitors must present a current government-issued photo ID, and TDCJ says at least one identification document must show a current physical address. Children 17 and younger may be asked for identification such as a birth certificate, state ID, or student ID. The approved visitors list is capped at 10 names.
-
-**What's not allowed:** Phones and smartwatches are prohibited inside the secure perimeter. TDCJ also bars paper money, outside food, cameras, gifts, larger bags, and personal property exchanges. Permitted items are limited to a small wallet or clear bag, up to $35 in coins for vending machines, and infant-care items in a clear plastic bag.
+- Saturday: 8:00 a.m. - 5:30 p.m.
+- Sunday: 8:00 a.m. - 5:30 p.m.
 :::
 
 Medical status, housing status, and treatment movement can change visit eligibility at Estelle more often than at a typical general population unit. A person may be unavailable for a scheduled visit because of treatment, psychiatric placement, infirmary movement, or a transfer tied to medical needs.
 
-That same dynamic affects temporary placements. A person may be at Estelle for evaluation or treatment rather than a long-term assignment, so location records can change during a medical stay. Statewide dress-code rules still apply: TDCJ says clothing cannot be tight, revealing, or see-through; sleeveless tops must still cover the shoulders; shorts and skirts must be no shorter than three inches above the middle of the knee while standing; and visitors are not permitted to wear all white. General approval and item rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
+That same dynamic affects temporary placements. A person may be at Estelle for evaluation or treatment rather than a long-term assignment, so location records can change during a medical stay.
 
 ## Getting There and Parking
 

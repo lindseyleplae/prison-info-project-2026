@@ -2,13 +2,9 @@
 import { getCollection } from 'astro:content';
 import { siteConfig, siteNavigation } from '../data/site';
 
-const [guides, states] = await Promise.all([
-  getCollection('national-guides', ({ data }) => !data.draft),
-  getCollection('states', ({ data }) => !data.draft)
-]);
+const guides = await getCollection('national-guides', ({ data }) => !data.draft);
 
 guides.sort((left, right) => (left.data.order ?? 999) - (right.data.order ?? 999) || left.data.title.localeCompare(right.data.title));
-states.sort((left, right) => left.data.title.localeCompare(right.data.title));
 ---
 
 <header class="site-header">
@@ -42,27 +38,7 @@ states.sort((left, right) => left.data.title.localeCompare(right.data.title));
         </div>
       </div>
 
-      <div class="nav-group" data-nav-group>
-        <div class="nav-group__trigger">
-          <a class="nav-link" href="/states/">States</a>
-          <button
-            type="button"
-            class="nav-submenu-toggle"
-            aria-expanded="false"
-            aria-controls="nav-menu-states"
-            data-submenu-toggle
-          >
-            <span class="sr-only">Toggle States submenu</span>
-            <span aria-hidden="true">+</span>
-          </button>
-        </div>
-        <div id="nav-menu-states" class="nav-menu">
-          <a href="/states/" class="nav-menu__view-all">All states</a>
-          {states.map((state) => (
-            <a href={`/states/${state.data.slug}/`}>{state.data.title}</a>
-          ))}
-        </div>
-      </div>
+      <a class="nav-link" href="/states/">States</a>
 
       {siteNavigation.staticLinks.map((link) => (
         <a class="nav-link" href={link.href}>

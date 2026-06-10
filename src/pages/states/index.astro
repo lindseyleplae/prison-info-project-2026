@@ -19,7 +19,7 @@ const facilities = await getCollection('facilities', ({ data }) => !data.draft);
       </p>
     </div>
 
-    <div class="content-width section-card-list">
+    <div class="content-width section-card-list card-grid">
       {states.map((state) => {
         const guideCount = stateGuides.filter((guide) => guide.data.state === state.data.state).length;
         const facilityCount = facilities.filter((facility) => facility.data.state === state.data.state).length;
@@ -34,7 +34,7 @@ const facilities = await getCollection('facilities', ({ data }) => !data.draft);
       })}
     </div>
 
-    <div class="content-width" style="margin-top: var(--space-8);">
+    <div class="content-width page-outro">
       <p class="meta">
         More states coming soon. <a href="/about/">Get in touch</a> if you can help add your state.
       </p>

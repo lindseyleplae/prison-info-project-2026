@@ -6,7 +6,7 @@ It exists because we have repeatedly shipped work that passed every automated ch
 
 ---
 
-## The five rules that override everything else
+## The rules that override everything else
 
 ### 1. Think before you write.
 Before drafting any page, ask: *what would actually be useful to a family member visiting this facility for the first time?* Not "what does the template require." If the template would produce a generic page, the template is wrong, not your judgment. Surface it.
@@ -30,6 +30,46 @@ For any factual claim on a page, you must be able to point to a source. The hier
 3. **No source** — omit. Do not guess. "The parking lot has 47 spots" is wrong if you don't know it. "Parking is available on-site" is fine when verified; "Parking can fill on busy weekends per visitor accounts" is fine when the pattern is observed in family forums.
 
 This is not theoretical: the site is a public reference families rely on during real prison visits. A made-up number that families plan around can cause real harm. When in doubt, leave it out.
+
+---
+
+## Accuracy in practice: point to volatile facts, don't reproduce them
+
+Rule 6 (sourced-or-attributed-never-invented) has an operational corollary, and it's the lesson of the May 2026 California guide rewrite — we deleted ~1,460 lines of unsourced or stale guide prose and replaced them with ~430 sourced lines.
+
+Facts come in two kinds:
+
+- **Stable facts** rarely change: a unit's county, the year it opened, that men's death row is at Polunsky, that the incarcerated person initiates every call. Safe to state directly, with a source.
+- **Volatile facts** rot and cause harm when stale: visiting hours, call and video rates, scheduling rules, vendor names, whether a specific ER is open.
+
+For volatile facts, the safest and most useful page **points to the authoritative source instead of reproducing the value.** "Confirm your facility's current video rate on CDCR's Tablets and Telephones page" ages well; "$0.16/min" is wrong the day the contract changes — which is exactly what the ViaPath-to-Securus transition did to the old pages. Reproducing a volatile number is both an accuracy liability (it rots) and a value dead-end (the reader could already get it from the source). Where a rate or rule genuinely helps, attribute it, date it, and point to the source for confirmation.
+
+**Honesty markers.** When a fact is unknown or unpublished, say so plainly: "The DOC does not publish X — call to confirm." That is a feature, not a gap. It tells the reader exactly where the certainty ends, which is more credible to the caseworkers and nonprofits we want to take this site seriously than confident vagueness. This matters most in low-resource states: when you cannot verify a volatile fact for Alabama or Arkansas the way you can for California, never fill the gap with a guess — state what the source does or does not publish.
+
+**Decay.** `lastVerified` / `reviewBy` (facilities) and `lastReviewed` (guides) are promises. Treat any page past its `reviewBy` date as unverified until re-checked. This is enforced: `npm run check:freshness` fails on overdue pages, and the weekly `content-audit.yml` workflow runs it (plus the external-link check) on a schedule so decay surfaces without anyone remembering to look.
+
+---
+
+## The value test: are we actually more useful than the DOC website?
+
+This section exists because in May 2026 we shipped California guides that were accurate-ish but mostly **repackaged what the DOC already publishes** — and Lindsey asked the right question: *put yourself in the shoes of someone who needs this site. Is it more helpful than the official site, or just a prettier copy?*
+
+Someone in crisis can already find the DOC website. They come here for the things the DOC structurally does not provide. There are four of them; every paragraph should do at least one:
+
+1. **Translation** — compliance language into human language. "The offender shall initiate all telephonic communication" → "You can't call in. The incarcerated person has to call you."
+2. **Sequencing** — the order things happen and how long each step takes. "After intake there is a wait before the approved-contact list is processed; calls usually can't happen until it is." The DOC publishes rules, never the journey.
+3. **On-the-ground knowledge** — the drive, the parking, what gets a visit denied, the named hospital, the closed ER, the nonprofit visitor center. Sourced or attributed per rule 6. Doesn't exist on official sites; our most defensible value.
+4. **"What applies to me"** — which of the forty rules are *this* reader's rules, given relationship, custody level, and facility.
+
+**The litmus:**
+
+> Before keeping any paragraph, ask: could the reader get this, in five minutes, from the DOC page? If yes — if it's just a paraphrase of a published rule — cut it or replace it with the translation / sequence / on-the-ground detail that's missing. A shorter page that adds something beats a long page that echoes the source.
+
+This is why the value test sometimes says *make the page shorter*. **Hand-writing** statewide ID-and-dress-code rules into each facility page is the same mistake in a different costume: prose copied onto 50 pages drifts the moment one page is updated and the rest go stale, and it pads the page with generic boilerplate the author had to maintain by hand.
+
+The fix is not to drop the statewide rules — a self-contained facility page genuinely needs the make-or-break ones (dress code is the #1 reason a visitor is turned away at the door). The fix is to render them from **one source**. `src/data/state-visiting-rules.ts` holds each state's rules once; `<StateVisitingRules>` auto-injects them on every facility page in that state (dress code spelled out in full; ID, items, and scheduling as one-line summaries; all linking to the state guide). The card cannot drift because there is only one copy, and the facility author writes **zero** statewide prose by hand. So: the statewide card carries the shared rules automatically, and you spend the facility page's hand-written words on what's true *only at that facility*. Do **not** re-state dress code, ID, item limits, or the approval process in the body — the card already does.
+
+**Organize around the journey, not the topic.** Topic-siloed pages force a crisis reader to assemble their own path. Where it helps, lead with the reader's real first question — "Is the person here, and how do I reach them?" — and move outward to planning a visit. The template's section order is a default, not a straitjacket (rule 1).
 
 ---
 
@@ -62,11 +102,11 @@ This is a real checklist. Do every item before drafting a single page.
 
 - [ ] Read `CLAUDE.md` — current project rules, design tokens, owner non-negotiables
 - [ ] Read `PLAYBOOK.md` — current step-by-step + the unified facility template
+- [ ] Read `DECISIONS.md` — the judgment calls already made (tone boundaries, dollar-figure rules, sources conventions, design rules)
 - [ ] Read `SPEC.md` — content model and architecture decisions
 - [ ] Read `src/content.config.ts` — the Zod schema. Frontmatter must validate or build fails.
 - [ ] Read `src/lib/remark-content-blocks.mjs` — the supported directive blocks (`:::callout`, `:::key-info`, `:::reality-check`, `:::steps`, `:::cost-table`, `:::quick-facts`)
-- [ ] Read 1-2 existing files of the type you're creating (e.g. for a new facility, read `src/content/facilities/ca-folsom.md` and `ca-cim-chino.md`)
-- [ ] Read `memory/feedback_visual_quality.md` and any other recent feedback memories
+- [ ] Read 1-2 existing files of the type you're creating (e.g. for a new facility, read `src/content/facilities/ca-folsom.md` and `tx-coffield.md`)
 - [ ] Skim the layout file that will render your content (e.g. `src/layouts/FacilityLayout.astro` for facility pages) — know what each frontmatter field becomes in the UI
 
 If you skipped any of these, you are about to repeat someone's prior mistake.
@@ -116,9 +156,9 @@ After Codex finishes, Claude must do all of these. No skipping. No "the gates pa
 - [ ] Check that times, ratios, and any colon-containing text render inline (the parser fix should handle this; verify it still does)
 
 ### Quality gates
-- [ ] `npm run build` — passes, no new warnings
-- [ ] `npm run lint:tone` — passes, no new soft warnings on YOUR files
-- [ ] `npm run check:links` — passes, no broken internal links
+- [ ] `npm run validate` — the full pipeline passes (type check, tone, build, internal links, freshness, strict sources, accessibility), no new soft warnings on YOUR files
+- [ ] `npm run check:external-links` — when you added or changed outbound URLs
+- [ ] `npm run visual-check` — when anything visual could have moved
 
 ### Post-push check
 - [ ] Wait for GitHub Actions to deploy
@@ -296,12 +336,12 @@ The goal is to make every mistake the last time that mistake happens. If the sam
 - Write a precise brief before delegating to Codex
 - Review every file Codex produces, not just the report
 - Build locally and inspect the rendered HTML
-- Run all three quality gates
+- Run the full gate pipeline (`npm run validate`)
 - Verify the live site after deploy
 - For UI/CSS/component changes: actually click and tap the affected interactive elements on a mobile viewport before pushing
 - Keep this file updated as new lessons surface
 
 ---
 
-*Last updated: 2026-04-29 (added UI/CSS interactive verification section after mobile menu and card-overlay bugs)*
+*Last updated: 2026-06-09 (gates consolidated into `npm run validate` + weekly content-audit workflow; judgment calls split out into DECISIONS.md)*
 *Add updates inline as new lessons emerge. This file is the project's institutional memory for scaling.*

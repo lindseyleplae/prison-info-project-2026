@@ -7,7 +7,12 @@ import { prisonContentBlocks } from './src/lib/remark-content-blocks.mjs';
 export default defineConfig({
   output: 'static',
   site: 'https://prisonvisitorguide.org',
-  integrations: [sitemap()],
+  integrations: [
+    sitemap({
+      // Internal style guide — not search-relevant; the page itself is noindex.
+      filter: (page) => !page.includes('/showcase/')
+    })
+  ],
   markdown: {
     remarkPlugins: [remarkGfm, remarkDirective, prisonContentBlocks],
     syntaxHighlight: 'shiki'

@@ -4,7 +4,12 @@ slug: visiting-basics
 description: "How prison visiting works in the United States — the general rules, what to expect, and how to prepare"
 summary: "How prison visiting works in the United States — the general rules, what to expect, and how to prepare"
 order: 1
-lastReviewed: 2026-03-29
+sources:
+  - name: "Federal Bureau of Prisons — Visiting"
+    url: "https://www.bop.gov/inmates/visiting.jsp"
+  - name: "Federal Bureau of Prisons — Inmate Locator"
+    url: "https://www.bop.gov/inmateloc/"
+lastReviewed: 2026-06-09
 ---
 
 ## Types of Facilities
@@ -40,7 +45,7 @@ The most common type. You visit in the visitation room, typically separated from
 
 ### Video Visits (Remote Visitation)
 
-Conducted over a video call system. You visit from a designated video visitation kiosk (often at a facility visiting room or partner location) or sometimes from home, depending on the facility. Useful when distance makes in-person visits difficult. Usually costs money per visit (typically $5-15).
+Conducted over a video call system. You visit from a designated video visitation kiosk (often at a facility visiting room or partner location) or sometimes from home, depending on the facility. An alternative when distance limits in-person visits. Most systems charge per visit or per minute; some offer free allowances. The provider that serves the facility posts current pricing.
 
 ### Phone Visits
 
@@ -102,7 +107,7 @@ Security is the main concern. Facilities strictly control what enters, because i
 
 :::key-info{title="Usually ALLOWED"}
 -   Government-issued ID (required)
--   Cash (for vending machines, in amounts the facility specifies—often $50-100 max)
+-   Cash (for vending machines, in amounts and denominations the facility specifies)
 -   Wedding ring or simple watch (policies vary)
 -   Eyeglasses
 :::
@@ -117,14 +122,14 @@ Security is the main concern. Facilities strictly control what enters, because i
 -   Books or reading materials (often prohibited)
 -   Cameras
 -   Perfume or cologne (sometimes—may be contraband)
--   Gum (surprisingly often prohibited)
+-   Gum (often prohibited)
 -   Outside food or drinks
 :::
 
 **This list is not exhaustive and varies by facility.** Before you visit, ask specifically what you're allowed to bring. Most facilities provide a detailed list on their website or when you call.
 
 :::callout{variant="warning"}
-**Important:** If you bring something prohibited, you'll be turned away. There's usually nowhere to leave items—you may have to take them back to your car or throw them away. Plan accordingly.
+**Important:** If you bring something prohibited, you'll be turned away. There's usually nowhere to leave items—you may have to take them back to your car or throw them away.
 :::
 
 ## Visiting Hours and Scheduling
@@ -170,7 +175,7 @@ Visiting rooms typically have hard seating, variable lighting, and inconsistent 
 
 ## State-Specific Variations
 
-Everything in this guide covers general principles that apply across most facilities. However, **specific rules vary significantly by state and even by individual facilities.** Before your first visit, you absolutely must check your state's specific page for details on:
+Everything in this guide covers general principles that apply across most facilities. However, **specific rules vary significantly by state and even by individual facilities.** Before a first visit, check the state's specific page for details on:
 
 -   Exact dress code rules
 -   What items are prohibited
@@ -180,7 +185,7 @@ Everything in this guide covers general principles that apply across most facili
 -   What ID you need to bring
 -   Any additional restrictions or special rules
 
-**Visit your state's page:** [California](/states/california/) (More states coming soon)
+**Visit your state's page:** [Browse all states](/states/)
 
 :::callout{variant="warning"}
 **Always call the specific facility before your first visit.** Individual prisons may have different rules than the state average, and policies change. A 10-minute phone call can prevent you from being turned away.

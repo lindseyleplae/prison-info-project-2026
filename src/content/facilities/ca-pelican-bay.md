@@ -25,6 +25,9 @@ visiting:
 links:
   official: "https://www.cdcr.ca.gov/facility-locator/pbsp/"
   inmateLocator: "https://ciris.mt.cdcr.ca.gov/"
+sources:
+  - name: "CDCR Visitation"
+    url: "https://www.cdcr.ca.gov/visitors/"
 lastVerified: 2026-04-28
 reviewBy: 2026-07-28
 ---
@@ -63,10 +66,6 @@ Pelican Bay uses one schedule for most general visiting and another for RHU visi
 - RHU: Friday 12:00 p.m. - 3:00 p.m.; Saturday-Sunday 8:15 a.m. - 11:15 a.m.
 
 **Scheduling:** General appointments are arranged through CDCR's Visitation Scheduling Application (VSA); RHU visits are scheduled only, while some general population housing areas accept walk-ins.
-
-**What to bring:** Valid photo ID and any required minor or guardianship documents under CDCR rules.
-
-**What's not allowed:** Phones, large bags, prohibited attire, and walk-in requests for RHU visiting.
 :::
 
 CDCR says walk-in visits are available only for designated general population housing areas. The institution's visiting page also notes that restricted or modified-program housing can affect which groups are eligible for in-person visiting on a given day.

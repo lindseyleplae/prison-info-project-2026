@@ -6,6 +6,12 @@ topic: phone-video
 relatedNationalGuide: staying-in-touch
 system: TDCJ
 description: "Phone call rates, video visit options, tablet messaging, and how to set up communication with someone in a TDCJ unit."
+sources:
+  - name: "TexasPrisonPhone.com (Securus — TDCJ telephone vendor)"
+    url: "https://texasprisonphone.com"
+  - name: "TDCJ Offender Orientation Handbook"
+    url: "https://www.tdcj.texas.gov/documents/Offender_Orientation_Handbook_English.pdf"
+  - name: "Texas Government Code § 495.027"
 lastReviewed: 2026-03-29
 ---
 

@@ -6,20 +6,20 @@ The site auto-deploys to GitHub Pages on every push to `main`. Workflow lives at
 
 **Pipeline:**
 1. Checkout code
-2. Install dependencies (`npm ci`)
-3. Run quality gates: `npm run lint:tone`, `npm run build`, `npm run check:links`
+2. Install dependencies (`npm ci`) plus a Playwright browser (for the accessibility check)
+3. Run quality gates: `npm run check`, `npm run lint:tone`, `npm run build`, `npm run check:links`, `REQUIRE_SOURCES=1 npm run check:sources`, `npm run check:a11y`
 4. Upload `dist/` to GitHub Pages
 5. Deploy
 
 If any quality check fails, deploy is blocked. The site stays at the last known-good version.
 
+A second workflow, `.github/workflows/content-audit.yml`, runs weekly (Mondays) and on demand. It checks `npm run check:freshness` (pages past their `reviewBy` date) and `npm run check:external-links` (outbound DOC/source links still respond). These fail because time passed, not because of a push, so they alert without blocking deploys. A red weekly run means: re-verify the flagged pages or fix the dead link.
+
 ## Current URLs
 
 - **GitHub repo:** https://github.com/lindseyleplae/prison-info-project-2026
-- **GitHub Pages URL (temporary):** https://lindseyleplae.github.io/prison-info-project-2026/
-- **Custom domain (planned):** https://prisonvisitorguide.org
-
-The github.io URL won't render assets correctly because the Astro `site` config points at `prisonvisitorguide.org`. Don't worry — that's by design. Once the custom domain is connected, everything works.
+- **Live site:** https://prisonvisitorguide.org
+- **GitHub Pages URL:** https://lindseyleplae.github.io/prison-info-project-2026/ (redirects to the custom domain)
 
 ## Setting Up the Custom Domain (Lindsey's Steps)
 

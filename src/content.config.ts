@@ -42,7 +42,6 @@ const nationalGuides = defineCollection({
       description: z.string().trim().min(1).optional(),
       summary: z.string().trim().min(1).optional(),
       order: z.number().int().positive().optional(),
-      relatedTopics: z.array(slugField).optional(),
       sources: z.array(sourceField).optional(),
       lastReviewed: z.coerce.date().optional(),
       draft: z.boolean().optional().default(false)
@@ -130,6 +129,7 @@ const facilities = defineCollection({
         .passthrough()
         .optional(),
       links: linkField.optional(),
+      sources: z.array(sourceField).optional(),
       lastVerified: z.coerce.date(),
       reviewBy: z.coerce.date(),
       draft: z.boolean().optional().default(false)

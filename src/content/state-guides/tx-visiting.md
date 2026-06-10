@@ -6,6 +6,11 @@ topic: visiting
 relatedNationalGuide: visiting-basics
 system: TDCJ
 description: "How to get approved, schedule visits, and what to expect at TDCJ units."
+sources:
+  - name: "TDCJ Inmate Rules and Regulations for Visitation (I-218, rev. April 2025)"
+    url: "https://www.tdcj.texas.gov/documents/cid/Inmate_Rules_and_Regulations_for_Visitation_English.pdf"
+  - name: "TDCJ Online Visitation Portal"
+    url: "https://visitation.tdcj.texas.gov/"
 lastReviewed: 2026-03-29
 ---
 
@@ -78,6 +83,7 @@ TDCJ allows special or extended visits in limited circumstances.
 -   Visitors traveling 250 miles or more one way may request an extended visit.
 -   Extended visits may last up to four hours if time and space allow.
 -   Only one special visit is normally allowed each month.
+-   Split visits may be approved in one- or two-hour increments when requested at check-in, though a person is not normally scheduled for both a contact visit and a general visit on the same day or in the same week.
 -   Other special cases include terminal illness, hospice status, critically ill incarcerated people, and some accessibility accommodations.
 
 :::callout{variant="warning"}
@@ -94,7 +100,9 @@ TDCJ's dress code is enforced at the unit level. The duty warden makes the final
 -   Sleeveless shirts and dresses are allowed only if the shoulders remain covered.
 -   Shorts and skirts must be no shorter than three inches above the middle of the knee while standing.
 -   Clothing with profane or offensive pictures or language is not allowed.
--   White clothing is not formally banned in the dress-code page, but many visitors avoid all-white clothing because incarcerated people commonly wear white.
+-   Sandals, flip-flops, and open-toe shoes are allowed.
+-   Visitors are not permitted to wear all-white clothing, because incarcerated people wear white.
+-   A paper gown is made available to a visitor who does not meet the dress code.
 
 :::reality-check
 Dress code enforcement is not identical at every unit or every check-in station. A backup shirt or different pair of pants in the vehicle reduces the chance of a denied entry.
@@ -106,7 +114,7 @@ TDCJ allows very few items inside the secure perimeter.
 
 ### Permitted items
 
--   Current government-issued photo ID for adult visitors
+-   A current government-issued photo ID for each adult visitor age 18 or older; at least one ID document must show a current physical address
 -   A small wallet, clear plastic bag, or change purse
 -   Up to $35 in coins for vending machines
 -   For visitors with infants or small children: up to three diapers, baby wipes, and two bottles or a toddler cup in a clear plastic bag
@@ -127,6 +135,7 @@ Do not carry a cell phone inside the secure perimeter. TDCJ prohibits phones dur
 Children can visit if they meet the identification and supervision rules.
 
 -   A child must be accompanied by an approved adult visitor unless the unit approves a hardship exception.
+-   A child age 17 or younger may be asked to show identification, such as a birth certificate, state or DPS ID, or student ID, if the child's age is not obvious. A student ID may be used only by a visitor age 17 or younger.
 -   Children under 18 do not count toward the two-adult maximum.
 -   The number of children allowed depends on available space and the adult's ability to supervise them.
 -   Some incarcerated people are barred from contact visits with minors because of offense-based restrictions. In those cases, only non-contact visits may be permitted.

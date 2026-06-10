@@ -6,6 +6,11 @@ topic: medical
 relatedNationalGuide: know-your-rights
 system: TDCJ
 description: "How medical care works in TDCJ units, co-pay costs, the grievance process, and what families can do."
+sources:
+  - name: "TDCJ Health Services Division"
+    url: "https://www.tdcj.texas.gov/divisions/hsd/"
+  - name: "TDCJ Offender Orientation Handbook"
+    url: "https://www.tdcj.texas.gov/documents/Offender_Orientation_Handbook_English.pdf"
 lastReviewed: 2026-03-29
 ---
 

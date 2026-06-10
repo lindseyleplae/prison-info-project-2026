@@ -19,15 +19,18 @@ providers:
   video: "Securus Video Connect"
 visiting:
   days: "Saturday-Sunday"
-  hours: "8:00 AM - 5:00 PM (Sat-Sun)"
+  hours: "8:00 AM - 5:30 PM (Sat-Sun)"
   scheduling: "Visits are scheduled through the TDCJ Online Visitation Portal."
   contactVisits: true
   videoVisits: true
 links:
   official: "https://www.tdcj.texas.gov/unit_directory/hv.html"
-  inmateLocator: "https://offender.tdcj.texas.gov/OffenderSearch/"
-lastVerified: 2026-04-29
-reviewBy: 2026-07-29
+  inmateLocator: "https://inmate.tdcj.texas.gov/InmateSearch/"
+sources:
+  - name: "TDCJ Inmate Rules and Regulations for Visitation (I-218, rev. April 2025)"
+    url: "https://www.tdcj.texas.gov/documents/cid/Inmate_Rules_and_Regulations_for_Visitation_English.pdf"
+lastVerified: 2026-06-09
+reviewBy: 2026-09-09
 ---
 
 :::key-info
@@ -59,19 +62,13 @@ Weekend visiting at the Huntsville Unit follows TDCJ's standard scheduling struc
 
 :::key-info
 **Hours:**
-- Saturday: 8:00 a.m. - 5:00 p.m.
-- Sunday: 8:00 a.m. - 5:00 p.m.
-
-**Scheduling:** Visits are arranged through the TDCJ Online Visitation Portal one to seven days ahead. TDCJ's April 2025 rules treat one visit per visiting cycle as the norm, and the public visitation index says each incarcerated person is allowed one visit per weekend. Remote Securus video visits and tablet visits are separate monthly 60-minute options that do not count against in-person visiting.
-
-**What to bring:** Adult visitors must present a current government-issued photo ID, and TDCJ says at least one identification document must show a current physical address. Children 17 and younger may be asked for identification such as a birth certificate, state ID, or student ID. The approved visitors list is capped at 10 names.
-
-**What's not allowed:** Phones and smartwatches are prohibited inside the secure perimeter. TDCJ also bars paper money, outside food, cameras, gifts, larger bags, and personal property exchanges. Permitted items are limited to a small wallet or clear bag, up to $35 in coins for vending machines, and infant-care items in a clear plastic bag.
+- Saturday: 8:00 a.m. - 5:30 p.m.
+- Sunday: 8:00 a.m. - 5:30 p.m.
 :::
 
 TDCJ's normal rules on counts, staffing, and operational restrictions still apply here. The unit's visibility in execution and release operations does not change the statewide approval process, and visiting can still be delayed, shortened, or canceled when prison operations take priority.
 
-The Huntsville Unit is in downtown Huntsville rather than on a remote farm road, but standard TDCJ entry screening still applies. Statewide dress-code and conduct rules fill in the practical details. TDCJ says clothing cannot be tight, revealing, or see-through; sleeveless tops must still cover the shoulders; shorts and skirts must be no shorter than three inches above the middle of the knee while standing; and visitors are not permitted to wear all white. The rules also prohibit photographing buildings, fences, or other parts of the unit. TDCJ says its visitation schedule is updated once daily on weekdays and multiple times per day on visitation days, and unit-wide cancellations are posted on the agency homepage. General approval and item rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
+The Huntsville Unit is in downtown Huntsville rather than on a remote farm road, but standard TDCJ entry screening still applies. The statewide rules above — approval, ID, prohibited items, and dress code — apply here, with full details in [Visiting in Texas](/states/texas/guides/visiting/).
 
 ## Getting There and Parking
 

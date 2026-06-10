@@ -6,6 +6,13 @@ topic: medical
 relatedNationalGuide: know-your-rights
 system: CDCR
 description: "How medical, dental, and mental health care work in California state prisons, including the no-co-pay rule, mental health levels of care, and the grievance process."
+sources:
+  - name: "California Correctional Health Care Services (CCHCS)"
+    url: "https://cchcs.ca.gov/"
+  - name: "CDCR Office of the Ombudsman"
+    url: "https://www.cdcr.ca.gov/ombuds/"
+  - name: "California Code of Regulations, Title 15"
+    url: "https://www.cdcr.ca.gov/regulations/"
 lastReviewed: 2026-05-28
 ---
 

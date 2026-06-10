@@ -38,6 +38,7 @@ for (const state of states) {
     <section class="search-panel content-width">
       <form class="search-tools" id="facility-directory-form">
         <div class="search-row">
+          <label class="sr-only" for="facility-directory-query">Search by facility name or city</label>
           <input
             class="search-input"
             id="facility-directory-query"
@@ -45,6 +46,7 @@ for (const state of states) {
             type="search"
             placeholder="Search by facility name or city"
           />
+          <label class="sr-only" for="facility-directory-state">Filter by state</label>
           <select class="search-select" id="facility-directory-state" name="state">
             <option value="">All states</option>
             {states.map((state) => (

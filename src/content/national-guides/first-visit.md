@@ -4,7 +4,10 @@ slug: first-visit
 description: "A realistic walkthrough of what your first prison visit looks like, from start to finish"
 summary: "A realistic walkthrough of what your first prison visit looks like, from start to finish"
 order: 2
-lastReviewed: 2026-03-29
+sources:
+  - name: "Federal Bureau of Prisons — Visiting"
+    url: "https://www.bop.gov/inmates/visiting.jsp"
+lastReviewed: 2026-06-09
 ---
 
 ## Before Your First Visit
@@ -168,5 +171,5 @@ After the first visit, common next steps include:
 -   **Visit again:** Most visitors find the second visit easier. You know what to expect now.
 -   **Explore other ways to stay in touch:** Read our guide on [Staying in Touch](/guides/staying-in-touch/) to learn about phone calls, video visits, and written letters.
 -   **Learn about other practical topics:** Read our guides on [Sending Money](/guides/sending-money/) and [Know Your Rights](/guides/know-your-rights/).
--   **Check your state's specific information:** Visit your state's page for facility-specific details and resources. [California](/states/california/) (More states coming soon)
+-   **Check your state's specific information:** Visit the state's page for facility-specific details and resources. [Browse all states](/states/)
 -   **Connect with others:** Consider looking for support groups or communities for people visiting incarcerated loved ones. Talking with others who understand can be really helpful.

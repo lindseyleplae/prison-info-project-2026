@@ -1,7 +1,9 @@
 # Tasks
 
 ## Active
+- [ ] **Add Alabama and Arkansas** — next two states (base plan complete, awaiting go-ahead)
 - [ ] **First user feedback** — share live URL (https://prisonvisitorguide.org)
+- [ ] **Refresh visual baselines** — pending Lindsey sign-off (stale since the feedback-section and navigation changes)
 
 ## Someday
 - [ ] **Add Florida** — Large prison system, high demand
@@ -10,11 +12,14 @@
 - [ ] **Expand Texas facilities** — ~97 of 101 TDCJ units still need pages
 - [ ] **Real content for Tools** — First Visit Checklist + Phone/Video Setup are placeholders
 - [ ] **Add Wikimedia Commons facility photos**
-- [ ] **Set up correction/update process** — public-facing way to submit corrections
-- [ ] **Add "last verified" date display visible on every page**
-- [ ] **Source citations on guides** — link to official DOC sources
 
 ## Done
+- [x] ~~Pre-scale perfection pass: content consistency audit, WCAG AA enforcement (check:a11y), CI gate expansion, weekly content-audit workflow, DECISIONS.md~~ (Jun 2026)
+- [x] ~~Navigation & IA for 50-state scale (header/footer/state grids)~~ (Jun 2026)
+- [x] ~~Source citations on guides + facilities (sources frontmatter, Sources component, strict check:sources gate)~~ (May 2026)
+- [x] ~~Correction path — "suggest a correction" feedback section on every page~~ (May 2026)
+- [x] ~~Last reviewed/verified dates displayed on guides and facility pages~~ (May 2026)
+- [x] ~~Freshness checker (check:freshness) for overdue facility pages~~ (May 2026)
 - [x] ~~Full Astro rebuild from static HTML~~ (Mar 2026)
 - [x] ~~California: 6 state guides + 2 facilities migrated~~ (Mar 2026)
 - [x] ~~Texas: 6 state guides + 4 facilities added as second state~~ (Mar 2026)

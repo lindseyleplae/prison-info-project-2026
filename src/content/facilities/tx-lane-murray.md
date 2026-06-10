@@ -25,7 +25,10 @@ visiting:
   videoVisits: true
 links:
   official: "https://www.tdcj.texas.gov/unit_directory/lm.html"
-  inmateLocator: "https://offender.tdcj.texas.gov/OffenderSearch/"
+  inmateLocator: "https://inmate.tdcj.texas.gov/InmateSearch/"
+sources:
+  - name: "TDCJ Inmate Rules and Regulations for Visitation (I-218, rev. April 2025)"
+    url: "https://www.tdcj.texas.gov/documents/cid/Inmate_Rules_and_Regulations_for_Visitation_English.pdf"
 lastVerified: 2026-04-29
 reviewBy: 2026-07-29
 ---
@@ -61,19 +64,9 @@ Murray uses TDCJ's statewide visitor-list and portal system, but the unit's cust
 :::key-info
 **Hours:**
 - Saturday-Sunday: 8:00 a.m. - 5:30 p.m. (covers contact, regular, and restricted visiting per TDCJ's published schedule)
-- Standard visit length: two hours, beginning when both the incarcerated person and visitor are present
-- Extended visits: up to four hours may be approved for people traveling more than 250 miles one way, if time and space allow
-
-**Scheduling:** Visits are arranged through the TDCJ Online Visitation Portal one to seven days ahead. TDCJ's April 2025 visitation rules say one visit per visiting cycle is the normal rule, and the public visitation index says each inmate is only allowed one visit per weekend. Remote Securus video visits and tablet visits are separate monthly 60-minute options and do not count against in-person visiting.
-
-**What to bring:** Adult visitors must present a current government-issued photo ID. TDCJ says at least one identification document must show a current physical address. Children 17 and younger may be asked for identification such as a birth certificate, state ID, or student ID. The approved visitors list is capped at 10 names.
-
-**What's not allowed:** Phones and smartwatches are prohibited inside the secure perimeter. TDCJ also bars paper money, outside food, cameras, gifts, larger bags, and personal property exchanges. Permitted items are limited to a small wallet or clear bag, up to $35 in coins for vending machines, and infant-care items in a clear plastic bag.
 :::
 
-TDCJ's current rules also clarify how minors and split visits work. Children age 17 and younger normally visit with an approved adult, while hardship visits may allow some 16- and 17-year-olds to visit an incarcerated parent or legal guardian without an accompanying adult. The same April 2025 rules allow split visits in one- or two-hour increments when requested at check-in, but state that an incarcerated person is not normally scheduled for both a contact visit and a general visit on the same day or during the same week.
-
-Dress-code and conduct rules are statewide, but they matter at unit level because the duty warden makes the final decision on entry. TDCJ says clothing cannot be tight, revealing, or see-through; sleeveless tops must still cover the shoulders; shorts and skirts must be no shorter than three inches above the middle of the knee while standing; and visitors are not permitted to wear all white. The rules also prohibit photographing buildings, fences, or other parts of the unit, and they do not allow visitors to leave the prison with gifts or other unapproved items from the incarcerated person. TDCJ says its visitation schedule is updated once daily during weekdays and multiple times per day on visitation days, and unit-wide cancellations are posted on the agency homepage. General statewide rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
+The statewide rules above — approval, ID, prohibited items, and dress code — apply at Murray, and the duty warden makes the final decision on entry. Full details, including how minors, split visits, and extended visits work, are in [Visiting in Texas](/states/texas/guides/visiting/).
 
 ## Getting There and Parking
 

@@ -25,6 +25,9 @@ visiting:
 links:
   official: "https://www.cdcr.ca.gov/facility-locator/ciw/"
   inmateLocator: "https://ciris.mt.cdcr.ca.gov/"
+sources:
+  - name: "CDCR Visitation"
+    url: "https://www.cdcr.ca.gov/visitors/"
 lastVerified: 2026-04-28
 reviewBy: 2026-07-28
 ---
@@ -63,10 +66,6 @@ CIW posts appointment, walk-in, and weather-related visiting information on its 
 - Walk-ins: after scheduled visitors are processed, space permitting
 
 **Scheduling:** Appointments are made through CDCR's Visitation Scheduling Application (VSA); walk-ins are first come, first served after the appointment queue.
-
-**What to bring:** Valid photo ID and the certified birth certificate, guardianship papers, or notarized minor-consent form required by CDCR when a minor is visiting.
-
-**What's not allowed:** Phones, staff parking use, prohibited attire, and metal-heavy accessories that can delay or block processing.
 :::
 
 CDCR says walk-in visitors are not processed until all scheduled visitors have been handled, and walk-in entry is not guaranteed when space is limited. The institution also notes that quarantine, isolation, or modified housing status can affect whether some incarcerated people are eligible for visiting on a given day.

@@ -1,0 +1,48 @@
+---
+// Renders the shared, single-source statewide visiting rules for a facility's
+// state (see src/data/state-visiting-rules.ts). Hybrid density: dress code
+// spelled out, other rules summarized, with a link to the full state guide.
+// Renders nothing if the state has no entry yet, so new states degrade
+// gracefully instead of showing a broken or empty block.
+import { stateVisitingRules } from '../data/state-visiting-rules';
+
+const { state } = Astro.props as { state: string };
+const rules = stateVisitingRules[state];
+---
+
+{rules && (
+  <aside class="key-info statewide-rules" aria-label="Statewide visiting rules">
+    <p class="key-info-label">{rules.title}</p>
+    <p class="statewide-rules__intro">
+      These rules are set by {rules.system} and apply at every unit. The full
+      list — including all permitted and prohibited items and the approval
+      process — is in <a href={rules.guideHref}>{rules.guideLabel}</a>.
+    </p>
+
+    <p class="statewide-rules__subhead">Dress code</p>
+    <ul class="statewide-rules__dress">
+      {rules.dressCode.map((rule) => (
+        <li>{rule}</li>
+      ))}
+    </ul>
+
+    <dl class="statewide-rules__short">
+      <div>
+        <dt>ID</dt>
+        <dd>{rules.idRule}</dd>
+      </div>
+      <div>
+        <dt>What to bring</dt>
+        <dd>{rules.itemsRule}</dd>
+      </div>
+      <div>
+        <dt>Scheduling</dt>
+        <dd>{rules.schedulingRule}</dd>
+      </div>
+    </dl>
+
+    <p class="statewide-rules__more">
+      <a href={rules.guideHref}>Full statewide rules: {rules.guideLabel}</a>
+    </p>
+  </aside>
+)}

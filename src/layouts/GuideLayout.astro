@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Sources from '../components/Sources.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import { createBreadcrumbStructuredData } from '../lib/seo';
 
@@ -10,18 +11,25 @@ type Heading = {
   text: string;
 };
 
+type Source = { name: string; url?: string };
+type RelatedGuide = { title: string; href: string };
+
 const {
   title,
   description,
   headings = [],
   stateLabel,
-  lastReviewed
+  lastReviewed,
+  sources = [],
+  relatedNationalGuide
 } = Astro.props as {
   title: string;
   description?: string;
   headings?: Heading[];
   stateLabel?: string;
   lastReviewed?: Date;
+  sources?: Source[];
+  relatedNationalGuide?: RelatedGuide;
 };
 
 const breadcrumbItems = [
@@ -50,6 +58,13 @@ const breadcrumbItems = [
         {lastReviewed && <p class="meta">Last reviewed: {lastReviewed.toISOString().slice(0, 10)}</p>}
       </header>
       <slot />
+      {relatedNationalGuide && (
+        <p class="related-guide">
+          For the general, nationwide overview of this topic, see the national guide:{' '}
+          <a href={relatedNationalGuide.href}>{relatedNationalGuide.title}</a>.
+        </p>
+      )}
+      <Sources sources={sources} />
     </article>
 
     <div class="guide-sidebar">

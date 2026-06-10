@@ -4,7 +4,11 @@ slug: staying-in-touch
 description: "Phone calls, video visits, email, and mail — all the ways to communicate and what they cost"
 summary: "Phone calls, video visits, email, and mail — all the ways to communicate and what they cost"
 order: 3
-lastReviewed: 2026-03-29
+sources:
+  - name: "Federal Communications Commission — Incarcerated People's Communications Services"
+  - name: "Prison Policy Initiative"
+    url: "https://www.prisonpolicy.org/"
+lastReviewed: 2026-06-09
 ---
 
 ## Communication Options Overview
@@ -13,7 +17,7 @@ There are several ways to stay in touch with someone who is incarcerated, each w
 
 :::key-info{title="Quick Facts"}
 -   Most prison phone calls go through three major service providers: GTL/ViaPath, Securus/ICSolutions, and JPay
--   Phone costs vary dramatically by state and provider—from as low as $0.05 per minute to over $1.00 per minute
+-   Phone rates vary by facility and provider; federal rate caps adopted in 2024 are being phased in (see Federal Regulation of Prison Phone Rates below)
 -   Video visits offer an alternative to in-person visitation and are offered by most facilities, though they also carry fees
 -   Email and tablet messaging are increasingly available, though access varies by facility
 -   Traditional mail is the cheapest option but can take weeks to reach an incarcerated person
@@ -46,30 +50,20 @@ There are generally two ways to pay for calls:
 
 ### Phone Call Costs
 
-This is where the variation becomes significant. Prison phone rates are not federally regulated in all states, leading to huge disparities. According to advocacy groups, rates can range from $0.05 per minute in some states to $1.29 per minute or higher in others.
+Historically, per-minute rates varied widely between states and providers, and advocacy groups such as the Prison Policy Initiative documented communication costs as one of the largest ongoing expenses for families of incarcerated people. Federal rate caps adopted in 2024 are changing this picture as they phase in (see Federal Regulation of Prison Phone Rates below), and some states have gone further — California, for example, made voice calls from state prisons free.
 
-:::cost-table
-| Provider/State | Estimated Per-Minute Rate (Domestic) | Additional Fees |
-| --- | --- | --- |
-| Lowest-cost states (regulated) | $0.05 - $0.21 | Minimal or none |
-| Mid-range (typical) | $0.50 - $0.75 | Connection fees ($0.50-$2.00) |
-| Higher-cost states | $0.90 - $1.29+ | Connection fees, deposit fees |
-| International calls (any provider) | $1.00 - $3.00+ | Often much higher |
-:::
-
-A 15-minute call could cost anywhere from $0.75 in a low-cost state to $20 or more in a high-cost state with added fees. Many visitors report that phone costs become one of the largest expenses related to incarceration.
+Because the caps, state policies, and provider contracts are all in transition, the rate at a specific facility is the only reliable figure. The facility's provider posts current rates when an account is set up, and the state guides on this site carry sourced rates where the corrections department publishes them.
 
 :::reality-check{title="Additional charges and limitations"}
--   **Connection fees:** Many providers charge $0.50 to $2.00 per call in addition to per-minute rates
--   **Account maintenance fees:** Some prepaid accounts charge monthly maintenance fees
+-   **Account and funding fees:** Some providers charge fees to fund or maintain an account, separate from the per-minute rate
 -   **Call quality issues:** Dropped calls, poor audio quality, and interrupted calls are common. These are not typically refunded
--   **Minimum deposits:** Accounts may require minimum deposits of $25-$50
+-   **Minimum deposits:** Accounts may require a minimum deposit
 -   **Account expiration:** Some accounts expire if not used within a specified timeframe, and unused balances may be forfeited
 -   **Call termination:** Calls may be cut off at facility time limits without advance notice
 :::
 
 :::callout{variant="warning"}
-**Check your state's rates:** Prison phone rates vary dramatically by state. Find your state-specific information for typical costs at your facility.
+**Confirm the rate before funding an account:** Rates differ by facility and are changing as federal caps phase in. The provider that serves the facility posts its current rates and fees.
 :::
 
 ## Video Visits
@@ -94,7 +88,7 @@ Video visit setup varies by facility and provider:
 
 ### Video Visit Costs
 
-Video visit fees are separate from phone call charges. Costs typically range from $0.05 per minute to $1.00+ per minute, depending on the provider and facility. Some facilities offer a package rate (e.g., $10 for 30 minutes). Video visits are often more expensive than phone calls per minute but can be cheaper overall if they replace multiple shorter calls.
+Video visit fees are separate from phone call charges. Pricing models vary by provider and facility — some charge per minute, others charge a flat fee per session, and some systems include a free allowance. The provider's website shows the price for a specific facility before a visit is booked, and the state guides on this site carry sourced rates where the corrections department publishes them.
 
 ### Requirements
 
@@ -122,7 +116,7 @@ If a facility offers electronic messaging, you can send messages (similar to ema
 Email and messaging services vary:
 
 -   Some facilities offer limited free messaging
--   Others charge per message ($0.25-$0.50)
+-   Others charge a small fee per message, set by the provider
 -   Some use a subscription model (monthly fee for unlimited messaging)
 
 :::callout{variant="tip"}
@@ -180,31 +174,23 @@ Expect 1-3 weeks for mail to reach someone who is incarcerated, depending on loc
 **Keep it simple:** Use plain envelopes, plain paper, and clear language. The simpler your mail, the less likely it is to be rejected.
 :::
 
-## Recent Changes in Prison Phone Rates
+## Federal Regulation of Prison Phone Rates
 
-### The FCC's Actions
+### The FCC's Rate Caps
 
-In 2023, the Federal Communications Commission (FCC) voted to regulate prison phone rates for the first time in decades. This is a significant development:
+The Martha Wright-Reed Just and Reasonable Communications Act directed the Federal Communications Commission (FCC) to regulate the rates charged for calls from prisons and jails, including in-state calls that earlier federal caps did not cover. In 2024 the FCC adopted an order setting new per-minute rate caps and addressing certain additional charges.
 
--   **What changed:** The FCC established a federal cap of $0.21 per minute for intrastate calls (calls within the same state) and $0.25 per minute for interstate calls
--   **Implementation:** These regulations are being phased in and apply to facilities that receive federal funding
--   **What it means:** Rates in high-cost states are coming down, but the transition is not instantaneous
+-   **What it covers:** per-minute caps for both in-state and out-of-state calls
+-   **Implementation:** the caps and their effective dates have been phased in and adjusted over time, and some facilities were given additional time to comply
 
-### Status of Implementation
+### What This Means for Current Rates
 
-As of 2026, the regulation is in effect in many states, but some facilities are still transitioning. Check your facility's current rates directly, as they may have already been reduced or may still be higher while the facility adjusts to new contracts with service providers.
+Because the caps, effective dates, and provider contracts have all changed over this period, the rate at a specific facility is the only reliable figure. Confirm the current per-minute rate and any fees with the facility or the provider that serves it. The FCC publishes the federal caps in effect through its incarcerated people's communications services materials.
 
-:::callout{variant="success"}
-**Rate changes:** As of 2026, many facilities have implemented the FCC rate caps. Verify your facility's current rates directly, as they may have been reduced or may still be transitioning to the new rates.
+:::callout{variant="info"}
+**Rates are changing:** Federal caps adopted under the Martha Wright-Reed Act are being phased in, and facilities have moved to the new rates on different schedules. Confirm the current rate for a specific facility directly rather than relying on a published figure.
 :::
 
-### What Didn't Change
+### What the Caps Do Not Cover
 
-The FCC regulations address per-minute rates but do not cap other fees, including:
-
--   Connection fees per call
--   Account deposit requirements
--   Monthly maintenance fees
--   Video visit charges
-
-Some advocates are continuing to push for regulation of these additional fees.
+The FCC's rate caps focus on the cost of phone calls. Families also encounter other charges — such as video-visit fees, electronic-messaging fees, and fees charged by payment vendors to add money — and the extent to which these are regulated has been the subject of ongoing FCC proceedings. Confirm which charges apply at a specific facility with the provider that serves it.

@@ -17,7 +17,7 @@ const [states, facilities] = await Promise.all([
 const texas = states.find((state) => state.data.slug === 'texas');
 const huntsville = facilities.find((facility) => facility.data.slug === 'huntsville');
 const texasFacilities = facilities
-  .filter((facility) => facility.data.state === 'TX')
+  .filter((facility) => facility.data.state === 'tx')
   .sort((left, right) => left.data.title.localeCompare(right.data.title))
   .slice(0, 3);
 
@@ -32,7 +32,7 @@ const tocHeadings = [
 ];
 ---
 
-<BaseLayout title="Component Showcase" description="Development-only component gallery for visual review.">
+<BaseLayout title="Component Showcase" description="Development-only component gallery for visual review." noindex={true}>
   <div class="container showcase-page">
     <div class="content-width">
       <p class="eyebrow">Development review</p>

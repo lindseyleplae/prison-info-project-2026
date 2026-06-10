@@ -3,12 +3,14 @@ import { getCollection, render } from 'astro:content';
 import GuideLayout from '../../../../layouts/GuideLayout.astro';
 
 export async function getStaticPaths() {
-  const [states, guides] = await Promise.all([
+  const [states, guides, nationalGuides] = await Promise.all([
     getCollection('states', ({ data }) => !data.draft),
-    getCollection('state-guides', ({ data }) => !data.draft)
+    getCollection('state-guides', ({ data }) => !data.draft),
+    getCollection('national-guides', ({ data }) => !data.draft)
   ]);
 
   const stateByCode = new Map(states.map((entry) => [entry.data.state, entry]));
+  const nationalGuideBySlug = new Map(nationalGuides.map((guide) => [guide.data.slug, guide]));
 
   return guides
     .map((entry) => {
@@ -17,6 +19,10 @@ export async function getStaticPaths() {
         return undefined;
       }
 
+      const national = entry.data.relatedNationalGuide
+        ? nationalGuideBySlug.get(entry.data.relatedNationalGuide)
+        : undefined;
+
       return {
         params: {
           state: state.data.slug,
@@ -24,14 +30,17 @@ export async function getStaticPaths() {
         },
         props: {
           entry,
-          stateTitle: state.data.title
+          stateTitle: state.data.title,
+          relatedNationalGuide: national
+            ? { title: national.data.title, href: `/guides/${national.data.slug}/` }
+            : undefined
         }
       };
     })
     .filter(Boolean);
 }
 
-const { entry, stateTitle } = Astro.props;
+const { entry, stateTitle, relatedNationalGuide } = Astro.props;
 const { Content, headings } = await render(entry);
 ---
 
@@ -41,6 +50,8 @@ const { Content, headings } = await render(entry);
   headings={headings}
   stateLabel={stateTitle}
   lastReviewed={entry.data.lastReviewed}
+  sources={entry.data.sources}
+  relatedNationalGuide={relatedNationalGuide}
 >
   <Content />
 </GuideLayout>

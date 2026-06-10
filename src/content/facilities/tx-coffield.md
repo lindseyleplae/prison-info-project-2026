@@ -16,15 +16,18 @@ providers:
   video: "Securus Video Connect"
 visiting:
   days: "Saturday-Sunday"
-  hours: "8:00 AM - 5:00 PM (Sat-Sun)"
+  hours: "8:00 AM - 5:30 PM (Sat-Sun)"
   scheduling: "Visits are scheduled through the TDCJ Online Visitation Portal."
   contactVisits: true
   videoVisits: true
 links:
   official: "https://www.tdcj.texas.gov/unit_directory/co.html"
-  inmateLocator: "https://offender.tdcj.texas.gov/OffenderSearch/"
-lastVerified: 2026-04-29
-reviewBy: 2026-07-29
+  inmateLocator: "https://inmate.tdcj.texas.gov/InmateSearch/"
+sources:
+  - name: "TDCJ Inmate Rules and Regulations for Visitation (I-218, rev. April 2025)"
+    url: "https://www.tdcj.texas.gov/documents/cid/Inmate_Rules_and_Regulations_for_Visitation_English.pdf"
+lastVerified: 2026-06-09
+reviewBy: 2026-09-09
 ---
 
 :::key-info
@@ -39,42 +42,34 @@ reviewBy: 2026-07-29
 
 ## Overview
 
-The Coffield Unit is one of the largest prisons in TDCJ by capacity. The unit is in Anderson County near Tennessee Colony, where several state prisons operate within the same broader regional cluster.
+The Coffield Unit is one of the largest prisons in TDCJ by capacity — TDCJ lists it at about 4,139 beds. It sits in Anderson County near Tennessee Colony, where several state prisons operate within the same regional cluster.
 
-Its size affects visiting and travel logistics. Coffield houses a broad G1-G4 custody mix, and the surrounding road network is more rural than the travel pattern for prisons inside larger cities.
+Two facts shape almost everything about visiting here: the unit's size and its rural location.
 
 ## What Makes Coffield Unit Different
 
-- TDCJ lists Coffield at about 4,139 beds, making it one of the system's largest units.
-- The unit is part of the Tennessee Colony and Palestine prison cluster, where multiple TDCJ facilities operate in close proximity.
-- Coffield's G1-G4 custody mix means visiting format can vary by the incarcerated person's housing and classification.
-- Large population size can lengthen internal staging and movement even when the posted weekend schedule is unchanged.
+-   One of TDCJ's largest units — TDCJ lists it at about 4,139 beds
+-   Part of the Tennessee Colony prison cluster, where several units sit close together and their names are easy to confuse; the TDCJ inmate locator shows the exact unit a person is assigned to, and a nearby cluster unit is a different drive and a different visitation list
+-   Houses a broad G1-G4 custody mix, so the visiting format follows the incarcerated person's classification rather than one unit-wide rule
+-   Reached by farm-to-market roads rather than a highway grid, with services thinning out over the last stretch
 
 ## Visiting Hours and Procedures
 
-Weekend visiting at Coffield follows TDCJ's standard portal-based scheduling system, but custody and housing status can affect whether the visit is contact, non-contact, or subject to tighter movement rules.
+The statewide rules above — approval, ID, prohibited items, and dress code — apply at Coffield. What follows is specific to this unit.
 
 :::key-info
-**Hours:**
-- Saturday: 8:00 a.m. - 5:00 p.m.
-- Sunday: 8:00 a.m. - 5:00 p.m.
-
-**Scheduling:** Visits are arranged through the TDCJ Online Visitation Portal one to seven days ahead. TDCJ's April 2025 rules treat one visit per visiting cycle as the norm, and the public visitation index says each incarcerated person is allowed one visit per weekend. Remote Securus video visits and tablet visits are separate monthly 60-minute options that do not count against in-person visiting.
-
-**What to bring:** Adult visitors must present a current government-issued photo ID, and TDCJ says at least one identification document must show a current physical address. Children 17 and younger may be asked for identification such as a birth certificate, state ID, or student ID. The approved visitors list is capped at 10 names.
-
-**What's not allowed:** Phones and smartwatches are prohibited inside the secure perimeter. TDCJ also bars paper money, outside food, cameras, gifts, larger bags, and personal property exchanges. Permitted items are limited to a small wallet or clear bag, up to $35 in coins for vending machines, and infant-care items in a clear plastic bag.
+**Visiting days and hours:**
+- Saturday: 8:00 a.m. - 5:30 p.m.
+- Sunday: 8:00 a.m. - 5:30 p.m.
 :::
 
-The unit's custody mix is the main reason a single schedule does not always mean a single visiting experience. General population housing can use standard contact visiting, while more restrictive settings may use different room assignments or non-contact procedures on the same weekend.
+Coffield's custody mix is the main reason one posted schedule does not mean one visiting experience. General-population housing typically uses standard contact visiting, while more restrictive housing can mean different room assignments or non-contact procedures on the same weekend. The format follows the incarcerated person's classification, so two families arriving the same morning may have different experiences.
 
-Large population size can also slow movement from check-in to the visiting area, so the same posted hours can produce a longer wait than at a smaller unit.
-
-Statewide dress-code and conduct rules fill in the practical details. TDCJ says clothing cannot be tight, revealing, or see-through; sleeveless tops must still cover the shoulders; shorts and skirts must be no shorter than three inches above the middle of the knee while standing; and visitors are not permitted to wear all white. The rules also prohibit photographing buildings, fences, or other parts of the unit. TDCJ says its visitation schedule is updated once daily on weekdays and multiple times per day on visitation days, and unit-wide cancellations are posted on the agency homepage. General approval and item rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
+The unit's size is the other variable. With about 4,139 beds, moving people from housing to the visiting area takes longer than at a small unit, so the same posted hours can produce a longer wait between check-in and the start of a visit.
 
 ## Getting There and Parking
 
-Coffield is in a rural section of Anderson County, so the last part of the drive depends on farm-to-market roads even when the trip starts on larger highways.
+Coffield is in a rural section of Anderson County. The drive starts on highways but finishes on farm-to-market roads, and services thin out over the last stretch.
 
 :::key-info
 **From Dallas:** I-45 South with eastbound connectors toward Palestine and Tennessee Colony, then the final FM-road approach; often about 2-2.5 hours
@@ -85,20 +80,22 @@ Coffield is in a rural section of Anderson County, so the last part of the drive
 
 **Parking:** Visitor parking is available at the unit.
 
-**Entry:** Check-in takes place at the unit's visitor processing point, where identification review and standard TDCJ screening happen before movement into the visiting area.
+**Entry:** Check-in is at the unit's visitor processing point, where ID review and standard TDCJ screening happen before movement into the visiting area.
 :::
 
-Public transit in the area is demand-response rather than fixed-route. GoBus, the transit program of the East Texas Council of Governments, provides shared-ride, advance-reservation service across Anderson County and a GoNOW microtransit zone within Palestine. No fixed-route bus reaches the Coffield Unit, so the FM-road approach near Tennessee Colony is by car.
+There is no fixed-route bus to the unit. GoBus, the transit program of the East Texas Council of Governments, runs shared-ride, advance-reservation service across Anderson County and a GoNOW microtransit zone within Palestine, but the FM-road approach near Tennessee Colony is by car.
 
-Hospital and urgent care are in Palestine rather than near the unit. Palestine Regional Medical Center on South Loop 256 operates a 24-hour emergency room, and a CHRISTUS emergency room also operates in Palestine. Access Medical Clinic on South Loop 256 is a walk-in option.
+The nearest hospital and urgent care are in Palestine, not near the unit. Palestine Regional Medical Center on South Loop 256 operates a 24-hour emergency room, a CHRISTUS emergency room also operates in Palestine, and Access Medical Clinic on South Loop 256 is a walk-in option.
+
+## Phones, Mail, and Video
+
+Contact has a sequence to it. A phone number must be on the incarcerated person's approved contact list before calls can connect, and after intake or a transfer that approval can take time to process. Calls are placed by the incarcerated person on TDCJ's Securus phone system; a prison cannot be called into. Account setup, rates, and video options are covered in [Phone & Video Calls](/states/texas/guides/phone-video/).
 
 ## Nearby Services
 
-Tennessee Colony is small and has limited commercial services. Palestine is the nearest larger service center for gas, restaurants, groceries, and hotels before the prison cluster.
+Tennessee Colony is small, with limited commercial services. Palestine is the nearest service center for gas, food, groceries, and lodging before the prison cluster, and options thin out significantly past the Palestine area on the final farm-to-market approach. Hotel sites list chain properties in Palestine, including Hampton Inn & Suites Palestine and Holiday Inn Express Palestine.
 
-Fuel and food options thin out significantly past the Palestine area, and the final approach is on rural farm-to-market roads. That is the practical travel pattern for Coffield and the surrounding Tennessee Colony units. Hotel sites list chain properties in Palestine, including Hampton Inn & Suites Palestine and Holiday Inn Express Palestine.
-
-For broader family support beyond the unit itself, the Texas Inmate Families Association is a statewide nonprofit focused on education, advocacy, and prison-system navigation resources for families with someone in TDCJ custody.
+For support beyond the unit itself, the Texas Inmate Families Association is a statewide nonprofit focused on education, advocacy, and prison-system navigation resources for families with someone in TDCJ custody.
 
 ## Learn More
 

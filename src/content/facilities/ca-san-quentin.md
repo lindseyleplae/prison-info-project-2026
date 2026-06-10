@@ -26,6 +26,9 @@ visiting:
 links:
   official: "https://www.cdcr.ca.gov/facility-locator/sqrc/"
   inmateLocator: "https://ciris.mt.cdcr.ca.gov/"
+sources:
+  - name: "CDCR Visitation"
+    url: "https://www.cdcr.ca.gov/visitors/"
 lastVerified: 2026-04-28
 reviewBy: 2026-07-28
 ---
@@ -64,10 +67,6 @@ CDCR posts separate schedules for San Quentin's visiting areas on the institutio
 - Main B contact visits (Infirmary) and Main B non-contact visits (Adjustment Center) use separate timeslots within those windows.
 
 **Scheduling:** Mainline and H-Unit appointments are arranged through CDCR's Visitation Scheduling Application (VSA); long-distance accommodation requests are handled by the San Quentin visiting team.
-
-**What to bring:** Valid photo ID, minor paperwork when applicable, and only the small permitted items CDCR allows in the visiting room.
-
-**What's not allowed:** Phones, large bags, most metal accessories, and clothing or footwear that does not clear CDCR screening and attire rules.
 :::
 
 CDCR says visiting staff begin processing at 12:00 p.m. on Fridays and 7:30 a.m. on Saturdays and Sundays. Mainline visitors follow the marked sidewalk route after processing, while H-Unit visitors wait for shuttle transport. The visiting status page also states that the Infirmary and Adjustment Center do not accept walk-ins.

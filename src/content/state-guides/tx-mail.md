@@ -6,6 +6,11 @@ topic: mail
 relatedNationalGuide: staying-in-touch
 system: TDCJ
 description: "How TDCJ's digital mail system works, what you can send, and how to get books and commissary items to someone inside."
+sources:
+  - name: "TDCJ Offender Orientation Handbook"
+    url: "https://www.tdcj.texas.gov/documents/Offender_Orientation_Handbook_English.pdf"
+  - name: "eCommDirect (TDCJ approved package program)"
+    url: "https://www.texas.gov/eCommDirect"
 lastReviewed: 2026-03-29
 ---
 

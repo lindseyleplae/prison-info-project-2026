@@ -1,13 +1,33 @@
 ---
 import { siteConfig } from '../data/site';
+
+// Per-page correction path. Feedback renders on every page (via BaseLayout),
+// so it reads the current path and pre-fills the email subject and body. That
+// makes a reader's correction traceable to the exact page without asking them
+// to describe where they were — important as the site grows past a handful of
+// pages and "the visiting page" stops being unambiguous.
+const pathname = Astro.url.pathname;
+const pageUrl = `https://${siteConfig.domain}${pathname}`;
+const subject = `Correction or update: ${pathname}`;
+const body = [
+  `Page: ${pageUrl}`,
+  '',
+  'What needs updating:',
+  '',
+  '',
+  'Source (link or document), if you have one:',
+  ''
+].join('\n');
+const mailtoHref = `mailto:${siteConfig.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 ---
 
 <aside class="feedback" aria-labelledby="feedback-heading">
   <div class="feedback-inner">
     <h2 id="feedback-heading">See something that needs updating?</h2>
-    <p>Prison policies change frequently. If you find outdated information, an error, or have something to add, please let us know.</p>
+    <p>Prison policies change frequently. If you find outdated information, an error, or have something to add, you can report it for this page.</p>
     <p>
-      <a href={`mailto:${siteConfig.email}`} class="feedback__email">{siteConfig.email}</a>
+      <a href={mailtoHref} class="feedback__email">Suggest a correction for this page</a>
     </p>
+    <p class="feedback__address">Or email <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.</p>
   </div>
 </aside>

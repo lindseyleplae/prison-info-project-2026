@@ -6,6 +6,13 @@ topic: money
 relatedNationalGuide: sending-money
 system: TDCJ
 description: "How to deposit money into a TDCJ trust fund account, fees, spending limits, and deductions."
+sources:
+  - name: "TDCJ Commissary and Trust Fund (Business and Finance Division)"
+    url: "https://www.tdcj.texas.gov/divisions/bfd/comm_trust.html"
+  - name: "TDCJ Offender Orientation Handbook"
+    url: "https://www.tdcj.texas.gov/documents/Offender_Orientation_Handbook_English.pdf"
+  - name: "eCommDirect"
+    url: "https://www.texas.gov/eCommDirect"
 lastReviewed: 2026-03-29
 ---
 

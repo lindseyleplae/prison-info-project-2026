@@ -25,6 +25,9 @@ visiting:
 links:
   official: "https://www.cdcr.ca.gov/facility-locator/cmc/"
   inmateLocator: "https://ciris.mt.cdcr.ca.gov/"
+sources:
+  - name: "CDCR Visitation"
+    url: "https://www.cdcr.ca.gov/visitors/"
 lastVerified: 2026-04-28
 reviewBy: 2026-07-28
 ---
@@ -63,10 +66,6 @@ CMC posts separate appointment and walk-in windows, with a Friday pause during c
 - Walk-ins: Friday 2:30 p.m. - 7:00 p.m.; Saturday-Sunday 11:15 a.m. - 3:00 p.m.
 
 **Scheduling:** Appointments are handled through CDCR's Visitation Scheduling Application (VSA); walk-ins are accepted after the appointment windows open and capacity allows.
-
-**What to bring:** Valid photo ID and the certified birth certificate or minor-consent paperwork CDCR requires when a child is visiting.
-
-**What's not allowed:** Phones, large bags, prohibited clothing, and late arrivals after the institution's posted walk-in cutoffs.
 :::
 
 CDCR says appointment windows run from noon to 2:15 p.m. on Fridays and from 8:45 a.m. to 11:15 a.m. on Saturdays and Sundays. Friday processing pauses during institutional count procedures, and visitors arriving between 3:30 p.m. and 5:00 p.m. may wait in the Friends Outside area until check-in resumes.

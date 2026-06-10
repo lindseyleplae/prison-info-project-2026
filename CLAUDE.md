@@ -41,14 +41,21 @@ cat prompt.md | gemini -p "Your instructions here"
 |------|---------|
 | SPEC.md | Master blueprint — architecture, content model, decisions |
 | SCALING.md | Discipline + process + traps for bulk content work — READ FIRST |
+| DECISIONS.md | Judgment calls already made (content + design) — follow, don't re-decide |
 | TASKS.md | Active task tracking |
 | PLAYBOOK.md | How to add a new state or facility (step-by-step) |
 | src/content.config.ts | Zod schemas — strict validation of every content field |
 | src/content/ | All site content (Markdown + frontmatter) |
+| src/data/state-visiting-rules.ts | Statewide rules card, one entry per state (required for new states) |
+| src/data/system-source-labels.ts | Source-label names per corrections system |
 | src/styles/tokens.css | Design tokens (Grounded Guide theme) |
 | src/pages/showcase.astro | Living style guide — every component on one page |
 | scripts/lint-tone.mjs | Tone validation — catches banned phrases |
 | scripts/check-links.mjs | Internal link validation |
+| scripts/check-freshness.mjs | Fails on pages past their reviewBy date |
+| scripts/check-sources.mjs | Fails on guides/facilities without sources |
+| scripts/check-a11y.mjs | WCAG 2.1 A/AA (axe) on one page per layout |
+| scripts/check-external-links.mjs | Outbound source links still respond |
 | scripts/visual-check.mjs | Screenshot comparison vs baselines |
 
 ## Content Types
@@ -61,34 +68,37 @@ cat prompt.md | gemini -p "Your instructions here"
 
 ## Design Theme: Grounded Guide
 - Primary: `#3D405B` (slate blue-grey)
-- Background: `#FDFCF0` (warm aged paper)
-- Card: `#FEFDF5` (slightly warmer white)
+- Background: `#FAF9F3` (soft ecru — deliberately less yellow, June 2026)
+- Card: `#FDFCF8` (slightly brighter ecru)
 - Text: `#2D2F42` (deep slate)
 - Body font: Inter / system sans-serif
 - Heading font: Inter / system sans-serif
 
 ## Critical Rules
 1. All content tone must be strictly informational (run `npm run lint:tone`)
-2. All styling goes through CSS custom properties — never hardcoded color values
-3. Adding a state or facility = adding content files only, nothing else
-4. Every facility page should include "call to verify" language
-5. No live status claims — reference info only, never real-time data
-6. Mobile-first — majority of users are on phones, often with bad signal
-7. WCAG 2.1 AA minimum accessibility
+2. Every fact is sourced or attributed — never invented. Every guide and facility page cites `sources:` (enforced by `check:sources`). When in doubt, leave it out.
+3. All styling goes through CSS custom properties — never hardcoded color values
+4. Adding a state or facility = content files plus the two data entries in PLAYBOOK Step 5 (`state-visiting-rules.ts`, `system-source-labels.ts`), nothing else
+5. Verify-before-relying language is layout-injected on every facility page; state guides end with a "Verify Before Acting" callout
+6. No live status claims — reference info only, never real-time data
+7. Mobile-first — majority of users are on phones, often with bad signal
+8. WCAG 2.1 AA minimum accessibility (enforced by `npm run check:a11y`)
+9. Judgment calls already made live in DECISIONS.md — follow them, don't re-decide them
 
 ## Quality Gates (run before any deploy)
 ```bash
-npm run build         # Builds all pages, fails on schema or syntax errors
-npm run check:links   # Validates every internal link
-npm run lint:tone     # Hard-fails on banned phrases
+npm run validate      # Full pipeline: type check, tone, build, internal links,
+                      # freshness, strict sources, accessibility
 npm run visual-check  # Screenshots key pages, compares vs baselines
 ```
+Deploy CI re-runs the push-sensitive gates on every push to main; a weekly
+scheduled workflow (content-audit.yml) re-runs freshness + external links.
 
 ## Current Scope
-- California (CDCR): 6 state guides + 7 facility pages
-- Texas (TDCJ): 6 state guides + 4 facility pages
+- California (CDCR): 6 state guides + 10 facility pages
+- Texas (TDCJ): 6 state guides + 9 facility pages
 - 5 national guides
-- 41 pages total
+- 50 pages total
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)

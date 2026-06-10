@@ -25,6 +25,9 @@ visiting:
 links:
   official: "https://www.cdcr.ca.gov/facility-locator/cor/"
   inmateLocator: "https://ciris.mt.cdcr.ca.gov/"
+sources:
+  - name: "CDCR Visitation"
+    url: "https://www.cdcr.ca.gov/visitors/"
 lastVerified: 2026-04-28
 reviewBy: 2026-07-28
 ---
@@ -63,10 +66,6 @@ CDCR's visiting status page separates Corcoran's general schedule from unit-spec
 - Monday: 10:55 a.m. - 1:15 p.m. (appointment only)
 
 **Scheduling:** General visits use CDCR's Visitation Scheduling Application (VSA); several specialized units and treatment areas require advance coordination.
-
-**What to bring:** Valid photo ID and the minor or guardianship paperwork required by CDCR when applicable.
-
-**What's not allowed:** Phones, large bags, prohibited clothing, and unscheduled visits to designated appointment-only units.
 :::
 
 CDCR states that Facilities 3A, 3B, and 4B use appointment windows in the morning, while Facility 4A, the correctional treatment center, and other designated units require advance scheduling. The visiting page also states that all non-contact visits are one hour long.

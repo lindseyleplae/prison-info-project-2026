@@ -25,6 +25,9 @@ visiting:
 links:
   official: "https://www.cdcr.ca.gov/facility-locator/cim/"
   inmateLocator: "https://ciris.mt.cdcr.ca.gov/"
+sources:
+  - name: "CDCR Visitation"
+    url: "https://www.cdcr.ca.gov/visitors/"
 lastVerified: 2026-04-28
 reviewBy: 2026-07-28
 ---
@@ -67,10 +70,6 @@ CDCR's visiting status page separates CIM's general visiting schedule from its R
 - RHU non-contact visits: Friday-Sunday, 12:00 p.m. - 1:00 p.m. and 1:00 p.m. - 2:00 p.m.
 
 **Scheduling:** General visits are scheduled through CDCR's Visitation Scheduling Application (VSA); walk-ins are also accepted, and RHU visits use one-hour scheduled blocks.
-
-**What to bring:** Valid photo ID and, when needed, the incarcerated person's CDCR number and minor paperwork required under CDCR rules.
-
-**What's not allowed:** Phones, bags, outside food, contraband, and clothing or metal items that do not clear visiting-room screening.
 :::
 
 CDCR says CIM runs appointment times before walk-in processing each day. The current posted walk-in windows begin at 2:00 p.m. on Fridays and 10:00 a.m. on Saturdays and Sundays, with walk-in processing ending at 6:00 p.m. on Fridays and 2:00 p.m. on weekends. The visiting page also limits general visits to five visitors at one time and RHU visits to three visitors at one time.

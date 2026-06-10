@@ -120,26 +120,26 @@ h3 + .steps {
 }
 
 .callout--warning {
-  border-left-color: #D97706;
-  background: #FFFBEB;
+  border-left-color: var(--color-warning-border);
+  background: var(--color-warning-bg);
   color: var(--color-warning-text);
 }
 
 .callout--tip {
-  border-left-color: #059669;
-  background: #ECFDF5;
+  border-left-color: var(--color-tip-border);
+  background: var(--color-tip-bg);
   color: var(--color-tip-text);
 }
 
 .callout--info {
-  border-left-color: #2563EB;
-  background: #EFF6FF;
+  border-left-color: var(--color-info-accent);
+  background: var(--color-info-surface);
   color: var(--color-info-text);
 }
 
 .callout--success {
-  border-left-color: #059669;
-  background: #ECFDF5;
+  border-left-color: var(--color-tip-border);
+  background: var(--color-tip-bg);
   color: var(--color-tip-text);
 }
 
@@ -172,6 +172,104 @@ h3 + .steps {
   border-radius: var(--radius-md);
   padding: var(--space-4) var(--space-5);
   box-shadow: var(--shadow-sm);
+}
+
+/* Shared statewide-rules card (rendered on every facility page) */
+.statewide-rules {
+  margin-block: var(--space-6);
+}
+
+.statewide-rules__intro {
+  margin: 0 0 var(--space-4);
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+}
+
+.statewide-rules__subhead {
+  margin: 0 0 var(--space-2);
+  font-weight: var(--weight-bold);
+  font-size: var(--text-sm);
+}
+
+.statewide-rules__dress {
+  margin: 0 0 var(--space-4);
+  padding-left: var(--space-5);
+  display: grid;
+  gap: var(--space-1);
+  font-size: var(--text-sm);
+  line-height: var(--leading-snug);
+}
+
+.statewide-rules__short {
+  margin: 0 0 var(--space-4);
+  display: grid;
+  gap: var(--space-3);
+}
+
+.statewide-rules__short > div {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.statewide-rules__short dt {
+  font-weight: var(--weight-bold);
+  font-size: var(--text-sm);
+}
+
+.statewide-rules__short dd {
+  margin: 0;
+  font-size: var(--text-sm);
+  line-height: var(--leading-snug);
+  color: var(--color-text-secondary);
+}
+
+.statewide-rules__more {
+  margin: 0;
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+}
+
+/* Sources section (bottom of facility and guide pages) */
+.sources {
+  margin-block: var(--space-7) var(--space-4);
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--color-border);
+}
+
+.sources h2 {
+  margin: 0 0 var(--space-2);
+  font-size: var(--text-lg);
+}
+
+.sources__intro {
+  margin: 0 0 var(--space-3);
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+}
+
+.sources__list {
+  margin: 0;
+  padding-left: var(--space-5);
+  display: grid;
+  gap: var(--space-1);
+  font-size: var(--text-sm);
+  line-height: var(--leading-snug);
+}
+
+/* "See also" pointer from a state guide to its national overview. Reads as a
+   quiet aside, set off from body text without competing with the Sources rule
+   that follows it. */
+.related-guide {
+  margin-top: var(--space-6);
+  padding: var(--space-3) var(--space-4);
+  border-left: 3px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg-secondary);
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
 }
 
 .toc-label,

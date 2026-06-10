@@ -6,7 +6,16 @@ topic: visiting
 relatedNationalGuide: visiting-basics
 system: CDCR
 description: "How to get approved to visit, schedule through VSA, follow the dress code, and what to expect on visiting day at a California state prison."
-lastReviewed: 2026-05-28
+sources:
+  - name: "CDCR Visitation"
+    url: "https://www.cdcr.ca.gov/visitors/"
+  - name: "CDCR Prepare to Visit"
+    url: "https://www.cdcr.ca.gov/visitors/prepare-to-visit/"
+  - name: "CDCR Attire Restrictions"
+    url: "https://www.cdcr.ca.gov/visitors/attire-restrictions/"
+  - name: "California Code of Regulations, Title 15"
+    url: "https://www.cdcr.ca.gov/regulations/"
+lastReviewed: 2026-06-09
 ---
 
 :::key-info{title="Key info"}
@@ -57,7 +66,7 @@ Once approved, visits are scheduled in advance through an online system. Most fa
 Use the [VSA (Visitation Scheduling Application)](https://vsa.cdcr.ca.gov) online. First-time users need to claim their account using their name and date of birth as listed on the Form 106.
 
 :::callout{variant="tip"}
-**Scheduling windows open at different times by region:** Northern facilities at 6:00am, Central at 6:30am, Southern at 7:00am. Weekends fill up fast — schedule as soon as the window opens.
+**Scheduling windows open at different times by region:** Northern facilities at 6:00am, Central at 6:30am, Southern at 7:00am. Weekend appointments fill quickly after the window opens.
 :::
 
 ### When to Arrive
@@ -81,7 +90,7 @@ The dress code is strict, and being turned away over clothing is one of the most
 -   **Camouflage** of any kind
 
 :::callout{variant="tip"}
-**Safe choices:** Burgundy, gray, purple, pink, red, white, navy blue (not denim), or patterns that don't include restricted colors. When in doubt, go darker and simpler.
+**Safe choices:** Burgundy, gray, purple, pink, red, white, navy blue (not denim), or patterns that don't include restricted colors. Darker, simpler clothing is less likely to violate a restriction.
 :::
 
 ### Clothing Rules
@@ -128,7 +137,7 @@ All visitors are subject to search procedures. The process is standard.
 :::steps
 1. **Check in at the front.** Show your ID and provide the name and CDCR number of the person you're visiting.
 1. **Store your belongings.** Everything except your ID, key, and vending money goes in a locker.
-1. **Walk through the metal detector.** If it goes off, you'll be asked to remove potential triggers. This is why wireless bras and no jewelry matters.
+1. **Walk through the metal detector.** If it goes off, you'll be asked to remove potential triggers. A wireless bra and minimal metal reduce the chance of repeated screening.
 1. **Drug detection.** Some facilities use drug detection dogs. This procedure applies to all visitors.
 1. **Get stamped and enter.** You'll get a hand stamp (UV ink) and proceed to the visiting room.
 :::
@@ -192,7 +201,7 @@ Visits may be cancelled for various reasons, including facility operations and s
 -   **Your person's status** — rule violations, medical holds, housing transfers
 
 :::callout{variant="warning"}
-**Always call first.** Call the visiting hotline (1-800-374-8474) the morning of your visit to confirm the facility is open. Check before you leave, not when you arrive.
+**Always call first.** Call the visiting hotline (1-800-374-8474) the morning of the visit, before traveling, to confirm the facility is open.
 :::
 
 If you traveled a long distance and visits are cancelled, some facilities may attempt to accommodate you with a future slot. Ask staff about rescheduling options, though availability is not guaranteed.
@@ -202,8 +211,8 @@ If you traveled a long distance and visits are cancelled, some facilities may at
 A typical first visit follows this sequence:
 
 :::steps
-1. **Morning: Call the hotline.** Confirm the facility is open for visiting. If there's a lockdown, you'll save yourself the trip.
-1. **Drive & park.** Some facilities have limited parking. Arrive early for the best spots. Leave everything non-essential locked in your trunk — not visible on seats.
+1. **Morning: Call the hotline.** Confirm the facility is open for visiting. If visiting is cancelled, the call saves the trip.
+1. **Drive & park.** Some facilities have limited parking, and lots fill early on weekend mornings. Everything except ID, key, and vending money stays locked in the car.
 1. **Processing (30–90 min).** Check in, store belongings, go through metal detector and search. First-timers sometimes take longer because staff needs to verify your approval.
 1. **Wait to be called.** You may wait in a holding area until your person is brought to the visiting room. This can take additional time.
 1. **The visit.** Conversation and time together occur in the visiting room. Vending machine snacks may be shared. Photos may be available for purchase. Visit length varies by facility, typically 2–4 hours for weekend visits.
@@ -216,27 +225,24 @@ First visits involve multiple processing steps and may take longer than subseque
 
 ## What It Actually Costs
 
-There is no fee to visit, but a visit still carries real costs. The table below outlines what a typical visit can involve, for budgeting.
+There is no fee to visit, but a visit still carries real costs. The list below outlines what a typical visit involves, for budgeting.
 
 :::cost-table
-| Expense | Typical Cost | Notes |
-| --- | --- | --- |
-| Gas/mileage | $30–100+ | Depends on distance. Many facilities are in remote locations. |
-| Vending machines | $20–70 | Often the only way to share a meal. Prices are marked up. |
-| Photo | $3–5 | If the facility offers them during your visit. |
-| Hotel (if needed) | $80–150 | For families traveling long distances, especially for Saturday morning visits. |
-| Childcare | Varies | If you can't or don't want to bring children. |
-| Lost wages | Varies | Weekday visits mean missing work. Weekends are easier but fill up fast. |
+| Expense | What it involves |
+| --- | --- |
+| Gas/mileage | Many CDCR facilities are in remote locations; long round trips are common. |
+| Vending machines | Up to $70 per adult and $40 per minor may be brought in. Often the only way to share a meal during a visit. |
+| Photo | A small per-photo fee where the facility offers photos. |
+| Hotel (if needed) | Early-morning weekend visits at distant facilities can mean a night's stay nearby. |
+| Childcare | If children do not attend the visit. |
+| Lost wages | Weekday visits mean missing work; weekend appointments fill quickly. |
 :::
 
-For families visiting regularly — say twice a month — the costs add up quickly. Some community organizations offer travel assistance or gas cards for families. Check with local reentry organizations in your area.
+For families visiting regularly, these costs recur. Some community and reentry organizations offer travel assistance or gas cards for visiting families.
 
-* * *
+## Verify Before Acting
 
-## Sources
+:::callout{variant="warning" title="Verify Before Acting"}
+CDCR visiting rules, schedules, and facility status change without notice. Call the visiting hotline (1-800-374-8474) the morning of a visit to confirm the facility is open, and confirm the current dress code and item rules on CDCR's visitor pages before traveling.
+:::
 
--   [CDCR Visitation Information](https://www.cdcr.ca.gov/visitors/)
--   [CDCR Attire Restrictions](https://www.cdcr.ca.gov/visitors/attire-restrictions/)
--   California Code of Regulations, Title 15
-
-Last updated May 2026

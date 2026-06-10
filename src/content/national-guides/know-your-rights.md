@@ -4,7 +4,12 @@ slug: know-your-rights
 description: "What rights you have as a visitor, what's monitored, and what to do when something goes wrong"
 summary: "What rights you have as a visitor, what's monitored, and what to do when something goes wrong"
 order: 5
-lastReviewed: 2026-03-29
+sources:
+  - name: "ACLU National Prison Project"
+    url: "https://www.aclu.org/issues/prisoners-rights"
+  - name: "Prison Policy Initiative"
+    url: "https://www.prisonpolicy.org/"
+lastReviewed: 2026-06-09
 ---
 
 ## Your Rights as a Visitor
@@ -86,7 +91,7 @@ Search procedures should follow stated facility policy. If you believe a search 
 
 ### Special Considerations by State
 
-Rules about visitor searches vary significantly by state. Some states have stricter policies limiting searches; others are more permissive. Check the state-specific guide for your location (such as the [California guide](/states/california/)) for details about that state's policies.
+Rules about visitor searches vary significantly by state. Some states have stricter policies limiting searches; others are more permissive. Check the [state-specific guide](/states/) for your location for details about that state's policies.
 
 ## When You're Denied a Visit
 
@@ -202,7 +207,7 @@ One of the biggest barriers to visitors advocating for themselves is the fear of
 :::
 
 :::reality-check{title="Retaliation concerns"}
-Advocates report that filing complaints can result in retaliation against the incarcerated person, including placement in solitary confinement, facility transfers, or harassment. Retaliation is illegal but difficult to prove. This creates a difficult position for visitors attempting to advocate through formal complaint mechanisms.
+Advocates report that filing complaints can result in retaliation against the incarcerated person, including placement in solitary confinement, facility transfers, or harassment. Retaliation is prohibited by law, but proving that an action was retaliatory — rather than taken for another stated reason — is often not possible with the evidence available. This factors into decisions about whether to pursue a formal complaint.
 :::
 
 ## Organizations That Can Help
@@ -242,7 +247,7 @@ Many states have legal aid societies and public defenders' offices that also pro
 
 ### State-Specific Resources
 
-Check your state's specific guide (like the [California guide](/states/california/)) for organizations serving that state.
+Check the [state's specific guide](/states/) for organizations serving that state.
 
 ### How to Contact These Organizations
 

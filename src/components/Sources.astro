@@ -1,0 +1,46 @@
+---
+// Renders the "Sources" section at the bottom of facility and guide pages.
+// It is a dumb renderer: each layout assembles a normalized list of
+// { name, url? } entries and passes it in. A source with no URL still renders
+// (by name) — honest when the source is a printed policy or an unpublished
+// reference. Renders nothing when there are no sources, so it is safe to drop
+// into any page.
+interface Source {
+  name: string;
+  url?: string;
+}
+
+const { sources = [] } = Astro.props as { sources?: Source[] };
+
+// De-duplicate by url (or name when url is absent) so a link surfaced from
+// `links` and repeated in frontmatter does not appear twice.
+const seen = new Set<string>();
+const items = sources.filter((source) => {
+  if (!source?.name) return false;
+  const key = (source.url ?? source.name).trim().toLowerCase();
+  if (seen.has(key)) return false;
+  seen.add(key);
+  return true;
+});
+---
+
+{items.length > 0 && (
+  <section class="sources" aria-labelledby="sources-heading">
+    <h2 id="sources-heading">Sources</h2>
+    <p class="sources__intro">
+      This page is compiled from the following publicly available sources. Policies change
+      without notice — confirm current details with the facility before relying on them.
+    </p>
+    <ul class="sources__list">
+      {items.map((source) => (
+        <li>
+          {source.url ? (
+            <a href={source.url} target="_blank" rel="noopener nofollow">{source.name}</a>
+          ) : (
+            <span>{source.name}</span>
+          )}
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

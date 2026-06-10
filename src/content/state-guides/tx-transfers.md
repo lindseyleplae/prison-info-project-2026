@@ -6,11 +6,16 @@ topic: transfers
 relatedNationalGuide: visiting-basics
 system: TDCJ
 description: "How transfers work in TDCJ, what happens to visiting lists, and the difference between state jail and prison."
+sources:
+  - name: "TDCJ Inmate Search"
+    url: "https://inmate.tdcj.texas.gov/InmateSearch/"
+  - name: "TDCJ Offender Orientation Handbook"
+    url: "https://www.tdcj.texas.gov/documents/Offender_Orientation_Handbook_English.pdf"
 lastReviewed: 2026-03-29
 ---
 
 :::key-info{title="Key Information"}
--   **Location tool:** [TDCJ Online Offender Search](https://offender.tdcj.texas.gov/OffenderSearch/)
+-   **Location tool:** [TDCJ Inmate Search](https://inmate.tdcj.texas.gov/InmateSearch/)
 -   **Routine family notice:** TDCJ does not provide a general family notification service for ordinary transfers; location is usually learned from the person or the search tool.
 -   **Visiting list:** TDCJ uses a centralized visitors list that generally remains active across ordinary unit transfers.
 -   **Hardship transfer limits:** State jail and several short-term or special populations are generally ineligible.
@@ -33,7 +38,7 @@ Transfers are a normal part of TDCJ operations. Reasons include classification, 
 
 ## Tracking a Person's Location
 
-The main public tool is the [TDCJ Online Offender Search](https://offender.tdcj.texas.gov/OffenderSearch/).
+The main public tool is the [TDCJ Inmate Search](https://inmate.tdcj.texas.gov/InmateSearch/).
 
 ### Practical tracking method
 
@@ -45,7 +50,7 @@ The main public tool is the [TDCJ Online Offender Search](https://offender.tdcj.
 
 ### Family notification
 
-TDCJ does provide notification services for registered crime victims, but it does not publish a routine transfer-notification service for ordinary family use. In practice, families usually learn about a move from the incarcerated person or by checking Offender Search.
+TDCJ does provide notification services for registered crime victims, but it does not publish a routine transfer-notification service for ordinary family use. In practice, families usually learn about a move from the incarcerated person or by checking the Inmate Search tool.
 
 :::reality-check
 There can be a gap between an actual move and the point when a family member knows the new location. That gap is longest when the person is in temporary housing, intake, medical transit, or restrictive custody.
@@ -118,5 +123,5 @@ Transfers affect contact even when the move is routine.
 ## Verify Before Acting
 
 :::callout{variant="warning" title="Verify Before Acting"}
-Do not rely on an old unit assignment, prior mail address, or previous visit schedule after a transfer. Check Offender Search and the destination unit before sending mail, money, or visitors.
+Do not rely on an old unit assignment, prior mail address, or previous visit schedule after a transfer. Check the Inmate Search tool and the destination unit before sending mail, money, or visitors.
 :::

@@ -1,13 +1,11 @@
 ---
 import { getCollection, getEntry, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getFacilityIndex } from '../lib/facility-index';
 
-const [homeEntry, guides, states, facilityIndex] = await Promise.all([
+const [homeEntry, guides, states] = await Promise.all([
   getEntry('pages', 'home'),
   getCollection('national-guides', ({ data }) => !data.draft),
-  getCollection('states', ({ data }) => !data.draft),
-  getFacilityIndex()
+  getCollection('states', ({ data }) => !data.draft)
 ]);
 
 if (!homeEntry) {
@@ -40,7 +38,8 @@ const { Content } = await render(homeEntry);
 
       <form class="search-form content-width" action="/facilities/" method="get">
         <div class="search-row">
-          <input class="search-input" type="search" name="q" placeholder="San Quentin, Chino, California" />
+          <label class="sr-only" for="home-facility-query">Search by facility name, city, or state</label>
+          <input class="search-input" id="home-facility-query" type="search" name="q" placeholder="San Quentin, Chino, California" />
           <button class="btn btn--primary" type="submit">Find a facility</button>
           <a class="hero-action" href="/facilities/">Facility directory</a>
         </div>
@@ -56,7 +55,7 @@ const { Content } = await render(homeEntry);
     <section class="page-section-grid" id="states" aria-labelledby="states-heading">
       <div class="content-width">
         <h2 id="states-heading">Browse by state</h2>
-        <div class="section-card-list">
+        <div class="section-card-list card-grid">
           {states.map((state) => (
             <a class="section-card" href={`/states/${state.data.slug}/`}>
               <h3>{state.data.title}</h3>

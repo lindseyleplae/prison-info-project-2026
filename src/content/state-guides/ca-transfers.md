@@ -6,6 +6,11 @@ topic: transfers
 relatedNationalGuide: visiting-basics
 system: CDCR
 description: "Why CDCR transfers happen, how to find someone after a move using CIRIS, how a transfer affects visiting approval, and what to expect with contact."
+sources:
+  - name: "California Incarcerated Records & Information Search (CIRIS)"
+    url: "https://ciris.mt.cdcr.ca.gov/"
+  - name: "CDCR Visitation"
+    url: "https://www.cdcr.ca.gov/visitors/"
 lastReviewed: 2026-05-28
 ---
 

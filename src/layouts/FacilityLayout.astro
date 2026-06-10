@@ -4,8 +4,11 @@ import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import FacilityHero from '../components/FacilityHero.astro';
 import QuickFacts from '../components/QuickFacts.astro';
+import StateVisitingRules from '../components/StateVisitingRules.astro';
+import Sources from '../components/Sources.astro';
 import TableOfContents from '../components/TableOfContents.astro';
-import { createBreadcrumbStructuredData } from '../lib/seo';
+import { createBreadcrumbStructuredData, createFacilityStructuredData } from '../lib/seo';
+import { genericSourceLabels, systemSourceLabels } from '../data/system-source-labels';
 
 type Heading = {
   depth: number;
@@ -30,19 +33,46 @@ const breadcrumbItems = [
   { label: 'Facilities' },
   { label: facility.data.title, href: Astro.url.pathname }
 ];
+
+// Assemble the Sources list: the official facility page and inmate locator are
+// already in `links` (but rendered nowhere else), so surface them here, labeled
+// by corrections system, alongside any frontmatter `sources` (e.g. the statewide
+// visitation rulebook). Order: facility page → policy source(s) → locator.
+const links = facility.data.links ?? {};
+const labels = systemSourceLabels[facility.data.system] ?? genericSourceLabels;
+const officialLabel = labels.official;
+const locatorLabel = labels.locator;
+const facilitySources = [
+  links.official ? { name: officialLabel, url: links.official } : null,
+  ...(facility.data.sources ?? []),
+  links.inmateLocator ? { name: locatorLabel, url: links.inmateLocator } : null
+].filter((entry): entry is { name: string; url: string } => Boolean(entry));
 ---
 
 <BaseLayout
   title={facility.data.title}
   description={facility.data.summary ?? facility.data.address}
-  structuredData={[createBreadcrumbStructuredData(breadcrumbItems)]}
+  structuredData={[
+    createBreadcrumbStructuredData(breadcrumbItems),
+    createFacilityStructuredData({
+      name: facility.data.title,
+      url: Astro.url.pathname,
+      description: facility.data.summary,
+      address: facility.data.address,
+      telephone: facility.data.contact.mainPhone,
+      latitude: facility.data.coordinates?.latitude,
+      longitude: facility.data.coordinates?.longitude
+    })
+  ]}
 >
   <div class="container guide-grid">
     <article class="guide-content content-width">
       <Breadcrumbs pageTitle={facility.data.title} stateLabel={stateTitle} />
       <FacilityHero facility={facility.data} stateTitle={stateTitle} />
       {facility.data.summary && <p class="facility-page-summary subtitle">{facility.data.summary}</p>}
+      <StateVisitingRules state={facility.data.state} />
       <slot />
+      <Sources sources={facilitySources} />
     </article>
 
     <div class="guide-sidebar">
@@ -52,7 +82,6 @@ const breadcrumbItems = [
         phone={facility.data.contact.visitingOffice ?? facility.data.contact.mainPhone}
         directionsUrl={facility.data.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(facility.data.address)}` : undefined}
       />
-      <div style="height: var(--space-4);"></div>
       <TableOfContents headings={headings} />
     </div>
   </div>

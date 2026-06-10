@@ -57,3 +57,33 @@ export function createWebsiteStructuredData() {
     description: siteConfig.description
   };
 }
+
+export type FacilityStructuredDataInput = {
+  name: string;
+  url: string;
+  description?: string;
+  address?: string;
+  telephone?: string;
+  latitude?: number;
+  longitude?: number;
+};
+
+export function createFacilityStructuredData(input: FacilityStructuredDataInput) {
+  const schema: StructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'GovernmentBuilding',
+    name: input.name,
+    url: toAbsoluteUrl(input.url)
+  };
+  if (input.description) schema.description = input.description;
+  if (input.address) schema.address = input.address;
+  if (input.telephone) schema.telephone = input.telephone;
+  if (input.latitude != null && input.longitude != null) {
+    schema.geo = {
+      '@type': 'GeoCoordinates',
+      latitude: input.latitude,
+      longitude: input.longitude
+    };
+  }
+  return schema;
+}

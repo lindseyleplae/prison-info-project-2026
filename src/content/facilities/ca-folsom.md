@@ -25,6 +25,9 @@ visiting:
 links:
   official: "https://www.cdcr.ca.gov/facility-locator/fsp/"
   inmateLocator: "https://ciris.mt.cdcr.ca.gov/"
+sources:
+  - name: "CDCR Visitation"
+    url: "https://www.cdcr.ca.gov/visitors/"
 lastVerified: 2026-04-28
 reviewBy: 2026-07-28
 ---
@@ -63,10 +66,6 @@ CDCR posts both the general visiting hours and the walk-in sign-up rules on Fols
 - Non-contact visits: one-hour appointments within the posted daily schedule
 
 **Scheduling:** Appointments are handled through CDCR's Visitation Scheduling Application (VSA); contact walk-ins are accepted on a space-available basis, but non-contact visits must be pre-scheduled.
-
-**What to bring:** Valid photo ID and any minor paperwork required by CDCR visiting rules.
-
-**What's not allowed:** Phones, large bags, clothing that fails dress code or metal-detector screening, and walk-in requests for non-contact visits.
 :::
 
 CDCR says visitors may arrive no more than 30 minutes before processing begins. The institution opens processing at 11:30 a.m. on Fridays and 6:30 a.m. on Saturdays and Sundays. Scheduled visitors who arrive late can lose their appointment slot, and the walk-in queue is handled separately through the institution's numbered pass system.

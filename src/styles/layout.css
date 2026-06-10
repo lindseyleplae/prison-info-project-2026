@@ -145,10 +145,29 @@
   min-width: 0;
 }
 
+.guide-sidebar > * + * {
+  margin-top: var(--space-4);
+}
+
 .page-section-grid,
 .card-grid {
   display: grid;
   gap: var(--space-4);
+}
+
+/* Card grids fill columns as width allows, so a list that holds two states
+   today reads the same when it holds ~50: one column on phones, more columns
+   as the viewport grows. Used for the state grid on the homepage and /states/. */
+@media (min-width: 48rem) {
+  .card-grid {
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  }
+}
+
+/* Trailing note separated from the content above it (e.g., the "more states
+   coming soon" line under the state grid). */
+.page-outro {
+  margin-top: var(--space-8);
 }
 
 .feedback {
@@ -186,6 +205,14 @@
   font-size: var(--text-lg);
 }
 
+.feedback__address {
+  font-size: var(--text-sm);
+}
+
+.feedback__address a {
+  color: var(--color-primary);
+}
+
 .footer {
   background: var(--color-footer-bg);
   color: var(--color-footer-text);
@@ -211,8 +238,14 @@
 
 .footer-bottom {
   border-top: 1px solid var(--color-text-secondary);
-  color: var(--color-text-muted);
+  color: var(--color-footer-text-secondary);
   padding: var(--space-4) 0 var(--space-6);
+}
+
+/* The shared .eyebrow color is tuned for light backgrounds and fails
+   contrast on the dark footer. */
+.footer .eyebrow {
+  color: var(--color-footer-text-secondary);
 }
 
 @media (min-width: 64rem) {

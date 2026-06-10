@@ -20,6 +20,7 @@ const { Content, headings } = await render(entry);
   description={entry.data.description ?? entry.data.summary}
   headings={headings}
   lastReviewed={entry.data.lastReviewed}
+  sources={entry.data.sources}
 >
   <Content />
 </GuideLayout>

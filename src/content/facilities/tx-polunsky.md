@@ -18,16 +18,19 @@ providers:
   phone: "Securus"
   video: "Securus Video Connect"
 visiting:
-  days: "Saturday-Sunday"
-  hours: "8:00 AM - 5:00 PM (Sat-Sun)"
-  scheduling: "Visits are scheduled through the TDCJ Online Visitation Portal; death row movement and processing remain separate from standard contact visiting."
+  days: "General population: Sat-Sun. Death row: Tue, Thu, Sat"
+  hours: "General population: 8:00 AM - 5:30 PM (Sat-Sun). Death row: Tue & Thu afternoons, Sat evening"
+  scheduling: "General-population visits are scheduled through the TDCJ Online Visitation Portal. Death row visits are scheduled through the unit warden's office on a separate Tuesday/Thursday/Saturday-evening schedule."
   contactVisits: false
   videoVisits: true
 links:
   official: "https://www.tdcj.texas.gov/unit_directory/tl.html"
-  inmateLocator: "https://offender.tdcj.texas.gov/OffenderSearch/"
-lastVerified: 2026-04-29
-reviewBy: 2026-07-29
+  inmateLocator: "https://inmate.tdcj.texas.gov/InmateSearch/"
+sources:
+  - name: "TDCJ Inmate Rules and Regulations for Visitation (I-218, rev. April 2025)"
+    url: "https://www.tdcj.texas.gov/documents/cid/Inmate_Rules_and_Regulations_for_Visitation_English.pdf"
+lastVerified: 2026-06-09
+reviewBy: 2026-09-09
 ---
 
 :::callout{variant="warning"}
@@ -59,24 +62,24 @@ That role makes Polunsky different from a standard general population unit. The 
 
 ## Visiting Hours and Procedures
 
-TDCJ's statewide weekend visitation structure applies at Polunsky, but death row visits follow a separate non-contact format and can involve different internal movement procedures than standard contact visits.
+TDCJ's statewide weekend visitation structure applies to Polunsky's general population, but death row visits are non-contact and follow a separate schedule on different days under TDCJ's I-218 visitation rules, as shown below.
 
 :::key-info
-**Hours:**
-- Saturday: 8:00 a.m. - 5:00 p.m.
-- Sunday: 8:00 a.m. - 5:00 p.m.
-- Death row and other restrictive-housing visits may use shorter internal movement windows inside those posted hours.
+**General population hours:**
+- Saturday: 8:00 a.m. - 5:30 p.m.
+- Sunday: 8:00 a.m. - 5:30 p.m.
 
-**Scheduling:** Visits are arranged through the TDCJ Online Visitation Portal at `tdcj.texas.gov`; death row placement and restrictive-housing status can affect which visits are available on a given weekend.
+**Death row hours (per TDCJ's posted unit visitation schedule, June 2026):**
+- Tuesday: 1:00 p.m. - 5:00 p.m.
+- Thursday: 1:00 p.m. - 5:00 p.m.
+- Saturday: 6:00 p.m. - 8:30 p.m.
 
-**What to bring:** Adult visitors must present a current government-issued photo ID, and TDCJ says at least one identification document must show a current physical address. Children 17 and younger may be asked for identification such as a birth certificate, state ID, or student ID. The approved visitors list is capped at 10 names.
-
-**What's not allowed:** Phones and smartwatches are prohibited inside the secure perimeter. TDCJ also bars paper money, outside food, cameras, gifts, larger bags, and personal property exchanges. Permitted items are limited to a small wallet or clear bag, up to $35 in coins for vending machines, and infant-care items in a clear plastic bag.
+**Scheduling:** General-population visits are arranged through the TDCJ Online Visitation Portal. Death row visits are scheduled through the unit warden's office rather than the weekend portal and follow the separate weekday and Saturday-evening schedule above. Death row visits are generally two hours, and frequency depends on the incarcerated person's death row custody level.
 :::
 
 Death row visits remain non-contact from start to finish. The visitor and the incarcerated person do not share the same room, no physical contact occurs, and conversation takes place through the unit's non-contact system. That format does not change because of travel distance or family relationship.
 
-General population and other high-security housing at Polunsky still use TDCJ's normal approval and scheduling system, but restrictive placements can change whether a visit is contact, non-contact, shortened, or unavailable on a given day. Statewide dress-code rules apply throughout: TDCJ says clothing cannot be tight, revealing, or see-through; sleeveless tops must still cover the shoulders; shorts and skirts must be no shorter than three inches above the middle of the knee while standing; and visitors are not permitted to wear all white. General approval and item rules are covered in [Visiting in Texas](/states/texas/guides/visiting/).
+General population and other high-security housing at Polunsky still use TDCJ's normal weekend approval and scheduling system, but restrictive placements can change whether a visit is contact, non-contact, shortened, or unavailable on a given day. The statewide rules above — approval, ID, prohibited items, and dress code — apply here, and the duty warden makes the final decision on entry. Full details are in [Visiting in Texas](/states/texas/guides/visiting/).
 
 ## Getting There and Parking
 

@@ -6,6 +6,11 @@ topic: money
 relatedNationalGuide: sending-money
 system: CDCR
 description: "How to deposit money into a CDCR trust account, the deposit methods CDCR accepts, fees, the restitution deduction, and the monthly canteen limit."
+sources:
+  - name: "CDCR Sending Money to Inmates"
+    url: "https://www.cdcr.ca.gov/visitors/sending-money-to-inmates/"
+  - name: "California Code of Regulations, Title 15"
+    url: "https://www.cdcr.ca.gov/regulations/"
 lastReviewed: 2026-05-28
 ---
 

@@ -6,6 +6,13 @@ topic: mail
 relatedNationalGuide: staying-in-touch
 system: CDCR
 description: "How to send letters, electronic messages, photos, books, and quarterly packages to someone in a California state prison, including approved-vendor package rules."
+sources:
+  - name: "CDCR Approved Vendors"
+    url: "https://www.cdcr.ca.gov/visitors/approved-vendors/"
+  - name: "California Incarcerated Records & Information Search (CIRIS)"
+    url: "https://ciris.mt.cdcr.ca.gov/"
+  - name: "California Code of Regulations, Title 15"
+    url: "https://www.cdcr.ca.gov/regulations/"
 lastReviewed: 2026-05-28
 ---
 

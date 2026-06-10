@@ -12,8 +12,11 @@
     "visual-check": "node scripts/visual-check.mjs",
     "lint:tone": "node scripts/lint-tone.mjs",
     "check:links": "node scripts/check-links.mjs",
-    "migrate:html": "node scripts/migrate-html.mjs",
-    "validate": "astro check && npm run lint:tone && npm run build && npm run check:links"
+    "check:freshness": "node scripts/check-freshness.mjs",
+    "check:sources": "node scripts/check-sources.mjs",
+    "check:external-links": "node scripts/check-external-links.mjs",
+    "check:a11y": "node scripts/check-a11y.mjs",
+    "validate": "astro check && npm run lint:tone && npm run build && npm run check:links && npm run check:freshness && REQUIRE_SOURCES=1 npm run check:sources && npm run check:a11y"
   },
   "dependencies": {
     "@astrojs/sitemap": "3.7.2",
@@ -22,12 +25,11 @@
     "pagefind": "1.4.0",
     "remark-directive": "4.0.0",
     "remark-gfm": "4.0.1",
-    "turndown": "7.2.2",
-    "turndown-plugin-gfm": "1.0.2",
     "zod": "4.3.6"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.8",
+    "@axe-core/playwright": "^4.11.3",
     "pixelmatch": "^7.1.0",
     "playwright": "^1.54.2",
     "pngjs": "^7.0.0",

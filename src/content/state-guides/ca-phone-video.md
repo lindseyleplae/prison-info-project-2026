@@ -6,6 +6,12 @@ topic: phone-video
 relatedNationalGuide: staying-in-touch
 system: CDCR
 description: "How phone and video calls work in California state prisons, including free audio calls, video and messaging costs, and the 2026 ViaPath-to-Securus transition."
+sources:
+  - name: "CDCR How to Contact an Incarcerated Person"
+    url: "https://www.cdcr.ca.gov/family-resources/how-to-contact-an-incarcerated-person/"
+  - name: "CDCR Tablets"
+    url: "https://www.cdcr.ca.gov/family-resources/tablets/"
+  - name: "California SB 1008 (Keep Families Connected Act, 2022)"
 lastReviewed: 2026-05-28
 ---
 

@@ -2,14 +2,12 @@
 import { getCollection } from 'astro:content';
 import { siteConfig, siteNavigation } from '../data/site';
 
-const [guides, states, tools] = await Promise.all([
+const [guides, tools] = await Promise.all([
   getCollection('national-guides', ({ data }) => !data.draft),
-  getCollection('states', ({ data }) => !data.draft),
   getCollection('tools', ({ data }) => !data.draft)
 ]);
 
 guides.sort((left, right) => (left.data.order ?? 999) - (right.data.order ?? 999) || left.data.title.localeCompare(right.data.title));
-states.sort((left, right) => left.data.title.localeCompare(right.data.title));
 tools.sort((left, right) => left.data.title.localeCompare(right.data.title));
 ---
 
@@ -28,13 +26,11 @@ tools.sort((left, right) => left.data.title.localeCompare(right.data.title));
       </section>
 
       <section>
-        <h2 class="eyebrow">States</h2>
+        <h2 class="eyebrow">Browse</h2>
         <ul>
-          {states.map((state) => (
-            <li>
-              <a href={`/states/${state.data.slug}/`}>{state.data.title}</a>
-            </li>
-          ))}
+          <li><a href="/states/">All states</a></li>
+          <li><a href="/facilities/">Find a facility</a></li>
+          <li><a href="/search/">Search</a></li>
         </ul>
       </section>
 

@@ -4,7 +4,12 @@ slug: sending-money
 description: "How to put money on someone's books, what it costs, and what they can actually buy with it"
 summary: "How to put money on someone's books, what it costs, and what they can actually buy with it"
 order: 4
-lastReviewed: 2026-03-29
+sources:
+  - name: "Federal Bureau of Prisons — How to Send Money to an Inmate"
+    url: "https://www.bop.gov/inmates/communications.jsp#money"
+  - name: "Prison Policy Initiative"
+    url: "https://www.prisonpolicy.org/"
+lastReviewed: 2026-06-09
 ---
 
 ## How Commissary & Trust Accounts Work
@@ -40,7 +45,7 @@ There are several ways to put money in someone's commissary account, each with d
 
 **Speed:** 1-3 business days in most cases. Some facilities offer same-day or next-day processing.
 
-**Costs:** Varies by provider, but typically $1.95 to $3.95 per transaction plus a small percentage. Some providers charge a flat fee instead.
+**Costs:** A flat transaction fee, sometimes plus a percentage of the deposit. The provider's fee schedule is shown before checkout.
 
 **Convenience:** High—can be done from home 24/7, and you can set up recurring deposits.
 
@@ -50,7 +55,7 @@ There are several ways to put money in someone's commissary account, each with d
 
 **Speed:** 1-3 weeks if mailed. Varies if delivered in person.
 
-**Costs:** Money order fee ($0.50-$2.00) plus postage ($0.63).
+**Costs:** The money order fee plus postage — generally the lowest-fee method.
 
 **Convenience:** Low—requires time to purchase and mail, and depends on facility mail processing.
 
@@ -62,7 +67,7 @@ There are several ways to put money in someone's commissary account, each with d
 
 **Speed:** Same day in most cases.
 
-**Costs:** Higher than other methods. Typical fees are $4-$10 for smaller amounts, depending on the location and amount sent.
+**Costs:** Generally the highest-fee method. The fee depends on the location and the amount sent.
 
 **Convenience:** Medium—requires finding a location, but faster than mail.
 
@@ -79,19 +84,21 @@ There are several ways to put money in someone's commissary account, each with d
 ## Deposit Fees Comparison
 
 :::cost-table
-| Deposit Method | Typical Fee | Processing Time | Convenience |
-| --- | --- | --- | --- |
-| Online (JPay/GTL/Securus) | $1.95 - $3.95 + % fee | 1-3 business days | Very High |
-| Money Order (Mail) | $0.50 - $2.00 + postage | 1-3 weeks | Low |
-| MoneyGram/Western Union | $4.00 - $10.00 | Same day | Medium |
-| Direct Card (Phone) | $2.00 - $5.00 | Same day - next day | Medium |
+| Deposit Method | Cost Profile | Processing Time |
+| --- | --- | --- |
+| Online (JPay/GTL/Securus) | Flat fee, sometimes plus a percentage | 1-3 business days |
+| Money Order (Mail) | Lowest fees — money order plus postage | 1-3 weeks |
+| MoneyGram/Western Union | Highest fees | Same day |
+| Direct Card (Phone) | Varies by facility | Same day - next day |
 :::
 
+Exact fees vary by provider, state contract, and deposit amount; each provider's fee schedule is shown before a deposit is submitted. Some state guides on this site carry sourced fee details where the corrections department publishes them.
+
 :::reality-check{title="Processing considerations"}
--   **Fee accumulation:** Some online providers charge percentage fees in addition to flat fees. A $50 deposit may incur total fees of $4-$5 or more
+-   **Fee accumulation:** Some online providers charge percentage fees in addition to flat fees, so fees take a proportionally larger share of small deposits
 -   **Processing time variation:** Processing times vary by facility even when using the same service provider
 -   **Timing of deposits:** Deposits made on weekends or holidays may not post until the following business week
--   **Error correction:** Deposits sent to the wrong person or in the wrong amount may be difficult to reverse. Verify recipient information before sending
+-   **Error correction:** Deposits sent to the wrong person or in the wrong amount may not be reversible, and recipient information cannot always be corrected after a deposit is submitted
 -   **Lost deposits:** Deposits occasionally fail to post to accounts. Keep confirmation numbers and transaction documentation
 :::
 
@@ -113,20 +120,9 @@ Prison commissaries vary in what they offer, but typical items include:
 -   **Supplies for hobbies:** Art supplies, writing materials, postage stamps
 -   **Phone/communication deposits:** Adding funds to phone accounts or video visit credits
 
-### Rough Price Ranges
+### Prices
 
-Commissary prices vary significantly by facility and region, but here are typical ranges based on what many visitors report:
-
--   **Instant ramen:** $0.35 - $0.75 per package (retail: ~$0.20)
--   **Candy bars:** $0.75 - $1.50 (retail: ~$0.50-$1.00)
--   **Shampoo/conditioner:** $2.00 - $5.00 (retail: ~$2.00-$4.00)
--   **Deodorant:** $2.50 - $4.50 (retail: ~$1.50-$3.00)
--   **Socks (pair):** $3.00 - $8.00 (retail: ~$2.00-$4.00)
--   **Shoes:** $50 - $150 (retail: ~$40-$100)
-
-:::callout{variant="warning"}
-**Commissary pricing:** Prison commissary prices are typically 50-100% higher than retail prices for the same items due to facility overhead and operational costs.
-:::
+Commissary prices vary by facility and region. Advocacy groups, including the Prison Policy Initiative, have documented that commissary items frequently cost more than the same items at retail. Some corrections departments publish current commissary price lists; where they do, the state guides on this site cite them.
 
 ### Variation by Facility
 
@@ -152,13 +148,7 @@ Many facilities limit how much an incarcerated person can spend from their commi
 
 ### Typical Limits
 
--   No limit (some facilities don't restrict spending)
--   $30-$50 per week
--   $50-$100 per week
--   $100-$200 per week
--   Limits vary by housing unit or custody level
-
-Limits vary significantly by state, facility security level, and facility policy. What's true for one facility may not be true for another.
+Limits range from no restriction at all to weekly or monthly dollar caps, and within a facility they can vary by housing unit, custody level, or privilege group. What's true for one facility may not be true for another. Where a corrections department publishes its limit, the state guides on this site cite it — for example, California's monthly canteen maximum and Texas's two-week commissary limit are both published figures.
 
 :::callout{variant="tip"}
 **Find out the limit at your facility:** Contact the facility's commissary office to ask about spending limits. Sending more money than someone can spend in a given week doesn't help—it just sits in the account.
@@ -166,13 +156,13 @@ Limits vary significantly by state, facility security level, and facility policy
 
 ### Account Caps
 
-Some facilities also limit the total balance that can be held in a commissary account. For example, an incarcerated person might not be allowed to have more than $300-$500 in their account at any given time. Once they reach the cap, new deposits cannot be credited until the balance drops below the limit through spending.
+Some facilities also limit the total balance that can be held in a commissary account. Once the balance reaches the cap, new deposits cannot be credited until the balance drops below the limit through spending.
 
 ## Timeline for Deposits
 
 ### When Money Actually Arrives
 
-This is one of the most frustrating aspects of sending money to someone who is incarcerated. "Processing time" doesn't always mean the money is available immediately.
+"Processing time" does not always mean the money is available immediately. Funds can clear the sender's bank or money-order processor days before the facility credits them to the account.
 
 ### Typical Timeline
 
