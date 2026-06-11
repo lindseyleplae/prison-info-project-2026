@@ -15,7 +15,7 @@ sources:
     url: "https://www.cdcr.ca.gov/visitors/attire-restrictions/"
   - name: "California Code of Regulations, Title 15"
     url: "https://www.cdcr.ca.gov/regulations/"
-lastReviewed: 2026-06-09
+lastReviewed: 2026-06-10
 ---
 
 :::key-info{title="Key info"}
@@ -115,7 +115,7 @@ You can bring very little inside. Almost everything stays in your car or a locke
 
 -   **Government-issued photo ID** — current and matching your application name
 -   **Car key** — one or two keys only, no keychains or extra attachments
--   **Vending machine money** — up to $70 per adult visitor and $40 per minor, in coins and $1 bills, in a clear bag
+-   **Vending machine money** — in the amount the institution posts on its visiting page (limits vary by prison; for example, Valley State Prison posts $100 per adult and $50 per minor), in coins and $1 bills, in a clear bag
 -   **Small clear bag** — for your money and key
 
 ### Leave in Your Car
@@ -159,7 +159,7 @@ What counts as "brief" or "excessive" is up to the officer on duty. Staff interp
 
 ### Vending Machines
 
-Most visiting rooms have vending machines with snacks and drinks. The incarcerated person cannot handle money or operate the machines, so the visitor makes the purchases. Bring coins or $1 bills only — up to $70 per adult visitor and $40 per minor.
+Most visiting rooms have vending machines with snacks and drinks. The incarcerated person cannot handle money or operate the machines, so the visitor makes the purchases. Bring coins or $1 bills only, up to the limit the institution posts on its visiting page — the maximums vary by prison.
 
 ### Photos
 
@@ -231,7 +231,7 @@ There is no fee to visit, but a visit still carries real costs. The list below o
 | Expense | What it involves |
 | --- | --- |
 | Gas/mileage | Many CDCR facilities are in remote locations; long round trips are common. |
-| Vending machines | Up to $70 per adult and $40 per minor may be brought in. Often the only way to share a meal during a visit. |
+| Vending machines | Cash up to the institution-posted limit may be brought in. Often the only way to share a meal during a visit. |
 | Photo | A small per-photo fee where the facility offers photos. |
 | Hotel (if needed) | Early-morning weekend visits at distant facilities can mean a night's stay nearby. |
 | Childcare | If children do not attend the visit. |

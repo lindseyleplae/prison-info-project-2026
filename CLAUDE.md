@@ -95,10 +95,10 @@ Deploy CI re-runs the push-sensitive gates on every push to main; a weekly
 scheduled workflow (content-audit.yml) re-runs freshness + external links.
 
 ## Current Scope
-- California (CDCR): 6 state guides + 10 facility pages
-- Texas (TDCJ): 6 state guides + 9 facility pages
+- California (CDCR): 6 state guides + 13 facility pages
+- Texas (TDCJ): 6 state guides + 14 facility pages
 - 5 national guides
-- 50 pages total
+- 58 pages total
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)
