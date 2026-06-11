@@ -96,9 +96,9 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 
 ## Current Scope
 - California (CDCR): 6 state guides + 13 facility pages
-- Texas (TDCJ): 6 state guides + 14 facility pages
+- Texas (TDCJ): 6 state guides + 22 facility pages
 - 5 national guides
-- 58 pages total
+- 66 pages total
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)

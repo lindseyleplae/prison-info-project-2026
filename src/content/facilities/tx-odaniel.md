@@ -17,7 +17,7 @@ contact:
   mainPhone: "(254) 865-7226"
 providers:
   phone: "Securus"
-  video: "Securus Video Connect"
+  video: "Securus Video Visitation"
 visiting:
   days: "Saturday-Sunday"
   hours: "8:00 AM - 5:30 PM (Sat-Sun); death row visits follow a separate schedule"

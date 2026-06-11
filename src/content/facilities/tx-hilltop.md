@@ -15,7 +15,7 @@ contact:
   mainPhone: "(254) 865-8901"
 providers:
   phone: "Securus"
-  video: "Securus Video Connect"
+  video: "Securus Video Visitation"
 visiting:
   days: "Saturday-Sunday"
   hours: "8:00 AM - 5:30 PM (Sat-Sun)"

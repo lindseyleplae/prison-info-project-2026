@@ -13,7 +13,7 @@ contact:
   mainPhone: "(903) 928-2211"
 providers:
   phone: "Securus"
-  video: "Securus Video Connect"
+  video: "Securus Video Visitation"
 visiting:
   days: "Saturday-Sunday"
   hours: "8:00 AM - 5:30 PM (Sat-Sun)"
@@ -26,8 +26,8 @@ links:
 sources:
   - name: "TDCJ Inmate Rules and Regulations for Visitation (I-218, rev. April 2025)"
     url: "https://www.tdcj.texas.gov/documents/cid/Inmate_Rules_and_Regulations_for_Visitation_English.pdf"
-lastVerified: 2026-06-09
-reviewBy: 2026-09-09
+lastVerified: 2026-06-11
+reviewBy: 2026-09-11
 ---
 
 :::key-info
@@ -83,7 +83,7 @@ Coffield is in a rural section of Anderson County. The drive starts on highways 
 **Entry:** Check-in is at the unit's visitor processing point, where ID review and standard TDCJ screening happen before movement into the visiting area.
 :::
 
-There is no fixed-route bus to the unit. GoBus, the transit program of the East Texas Council of Governments, runs shared-ride, advance-reservation service across Anderson County and a GoNOW microtransit zone within Palestine, but the FM-road approach near Tennessee Colony is by car.
+There is no fixed-route bus to the unit. GoBus, the transit program of the East Texas Council of Governments, runs shared-ride, advance-reservation service across Anderson County on weekdays only — not on the weekend visiting days — so the trip is by car.
 
 The nearest hospital and urgent care are in Palestine, not near the unit. Palestine Regional Medical Center on South Loop 256 operates a 24-hour emergency room, a CHRISTUS emergency room also operates in Palestine, and Access Medical Clinic on South Loop 256 is a walk-in option.
 

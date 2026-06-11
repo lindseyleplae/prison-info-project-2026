@@ -16,7 +16,7 @@ contact:
   mainPhone: "(936) 967-8082"
 providers:
   phone: "Securus"
-  video: "Securus Video Connect"
+  video: "Securus Video Visitation"
 visiting:
   days: "General population: Sat-Sun. Death row: Tue, Thu, Sat"
   hours: "General population: 8:00 AM - 5:30 PM (Sat-Sun). Death row: Tue & Thu afternoons, Sat evening"
