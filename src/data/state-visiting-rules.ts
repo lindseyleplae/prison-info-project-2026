@@ -34,6 +34,25 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  wy: {
+    system: 'WDOC',
+    title: 'Statewide rules that apply at every WDOC institution',
+    guideHref: '/states/wyoming/guides/visiting/',
+    guideLabel: 'Visiting in Wyoming',
+    dressCode: [
+      'Conservative clothing that is not form-fitting or suggestive. Blue jean denim is allowed.',
+      'Dresses, skirts, and shorts no more than two inches above the middle of the kneecap, slits included; wrap-around skirts are not permitted.',
+      'No exposed chest, back, thighs, or midsection — no halter or tube tops, sheer fabrics, low necklines, or crop tops. Undergarments are required.',
+      'No hooded sweatshirts in the visiting area; hats, umbrellas, and heavy weather gear stay in a locker or the vehicle.',
+      'Individual facilities prohibit additional colors (the penitentiary bans red, orange, and camouflage) — check before traveling. Unless exempted (pregnancy, under 18, documented medical), every visitor entering a secure area passes a full-body scanner.'
+    ],
+    idRule:
+      'Every visitor needs identification — a photo ID for ages 16 and up (exchanged for a visitor badge), and a document such as a birth certificate for younger children.',
+    itemsRule:
+      'No phones, electronics, or outside food; personal property goes in a locker or the vehicle. Up to $20 in coins or tokens for vending machines (the State Penitentiary takes cards only), plus a published list of baby items.',
+    schedulingRule:
+      'The incarcerated person starts the visitor application (WDOC Form 531), and the approval decision goes to them — not the visitor. Most visiting is first come, first served on posted facility schedules; arrive within 15 minutes of the session start.'
+  },
   ut: {
     system: 'UDC',
     title: 'Statewide rules that apply at every Utah state prison',

@@ -98,8 +98,9 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - California (CDCR): 6 state guides + 13 facility pages
 - Texas (TDCJ): 6 state guides + 22 facility pages
 - Utah (UDC): 6 state guides + 2 facility pages
+- Wyoming (WDOC): 6 state guides + 5 facility pages
 - 5 national guides
-- 75 pages total
+- 87 pages total
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)
