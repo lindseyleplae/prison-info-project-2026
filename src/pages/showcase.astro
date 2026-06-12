@@ -8,6 +8,8 @@ import Footer from '../components/Footer.astro';
 import QuickFacts from '../components/QuickFacts.astro';
 import Steps from '../components/Steps.astro';
 import TableOfContents from '../components/TableOfContents.astro';
+import TopicIcon from '../components/TopicIcon.astro';
+import { topics } from '../data/topics';
 
 const [states, facilities] = await Promise.all([
   getCollection('states', ({ data }) => !data.draft),
@@ -82,6 +84,18 @@ const tocHeadings = [
           <h3><a href="/states/texas/">Texas</a></h3>
           <p>Visiting rules, mail, money, phone and video information, plus listed facilities.</p>
         </article>
+      </div>
+    </section>
+
+    <section class="showcase-section">
+      <h2>Topic icons</h2>
+      <p class="showcase-label">Line icons for the six recurring guide topics, used on state-page guide cards</p>
+      <div class="section-card-list">
+        {topics.map((topic) => (
+          <article class="section-card">
+            <h3><TopicIcon name={topic.icon} /> {topic.label}</h3>
+          </article>
+        ))}
       </div>
     </section>
 

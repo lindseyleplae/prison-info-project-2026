@@ -48,7 +48,8 @@ Official facility page → policy source(s) from frontmatter → inmate locator.
 ### Navigation is built for 50 states, not 2
 - The header "States" item is a plain link to `/states/` — no dropdown. (The National Guides dropdown stays: five stable items.)
 - The footer has a three-link **Browse** group (All states / Find a facility / Search), never a per-state list.
-- State cards on the homepage and `/states/` flow in a responsive `card-grid` (auto-fill columns at ≥48rem).
+- State cards on the homepage and `/states/` stack one state per row (`section-card-list`) — Lindsey's call, June 2026. The old multi-column `card-grid` was removed; don't reintroduce it for state lists.
+- State pages carry a one-line section jump nav (`.page-jump-links`: "State guides · Facilities (n)") and clamp guide-card descriptions to two lines (`.clamp-2`), so pages stay shallow as facility counts grow.
 - Nothing anywhere enumerates states by hand. Header, footer, and index pages read the `states` collection; content links point to the `/states/` hub.
 
 ### Adding a state = content files + two data entries, nothing else
@@ -59,6 +60,12 @@ Every color is a custom property in `src/styles/tokens.css`. `npm run check:a11y
 
 ### Whole cards are links
 Any card with a hover style is fully clickable — the card itself is an `<a>` (`.section-card`) or uses the overlay pattern with `z-index: 1` (`.facility-card`). A "looks clickable but isn't" element is worse than no hover style.
+
+### Print is a first-class output
+Visitors cannot bring phones into a facility — printed pages are what families carry to the lobby. `src/styles/print.css` (decided June 2026) strips all site chrome, prints external-link URLs in parentheses so sources stay cited on paper, keeps key-info/callout/card boxes unbroken across page breaks, and renders boxes as thin outlines instead of ink-heavy fills. Any new component should either hide in print or print cleanly — check before shipping.
+
+### Visual elements are monochrome, functional, and rationed
+The six recurring guide topics have small line icons (`TopicIcon.astro`, icon names in `src/data/topics.ts`), shown on state-page guide cards and in the showcase. The rules, decided with Lindsey June 2026: icons aid navigation, they don't decorate — single color via tokens, `aria-hidden` (meaning always lives in the adjacent text), and only for the six topics. No illustration creep, no per-state imagery, no color-coding.
 
 ### Analytics: anonymous counting yes, tracking never
 The site counts visits with GoatCounter (decided June 2026): no cookies, no fingerprinting, no personal identifiers, production-only script in BaseLayout, fully disclosed on the privacy page. The line that may not be crossed: nothing that can identify or profile an individual visitor — this audience has real reasons to fear surveillance. If GoatCounter ever changes its model, remove the script rather than weaken the promise. Dashboard: prisonvisitorguide.goatcounter.com.

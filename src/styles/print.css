@@ -1,18 +1,68 @@
+/* Print styles. Visitors cannot bring phones into a facility, so printed
+   pages are what families carry to the lobby — every guide, facility, and
+   tool page should print as a clean, self-contained reference: site chrome
+   removed, source URLs spelled out, and info boxes kept whole on a page. */
+
 @media print {
+  @page {
+    margin: 1.6cm;
+  }
+
+  /* Site chrome and on-screen-only affordances. */
   .site-header,
   .footer,
   .disclaimer-bar,
   .guide-sidebar,
-  .search-panel {
+  .search-panel,
+  .feedback,
+  .page-jump-links,
+  .skip-link {
     display: none !important;
   }
 
   body {
-    background: var(--color-bg-card);
+    background: #fff;
+    color: #000;
+    font-size: 11pt;
   }
 
   a {
-    color: var(--color-text);
+    color: #000;
     text-decoration: none;
+  }
+
+  /* Spell out where a link goes: external links (sources, official pages)
+     print their full URL so the paper copy still cites its sources. Internal
+     links print as plain text — their URLs are site navigation, not sources. */
+  .site-main a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    word-break: break-all;
+  }
+
+  /* Keep boxed content whole: a dress-code list or key-info box split across
+     two pages is how items get missed at the facility door. */
+  .key-info,
+  .callout,
+  .section-card,
+  .start-here,
+  .statewide-rules,
+  table,
+  blockquote {
+    break-inside: avoid;
+  }
+
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+
+  /* Cards and callouts print as thin outlines instead of tinted fills —
+     readable on any printer, no ink-heavy backgrounds. */
+  .key-info,
+  .callout,
+  .section-card {
+    background: #fff !important;
+    border: 1pt solid #777;
   }
 }

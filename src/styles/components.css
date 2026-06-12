@@ -987,3 +987,38 @@ h3 + ol {
     grid-template-columns: 1fr;
   }
 }
+
+/* Topic icons — small line icons beside the six recurring guide-topic cards
+   (see TopicIcon.astro). Decorative; color follows the primary token so they
+   stay quiet against the card background. */
+.topic-icon {
+  width: 1.15em;
+  height: 1.15em;
+  vertical-align: -0.18em;
+  margin-right: 0.45rem;
+  color: var(--color-primary);
+}
+
+/* Jump links under a state page intro — one-line section index so long state
+   pages (6 guides + up to 22 facilities) can be skipped without scrolling. */
+.page-jump-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2) var(--space-4);
+  margin-top: var(--space-4);
+  font-size: 0.9375rem;
+}
+
+.page-jump-links a {
+  color: var(--color-primary);
+}
+
+/* Clamp long card descriptions to two lines (state-page guide cards) so each
+   card stays shallow; the full description lives on the guide page itself. */
+.clamp-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}

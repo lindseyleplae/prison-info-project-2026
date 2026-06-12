@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import PageLayout from '../../../layouts/PageLayout.astro';
 import StartHere from '../../../components/StartHere.astro';
+import TopicIcon from '../../../components/TopicIcon.astro';
 import { topicMap } from '../../../data/topics';
 
 export async function getStaticPaths() {
@@ -58,19 +59,27 @@ const facilityGroups =
     />
   )}
 
-  <section>
+  <nav class="page-jump-links" aria-label="Sections on this page">
+    <a href="#state-guides">State guides</a>
+    <a href="#facilities">Facilities ({facilities.length})</a>
+  </nav>
+
+  <section id="state-guides">
     <h2>State guides</h2>
     <div class="section-card-list">
       {guides.map((guide) => (
         <a class="section-card" href={`/states/${entry.data.slug}/guides/${guide.data.topic ?? guide.data.slug}/`}>
-          <h3>{guide.data.title}</h3>
-          <p>{guide.data.description ?? guide.data.summary ?? 'State-specific process and policy detail.'}</p>
+          <h3>
+            <TopicIcon name={topicMap.get(guide.data.topic ?? guide.data.slug)?.icon} />
+            {guide.data.title}
+          </h3>
+          <p class="clamp-2">{guide.data.description ?? guide.data.summary ?? 'State-specific process and policy detail.'}</p>
         </a>
       ))}
     </div>
   </section>
 
-  <section>
+  <section id="facilities">
     <h2>Facilities</h2>
     {facilityGroups.map((group) => (
       <>
