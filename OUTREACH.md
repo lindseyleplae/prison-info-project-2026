@@ -67,8 +67,10 @@ resource lists (Prison Policy Initiative, The Marshall Project).
 >
 > I'm an attorney, and as a volunteer project I maintain prisonvisitorguide.org —
 > a free reference site that organizes visiting, mail, phone, money, medical, and
-> transfer information for families of incarcerated people. It is independent:
-> no ads, no tracking, no donations.
+> transfer information for families of incarcerated people. I started it because
+> the information families need is scattered across dozens of official pages,
+> often out of date, and usually needed all at once with no warning. The site is
+> independent: no ads, no tracking, no donations.
 >
 > The Texas section covers all six statewide topics plus 22 TDCJ units, including
 > every unit in Huntsville, Gatesville, and the Tennessee Colony cluster — with
@@ -97,8 +99,10 @@ resource lists (Prison Policy Initiative, The Marshall Project).
 >
 > I'm an attorney, and as a volunteer project I maintain prisonvisitorguide.org —
 > a free reference site that organizes visiting, mail, phone, money, medical, and
-> transfer information for families of incarcerated people. It is independent:
-> no ads, no tracking, no donations.
+> transfer information for families of incarcerated people. I started it because
+> the information families need is scattered across dozens of official pages,
+> often out of date, and usually needed all at once with no warning. The site is
+> independent: no ads, no tracking, no donations.
 >
 > The California section covers all six statewide topics plus 13 CDCR institutions,
 > including both women's prisons and the reception centers. Friends Outside is
@@ -126,8 +130,10 @@ resource lists (Prison Policy Initiative, The Marshall Project).
 >
 > I'm an attorney, and as a volunteer project I maintain prisonvisitorguide.org —
 > a free reference site that organizes visiting, mail, phone, money, medical, and
-> transfer information for families of incarcerated people. It is independent:
-> no ads, no tracking, no donations.
+> transfer information for families of incarcerated people. I started it because
+> the information families need is scattered across dozens of official pages,
+> often out of date, and usually needed all at once with no warning. The site is
+> independent: no ads, no tracking, no donations.
 >
 > Utah is covered completely: both state prisons, all six statewide topics, and a
 > transfers guide that explains the county jail placement program — including the
