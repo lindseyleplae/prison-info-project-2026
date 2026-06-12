@@ -8,6 +8,8 @@ description: "Why this resource exists and how it's built"
 
 Prison Visitor Guide is a reference site that compiles publicly available information about prison visiting procedures, policies, and related processes. It aggregates information from official corrections department sources and published resources into a single searchable resource.
 
+The site is built and maintained by a volunteer attorney as a free, independent public resource. It is not affiliated with any corrections department, government agency, or advocacy organization, accepts no advertising, and asks for no donations. It does not provide legal services or representation — see below.
+
 ## Information Sources
 
 Information on this site comes from publicly available sources including official corrections department websites, state regulations, published policies, and advocacy organizations. Prison policies change frequently and can vary by facility. Users should verify specific details directly with the relevant facility.
