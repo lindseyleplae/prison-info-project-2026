@@ -28,9 +28,9 @@ const {
 
 const breadcrumbItems = [
   { label: 'Home', href: '/' },
-  { label: 'States' },
+  { label: 'States', href: '/states/' },
   { label: stateTitle, href: `/states/${Astro.params.state}/` },
-  { label: 'Facilities' },
+  { label: 'Facilities', href: `/states/${Astro.params.state}/#facilities` },
   { label: facility.data.title, href: Astro.url.pathname }
 ];
 

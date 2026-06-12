@@ -36,10 +36,10 @@ const breadcrumbItems = [
   { label: 'Home', href: '/' },
   ...(stateLabel
     ? [
-        { label: 'States' },
+        { label: 'States', href: '/states/' },
         { label: stateLabel, href: Astro.params.state ? `/states/${Astro.params.state}/` : undefined }
       ]
-    : [{ label: 'Guides' }]),
+    : [{ label: 'Guides', href: '/guides/' }]),
   { label: title, href: Astro.url.pathname }
 ];
 ---
