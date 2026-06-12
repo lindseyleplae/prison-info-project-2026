@@ -138,8 +138,10 @@ resource lists (Prison Policy Initiative, The Marshall Project).
 > Utah is covered completely: both state prisons, all six statewide topics, and a
 > transfers guide that explains the county jail placement program — including the
 > 2026 mail changes, the annual visiting renewal rule, and the ThrIVE video system.
-> UPAN is mentioned on both facility pages as the family resource for Utah:
-> prisonvisitorguide.org/states/utah/
+> UPAN is mentioned on both facility pages as the family resource for Utah —
+> your Prisoner Family 101 section is the kind of firsthand knowledge a
+> reference site like ours can't replace, and we'd rather point people to it
+> than duplicate it: prisonvisitorguide.org/states/utah/
 >
 > Two things I wanted to ask:
 >
