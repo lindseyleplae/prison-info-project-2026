@@ -45,6 +45,8 @@ reviewBy: 2026-07-28
 
 ## Overview
 
+**Corcoran has two separate state prisons.** This page covers California State Prison, Corcoran (CSP-COR) at 4001 King Avenue; the [Substance Abuse Treatment Facility](/states/california/facilities/satf/) is a different institution about 3.5 road miles away at 900 Quebec Avenue, with its own phone number, mailing boxes, and visiting department. The yard names tell them apart: this prison uses Facilities 3A, 3B, 3C, 4A, 4B, and Z; SATF uses Facilities A through G.
+
 California State Prison, Corcoran is one of CDCR's largest and most complex institutions. CDCR describes it as a multi-mission prison with Level I, Level III, and Level IV housing, prison industry operations, a correctional treatment center, and multiple specialized custody units.
 
 The institution's structure affects visiting more than at most single-mission prisons. Standard general population visiting follows one schedule, while several restricted, medical, or specialized units use separate appointments and shorter non-contact formats.
