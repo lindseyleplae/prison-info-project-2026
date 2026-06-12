@@ -149,19 +149,9 @@
   margin-top: var(--space-4);
 }
 
-.page-section-grid,
-.card-grid {
+.page-section-grid {
   display: grid;
   gap: var(--space-4);
-}
-
-/* Card grids fill columns as width allows: one column on phones, more columns
-   as the viewport grows. Used for the state grid on the homepage; /states/
-   deliberately stacks one state per row instead (section-card-list alone). */
-@media (min-width: 48rem) {
-  .card-grid {
-    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
-  }
 }
 
 /* Trailing note separated from the content above it (e.g., the "more states

@@ -55,7 +55,7 @@ const { Content } = await render(homeEntry);
     <section class="page-section-grid" id="states" aria-labelledby="states-heading">
       <div class="content-width">
         <h2 id="states-heading">Browse by state</h2>
-        <div class="section-card-list card-grid">
+        <div class="section-card-list">
           {states.map((state) => (
             <a class="section-card" href={`/states/${state.data.slug}/`}>
               <h3>{state.data.title}</h3>
