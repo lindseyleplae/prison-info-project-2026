@@ -33,6 +33,11 @@ const contactField = z
 const linkField = z.record(z.string(), z.string().trim().url());
 const stringRecordField = z.record(z.string(), z.string().trim().min(1));
 
+// Entry ids must be unique per collection, but topic slugs repeat across
+// states (every state has a "visiting" guide). Use the filename as the id so
+// entries can never overwrite each other; routes read data.slug/data.topic.
+const fileId = ({ entry }: { entry: string }) => entry.replace(/\.md$/, '');
+
 const nationalGuides = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/national-guides' }),
   schema: z
@@ -73,7 +78,7 @@ const states = defineCollection({
 });
 
 const stateGuides = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/state-guides' }),
+  loader: glob({ pattern: '**/*.md', base: './src/content/state-guides', generateId: fileId }),
   schema: z
     .object({
       title: z.string().trim().min(1),
@@ -93,7 +98,7 @@ const stateGuides = defineCollection({
 });
 
 const facilities = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/facilities' }),
+  loader: glob({ pattern: '**/*.md', base: './src/content/facilities', generateId: fileId }),
   schema: z
     .object({
       title: z.string().trim().min(1),

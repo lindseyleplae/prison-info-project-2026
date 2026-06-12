@@ -34,6 +34,25 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  ut: {
+    system: 'UDC',
+    title: 'Statewide rules that apply at every Utah state prison',
+    guideHref: '/states/utah/guides/visiting/',
+    guideLabel: 'Visiting in Utah',
+    dressCode: [
+      'Modest, loose-fitting clothing only — no skin-tight or figure-hugging items, including leggings, yoga pants, and form-fitted shirts.',
+      'Tops need sleeves that cover the full shoulder, with the cleavage line, back, midriff, and underarms covered at all times; no sheer fabrics or ripped styles.',
+      'Dresses, skirts, and shorts must reach the kneecap when standing, slits included.',
+      'No plain white, orange, or maroon clothing (what incarcerated people wear), no grey pants with a black shirt or medical scrubs (resemble staff uniforms), and no camouflage or hooded clothing.',
+      'Closed-toe shoes required. Every visitor passes a body scanner — underwire bras and clothing with heavy metal or embellishments do not pass.'
+    ],
+    idRule:
+      'Every visitor 16 or older presents a government-issued photo ID, which is held at the entrance in exchange for a visitor card until the visit ends.',
+    itemsRule:
+      'No phones, electronics, purses, wallets, keys, paper money, or outside food. Lockers are available; vending coins go in a clear bag, and one debit or credit card is allowed.',
+    schedulingRule:
+      'Visitors apply in advance (processing takes 6-8 weeks, and the application renews annually), then book every visit ahead through the sign-up forms on corrections.utah.gov — no walk-ins. In-person visits run Friday-Sunday.'
+  },
   tx: {
     system: 'TDCJ',
     title: 'Statewide rules that apply at every TDCJ unit',
@@ -68,7 +87,7 @@ export const stateVisitingRules: Record<string, StateVisitingRules> = {
     idRule:
       'A current government-issued photo ID matching the name on the approved application is required.',
     itemsRule:
-      'No cell phones, wallets, other electronics, food, or drinks inside. A small clear bag may hold a car key and vending money — up to $70 per adult and $40 per minor, in coins and $1 bills.',
+      'No cell phones, wallets, other electronics, food, or drinks inside. A small clear bag may hold a car key and vending money in coins and $1 bills, up to the limit the institution posts on its visiting page.',
     schedulingRule:
       'Visitors must be approved on CDCR Form 106 before a first visit, then schedule through the VSA online system. Walk-ins are generally not allowed.'
   }

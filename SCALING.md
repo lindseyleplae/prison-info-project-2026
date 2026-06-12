@@ -268,6 +268,17 @@ The PLAYBOOK says "adding a state or facility = content files only, never touch 
 
 ---
 
+## New-state trap: topic slugs collide across states
+
+Every state's guides reuse the same six topic slugs (visiting, mail, ...). Astro's
+glob loader will use frontmatter `slug` as the collection entry id unless told
+otherwise, and duplicate ids silently overwrite earlier entries — adding Utah
+knocked all six California guides out of the build with only a build WARNING,
+not an error. The fix lives in `src/content.config.ts`: the `state-guides` and
+`facilities` collections use filename-based ids (`generateId: fileId`). Do not
+remove that, and when adding a state, check the build output for
+"[glob-loader] Duplicate id" warnings — they mean pages are being dropped.
+
 ## Common scaling tasks
 
 ### Adding a new state

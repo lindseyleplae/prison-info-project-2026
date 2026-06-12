@@ -17,6 +17,10 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  UDC: {
+    official: 'UDC Correctional Facilities',
+    locator: 'UDC Offender Search'
+  },
   TDCJ: {
     official: 'TDCJ Unit Directory',
     locator: 'TDCJ Inmate Search'
