@@ -230,6 +230,31 @@ h3 + .steps {
   font-weight: var(--weight-semibold);
 }
 
+/* "Start here" sequence card on state pages — the crisis entry point. */
+.start-here {
+  margin: var(--space-5) 0;
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-primary);
+  border-radius: var(--radius-md);
+}
+
+.start-here h2 {
+  margin: 0 0 var(--space-3);
+  font-size: var(--text-lg);
+  line-height: var(--leading-snug);
+}
+
+.start-here ol {
+  margin: 0;
+  padding-left: var(--space-5);
+  display: grid;
+  gap: var(--space-2);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+}
+
 /* Sources section (bottom of facility and guide pages) */
 .sources {
   margin-block: var(--space-7) var(--space-4);

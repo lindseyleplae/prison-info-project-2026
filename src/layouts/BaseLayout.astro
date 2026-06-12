@@ -66,5 +66,17 @@ const seo = buildSeo({
       <Feedback />
       <Footer />
     </div>
+    {/* Anonymous, cookie-free visit counting (GoatCounter): page URL, referrer,
+        browser type, and country only — no cookies, no personal identifiers,
+        no cross-site tracking. Disclosed on the privacy page. Production only;
+        GoatCounter additionally ignores localhost. */}
+    {import.meta.env.PROD && (
+      <script
+        is:inline
+        data-goatcounter="https://prisonvisitorguide.goatcounter.com/count"
+        async
+        src="https://gc.zgo.at/count.js"
+      />
+    )}
   </body>
 </html>

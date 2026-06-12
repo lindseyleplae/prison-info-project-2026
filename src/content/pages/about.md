@@ -30,4 +30,4 @@ This site currently covers California and Texas. Additional states are being add
 
 ## Your Privacy
 
-This site does not collect personal information, use tracking cookies, or share visitor data with third parties. Contact information submitted through the feedback form is used only to respond to the submission.
+This site does not collect personal information, use tracking cookies, or share visitor data with third parties. Anonymous page-visit counts are recorded without cookies or personal identifiers, as described in the privacy policy. Contact information submitted through the feedback form is used only to respond to the submission.

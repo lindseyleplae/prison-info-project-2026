@@ -60,6 +60,9 @@ Every color is a custom property in `src/styles/tokens.css`. `npm run check:a11y
 ### Whole cards are links
 Any card with a hover style is fully clickable — the card itself is an `<a>` (`.section-card`) or uses the overlay pattern with `z-index: 1` (`.facility-card`). A "looks clickable but isn't" element is worse than no hover style.
 
+### Analytics: anonymous counting yes, tracking never
+The site counts visits with GoatCounter (decided June 2026): no cookies, no fingerprinting, no personal identifiers, production-only script in BaseLayout, fully disclosed on the privacy page. The line that may not be crossed: nothing that can identify or profile an individual visitor — this audience has real reasons to fear surveillance. If GoatCounter ever changes its model, remove the script rather than weaken the promise. Dashboard: prisonvisitorguide.goatcounter.com.
+
 ### Pages that aren't for readers are noindex and out of the sitemap
 `/showcase/` (the internal style guide) and the 404 page carry `noindex`; showcase is filtered out of the sitemap. Reader-facing pages are all indexed.
 

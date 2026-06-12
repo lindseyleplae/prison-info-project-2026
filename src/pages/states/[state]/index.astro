@@ -1,6 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import PageLayout from '../../../layouts/PageLayout.astro';
+import StartHere from '../../../components/StartHere.astro';
 import { topicMap } from '../../../data/topics';
 
 export async function getStaticPaths() {
@@ -48,6 +49,14 @@ const facilityGroups =
 
 <PageLayout title={entry.data.title} description={entry.data.summary}>
   <Content />
+
+  {entry.data.links?.inmateLocator && (
+    <StartHere
+      system={entry.data.system}
+      stateSlug={entry.data.slug}
+      locatorUrl={entry.data.links.inmateLocator}
+    />
+  )}
 
   <section>
     <h2>State guides</h2>

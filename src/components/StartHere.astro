@@ -1,0 +1,44 @@
+---
+// "Start here" path for the crisis entry point: someone was just sentenced
+// and the family needs the sequence, not a topic list. Renders on state pages
+// when the state's frontmatter provides links.inmateLocator; the five steps
+// are identical across states, with the locator name/label resolved from
+// systemSourceLabels so it matches what the tool actually calls itself.
+import { systemSourceLabels, genericSourceLabels } from '../data/system-source-labels';
+
+const { system, stateSlug, locatorUrl } = Astro.props as {
+  system: string;
+  stateSlug: string;
+  locatorUrl: string;
+};
+
+const locatorLabel = (systemSourceLabels[system] ?? genericSourceLabels).locator;
+const guides = (topic: string) => `/states/${stateSlug}/guides/${topic}/`;
+---
+
+<aside class="start-here" aria-labelledby="start-here-heading">
+  <h2 id="start-here-heading">Someone was just sentenced? Start here.</h2>
+  <ol>
+    <li>
+      <strong>Find where they are held.</strong> Search the
+      <a href={locatorUrl} target="_blank" rel="noopener nofollow">{locatorLabel}</a> and write down
+      their ID number — every step below needs it.
+    </li>
+    <li>
+      <strong>Phone calls only go one way: they call you.</strong> Set up an account so calls can
+      connect — <a href={guides('phone-video')}>Phone &amp; Video Calls</a>.
+    </li>
+    <li>
+      <strong>Apply to visit early — approval takes weeks.</strong> The process and forms are in
+      <a href={guides('visiting')}>Visiting</a>.
+    </li>
+    <li>
+      <strong>A letter usually gets through first.</strong> The required address format is in
+      <a href={guides('mail')}>Mail &amp; Packages</a>.
+    </li>
+    <li>
+      <strong>Money pays for calls and commissary.</strong> Deposit methods and fees are in
+      <a href={guides('money')}>Sending Money</a>.
+    </li>
+  </ol>
+</aside>

@@ -10,14 +10,18 @@ Prison Visitor Guide is designed to respect user privacy. This site collects min
 
 ## What This Site Does Not Collect
 
-This site does not use cookies, tracking pixels, analytics services, advertising networks, or any other mechanism to monitor user behavior. Specifically:
+This site does not use cookies, tracking pixels, advertising networks, or any mechanism to identify or profile individual users. Specifically:
 
 -   No cookies are set or read by this site
--   No analytics or tracking scripts are used (no Google Analytics, no Facebook Pixel, etc.)
--   No user accounts exist and no registration is required
 -   No personal information is collected through browsing this site
+-   No user accounts exist and no registration is required
 -   No advertising is displayed
 -   No data is sold or shared with third parties
+-   No cross-site tracking of any kind (no Google Analytics, no Facebook Pixel, etc.)
+
+## Anonymous Visit Counting
+
+To understand whether the site is reaching people, it counts page visits using GoatCounter, an open-source service designed for privacy. This counting records the page visited, the referring site, browser type, and country — and nothing that identifies a person: no cookies, no fingerprinting, no personal identifiers, and no advertising use. GoatCounter's own privacy practices are described in [GoatCounter's privacy policy](https://www.goatcounter.com/help/privacy). Visit counting cannot reveal who visited — only that a page was visited.
 
 ## Hosting
 
@@ -44,4 +48,4 @@ This site does not knowingly collect information from children under the age of 
 
 This privacy policy may be updated if the site's data practices change. Any material changes will be noted on this page with the date of the most recent revision.
 
-**Last updated:** March 7, 2026
+**Last updated:** June 12, 2026 (added disclosure of anonymous, cookie-free visit counting)

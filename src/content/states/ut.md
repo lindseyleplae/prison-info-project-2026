@@ -9,6 +9,8 @@ summary: "Guides and facility information for UDC (Utah Department of Correction
 hotlines:
   main office: "(801) 545-5500"
   family medical line (DHHS): "(801) 522-7293"
+links:
+  inmateLocator: "https://corrections.utah.gov/inmate-services/offender-search/"
 facilityCount: 2
 lastReviewed: 2026-06-11
 ---

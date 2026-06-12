@@ -8,6 +8,8 @@ systemFullName: "Texas Department of Criminal Justice (TDCJ)"
 summary: "Guides and facility information for TDCJ (Texas Department of Criminal Justice) prisons and state jails."
 hotlines:
   offender information: "1-800-535-0283"
+links:
+  inmateLocator: "https://inmate.tdcj.texas.gov/InmateSearch/"
 facilityCount: 101
 lastReviewed: 2026-03-29
 ---

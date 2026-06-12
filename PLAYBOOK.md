@@ -46,6 +46,8 @@ Path: `src/content/states/[2-letter-code].md`
 
 Example: `src/content/states/fl.md`
 
+The state page renders a "Someone was just sentenced? Start here." sequence card automatically when `links.inmateLocator` is set — always set it (the locator URL must be verified, and its label comes from `system-source-labels.ts`).
+
 ```yaml
 ---
 title: Florida
