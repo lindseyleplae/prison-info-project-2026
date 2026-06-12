@@ -19,7 +19,7 @@ const facilities = await getCollection('facilities', ({ data }) => !data.draft);
       </p>
     </div>
 
-    <div class="content-width section-card-list card-grid">
+    <div class="content-width section-card-list">
       {states.map((state) => {
         const guideCount = stateGuides.filter((guide) => guide.data.state === state.data.state).length;
         const facilityCount = facilities.filter((facility) => facility.data.state === state.data.state).length;
