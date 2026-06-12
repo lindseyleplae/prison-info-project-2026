@@ -99,8 +99,11 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - Texas (TDCJ): 6 state guides + 22 facility pages
 - Utah (UDC): 6 state guides + 2 facility pages
 - Wyoming (WDOC): 6 state guides + 5 facility pages
+- Delaware (DDOC): 6 state guides + 4 facility pages
+- Rhode Island (RIDOC): 6 state guides + 6 facility pages
+- Vermont (VTDOC): 6 state guides + 6 facility pages
 - 5 national guides
-- 87 pages total
+- 124 pages total
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)

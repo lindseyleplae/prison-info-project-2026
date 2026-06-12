@@ -34,6 +34,60 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  vt: {
+    system: 'VTDOC',
+    title: 'Statewide rules that apply at every Vermont facility',
+    guideHref: '/states/vermont/guides/visiting/',
+    guideLabel: 'Visiting in Vermont',
+    dressCode: [
+      'No clothing with holes, rips, or torn pockets; nothing resembling a uniform; no sweat suits, hats, headbands, or hoods.',
+      'Nothing see-through, tight-fitting, low-cut, midriff-baring, or tank/halter/tube style.',
+      'No skirts, dresses, or shorts with slits reaching two inches or more above the knee; no metal hair ornaments.',
+      'Staff judgment is final; children 10 and under get a partial exception at staff discretion.'
+    ],
+    idRule:
+      'A government-issued photo ID whose name and address match the visiting list. Children can use any government-issued photo ID, a Social Security card, or a birth certificate.',
+    itemsRule:
+      'Nothing comes into the visiting room except bottles, pacifiers, or sippy cups for children 2 and under — lockers hold everything else, and tobacco stays in the vehicle.',
+    schedulingRule:
+      'The incarcerated person submits the visitor list (up to 10 names, changeable every 90 days). Visits are walk-in during the posted block for their housing unit (alphabetical by last name at two facilities) — one visit a week, up to two hours — and arrivals in the last 30 minutes of a period are not processed.'
+  },
+  ri: {
+    system: 'RIDOC',
+    title: 'Statewide rules that apply across the ACI campus',
+    guideHref: '/states/rhode-island/guides/visiting/',
+    guideLabel: 'Visiting in Rhode Island',
+    dressCode: [
+      'Undergarments required. Nothing see-through, low-cut, tank/halter/tube style, sleeveless, or midriff-baring; no tight or athletic clothing, spandex, or sweat pants.',
+      'No skirts, dresses, or shorts with slits two inches or more above the knee.',
+      'No khaki, beige, camouflage, military-style, or uniform-like clothing (including scrubs) — anything mistakable for inmate or staff dress.',
+      'No hats, hoods, or headbands; no ripped clothing or flip-flops; jewelry only wedding and engagement rings and medical-alert items. Underwire bras can fail the metal detector.'
+    ],
+    idRule:
+      'Adults: a driver\'s license, passport, military ID, or state-agency photo ID — Social Security cards and welfare IDs are not accepted. For visitors under 18, the birth certificate is the ID.',
+    itemsRule:
+      'Up to $10 in change in a clear plastic bag for vending machines; lockers at the entrance hold everything else. Nitroglycerin is the only medication allowed in.',
+    schedulingRule:
+      'The incarcerated person adds visitors to their approved list (up to 9 adults), with background checks at approval and again at every entry. In-person visits follow each facility\'s monthly housing-unit schedule with no appointment; video visits are booked at least 24 hours ahead through Securus.'
+  },
+  de: {
+    system: 'DDOC',
+    title: 'Statewide rules that apply at every Delaware DOC prison',
+    guideHref: '/states/delaware/guides/visiting/',
+    guideLabel: 'Visiting in Delaware',
+    dressCode: [
+      'No bathing suits, body suits, strapless or low-cut tops, sleeveless shirts, or tube tops; nothing see-through or revealing — staff have the final say.',
+      'Dresses, skirts, culottes, and walking shorts no shorter than two inches above the knee, measured from the bend at the back of the knee.',
+      'No spandex pants, shorts, or leggings worn alone; leggings under a skirt are permitted.',
+      'Some facilities add more — Baylor and Howard R. Young prohibit open-toe or open-heel shoes, Crocs, and hoodies.'
+    ],
+    idRule:
+      'Photo ID for every visitor (any picture ID suffices for children under 16 at Baylor); at James T. Vaughn the address on the ID must match the address given when booking. Children 14-18 need their own photo ID at Howard R. Young.',
+    itemsRule:
+      'Car keys and ID, little else — everything else stays secured in the vehicle. Infant items go in a clear baggie; small cash or vending allowances vary by facility.',
+    schedulingRule:
+      'No application form — visits are booked by calling the facility scheduling line, generally one week ahead, and at some facilities cannot be changed once booked. Background checks before entry can bar visitors (10 years after a past incarceration, 5 after probation).'
+  },
   wy: {
     system: 'WDOC',
     title: 'Statewide rules that apply at every WDOC institution',

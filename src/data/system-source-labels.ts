@@ -17,6 +17,18 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  VTDOC: {
+    official: 'Vermont DOC Correctional Facilities',
+    locator: 'Vermont DOC Offender Locator'
+  },
+  RIDOC: {
+    official: 'RIDOC Facilities',
+    locator: 'RIDOC Incarceration Search'
+  },
+  DDOC: {
+    official: 'Delaware DOC Facilities',
+    locator: 'VINELink'
+  },
   WDOC: {
     official: 'WDOC Facilities',
     locator: 'Wyoming Offender Locator'
