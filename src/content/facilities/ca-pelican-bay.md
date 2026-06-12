@@ -3,6 +3,7 @@ title: "Pelican Bay State Prison"
 slug: pelican-bay
 state: ca
 system: CDCR
+population: men
 summary: "Northern California CDCR prison near Crescent City with Level II and IV housing and Friday-Sunday in-person visiting."
 aliases:
   - PBSP

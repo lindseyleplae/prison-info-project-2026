@@ -3,6 +3,7 @@ title: "Byrd Unit"
 slug: byrd
 state: tx
 system: TDCJ
+population: men
 summary: "TDCJ's male diagnostic intake unit in Huntsville, where men entering Texas prison custody are received, classified, and assigned a unit."
 aliases:
   - 'James "Jay" H. Byrd Unit'

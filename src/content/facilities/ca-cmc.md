@@ -3,6 +3,7 @@ title: "California Men's Colony"
 slug: cmc
 state: ca
 system: CDCR
+population: men
 summary: "Central Coast CDCR prison in San Luis Obispo with Level I-III housing, specialized treatment units, and Friday-Sunday visiting."
 aliases:
   - CMC

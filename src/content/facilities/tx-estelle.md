@@ -3,6 +3,7 @@ title: "Estelle Unit"
 slug: estelle
 state: tx
 system: TDCJ
+population: men
 summary: "Large Huntsville-area TDCJ prison with medical, psychiatric, geriatric, and transient treatment populations across multiple custody levels."
 city: Huntsville
 county: Walker

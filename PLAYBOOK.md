@@ -151,6 +151,7 @@ county: [County]
 address: "[Full visitor mailing address]"
 securityLevel: "[Level / Mixed (Level X-Y) / Reception Center]"
 facilityType: "[State Prison / Reception Center / Women's Prison]"
+population: [men / women / men-and-women]  # REQUIRED — drives the men's/women's grouping on state pages
 contact:
   mainPhone: "([area]) [number]"
   visitingOffice: "([area]) [number] ext. [if known]"

@@ -3,6 +3,7 @@ title: "California Institution for Women"
 slug: ciw
 state: ca
 system: CDCR
+population: women
 summary: "CDCR women's institution in San Bernardino County with mixed custody, specialized health services, and Friday-Sunday in-person visiting."
 aliases:
   - CIW

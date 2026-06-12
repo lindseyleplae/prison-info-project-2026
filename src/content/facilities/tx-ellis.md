@@ -3,6 +3,7 @@ title: "O.B. Ellis Unit"
 slug: ellis
 state: tx
 system: TDCJ
+population: men
 summary: "A large working-farm prison twelve miles north of Huntsville — the former home of Texas's men's death row, which moved to Polunsky in 1999."
 aliases:
   - Ellis

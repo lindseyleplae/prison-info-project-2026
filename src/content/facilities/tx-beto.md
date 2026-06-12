@@ -3,6 +3,7 @@ title: "George Beto Unit"
 slug: beto
 state: tx
 system: TDCJ
+population: men
 summary: "A large Tennessee Colony cluster prison with a 46-bed assisted-living infirmary and a deep vocational lineup — next door to the Gurney Transfer Facility."
 aliases:
   - Beto

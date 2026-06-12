@@ -3,6 +3,7 @@ title: "Alfred D. Hughes Unit"
 slug: hughes
 state: tx
 system: TDCJ
+population: men
 summary: "The only men's TDCJ prison in Gatesville — a town otherwise known for its women's units — housing the full custody range."
 aliases:
   - Hughes

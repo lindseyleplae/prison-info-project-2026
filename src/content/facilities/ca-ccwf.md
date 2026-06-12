@@ -3,6 +3,7 @@ title: "Central California Women's Facility"
 slug: ccwf
 state: ca
 system: CDCR
+population: women
 summary: "California's largest women's prison and the reception center where women enter CDCR custody, outside Chowchilla in Madera County."
 aliases:
   - CCWF

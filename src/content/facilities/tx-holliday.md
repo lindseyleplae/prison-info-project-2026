@@ -3,6 +3,7 @@ title: "Reverend C.A. Holliday Unit"
 slug: holliday
 state: tx
 system: TDCJ
+population: men
 summary: "An intake and receiving unit on the I-45 feeder road in Huntsville — formerly the Holliday Transfer Facility, a category Texas abolished in 2021."
 aliases:
   - Holliday

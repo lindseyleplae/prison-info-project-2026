@@ -106,6 +106,10 @@ const facilities = defineCollection({
       state: stateCodeField,
       // Required for the facility to be useful — every facility page MUST have these
       system: z.string().trim().min(1, 'System is required (e.g., CDCR, TDCJ, FDC)'),
+      // Who the facility houses — drives the men's/women's grouping on state pages.
+      population: z.enum(['men', 'women', 'men-and-women'], {
+        message: "population is required: 'men', 'women', or 'men-and-women'"
+      }),
       summary: z.string().trim().min(1, 'Summary is required — appears in cards and SEO'),
       city: z.string().trim().min(1, 'City is required'),
       address: z.string().trim().min(1, 'Address is required for directions link'),

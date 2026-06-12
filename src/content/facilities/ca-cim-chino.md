@@ -3,6 +3,7 @@ title: "California Institution for Men"
 slug: cim-chino
 state: ca
 system: CDCR
+population: men
 summary: "Chino CDCR institution with Level I-II housing, reception-center functions, and Friday-Sunday visiting that can change as intake and classification needs shift."
 aliases:
   - CIM

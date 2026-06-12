@@ -3,6 +3,7 @@ title: "James V. Allred Unit"
 slug: allred
 state: tx
 system: TDCJ
+population: men
 summary: "Large north Texas TDCJ prison in Wichita County with G1-G5 housing, safekeeping, and weekend visitation scheduled through the state portal."
 aliases:
   - Allred Unit

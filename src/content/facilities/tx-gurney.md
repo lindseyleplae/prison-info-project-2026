@@ -3,6 +3,7 @@ title: "Joe F. Gurney Transfer Facility"
 slug: gurney
 state: tx
 system: TDCJ
+population: men
 summary: "A Tennessee Colony cluster transfer facility where men are received from county jails — most move on to an assigned unit, on no published timetable."
 aliases:
   - Gurney

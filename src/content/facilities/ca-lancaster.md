@@ -3,6 +3,7 @@ title: "California State Prison, Los Angeles County"
 slug: lancaster
 state: ca
 system: CDCR
+population: men
 summary: "The only state prison in Los Angeles County, a multi-mission institution in the Antelope Valley high desert west of Lancaster."
 aliases:
   - LAC

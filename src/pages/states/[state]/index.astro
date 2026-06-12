@@ -32,6 +32,18 @@ guides.sort((left, right) => {
 });
 
 facilities.sort((left, right) => left.data.title.localeCompare(right.data.title));
+
+// Group facilities by who they house once a state has enough of them for a
+// flat list to become a wall (small states keep the simple single list).
+// A facility housing both men and women appears in both groups.
+const GROUPING_MIN = 6;
+const facilityGroups =
+  facilities.length >= GROUPING_MIN
+    ? [
+        { label: "Women's facilities", items: facilities.filter((f) => f.data.population !== 'men') },
+        { label: "Men's facilities", items: facilities.filter((f) => f.data.population !== 'women') }
+      ].filter((group) => group.items.length > 0)
+    : [{ label: null, items: facilities }];
 ---
 
 <PageLayout title={entry.data.title} description={entry.data.summary}>
@@ -51,16 +63,21 @@ facilities.sort((left, right) => left.data.title.localeCompare(right.data.title)
 
   <section>
     <h2>Facilities</h2>
-    <div class="section-card-list">
-      {facilities.map((facility) => (
-        <a class="section-card" href={`/states/${entry.data.slug}/facilities/${facility.data.slug}/`}>
-          <h3>{facility.data.title}</h3>
-          <p>
-            {facility.data.city ?? 'Location pending'}
-            {facility.data.securityLevel && ` · ${facility.data.securityLevel}`}
-          </p>
-        </a>
-      ))}
-    </div>
+    {facilityGroups.map((group) => (
+      <>
+        {group.label && <h3>{group.label}</h3>}
+        <div class="section-card-list">
+          {group.items.map((facility) => (
+            <a class="section-card" href={`/states/${entry.data.slug}/facilities/${facility.data.slug}/`}>
+              <h3>{facility.data.title}</h3>
+              <p>
+                {facility.data.city ?? 'Location pending'}
+                {facility.data.securityLevel && ` · ${facility.data.securityLevel}`}
+              </p>
+            </a>
+          ))}
+        </div>
+      </>
+    ))}
   </section>
 </PageLayout>

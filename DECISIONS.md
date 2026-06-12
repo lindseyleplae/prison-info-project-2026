@@ -35,6 +35,9 @@ Facility pages never mention celebrity or high-profile inmates, infamous crimes,
 ### "What the source doesn't publish" is content, not a gap
 When an official source is silent ("ADOC does not publish per-unit visiting hours online"), the page says so plainly and tells the reader to call. Stating the boundary of what's known is part of the site's credibility. Never fill the silence with a guess — this matters most in low-resource states.
 
+### State pages group facilities by who they house
+Once a state lists six or more facilities, its page splits them under "Women's facilities" and "Men's facilities" headings (decided June 2026, Lindsey's call): the one fact every visiting family knows instantly is whether their person is a man or a woman, and the split cuts a 20-item wall down to the relevant handful. Every facility carries a required `population` field (`men` / `women` / `men-and-women`); a facility housing both appears in both groups. States under six facilities keep a single flat list. If lists outgrow this (e.g., Texas men's at 40+), the next split is by region/cluster — not yet built.
+
 ### Facility sources render in a fixed order
 Official facility page → policy source(s) from frontmatter → inmate locator. The labels for the official page and locator come from `src/data/system-source-labels.ts`, keyed by system, with accurate generic fallbacks. The label must match what the linked page calls itself.
 

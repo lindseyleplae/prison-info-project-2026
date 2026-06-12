@@ -3,6 +3,7 @@ title: "Utah State Correctional Facility"
 slug: uscf
 state: ut
 system: UDC
+population: men-and-women
 summary: "Utah's new main prison in Salt Lake City's northwest corner, opened in 2022 to replace the demolished Draper prison — housing men and women, including intake."
 aliases:
   - USCF

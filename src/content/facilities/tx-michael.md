@@ -3,6 +3,7 @@ title: "Mark W. Michael Unit"
 slug: michael
 state: tx
 system: TDCJ
+population: men
 summary: "A high-security Tennessee Colony prison with 22 hospice beds in its infirmary — sharing a farm road, and a near-identical address, with the Coffield Unit."
 aliases:
   - Michael

@@ -3,6 +3,7 @@ title: "Hilltop Unit"
 slug: hilltop
 state: tx
 system: TDCJ
+population: women
 summary: "A small women's TDCJ unit on the Gatesville campus, home to the system's female youthful offender program and sex offender treatment programs."
 aliases:
   - Hilltop

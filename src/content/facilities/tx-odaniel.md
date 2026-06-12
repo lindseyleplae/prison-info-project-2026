@@ -3,6 +3,7 @@ title: "Patrick L. O'Daniel Unit"
 slug: odaniel
 state: tx
 system: TDCJ
+population: women
 summary: "The Gatesville women's prison that houses Texas's women's death row — known until 2024 as the Mountain View Unit."
 aliases:
   - O'Daniel

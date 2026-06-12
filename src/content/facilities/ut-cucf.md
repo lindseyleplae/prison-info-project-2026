@@ -3,6 +3,7 @@ title: "Central Utah Correctional Facility"
 slug: cucf
 state: ut
 system: UDC
+population: men
 summary: "Utah's second state prison, a men's facility in the small town of Gunnison about two and a half hours south of Salt Lake City."
 aliases:
   - CUCF

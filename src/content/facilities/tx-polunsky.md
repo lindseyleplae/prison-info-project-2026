@@ -3,6 +3,7 @@ title: "Allan B. Polunsky Unit"
 slug: polunsky
 state: tx
 system: TDCJ
+population: men
 summary: "Polk County TDCJ prison that houses Texas men's death row and other high-security populations, with non-contact death row visitation."
 aliases:
   - Polunsky

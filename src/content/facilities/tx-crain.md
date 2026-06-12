@@ -3,6 +3,7 @@ title: "Christina Melton Crain Unit"
 slug: crain
 state: tx
 system: TDCJ
+population: women
 summary: "The hub of TDCJ's Gatesville women's campus — listed for offender intake/receiving and release, with the system's first all-female infirmary."
 aliases:
   - Crain

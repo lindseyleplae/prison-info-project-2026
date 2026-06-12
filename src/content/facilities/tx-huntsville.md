@@ -3,6 +3,7 @@ title: "Huntsville Unit"
 slug: huntsville
 state: tx
 system: TDCJ
+population: men
 summary: "Historic Walker County TDCJ prison known as The Walls, with execution, release, and downtown Huntsville functions."
 aliases:
   - The Walls

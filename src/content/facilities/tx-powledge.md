@@ -3,6 +3,7 @@ title: "Louis C. Powledge Unit"
 slug: powledge
 state: tx
 system: TDCJ
+population: men
 summary: "The Tennessee Colony cluster's geriatric and medical unit, west of Palestine — originally named Beto II, which still causes confusion with the neighboring Beto Unit."
 aliases:
   - Powledge

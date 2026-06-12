@@ -3,6 +3,7 @@ title: "North Kern State Prison"
 slug: north-kern
 state: ca
 system: CDCR
+population: men
 summary: "A CDCR reception center in Delano where men entering state custody are processed — a short distance from Kern Valley State Prison on the same avenue."
 aliases:
   - NKSP

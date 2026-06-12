@@ -3,6 +3,7 @@ title: "Wasco State Prison"
 slug: wasco
 state: ca
 system: CDCR
+population: men
 summary: "One of CDCR's two Kern County reception centers, where many men entering state custody are first processed before transfer to a long-term prison."
 aliases:
   - WSP

@@ -3,6 +3,7 @@ title: "San Quentin Rehabilitation Center"
 slug: san-quentin
 state: ca
 system: CDCR
+population: men
 summary: "Marin County CDCR prison and rehabilitation center with Level I-III housing, multiple visiting areas, and Friday-Sunday in-person visitation."
 aliases:
   - SQRC

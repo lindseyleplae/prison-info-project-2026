@@ -3,6 +3,7 @@ title: "William P. Clements Unit"
 slug: clements
 state: tx
 system: TDCJ
+population: men
 summary: "The Texas Panhandle's TDCJ prison in Amarillo, a large multi-custody unit with restrictive housing and specialized mental health programs."
 aliases:
   - Clements

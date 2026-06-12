@@ -3,6 +3,7 @@ title: "Dr. Lane Murray Unit"
 slug: lane-murray
 state: tx
 system: TDCJ
+population: women
 summary: "TDCJ women's prison in Gatesville with mixed G1-G4 custody, security detention, and weekend visitation scheduled through the state portal."
 aliases:
   - Murray Unit

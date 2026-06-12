@@ -3,6 +3,7 @@ title: "California State Prison, Corcoran"
 slug: corcoran
 state: ca
 system: CDCR
+population: men
 summary: "Kings County CDCR prison with Level I, III, and IV housing, specialized units, and Friday-Monday visiting windows."
 aliases:
   - CSP-COR

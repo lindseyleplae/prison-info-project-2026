@@ -3,6 +3,7 @@ title: "Coffield Unit"
 slug: coffield
 state: tx
 system: TDCJ
+population: men
 summary: "Large Anderson County TDCJ prison in the Tennessee Colony cluster, with mixed custody housing and weekend visitation."
 city: Tennessee Colony
 county: Anderson

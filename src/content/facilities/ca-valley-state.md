@@ -3,6 +3,7 @@ title: "Valley State Prison"
 slug: valley-state
 state: ca
 system: CDCR
+population: men
 summary: "A men's Level II reentry-hub prison in Chowchilla — formerly Valley State Prison for Women, and across the road from the women's facility CCWF."
 aliases:
   - VSP

@@ -3,6 +3,7 @@ title: "Thomas Goree Unit"
 slug: goree
 state: tx
 system: TDCJ
+population: men
 summary: "A men's unit four miles south of downtown Huntsville with sex offender treatment programs — known for decades, long ago, as the women's prison of Texas."
 aliases:
   - Goree

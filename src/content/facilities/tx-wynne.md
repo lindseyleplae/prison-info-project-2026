@@ -3,6 +3,7 @@ title: "John M. Wynne Unit"
 slug: wynne
 state: tx
 system: TDCJ
+population: men
 summary: "Texas's first prison farm (1883), now a major TDCJ industrial site, on the north side of Huntsville about three miles from downtown."
 aliases:
   - Wynne

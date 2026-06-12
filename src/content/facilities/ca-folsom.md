@@ -3,6 +3,7 @@ title: "Folsom State Prison"
 slug: folsom
 state: ca
 system: CDCR
+population: men
 summary: "Historic CDCR prison near Folsom with Level I-III housing, a minimum support facility, and Friday-Sunday in-person visiting."
 aliases:
   - FSP

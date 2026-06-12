@@ -3,6 +3,7 @@ title: "Mark W. Stiles Unit"
 slug: stiles
 state: tx
 system: TDCJ
+population: men
 summary: "Large TDCJ prison southeast of Beaumont with a major medical mission — and a separate federal prison complex nearby that families sometimes confuse it with."
 aliases:
   - Stiles

@@ -3,6 +3,7 @@ title: "Linda Woodman Unit"
 slug: woodman
 state: tx
 system: TDCJ
+population: women
 summary: "TDCJ's designated diagnostic intake facility for women, on the Gatesville campus, housing both state-jail and prison populations."
 aliases:
   - Woodman

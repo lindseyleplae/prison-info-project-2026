@@ -3,6 +3,7 @@ title: "Richard J. Donovan Correctional Facility"
 slug: rj-donovan
 state: ca
 system: CDCR
+population: men
 summary: "San Diego County's only state prison, a multi-mission Level I-IV institution in the Otay Mesa area near the U.S.-Mexico border."
 aliases:
   - RJD
