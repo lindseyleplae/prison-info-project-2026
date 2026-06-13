@@ -100,6 +100,26 @@ covers state systems).
   Maine centralizes/scans first-class mail to Cushing Road in Warren while
   packages and legal mail go to each facility — the most error-prone fact for
   Maine families.
+- **Virginia** (in progress, staged on the branch — NOT yet pushed/published as
+  of this writing): overview + 6 guides + the statewide rules card + 12 facility
+  pages, built overnight in four verified batches of three. The 12 cover every
+  distinctive VADOC facility type: Greensville (largest), Sussex I and Red Onion
+  + Wallens Ridge (high/maximum security; Red Onion is Level S with non-contact
+  visits), Fluvanna and the Virginia Correctional Center for Women (the two
+  women's prisons; Fluvanna is women's intake), Nottoway (a men's reception/
+  classification center — 60-day no-visit window), Marion (mental-health
+  treatment center), Deerfield (geriatric/assisted-living), Lawrenceville
+  (formerly Virginia's only private prison, state-run since Aug 2024), Buckingham
+  (large medium), and State Farm (medium, near Richmond). Remaining ~26 are
+  mostly similar medium-security men's prisons (Beaumont, Bland, Coffeewood,
+  Dillwyn, Green Rock, Indian Creek, Keen Mountain, Lunenburg, Pocahontas, River
+  North, Haynesville, St. Brides, Baskerville, etc.) plus work centers/units —
+  straightforward batches once Lindsey approves. Key Virginia facts baked in:
+  the one-year state/jail line (many state-responsible people are in local
+  jails), online-only visitor applications via a Central Visitation Unit, mail
+  photocopied at the facility with books/photos/legal routed to the Central Mail
+  Distribution Center in State Farm, ~4-cent (not free) phone calls, no medical
+  co-pay, and the family-facing Corrections Ombudsman (created 2024).
 - **Texas** is a long-term project (~100 units) — batches of 3-5 continue
   alongside other states.
 - Three abbreviation collisions exist (Mississippi/Maine/Michigan all use
