@@ -10,7 +10,7 @@ hotlines:
   general information: "(503) 945-9090"
 links:
   inmateLocator: "https://docpub.state.or.us/OOS/intro.jsf"
-facilityCount: 3
+facilityCount: 12
 lastReviewed: 2026-06-13
 ---
 
