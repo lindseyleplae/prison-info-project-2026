@@ -4,7 +4,7 @@ What's live, in progress, and untouched across all 50 states. **Update this file
 whenever a state's status changes** — research started, facility batch added,
 state completed. CLAUDE.md's "Current Scope" tracks totals; this file tracks the map.
 
-Last updated: 2026-06-12 (New Hampshire published; Mississippi published — 3 of its state prisons)
+Last updated: 2026-06-12 (Mississippi and Louisiana published — first facility batches)
 
 ## Status legend
 
@@ -47,7 +47,7 @@ covers state systems).
 | Iowa | IDOC | ~9 | — | Not started |
 | Kansas | KDOC | ~8 | — | Not started |
 | Kentucky | KY DOC | ~13 | — | Not started |
-| Louisiana | LA DOC | ~8 | — | Not started |
+| Louisiana | DPS&C | 8 state + ~100 parish jails | 4 | In progress |
 | Maine | MDOC (Maine) | ~6 | — | Not started |
 | Maryland | DPSCS | ~15 | — | Not started |
 | Massachusetts | MA DOC | ~14 | — | Not started |

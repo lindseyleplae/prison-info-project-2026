@@ -17,6 +17,10 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  'DPS&C': {
+    official: 'Louisiana DOC Facility Page',
+    locator: 'VINELink Offender Locator'
+  },
   MDOC: {
     official: 'MDOC Facility Page',
     locator: 'MDOC Inmate Search'

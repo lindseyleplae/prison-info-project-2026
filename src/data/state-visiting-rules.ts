@@ -34,6 +34,24 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  la: {
+    system: 'DPS&C',
+    title: 'Statewide rules that apply at every Louisiana state prison',
+    guideHref: '/states/louisiana/guides/visiting/',
+    guideLabel: 'Visiting in Louisiana',
+    dressCode: [
+      'No denim or chambray, no gray, blue, or white sweatshirts, and no white t-shirts (these resemble inmate clothing); no camouflage or BDU-style clothing that resembles officer dress.',
+      'Undergarments required and not visible. Nothing transparent; no swimsuits, strapless, tube, halter, or tank tops, low-cut or midriff-baring tops, or spandex, Lycra, or leggings.',
+      'Skirts, shorts, and dresses no shorter than one inch above the knee, with no revealing slits or holes.',
+      'No house slippers, shower shoes, or flip-flops — footwear stays on. No hats or head coverings except for religious reasons; nothing gang-related or obscene.'
+    ],
+    idRule:
+      'Bring a valid photo ID for every visitor 15 and older — a driver\'s license, state ID, military ID, or passport. (A statewide notice says 18 and older, but facility pages say 15, so bring ID for anyone 15 or older.)',
+    itemsRule:
+      'Leave wallets, purses, phones, and cash in your locked vehicle. Each prison allows limited items into the visit — at Angola, up to $300 cash per family and specified baby items; some prisons allow vending change and one debit card for the JPay kiosk.',
+    schedulingRule:
+      'The incarcerated person starts the application — the visitor mails or emails it to the facility (faxes are not accepted), and approval follows a background check. Each person keeps up to 10 approved visitors, changeable every four months; the approved-visitor list is usually not in place during the first 30 days of intake (though immediate family may be able to visit sooner); and two visits a month is the statewide norm.'
+  },
   ms: {
     system: 'MDOC',
     title: 'Statewide rules that apply at every MDOC state prison',
