@@ -17,6 +17,12 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Maine's agency abbreviates itself "MDOC", which collides with Mississippi
+  // and Michigan, so facility frontmatter uses the display string "Maine DOC".
+  'Maine DOC': {
+    official: 'Maine DOC Facility Page',
+    locator: 'Maine DOC Resident Search'
+  },
   'DPS&C': {
     official: 'Louisiana DOC Facility Page',
     locator: 'VINELink Offender Locator'

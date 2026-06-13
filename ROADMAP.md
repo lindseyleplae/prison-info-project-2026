@@ -4,7 +4,7 @@ What's live, in progress, and untouched across all 50 states. **Update this file
 whenever a state's status changes** — research started, facility batch added,
 state completed. CLAUDE.md's "Current Scope" tracks totals; this file tracks the map.
 
-Last updated: 2026-06-12 (Mississippi and Louisiana published — first facility batches)
+Last updated: 2026-06-12 (Maine completed — northern New England done: ME, NH, VT)
 
 ## Status legend
 
@@ -24,6 +24,7 @@ covers state systems).
 | State | System | Prisons | On site | Status |
 |-------|--------|---------|---------|--------|
 | Delaware | DDOC | 4 | 4 | Complete |
+| Maine | Maine DOC | 6 | 6 | Complete |
 | New Hampshire | NHDOC | 3 | 3 | Complete |
 | Rhode Island | RIDOC | 6 | 6 | Complete |
 | Utah | UDC | 2 | 2 | Complete |
@@ -48,7 +49,6 @@ covers state systems).
 | Kansas | KDOC | ~8 | — | Not started |
 | Kentucky | KY DOC | ~13 | — | Not started |
 | Louisiana | DPS&C | 8 state + ~100 parish jails | 4 | In progress |
-| Maine | MDOC (Maine) | ~6 | — | Not started |
 | Maryland | DPSCS | ~15 | — | Not started |
 | Massachusetts | MA DOC | ~14 | — | Not started |
 | Michigan | MDOC (Michigan) | ~26 | — | Not started |
@@ -88,10 +88,23 @@ covers state systems).
   Vermont guides). Next: the other 4 state prisons (Walnut Grove, Marshall
   County, Delta women's, the women's facility), the 2 private prisons, and
   regional facilities as future batches.
-- **Maine** would complete northern New England (ME/NH/VT); Massachusetts and
-  Connecticut would complete the region.
+- **Maine** (complete): all six adult facilities — Maine State Prison (Warren),
+  Maine Correctional Center (Windham, the intake hub that also holds most women
+  in its Women's Center), Mountain View (Charleston), Bolduc (Warren), the
+  Southern Maine Women's Reentry Center (Windham), and Downeast (Machiasport,
+  rebuilt and reopened 2022 after the original closed in 2018). This completes
+  northern New England (ME/NH/VT); Massachusetts and Connecticut would complete
+  the region. Two Maine-specific decisions worth remembering: the system string
+  is **"Maine DOC"** (the agency's own "MDOC" collides with Mississippi and
+  Michigan, and an invented "MEDOC" would have displayed to families), and
+  Maine centralizes/scans first-class mail to Cushing Road in Warren while
+  packages and legal mail go to each facility — the most error-prone fact for
+  Maine families.
 - **Texas** is a long-term project (~100 units) — batches of 3-5 continue
   alongside other states.
 - Three abbreviation collisions exist (Mississippi/Maine/Michigan all use
   "MDOC"; Illinois/Indiana/Iowa all use "IDOC"; Oregon and Oklahoma both use
-  "ODOC") — disambiguate in `system-source-labels.ts` keys when those states land.
+  "ODOC") — disambiguate in `system-source-labels.ts` keys when those states
+  land. **Resolved so far:** Mississippi uses the key `MDOC`; Maine uses the
+  display string `Maine DOC` (Michigan, when it lands, will need its own —
+  e.g. `Michigan DOC`). Never reuse `MDOC` across these states.

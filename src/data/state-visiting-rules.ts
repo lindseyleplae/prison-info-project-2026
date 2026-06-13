@@ -34,6 +34,24 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  me: {
+    system: 'Maine DOC',
+    title: 'Statewide rules that apply at every Maine DOC facility',
+    guideHref: '/states/maine/guides/visiting/',
+    guideLabel: 'Visiting in Maine',
+    dressCode: [
+      'Undergarments required and not visible. Nothing see-through, low-cut, tight, or revealing — no tank, halter, tube, sleeveless, or crop tops, bare midriffs, or exposed cleavage.',
+      'Skirts, dresses, and shorts must reach the knee, with no slit more than two inches above it.',
+      'No hats, headbands, hoods, or hooded sweatshirts, and no outdoor jackets in the visiting room. The Windham facilities also bar zippered shirts.',
+      'No leggings, spandex, yoga pants, or gym shorts, and nothing resembling resident or staff clothing; closed-toe shoes required. Each facility posts its own list, so check before traveling.'
+    ],
+    idRule:
+      'Adults present a government-issued photo ID, such as a driver\'s license. A visitor under 18 brings a government photo ID or a certified copy of their birth certificate.',
+    itemsRule:
+      'Nothing goes into the visiting room — wallets, phones, and bags stay in a locker or the vehicle. Medication stays in the car except emergency items (nitroglycerin, an inhaler, an epi-pen). The Southern Maine Women\'s Reentry Center is an exception, allowing some outside food.',
+    schedulingRule:
+      'Each visitor applies and clears a background check (run by the State Bureau of Identification; allow up to six weeks), and the resident is told when someone is approved. Visits are by appointment only — request at least two business days ahead — with up to three visitors at a time and no walk-ins.'
+  },
   la: {
     system: 'DPS&C',
     title: 'Statewide rules that apply at every Louisiana state prison',
