@@ -107,8 +107,9 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - Mississippi (MDOC): 6 state guides + 4 facility pages (incl. Tallahatchie, a CoreCivic facility holding out-of-state men)
 - Louisiana (DPS&C): 6 state guides + 4 facility pages
 - Maine (Maine DOC): 6 state guides + 6 facility pages — completes northern New England (ME/NH/VT)
+- Virginia (VADOC): 6 state guides + 12 facility pages (of ~38 prisons; more on the way)
 - 5 national guides
-- 176 pages total
+- 195 pages total
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)
