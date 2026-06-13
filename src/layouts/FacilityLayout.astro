@@ -70,7 +70,7 @@ const facilitySources = [
       <Breadcrumbs pageTitle={facility.data.title} stateLabel={stateTitle} />
       <FacilityHero facility={facility.data} stateTitle={stateTitle} />
       {facility.data.summary && <p class="facility-page-summary subtitle">{facility.data.summary}</p>}
-      <StateVisitingRules state={facility.data.state} />
+      <StateVisitingRules state={facility.data.state} facilitySystem={facility.data.system} />
       <slot />
       <Sources sources={facilitySources} />
     </article>

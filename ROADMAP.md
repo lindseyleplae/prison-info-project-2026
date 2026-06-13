@@ -31,7 +31,7 @@ covers state systems).
 | Wyoming | WDOC | 5 | 5 | Complete |
 | California | CDCR | 31 | 20 | In progress |
 | Texas | TDCJ | ~100 | 22 | In progress |
-| Mississippi | MDOC | 7 state + 2 private + 15 regional | 3 | In progress |
+| Mississippi | MDOC | 7 state + 2 private + 15 regional | 4 | In progress |
 | Alabama | ADOC | ~15 | — | Not started |
 | Alaska | AK DOC | ~12 | — | Not started |
 | Arizona | ADCRR | ~13 | — | Not started |
@@ -80,12 +80,14 @@ covers state systems).
   2 privately operated prisons (East Mississippi, Wilkinson County), and 15
   county-run regional facilities that hold state-sentenced people, each tier with
   its own rules. First batch published: the 3 big state prisons (Parchman,
-  Central Mississippi in Pearl, South Mississippi in Leakesville). Next:
+  Central Mississippi in Pearl, South Mississippi in Leakesville), plus
   Tallahatchie (CoreCivic, Tutwiler) — holds Vermont/Montana/Wyoming men under
-  CoreCivic's rules, so it required the StateVisitingRules card to skip non-state
-  operators (the `cardSystem`/operator-aware card change). Then the other 4 state
-  prisons (Walnut Grove, Marshall County, Delta women's, the women's facility),
-  the 2 private prisons, and regional facilities as future batches.
+  CoreCivic's rules, which required making StateVisitingRules operator-aware (it
+  now skips the statewide card when a facility's `system` isn't the state DOC;
+  the page carries CoreCivic's rules in its body instead, and cross-links to the
+  Vermont guides). Next: the other 4 state prisons (Walnut Grove, Marshall
+  County, Delta women's, the women's facility), the 2 private prisons, and
+  regional facilities as future batches.
 - **Maine** would complete northern New England (ME/NH/VT); Massachusetts and
   Connecticut would complete the region.
 - **Texas** is a long-term project (~100 units) — batches of 3-5 continue

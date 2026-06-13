@@ -10,7 +10,7 @@ hotlines:
   central office: "(601) 359-5600"
 links:
   inmateLocator: "https://www.mdoc.ms.gov/inmate_search"
-facilityCount: 3
+facilityCount: 4
 lastReviewed: 2026-06-12
 ---
 

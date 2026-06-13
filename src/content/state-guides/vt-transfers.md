@@ -52,7 +52,7 @@ DOC publishes no system for notifying families when someone is moved — the pra
 
 ## The Mississippi Facility
 
-Vermont has housed sentenced men at the **Tallahatchie County Correctional Facility in Tutwiler, Mississippi** since 2018 — currently about 150, run by the private operator CoreCivic under a contract DOC announced in 2023 (up to 300 beds, with DOC staff monitoring the contract and welfare). Only sentenced men are sent; pretrial detainees stay in Vermont.
+Vermont has housed sentenced men at the **[Tallahatchie County Correctional Facility](/states/mississippi/facilities/tallahatchie/) in Tutwiler, Mississippi** since 2018 — about 130 as of late 2025, run by the private operator CoreCivic under a contract DOC announced in 2023 (up to 300 beds, with DOC staff monitoring the contract and welfare). Only sentenced men are sent; pretrial detainees stay in Vermont.
 
 The published selection rules carry two family-relevant points: **family circumstances are a criterion** in deciding who goes, and **family emergencies are a published priority for bringing someone back to Vermont**.
 

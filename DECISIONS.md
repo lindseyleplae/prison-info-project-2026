@@ -79,6 +79,9 @@ Hover/focus dropdown CSS is scoped to `@media (min-width: 64rem)`. Mobile menus 
 ### Form fields always get a label
 Search inputs and selects use a visually hidden `<label class="sr-only">` when the design has no visible label. Placeholder text is not a label.
 
+### The statewide-rules card is operator-aware
+`<StateVisitingRules>` auto-injects a state's shared visiting rules on every facility page — but only when the facility's `system` matches the rules' `system` (decided June 2026, first needed for Mississippi's Tallahatchie). A privately operated facility that sits in a state but runs on a different operator's rules — e.g. the CoreCivic prison at Tutwiler, which holds Vermont/Montana/Wyoming men under CoreCivic policy, not MDOC's — must NOT show the state DOC's card, or it would display rules that don't apply. For such a facility: give it the operator as its `system` (e.g. `CoreCivic`), add a `system-source-labels` entry, carry the make-or-break visiting rules in the page body (the card won't), and point "Learn More" at the home state's guides, not the host state's. The card silently skips any facility whose system has no matching state entry, so this also fails safe.
+
 ---
 
 ## Process decisions

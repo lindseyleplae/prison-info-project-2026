@@ -6,11 +6,16 @@
 // gracefully instead of showing a broken or empty block.
 import { stateVisitingRules } from '../data/state-visiting-rules';
 
-const { state } = Astro.props as { state: string };
+const { state, facilitySystem } = Astro.props as { state: string; facilitySystem?: string };
 const rules = stateVisitingRules[state];
+// Only show the statewide card when the facility is actually run by the state
+// system those rules belong to. A privately operated facility in the same state
+// — e.g. a CoreCivic prison holding another state's people — follows its own
+// rules, so the state DOC's card would be wrong. Skip it for non-state operators.
+const showRules = rules && (!facilitySystem || facilitySystem === rules.system);
 ---
 
-{rules && (
+{showRules && (
   <aside class="key-info statewide-rules" aria-label="Statewide visiting rules">
     <p class="key-info-label">{rules.title}</p>
     <p class="statewide-rules__intro">
