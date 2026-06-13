@@ -34,6 +34,25 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  ms: {
+    system: 'MDOC',
+    title: 'Statewide rules that apply at every MDOC state prison',
+    guideHref: '/states/mississippi/guides/visiting/',
+    guideLabel: 'Visiting in Mississippi',
+    dressCode: [
+      'Shirts and closed outdoor shoes required; underwear required (a bra for women). No tank, crop, sleeveless, or strapless tops, spaghetti straps, or bare midriffs.',
+      'Nothing see-through, overly tight, or revealing — no yoga pants, leggings, spandex, hip-huggers, jogging or biking shorts, mini-skirts, or cutoffs.',
+      'Shorts must reach the knee; skirts and dresses no shorter than one inch above the knee, with no slit above the knee when seated.',
+      'No hats or head coverings except for religious reasons; jewelry limited to a wedding ring, a religious medallion, and a medical-alert bracelet — no body-piercing jewelry.',
+      'The dress code applies to children too, and a violation turns the visit away and can carry a one-year visiting suspension.'
+    ],
+    idRule:
+      'Visitors 18 and older present a valid government photo ID (driver\'s license, state ID, or passport). Ages 16-17 need a photo ID showing date of birth; children 15 and under bring a legible birth certificate.',
+    itemsRule:
+      'No phones, wallets, purses, tobacco, or cash inside — leave them locked in the vehicle. Visits are cashless, with prepaid vending cards sold in the visit area; one infant diaper bag is allowed (up to 4 diapers, 2 bottles, a change of clothes, a pacifier, and wipes).',
+    schedulingRule:
+      'The incarcerated person starts the visitor application — forms come only from them, never online — lists up to 10 visitors, and tells visitors the days and rules. Up to 5 visitors per visit; frequency runs by custody level (about four times a month at minimum custody down to once a month at close custody). MDOC posts no schedules, so confirm days and hours with the facility.'
+  },
   nh: {
     system: 'NHDOC',
     title: 'Statewide rules that apply at every NHDOC facility',

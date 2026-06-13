@@ -4,7 +4,7 @@ What's live, in progress, and untouched across all 50 states. **Update this file
 whenever a state's status changes** — research started, facility batch added,
 state completed. CLAUDE.md's "Current Scope" tracks totals; this file tracks the map.
 
-Last updated: 2026-06-12 (New Hampshire published; Mississippi research started)
+Last updated: 2026-06-12 (New Hampshire published; Mississippi published — 3 of its state prisons)
 
 ## Status legend
 
@@ -31,7 +31,7 @@ covers state systems).
 | Wyoming | WDOC | 5 | 5 | Complete |
 | California | CDCR | 31 | 20 | In progress |
 | Texas | TDCJ | ~100 | 22 | In progress |
-| Mississippi | MDOC | 3 state + ~19 private/regional | — | In research |
+| Mississippi | MDOC | 7 state + 2 private + 15 regional | 3 | In progress |
 | Alabama | ADOC | ~15 | — | Not started |
 | Alaska | AK DOC | ~12 | — | Not started |
 | Arizona | ADCRR | ~13 | — | Not started |
@@ -76,12 +76,16 @@ covers state systems).
 
 ## Notes
 
-- **Mississippi** (in research): an unusual system shape — 3 big state prisons
-  (Parchman, Central Mississippi in Pearl, South Mississippi in Leakesville),
-  3-4 privately operated prisons, and ~15 county-run regional facilities that
-  hold state-sentenced people. The CoreCivic Tallahatchie facility in Tutwiler
-  holds Vermont men, so it cross-links to our Vermont pages. First batch: the
-  3 state prisons + Tallahatchie.
+- **Mississippi** (in progress): an unusual three-tier system — 7 state prisons,
+  2 privately operated prisons (East Mississippi, Wilkinson County), and 15
+  county-run regional facilities that hold state-sentenced people, each tier with
+  its own rules. First batch published: the 3 big state prisons (Parchman,
+  Central Mississippi in Pearl, South Mississippi in Leakesville). Next:
+  Tallahatchie (CoreCivic, Tutwiler) — holds Vermont/Montana/Wyoming men under
+  CoreCivic's rules, so it required the StateVisitingRules card to skip non-state
+  operators (the `cardSystem`/operator-aware card change). Then the other 4 state
+  prisons (Walnut Grove, Marshall County, Delta women's, the women's facility),
+  the 2 private prisons, and regional facilities as future batches.
 - **Maine** would complete northern New England (ME/NH/VT); Massachusetts and
   Connecticut would complete the region.
 - **Texas** is a long-term project (~100 units) — batches of 3-5 continue

@@ -17,6 +17,10 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  MDOC: {
+    official: 'MDOC Facility Page',
+    locator: 'MDOC Inmate Search'
+  },
   NHDOC: {
     official: 'NHDOC Facility Page',
     locator: 'NHDOC Inmate Locator'
