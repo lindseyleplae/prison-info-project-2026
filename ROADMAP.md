@@ -4,12 +4,15 @@ What's live, in progress, and untouched across all 50 states. **Update this file
 whenever a state's status changes** — research started, facility batch added,
 state completed. CLAUDE.md's "Current Scope" tracks totals; this file tracks the map.
 
-Last updated: 2026-06-13 (New Jersey completed — all 9 adult state prisons)
+Last updated: 2026-06-13 (six states built and staged for publish — Oregon,
+Colorado, Michigan, Connecticut, Alabama, Arkansas: overview + 6 guides +
+statewide rules card + 3 facilities each, committed locally, awaiting publish approval)
 
 ## Status legend
 
 - **Complete** — overview + 6 guides + statewide rules card + a page for every facility in the system
 - **In progress** — overview + guides live, facility pages partial
+- **Built — pending publish** — overview + 6 guides + statewide rules card + initial facility pages written, verified, and committed locally, but **not yet pushed live** (awaiting Lindsey's publish approval)
 - **In research** — research/drafting under way, nothing published yet
 - **Not started** — untouched
 
@@ -34,12 +37,12 @@ covers state systems).
 | California | CDCR | 31 | 20 | In progress |
 | Texas | TDCJ | ~100 | 22 | In progress |
 | Mississippi | MDOC | 7 state + 2 private + 15 regional | 4 | In progress |
-| Alabama | ADOC | ~15 | — | Not started |
+| Alabama | ADOC | ~15 | 3 | Built — pending publish |
 | Alaska | AK DOC | ~12 | — | Not started |
 | Arizona | ADCRR | ~13 | — | Not started |
-| Arkansas | ADC | ~17 | — | Not started |
-| Colorado | CDOC | ~19 | — | Not started |
-| Connecticut | CT DOC | ~13 | — | Not started |
+| Arkansas | ADC | ~17 | 3 | Built — pending publish |
+| Colorado | CDOC | ~19 | 3 | Built — pending publish |
+| Connecticut | Connecticut DOC | ~13 | 3 | Built — pending publish |
 | Florida | FDC | ~50 | — | Not started |
 | Georgia | GDC | ~34 | — | Not started |
 | Hawaii | HI DCR | ~8 | — | Not started |
@@ -52,7 +55,7 @@ covers state systems).
 | Louisiana | DPS&C | 8 state + ~100 parish jails | 4 | In progress |
 | Maryland | DPSCS | ~15 | — | Not started |
 | Massachusetts | MA DOC | ~14 | — | Not started |
-| Michigan | MDOC (Michigan) | ~26 | — | Not started |
+| Michigan | Michigan DOC | ~26 | 3 | Built — pending publish |
 | Minnesota | MN DOC | ~11 | — | Not started |
 | Missouri | MODOC | ~19 | — | Not started |
 | Montana | MT DOC | ~5 | — | Not started |
@@ -64,7 +67,7 @@ covers state systems).
 | North Dakota | ND DOCR | ~4 | — | Not started |
 | Ohio | ODRC | ~28 | — | Not started |
 | Oklahoma | ODOC | ~20 | — | Not started |
-| Oregon | ODOC (Oregon) | ~12 | — | Not started |
+| Oregon | ODOC | ~12 | 3 | Built — pending publish |
 | Pennsylvania | PADOC | ~23 | — | Not started |
 | South Carolina | SCDC | ~21 | — | Not started |
 | South Dakota | SD DOC | ~5 | — | Not started |
@@ -135,11 +138,36 @@ covers state systems).
   photocopied at the facility with books/photos/legal routed to the Central Mail
   Distribution Center in State Farm, ~4-cent (not free) phone calls, no medical
   co-pay, and the family-facing Corrections Ombudsman (created 2024).
+- **Oregon, Colorado, Michigan, Connecticut, Alabama, Arkansas** (built —
+  pending publish): six states built autonomously in one batch — each an
+  overview + all 6 guides + the statewide rules card + two data entries + 3
+  representative facility pages, verified (accuracy + tone) and committed
+  locally but **not pushed live**, awaiting Lindsey's publish approval.
+  Facilities chosen to cover each system's distinctive types: OR (Coffee Creek,
+  Oregon State Penitentiary, Snake River), CO (Sterling, Denver Women's,
+  Colorado State Penitentiary), MI (Women's Huron Valley, Egeler Reception,
+  Marquette), CT (MacDougall-Walker, York, Cheshire), AL (Limestone, Tutwiler,
+  Donaldson), AR (Cummins, McPherson, Ouachita River). Recurring patterns worth
+  reusing: **off-site digital mail scanning** is spreading (Alabama → San
+  Antonio; Arkansas → Tampa) while legal mail/packages still go to the facility;
+  **single-vendor communications** are common (Alabama → ICSolutions; Arkansas →
+  Securus) with **per-minute rates often unpublished** (point to the vendor
+  portal, never assert a rate); and **low-transparency systems** (Alabama,
+  Arkansas) need honesty markers — visiting hours not posted, oversight gaps,
+  Arkansas's money-order policy in flux. Sensitive content stated neutrally and
+  sourced: DOJ litigation (Alabama men's prisons; Tutwiler 2014 settlement;
+  Ouachita River 2025 ADA settlement; McPherson/Grimes CRIPA), death row
+  (Alabama → Holman; Arkansas male → Varner Supermax, execution chamber →
+  Cummins), and historical conditions (Limestone HIV-segregation, ended 2012;
+  Cummins farm history / Holt v. Sarver / Brubaker).
 - **Texas** is a long-term project (~100 units) — batches of 3-5 continue
   alongside other states.
-- Three abbreviation collisions exist (Mississippi/Maine/Michigan all use
-  "MDOC"; Illinois/Indiana/Iowa all use "IDOC"; Oregon and Oklahoma both use
-  "ODOC") — disambiguate in `system-source-labels.ts` keys when those states
-  land. **Resolved so far:** Mississippi uses the key `MDOC`; Maine uses the
-  display string `Maine DOC` (Michigan, when it lands, will need its own —
-  e.g. `Michigan DOC`). Never reuse `MDOC` across these states.
+- Abbreviation collisions to watch (disambiguate in `system-source-labels.ts`
+  keys and facility frontmatter `system` strings when a state lands).
+  **Resolved so far:** Mississippi uses `MDOC`; Maine uses the display string
+  `Maine DOC`; **Michigan uses `Michigan DOC`** (it landed, as predicted);
+  Connecticut uses `Connecticut DOC`. **Oregon took `ODOC`** — Oklahoma, when it
+  lands, will need its own. **Arkansas took `ADC`** — Arizona (whose agency is
+  ADCRR) should use `ADCRR` to avoid colliding with Arkansas. Alabama uses
+  `ADOC`. Illinois/Indiana/Iowa all use "IDOC" — still unresolved (none landed
+  yet). Never reuse a key across states.

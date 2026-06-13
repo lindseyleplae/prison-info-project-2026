@@ -110,7 +110,16 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - Virginia (VADOC): 6 state guides + 12 facility pages (of ~38 prisons; more on the way)
 - New Jersey (NJDOC): 6 state guides + 9 facility pages — completes the system (all nine adult state prisons)
 - 5 national guides
-- 211 pages total
+- 211 pages live
+
+**Built locally, pending publish approval (not yet live):**
+- Oregon (ODOC): 6 state guides + 3 facility pages
+- Colorado (CDOC): 6 state guides + 3 facility pages
+- Michigan (Michigan DOC): 6 state guides + 3 facility pages
+- Connecticut (Connecticut DOC): 6 state guides + 3 facility pages
+- Alabama (ADOC): 6 state guides + 3 facility pages
+- Arkansas (ADC): 6 state guides + 3 facility pages
+- 271 pages built total (211 live + ~60 staged across these 6 states)
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)
