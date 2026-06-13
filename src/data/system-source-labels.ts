@@ -70,6 +70,10 @@ export const systemSourceLabels: Record<string, SystemSourceLabels> = {
   VADOC: {
     official: 'VADOC Facility Page',
     locator: 'VADOC Inmate & Supervisee Locator'
+  },
+  NJDOC: {
+    official: 'NJDOC Facility Page',
+    locator: 'NJDOC Offender Search'
   }
 };
 

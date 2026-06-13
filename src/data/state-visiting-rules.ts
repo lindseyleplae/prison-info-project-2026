@@ -34,6 +34,24 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  nj: {
+    system: 'NJDOC',
+    title: 'Statewide rules that apply at every New Jersey state prison',
+    guideHref: '/states/new-jersey/guides/visiting/',
+    guideLabel: 'Visiting in New Jersey',
+    dressCode: [
+      'Tops must cover the shoulders and midriff — no tank, tube, halter, or low-cut tops, and nothing transparent, fishnet, skin-tight, or hooded.',
+      'Bottoms must cover from the waist to the knee — shorts must be Bermuda-style ending at the knee, and skirts and dresses must reach the knee when seated; no cargo-style pants, and nothing low-rise that exposes the midriff or buttocks.',
+      'Nothing resembling what incarcerated people, officers, or other workers wear — no military or uniform-style clothing, and nothing in khaki, orange, gray, or camouflage.',
+      'No hats or headgear (except religious or medical), no flip-flops, backless sandals, wheeled shoes, or steel-toed boots, and nothing with offensive or illegal-activity messages.'
+    ],
+    idRule:
+      'Every adult visitor needs a photo ID — a driver\'s license, state non-driver ID, passport, photo Medicaid card, or employer photo ID (a Social Security card is not accepted). Every visitor, adult or child, must be on the incarcerated person\'s approved list.',
+    itemsRule:
+      'Almost nothing comes into the visit room — no phones, money (cash or coin), purses, photos, or food. A clear plastic or zip-lock bag may hold authorized items, and lockers are provided; life-sustaining medication such as an inhaler is handed to the visit supervisor.',
+    schedulingRule:
+      'The incarcerated person designates the visitors, and everyone must be on the approved list (a criminal record must be disclosed but is not an automatic bar). Visits are by appointment only — scheduled with the facility at least 48 hours ahead — and the number of visitors allowed at once varies by facility (commonly up to four adults plus children, sometimes fewer).'
+  },
   va: {
     system: 'VADOC',
     title: 'Statewide rules that apply at every Virginia state prison',
