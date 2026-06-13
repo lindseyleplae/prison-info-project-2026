@@ -102,8 +102,9 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - Delaware (DDOC): 6 state guides + 4 facility pages
 - Rhode Island (RIDOC): 6 state guides + 6 facility pages
 - Vermont (VTDOC): 6 state guides + 6 facility pages
+- New Hampshire (NHDOC): 6 state guides + 3 facility pages
 - 5 national guides
-- 131 pages total
+- 141 pages total
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)

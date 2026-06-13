@@ -34,6 +34,25 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  nh: {
+    system: 'NHDOC',
+    title: 'Statewide rules that apply at every NHDOC facility',
+    guideHref: '/states/new-hampshire/guides/visiting/',
+    guideLabel: 'Visiting in New Hampshire',
+    dressCode: [
+      'Undergarments required. Nothing see-through, low-cut, tank/halter/tube style, sleeveless, or midriff-baring; no tight athletic wear, spandex, sweat, or yoga pants.',
+      'Skirts, dresses, and shorts that reach two or more inches above the knee fail, as do slits (kick pleats up to four inches pass).',
+      'No hats, headbands, or hooded clothing of any kind; no zippered shirts; no outdoor jackets, shawls, scarves, or loose open over-shirts — coats go in a locker or the vehicle.',
+      'No ripped clothing, overalls, scrubs, or uniform look-alikes; no metal hair ornaments. Jewelry is limited to a wedding ring set, one religious pendant, and medical-alert items.',
+      'Children under 10 are exempt from parts of the code; the Visiting Room Officer judges borderline items, deferring to the shift commander when needed.'
+    ],
+    idRule:
+      'A government-issued photo ID — current or expired — surrendered at the entrance and returned after the visit. Children under 18 can use a photo ID or an original birth certificate.',
+    itemsRule:
+      'Small lockers outside the visiting room hold what cannot come in; cellphones are prohibited and tobacco stays locked in the vehicle. Published exceptions are infant items for mothers — empty clear bottles, sealed formula, diapers, wipes, and a nursing cover.',
+    schedulingRule:
+      'The incarcerated person starts every visitor application; the notarized form goes back to them, not to NHDOC, and approval takes about four weeks. Visits are walk-in during the posted block for the person\'s housing unit — two visits a week standard — and no NHDOC prison runs general-population Sunday visiting.'
+  },
   vt: {
     system: 'VTDOC',
     title: 'Statewide rules that apply at every Vermont facility',

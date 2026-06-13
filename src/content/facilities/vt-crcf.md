@@ -102,7 +102,7 @@ For detailed information about visiting and communicating with someone in a Verm
 
 - [Visiting in Vermont](/states/vermont/guides/visiting/) — the 10-name list, the no-contact rule, and family programs
 - [Mail & Packages](/states/vermont/guides/mail/) — original-mail delivery and the photo rule
-- [Phone & Video Calls](/states/vermont/guides/phone-video/) — the lowest rates on this site, and two free calls a week
+- [Phone & Video Calls](/states/vermont/guides/phone-video/) — among the lowest call rates in the country, and two free calls a week
 - [Sending Money](/states/vermont/guides/money/) — the free mail-in deposit option
 - [Medical & Mental Health](/states/vermont/guides/medical/) — statutory medication rights and pregnancy protections
 - [Transfers](/states/vermont/guides/transfers/) — why women in the system come here
