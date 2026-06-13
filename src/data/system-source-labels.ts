@@ -74,6 +74,14 @@ export const systemSourceLabels: Record<string, SystemSourceLabels> = {
   NJDOC: {
     official: 'NJDOC Facility Page',
     locator: 'NJDOC Offender Search'
+  },
+  ODOC: {
+    official: 'ODOC Prison Locations',
+    locator: 'Oregon Offender Search'
+  },
+  CDOC: {
+    official: 'CDOC Facilities',
+    locator: 'CDOC Offender Search'
   }
 };
 

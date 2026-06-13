@@ -34,6 +34,42 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  co: {
+    system: 'CDOC',
+    title: 'Statewide rules that apply at every Colorado state prison',
+    guideHref: '/states/colorado/guides/visiting/',
+    guideLabel: 'Visiting in Colorado',
+    dressCode: [
+      'No clothing that is solid green, gray, orange, white, yellow, or camouflage, or that otherwise resembles what incarcerated people wear — Colorado prison uniforms are green.',
+      'Pants, skirts, and dresses must reach at least the top of the knee; no shorts of any kind and no cargo pants, and nothing tight or form-fitting such as leggings, spandex, or yoga pants.',
+      'Nothing sheer, ripped, or revealing — no exposed cleavage, back, or midriff when standing, sitting, or bending, and no spaghetti- or thin-strap tops; appropriate undergarments are required and must not be visible.',
+      'No hats, hoods, gloves, scarves, or coats in the visiting room (religious head coverings excepted), nothing showing gang, drug, profane, or offensive images, and jewelry limited to a wedding set, one religious medallion, and medical-alert items.'
+    ],
+    idRule:
+      'Every visitor 18 or older shows a valid, unexpired government-issued photo ID — the physical card, not a photocopy or digital ID — and must already be on the incarcerated person\'s approved list, which is capped at 12 adults (minors do not count).',
+    itemsRule:
+      'Almost nothing comes into the visit room. The only item allowed for purchases is one debit or credit card for the vending machines — no cash or coins — and phones, watches, and other electronics are prohibited; prescription medication must be in its original labeled container.',
+    schedulingRule:
+      'Each visitor applies to the facility where the person is held, and visits are generally by appointment, with days and hours set by that prison — there is no single statewide schedule, so confirm the facility\'s process and book ahead before traveling.'
+  },
+  or: {
+    system: 'ODOC',
+    title: 'Statewide rules that apply at every Oregon state prison',
+    guideHref: '/states/oregon/guides/visiting/',
+    guideLabel: 'Visiting in Oregon',
+    dressCode: [
+      'Footwear and undergarments are required; undergarments must not be visible through clothing, and underwire bras are not allowed because they trigger the metal detector.',
+      'No blue clothing or blue denim of any kind, and nothing camouflage — both resemble what adults in custody and staff wear.',
+      'Dresses, skirts, and shorts must reach the knee when standing; nothing sheer, see-through, low-cut, tight, or revealing, and no halter, tube, or crop tops.',
+      'No hats or head coverings except religious ones (which may be inspected), and nothing with gang symbols or with offensive or suggestive words or images.'
+    ],
+    idRule:
+      'Every visitor must already be on the adult in custody\'s approved list (a records check is run on anyone 15 or older). Adults bring a government-issued photo ID for a contact visit; a visitor without photo ID may be limited to a non-contact visit.',
+    itemsRule:
+      'Almost nothing comes into the visit room — no phones, electronics, tobacco, or vaping. Visitors may bring a small amount of change for vending (commonly $15 to $20 — confirm with the facility), up to five photos, and a car key; lockers hold the rest.',
+    schedulingRule:
+      'The adult in custody builds the visiting list with the CD-50 application, and every visitor must be approved before scheduling. Whether visits are by appointment or first-come — and the days and hours — vary by facility, so confirm the specific prison\'s process before traveling.'
+  },
   nj: {
     system: 'NJDOC',
     title: 'Statewide rules that apply at every New Jersey state prison',
