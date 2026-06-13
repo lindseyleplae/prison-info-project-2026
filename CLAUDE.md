@@ -105,7 +105,7 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - Vermont (VTDOC): 6 state guides + 6 facility pages
 - New Hampshire (NHDOC): 6 state guides + 3 facility pages
 - Mississippi (MDOC): 6 state guides + 4 facility pages (incl. Tallahatchie, a CoreCivic facility holding out-of-state men)
-- Louisiana (DPS&C): 6 state guides + 4 facility pages
+- Louisiana (DPS&C): 6 state guides + 8 facility pages — all eight DPS&C state prisons (parish jails out of scope)
 - Maine (Maine DOC): 6 state guides + 6 facility pages — completes northern New England (ME/NH/VT)
 - Virginia (VADOC): 6 state guides + 12 facility pages (of ~38 prisons; more on the way)
 - New Jersey (NJDOC): 6 state guides + 9 facility pages — completes the system (all nine adult state prisons)
@@ -116,7 +116,7 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - Alabama (ADOC): 6 state guides + 3 facility pages
 - Arkansas (ADC): 6 state guides + 3 facility pages
 - 5 national guides
-- 271 pages live
+- 275 pages live
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)

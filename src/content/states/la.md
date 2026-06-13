@@ -11,8 +11,8 @@ hotlines:
   central office: "(225) 342-6740"
 links:
   inmateLocator: "https://vinelink.vineapps.com/search/LA/Person"
-facilityCount: 4
-lastReviewed: 2026-06-12
+facilityCount: 8
+lastReviewed: 2026-06-13
 ---
 
 Louisiana's prison system has a feature no other state's does to the same degree: **more than half of the people serving a state ("DOC") sentence are held not in a state prison but in a local jail run by a parish sheriff.** At the most recent state count, about 14,800 DPS&C-custody people were in parish jails and about 13,800 in state prisons. The state pays sheriffs a daily rate to hold them, a person can spend an entire sentence in a parish jail or be moved between a jail and a prison, and — critically for families — **the rules, visiting schedules, and phone, mail, and money vendors are different in a parish jail than in a state prison, and differ from one parish to the next.**
