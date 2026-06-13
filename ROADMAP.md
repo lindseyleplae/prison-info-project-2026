@@ -4,9 +4,9 @@ What's live, in progress, and untouched across all 50 states. **Update this file
 whenever a state's status changes** — research started, facility batch added,
 state completed. CLAUDE.md's "Current Scope" tracks totals; this file tracks the map.
 
-Last updated: 2026-06-13 (six states built and staged for publish — Oregon,
-Colorado, Michigan, Connecticut, Alabama, Arkansas: overview + 6 guides +
-statewide rules card + 3 facilities each, committed locally, awaiting publish approval)
+Last updated: 2026-06-13 (six states published live — Oregon, Colorado,
+Michigan, Connecticut, Alabama, Arkansas: overview + 6 guides + statewide rules
+card + 3 facilities each)
 
 ## Status legend
 
@@ -37,12 +37,12 @@ covers state systems).
 | California | CDCR | 31 | 20 | In progress |
 | Texas | TDCJ | ~100 | 22 | In progress |
 | Mississippi | MDOC | 7 state + 2 private + 15 regional | 4 | In progress |
-| Alabama | ADOC | ~15 | 3 | Built — pending publish |
+| Alabama | ADOC | ~15 | 3 | In progress |
 | Alaska | AK DOC | ~12 | — | Not started |
 | Arizona | ADCRR | ~13 | — | Not started |
-| Arkansas | ADC | ~17 | 3 | Built — pending publish |
-| Colorado | CDOC | ~19 | 3 | Built — pending publish |
-| Connecticut | Connecticut DOC | ~13 | 3 | Built — pending publish |
+| Arkansas | ADC | ~17 | 3 | In progress |
+| Colorado | CDOC | ~19 | 3 | In progress |
+| Connecticut | Connecticut DOC | ~13 | 3 | In progress |
 | Florida | FDC | ~50 | — | Not started |
 | Georgia | GDC | ~34 | — | Not started |
 | Hawaii | HI DCR | ~8 | — | Not started |
@@ -55,7 +55,7 @@ covers state systems).
 | Louisiana | DPS&C | 8 state + ~100 parish jails | 4 | In progress |
 | Maryland | DPSCS | ~15 | — | Not started |
 | Massachusetts | MA DOC | ~14 | — | Not started |
-| Michigan | Michigan DOC | ~26 | 3 | Built — pending publish |
+| Michigan | Michigan DOC | ~26 | 3 | In progress |
 | Minnesota | MN DOC | ~11 | — | Not started |
 | Missouri | MODOC | ~19 | — | Not started |
 | Montana | MT DOC | ~5 | — | Not started |
@@ -67,7 +67,7 @@ covers state systems).
 | North Dakota | ND DOCR | ~4 | — | Not started |
 | Ohio | ODRC | ~28 | — | Not started |
 | Oklahoma | ODOC | ~20 | — | Not started |
-| Oregon | ODOC | ~12 | 3 | Built — pending publish |
+| Oregon | ODOC | ~12 | 3 | In progress |
 | Pennsylvania | PADOC | ~23 | — | Not started |
 | South Carolina | SCDC | ~21 | — | Not started |
 | South Dakota | SD DOC | ~5 | — | Not started |
@@ -138,11 +138,11 @@ covers state systems).
   photocopied at the facility with books/photos/legal routed to the Central Mail
   Distribution Center in State Farm, ~4-cent (not free) phone calls, no medical
   co-pay, and the family-facing Corrections Ombudsman (created 2024).
-- **Oregon, Colorado, Michigan, Connecticut, Alabama, Arkansas** (built —
-  pending publish): six states built autonomously in one batch — each an
-  overview + all 6 guides + the statewide rules card + two data entries + 3
-  representative facility pages, verified (accuracy + tone) and committed
-  locally but **not pushed live**, awaiting Lindsey's publish approval.
+- **Oregon, Colorado, Michigan, Connecticut, Alabama, Arkansas** (published
+  2026-06-13): six states built autonomously in one batch — each an overview +
+  all 6 guides + the statewide rules card + two data entries + 3 representative
+  facility pages, verified (accuracy + tone) and published live with Lindsey's
+  approval. Each is "in progress" (3 of a larger system's facilities).
   Facilities chosen to cover each system's distinctive types: OR (Coffee Creek,
   Oregon State Penitentiary, Snake River), CO (Sterling, Denver Women's,
   Colorado State Penitentiary), MI (Women's Huron Valley, Egeler Reception,
