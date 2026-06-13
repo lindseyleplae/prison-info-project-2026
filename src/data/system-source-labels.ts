@@ -86,6 +86,14 @@ export const systemSourceLabels: Record<string, SystemSourceLabels> = {
   'Michigan DOC': {
     official: 'Michigan DOC Facility Page',
     locator: 'Offender Tracking Information System (OTIS)'
+  },
+  'Connecticut DOC': {
+    official: 'Connecticut DOC Facility Page',
+    locator: 'CT DOC Inmate Information Search'
+  },
+  ADOC: {
+    official: 'ADOC Facility Page',
+    locator: 'ADOC Inmate Search'
   }
 };
 

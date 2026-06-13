@@ -34,6 +34,42 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  al: {
+    system: 'ADOC',
+    title: 'Statewide rules that apply at every Alabama state prison',
+    guideHref: '/states/alabama/guides/visiting/',
+    guideLabel: 'Visiting in Alabama',
+    dressCode: [
+      'No tan clothing or anything that looks tan, and no scrub-style clothing — both resemble what inmates wear (Alabama inmates wear white, and minimum-custody clothing is tan or white).',
+      'Dresses, skirts, and pants must be no shorter than three inches above the knee (including any slit), and trousers must be at least ankle-length; no shorts, stretch pants, or tight, sheer, or see-through clothing.',
+      'No sundresses or sleeveless tops — blouses and shirts must cover the waist and chest — and a complete set of undergarments is required.',
+      'No hats, caps, scarves, or headbands (religious headwear needs advance written approval); no sunglasses unless prescribed and no smart glasses; jewelry limited to a wedding set and simple stud earrings; no house, shower, or beach shoes.'
+    ],
+    idRule:
+      'Every adult visitor must be on the inmate\'s approved list (built with Form 303-A) and show a government-issued photo ID — a driver\'s license, state ID, military ID, or immigration ID. An inmate may have up to eight approved adult visitors at a time.',
+    itemsRule:
+      'Each visitor may bring up to $30 (in change or on a $30 debit card) for the vending machines, plus a photo ID and car keys, in a clear plastic bag — and nothing else. Phones and electronics, purses and bags, tobacco, and weapons are prohibited; parents may bring a few baby items.',
+    schedulingRule:
+      'There is no statewide schedule and ADOC does not post visiting hours online, so confirm days and hours with the specific prison. Under the 2025 rules, all visits must be pre-scheduled and approved, and a newly arrived inmate may face up to a 60-day wait before visits can begin.'
+  },
+  ct: {
+    system: 'Connecticut DOC',
+    title: 'Statewide rules that apply at every Connecticut correctional facility',
+    guideHref: '/states/connecticut/guides/visiting/',
+    guideLabel: 'Visiting in Connecticut',
+    dressCode: [
+      'Dress with reasonable modesty — no revealing, seductive, or offensive clothing, and nothing staff consider a safety or security risk.',
+      'No watches of any kind, for any visitor (including attorneys).',
+      'Avoid metal in clothing and accessories — underwire, belts, jewelry, hair clips, body piercings, and metal-toed shoes can stop you from clearing the metal detector and lead to denied entry.',
+      'Connecticut does not publish a detailed list of banned colors or styles, so confirm any specifics with the facility before traveling.'
+    ],
+    idRule:
+      'Every visitor 18 or older shows valid government-issued photo ID at each visit (driver\'s license, state ID, military ID, passport, or permanent resident card), and a child\'s accompanying adult brings the child\'s birth certificate plus one other document with the child\'s name. Every visitor must be approved on the inmate\'s visiting list first.',
+    itemsRule:
+      'Almost nothing comes into the visit room — no phones, electronics, food, purses, or coats (the one exception is a clear bottle, a small cloth, and a pacifier for an infant). Nothing may be passed to the inmate; lockers are available at some facilities at your own risk, and money goes to the Inmate Trust Fund, never through the visit.',
+    schedulingRule:
+      'Connecticut runs a unified system, so these rules cover both pretrial and sentenced people, and days and hours are set by each facility. Since 2024, general-population in-person visits at most facilities are first come, first served, while visits for restrictive-status inmates and all video visits are scheduled through the DOC online request form.'
+  },
   mi: {
     system: 'Michigan DOC',
     title: 'Statewide rules that apply at every Michigan state prison',
