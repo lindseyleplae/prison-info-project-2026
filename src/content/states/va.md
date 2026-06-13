@@ -10,7 +10,7 @@ hotlines:
   central office: "(804) 674-3000"
 links:
   inmateLocator: "https://vadoc.virginia.gov/general-public/inmate-and-supervisee-locator/"
-facilityCount: 0
+facilityCount: 3
 lastReviewed: 2026-06-12
 ---
 
