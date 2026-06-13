@@ -52,6 +52,24 @@ export const stateVisitingRules: Record<string, StateVisitingRules> = {
     schedulingRule:
       'There is no statewide schedule and ADOC does not post visiting hours online, so confirm days and hours with the specific prison. Under the 2025 rules, all visits must be pre-scheduled and approved, and a newly arrived inmate may face up to a 60-day wait before visits can begin.'
   },
+  ar: {
+    system: 'ADC',
+    title: 'Statewide rules that apply at every Arkansas state prison',
+    guideHref: '/states/arkansas/guides/visiting/',
+    guideLabel: 'Visiting in Arkansas',
+    dressCode: [
+      'No white or camouflage clothing — both resemble what inmates wear (Arkansas inmates wear white).',
+      'Shoulders must stay covered: no sleeveless shirts, tank tops, or halter tops, and no shorts, miniskirts, or short dresses.',
+      'No see-through clothing, leggings, or jeggings, and nothing low-cut or otherwise provocative; children 10 and under may wear shorts of an appropriate length.',
+      'Avoid metal in clothing and accessories (underwire, buckles, snaps), which can stop you from clearing the metal detector; the authoritative dress code is printed on the back of the visitation form.'
+    ],
+    idRule:
+      'Every visitor must be approved on the inmate\'s visiting list first — the inmate mails the application form to the visitor (it is not available online or from staff), and a criminal-history check is run on each applicant. Visitors 12 and older must show a government-issued photo ID.',
+    itemsRule:
+      'Bring a clear plastic bag with a small amount of cash for the vending machines (some units are moving to coins or debit and credit cards only), prescription medication in the visitor\'s name, a photo ID, car keys, and baby items. Phones, tobacco, and other items must stay locked in the vehicle.',
+    schedulingRule:
+      'Visits are pre-scheduled, not walk-in — request an appointment through the state TeleGov portal or by calling the unit\'s Visitation Clerk. Routine visits are on weekends, and how many visits a month a person gets depends on the inmate\'s class level; ADC does not post per-unit hours online, so confirm with the unit.'
+  },
   ct: {
     system: 'Connecticut DOC',
     title: 'Statewide rules that apply at every Connecticut correctional facility',

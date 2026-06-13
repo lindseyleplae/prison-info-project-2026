@@ -94,6 +94,10 @@ export const systemSourceLabels: Record<string, SystemSourceLabels> = {
   ADOC: {
     official: 'ADOC Facility Page',
     locator: 'ADOC Inmate Search'
+  },
+  ADC: {
+    official: 'ADC Facility Page',
+    locator: 'ADC Inmate Population Search'
   }
 };
 
