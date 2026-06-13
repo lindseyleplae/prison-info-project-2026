@@ -38,7 +38,7 @@ The wrinkle for families is that state-responsible does **not** guarantee a stat
 
 ## Intake and Classification
 
-A person entering state custody is received from a jail into a **reception center** for intake — assessments, criminal-history and medical review, and a **security-level classification** that determines where they are held. Men's reception is handled near Richmond, and **women's intake is at the Fluvanna Correctional Center for Women** in Troy. VADOC uses a numeric security-level system, and a person generally moves toward lower security over time as their classification is reviewed.
+A person entering state custody is received from a jail into a **reception center** for intake — assessments, criminal-history and medical review, and a **security-level classification** that determines where they are held. **Women's intake is at the Fluvanna Correctional Center for Women** in Troy. VADOC uses a numeric security-level system, and a person generally moves toward lower security over time as their classification is reviewed.
 
 ## Finding Someone
 
