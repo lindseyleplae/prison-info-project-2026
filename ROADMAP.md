@@ -4,7 +4,7 @@ What's live, in progress, and untouched across all 50 states. **Update this file
 whenever a state's status changes** — research started, facility batch added,
 state completed. CLAUDE.md's "Current Scope" tracks totals; this file tracks the map.
 
-Last updated: 2026-06-12 (Maine completed — northern New England done: ME, NH, VT)
+Last updated: 2026-06-13 (New Jersey completed — all 9 adult state prisons)
 
 ## Status legend
 
@@ -26,6 +26,7 @@ covers state systems).
 | Delaware | DDOC | 4 | 4 | Complete |
 | Maine | Maine DOC | 6 | 6 | Complete |
 | New Hampshire | NHDOC | 3 | 3 | Complete |
+| New Jersey | NJDOC | 9 | 9 | Complete |
 | Rhode Island | RIDOC | 6 | 6 | Complete |
 | Utah | UDC | 2 | 2 | Complete |
 | Vermont | VTDOC | 6 | 6 | Complete |
@@ -57,7 +58,6 @@ covers state systems).
 | Montana | MT DOC | ~5 | — | Not started |
 | Nebraska | NDCS | ~9 | — | Not started |
 | Nevada | NDOC | ~8 | — | Not started |
-| New Jersey | NJDOC | ~9 | — | Not started |
 | New Mexico | NMCD | ~10 | — | Not started |
 | New York | DOCCS | ~42 | — | Not started |
 | North Carolina | NCDAC | ~54 | — | Not started |
@@ -100,9 +100,24 @@ covers state systems).
   Maine centralizes/scans first-class mail to Cushing Road in Warren while
   packages and legal mail go to each facility — the most error-prone fact for
   Maine families.
-- **Virginia** (in progress, staged on the branch — NOT yet pushed/published as
-  of this writing): overview + 6 guides + the statewide rules card + 12 facility
-  pages, built overnight in four verified batches of three. The 12 cover every
+- **New Jersey** (complete): all nine NJDOC adult state prisons — New Jersey
+  State Prison (Trenton, maximum), East Jersey (Rahway), Northern State
+  (Newark), South Woods (Bridgeton, largest), Bayside (Leesburg), Mid-State
+  (Fort Dix, a voluntary substance-use treatment prison on a military base),
+  Garden State Youth (Crosswicks, younger adults), the Adult Diagnostic and
+  Treatment Center (Avenel, court-ordered sex-offender treatment), and Edna
+  Mahan (the only women's prison, being replaced after a 2020 federal
+  investigation — women are split between the main grounds and an Annandale
+  satellite, so confirming the location matters). NJ-specific facts: the
+  one-year state/jail line; personal mail goes to an off-site scanning center
+  in Las Vegas (legal mail + publications still go to the facility); phone is
+  ViaPath (~3.4 cents/min, not free) with a JPay→ViaPath transition under way;
+  Northern State and the Special Treatment Unit are the only two facilities
+  without video visits; and ADTC (a prison, code 1407) must not be confused
+  with the co-located Special Treatment Unit (civil commitment, code 1409).
+- **Virginia** (in progress — published live): overview + 6 guides + the
+  statewide rules card + 12 facility pages, built in four verified batches of
+  three. The 12 cover every
   distinctive VADOC facility type: Greensville (largest), Sussex I and Red Onion
   + Wallens Ridge (high/maximum security; Red Onion is Level S with non-contact
   visits), Fluvanna and the Virginia Correctional Center for Women (the two
