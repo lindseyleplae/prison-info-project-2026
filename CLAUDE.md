@@ -42,6 +42,7 @@ cat prompt.md | gemini -p "Your instructions here"
 | SPEC.md | Master blueprint — architecture, content model, decisions |
 | SCALING.md | Discipline + process + traps for bulk content work — READ FIRST |
 | DECISIONS.md | Judgment calls already made (content + design) — follow, don't re-decide |
+| ROADMAP.md | 50-state coverage tracker — update whenever a state's status changes |
 | TASKS.md | Active task tracking |
 | PLAYBOOK.md | How to add a new state or facility (step-by-step) |
 | src/content.config.ts | Zod schemas — strict validation of every content field |
