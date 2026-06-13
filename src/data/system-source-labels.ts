@@ -66,6 +66,10 @@ export const systemSourceLabels: Record<string, SystemSourceLabels> = {
   CDCR: {
     official: 'CDCR Facility Locator',
     locator: 'California Incarcerated Records and Information Search (CIRIS)'
+  },
+  VADOC: {
+    official: 'VADOC Facility Page',
+    locator: 'VADOC Inmate & Supervisee Locator'
   }
 };
 

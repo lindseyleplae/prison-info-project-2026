@@ -34,6 +34,24 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  va: {
+    system: 'VADOC',
+    title: 'Statewide rules that apply at every Virginia state prison',
+    guideHref: '/states/virginia/guides/visiting/',
+    guideLabel: 'Visiting in Virginia',
+    dressCode: [
+      'Clothing must cover from the neck to the kneecaps. Underwear is required, and footwear is required — bare feet are not allowed.',
+      'No form-fitting clothing — leggings, spandex, jeggings, or leotards — unless worn under clothing that meets the code; no tube, tank, or halter tops unless covered.',
+      'Nothing that exposes the midriff, side, back, or cleavage, nothing see-through, and no mini-skirts, dresses, shorts, skorts, or culottes at or above the kneecap.',
+      'Nothing resembling what incarcerated people wear, and nothing with gang, racist, or inappropriate symbols. No watches or wearable technology; umbrellas stay in the vehicle.'
+    ],
+    idRule:
+      'Every approved adult visitor shows a valid government-issued photo ID, held until the visit ends, with the name matching the application. A minor is vouched for by the approved adult they come with (plus a notarized parental statement if that adult is not the parent or guardian).',
+    itemsRule:
+      'No food, drinks, or vending money — visitors bring little beyond ID, and coats and bags go in a storage area. Medication a visitor must keep on them needs a doctor\'s note and approval at least a week ahead. What else may be brought in varies by facility.',
+    schedulingRule:
+      'Every visitor applies online and clears a background check through the Central Visitation Unit (the incarcerated person no longer keeps a list); approval lasts three years. Visits are booked through the online scheduler up to 14 days ahead — one visit per weekend — and a newly arrived person cannot have visits for their first 60 days.'
+  },
   me: {
     system: 'Maine DOC',
     title: 'Statewide rules that apply at every Maine DOC facility',

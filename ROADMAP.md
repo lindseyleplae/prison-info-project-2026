@@ -69,7 +69,7 @@ covers state systems).
 | South Carolina | SCDC | ~21 | — | Not started |
 | South Dakota | SD DOC | ~5 | — | Not started |
 | Tennessee | TDOC | ~14 | — | Not started |
-| Virginia | VADOC | ~38 | — | Not started |
+| Virginia | VADOC | ~38 | 0 | In progress |
 | Washington | WA DOC | ~11 | — | Not started |
 | West Virginia | WV DCR | ~7 | — | Not started |
 | Wisconsin | WI DOC | ~20 | — | Not started |
