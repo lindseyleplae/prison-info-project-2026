@@ -82,6 +82,10 @@ export const systemSourceLabels: Record<string, SystemSourceLabels> = {
   CDOC: {
     official: 'CDOC Facilities',
     locator: 'CDOC Offender Search'
+  },
+  'Michigan DOC': {
+    official: 'Michigan DOC Facility Page',
+    locator: 'Offender Tracking Information System (OTIS)'
   }
 };
 

@@ -34,6 +34,24 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  mi: {
+    system: 'Michigan DOC',
+    title: 'Statewide rules that apply at every Michigan state prison',
+    guideHref: '/states/michigan/guides/visiting/',
+    guideLabel: 'Visiting in Michigan',
+    dressCode: [
+      'Visitors must be fully dressed in clean clothing in good repair, with required undergarments — including a bra for anyone with breast tissue — and footwear at all times.',
+      'Nothing that exposes a lot of skin: no see-through clothing, no tube or halter tops, and skirts, dresses, and shorts no more than three inches above the knee — and no shorts of any kind.',
+      'No extreme form-fitting outer clothing such as yoga pants, tights, jeggings, or unitards, and nothing that exposes undergarments.',
+      'No hooded garments, coats, jackets, gloves, or sunglasses in the visiting room (blazers, suit coats, and sweaters are allowed); jewelry is limited to about ten pieces, and religious head coverings are allowed but may be searched.'
+    ],
+    idRule:
+      'Every visitor must already be on the prisoner\'s approved list (each visitor files a CAJ-103 application), and adults present a government photo ID at every visit; a minor without photo ID brings a birth certificate or court order.',
+    itemsRule:
+      'Almost nothing comes into the visit room — the only items allowed are a locker key, the visitor pass, a photo ID, and a prepaid MDOC vending card (up to $30 per person; no cash). Phones and electronics are prohibited, and lockers are provided in the lobby.',
+    schedulingRule:
+      'Visits are by appointment only — no walk-ins — booked through the ViaPath system between 48 hours and 7 days ahead. Days, hours, and the number of visits allowed each month are set by each facility and the prisoner\'s security level, and there are no personal visits during the first months after intake.'
+  },
   co: {
     system: 'CDOC',
     title: 'Statewide rules that apply at every Colorado state prison',
