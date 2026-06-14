@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  mo: {
+    system: 'Missouri DOC',
+    title: 'Statewide rules that apply at every Missouri state prison',
+    guideHref: '/states/missouri/guides/visiting/',
+    guideLabel: 'Visiting in Missouri',
+    dressCode: [
+      'No tight, baggy, transparent, or revealing clothing; skirts, dresses, and shorts must reach the top of the kneecap; and shirts must cover the chest, cleavage, back, stomach, and shoulders.',
+      'No camouflage and no gang-related symbols or colors. Dress standards are enforced at the door, so confirm the specific facility\'s current rules before visiting.'
+    ],
+    idRule:
+      'Every visitor must be on the incarcerated person\'s approved visitor list before visiting — apply online through the Missouri DOC visiting application, which requires the person\'s DOC ID number and a background check. Adults show a valid government photo ID; visitors age 13 to 18 show a school or government photo ID, and anyone under 18 must be accompanied by an approved adult.',
+    itemsRule:
+      'Bring as little as possible: a photo ID and, for the vending machines, coins in a clear bag (food brought into a food visit must be in clear containers). Phones, bags, and gifts are not allowed inside, and money for the person is sent through JPay, never handed over at a visit.',
+    schedulingRule:
+      'Apply for visits through the Missouri DOC online visiting application (web.mo.gov/doc/pubVisit); each prison sets its own visiting days, hours, and limits, so confirm them with the facility. Up to three visitors may visit at once, plus up to three children age five and under. A newly committed person is held at a reception and diagnostic center — Fulton, Bonne Terre (ERDCC), or St. Joseph (WRDCC) for men, and Vandalia (WERDCC) for women — until transfer to a permanent prison.'
+  },
   in: {
     system: 'Indiana DOC',
     title: 'Statewide rules that apply at every Indiana state prison',

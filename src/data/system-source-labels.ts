@@ -17,6 +17,13 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Missouri's agency abbreviates itself both "MDOC" and "MODOC"; "MDOC"
+  // collides with Michigan and Mississippi, so facility frontmatter uses the
+  // display string "Missouri DOC".
+  'Missouri DOC': {
+    official: 'Missouri DOC Facility Page',
+    locator: 'Missouri Offender Search'
+  },
   // Indiana's agency abbreviates itself "IDOC", which collides with Idaho,
   // Illinois, and Iowa, so facility frontmatter uses the display string
   // "Indiana DOC".

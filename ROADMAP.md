@@ -33,7 +33,13 @@ Indiana (IDOC) launched: state overview, all 6 guides, the two data entries, and
 facility pages — Indiana State Prison [men's death row + execution chamber], both reception
 centers (Reception-Diagnostic Center [men], Rockville [women]), the Indiana Women's Prison
 [oldest U.S. women's prison; women's death-sentence designation], the GEO-operated New Castle,
-and the major men's prisons Pendleton, Wabash Valley, and Miami; 10 IDOC prisons remain to build)
+and the major men's prisons Pendleton, Wabash Valley, and Miami; 10 IDOC prisons remain to build.
+Missouri (Missouri DOC) launched: state overview, all 6 guides, the two data entries, and the
+first 8 facility pages — both women's prisons (WERDCC [women's reception + women's
+death-sentence designation], Chillicothe), the execution-chamber facility (ERDCC, Bonne Terre)
+and the men's death-row facility (Potosi), the men's central and western reception centers
+(Fulton, WRDCC), the flagship maximum-security Jefferson City, and Southeast; 11 Missouri
+prisons remain to build)
 
 ## Status legend
 
@@ -84,7 +90,7 @@ covers state systems).
 | Massachusetts | MA DOC | ~14 | — | Not started |
 | Michigan | Michigan DOC | 26 | 26 | Complete |
 | Minnesota | MN DOC | ~11 | — | Not started |
-| Missouri | MODOC | ~19 | — | Not started |
+| Missouri | Missouri DOC | 19 | 8 | In progress |
 | Montana | MT DOC | ~5 | — | Not started |
 | Nebraska | NDCS | 8 | 8 | Complete |
 | Nevada | NDOC | ~8 | — | Not started |
