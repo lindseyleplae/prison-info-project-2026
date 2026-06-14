@@ -4,9 +4,9 @@ What's live, in progress, and untouched across all 50 states. **Update this file
 whenever a state's status changes** — research started, facility batch added,
 state completed. CLAUDE.md's "Current Scope" tracks totals; this file tracks the map.
 
-Last updated: 2026-06-13 (Oregon and Louisiana completed — all 12 ODOC and all 8
-DPS&C state prisons now covered; six states (OR/CO/MI/CT/AL/AR) published live
-earlier the same day)
+Last updated: 2026-06-13 (Connecticut, Oregon, and Louisiana completed — all 13
+CT DOC, all 12 ODOC, and all 8 DPS&C facilities now covered; six states
+(OR/CO/MI/CT/AL/AR) published live earlier the same day)
 
 ## Status legend
 
@@ -42,7 +42,7 @@ covers state systems).
 | Arizona | ADCRR | ~13 | — | Not started |
 | Arkansas | ADC | ~17 | 3 | In progress |
 | Colorado | CDOC | ~19 | 3 | In progress |
-| Connecticut | Connecticut DOC | ~13 | 3 | In progress |
+| Connecticut | Connecticut DOC | 13 | 13 | Complete |
 | Florida | FDC | ~50 | — | Not started |
 | Georgia | GDC | ~34 | — | Not started |
 | Hawaii | HI DCR | ~8 | — | Not started |
