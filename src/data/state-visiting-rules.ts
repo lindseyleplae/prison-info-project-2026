@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  in: {
+    system: 'Indiana DOC',
+    title: 'Statewide rules that apply at every Indiana state prison',
+    guideHref: '/states/indiana/guides/visiting/',
+    guideLabel: 'Visiting in Indiana',
+    dressCode: [
+      'Dress modestly: no revealing, sheer, see-through, or tight clothing; no shorts, miniskirts, or skirts and dresses above the knee; and no tank tops, halter tops, or bare midriffs.',
+      'Do not wear clothing that resembles what incarcerated people or staff wear (for example, all-khaki outfits) or any gang-related attire, and wear appropriate undergarments. Each facility sets and enforces the specific dress code, so confirm it before visiting.'
+    ],
+    idRule:
+      'Every visitor must first register and be approved on the incarcerated person\'s visitor list (up to 12 approved visitors) through ViaPath — visitors are not added at the door — and each visitor age 16 or older must show a valid government-issued photo ID at every visit.',
+    itemsRule:
+      'Bring only what the facility allows — generally a photo ID and a car key; phones, bags, and gifts are not permitted inside, and money for the person is sent through ViaPath (ConnectNetwork), never handed over at a visit. Confirm the specific facility\'s rules on lockers and any vending.',
+    schedulingRule:
+      'Register and schedule visits through ViaPath at idoc.gtlvisitme.com; all visit scheduling uses Eastern time, even at facilities in Indiana\'s Central-time zone. Each prison sets its own visiting days, hours, and limits, so confirm them with the facility. A newly committed person is held at a reception center — the Reception-Diagnostic Center in Plainfield for men, Rockville for women — until classification, then transfers to a permanent prison, with limited visiting during reception.'
+  },
   tn: {
     system: 'TDOC',
     title: 'Statewide rules that apply at every Tennessee state prison',

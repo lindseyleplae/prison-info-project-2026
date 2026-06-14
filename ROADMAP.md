@@ -28,7 +28,12 @@ Rehabilitation Center [women, formerly the Tennessee Prison for Women]), Riverbe
 death row + execution chamber], the CoreCivic-operated Trousdale Turner [the state's largest
 prison], the statewide medical/mental-health center (DeBerry), West Tennessee State
 Penitentiary, Morgan County, and the Women's Therapeutic Residential Center. Tennessee is now
-complete — all 14 TDOC prisons (10 state-run + 4 CoreCivic-operated) are paged)
+complete — all 14 TDOC prisons (10 state-run + 4 CoreCivic-operated) are paged.
+Indiana (IDOC) launched: state overview, all 6 guides, the two data entries, and the first 8
+facility pages — Indiana State Prison [men's death row + execution chamber], both reception
+centers (Reception-Diagnostic Center [men], Rockville [women]), the Indiana Women's Prison
+[oldest U.S. women's prison; women's death-sentence designation], the GEO-operated New Castle,
+and the major men's prisons Pendleton, Wabash Valley, and Miami; 10 IDOC prisons remain to build)
 
 ## Status legend
 
@@ -70,7 +75,7 @@ covers state systems).
 | Hawaii | HI DCR | ~8 | — | Not started |
 | Idaho | IDOC | ~9 | — | Not started |
 | Illinois | IDOC | ~25 | — | Not started |
-| Indiana | IDOC | ~18 | — | Not started |
+| Indiana | IDOC | 18 | 8 | In progress |
 | Iowa | IDOC | ~9 | — | Not started |
 | Kansas | KDOC | ~8 | — | Not started |
 | Kentucky | KY DOC | ~13 | — | Not started |
