@@ -115,9 +115,9 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - Connecticut (Connecticut DOC): 6 state guides + 13 facility pages — all 13 adult facilities (unified jail/prison system)
 - Alabama (ADOC): 6 state guides + 3 facility pages
 - Arkansas (ADC): 6 state guides + 3 facility pages
-- West Virginia (WV DCR): 6 state guides + 3 facility pages — unified prison/regional-jail system (Mount Olive, Lakin, Huttonsville)
+- West Virginia (WV DCR): 6 state guides + 8 facility pages — all eight WV DCR state prisons (Mount Olive, Lakin, Huttonsville, Saint Marys, Salem, Denmar, Pruntytown, Stevens); unified prison/regional-jail system
 - 5 national guides
-- 304 pages live
+- 309 pages live
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)
