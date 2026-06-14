@@ -34,8 +34,10 @@ sources:
     url: "https://doc.alabama.gov/facility.aspx?loc=2"
   - name: "ADOC — Administrative Regulation 303 (Visitation, 2025)"
     url: "https://doc.alabama.gov/docs/AdminRegs/AR303.pdf"
-  - name: "ADOC — Alabama Death Row (housed at Holman)"
+  - name: "ADOC — Alabama Death Row (primary housing at Holman)"
     url: "https://doc.alabama.gov/deathrow.aspx"
+  - name: "ADOC — William C. Holman Correctional Facility (notes additional death-row housing at Donaldson)"
+    url: "https://doc.alabama.gov/facility.aspx?loc=33"
   - name: "U.S. Dept. of Justice — Investigation of Alabama's Prisons for Men"
     url: "https://www.justice.gov/crt/case-document/file/1149971/download"
   - name: "UAB Medical West — Emergency Services (Bessemer)"
@@ -62,7 +64,7 @@ reviewBy: 2026-09-13
 
 William E. Donaldson Correctional Facility, west of Bessemer in the Birmingham metro area, is a **high-security men's prison** holding about **1,440 men**. ADOC's own materials describe it using both **"close custody"** and **"maximum security,"** and the facility specializes in housing men with long sentences who are difficult to manage, including several hundred serving **life without parole**. It operates one of the **largest segregation units** in the Alabama system. The prison opened in **1982** as the West Jefferson Correctional Facility and was renamed for a correctional officer killed in the line of duty in 1990.
 
-Alabama's **male death row is housed at Holman Correctional Facility** in Atmore. ADOC's description of Donaldson references a death-row unit, but the state's **published death-row list places Alabama's condemned men at Holman** — so someone looking for a person on death row should generally look to Holman.
+Alabama's **primary male death row is at Holman Correctional Facility** in Atmore, which also holds the state's only execution chamber. ADOC's materials note that **additional death-row housing exists at Donaldson**, so some men under sentence of death are held here. To confirm where a specific person is held, use the ADOC inmate search.
 
 ## What Makes Donaldson Different
 

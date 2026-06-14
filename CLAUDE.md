@@ -113,12 +113,12 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - Colorado (CDOC): 6 state guides + 3 facility pages
 - Michigan (Michigan DOC): 6 state guides + 3 facility pages
 - Connecticut (Connecticut DOC): 6 state guides + 13 facility pages — all 13 adult facilities (unified jail/prison system)
-- Alabama (ADOC): 6 state guides + 3 facility pages
+- Alabama (ADOC): 6 state guides + 14 facility pages — all 14 ADOC major correctional facilities (Holman [primary male death row + the state's only execution chamber], Donaldson [secondary death-row housing], St. Clair [maximum security], Limestone [largest], Kilby [statewide men's reception/classification center], Bibb, Bullock [mental-health mission], Easterling, Ventress [substance-abuse mission], Fountain, Staton, Elmore, Hamilton Aged & Infirmed Center, and Tutwiler [women's prison + statewide women's reception + female death row]); the ~12 community/work-release centers, the private Alabama Therapeutic Education Facility, and the two not-yet-open new megaprisons (Elmore County's Governor Kay Ivey Correctional Complex and the planned Escambia County prison) are noted in the overview but not individually paged. Statewide changes: ICSolutions handles all communications (Aug 2025); personal mail is digital via an off-site San Antonio scanning center (Oct 2025), with legal mail still to the facility
 - Arkansas (ADC): 6 state guides + 18 facility pages — all major ADC units (Cummins, McPherson, Ouachita River, Varner/Supermax, Tucker, Larry B. Norris, East Arkansas Regional, Grimes, Benny Magness, Wrightsville, Hawkins women's center, Delta Regional, the 3 Pine Bluff Complex units, Benton, Texarkana, White River); small work-release/community-correction centers and the brand-new Parker-Reed Women's Health Unit (no published visiting info) are noted in the overview but not individually paged
 - West Virginia (WV DCR): 6 state guides + 8 facility pages — all eight WV DCR state prisons (Mount Olive, Lakin, Huttonsville, Saint Marys, Salem, Denmar, Pruntytown, Stevens); unified prison/regional-jail system
 - Nebraska (NDCS): 6 state guides + 8 facility pages — all eight current NDCS facilities (Nebraska State Penitentiary, Tecumseh, Nebraska Correctional Center for Women, Reception and Treatment Center, Omaha Correctional Center, Nebraska Correctional Youth Facility, and the Lincoln and Omaha community corrections centers); heavily overcrowded system, off-site mail scanning (TextBehind), two independent oversight offices. The Work Ethic Camp (McCook) left the state system in late 2025 (converted to federal ICE detention), so NDCS now runs eight facilities, not nine.
 - 5 national guides
-- 355 pages live
+- 366 pages live
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)
