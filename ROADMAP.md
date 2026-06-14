@@ -4,9 +4,10 @@ What's live, in progress, and untouched across all 50 states. **Update this file
 whenever a state's status changes** — research started, facility batch added,
 state completed. CLAUDE.md's "Current Scope" tracks totals; this file tracks the map.
 
-Last updated: 2026-06-14 (overnight finishing run — California completed, all 31 open
-CDCR institutions covered; Nebraska launched at 4 of 9; West Virginia, Connecticut,
-Oregon, and Louisiana complete)
+Last updated: 2026-06-14 (overnight finishing run — California completed (all 31 open
+CDCR institutions) and Nebraska completed (all 8 current NDCS facilities; the Work
+Ethic Camp left the state system in 2025); West Virginia, Connecticut, Oregon, and
+Louisiana also complete)
 
 ## Status legend
 
@@ -59,7 +60,7 @@ covers state systems).
 | Minnesota | MN DOC | ~11 | — | Not started |
 | Missouri | MODOC | ~19 | — | Not started |
 | Montana | MT DOC | ~5 | — | Not started |
-| Nebraska | NDCS | 9 | 4 | In progress |
+| Nebraska | NDCS | 8 | 8 | Complete |
 | Nevada | NDOC | ~8 | — | Not started |
 | New Mexico | NMCD | ~10 | — | Not started |
 | New York | DOCCS | ~42 | — | Not started |
