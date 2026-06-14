@@ -5,7 +5,7 @@ state: co
 topic: visiting
 relatedNationalGuide: visiting-basics
 system: CDOC
-description: "How to get on a Colorado incarcerated person's 12-visitor list, the no-green dress code, what ID counts, the vending-card-only rule, and why days, hours, and scheduling are set by each prison."
+description: "How to get on a Colorado incarcerated person's 12-visitor list, the dress code, what ID counts, the vending-card-only rule, and why days, hours, and scheduling are set by each prison."
 sources:
   - name: "CDOC — Visitation Rules and Procedures"
     url: "https://cdoc.colorado.gov/resources-faq/visitation/visitation-rules-and-procedures"
@@ -70,5 +70,5 @@ There is **no statewide visiting schedule** — each prison sets its own days, h
 ## Verify Before Acting
 
 :::callout{variant="warning" title="Verify Before Acting"}
-Get approved on the person's list before traveling, and dress with the **no-green, knee-length** rule in mind. Because each prison sets its own visiting days, hours, and appointment process — and video visiting is in transition — confirm the details with the specific facility or on CDOC's visitation pages before you go.
+Get approved on the person's list before traveling, and dress with the **color and knee-length** rules in mind. Because each prison sets its own visiting days, hours, and appointment process — and video visiting is in transition — confirm the details with the specific facility or on CDOC's visitation pages before you go.
 :::

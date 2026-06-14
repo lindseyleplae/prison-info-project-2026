@@ -69,7 +69,7 @@ Denver Women's Correctional Facility is one of Colorado's **two women's prisons*
 
 ## Visiting
 
-The statewide CDOC rules above — the approved list, the no-green dress code, ID, and search rules — apply at Denver Women's. The facility's own schedule:
+The statewide CDOC rules above — the approved list, the dress code, ID, and search rules — apply at Denver Women's. The facility's own schedule:
 
 :::key-info
 **Days and hours:** Friday, Saturday, and Sunday, 8:30 a.m. to 3:00 p.m., with visitor processing from 8:15 to 10:00 a.m. and 11:30 a.m. to 1:15 p.m.
@@ -105,7 +105,7 @@ Personal mail goes to the facility, addressed with the person's **commitment nam
 
 For detailed information about visiting and communicating with someone in a Colorado state prison:
 
-- [Visiting in Colorado](/states/colorado/guides/visiting/) — the approved list, the no-green dress code, and ID rules
+- [Visiting in Colorado](/states/colorado/guides/visiting/) — the approved list, the dress code, and ID rules
 - [Mail & Packages](/states/colorado/guides/mail/) — the DOC number, photocopying, and publisher-only books
 - [Phone & Video Calls](/states/colorado/guides/phone-video/) — free calls, Securus, and tablets
 - [Sending Money](/states/colorado/guides/money/) — CorrectPay deposits

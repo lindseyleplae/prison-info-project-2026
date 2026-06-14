@@ -71,7 +71,7 @@ The Colorado State Penitentiary is Colorado's **highest-security prison for men*
 
 ## Visiting
 
-The statewide CDOC rules above — the approved list, the no-green dress code, ID, and search rules — apply at Colorado State Penitentiary. The facility's own arrangements:
+The statewide CDOC rules above — the approved list, the dress code, ID, and search rules — apply at Colorado State Penitentiary. The facility's own arrangements:
 
 :::key-info
 **Scheduling:** By appointment, at least seven days ahead — call the visiting office at (719) 269-5252 or email; an approved visiting application must be on file first
@@ -107,7 +107,7 @@ Personal mail goes to the facility, addressed with the person's **commitment nam
 
 For detailed information about visiting and communicating with someone in a Colorado state prison:
 
-- [Visiting in Colorado](/states/colorado/guides/visiting/) — the approved list, the no-green dress code, and ID rules
+- [Visiting in Colorado](/states/colorado/guides/visiting/) — the approved list, the dress code, and ID rules
 - [Mail & Packages](/states/colorado/guides/mail/) — the DOC number, photocopying, and publisher-only books
 - [Phone & Video Calls](/states/colorado/guides/phone-video/) — free calls, Securus, and tablets
 - [Sending Money](/states/colorado/guides/money/) — CorrectPay deposits
