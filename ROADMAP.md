@@ -27,8 +27,8 @@ first 8 facility pages — both reception centers (Bledsoe County [men], Debra K
 Rehabilitation Center [women, formerly the Tennessee Prison for Women]), Riverbend [men's
 death row + execution chamber], the CoreCivic-operated Trousdale Turner [the state's largest
 prison], the statewide medical/mental-health center (DeBerry), West Tennessee State
-Penitentiary, Morgan County, and the Women's Therapeutic Residential Center; 6 TDOC prisons
-remain to build)
+Penitentiary, Morgan County, and the Women's Therapeutic Residential Center. Tennessee is now
+complete — all 14 TDOC prisons (10 state-run + 4 CoreCivic-operated) are paged)
 
 ## Status legend
 
@@ -93,7 +93,7 @@ covers state systems).
 | Pennsylvania | PADOC | 22 | 8 | In progress |
 | South Carolina | SCDC | ~21 | — | Not started |
 | South Dakota | SD DOC | ~5 | — | Not started |
-| Tennessee | TDOC | 14 | 8 | In progress |
+| Tennessee | TDOC | 14 | 14 | Complete |
 | Virginia | VADOC | 25 | 25 | Complete |
 | Washington | WA DOC | ~11 | — | Not started |
 | West Virginia | WV DCR | 8 state prisons (+ 10 regional jails) | 8 | Complete |

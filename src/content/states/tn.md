@@ -8,7 +8,7 @@ systemFullName: "Tennessee Department of Correction (TDOC)"
 summary: "Guides and facility information for Tennessee, where the Department of Correction runs 14 adult prisons — 10 state-operated and 4 operated by CoreCivic under contract — while people awaiting trial or serving shorter sentences are held in county jails and workhouses that set their own rules."
 links:
   inmateLocator: "https://foil.app.tn.gov/foil/"
-facilityCount: 8
+facilityCount: 14
 lastReviewed: 2026-06-14
 ---
 
