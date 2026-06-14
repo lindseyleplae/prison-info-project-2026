@@ -21,7 +21,14 @@ first 8 facility pages — both reception/diagnostic centers (Camp Hill [men], M
 also the women's death-sentence designation]), the women's minimum prison (Cambridge Springs),
 Pine Grove [men's max + Young Adult Offender Program], Phoenix and Somerset [the two Capital
 Case Units], and the two statewide-health prisons (Laurel Highlands [skilled medical/geriatric],
-Waymart [Forensic Treatment Center]); ~14 PADOC prisons remain to build)
+Waymart [Forensic Treatment Center]); ~14 PADOC prisons remain to build.
+Tennessee (TDOC) launched: state overview, all 6 guides, the two data entries, and the
+first 8 facility pages — both reception centers (Bledsoe County [men], Debra K. Johnson
+Rehabilitation Center [women, formerly the Tennessee Prison for Women]), Riverbend [men's
+death row + execution chamber], the CoreCivic-operated Trousdale Turner [the state's largest
+prison], the statewide medical/mental-health center (DeBerry), West Tennessee State
+Penitentiary, Morgan County, and the Women's Therapeutic Residential Center; 6 TDOC prisons
+remain to build)
 
 ## Status legend
 
@@ -86,7 +93,7 @@ covers state systems).
 | Pennsylvania | PADOC | 22 | 8 | In progress |
 | South Carolina | SCDC | ~21 | — | Not started |
 | South Dakota | SD DOC | ~5 | — | Not started |
-| Tennessee | TDOC | ~14 | — | Not started |
+| Tennessee | TDOC | 14 | 8 | In progress |
 | Virginia | VADOC | 25 | 25 | Complete |
 | Washington | WA DOC | ~11 | — | Not started |
 | West Virginia | WV DCR | 8 state prisons (+ 10 regional jails) | 8 | Complete |

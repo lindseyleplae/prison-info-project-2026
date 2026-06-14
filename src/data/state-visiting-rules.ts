@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  tn: {
+    system: 'TDOC',
+    title: 'Statewide rules that apply at every Tennessee state prison',
+    guideHref: '/states/tennessee/guides/visiting/',
+    guideLabel: 'Visiting in Tennessee',
+    dressCode: [
+      'No spandex or transparent or translucent clothing; no sleeveless shirts or tops that expose the chest, midriff, or back; and no camouflage clothing or bandanas.',
+      'No flip-flops, shower shoes, or steel-toed shoes, and no excessive jewelry — dress in plain, modest clothing, since a visitor who arrives dressed out of code may be turned away.'
+    ],
+    idRule:
+      'Every visitor, regardless of age, must have an approved visitor application on file before visiting — there is no walk-on visiting, and applications take about 30 days to process. Adult visitors must show a government-issued photo ID.',
+    itemsRule:
+      'Bring only a photo ID and your car keys or key fob inside — phones, wallets, purses, and smart watches stay in the vehicle. Baby items (diapers and sealed formula or food) are allowed in a clear plastic bag. Money for the person is sent only through JPay or ViaPath, never handed over at a visit.',
+    schedulingRule:
+      'Each prison sets its own visiting days, hours, and limits, and visits are arranged with the specific facility — Tennessee has no statewide online visit scheduler — so confirm the schedule before traveling. A newly sentenced person is held at a reception center (Bledsoe County for men, the Debra K. Johnson Rehabilitation Center for women) until classification, then transfers to a permanent prison.'
+  },
   pa: {
     system: 'PADOC',
     title: 'Statewide rules that apply at every Pennsylvania state prison',

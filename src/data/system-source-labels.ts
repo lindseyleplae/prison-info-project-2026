@@ -17,6 +17,10 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  TDOC: {
+    official: 'TDOC Facility Page',
+    locator: 'Felony Offender Information Lookup (FOIL)'
+  },
   PADOC: {
     official: 'PADOC Facility Page',
     locator: 'PADOC Inmate Locator'
