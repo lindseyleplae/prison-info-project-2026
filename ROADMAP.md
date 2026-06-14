@@ -4,9 +4,9 @@ What's live, in progress, and untouched across all 50 states. **Update this file
 whenever a state's status changes** — research started, facility batch added,
 state completed. CLAUDE.md's "Current Scope" tracks totals; this file tracks the map.
 
-Last updated: 2026-06-13 (Nebraska launched — overview + 6 guides + 4 facilities;
-West Virginia completed earlier — all 8 WV DCR state prisons; Connecticut, Oregon,
-and Louisiana also complete)
+Last updated: 2026-06-14 (overnight finishing run — California completed, all 31 open
+CDCR institutions covered; Nebraska launched at 4 of 9; West Virginia, Connecticut,
+Oregon, and Louisiana complete)
 
 ## Status legend
 
@@ -34,7 +34,7 @@ covers state systems).
 | Utah | UDC | 2 | 2 | Complete |
 | Vermont | VTDOC | 6 | 6 | Complete |
 | Wyoming | WDOC | 5 | 5 | Complete |
-| California | CDCR | 31 | 20 | In progress |
+| California | CDCR | 31 | 31 | Complete |
 | Texas | TDCJ | ~100 | 22 | In progress |
 | Mississippi | MDOC | 7 state + 2 private + 15 regional | 4 | In progress |
 | Alabama | ADOC | ~15 | 3 | In progress |

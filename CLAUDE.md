@@ -96,7 +96,7 @@ Deploy CI re-runs the push-sensitive gates on every push to main; a weekly
 scheduled workflow (content-audit.yml) re-runs freshness + external links.
 
 ## Current Scope
-- California (CDCR): 6 state guides + 20 facility pages
+- California (CDCR): 6 state guides + 31 facility pages — all 31 open CDCR adult institutions
 - Texas (TDCJ): 6 state guides + 22 facility pages
 - Utah (UDC): 6 state guides + 2 facility pages
 - Wyoming (WDOC): 6 state guides + 5 facility pages
@@ -118,7 +118,7 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - West Virginia (WV DCR): 6 state guides + 8 facility pages — all eight WV DCR state prisons (Mount Olive, Lakin, Huttonsville, Saint Marys, Salem, Denmar, Pruntytown, Stevens); unified prison/regional-jail system
 - Nebraska (NDCS): 6 state guides + 4 facility pages (Nebraska State Penitentiary, Tecumseh, Nebraska Correctional Center for Women, Reception and Treatment Center); heavily overcrowded system, off-site mail scanning (TextBehind), two independent oversight offices
 - 5 national guides
-- 320 pages live
+- 331 pages live
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)
