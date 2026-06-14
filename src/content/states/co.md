@@ -10,7 +10,7 @@ hotlines:
   constituent services: "(719) 226-4569"
 links:
   inmateLocator: "https://www.doc.state.co.us/oss/"
-facilityCount: 3
+facilityCount: 20
 lastReviewed: 2026-06-13
 ---
 
@@ -20,7 +20,9 @@ The line between a state prison and a county jail is **sentence length**. A felo
 
 **Everyone entering a Colorado state prison is processed first at a reception center in Denver.** Men go through the **Denver Reception and Diagnostic Center (DRDC)**, and women through the **Denver Women's Correctional Facility (DWCF)** — about three to six weeks of medical, mental-health, and classification screening before being assigned to a permanent prison. Many women then move to **La Vista Correctional Facility** in Pueblo, the women's general-population prison. During this early period a person may not yet be searchable or able to receive visits.
 
-The state's prisons range from **Sterling Correctional Facility** (the largest) in the northeast, to a cluster of prisons in **Cañon City** — including the **Colorado State Penitentiary**, the state's maximum-security institution. Two prisons, Bent County and Crowley County, are operated by a private company under state contract but follow CDOC rules.
+The state's prisons range from **Sterling Correctional Facility** (the largest) in the northeast, to a cluster of prisons in **Cañon City** — including the **Colorado State Penitentiary**, the state's maximum-security institution. **San Carlos Correctional Facility** in Pueblo is the system's residential mental-health treatment prison. Two prisons, Bent County and Crowley County, are operated by a private company under state contract but follow CDOC rules. Colorado **abolished the death penalty in 2020**, so the system has no death row.
+
+A separate **Youthful Offender System** in Pueblo (for certain young people sentenced as adults) and the state's **community-corrections** programs are distinct from the adult prisons listed here.
 
 To find where someone is held, search the **CDOC Offender Search** by name or **DOC number**. Note that **VINE covers Colorado county jails, not state prisons** — for a person in CDOC custody, use the Offender Search to locate them and CDOC's **Victim Notification Program** for release alerts. If a person does not appear in the Offender Search, they are most likely in a **county jail** — contact that county.
 

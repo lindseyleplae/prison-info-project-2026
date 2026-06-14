@@ -110,7 +110,7 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - Virginia (VADOC): 6 state guides + 12 facility pages (of ~38 prisons; more on the way)
 - New Jersey (NJDOC): 6 state guides + 9 facility pages — completes the system (all nine adult state prisons)
 - Oregon (ODOC): 6 state guides + 12 facility pages — all twelve ODOC prisons
-- Colorado (CDOC): 6 state guides + 3 facility pages
+- Colorado (CDOC): 6 state guides + 20 facility pages — all 18 state-operated adult prisons (the East Cañon Complex near Cañon City: Colorado State Penitentiary, Centennial, Colorado Territorial [oldest, 1871], Fremont, Arrowhead, Four Mile, Skyline; plus Sterling [largest], Limon, Arkansas Valley, Buena Vista, Trinidad [physically in Model], Delta, Rifle; the Denver intake center DRDC; and the Pueblo campus — La Vista [women] and San Carlos [Level V residential mental-health, men and women]) + Denver Women's, plus both CoreCivic private prisons that hold CDOC men (Bent County, Crowley County). The Youthful Offender System, community corrections, boot camp/CCAP sub-units, and closed facilities (Kit Carson, Fort Lyon) are noted in the overview but not paged. Colorado abolished the death penalty in 2020 (no death row). Comms via Securus; most facilities photocopy incoming personal mail on-site (no off-site scanning vendor)
 - Michigan (Michigan DOC): 6 state guides + 3 facility pages
 - Connecticut (Connecticut DOC): 6 state guides + 13 facility pages — all 13 adult facilities (unified jail/prison system)
 - Alabama (ADOC): 6 state guides + 14 facility pages — all 14 ADOC major correctional facilities (Holman [primary male death row + the state's only execution chamber], Donaldson [secondary death-row housing], St. Clair [maximum security], Limestone [largest], Kilby [statewide men's reception/classification center], Bibb, Bullock [mental-health mission], Easterling, Ventress [substance-abuse mission], Fountain, Staton, Elmore, Hamilton Aged & Infirmed Center, and Tutwiler [women's prison + statewide women's reception + female death row]); the ~12 community/work-release centers, the private Alabama Therapeutic Education Facility, and the two not-yet-open new megaprisons (Elmore County's Governor Kay Ivey Correctional Complex and the planned Escambia County prison) are noted in the overview but not individually paged. Statewide changes: ICSolutions handles all communications (Aug 2025); personal mail is digital via an off-site San Antonio scanning center (Oct 2025), with legal mail still to the facility
@@ -118,7 +118,7 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - West Virginia (WV DCR): 6 state guides + 8 facility pages — all eight WV DCR state prisons (Mount Olive, Lakin, Huttonsville, Saint Marys, Salem, Denmar, Pruntytown, Stevens); unified prison/regional-jail system
 - Nebraska (NDCS): 6 state guides + 8 facility pages — all eight current NDCS facilities (Nebraska State Penitentiary, Tecumseh, Nebraska Correctional Center for Women, Reception and Treatment Center, Omaha Correctional Center, Nebraska Correctional Youth Facility, and the Lincoln and Omaha community corrections centers); heavily overcrowded system, off-site mail scanning (TextBehind), two independent oversight offices. The Work Ethic Camp (McCook) left the state system in late 2025 (converted to federal ICE detention), so NDCS now runs eight facilities, not nine.
 - 5 national guides
-- 366 pages live
+- 383 pages live
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)

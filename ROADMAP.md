@@ -6,9 +6,9 @@ state completed. CLAUDE.md's "Current Scope" tracks totals; this file tracks the
 
 Last updated: 2026-06-14 (overnight finishing run — California (all 31 open CDCR
 institutions), Nebraska (all 8 current NDCS facilities), Mississippi's prison tier
-(6 state + 2 private), Arkansas (18 major ADC units), and Alabama (all 14 ADOC
-major correctional facilities) completed; West Virginia, Connecticut, Oregon, and
-Louisiana also complete)
+(6 state + 2 private), Arkansas (18 major ADC units), Alabama (all 14 ADOC major
+correctional facilities), and Colorado (all 18 state prisons + 2 CoreCivic private
+prisons) completed; West Virginia, Connecticut, Oregon, and Louisiana also complete)
 
 ## Status legend
 
@@ -43,7 +43,7 @@ covers state systems).
 | Alaska | AK DOC | ~12 | — | Not started |
 | Arizona | ADCRR | ~13 | — | Not started |
 | Arkansas | ADC | ~20 | 18 | Complete |
-| Colorado | CDOC | ~19 | 3 | In progress |
+| Colorado | CDOC | 20 | 20 | Complete |
 | Connecticut | Connecticut DOC | 13 | 13 | Complete |
 | Florida | FDC | ~50 | — | Not started |
 | Georgia | GDC | ~34 | — | Not started |
