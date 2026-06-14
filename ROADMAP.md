@@ -8,8 +8,8 @@ Last updated: 2026-06-14 (overnight finishing run — California (all 31 open CD
 institutions), Nebraska (all 8 current NDCS facilities), Mississippi's prison tier
 (6 state + 2 private), Arkansas (18 major ADC units), Alabama (all 14 ADOC major
 correctional facilities), and Colorado (all 18 state prisons + 2 CoreCivic private
-prisons), and Michigan (all 26 open MDOC prisons) completed; West Virginia,
-Connecticut, Oregon, and Louisiana also complete)
+prisons), Michigan (all 26 open MDOC prisons), and Virginia (all 25 VADOC major
+institutions) completed; West Virginia, Connecticut, Oregon, and Louisiana also complete)
 
 ## Status legend
 
@@ -75,7 +75,7 @@ covers state systems).
 | South Carolina | SCDC | ~21 | — | Not started |
 | South Dakota | SD DOC | ~5 | — | Not started |
 | Tennessee | TDOC | ~14 | — | Not started |
-| Virginia | VADOC | ~38 | 12 | In progress |
+| Virginia | VADOC | 25 | 25 | Complete |
 | Washington | WA DOC | ~11 | — | Not started |
 | West Virginia | WV DCR | 8 state prisons (+ 10 regional jails) | 8 | Complete |
 | Wisconsin | WI DOC | ~20 | — | Not started |
