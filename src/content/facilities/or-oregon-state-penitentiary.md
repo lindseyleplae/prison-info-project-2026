@@ -22,7 +22,7 @@ providers:
   phone: "ICSolutions"
   video: "ICSolutions"
 visiting:
-  days: "General population: Monday, Tuesday, Saturday, Sunday (confirm)"
+  days: "General population: Monday, Tuesday, Saturday, and Sunday"
   hours: "7:15-10:15 AM and 12:15-3:45 PM"
   scheduling: "General population is during posted hours; restricted-housing visits are by appointment through ICSolutions. Confirm the current schedule before traveling."
   contactVisits: true
@@ -76,7 +76,7 @@ The Oregon State Penitentiary, in Salem, is the state's **only maximum-security 
 The statewide ODOC rules above — the approved list, the no-blue dress code, ID, and search rules — apply at Oregon State Penitentiary. The facility's own schedule, which depends on a person's housing:
 
 :::key-info
-**General population:** Posted visiting hours of 7:15 to 10:15 a.m. and 12:15 to 3:45 p.m., on the days ODOC lists for OSP (currently Monday, Tuesday, Saturday, and Sunday — confirm the current days)
+**General population:** Monday, Tuesday, Saturday, and Sunday, 7:15 to 10:15 a.m. and 12:15 to 3:45 p.m.
 
 **Restricted housing, infirmary, behavioral-health units:** By appointment only, scheduled through ICSolutions, and non-contact
 

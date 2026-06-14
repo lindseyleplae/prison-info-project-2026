@@ -22,9 +22,9 @@ providers:
   phone: "ICSolutions"
   video: "ICSolutions"
 visiting:
-  days: "Women's units: several days a week (confirm)"
-  hours: "Confirm the current schedule when you book"
-  scheduling: "By appointment through ICSolutions; the visitor must be on the approved list. People in intake cannot be visited."
+  days: "Women's prison most days; no visits during intake"
+  hours: "Sessions vary by unit — afternoon and evening, plus some mornings"
+  scheduling: "The women's prison visits on a unit schedule (medium and minimum units differ); people in intake cannot be visited. Confirm the current days, sessions, and scheduling method on the ODOC visiting page."
   contactVisits: true
 links:
   official: "https://www.oregon.gov/doc/about/pages/prison-locations.aspx"
@@ -45,7 +45,7 @@ reviewBy: 2026-09-13
 ---
 
 :::callout{variant="warning"}
-**A newly sentenced person of any gender often starts here — and cannot be visited during intake.** Coffee Creek is both Oregon's only women's prison and the statewide intake center, so men as well as women spend their first weeks here being processed. **Personal visits are not allowed while someone is in intake;** contact is by phone and mail until it is finished. Visits for the women's prison are by appointment and the visitor must be on the approved list. Confirm current visiting days and the scheduling method before traveling.
+**A newly sentenced person of any gender often starts here — and cannot be visited during intake.** Coffee Creek is both Oregon's only women's prison and the statewide intake center, so men as well as women spend their first weeks here being processed. **Personal visits are not allowed while someone is in intake;** contact is by phone and mail until it is finished. Visits for the women's prison run on a unit schedule, and the visitor must be on the approved list. Confirm the current days, sessions, and scheduling method on ODOC's Visiting Hours page before traveling.
 :::
 
 :::key-info
@@ -74,11 +74,13 @@ Coffee Creek Correctional Facility, in Wilsonville, has two jobs. It is **Oregon
 The statewide ODOC rules above — the approved list, the no-blue dress code, ID, and search rules — apply at Coffee Creek. The facility's own arrangements:
 
 :::key-info
-**Who can be visited:** People in the women's prison (past intake/classification). People still in **intake cannot be visited.**
+**Medium custody:** Monday, Tuesday, Saturday, and Sunday (1:30 to 4:00 p.m. and 6:00 to 9:00 p.m.); Thursday (8:00 to 10:30 a.m. and 1:30 to 4:00 p.m.)
 
-**Scheduling:** Visits are by appointment through ICSolutions; the visitor must already be on the person's approved list. Days and hours have shifted recently — confirm the current schedule on ODOC's Visiting Hours page when you book.
+**Minimum custody:** Saturday (1:30 to 4:00 p.m. and 7:00 to 9:30 p.m.); Sunday (8:00 to 10:30 a.m., 1:30 to 4:00 p.m., and 7:00 to 9:30 p.m.)
 
-**Video:** Video visits are available through ICSolutions; see the phone and video guide
+**Intake:** People still in **intake cannot be visited** — contact is by phone and mail until intake ends
+
+**Confirm first:** ODOC adjusted visiting hours statewide in 2026 — check the current days, sessions, and whether a visit must be booked through ICSolutions on the ODOC visiting page; video visits are available through ICSolutions
 :::
 
 The full approval process is in [Visiting in Oregon](/states/oregon/guides/visiting/).
