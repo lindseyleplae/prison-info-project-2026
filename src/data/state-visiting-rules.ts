@@ -381,5 +381,23 @@ export const stateVisitingRules: Record<string, StateVisitingRules> = {
       'No cell phones, wallets, other electronics, food, or drinks inside. A small clear bag may hold a car key and vending money in coins and $1 bills, up to the limit the institution posts on its visiting page.',
     schedulingRule:
       'Visitors must be approved on CDCR Form 106 before a first visit, then schedule through the VSA online system. Walk-ins are generally not allowed.'
+  },
+  wv: {
+    system: 'WV DCR',
+    title: 'Statewide rules that apply at every West Virginia state prison',
+    guideHref: '/states/west-virginia/guides/visiting/',
+    guideLabel: 'Visiting in West Virginia',
+    dressCode: [
+      'West Virginia does not ban any clothing color for visitors, but dress must be modest: female visitors must wear a bra (underwire is not allowed because it will not clear the metal detector), and male visitors must wear a shirt.',
+      'No shorts, sleeveless tops, or tight, sheer, see-through, low-cut, or midriff-baring clothing, and no hats or head coverings.',
+      'No steel- or composite-toe shoes; jewelry is limited to a wedding ring (no watches), and anything with metal or metallic beads may not clear the detector.',
+      'Undergarments are required, and the shift commander has the final say on whether an outfit is appropriate.'
+    ],
+    idRule:
+      'Every visitor must be on the inmate\'s approved list first — the inmate mails the visitor an Application to Visit, which is approved after a background check; an inmate may have up to six approved adult visitors. Each adult brings a government-issued photo ID (driver\'s license, state ID, passport, or military ID — not a Social Security or printable card). A minor needs a birth certificate and, if not with a parent or guardian, a notarized Juvenile Visitation Form.',
+    itemsRule:
+      'Almost nothing comes into the visit room — no phones, purses, bags, or tobacco; secure them in your vehicle or a lobby locker. There is no visitor vending and no food or drink in the visiting area. A parent may bring limited baby items (one clear bottle, a few diapers, a carrier).',
+    schedulingRule:
+      'At the state prisons, visits are on Saturdays and Sundays between 8:00 a.m. and 4:00 p.m., and the incarcerated person schedules them in advance — there is no walk-in visiting and no public online booking, so confirm the facility\'s specific times. Prison visits are contact visits; the regional jails, by contrast, are non-contact.'
   }
 };

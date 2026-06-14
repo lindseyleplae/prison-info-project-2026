@@ -4,9 +4,9 @@ What's live, in progress, and untouched across all 50 states. **Update this file
 whenever a state's status changes** — research started, facility batch added,
 state completed. CLAUDE.md's "Current Scope" tracks totals; this file tracks the map.
 
-Last updated: 2026-06-13 (Connecticut, Oregon, and Louisiana completed — all 13
-CT DOC, all 12 ODOC, and all 8 DPS&C facilities now covered; six states
-(OR/CO/MI/CT/AL/AR) published live earlier the same day)
+Last updated: 2026-06-13 (West Virginia launched — overview + 6 guides + 3
+facilities; Connecticut, Oregon, and Louisiana completed earlier — all 13 CT DOC,
+all 12 ODOC, and all 8 DPS&C facilities covered)
 
 ## Status legend
 
@@ -74,7 +74,7 @@ covers state systems).
 | Tennessee | TDOC | ~14 | — | Not started |
 | Virginia | VADOC | ~38 | 12 | In progress |
 | Washington | WA DOC | ~11 | — | Not started |
-| West Virginia | WV DCR | ~7 | — | Not started |
+| West Virginia | WV DCR | ~10 state + 10 regional jails | 3 | In progress |
 | Wisconsin | WI DOC | ~20 | — | Not started |
 
 ## Notes

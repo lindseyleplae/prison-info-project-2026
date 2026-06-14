@@ -98,6 +98,10 @@ export const systemSourceLabels: Record<string, SystemSourceLabels> = {
   ADC: {
     official: 'ADC Facility Page',
     locator: 'ADC Inmate Population Search'
+  },
+  'WV DCR': {
+    official: 'WVDCR Facility Page',
+    locator: 'WVDCR Offender Search'
   }
 };
 
