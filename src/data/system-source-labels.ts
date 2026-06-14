@@ -102,6 +102,10 @@ export const systemSourceLabels: Record<string, SystemSourceLabels> = {
   'WV DCR': {
     official: 'WVDCR Facility Page',
     locator: 'WVDCR Offender Search'
+  },
+  NDCS: {
+    official: 'NDCS Facility Page',
+    locator: 'NDCS Incarceration Records Search'
   }
 };
 

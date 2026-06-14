@@ -70,6 +70,26 @@ export const stateVisitingRules: Record<string, StateVisitingRules> = {
     schedulingRule:
       'Visits are pre-scheduled, not walk-in — request an appointment through the state TeleGov portal or by calling the unit\'s Visitation Clerk. Routine visits are on weekends, and how many visits a month a person gets depends on the inmate\'s class level; ADC does not post per-unit hours online, so confirm with the unit.'
   },
+  ne: {
+    system: 'NDCS',
+    title: 'Statewide rules that apply at every Nebraska state prison',
+    guideHref: '/states/nebraska/guides/visiting/',
+    guideLabel: 'Visiting in Nebraska',
+    dressCode: [
+      'Open-toe shoes are allowed, but footwear must be in good repair and worn at all times.',
+      'Undergarments are required — for women, one bra and one pair of underwear; for men, one pair of underwear — and no multiple layers.',
+      'Shorts, skirts, and dresses must reach at or below the knee when standing; shirts and dresses must cover the shoulders, with no visible cleavage and no low-cut back.',
+      'No tight, see-through, or revealing clothing, and nothing with profane or offensive words or images.',
+      'You may not wear khaki pants and a khaki shirt at the same time — that resembles what incarcerated people wear.',
+      'No hats, headbands, hoods, or outerwear (clergy may wear religious headwear), and no watches or fitness trackers; a lightweight jacket or sweater is allowed only if it has no pockets.'
+    ],
+    idRule:
+      'Every visitor must be approved on the incarcerated person\'s list first — the person mails out a Visitation Request Form. Adults and visitors 16 and older show a government photo ID at every visit; minors 18 and under bring a birth certificate to the first visit and must be with an approved adult 19 or older.',
+    itemsRule:
+      'Lock everything in your vehicle or a facility locker — only a photo ID, up to $20 in coins per visitor for vending (where allowed), prescription glasses, and limited infant items in a clear bag are permitted. Phones, smartwatches, and other electronics are barred, and bringing one in is a crime.',
+    schedulingRule:
+      'After approval, schedule online at corrections.nebraska.gov (the facility\'s "Schedule a Visit" page) at least 7 days ahead and up to 4 weeks out; each facility sets and posts its own visiting days and hours.'
+  },
   ct: {
     system: 'Connecticut DOC',
     title: 'Statewide rules that apply at every Connecticut correctional facility',

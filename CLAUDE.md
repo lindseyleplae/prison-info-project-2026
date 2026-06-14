@@ -116,8 +116,9 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - Alabama (ADOC): 6 state guides + 3 facility pages
 - Arkansas (ADC): 6 state guides + 3 facility pages
 - West Virginia (WV DCR): 6 state guides + 8 facility pages — all eight WV DCR state prisons (Mount Olive, Lakin, Huttonsville, Saint Marys, Salem, Denmar, Pruntytown, Stevens); unified prison/regional-jail system
+- Nebraska (NDCS): 6 state guides + 4 facility pages (Nebraska State Penitentiary, Tecumseh, Nebraska Correctional Center for Women, Reception and Treatment Center); heavily overcrowded system, off-site mail scanning (TextBehind), two independent oversight offices
 - 5 national guides
-- 309 pages live
+- 320 pages live
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)

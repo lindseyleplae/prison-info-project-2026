@@ -4,9 +4,9 @@ What's live, in progress, and untouched across all 50 states. **Update this file
 whenever a state's status changes** — research started, facility batch added,
 state completed. CLAUDE.md's "Current Scope" tracks totals; this file tracks the map.
 
-Last updated: 2026-06-13 (West Virginia completed — all 8 WV DCR state prisons
-covered; Connecticut, Oregon, and Louisiana completed earlier — all 13 CT DOC,
-all 12 ODOC, and all 8 DPS&C facilities covered)
+Last updated: 2026-06-13 (Nebraska launched — overview + 6 guides + 4 facilities;
+West Virginia completed earlier — all 8 WV DCR state prisons; Connecticut, Oregon,
+and Louisiana also complete)
 
 ## Status legend
 
@@ -59,7 +59,7 @@ covers state systems).
 | Minnesota | MN DOC | ~11 | — | Not started |
 | Missouri | MODOC | ~19 | — | Not started |
 | Montana | MT DOC | ~5 | — | Not started |
-| Nebraska | NDCS | ~9 | — | Not started |
+| Nebraska | NDCS | 9 | 4 | In progress |
 | Nevada | NDOC | ~8 | — | Not started |
 | New Mexico | NMCD | ~10 | — | Not started |
 | New York | DOCCS | ~42 | — | Not started |
