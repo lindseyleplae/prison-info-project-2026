@@ -8,7 +8,7 @@ systemFullName: "Ohio Department of Rehabilitation and Correction (ODRC)"
 summary: "Guides and facility information for Ohio, where the Department of Rehabilitation and Correction runs about 28 state prisons (two of them privately operated) — while people awaiting trial or serving short sentences are held in county jails that set their own rules."
 links:
   inmateLocator: "https://appgateway.drc.ohio.gov/OffenderSearch/"
-facilityCount: 8
+facilityCount: 27
 lastReviewed: 2026-06-14
 ---
 

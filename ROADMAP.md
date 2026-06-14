@@ -39,7 +39,13 @@ first 8 facility pages — both women's prisons (WERDCC [women's reception + wom
 death-sentence designation], Chillicothe), the execution-chamber facility (ERDCC, Bonne Terre)
 and the men's death-row facility (Potosi), the men's central and western reception centers
 (Fulton, WRDCC), the flagship maximum-security Jefferson City, and Southeast; 11 Missouri
-prisons remain to build)
+prisons remain to build.
+Ohio is now complete — all 27 ODRC institutions are paged (the 19 remaining were added: the
+major men's prisons Lebanon, Warren, Chillicothe, Mansfield, Richland, Marion, London, Madison,
+Belmont, Noble, Toledo, Southeastern, Grafton, Allen-Oakwood, Pickaway, and Trumbull; the
+women's Northeast Reintegration Center; and the privately operated Lake Erie [CoreCivic] and
+North Central [MTC]). The federally-oriented Northeast Ohio Correctional Center is noted in the
+overview, not paged)
 
 ## Status legend
 
@@ -98,7 +104,7 @@ covers state systems).
 | New York | DOCCS | ~42 | — | Not started |
 | North Carolina | NCDAC | ~54 | — | Not started |
 | North Dakota | ND DOCR | ~4 | — | Not started |
-| Ohio | ODRC | ~31 | 8 | In progress |
+| Ohio | ODRC | 27 | 27 | Complete |
 | Oklahoma | ODOC | ~20 | — | Not started |
 | Oregon | ODOC | 12 | 12 | Complete |
 | Pennsylvania | PADOC | 22 | 8 | In progress |
