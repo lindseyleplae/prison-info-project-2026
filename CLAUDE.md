@@ -114,11 +114,11 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - Michigan (Michigan DOC): 6 state guides + 3 facility pages
 - Connecticut (Connecticut DOC): 6 state guides + 13 facility pages — all 13 adult facilities (unified jail/prison system)
 - Alabama (ADOC): 6 state guides + 3 facility pages
-- Arkansas (ADC): 6 state guides + 3 facility pages
+- Arkansas (ADC): 6 state guides + 18 facility pages — all major ADC units (Cummins, McPherson, Ouachita River, Varner/Supermax, Tucker, Larry B. Norris, East Arkansas Regional, Grimes, Benny Magness, Wrightsville, Hawkins women's center, Delta Regional, the 3 Pine Bluff Complex units, Benton, Texarkana, White River); small work-release/community-correction centers and the brand-new Parker-Reed Women's Health Unit (no published visiting info) are noted in the overview but not individually paged
 - West Virginia (WV DCR): 6 state guides + 8 facility pages — all eight WV DCR state prisons (Mount Olive, Lakin, Huttonsville, Saint Marys, Salem, Denmar, Pruntytown, Stevens); unified prison/regional-jail system
 - Nebraska (NDCS): 6 state guides + 8 facility pages — all eight current NDCS facilities (Nebraska State Penitentiary, Tecumseh, Nebraska Correctional Center for Women, Reception and Treatment Center, Omaha Correctional Center, Nebraska Correctional Youth Facility, and the Lincoln and Omaha community corrections centers); heavily overcrowded system, off-site mail scanning (TextBehind), two independent oversight offices. The Work Ethic Camp (McCook) left the state system in late 2025 (converted to federal ICE detention), so NDCS now runs eight facilities, not nine.
 - 5 national guides
-- 340 pages live
+- 355 pages live
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)

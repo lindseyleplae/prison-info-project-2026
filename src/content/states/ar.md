@@ -8,7 +8,7 @@ systemFullName: "Arkansas Division of Correction (ADC)"
 summary: "Guides and facility information for Arkansas, where the Division of Correction runs about 20 state prison units — a mix of large agricultural units and specialized facilities — and where, because of crowding, many state-sentenced people wait in county jails for a prison bed."
 links:
   inmateLocator: "https://inmate.ark.org/"
-facilityCount: 3
+facilityCount: 18
 lastReviewed: 2026-06-13
 ---
 
@@ -21,5 +21,7 @@ The line between a state prison and a county jail is **the offense and sentence*
 To find where someone is held, search the **ADC Inmate Population Information Search** by name or **ADC number**. If a person does not appear there, they may still be in a **county jail** (including state-sentenced people waiting for a prison bed) — check the county sheriff's roster. Arkansas also takes part in **VINE** for custody and release alerts.
 
 Two recent changes matter for families: since **September 2025**, personal mail is **scanned off-site** rather than delivered on paper (see the mail guide), and **video visitation is moving** to a remote, app-based system (see the phone and video guide). ADC publishes relatively little operational detail online — visiting hours and call rates, for example, are usually **not posted** — so the guides below note where to call or check directly.
+
+A few small work-release and re-entry centers, and the recently opened Dr. Mary L. Parker-Reed Women's Health Unit in Little Rock, are not covered individually here — ADC publishes little about them, so contact the facility or use the inmate search.
 
 Use the guides below for the statewide rules at ADC units, or go straight to a specific facility.
