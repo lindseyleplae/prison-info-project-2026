@@ -17,6 +17,10 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  ODRC: {
+    official: 'ODRC Facility Page',
+    locator: 'ODRC Offender Search'
+  },
   GDC: {
     official: 'GDC Facility Page',
     locator: 'GDC Find an Offender'

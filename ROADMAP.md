@@ -12,7 +12,10 @@ prisons), Michigan (all 26 open MDOC prisons), and Virginia (all 25 VADOC major
 institutions) completed; West Virginia, Connecticut, Oregon, and Louisiana also complete. Georgia (GDC) launched: state
 overview, all 6 guides, the two data entries, and the first 8 facility pages —
 all 5 women's prisons + the men's diagnostic prison (GDCP), the statewide medical
-prison (Augusta), and Metro Reentry; ~30 GDC state/private prisons remain to build)
+prison (Augusta), and Metro Reentry; ~30 GDC state/private prisons remain to build. Ohio (ODRC) launched: state
+overview, all 6 guides, the two data entries, and the first 8 facility pages — both men's
+reception centers, the women's spine (ORW, Dayton), Ross [men's death row], SOCF [execution
+chamber], OSP [supermax], and Franklin Medical Center; ~20 ODRC prisons remain to build)
 
 ## Status legend
 
@@ -71,7 +74,7 @@ covers state systems).
 | New York | DOCCS | ~42 | — | Not started |
 | North Carolina | NCDAC | ~54 | — | Not started |
 | North Dakota | ND DOCR | ~4 | — | Not started |
-| Ohio | ODRC | ~28 | — | Not started |
+| Ohio | ODRC | ~31 | 8 | In progress |
 | Oklahoma | ODOC | ~20 | — | Not started |
 | Oregon | ODOC | 12 | 12 | Complete |
 | Pennsylvania | PADOC | ~23 | — | Not started |

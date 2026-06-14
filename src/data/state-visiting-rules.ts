@@ -34,6 +34,23 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  oh: {
+    system: 'ODRC',
+    title: 'Statewide rules that apply at every Ohio state prison',
+    guideHref: '/states/ohio/guides/visiting/',
+    guideLabel: 'Visiting in Ohio',
+    dressCode: [
+      'No see-through, torn, or ripped clothing (no skin showing through); no halter, tube, crop, tank, or muscle tops, and nothing that exposes undergarments; skirts, dresses, and shorts must be no higher than mid-knee.',
+      'No skin-tight clothing — leggings, jeggings, spandex, or tights — and no wrap-around or break-away garments; appropriate undergarments are required, and underwire bras or hairpins may set off the metal detector and delay entry.',
+      'No gang-related, obscene, or offensive clothing. If a visitor arrives dressed out of code, the prison must offer alternative clothing (such as a scrub shirt) rather than turn the visitor away.'
+    ],
+    idRule:
+      'Every visitor must first be approved on the person\'s visiting list (apply on form DRC-2096 with a copy of a photo ID; minors use form DRC-2238 with a birth certificate). A person may have up to 15 approved adult visitors, no more than two of whom may be friends. Approved visitors register at gtlvisitme.com and show photo ID at every visit.',
+    itemsRule:
+      'Leave phones, smart watches, purses, bags, and strollers behind — they are not allowed inside; a clear diaper bag with limited baby items is permitted. Money for the person is sent through ViaPath, never handed over at a visit; confirm with the facility whether any vending money or card is allowed.',
+    schedulingRule:
+      'Visits must be reserved in advance through ViaPath (gtlvisitme.com); each prison sets its own visiting days, hours, and limits, so confirm them with the specific facility. A newly received person in reception has restricted visiting and transfers to a permanent prison after classification.'
+  },
   ga: {
     system: 'GDC',
     title: 'Statewide rules that apply at every Georgia state prison',
