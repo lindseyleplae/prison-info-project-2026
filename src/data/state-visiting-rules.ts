@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  az: {
+    system: 'ADCRR',
+    title: 'Statewide rules that apply at every Arizona state prison',
+    guideHref: '/states/arizona/guides/visiting/',
+    guideLabel: 'Visiting in Arizona',
+    dressCode: [
+      'No clothing that is orange, camouflage, sheer, see-through, or open-net; no spandex-like material; and no medical scrubs.',
+      'Each complex and unit may add visiting dress and item rules (under Department Order 911), so confirm the specific unit\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must submit an Application to Visit an Inmate and be approved before visiting — a background check applies, and supporting documents are due within about 30 days, so apply well ahead. Adult visitors show a valid government-issued photo ID. Do not apply while the person is still in intake at the Phoenix (Alhambra) or Perryville reception unit.',
+    itemsRule:
+      'Bring only what the unit allows — generally a photo ID and, where permitted, a small amount of money for vending in a clear container; phones, bags, and gifts are not allowed. Money for the person\'s account is sent through the ADCRR vendor, never handed over at a visit.',
+    schedulingRule:
+      'Visits are by appointment, and the days, hours, and contact or non-contact rules vary by complex, unit, and the person\'s custody level — confirm them with the specific unit. A newly committed person is held at a reception unit first — Alhambra at ASPC-Phoenix for men, ASPC-Perryville for women — before transfer.'
+  },
   ma: {
     system: 'Massachusetts DOC',
     title: 'Statewide rules that apply at every Massachusetts state prison',

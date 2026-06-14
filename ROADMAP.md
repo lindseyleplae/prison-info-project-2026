@@ -51,7 +51,14 @@ first 8 facility pages — Souza-Baranowski [the only maximum-security prison + 
 MCI-Framingham [women's prison + women's reception], MCI-Norfolk [largest], MCI-Shirley,
 NCCI-Gardner, Old Colony, and two Bridgewater-complex special-mission facilities (Bridgewater
 State Hospital [forensic mental health], Massachusetts Treatment Center); ~5 MA DOC facilities
-remain to build)
+remain to build.
+Arizona (ADCRR) launched: state overview, all 6 guides, the two data entries, and the first 8
+facility pages — the statewide men's reception complex (Phoenix/Alhambra), the women's complex
+(Perryville [women's reception + women's death-sentence unit, Lumley]), the two men's death rows
+(Eyman [Browning], Tucson [Rincon; also Arizona's largest complex]), the execution-chamber
+complex (Florence [general population largely closed in 2022 — confirm the person's actual
+complex]), Lewis, Yuma, and the CoreCivic-operated La Palma; ~8 more ADCRR complexes and private
+prisons remain to build)
 
 ## Status legend
 
@@ -84,7 +91,7 @@ covers state systems).
 | Mississippi | MDOC | 6 state + 2 private (+15 regional) | 9 | Complete |
 | Alabama | ADOC | 14 | 14 | Complete |
 | Alaska | AK DOC | ~12 | — | Not started |
-| Arizona | ADCRR | ~13 | — | Not started |
+| Arizona | ADCRR | ~16 | 8 | In progress |
 | Arkansas | ADC | ~20 | 18 | Complete |
 | Colorado | CDOC | 20 | 20 | Complete |
 | Connecticut | Connecticut DOC | 13 | 13 | Complete |

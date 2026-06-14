@@ -17,6 +17,10 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  ADCRR: {
+    official: 'ADCRR Facility Page',
+    locator: 'ADCRR Inmate Data Search'
+  },
   // Massachusetts's agency abbreviates "MA DOC"/"DOC"; "MDOC" collides with
   // Mississippi, so facility frontmatter uses the display string "Massachusetts
   // DOC". Massachusetts has no comprehensive public inmate locator; VINELink is
