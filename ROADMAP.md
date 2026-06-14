@@ -45,7 +45,13 @@ major men's prisons Lebanon, Warren, Chillicothe, Mansfield, Richland, Marion, L
 Belmont, Noble, Toledo, Southeastern, Grafton, Allen-Oakwood, Pickaway, and Trumbull; the
 women's Northeast Reintegration Center; and the privately operated Lake Erie [CoreCivic] and
 North Central [MTC]). The federally-oriented Northeast Ohio Correctional Center is noted in the
-overview, not paged)
+overview, not paged.
+Massachusetts (MA DOC) launched: state overview, all 6 guides, the two data entries, and the
+first 8 facility pages — Souza-Baranowski [the only maximum-security prison + men's reception],
+MCI-Framingham [women's prison + women's reception], MCI-Norfolk [largest], MCI-Shirley,
+NCCI-Gardner, Old Colony, and two Bridgewater-complex special-mission facilities (Bridgewater
+State Hospital [forensic mental health], Massachusetts Treatment Center); ~5 MA DOC facilities
+remain to build)
 
 ## Status legend
 
@@ -93,7 +99,7 @@ covers state systems).
 | Kentucky | KY DOC | ~13 | — | Not started |
 | Louisiana | DPS&C | 8 state + ~100 parish jails | 8 | Complete |
 | Maryland | DPSCS | ~15 | — | Not started |
-| Massachusetts | MA DOC | ~14 | — | Not started |
+| Massachusetts | MA DOC | 13 | 8 | In progress |
 | Michigan | Michigan DOC | 26 | 26 | Complete |
 | Minnesota | MN DOC | ~11 | — | Not started |
 | Missouri | Missouri DOC | 19 | 8 | In progress |

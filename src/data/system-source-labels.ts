@@ -17,6 +17,14 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Massachusetts's agency abbreviates "MA DOC"/"DOC"; "MDOC" collides with
+  // Mississippi, so facility frontmatter uses the display string "Massachusetts
+  // DOC". Massachusetts has no comprehensive public inmate locator; VINELink is
+  // the public custody-status tool the DOC participates in.
+  'Massachusetts DOC': {
+    official: 'Massachusetts DOC Facility Page',
+    locator: 'VINELink'
+  },
   // Missouri's agency abbreviates itself both "MDOC" and "MODOC"; "MDOC"
   // collides with Michigan and Mississippi, so facility frontmatter uses the
   // display string "Missouri DOC".

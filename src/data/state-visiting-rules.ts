@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  ma: {
+    system: 'Massachusetts DOC',
+    title: 'Statewide rules that apply at every Massachusetts state prison',
+    guideHref: '/states/massachusetts/guides/visiting/',
+    guideLabel: 'Visiting in Massachusetts',
+    dressCode: [
+      'Dress modestly and avoid clothing that resembles what incarcerated people or staff wear; no revealing, sheer, or provocative clothing.',
+      'Each prison publishes its own visiting dress code and item limits — confirm them with the facility before traveling, since a visitor who is dressed out of code can be turned away.'
+    ],
+    idRule:
+      'Every visitor must be on the incarcerated person\'s approved visitor list and submit a visitor application to the prison; the Department runs a criminal-history check before approval. Adults must show a valid government-issued photo ID at each visit. The incarcerated person can add new visitors only during set windows (the first 15 days of March, July, and November).',
+    itemsRule:
+      'Bring only a photo ID and what the specific facility allows in the visiting room — phones and bags are not permitted. Money for the person is sent through Access Corrections, never handed over at a visit; confirm each facility\'s item and locker rules before visiting.',
+    schedulingRule:
+      'Massachusetts has no statewide online visit scheduler — each prison schedules visits by phone and sets its own days and hours, so call the facility to arrange a visit and confirm the schedule. A newly committed person is held at a reception center first — Souza-Baranowski for men, MCI-Framingham for women — before transfer to a permanent prison.'
+  },
   mo: {
     system: 'Missouri DOC',
     title: 'Statewide rules that apply at every Missouri state prison',
