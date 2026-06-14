@@ -17,6 +17,10 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  GDC: {
+    official: 'GDC Facility Page',
+    locator: 'GDC Find an Offender'
+  },
   // Maine's agency abbreviates itself "MDOC", which collides with Mississippi
   // and Michigan, so facility frontmatter uses the display string "Maine DOC".
   'Maine DOC': {

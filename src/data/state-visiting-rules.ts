@@ -34,6 +34,23 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  ga: {
+    system: 'GDC',
+    title: 'Statewide rules that apply at every Georgia state prison',
+    guideHref: '/states/georgia/guides/visiting/',
+    guideLabel: 'Visiting in Georgia',
+    dressCode: [
+      'Shirts must cover the chest, shoulders, back, and waist; women\'s slacks, dresses, or skirts may be no more than two inches above the knee, and a complete set of foundation garments (bra, slip, and underwear) is required.',
+      'No tank, halter, tube, or thin-strap tops, nothing sheer or transparent, and nothing that bares the midriff.',
+      'No shorts or above-the-knee slacks for anyone 12 or older (children under 12 may wear shorts); shoes are required for every visitor.'
+    ],
+    idRule:
+      'Every visitor must first be approved on the person\'s visiting list — apply on GDC\'s Application for Visitation Privilege, mailed to the prison (the warden has 14 working days to decide) — and visitors 16 and older must show a government-issued photo ID, which is held during the visit. The visiting list can be changed only when the person reaches a permanent facility or during May or November.',
+    itemsRule:
+      'Bring only a photo ID, a car key, and up to $20 in coins (or a vending debit card where accepted). No outside food or drink (store-bought baby formula is the exception), and no phones, cameras, or bags; money for the person is sent through JPay, never handed over at a visit.',
+    schedulingRule:
+      'Visits are by appointment through GDC\'s online portal, on Saturdays, Sundays, and state holidays in two-hour blocks; requests for a given week are accepted Monday through Wednesday. A newly received person in diagnostic status is generally not eligible for visits until reaching a permanent prison.'
+  },
   al: {
     system: 'ADOC',
     title: 'Statewide rules that apply at every Alabama state prison',
