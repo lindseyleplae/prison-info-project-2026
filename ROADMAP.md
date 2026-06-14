@@ -4,10 +4,10 @@ What's live, in progress, and untouched across all 50 states. **Update this file
 whenever a state's status changes** — research started, facility batch added,
 state completed. CLAUDE.md's "Current Scope" tracks totals; this file tracks the map.
 
-Last updated: 2026-06-14 (overnight finishing run — California completed (all 31 open
-CDCR institutions) and Nebraska completed (all 8 current NDCS facilities; the Work
-Ethic Camp left the state system in 2025); West Virginia, Connecticut, Oregon, and
-Louisiana also complete)
+Last updated: 2026-06-14 (overnight finishing run — California (all 31 open CDCR
+institutions), Nebraska (all 8 current NDCS facilities), and Mississippi's prison tier
+(6 state institutions + 2 private prisons; county/regional facilities a separate tier)
+completed; West Virginia, Connecticut, Oregon, and Louisiana also complete)
 
 ## Status legend
 
@@ -37,7 +37,7 @@ covers state systems).
 | Wyoming | WDOC | 5 | 5 | Complete |
 | California | CDCR | 31 | 31 | Complete |
 | Texas | TDCJ | ~100 | 22 | In progress |
-| Mississippi | MDOC | 7 state + 2 private + 15 regional | 4 | In progress |
+| Mississippi | MDOC | 6 state + 2 private (+15 regional) | 9 | Complete |
 | Alabama | ADOC | ~15 | 3 | In progress |
 | Alaska | AK DOC | ~12 | — | Not started |
 | Arizona | ADCRR | ~13 | — | Not started |

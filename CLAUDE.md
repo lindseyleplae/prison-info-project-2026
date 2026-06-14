@@ -104,7 +104,7 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - Rhode Island (RIDOC): 6 state guides + 6 facility pages
 - Vermont (VTDOC): 6 state guides + 6 facility pages
 - New Hampshire (NHDOC): 6 state guides + 3 facility pages
-- Mississippi (MDOC): 6 state guides + 4 facility pages (incl. Tallahatchie, a CoreCivic facility holding out-of-state men)
+- Mississippi (MDOC): 6 state guides + 9 facility pages — all 6 MDOC state institutions (Parchman, CMCF, SMCI, Marshall County, Walnut Grove, Delta) + both private prisons that hold MS inmates (East Mississippi, Wilkinson County, both MTC) + Tallahatchie (CoreCivic, out-of-state men); the ~15 county regional facilities and the community/restitution centers are a separate jail/community tier, noted in the overview but not individually covered (like LA parish jails)
 - Louisiana (DPS&C): 6 state guides + 8 facility pages — all eight DPS&C state prisons (parish jails out of scope)
 - Maine (Maine DOC): 6 state guides + 6 facility pages — completes northern New England (ME/NH/VT)
 - Virginia (VADOC): 6 state guides + 12 facility pages (of ~38 prisons; more on the way)
@@ -118,7 +118,7 @@ scheduled workflow (content-audit.yml) re-runs freshness + external links.
 - West Virginia (WV DCR): 6 state guides + 8 facility pages — all eight WV DCR state prisons (Mount Olive, Lakin, Huttonsville, Saint Marys, Salem, Denmar, Pruntytown, Stevens); unified prison/regional-jail system
 - Nebraska (NDCS): 6 state guides + 8 facility pages — all eight current NDCS facilities (Nebraska State Penitentiary, Tecumseh, Nebraska Correctional Center for Women, Reception and Treatment Center, Omaha Correctional Center, Nebraska Correctional Youth Facility, and the Lincoln and Omaha community corrections centers); heavily overcrowded system, off-site mail scanning (TextBehind), two independent oversight offices. The Work Ethic Camp (McCook) left the state system in late 2025 (converted to federal ICE detention), so NDCS now runs eight facilities, not nine.
 - 5 national guides
-- 335 pages live
+- 340 pages live
 
 ## Email
 prisonvisitorguide@gmail.com (all mailto: links)
