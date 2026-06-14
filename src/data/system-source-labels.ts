@@ -17,6 +17,10 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  PADOC: {
+    official: 'PADOC Facility Page',
+    locator: 'PADOC Inmate Locator'
+  },
   ODRC: {
     official: 'ODRC Facility Page',
     locator: 'ODRC Offender Search'

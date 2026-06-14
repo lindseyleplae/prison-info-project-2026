@@ -15,7 +15,13 @@ all 5 women's prisons + the men's diagnostic prison (GDCP), the statewide medica
 prison (Augusta), and Metro Reentry; ~30 GDC state/private prisons remain to build. Ohio (ODRC) launched: state
 overview, all 6 guides, the two data entries, and the first 8 facility pages — both men's
 reception centers, the women's spine (ORW, Dayton), Ross [men's death row], SOCF [execution
-chamber], OSP [supermax], and Franklin Medical Center; ~20 ODRC prisons remain to build)
+chamber], OSP [supermax], and Franklin Medical Center; ~20 ODRC prisons remain to build.
+Pennsylvania (PADOC) launched: state overview, all 6 guides, the two data entries, and the
+first 8 facility pages — both reception/diagnostic centers (Camp Hill [men], Muncy [women,
+also the women's death-sentence designation]), the women's minimum prison (Cambridge Springs),
+Pine Grove [men's max + Young Adult Offender Program], Phoenix and Somerset [the two Capital
+Case Units], and the two statewide-health prisons (Laurel Highlands [skilled medical/geriatric],
+Waymart [Forensic Treatment Center]); ~14 PADOC prisons remain to build)
 
 ## Status legend
 
@@ -77,7 +83,7 @@ covers state systems).
 | Ohio | ODRC | ~31 | 8 | In progress |
 | Oklahoma | ODOC | ~20 | — | Not started |
 | Oregon | ODOC | 12 | 12 | Complete |
-| Pennsylvania | PADOC | ~23 | — | Not started |
+| Pennsylvania | PADOC | 22 | 8 | In progress |
 | South Carolina | SCDC | ~21 | — | Not started |
 | South Dakota | SD DOC | ~5 | — | Not started |
 | Tennessee | TDOC | ~14 | — | Not started |

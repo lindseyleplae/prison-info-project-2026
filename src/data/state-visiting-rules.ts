@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  pa: {
+    system: 'PADOC',
+    title: 'Statewide rules that apply at every Pennsylvania state prison',
+    guideHref: '/states/pennsylvania/guides/visiting/',
+    guideLabel: 'Visiting in Pennsylvania',
+    dressCode: [
+      'No bathing suits, shorts, or extremely short or revealing skirts or dresses; no halter, tube, tank, or spaghetti-strap tops; and nothing sheer, see-through, or ripped.',
+      'No spandex or leggings, and no coats, jackets, or hats in the visiting room; a complete set of appropriate undergarments is required, and underwire bras may set off the metal detector.'
+    ],
+    idRule:
+      'Every visitor must first be on the incarcerated person\'s approved visitor list — the incarcerated person adds visitors, so do not contact the prison to add yourself — and adults must show one government photo ID or two non-photo IDs (no photocopies or expired IDs). A minor must be listed on a parent or guardian\'s form (DC-313) and accompanied by that adult.',
+    itemsRule:
+      'Bring only your ID and, where the prison allows it, coins or a small clear change purse for the vending machines — no phones, bags, or gifts. Money for the person is sent only through JPay, never handed over at a visit; confirm the specific prison\'s vending and locker rules.',
+    schedulingRule:
+      'All visits — in person and video — are by appointment through the Inmate Visitation System (inmatevisitation.cor.pa.gov), booked 3 to 60 days ahead; each prison sets its own days and hours. A newly committed person is held at a reception center (Camp Hill for men, Muncy for women) until classification, then transfers to a permanent prison.'
+  },
   oh: {
     system: 'ODRC',
     title: 'Statewide rules that apply at every Ohio state prison',
