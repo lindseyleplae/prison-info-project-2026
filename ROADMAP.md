@@ -94,7 +94,17 @@ McClure [the only women's prison + women's intake + the women's death-sentence d
 (no execution since 2006) and no in-state private prisons; mail goes physically to the institution
 (state law requires it); comms via ViaPath (phones) + GettingOut (tablets/video). The minimum-custody
 conservation camps and transitional housing are a separate tier (noted, not paged; two camps close
-July 2026; the former Warm Springs prison closed 2022))
+July 2026; the former Warm Springs prison closed 2022).
+New York (DOCCS) launched: state overview, all 6 guides, the two data entries, and the first 8
+facility pages — Sing Sing [marquee max, on the Hudson ~30 mi from NYC], Bedford Hills [the
+women's maximum-security prison + women's reception + a women's medical unit], Clinton/Dannemora
+[far-north max], Attica [Western NY max], Elmira [the primary men's reception center], Fishkill
+[medium + a Regional Medical Unit], Green Haven [Hudson Valley max], and Mohawk [medium + the
+statewide Walsh Regional Medical Unit]. New York has no death penalty and no private prisons;
+incoming mail is photocopied at the facility (no off-site vendor); voice calls are free statewide
+(since Aug 2025) via Securus, with tablets/messaging/money via JPay; medical is in-house (no
+private contractor) with CANY as the independent monitor. The system has been closing prisons
+(Great Meadow/Sullivan 2024, Bare Hill 2026); ~33 DOCCS facilities remain to build)
 
 ## Status legend
 
@@ -150,7 +160,7 @@ covers state systems).
 | Nebraska | NDCS | 8 | 8 | Complete |
 | Nevada | NDOC | 6 major (+ camps) | 6 | Complete |
 | New Mexico | NMCD | ~10 | — | Not started |
-| New York | DOCCS | ~42 | — | Not started |
+| New York | DOCCS | ~41 | 8 | In progress |
 | North Carolina | NCDAC | ~54 | — | Not started |
 | North Dakota | ND DOCR | ~4 | — | Not started |
 | Ohio | ODRC | 27 | 27 | Complete |

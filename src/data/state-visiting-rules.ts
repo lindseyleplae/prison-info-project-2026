@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  ny: {
+    system: 'DOCCS',
+    title: 'Statewide rules that apply at every DOCCS prison',
+    guideHref: '/states/new-york/guides/visiting/',
+    guideLabel: 'Visiting in New York',
+    dressCode: [
+      'No revealing or provocative clothing and nothing gang-associated; do not wear green (it resembles what incarcerated people wear) or anything resembling staff uniforms.',
+      'Each facility enforces its own visiting dress code and may turn away a visitor who is dressed out of code, so confirm the specific facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be on the incarcerated person\'s approved visitor list (the person initiates the request and DOCCS screens it). Adult visitors show a valid government-issued photo ID and pass through screening at each visit.',
+    itemsRule:
+      'Bring only what the facility allows — phones, bags, and most personal items are not permitted in the visiting room (lockers are provided). Money for the person\'s account is sent through JPay, never handed over at a visit.',
+    schedulingRule:
+      'Most facilities admit approved visitors within posted visiting hours, though some require advance scheduling and hours vary by facility — confirm with the specific prison before traveling. A newly committed person is processed at a reception/classification center first — Elmira is the primary men\'s reception center; Bedford Hills is the women\'s reception center — before transfer.'
+  },
   nv: {
     system: 'NDOC',
     title: 'Statewide rules that apply at every NDOC prison',

@@ -17,6 +17,12 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // New York's Department of Corrections and Community Supervision. Runs a
+  // separate public lookup at nysdoccslookup.doccs.ny.gov.
+  DOCCS: {
+    official: 'DOCCS Facility Page',
+    locator: 'DOCCS Incarcerated Lookup'
+  },
   // Nevada Department of Corrections. Runs a separate public offender search.
   NDOC: {
     official: 'NDOC Facility Page',
