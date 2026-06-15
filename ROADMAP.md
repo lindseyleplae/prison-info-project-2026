@@ -75,7 +75,16 @@ holds the Gilliam Psychiatric Hospital], Camille Griffin Graham [women's intake 
 chamber], the largest men's max prison (Lee), the Upstate and Lowcountry close-custody men's
 prisons (Perry, Lieber), the western men's prison (McCormick), and the western women's prison
 (Leath). South Carolina has an active death penalty (resumed 2024) and no private prisons; mail
-goes to the institution (no off-site vendor); ~13 SCDC institutions remain to build)
+goes to the institution (no off-site vendor); ~13 SCDC institutions remain to build.
+Maryland (DPSCS) launched: state overview, all 6 guides, the two data entries, and the first 8
+facility pages — the only women's prison + women's reception (MCI-W), the largest prison (Eastern
+CI), both far-western maximum-security prisons (North Branch, Western), the maximum-security
+Jessup CI, both Hagerstown medium prisons (MCI-Hagerstown, Roxbury), and the treatment/evaluation
+facility that houses the inpatient mental-health center (Patuxent). Maryland has no death penalty
+and no private prisons; mail goes to the facility (no off-site vendor); video visits are free via
+Microsoft Teams; medical via Centurion (since Aug 2024). Notable in-flux items: MCI-Jessup is
+closing June 30, 2026, and the Baltimore men's reception center (MRDCC) was depopulated in late
+2025 (men's intake in transition). ~7 DPSCS prisons + the Baltimore pretrial tier remain to build)
 
 ## Status legend
 
@@ -122,7 +131,7 @@ covers state systems).
 | Kansas | KDOC | ~8 | — | Not started |
 | Kentucky | KY DOC | ~13 | — | Not started |
 | Louisiana | DPS&C | 8 state + ~100 parish jails | 8 | Complete |
-| Maryland | DPSCS | ~15 | — | Not started |
+| Maryland | DPSCS | ~15 | 8 | In progress |
 | Massachusetts | MA DOC | 13 | 8 | In progress |
 | Michigan | Michigan DOC | 26 | 26 | Complete |
 | Minnesota | MN DOC | ~11 | — | Not started |

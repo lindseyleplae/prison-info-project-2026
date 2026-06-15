@@ -17,6 +17,13 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Maryland's corrections agency is DPSCS (the Department of Public Safety and
+  // Correctional Services); its Division of Correction runs the state prisons.
+  // "DPSCS" is the unique, recognizable code (a bare "MDOC"/"DOC" would collide).
+  DPSCS: {
+    official: 'Maryland DPSCS Facility Page',
+    locator: 'Maryland DPSCS Inmate Locator'
+  },
   // South Carolina lists all institutions on a single official page (no per-
   // facility URLs), and runs a separate public inmate search.
   SCDC: {

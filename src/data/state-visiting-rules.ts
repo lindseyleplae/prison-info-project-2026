@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  md: {
+    system: 'DPSCS',
+    title: 'Statewide rules that apply at every Maryland state prison',
+    guideHref: '/states/maryland/guides/visiting/',
+    guideLabel: 'Visiting in Maryland',
+    dressCode: [
+      'Dress modestly — no revealing, sheer, or provocative clothing, and nothing that resembles what incarcerated people or staff wear.',
+      'Each facility enforces its own visiting dress code and may turn away a visitor who is dressed out of code, so confirm the specific facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be on the incarcerated person\'s approved visitor list, and visitors 16 and older show a valid government-issued photo ID. The incarcerated person generally must serve about 30 days before visits can begin.',
+    itemsRule:
+      'Bring only what the facility allows — phones, bags, and most personal items are not permitted; a small amount of cash in $1 bills is allowed only where a vending machine is available. Money for the person\'s account is sent through Access Corrections, never handed over at a visit.',
+    schedulingRule:
+      'Visits are by appointment arranged with each facility (often by email) and confirmed in advance — Maryland has no single statewide online scheduler, and days and hours vary by facility. Maryland also offers free video visits through Microsoft Teams. A newly committed person is processed at a reception/classification center first — women at the Maryland Correctional Institution for Women; men\'s intake is in transition, so confirm the current location.'
+  },
   sc: {
     system: 'SCDC',
     title: 'Statewide rules that apply at every SCDC prison',
