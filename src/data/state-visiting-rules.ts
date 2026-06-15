@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  nv: {
+    system: 'NDOC',
+    title: 'Statewide rules that apply at every NDOC prison',
+    guideHref: '/states/nevada/guides/visiting/',
+    guideLabel: 'Visiting in Nevada',
+    dressCode: [
+      'No blue denim (it resembles inmate clothing); no shorts, midriff or halter tops, or other revealing clothing; dress conservatively.',
+      'Each institution enforces its own visiting dress code and may turn away a visitor who is dressed out of code, so confirm the specific institution\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be on the incarcerated person\'s approved visitor list — the person applies to add each visitor, and a list holds up to five people (with an exception for the person\'s minor children). Adult visitors show a valid government-issued photo ID at each visit.',
+    itemsRule:
+      'Bring only what the institution allows — phones, bags, and most personal items are not permitted in the visiting room. Money for the person\'s account is sent through the NDOC vendor, never handed over at a visit.',
+    schedulingRule:
+      'Visits are arranged with each institution (Nevada has no single statewide online scheduler), and visitors check in ahead of the visit slot; days, hours, and contact or non-contact rules vary by institution and custody level. Nevada also offers video visits through GettingOut. A newly committed person is processed at an intake center first — High Desert (southern Nevada) or Northern Nevada Correctional Center (northern Nevada) for men, and Florence McClure for women — before transfer.'
+  },
   md: {
     system: 'DPSCS',
     title: 'Statewide rules that apply at every Maryland state prison',

@@ -17,6 +17,11 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Nevada Department of Corrections. Runs a separate public offender search.
+  NDOC: {
+    official: 'NDOC Facility Page',
+    locator: 'NDOC Inmate Search'
+  },
   // Maryland's corrections agency is DPSCS (the Department of Public Safety and
   // Correctional Services); its Division of Correction runs the state prisons.
   // "DPSCS" is the unique, recognizable code (a bare "MDOC"/"DOC" would collide).

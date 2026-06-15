@@ -84,7 +84,17 @@ facility that houses the inpatient mental-health center (Patuxent). Maryland has
 and no private prisons; mail goes to the facility (no off-site vendor); video visits are free via
 Microsoft Teams; medical via Centurion (since Aug 2024). Notable in-flux items: MCI-Jessup is
 closing June 30, 2026, and the Baltimore men's reception center (MRDCC) was depopulated in late
-2025 (men's intake in transition). ~7 DPSCS prisons + the Baltimore pretrial tier remain to build)
+2025 (men's intake in transition). ~7 DPSCS prisons + the Baltimore pretrial tier remain to build.
+Nevada (NDOC) launched and completed the major-prison tier: state overview, all 6 guides, the two
+data entries, and pages for all six currently-open major prisons — High Desert [Nevada's largest;
+maximum security and the men's death row since a 2024 reorganization; southern intake], Florence
+McClure [the only women's prison + women's intake + the women's death-sentence designation], Ely
+[houses the execution chamber; medium security since 2024], Southern Desert, Northern Nevada
+[northern intake + the Regional Medical Facility], and Lovelock. Nevada has an active death penalty
+(no execution since 2006) and no in-state private prisons; mail goes physically to the institution
+(state law requires it); comms via ViaPath (phones) + GettingOut (tablets/video). The minimum-custody
+conservation camps and transitional housing are a separate tier (noted, not paged; two camps close
+July 2026; the former Warm Springs prison closed 2022))
 
 ## Status legend
 
@@ -138,7 +148,7 @@ covers state systems).
 | Missouri | Missouri DOC | 19 | 8 | In progress |
 | Montana | MT DOC | ~5 | — | Not started |
 | Nebraska | NDCS | 8 | 8 | Complete |
-| Nevada | NDOC | ~8 | — | Not started |
+| Nevada | NDOC | 6 major (+ camps) | 6 | Complete |
 | New Mexico | NMCD | ~10 | — | Not started |
 | New York | DOCCS | ~42 | — | Not started |
 | North Carolina | NCDAC | ~54 | — | Not started |
