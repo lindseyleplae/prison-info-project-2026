@@ -21,7 +21,10 @@ first 8 facility pages — both reception/diagnostic centers (Camp Hill [men], M
 also the women's death-sentence designation]), the women's minimum prison (Cambridge Springs),
 Pine Grove [men's max + Young Adult Offender Program], Phoenix and Somerset [the two Capital
 Case Units], and the two statewide-health prisons (Laurel Highlands [skilled medical/geriatric],
-Waymart [Forensic Treatment Center]); ~14 PADOC prisons remain to build.
+Waymart [Forensic Treatment Center]). Pennsylvania is now complete — all 22 PADOC State
+Correctional Institutions are paged (the 14 added: Albion, Benner Township, Chester, Coal
+Township, Dallas, Fayette, Forest, Frackville, Greene, Houtzdale, Huntingdon, Mahanoy, Mercer,
+Smithfield).
 Tennessee (TDOC) launched: state overview, all 6 guides, the two data entries, and the
 first 8 facility pages — both reception centers (Bledsoe County [men], Debra K. Johnson
 Rehabilitation Center [women, formerly the Tennessee Prison for Women]), Riverbend [men's
@@ -182,7 +185,7 @@ covers state systems).
 | Ohio | ODRC | 27 | 27 | Complete |
 | Oklahoma | ODOC | ~20 | — | Not started |
 | Oregon | ODOC | 12 | 12 | Complete |
-| Pennsylvania | PADOC | 22 | 8 | In progress |
+| Pennsylvania | PADOC | 22 | 22 | Complete |
 | South Carolina | SCDC | ~21 | 21 | Complete |
 | South Dakota | SD DOC | ~5 | — | Not started |
 | Tennessee | TDOC | 14 | 14 | Complete |
