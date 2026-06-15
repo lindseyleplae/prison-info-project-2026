@@ -17,6 +17,12 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Florida Department of Corrections. The public inmate search is the
+  // "Corrections Offender Network" at pubapps.fdc.myflorida.com/OffenderSearch.
+  FDC: {
+    official: 'FDC Facility Page',
+    locator: 'FDC Corrections Offender Network'
+  },
   // New York's Department of Corrections and Community Supervision. Runs a
   // separate public lookup at nysdoccslookup.doccs.ny.gov.
   DOCCS: {

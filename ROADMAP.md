@@ -105,6 +105,17 @@ incoming mail is photocopied at the facility (no off-site vendor); voice calls a
 (since Aug 2025) via Securus, with tablets/messaging/money via JPay; medical is in-house (no
 private contractor) with CANY as the independent monitor. The system has been closing prisons
 (Great Meadow/Sullivan 2024, Bare Hill 2026); ~33 DOCCS facilities remain to build.
+Florida (FDC) launched: state overview, all 6 guides, the two data entries, and the first 8 facility
+pages — the three main men's reception centers (Reception and Medical Center [Lake Butler, also the
+prison hospital], Central Florida Reception [Orlando], South Florida Reception [Doral]) plus the
+Panhandle reception center (Northwest Florida Reception [Chipley]), Lowell [Ocala — the women's
+prison + women's reception + the women's death-sentence designation], Florida State Prison [Raiford —
+the execution chamber + male death-row cells], Union [Raiford — male death-row housing], and
+Everglades [Miami]. Florida is one of the largest systems (~80,000+), with an active death penalty
+and seven privately operated prisons (GEO/MTC/CoreCivic, overseen by the Dept. of Management
+Services). Distinctive: routine personal mail is scanned off-site by Smart Communications (P.O. Box
+23608, Tampa) and read on a tablet; commissary deposits moved to CorrectPay (2024); medical via
+Centurion. ~40 major institutions + the seven private prisons remain to build.
 Massachusetts is now complete — the final 5 facilities were added (Pondville, Northeastern,
 Boston Pre-Release, the Lemuel Shattuck Hospital correctional unit, and MASAC at Plymouth),
 bringing all 13 MA DOC prisons online. MASAC is a Section 35 civil-commitment substance-use
@@ -146,7 +157,7 @@ covers state systems).
 | Arkansas | ADC | ~20 | 18 | Complete |
 | Colorado | CDOC | 20 | 20 | Complete |
 | Connecticut | Connecticut DOC | 13 | 13 | Complete |
-| Florida | FDC | ~50 | — | Not started |
+| Florida | FDC | ~50 major (+ private) | 8 | In progress |
 | Georgia | GDC | ~38 | 8 | In progress |
 | Hawaii | HI DCR | ~8 | — | Not started |
 | Idaho | IDOC | ~9 | — | Not started |

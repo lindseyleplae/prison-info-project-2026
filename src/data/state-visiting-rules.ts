@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  fl: {
+    system: 'FDC',
+    title: 'Statewide rules that apply at every FDC prison',
+    guideHref: '/states/florida/guides/visiting/',
+    guideLabel: 'Visiting in Florida',
+    dressCode: [
+      'No blue or orange clothing (those are inmate colors); nothing tight, short, sheer, or revealing; no spandex, leggings, or tank tops; closed-toe shoes with backs.',
+      'Each institution enforces its own visiting dress code and may turn away a visitor who is dressed out of code, so confirm the specific institution\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be approved on the incarcerated person\'s visitor list before visiting. The incarcerated person requests the application (Form DC6-111A) at their permanent institution and mails it out; approval can take roughly 30 to 90 days, and the visitor is not notified directly — the incarcerated person relays the result. Adult visitors show a valid government-issued photo ID.',
+    itemsRule:
+      'Bring only what the institution allows — phones, bags, and most personal items are not permitted in the visiting room. Money for the person\'s account is sent through the FDC money vendor, never handed over at a visit.',
+    schedulingRule:
+      'Many institutions require an advance visit reservation, and days and hours (usually weekends and holidays) are set by each institution — confirm with the specific prison before traveling. A newly committed person is processed at a reception center first — for men, the Reception and Medical Center (Lake Butler), Central Florida Reception Center (Orlando), South Florida Reception Center (Doral), or Northwest Florida Reception Center; for women, Lowell — before transfer.'
+  },
   ny: {
     system: 'DOCCS',
     title: 'Statewide rules that apply at every DOCCS prison',
