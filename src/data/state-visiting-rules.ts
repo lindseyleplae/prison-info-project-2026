@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  il: {
+    system: 'Illinois DOC',
+    title: 'Statewide rules that apply at every Illinois state prison',
+    guideHref: '/states/illinois/guides/visiting/',
+    guideLabel: 'Visiting in Illinois',
+    dressCode: [
+      'Clothing must be in good taste — nothing gang-related, sexually explicit, or offensive, and nothing that resembles what incarcerated people or staff wear.',
+      'Each prison sets its own visiting dress and item rules, so confirm the specific facility\'s rules before traveling, since a visitor who is dressed out of code can be turned away.'
+    ],
+    idRule:
+      'Every visitor must be on the incarcerated person\'s approved visitor list, which the person arranges from inside — staff cannot tell you whether you are on a list. Adult visitors bring two forms of identification, one a state-issued photo ID, along with vehicle information.',
+    itemsRule:
+      'Bring only what the facility allows — phones, tablets, smartwatches, bags, purses, food, drink, books, and currency are not permitted in the visiting room (lockers are provided); generally only labeled prescribed heart medication or an asthma inhaler may be carried in. Money for the person\'s account is sent through a deposit vendor, never handed over at a visit.',
+    schedulingRule:
+      'In-person visits are scheduled online through SignUpGenius (the IDOC visitation scheduler); days, hours, and whether a visit is contact or non-contact vary by facility and the person\'s status, so confirm with the specific prison. A newly committed person is processed at a reception and classification center first — the Northern Reception and Classification Center for men, Logan for women — before transfer.'
+  },
   az: {
     system: 'ADCRR',
     title: 'Statewide rules that apply at every Arizona state prison',

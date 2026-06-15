@@ -17,6 +17,13 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Illinois's agency abbreviates itself "IDOC", which collides with Idaho,
+  // Indiana, and Iowa, so facility frontmatter uses the display string
+  // "Illinois DOC". IDOC calls incarcerated people "individuals in custody".
+  'Illinois DOC': {
+    official: 'Illinois DOC Facility Page',
+    locator: 'Illinois DOC Individual in Custody Search'
+  },
   ADCRR: {
     official: 'ADCRR Facility Page',
     locator: 'ADCRR Inmate Data Search'

@@ -58,7 +58,16 @@ facility pages — the statewide men's reception complex (Phoenix/Alhambra), the
 (Eyman [Browning], Tucson [Rincon; also Arizona's largest complex]), the execution-chamber
 complex (Florence [general population largely closed in 2022 — confirm the person's actual
 complex]), Lewis, Yuma, and the CoreCivic-operated La Palma; ~8 more ADCRR complexes and private
-prisons remain to build)
+prisons remain to build.
+Illinois (Illinois DOC) launched: state overview, all 6 guides, the two data entries, and the
+first 8 facility pages — the men's statewide reception center (Northern Reception and
+Classification Center, on the Stateville campus), both women's prisons (Logan [also the women's
+reception center; relocation announced], Decatur), the historic Stateville [maximum-security
+prison closed/depopulated early 2025, RISE rebuild planned], the maximum-security men's prisons
+Menard [oldest/largest] and Pontiac, the psychiatric/special-treatment hub Dixon, and Graham
+[medium + a men's reception unit]. Illinois has no death penalty and no private prisons; mail is
+scanned at the facility to the ICSolutions tablet (permanent Jan 2026); ~19 IDOC prisons remain
+to build)
 
 ## Status legend
 
@@ -99,7 +108,7 @@ covers state systems).
 | Georgia | GDC | ~38 | 8 | In progress |
 | Hawaii | HI DCR | ~8 | — | Not started |
 | Idaho | IDOC | ~9 | — | Not started |
-| Illinois | IDOC | ~25 | — | Not started |
+| Illinois | Illinois DOC | ~27 | 8 | In progress |
 | Indiana | IDOC | 18 | 8 | In progress |
 | Iowa | IDOC | ~9 | — | Not started |
 | Kansas | KDOC | ~8 | — | Not started |
