@@ -167,7 +167,7 @@ covers state systems).
 | Kansas | KDOC | ~8 | — | Not started |
 | Kentucky | KY DOC | ~13 | — | Not started |
 | Louisiana | DPS&C | 8 state + ~100 parish jails | 8 | Complete |
-| Maryland | DPSCS | ~15 | 8 | In progress |
+| Maryland | DPSCS | ~15 | 15 | Complete |
 | Massachusetts | MA DOC | 13 | 13 | Complete |
 | Michigan | Michigan DOC | 26 | 26 | Complete |
 | Minnesota | MN DOC | ~11 | — | Not started |
