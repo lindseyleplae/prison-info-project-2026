@@ -183,7 +183,7 @@ covers state systems).
 | Oklahoma | ODOC | ~20 | — | Not started |
 | Oregon | ODOC | 12 | 12 | Complete |
 | Pennsylvania | PADOC | 22 | 8 | In progress |
-| South Carolina | SCDC | ~21 | 8 | In progress |
+| South Carolina | SCDC | ~21 | 21 | Complete |
 | South Dakota | SD DOC | ~5 | — | Not started |
 | Tennessee | TDOC | 14 | 14 | Complete |
 | Virginia | VADOC | 25 | 25 | Complete |
