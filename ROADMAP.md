@@ -104,7 +104,12 @@ statewide Walsh Regional Medical Unit]. New York has no death penalty and no pri
 incoming mail is photocopied at the facility (no off-site vendor); voice calls are free statewide
 (since Aug 2025) via Securus, with tablets/messaging/money via JPay; medical is in-house (no
 private contractor) with CANY as the independent monitor. The system has been closing prisons
-(Great Meadow/Sullivan 2024, Bare Hill 2026); ~33 DOCCS facilities remain to build)
+(Great Meadow/Sullivan 2024, Bare Hill 2026); ~33 DOCCS facilities remain to build.
+Massachusetts is now complete — the final 5 facilities were added (Pondville, Northeastern,
+Boston Pre-Release, the Lemuel Shattuck Hospital correctional unit, and MASAC at Plymouth),
+bringing all 13 MA DOC prisons online. MASAC is a Section 35 civil-commitment substance-use
+treatment center scheduled to close by Dec 31, 2026, and the Shattuck unit's host hospital is
+slated to relocate ~2027)
 
 ## Status legend
 
@@ -152,7 +157,7 @@ covers state systems).
 | Kentucky | KY DOC | ~13 | — | Not started |
 | Louisiana | DPS&C | 8 state + ~100 parish jails | 8 | Complete |
 | Maryland | DPSCS | ~15 | 8 | In progress |
-| Massachusetts | MA DOC | 13 | 8 | In progress |
+| Massachusetts | MA DOC | 13 | 13 | Complete |
 | Michigan | Michigan DOC | 26 | 26 | Complete |
 | Minnesota | MN DOC | ~11 | — | Not started |
 | Missouri | Missouri DOC | 19 | 8 | In progress |

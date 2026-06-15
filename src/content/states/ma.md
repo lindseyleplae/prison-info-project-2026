@@ -8,7 +8,7 @@ systemFullName: "Massachusetts Department of Correction (MA DOC)"
 summary: "Guides and facility information for Massachusetts, where the Department of Correction runs 13 state prisons — including one women's prison — while people awaiting trial or serving sentences under 2.5 years are held in county jails and houses of correction run by elected sheriffs that set their own rules."
 links:
   inmateLocator: "https://www.vinelink.com/"
-facilityCount: 8
+facilityCount: 13
 lastReviewed: 2026-06-14
 ---
 
