@@ -153,7 +153,7 @@ covers state systems).
 | Mississippi | MDOC | 6 state + 2 private (+15 regional) | 9 | Complete |
 | Alabama | ADOC | 14 | 14 | Complete |
 | Alaska | AK DOC | ~12 | — | Not started |
-| Arizona | ADCRR | ~16 | 8 | In progress |
+| Arizona | ADCRR | ~16 | 13 | In progress |
 | Arkansas | ADC | ~20 | 18 | Complete |
 | Colorado | CDOC | 20 | 20 | Complete |
 | Connecticut | Connecticut DOC | 13 | 13 | Complete |
