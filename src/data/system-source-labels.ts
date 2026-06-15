@@ -17,6 +17,12 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // South Carolina lists all institutions on a single official page (no per-
+  // facility URLs), and runs a separate public inmate search.
+  SCDC: {
+    official: 'SCDC Institutions Page',
+    locator: 'SCDC Incarcerated Inmate Search'
+  },
   // Illinois's agency abbreviates itself "IDOC", which collides with Idaho,
   // Indiana, and Iowa, so facility frontmatter uses the display string
   // "Illinois DOC". IDOC calls incarcerated people "individuals in custody".

@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  sc: {
+    system: 'SCDC',
+    title: 'Statewide rules that apply at every SCDC prison',
+    guideHref: '/states/south-carolina/guides/visiting/',
+    guideLabel: 'Visiting in South Carolina',
+    dressCode: [
+      'Dress modestly — no revealing, sheer, or provocative clothing, and nothing that resembles what incarcerated people or staff wear.',
+      'Each institution enforces its own visiting dress code and may turn away a visitor who is dressed out of code, so confirm the specific institution\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be on the incarcerated person\'s approved visitor list (the person requests visitors from inside using SCDC Form 19-127; a list holds up to 15 people). Adult visitors show a valid government-issued photo ID at each visit.',
+    itemsRule:
+      'Bring only what the institution allows — phones, bags, food, and most personal items are not permitted in the visiting room. Money for the person\'s account is sent through the SCDC vendor, never handed over at a visit.',
+    schedulingRule:
+      'Visits are scheduled in advance through the SCDC (ViaPath/GTL) scheduler at scdoc.gtlvisitme.com, usually on weekends in set time blocks; since June 1, 2025, many South Carolina–licensed adults can register online, while others apply by mail. A newly committed person is held at a reception center first — Kirkland for men, Camille Griffin Graham for women — before transfer.'
+  },
   il: {
     system: 'Illinois DOC',
     title: 'Statewide rules that apply at every Illinois state prison',

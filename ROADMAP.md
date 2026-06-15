@@ -67,7 +67,15 @@ prison closed/depopulated early 2025, RISE rebuild planned], the maximum-securit
 Menard [oldest/largest] and Pontiac, the psychiatric/special-treatment hub Dixon, and Graham
 [medium + a men's reception unit]. Illinois has no death penalty and no private prisons; mail is
 scanned at the facility to the ICSolutions tablet (permanent Jan 2026); ~19 IDOC prisons remain
-to build)
+to build.
+South Carolina (SCDC) launched: state overview, all 6 guides, the two data entries, and the
+first 8 facility pages — both reception/evaluation centers (Kirkland [men's intake; campus also
+holds the Gilliam Psychiatric Hospital], Camille Griffin Graham [women's intake + women's medical
++ the women's death-sentence designation]), Broad River [men's death row + the state execution
+chamber], the largest men's max prison (Lee), the Upstate and Lowcountry close-custody men's
+prisons (Perry, Lieber), the western men's prison (McCormick), and the western women's prison
+(Leath). South Carolina has an active death penalty (resumed 2024) and no private prisons; mail
+goes to the institution (no off-site vendor); ~13 SCDC institutions remain to build)
 
 ## Status legend
 
@@ -130,7 +138,7 @@ covers state systems).
 | Oklahoma | ODOC | ~20 | — | Not started |
 | Oregon | ODOC | 12 | 12 | Complete |
 | Pennsylvania | PADOC | 22 | 8 | In progress |
-| South Carolina | SCDC | ~21 | — | Not started |
+| South Carolina | SCDC | ~21 | 8 | In progress |
 | South Dakota | SD DOC | ~5 | — | Not started |
 | Tennessee | TDOC | 14 | 14 | Complete |
 | Virginia | VADOC | 25 | 25 | Complete |
