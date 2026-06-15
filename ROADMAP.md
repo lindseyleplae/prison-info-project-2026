@@ -149,7 +149,7 @@ covers state systems).
 | Vermont | VTDOC | 6 | 6 | Complete |
 | Wyoming | WDOC | 5 | 5 | Complete |
 | California | CDCR | 31 | 31 | Complete |
-| Texas | TDCJ | ~100 | 22 | In progress |
+| Texas | TDCJ | ~100 | 32 | In progress |
 | Mississippi | MDOC | 6 state + 2 private (+15 regional) | 9 | Complete |
 | Alabama | ADOC | 14 | 14 | Complete |
 | Alaska | AK DOC | ~12 | — | Not started |
