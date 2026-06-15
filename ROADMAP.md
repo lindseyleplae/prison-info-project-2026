@@ -171,7 +171,7 @@ covers state systems).
 | Massachusetts | MA DOC | 13 | 13 | Complete |
 | Michigan | Michigan DOC | 26 | 26 | Complete |
 | Minnesota | MN DOC | ~11 | — | Not started |
-| Missouri | Missouri DOC | 19 | 8 | In progress |
+| Missouri | Missouri DOC | 19 | 19 | Complete |
 | Montana | MT DOC | ~5 | — | Not started |
 | Nebraska | NDCS | 8 | 8 | Complete |
 | Nevada | NDOC | 6 major (+ camps) | 6 | Complete |
