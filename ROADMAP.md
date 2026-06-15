@@ -69,8 +69,13 @@ reception center; relocation announced], Decatur), the historic Stateville [maxi
 prison closed/depopulated early 2025, RISE rebuild planned], the maximum-security men's prisons
 Menard [oldest/largest] and Pontiac, the psychiatric/special-treatment hub Dixon, and Graham
 [medium + a men's reception unit]. Illinois has no death penalty and no private prisons; mail is
-scanned at the facility to the ICSolutions tablet (permanent Jan 2026); ~19 IDOC prisons remain
-to build.
+scanned at the facility to the ICSolutions tablet (permanent Jan 2026). Illinois is now complete —
+all 29 individually-paged IDOC adult prisons are paged (the launch 8 plus 21 more: Lawrence,
+Big Muddy River, Centralia, Danville, Hill, Illinois River, Pinckneyville, Shawnee, Sheridan,
+Western Illinois, East Moline, Jacksonville, Lincoln, Robinson, Southwestern Illinois,
+Taylorville, Vandalia, Vienna, Joliet Treatment Center, and the Kewanee/Murphysboro life-skills
+re-entry centers). Adult Transition Centers and work camps are a separate sub-tier noted in the
+overview, not paged.
 South Carolina (SCDC) launched: state overview, all 6 guides, the two data entries, and the
 first 8 facility pages — both reception/evaluation centers (Kirkland [men's intake; campus also
 holds the Gilliam Psychiatric Hospital], Camille Griffin Graham [women's intake + women's medical
@@ -164,7 +169,7 @@ covers state systems).
 | Georgia | GDC | ~38 | 8 | In progress |
 | Hawaii | HI DCR | ~8 | — | Not started |
 | Idaho | IDOC | ~9 | — | Not started |
-| Illinois | Illinois DOC | ~27 | 8 | In progress |
+| Illinois | Illinois DOC | 29 | 29 | Complete |
 | Indiana | IDOC | 18 | 18 | Complete |
 | Iowa | IDOC | ~9 | — | Not started |
 | Kansas | KDOC | ~8 | — | Not started |
