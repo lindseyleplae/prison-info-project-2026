@@ -162,7 +162,7 @@ covers state systems).
 | Hawaii | HI DCR | ~8 | — | Not started |
 | Idaho | IDOC | ~9 | — | Not started |
 | Illinois | Illinois DOC | ~27 | 8 | In progress |
-| Indiana | IDOC | 18 | 8 | In progress |
+| Indiana | IDOC | 18 | 18 | Complete |
 | Iowa | IDOC | ~9 | — | Not started |
 | Kansas | KDOC | ~8 | — | Not started |
 | Kentucky | KY DOC | ~13 | — | Not started |
