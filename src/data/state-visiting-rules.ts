@@ -34,6 +34,38 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  ks: {
+    system: 'KDOC',
+    title: 'Statewide rules that apply at every KDOC prison',
+    guideHref: '/states/kansas/guides/visiting/',
+    guideLabel: 'Visiting in Kansas',
+    dressCode: [
+      'Dress modestly — Kansas facilities enforce a visiting dress code that bars revealing, transparent, or provocative clothing, gang-related items, and anything resembling what residents or staff wear.',
+      'Each facility may turn away a visitor who is dressed out of code, and electronic devices are not allowed inside, so confirm the specific facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be on the resident\'s pre-approved visitation list before visiting (under KDOC policy IMPP 10-113D). Bring a government-issued photo ID to each visit.',
+    itemsRule:
+      'Bring only what the facility allows — most personal items are not permitted in the visiting room. Money for a resident\'s account is sent through Access Corrections (by app, online, phone, retail, or a money order to Centralized Resident Banking, P.O. Box 9101, Topeka, KS 66608), never handed over at a visit.',
+    schedulingRule:
+      'Kansas schedules visits statewide through ICSolutions — reserve at icsolutions.com at least 72 hours ahead. Each facility offers two slots a day (one morning, one afternoon); a visitor may book one or two slots on a day but not multiple days in the same weekend, with up to four visitors per resident, and appropriate contact such as a brief hug is allowed. Newly admitted people in reception cannot have family visits until they advance past intake. Men enter through the Reception and Diagnostic Unit at the El Dorado Correctional Facility; women at the Topeka Correctional Facility.'
+  },
+  nm: {
+    system: 'NMCD',
+    title: 'Statewide rules that apply at NMCD prisons',
+    guideHref: '/states/new-mexico/guides/visiting/',
+    guideLabel: 'Visiting in New Mexico',
+    dressCode: [
+      'Dress modestly — New Mexico facilities enforce a visiting dress code that bars revealing, transparent, or provocative clothing, gang-related items, and anything resembling what incarcerated people or staff wear.',
+      'Each facility may turn away a visitor who is dressed out of code, and electronic devices are not allowed inside, so confirm the specific facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be on the inmate\'s approved visitor list before visiting (and before depositing money) — the incarcerated person initiates the list, and approval is handled by each facility. Bring a government-issued photo ID to each visit.',
+    itemsRule:
+      'Bring only what the facility allows — most personal items are not permitted in the visiting room. Money for an inmate\'s account is sent by U.S. postal money order to the person at their facility (the separate Securus Debit account covers calls and tablet services), never handed over at a visit.',
+    schedulingRule:
+      'New Mexico has no statewide online scheduler — visits are arranged with each facility by phone or email, and days, hours, and contact-versus-noncontact rules vary by facility and custody level. The privately operated Otero County Prison Facility sets its own visiting arrangements. Men enter the system through the Reception and Diagnostic Center at the Central New Mexico Correctional Facility (Los Lunas); women through the diagnostic center at the Western New Mexico Correctional Facility (Grants).'
+  },
   ak: {
     system: 'AK DOC',
     title: 'Statewide rules that apply at AK DOC institutions',

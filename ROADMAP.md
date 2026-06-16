@@ -176,7 +176,7 @@ covers state systems).
 | Illinois | Illinois DOC | 29 | 29 | Complete |
 | Indiana | IDOC | 18 | 18 | Complete |
 | Iowa | IDOC | ~9 | — | Not started |
-| Kansas | KDOC | ~8 | — | Not started |
+| Kansas | KDOC | 8 | 8 | Complete |
 | Kentucky | KY DOC | ~13 | — | Not started |
 | Louisiana | DPS&C | 8 state + ~100 parish jails | 8 | Complete |
 | Maryland | DPSCS | ~15 | 15 | Complete |
@@ -187,7 +187,7 @@ covers state systems).
 | Montana | MT DOC | 4 secure (+ contract/treatment tier) | 4 | Complete |
 | Nebraska | NDCS | 8 | 8 | Complete |
 | Nevada | NDOC | 6 major (+ camps) | 6 | Complete |
-| New Mexico | NMCD | ~10 | — | Not started |
+| New Mexico | NMCD | 9 | 9 | Complete |
 | New York | DOCCS | ~41 | 8 | In progress |
 | North Carolina | NCDAC | 34 major (+ ~20 min-custody) | 34 | Complete |
 | North Dakota | ND DOCR | 5 secure (+ transition tier) | 5 | Complete |

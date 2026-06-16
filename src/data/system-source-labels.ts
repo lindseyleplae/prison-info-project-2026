@@ -17,6 +17,23 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Kansas Department of Corrections. Eight state-operated adult prisons (no
+  // private prisons); ICSolutions phones/video/statewide visit scheduling,
+  // GettingOut messaging, Access Corrections money; mail direct to the facility;
+  // death penalty dormant (no execution since 1965). Locator is KASPER. "KDOC"
+  // is unique (Kentucky, not built, would use "KY DOC").
+  KDOC: {
+    official: 'KDOC Facility Page',
+    locator: 'KASPER'
+  },
+  // New Mexico Corrections Department. Mostly state-operated (most private
+  // prisons returned to state control by 2021; Lea County/GEO contract ended
+  // 2025) with one MTC private prison (Otero); off-site Securus mail scanning,
+  // Securus comms, Wexford medical; death penalty abolished 2009. "NMCD" is unique.
+  NMCD: {
+    official: 'NMCD Facility Page',
+    locator: 'NMCD Offender Search'
+  },
   // Alaska Department of Corrections. A unified jail/prison system; mail goes
   // directly to the facility (no off-site vendor), Securus phones, a DOC Offender
   // Trust Account for money, in-house medical; the public locator is VINELink. No
