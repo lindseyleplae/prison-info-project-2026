@@ -17,6 +17,24 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Minnesota Department of Corrections. Ten state-operated adult prisons (all
+  // "MCF-"); person-first term "incarcerated person"; off-site TextBehind mail,
+  // ViaPath phones/tablets + JPay messaging/video/money; Centurion medical; no
+  // death penalty (abolished 1911); Office of the Ombuds for Corrections. "MN DOC"
+  // is unique.
+  'MN DOC': {
+    official: 'MN DOC Facilities',
+    locator: 'MN DOC Offender Locator'
+  },
+  // Kentucky Department of Corrections. 13 state prisons + 1 CoreCivic private
+  // (Lee Adjustment Center); a large share of state-sentenced people are held in
+  // county jails (KRS 532.100). Securus phones, JPay money, mail to the facility;
+  // death penalty active but court-suspended since 2009. Locator is KOOL. Code is
+  // "KY DOC" (Kansas took KDOC).
+  'KY DOC': {
+    official: 'KY DOC Facility Page',
+    locator: 'KOOL (Kentucky Offender Online Lookup)'
+  },
   // Kansas Department of Corrections. Eight state-operated adult prisons (no
   // private prisons); ICSolutions phones/video/statewide visit scheduling,
   // GettingOut messaging, Access Corrections money; mail direct to the facility;

@@ -34,6 +34,38 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  mn: {
+    system: 'MN DOC',
+    title: 'Statewide rules that apply at MN DOC prisons',
+    guideHref: '/states/minnesota/guides/visiting/',
+    guideLabel: 'Visiting in Minnesota',
+    dressCode: [
+      'Dress modestly — Minnesota facilities enforce a visiting dress code that bars revealing, transparent, or provocative clothing, gang-related items, and anything resembling what incarcerated people or staff wear.',
+      'Each facility may turn away a visitor who is dressed out of code, and electronic devices are not allowed inside, so confirm the specific facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be approved before visiting — the visitor application is mailed to the Minnesota DOC\'s central intake at MCF-Rush City. Bring a government-issued photo ID to each visit.',
+    itemsRule:
+      'Bring only what the facility allows — most personal items are not permitted in the visiting room. Money for an incarcerated person\'s account is sent through JPay, never handed over at a visit.',
+    schedulingRule:
+      'Confirm each facility\'s visiting days and hours, and whether visits must be scheduled in advance, with the specific prison. Video visits are available through JPay Video Connect. Men enter the system at MCF-St. Cloud; women at MCF-Shakopee, the only women\'s prison.'
+  },
+  ky: {
+    system: 'KY DOC',
+    title: 'Statewide rules that apply at KY DOC prisons',
+    guideHref: '/states/kentucky/guides/visiting/',
+    guideLabel: 'Visiting in Kentucky',
+    dressCode: [
+      'Dress modestly — commonly prohibited items include revealing or sheer clothing, shorts or skirts above the knee, sleeveless tops, and hats or head coverings (religious head coverings excepted).',
+      'Each facility may turn away a visitor who is dressed out of code, and electronic devices are not allowed inside, so confirm the specific facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be on the inmate\'s approved visiting list first — typically verified immediate family plus up to three other adults and one clergy member; all adult visitors show a government-issued photo ID, and minors must be accompanied by a parent or legal guardian.',
+    itemsRule:
+      'Bring only what the facility allows — generally a photo ID, a car key, one debit or credit card, a small clear change purse, eyeglasses, and any authorized medication. Money for an inmate\'s account is sent through JPay, never handed over at a visit.',
+    schedulingRule:
+      'Kentucky has no statewide online scheduler — visiting days and hours are set by each facility, and some require scheduling about a week in advance, so confirm with the specific prison. Men enter the system through the Roederer Correctional Complex (near La Grange); women through the Kentucky Correctional Institution for Women (Pewee Valley). A person serving state time in a county jail follows that jail\'s own visiting rules, not the DOC\'s — check KOOL for the current location.'
+  },
   ks: {
     system: 'KDOC',
     title: 'Statewide rules that apply at every KDOC prison',

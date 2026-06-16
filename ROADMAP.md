@@ -177,12 +177,12 @@ covers state systems).
 | Indiana | IDOC | 18 | 18 | Complete |
 | Iowa | IDOC | ~9 | — | Not started |
 | Kansas | KDOC | 8 | 8 | Complete |
-| Kentucky | KY DOC | ~13 | — | Not started |
+| Kentucky | KY DOC | 14 | 14 | Complete |
 | Louisiana | DPS&C | 8 state + ~100 parish jails | 8 | Complete |
 | Maryland | DPSCS | ~15 | 15 | Complete |
 | Massachusetts | MA DOC | 13 | 13 | Complete |
 | Michigan | Michigan DOC | 26 | 26 | Complete |
-| Minnesota | MN DOC | ~11 | — | Not started |
+| Minnesota | MN DOC | 10 | 10 | Complete |
 | Missouri | Missouri DOC | 19 | 19 | Complete |
 | Montana | MT DOC | 4 secure (+ contract/treatment tier) | 4 | Complete |
 | Nebraska | NDCS | 8 | 8 | Complete |
