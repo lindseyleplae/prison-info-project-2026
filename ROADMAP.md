@@ -190,7 +190,7 @@ covers state systems).
 | New Mexico | NMCD | ~10 | — | Not started |
 | New York | DOCCS | ~41 | 8 | In progress |
 | North Carolina | NCDAC | 34 major (+ ~20 min-custody) | 34 | Complete |
-| North Dakota | ND DOCR | ~4 | — | Not started |
+| North Dakota | ND DOCR | 5 secure (+ transition tier) | 5 | Complete |
 | Ohio | ODRC | 27 | 27 | Complete |
 | Oklahoma | Oklahoma DOC | 18 major (+ 6 community) | 18 | Complete |
 | Oregon | ODOC | 12 | 12 | Complete |

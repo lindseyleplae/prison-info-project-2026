@@ -17,6 +17,13 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // North Dakota Department of Corrections and Rehabilitation. Calls people in
+  // custody "residents"; Securus comms + off-site Securus Digital Mail scanning,
+  // JPay money; no death penalty. "ND DOCR" is unique.
+  'ND DOCR': {
+    official: 'ND DOCR Adult Facilities',
+    locator: 'ND DOCR Resident Lookup'
+  },
   // Montana Department of Corrections. Small system; the state prisons use
   // ICSolutions comms + off-site TextBehind mail while the contract prisons run
   // their own. The public locator is the Correctional Offender Network (ConWeb).

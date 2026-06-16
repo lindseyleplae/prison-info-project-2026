@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  nd: {
+    system: 'ND DOCR',
+    title: 'Statewide rules that apply at ND DOCR prisons',
+    guideHref: '/states/north-dakota/guides/visiting/',
+    guideLabel: 'Visiting in North Dakota',
+    dressCode: [
+      'No clothing with obscene language or gang, drug, or alcohol references; no visible undergarments; skirts must reach at least mid-calf; closed-toe shoes are required (Crocs are not allowed); and clothing cannot resemble what residents wear.',
+      'Each facility may turn away a visitor who is dressed out of code, so confirm the specific facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must apply and be approved before visiting — submit the visitor application (online or on the printable form) to the facility; processing can take about 15 business days, and names are checked against state and local law-enforcement records. Official photo identification is required for everyone 16 and older.',
+    itemsRule:
+      'Bring only what the facility allows — most personal items must be left locked in your vehicle. A small amount of cash in ones and quarters (about $10 to $20, set by each facility) is allowed for vending; money for a resident\'s account is sent through JPay, never handed over at a visit.',
+    schedulingRule:
+      'North Dakota has no statewide online scheduler — visiting days and hours are set by each facility, so confirm the current schedule with the specific prison. Men enter the system at the North Dakota State Penitentiary (Bismarck); women at the Dakota Women\'s Correctional and Rehabilitation Center (New England).'
+  },
   mt: {
     system: 'MT DOC',
     title: 'Statewide rules that apply at Montana DOC prisons',
