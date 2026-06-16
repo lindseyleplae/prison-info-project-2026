@@ -184,7 +184,7 @@ covers state systems).
 | Michigan | Michigan DOC | 26 | 26 | Complete |
 | Minnesota | MN DOC | ~11 | — | Not started |
 | Missouri | Missouri DOC | 19 | 19 | Complete |
-| Montana | MT DOC | ~5 | — | Not started |
+| Montana | MT DOC | 4 secure (+ contract/treatment tier) | 4 | Complete |
 | Nebraska | NDCS | 8 | 8 | Complete |
 | Nevada | NDOC | 6 major (+ camps) | 6 | Complete |
 | New Mexico | NMCD | ~10 | — | Not started |

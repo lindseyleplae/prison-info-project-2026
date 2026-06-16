@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  mt: {
+    system: 'MT DOC',
+    title: 'Statewide rules that apply at Montana DOC prisons',
+    guideHref: '/states/montana/guides/visiting/',
+    guideLabel: 'Visiting in Montana',
+    dressCode: [
+      'Dress modestly — Montana facilities enforce a visiting dress code that bars revealing, transparent, or provocative clothing, gang-related items, and anything resembling what incarcerated people or staff wear.',
+      'Each facility may turn away a visitor who is dressed out of code, and phones and other electronic devices are not allowed inside, so confirm the specific facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be approved before visiting — create an account at login.mt.gov and complete the online Visitation Application; approval can take up to 90 days. Bring a government-issued photo ID to each visit. The contract prisons (Crossroads and Dawson County) handle their own visitor approval, so confirm with the facility.',
+    itemsRule:
+      'Bring only what the facility allows — phones and most personal items are not permitted in the visiting room. Money for phone and tablet accounts is sent through ICSolutions, while trust-account checks and money orders go to the facility; money is never handed over at a visit.',
+    schedulingRule:
+      'Scheduling is not unified statewide. At Montana State Prison and Montana Women\'s Prison, visits are scheduled online through ICSolutions (Montana Women\'s Prison requires advance online scheduling). The contract prisons — Crossroads Correctional Center and the Dawson County Correctional Facility — set their own visiting process, so confirm directly with the facility. Men enter the system through the Martz Diagnostic Intake Unit at Montana State Prison; women through Montana Women\'s Prison.'
+  },
   ok: {
     system: 'Oklahoma DOC',
     title: 'Statewide rules that apply at every Oklahoma DOC prison',

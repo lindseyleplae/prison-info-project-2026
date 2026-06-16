@@ -17,6 +17,14 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Montana Department of Corrections. Small system; the state prisons use
+  // ICSolutions comms + off-site TextBehind mail while the contract prisons run
+  // their own. The public locator is the Correctional Offender Network (ConWeb).
+  // "MT DOC" is unique (no collision).
+  'MT DOC': {
+    official: 'Montana DOC Facilities',
+    locator: 'Montana Correctional Offender Network (ConWeb)'
+  },
   // Oklahoma's Department of Corrections. Now fully state-operated (the last
   // private prison was taken over in July 2025). Oklahoma lists every prison on
   // one facilities page (no per-facility URLs). "Oklahoma DOC" avoids the ODOC
