@@ -17,6 +17,12 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Washington State Department of Corrections. In-house health care, physical
+  // mail still delivered, Securus comms. "WA DOC" is distinct from Wyoming's WDOC.
+  'WA DOC': {
+    official: 'WA DOC Facility Page',
+    locator: 'WA DOC Incarcerated Search'
+  },
   // Florida Department of Corrections. The public inmate search is the
   // "Corrections Offender Network" at pubapps.fdc.myflorida.com/OffenderSearch.
   FDC: {

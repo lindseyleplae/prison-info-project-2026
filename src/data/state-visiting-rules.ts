@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  wa: {
+    system: 'WA DOC',
+    title: 'Statewide rules that apply at every WA DOC prison',
+    guideHref: '/states/washington/guides/visiting/',
+    guideLabel: 'Visiting in Washington',
+    dressCode: [
+      'Dress modestly — no transparent, revealing, or provocative clothing, no camouflage, and nothing gang-related or resembling what incarcerated people or staff wear; shorts and skirts must be at least fingertip length, and avoid underwire bras and metal jewelry that will not clear the metal detector.',
+      'Each prison sets and enforces its own visiting dress code and may turn away a visitor who is dressed out of code, so confirm the specific facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be approved on the incarcerated person\'s Approved Visitor List before visiting — apply electronically with DOC Form 20-060 (adults) or 20-181 (minors); processing takes up to 45 business days, and only one application may be pending at a time. Visitors 18 and older show a valid government-issued photo ID at each visit (international visitors a passport).',
+    itemsRule:
+      'Bring only what the facility allows — phones, bags, and most personal items are not permitted in the visiting room. A visitor may bring up to $25 in cash or a single debit/credit card for vending; money for the person\'s account is sent through JPay or Securus, never handed over at a visit.',
+    schedulingRule:
+      'There is no public online booking for in-person visits — once approved, contact the facility\'s visit staff for current days and availability (many prisons admit visitors first-come, first-served). Video visits are scheduled separately through Securus. A newly committed person is processed at a reception center first — men at the Washington Corrections Center (Shelton), women at the Reception and Diagnostic Center at the Washington Corrections Center for Women (Gig Harbor) — before transfer. Washington also offers Extended Family Visits for eligible people.'
+  },
   fl: {
     system: 'FDC',
     title: 'Statewide rules that apply at every FDC prison',
