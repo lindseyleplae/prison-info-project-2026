@@ -189,7 +189,7 @@ covers state systems).
 | Nevada | NDOC | 6 major (+ camps) | 6 | Complete |
 | New Mexico | NMCD | ~10 | — | Not started |
 | New York | DOCCS | ~41 | 8 | In progress |
-| North Carolina | NCDAC | ~54 | — | Not started |
+| North Carolina | NCDAC | 34 major (+ ~20 min-custody) | 34 | Complete |
 | North Dakota | ND DOCR | ~4 | — | Not started |
 | Ohio | ODRC | 27 | 27 | Complete |
 | Oklahoma | ODOC | ~20 | — | Not started |

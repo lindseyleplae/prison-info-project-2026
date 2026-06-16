@@ -17,6 +17,12 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // North Carolina's Department of Adult Correction (created 2023 from the DPS
+  // split). "NCDAC" is the unique code; the offender search is "Offender Public Information".
+  NCDAC: {
+    official: 'NCDAC Facility Page',
+    locator: 'NCDAC Offender Public Information'
+  },
   // Wisconsin Department of Corrections. Off-site TextBehind mail scanning,
   // ICSolutions comms, Access Corrections money; no death penalty since 1853.
   'WI DOC': {

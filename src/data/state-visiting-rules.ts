@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  nc: {
+    system: 'NCDAC',
+    title: 'Statewide rules that apply at every NCDAC prison',
+    guideHref: '/states/north-carolina/guides/visiting/',
+    guideLabel: 'Visiting in North Carolina',
+    dressCode: [
+      'Dress modestly — no halter, tube, strapless, tank, sleeveless, or underwear-style tops, no bare midriffs, and no spandex; shorts and skirts must be no more than about three inches above the knee.',
+      'Cell phones, smartwatches, cameras, and recording devices are not allowed inside, and each prison may turn away a visitor who is dressed out of code, so confirm the facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be approved on the offender\'s visiting list before visiting — the incarcerated person mails an application to each prospective visitor; applicants 16 and older attach a copy of a government photo ID (minors under 16 a birth certificate), and the completed form goes to the prison where the person is housed. Visitors 16 and older show photo ID at the visit.',
+    itemsRule:
+      'Bring only what the facility allows — phones, smartwatches, cameras, bags, and most personal items are not permitted in the visiting room. Money for the person\'s trust account is sent through ViaPath (ConnectNetwork) or TouchPay, never handed over at a visit.',
+    schedulingRule:
+      'Visits are by appointment only — call or email the specific prison to schedule; there is no statewide online scheduler, and visitation status should be confirmed the day before. Visits are generally limited to one per week, up to two hours, with up to three approved visitors. Women enter the system through the diagnostic center at the NC Correctional Institution for Women (Raleigh); men are received at several prisons, including Craven and Piedmont.'
+  },
   wi: {
     system: 'WI DOC',
     title: 'Statewide rules that apply at every WI DOC prison',

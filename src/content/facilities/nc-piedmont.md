@@ -1,0 +1,96 @@
+---
+title: "Piedmont Correctional Institution"
+slug: piedmont
+state: nc
+system: "NCDAC"
+population: men
+summary: "A medium- and minimum-security state prison for men in Salisbury, in the central North Carolina Piedmont, that also serves as a reception/diagnostic point for many western-NC men."
+aliases: ["Piedmont", "Piedmont CI"]
+city: "Salisbury"
+county: "Rowan"
+address: "1245 Camp Road, Salisbury, NC 28147"
+securityLevel: "Medium and minimum security (men)"
+facilityType: "State Prison"
+contact:
+  mainPhone: "980-407-6300"
+  mailingAddress: "1245 Camp Road, Salisbury, NC 28147"
+providers:
+  phone: "ViaPath"
+  video: "ViaPath"
+visiting:
+  days: "Set by each facility; visits are by appointment only"
+  hours: "Confirm the facility's current visiting schedule"
+  scheduling: "Every visitor must be approved on the offender's visiting list first (the incarcerated person mails an application to each prospective visitor). Visits are by appointment only — call or email the prison to schedule; there is no statewide online scheduler. Visits are generally limited to one per week, up to two hours, with up to three approved visitors."
+  contactVisits: true
+links:
+  official: "https://www.dac.nc.gov/divisions-and-sections/institutions/prison-facilities/piedmont-correctional-institution"
+  inmateLocator: "https://webapps.doc.state.nc.us/opi/offendersearch.do?method=view"
+sources:
+  - name: "NCDAC — Piedmont Correctional Institution"
+    url: "https://www.dac.nc.gov/divisions-and-sections/institutions/prison-facilities/piedmont-correctional-institution"
+  - name: "NCDAC — Prison Visitation"
+    url: "https://www.dac.nc.gov/divisions-and-sections/institutions/prison-visitation"
+lastVerified: 2026-06-15
+reviewBy: 2026-09-15
+---
+
+:::callout{variant="warning"}
+Piedmont Correctional Institution is a men's prison that also serves as a diagnostic and reception point for many men from western North Carolina, so a newly sentenced person may be held here only briefly before transferring. Confirm the person's current facility on the [NCDAC offender search](https://webapps.doc.state.nc.us/opi/offendersearch.do?method=view) before traveling. Personal mail goes to the off-site TextBehind vendor — see [Mail](#mail).
+:::
+
+:::key-info
+- **Security level:** Medium and minimum security (men)
+- **Location:** Salisbury, Rowan County
+- **Phone:** 980-407-6300
+- **Phone/video provider:** ViaPath
+- **Personal mail:** Off-site to TextBehind, P.O. Box 247, Phoenix, MD 21131
+- **Visitor approval:** The offender mails an application to each prospective visitor; returned to the prison
+:::
+
+## Overview
+
+Piedmont Correctional Institution is a medium- and minimum-security state prison for men in Salisbury, Rowan County, in the central North Carolina Piedmont. The facility is operated by the North Carolina Department of Adult Correction (NCDAC).
+
+According to the NCDAC, Piedmont houses medium-custody men and operates a 14-bed infirmary with outpatient care, x-ray and laboratory services, and a full-time dental clinic. Programming includes the New Direction substance-abuse treatment program, GED preparation, vocational training in woodworking and auto repair, and work assignments in reupholstery and facility maintenance.
+
+Men's reception in North Carolina uses a distributed model: Craven Correctional Institution in Vanceboro is a major processing center, Piedmont Correctional Institution in Salisbury receives western men age 22 and older with sentences under ten years, and Central Prison in Raleigh runs a special-population diagnostic. Because families are not notified of routine transfers, the [NCDAC offender search](https://webapps.doc.state.nc.us/opi/offendersearch.do?method=view) is the way to confirm where someone is currently held.
+
+## What Makes Piedmont Different
+
+According to the NCDAC, Piedmont is a point of entry into the prison system for male felons age 22 and older from western North Carolina who are sentenced to less than ten years. In that role the facility carries out initial processing, diagnostic evaluation, and medical and dental services for incoming men before they are assigned to a permanent facility. A newly sentenced person may therefore appear at Piedmont for a short period and then transfer elsewhere; the current location for a particular person can be confirmed through the prison or on the [NCDAC offender search](https://webapps.doc.state.nc.us/opi/offendersearch.do?method=view).
+
+## Visiting
+
+The statewide NCDAC rules above — the approved visitor list, the dress code, ID, and item limits — apply at Piedmont Correctional Institution. The facility's own arrangements:
+
+:::key-info
+- **Approval first:** Every visitor must be on the offender's approved visiting list. The incarcerated person mails an application to each prospective visitor (up to 18 applications); applicants age 16 and older attach a copy of a photo ID, and minors under 16 a copy of a birth certificate. The completed form goes to the prison where the person is housed.
+- **Scheduling:** Visits are by appointment only. North Carolina has no statewide online scheduler — call or email Piedmont Correctional Institution to schedule, and confirm visitation status the day before.
+- **Visit limits:** Generally one visit per week, up to two hours, with up to three approved visitors. Whether a visit is contact or non-contact depends on the person's custody class and disciplinary status.
+- **Video visits:** Available separately through the GettingOut Visits app (ViaPath), on demand or scheduled.
+:::
+
+The full approval process is in [Visiting in North Carolina](/states/north-carolina/guides/visiting/).
+
+## Getting There and Parking
+
+Piedmont Correctional Institution is at 1245 Camp Road, Salisbury, NC 28147, in Rowan County in the central North Carolina Piedmont. Salisbury lies along Interstate 85 between Charlotte to the southwest and Greensboro to the northeast. There is no public-transit service to the facility; visitors generally arrive by private vehicle. Confirm visiting days and hours with the facility before traveling.
+
+## Nearby Services
+
+Salisbury is the seat of Rowan County. The nearest full-service hospital emergency room is in the Salisbury area, with additional hospitals in the Charlotte metropolitan area to the southwest along Interstate 85. Lodging, fuel, and restaurants are available in Salisbury and along the Interstate 85 corridor.
+
+## Mail
+
+Incoming personal mail does not go to the prison. North Carolina sends personal mail to an off-site vendor, **TextBehind**, which opens and scans it and delivers a digital copy to the incarcerated person's tablet; original letters, cards, and packages are returned to the sender. Address personal mail with the person's full name and **OPUS number** and the full (unabbreviated) prison name to: TextBehind, P.O. Box 247, Phoenix, MD 21131 — and include the sender's full first and last name in the return address. **Legal mail** is exempt and goes directly to the facility. **Books and publications** must come from a publisher or online retailer, shipped to the prison's street address, not the TextBehind box. Full rules are in [Mail & Packages](/states/north-carolina/guides/mail/).
+
+## Learn More
+
+For detailed information about visiting and communicating with someone in a North Carolina state prison:
+
+- [Visiting in North Carolina](/states/north-carolina/guides/visiting/) — the approved visitor list, the application, and scheduling
+- [Mail & Packages](/states/north-carolina/guides/mail/) — the TextBehind mail-scanning process and what still goes to the facility
+- [Phone & Video Calls](/states/north-carolina/guides/phone-video/) — ViaPath calls, tablets, and GettingOut video visits
+- [Sending Money](/states/north-carolina/guides/money/) — depositing through ViaPath/ConnectNetwork and TouchPay
+- [Medical & Mental Health](/states/north-carolina/guides/medical/) — sick-call co-pays, mental health, and the grievance board
+- [Transfers & Finding Someone](/states/north-carolina/guides/transfers/) — reception, the locator, and transfers
