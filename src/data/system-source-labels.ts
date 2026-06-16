@@ -17,6 +17,14 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Alaska Department of Corrections. A unified jail/prison system; mail goes
+  // directly to the facility (no off-site vendor), Securus phones, a DOC Offender
+  // Trust Account for money, in-house medical; the public locator is VINELink. No
+  // death penalty. "AK DOC" is unique (Alabama uses ADOC).
+  'AK DOC': {
+    official: 'AK DOC Institutions',
+    locator: 'VINELink'
+  },
   // South Dakota Department of Corrections. Small system; ViaPath comms,
   // in-house mail scanning to tablets (no off-site vendor). The public search is
   // the "Offender Locator." "SD DOC" is unique. www.doc.sd.gov 403s to bots.

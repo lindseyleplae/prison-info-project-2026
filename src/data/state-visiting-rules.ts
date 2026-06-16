@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  ak: {
+    system: 'AK DOC',
+    title: 'Statewide rules that apply at AK DOC institutions',
+    guideHref: '/states/alaska/guides/visiting/',
+    guideLabel: 'Visiting in Alaska',
+    dressCode: [
+      'Dress neatly — closed-toe footwear is required; no cut-offs, shorts, beachwear, mini-skirts, low-cut or see-through tops, or tube tops, and no hats in the visiting area unless authorized.',
+      'Each facility may turn away a visitor who is dressed out of code, so confirm the specific facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be on the prisoner\'s approved visitor list (a person can normally be on only one prisoner\'s list) and must show a driver\'s license or government-issued photo ID; visitors and their belongings are searched. During the first 24 hours after someone is booked on new charges, family and friends may visit at any time without being on the approved list — just bring valid photo ID.',
+    itemsRule:
+      'Bring only what the facility allows — most items must be left out, and visitors are searched on entry. Money goes onto the prisoner\'s Offender Trust Account (deposited in person at any DOC institution, or mailed as a money order to the person at their facility), never handed over at a visit.',
+    schedulingRule:
+      'Alaska has no statewide online scheduler — visiting days and hours are set by each institution, and many require an appointment, so check the facility\'s page or call before traveling. Visits are typically about an hour and may be contact or secure (non-contact) depending on the facility and custody level; the DOC can approve a longer special visit for families traveling long distances. Because several facilities are reachable mainly by plane, confirm the schedule before booking travel. All women in DOC custody are held at the Hiland Mountain Correctional Center (Eagle River); the only maximum-security men\'s prison is Spring Creek (Seward).'
+  },
   sd: {
     system: 'SD DOC',
     title: 'Statewide rules that apply at SD DOC prisons',

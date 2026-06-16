@@ -164,7 +164,7 @@ covers state systems).
 | Texas | TDCJ | ~100 | 32 | In progress |
 | Mississippi | MDOC | 6 state + 2 private (+15 regional) | 9 | Complete |
 | Alabama | ADOC | 14 | 14 | Complete |
-| Alaska | AK DOC | ~12 | — | Not started |
+| Alaska | AK DOC | 13 (unified jail/prison) | 13 | Complete |
 | Arizona | ADCRR | ~16 | 13 | In progress |
 | Arkansas | ADC | ~20 | 18 | Complete |
 | Colorado | CDOC | 20 | 20 | Complete |
