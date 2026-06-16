@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  sd: {
+    system: 'SD DOC',
+    title: 'Statewide rules that apply at SD DOC prisons',
+    guideHref: '/states/south-dakota/guides/visiting/',
+    guideLabel: 'Visiting in South Dakota',
+    dressCode: [
+      'Dress modestly — South Dakota facilities enforce a visiting dress code; avoid revealing or provocative clothing, anything gang-related, and anything resembling what people in custody or staff wear.',
+      'Each facility sets and enforces its own specifics and may turn a visitor away for dressing out of code, so confirm the dress code with the facility before traveling.'
+    ],
+    idRule:
+      'Every visitor must be approved on the person\'s visitor list before visiting, and a government-issued photo ID is required to enter. Confirm the application process and acceptable identification with the facility.',
+    itemsRule:
+      'Bring only what the facility allows — phones and other electronics are not permitted in the visiting room, and most personal items must be left out. Confirm vending and item rules with the facility; money for an account is sent through the DOC\'s vendors, never handed over at a visit.',
+    schedulingRule:
+      'Video visits are scheduled through the statewide ViaPath scheduler (sddoc.gtlvisitme.com); in-person visiting days and hours are set by each prison, so confirm the current schedule with the facility. Men enter the system at the South Dakota State Penitentiary complex in Sioux Falls (the Jameson Annex reception unit); women at the South Dakota Women\'s Prison in Pierre.'
+  },
   nd: {
     system: 'ND DOCR',
     title: 'Statewide rules that apply at ND DOCR prisons',

@@ -17,6 +17,13 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // South Dakota Department of Corrections. Small system; ViaPath comms,
+  // in-house mail scanning to tablets (no off-site vendor). The public search is
+  // the "Offender Locator." "SD DOC" is unique. www.doc.sd.gov 403s to bots.
+  'SD DOC': {
+    official: 'SD DOC Facilities',
+    locator: 'SD DOC Offender Locator'
+  },
   // North Dakota Department of Corrections and Rehabilitation. Calls people in
   // custody "residents"; Securus comms + off-site Securus Digital Mail scanning,
   // JPay money; no death penalty. "ND DOCR" is unique.

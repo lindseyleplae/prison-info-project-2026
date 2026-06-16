@@ -196,7 +196,7 @@ covers state systems).
 | Oregon | ODOC | 12 | 12 | Complete |
 | Pennsylvania | PADOC | 22 | 22 | Complete |
 | South Carolina | SCDC | ~21 | 21 | Complete |
-| South Dakota | SD DOC | ~5 | — | Not started |
+| South Dakota | SD DOC | 3 secure (+ minimum tier) | 3 | Complete |
 | Tennessee | TDOC | 14 | 14 | Complete |
 | Virginia | VADOC | 25 | 25 | Complete |
 | Washington | WA DOC | 10 | 10 | Complete |
