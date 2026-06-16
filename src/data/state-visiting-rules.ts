@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  ok: {
+    system: 'Oklahoma DOC',
+    title: 'Statewide rules that apply at every Oklahoma DOC prison',
+    guideHref: '/states/oklahoma/guides/visiting/',
+    guideLabel: 'Visiting in Oklahoma',
+    dressCode: [
+      'Dress modestly and follow the approved-attire list — no revealing, transparent, or provocative clothing, nothing resembling what incarcerated people or staff wear, and no gang-related items; each facility may turn away a visitor who is dressed out of code, so confirm the rules before traveling.',
+      'Leave personal items in the vehicle — visitors may bring only identification, a car key, and coins for the vending machines; phones and other electronic devices are not allowed inside.'
+    ],
+    idRule:
+      'Every visitor must be approved on the incarcerated person\'s list before visiting — submit a Visitor Application Form (online or by mail to the Visitation Unit, P.O. Box 11400, Oklahoma City, OK 73136-0400) and pass a background check (ages 18 and older); approval can take up to 90 days. Bring a government-issued photo ID to each visit.',
+    itemsRule:
+      'Bring only identification, a car key, and coins for vending — phones, bags, and other personal items are not permitted in the visiting room. Money for the person\'s trust account is sent through JPay, never handed over at a visit.',
+    schedulingRule:
+      'All visits are scheduled in advance through the statewide Visitation Unit (405-768-3269) — there are no walk-ins, and requests must be received by Wednesday at 1 p.m. for that period. Saturday and Sunday visiting is available at every facility (additional weekdays vary), generally 8 a.m. to 4 p.m. Men enter the system through the Lexington Assessment and Reception Center; women through the Mabel Bassett Correctional Center.'
+  },
   nc: {
     system: 'NCDAC',
     title: 'Statewide rules that apply at every NCDAC prison',

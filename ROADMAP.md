@@ -192,7 +192,7 @@ covers state systems).
 | North Carolina | NCDAC | 34 major (+ ~20 min-custody) | 34 | Complete |
 | North Dakota | ND DOCR | ~4 | — | Not started |
 | Ohio | ODRC | 27 | 27 | Complete |
-| Oklahoma | ODOC | ~20 | — | Not started |
+| Oklahoma | Oklahoma DOC | 18 major (+ 6 community) | 18 | Complete |
 | Oregon | ODOC | 12 | 12 | Complete |
 | Pennsylvania | PADOC | 22 | 22 | Complete |
 | South Carolina | SCDC | ~21 | 21 | Complete |
@@ -292,8 +292,8 @@ covers state systems).
   keys and facility frontmatter `system` strings when a state lands).
   **Resolved so far:** Mississippi uses `MDOC`; Maine uses the display string
   `Maine DOC`; **Michigan uses `Michigan DOC`** (it landed, as predicted);
-  Connecticut uses `Connecticut DOC`. **Oregon took `ODOC`** — Oklahoma, when it
-  lands, will need its own. **Arkansas took `ADC`** — Arizona (whose agency is
+  Connecticut uses `Connecticut DOC`. **Oregon took `ODOC`**, so Oklahoma landed
+  as the display string `Oklahoma DOC`. **Arkansas took `ADC`** — Arizona (whose agency is
   ADCRR) should use `ADCRR` to avoid colliding with Arkansas. Alabama uses
   `ADOC`. Illinois/Indiana/Iowa all use "IDOC" — still unresolved (none landed
   yet). Never reuse a key across states.

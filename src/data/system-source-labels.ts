@@ -17,6 +17,14 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Oklahoma's Department of Corrections. Now fully state-operated (the last
+  // private prison was taken over in July 2025). Oklahoma lists every prison on
+  // one facilities page (no per-facility URLs). "Oklahoma DOC" avoids the ODOC
+  // collision with Oregon.
+  'Oklahoma DOC': {
+    official: 'Oklahoma DOC Facilities',
+    locator: 'Oklahoma DOC Offender Lookup'
+  },
   // North Carolina's Department of Adult Correction (created 2023 from the DPS
   // split). "NCDAC" is the unique code; the offender search is "Offender Public Information".
   NCDAC: {
