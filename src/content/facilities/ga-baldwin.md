@@ -11,7 +11,7 @@ aliases:
 city: Hardwick
 county: Baldwin
 address: "140 Laying Farm Road, Hardwick, GA 31034"
-securityLevel: "Medium security (men) — special mission (mental-health and medical services)"
+securityLevel: "Special mission (close security, men) — mental-health and medical services"
 facilityType: "State Prison"
 contact:
   mainPhone: "(478) 445-5218"
@@ -42,7 +42,7 @@ reviewBy: 2026-09-15
 :::key-info
 **Location:** On Laying Farm Road in Hardwick, Baldwin County, near Milledgeville in central Georgia
 
-**Population:** Men in medium security — capacity about 925, including general population and men receiving mental-health treatment
+**Population:** Men — capacity about 925, including general population and men receiving mental-health treatment
 
 **Notable:** A special-mission facility offering Mental Health Level III services, including a Supportive Living Unit, acute-care and crisis-stabilization beds, plus a 17-bed infirmary, a transportation hub, and on-site specialty clinics
 
@@ -51,7 +51,7 @@ reviewBy: 2026-09-15
 
 ## Overview
 
-Baldwin State Prison, on Laying Farm Road in Hardwick in Baldwin County, is a **medium-security state prison for men** with a special mission. It houses general population alongside a mental-health treatment program, and GDC categorizes it as a **special-mission** facility. Its capacity is about **925**. The prison sits near Milledgeville, in central Georgia.
+Baldwin State Prison, on Laying Farm Road in Hardwick in Baldwin County, is a **special-mission state prison for men**. GDC classifies its security level as "special mission"; it houses close-security offenders in general population alongside a mental-health treatment program. Its capacity is about **925**. The prison sits near Milledgeville, in central Georgia.
 
 ## What Makes Baldwin Different
 
