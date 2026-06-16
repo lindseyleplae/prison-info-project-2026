@@ -17,6 +17,12 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Wisconsin Department of Corrections. Off-site TextBehind mail scanning,
+  // ICSolutions comms, Access Corrections money; no death penalty since 1853.
+  'WI DOC': {
+    official: 'WI DOC Facility Page',
+    locator: 'WI DOC Offender Locator'
+  },
   // Washington State Department of Corrections. In-house health care, physical
   // mail still delivered, Securus comms. "WA DOC" is distinct from Wyoming's WDOC.
   'WA DOC': {

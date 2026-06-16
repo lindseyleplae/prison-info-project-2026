@@ -34,6 +34,22 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  wi: {
+    system: 'WI DOC',
+    title: 'Statewide rules that apply at every WI DOC prison',
+    guideHref: '/states/wisconsin/guides/visiting/',
+    guideLabel: 'Visiting in Wisconsin',
+    dressCode: [
+      'No camouflage, transparent or revealing clothing, strapless or tube tops, spandex worn as pants, shorts or skirts shorter than fingertip length, gang-related or obscene items, or torn clothing; no watches or purses, and avoid underwire bras and metal jewelry that will not clear the metal detector.',
+      'Each institution enforces its own visiting dress code and may turn away a visitor who is dressed out of code, so confirm the specific facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be on the incarcerated person\'s approved visiting list before visiting — the person mails a DOC-21AA Visitor Questionnaire to the prospective visitor, who completes it and returns it to the institution. Visitors 16 and older show a valid government-issued photo ID at each visit.',
+    itemsRule:
+      'Bring only what the institution allows — phones, bags, and most personal items are not permitted in the visiting room. A visitor may bring up to $25 in cash or one debit/credit card for vending; money for the person\'s account is sent through Access Corrections, never handed over at a visit.',
+    schedulingRule:
+      'Wisconsin has no statewide online visit scheduler — visits are arranged with each institution (call the facility), and days and hours vary. Video visits are scheduled separately through ICSolutions. A newly committed person is processed at a reception center first — men at the Dodge Correctional Institution (Waupun), women at the Taycheedah Correctional Institution (Fond du Lac) — before transfer.'
+  },
   wa: {
     system: 'WA DOC',
     title: 'Statewide rules that apply at every WA DOC prison',

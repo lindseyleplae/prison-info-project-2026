@@ -201,7 +201,7 @@ covers state systems).
 | Virginia | VADOC | 25 | 25 | Complete |
 | Washington | WA DOC | 10 | 10 | Complete |
 | West Virginia | WV DCR | 8 state prisons (+ 10 regional jails) | 8 | Complete |
-| Wisconsin | WI DOC | ~20 | — | Not started |
+| Wisconsin | WI DOC | 20 | 20 | Complete |
 
 ## Notes
 
