@@ -12,7 +12,11 @@ prisons), Michigan (all 26 open MDOC prisons), and Virginia (all 25 VADOC major
 institutions) completed; West Virginia, Connecticut, Oregon, and Louisiana also complete. Georgia (GDC) launched: state
 overview, all 6 guides, the two data entries, and the first 8 facility pages —
 all 5 women's prisons + the men's diagnostic prison (GDCP), the statewide medical
-prison (Augusta), and Metro Reentry; ~30 GDC state/private prisons remain to build. Ohio (ODRC) launched: state
+prison (Augusta), and Metro Reentry. Georgia is now complete — all 40 individually-paged
+GDC prisons (the men's close/medium state prisons, the special-mission units [SMU restrictive
+housing, Helms dual-gender medical, West Central women's treatment, Burruss training center],
+the women's facilities, and the 4 private CoreCivic/GEO prisons); county CIs, transitional
+centers, and probation detention centers remain a separate tier, not paged. Ohio (ODRC) launched: state
 overview, all 6 guides, the two data entries, and the first 8 facility pages — both men's
 reception centers, the women's spine (ORW, Dayton), Ross [men's death row], SOCF [execution
 chamber], OSP [supermax], and Franklin Medical Center; ~20 ODRC prisons remain to build.
@@ -166,7 +170,7 @@ covers state systems).
 | Colorado | CDOC | 20 | 20 | Complete |
 | Connecticut | Connecticut DOC | 13 | 13 | Complete |
 | Florida | FDC | ~50 major (+ private) | 8 | In progress |
-| Georgia | GDC | ~38 | 8 | In progress |
+| Georgia | GDC | 40 | 40 | Complete |
 | Hawaii | HI DCR | ~8 | — | Not started |
 | Idaho | IDOC | ~9 | — | Not started |
 | Illinois | Illinois DOC | 29 | 29 | Complete |
