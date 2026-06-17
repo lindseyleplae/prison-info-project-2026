@@ -165,7 +165,7 @@ covers state systems).
 | Mississippi | MDOC | 6 state + 2 private (+15 regional) | 9 | Complete |
 | Alabama | ADOC | 14 | 14 | Complete |
 | Alaska | AK DOC | 13 (unified jail/prison) | 13 | Complete |
-| Arizona | ADCRR | ~16 | 13 | In progress |
+| Arizona | ADCRR | 16 | 16 | Complete |
 | Arkansas | ADC | ~20 | 18 | Complete |
 | Colorado | CDOC | 20 | 20 | Complete |
 | Connecticut | Connecticut DOC | 13 | 13 | Complete |
@@ -188,7 +188,7 @@ covers state systems).
 | Nebraska | NDCS | 8 | 8 | Complete |
 | Nevada | NDOC | 6 major (+ camps) | 6 | Complete |
 | New Mexico | NMCD | 9 | 9 | Complete |
-| New York | DOCCS | ~41 | 8 | In progress |
+| New York | DOCCS | ~41 | 13 | In progress |
 | North Carolina | NCDAC | 34 major (+ ~20 min-custody) | 34 | Complete |
 | North Dakota | ND DOCR | 5 secure (+ transition tier) | 5 | Complete |
 | Ohio | ODRC | 27 | 27 | Complete |
