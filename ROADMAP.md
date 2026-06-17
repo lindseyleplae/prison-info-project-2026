@@ -171,7 +171,7 @@ covers state systems).
 | Connecticut | Connecticut DOC | 13 | 13 | Complete |
 | Florida | FDC | ~50 major (+ private) | 8 | In progress |
 | Georgia | GDC | 40 | 40 | Complete |
-| Hawaii | HI DCR | ~8 | — | Not started |
+| Hawaii | HI DCR | 9 | 9 | Complete |
 | Idaho | IDOC | ~9 | — | Not started |
 | Illinois | Illinois DOC | 29 | 29 | Complete |
 | Indiana | IDOC | 18 | 18 | Complete |

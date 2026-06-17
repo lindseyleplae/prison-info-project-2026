@@ -17,6 +17,17 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Hawaii Department of Corrections and Rehabilitation (DCR), created Jan 1,
+  // 2024 from the former Department of Public Safety. A unified jail/prison
+  // system; ~800 sentenced men are held out of state at the CoreCivic-run
+  // Saguaro Correctional Center (Eloy, AZ). Mail goes directly to the in-state
+  // facility; GTL/ViaPath comms + ConnectNetwork money; no death penalty
+  // (abolished 1957). No public DCR web locator — families use VINELink. Code
+  // "HI DCR" disambiguates from West Virginia's "WV DCR".
+  'HI DCR': {
+    official: 'HI DCR Facility Page',
+    locator: 'VINELink'
+  },
   // Minnesota Department of Corrections. Ten state-operated adult prisons (all
   // "MCF-"); person-first term "incarcerated person"; off-site TextBehind mail,
   // ViaPath phones/tablets + JPay messaging/video/money; Centurion medical; no
