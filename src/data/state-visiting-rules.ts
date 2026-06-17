@@ -34,6 +34,38 @@ export interface StateVisitingRules {
 }
 
 export const stateVisitingRules: Record<string, StateVisitingRules> = {
+  id: {
+    system: 'Idaho DOC',
+    title: 'Statewide rules that apply at Idaho DOC prisons',
+    guideHref: '/states/idaho/guides/visiting/',
+    guideLabel: 'Visiting in Idaho',
+    dressCode: [
+      'Dress modestly — Idaho facilities enforce a visiting dress code that bars revealing, sheer, or provocative clothing, gang-related items, and anything resembling what residents or staff wear.',
+      'Each facility may turn away a visitor who is dressed out of code, and electronics are not allowed inside, so confirm the specific facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be on the resident\'s approved visiting list before visiting — the resident requests an application, the visitor mails it to the institution, and approval usually takes about two to four weeks after a background check. Bring a government-issued photo ID to each visit.',
+    itemsRule:
+      'Bring only what the facility allows — most personal items are not permitted in the visiting room. Money for a resident\'s account is sent through Access Corrections, never handed over at a visit.',
+    schedulingRule:
+      'Idaho has no statewide online scheduler for in-person visits — each facility sets its own visiting days and hours, so confirm with the specific institution. Men enter the system through the Reception and Diagnostic Unit at the Idaho State Correctional Institution (Kuna); women through the Pocatello Women\'s Correctional Center. Residents held out of state at the CoreCivic prisons in Arizona (the Saguaro Correctional Center and the Central Arizona Florence Correctional Complex) apply through an online form and visit on that prison\'s schedule.'
+  },
+  ia: {
+    system: 'Iowa DOC',
+    title: 'Statewide rules that apply at Iowa DOC prisons',
+    guideHref: '/states/iowa/guides/visiting/',
+    guideLabel: 'Visiting in Iowa',
+    dressCode: [
+      'Dress modestly — Iowa facilities enforce a visiting dress code that bars revealing, sheer, or provocative clothing, gang-related items, and anything resembling what incarcerated individuals or staff wear.',
+      'Each facility may turn away a visitor who is dressed out of code, and electronics are not allowed inside, so confirm the specific facility\'s rules before traveling.'
+    ],
+    idRule:
+      'Every visitor must be on the incarcerated individual\'s approved visiting list before visiting — applications go by mail to the Centralized Visiting Authority at the Mount Pleasant Correctional Facility, and the list is capped at six approved visitors plus immediate family. Bring a government-issued photo ID to each visit.',
+    itemsRule:
+      'Bring only what the facility allows — most personal items are not permitted in the visiting room. Money for an incarcerated individual\'s account is sent through Access Corrections, JPay, or Western Union, never handed over at a visit.',
+    schedulingRule:
+      'Iowa has no single statewide online scheduler — once a visitor is approved, in-person and video visits are scheduled per facility through the Ameelio Connect app, and each institution offers visiting at least four days a week. Men enter the system at the Iowa Medical and Classification Center (Coralville); women at the Iowa Correctional Institution for Women (Mitchellville).'
+  },
   hi: {
     system: 'HI DCR',
     title: 'Statewide rules that apply at HI DCR facilities',

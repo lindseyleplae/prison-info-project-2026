@@ -172,10 +172,10 @@ covers state systems).
 | Florida | FDC | ~50 major (+ private) | 8 | In progress |
 | Georgia | GDC | 40 | 40 | Complete |
 | Hawaii | HI DCR | 9 | 9 | Complete |
-| Idaho | IDOC | ~9 | — | Not started |
+| Idaho | Idaho DOC | 12 | 12 | Complete |
 | Illinois | Illinois DOC | 29 | 29 | Complete |
 | Indiana | IDOC | 18 | 18 | Complete |
-| Iowa | IDOC | ~9 | — | Not started |
+| Iowa | Iowa DOC | 9 | 9 | Complete |
 | Kansas | KDOC | 8 | 8 | Complete |
 | Kentucky | KY DOC | 14 | 14 | Complete |
 | Louisiana | DPS&C | 8 state + ~100 parish jails | 8 | Complete |

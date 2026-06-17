@@ -17,6 +17,24 @@ export interface SystemSourceLabels {
 }
 
 export const systemSourceLabels: Record<string, SystemSourceLabels> = {
+  // Idaho Department of Correction (singular "Correction"). Ten state prisons +
+  // ~700 men held out of state at two CoreCivic prisons in Arizona (Saguaro,
+  // Central Arizona Florence). Term "resident"; mail direct to the facility;
+  // ICSolutions phones + ViaPath tablets, Access Corrections money, Centurion
+  // medical; active death penalty (IMSI). Code "Idaho DOC" avoids the IDOC
+  // collision with Indiana/Illinois/Iowa.
+  'Idaho DOC': {
+    official: 'Idaho DOC Facility Page',
+    locator: 'Idaho DOC Resident/Client Search'
+  },
+  // Iowa Department of Corrections. Nine state-operated prisons (no private, no
+  // out-of-state). Term "incarcerated individual"; off-site Pigeonly mail
+  // scanning; Ameelio (nonprofit) phones/video/messaging; state-run medical; no
+  // death penalty (abolished 1965). Code "Iowa DOC" avoids the IDOC collision.
+  'Iowa DOC': {
+    official: 'Iowa DOC Facility Page',
+    locator: 'Iowa DOC Offender Search'
+  },
   // Hawaii Department of Corrections and Rehabilitation (DCR), created Jan 1,
   // 2024 from the former Department of Public Safety. A unified jail/prison
   // system; ~800 sentenced men are held out of state at the CoreCivic-run
