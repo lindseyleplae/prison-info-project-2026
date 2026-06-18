@@ -184,7 +184,7 @@ covers state systems).
 | Vermont | VTDOC | 6 | 6 | Complete |
 | Wyoming | WDOC | 5 | 5 | Complete |
 | California | CDCR | 31 | 31 | Complete |
-| Texas | TDCJ | ~100 | 52 | In progress |
+| Texas | TDCJ | ~100 | 72 | In progress |
 | Mississippi | MDOC | 6 state + 2 private (+15 regional) | 9 | Complete |
 | Alabama | ADOC | 14 | 14 | Complete |
 | Alaska | AK DOC | 13 (unified jail/prison) | 13 | Complete |
