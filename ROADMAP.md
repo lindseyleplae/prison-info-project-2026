@@ -123,17 +123,25 @@ voice calls are free statewide (since Aug 2025) via Securus, with tablets/messag
 medical is in-house (no private contractor) with CANY as the independent monitor. Closed prisons
 (Great Meadow/Sullivan 2024, Bare Hill March 2026, Southport 2022, Downstate 2022) are excluded;
 county and NYC jails (Rikers) are a separate tier noted in the overview, not paged.
-Florida (FDC) launched: state overview, all 6 guides, the two data entries, and the first 8 facility
-pages — the three main men's reception centers (Reception and Medical Center [Lake Butler, also the
-prison hospital], Central Florida Reception [Orlando], South Florida Reception [Doral]) plus the
-Panhandle reception center (Northwest Florida Reception [Chipley]), Lowell [Ocala — the women's
-prison + women's reception + the women's death-sentence designation], Florida State Prison [Raiford —
-the execution chamber + male death-row cells], Union [Raiford — male death-row housing], and
-Everglades [Miami]. Florida is one of the largest systems (~80,000+), with an active death penalty
-and seven privately operated prisons (GEO/MTC/CoreCivic, overseen by the Dept. of Management
-Services). Distinctive: routine personal mail is scanned off-site by Smart Communications (P.O. Box
-23608, Tampa) and read on a tablet; commissary deposits moved to CorrectPay (2024); medical via
-Centurion. ~40 major institutions + the seven private prisons remain to build.
+Florida (FDC) in progress: state overview, all 6 guides, the two data entries, and 38 facility pages.
+The launch set covered the reception centers and death-penalty-related institutions (Reception and
+Medical Center [Lake Butler, also the prison hospital], Central Florida Reception [Orlando], South
+Florida Reception [Doral], Northwest Florida Reception [Chipley]; Lowell [Ocala — the women's prison +
+women's reception + the women's death-sentence designation]; Florida State Prison [Raiford — the
+execution chamber + male death-row cells]; Union [Raiford — male death-row housing]); a second batch
+of 10 added major institutions across the regions (Santa Rosa, Suwannee, Okeechobee, Wakulla,
+Columbia, Dade, Tomoka, Apalachee, Charlotte, Homestead [women]) plus Everglades; and a third batch
+of 20 added state-run general-population men's institutions statewide — Avon Park, Calhoun, Century,
+Cross City, Franklin, Gulf, Hamilton, Hardee, Sumter, DeSoto Annex, Taylor, Holmes, Jackson, Lake,
+Liberty, Madison, Marion, Martin, Mayo Annex, and Polk. Notes from the third batch: Baker CI is
+temporarily closed (converted in 2025 to a non-FDC immigration-detention use) and Hendry CI is
+permanently closed — both excluded; DeSoto and Mayo are paged as their operating Annexes (the original
+main units closed); several panhandle prisons run on Central Time. Florida is one of the largest
+systems (~80,000+), with an active death penalty and seven privately operated prisons
+(GEO/MTC/CoreCivic, overseen by the Dept. of Management Services). Distinctive: routine personal mail
+is scanned off-site by Smart Communications (P.O. Box 23608, Tampa) and read on a tablet; commissary
+deposits moved to CorrectPay (2024); medical via Centurion. About a dozen more state-run major
+institutions and the seven private prisons remain to build.
 Massachusetts is now complete — the final 5 facilities were added (Pondville, Northeastern,
 Boston Pre-Release, the Lemuel Shattuck Hospital correctional unit, and MASAC at Plymouth),
 bringing all 13 MA DOC prisons online. MASAC is a Section 35 civil-commitment substance-use
@@ -175,7 +183,7 @@ covers state systems).
 | Arkansas | ADC | ~20 | 18 | Complete |
 | Colorado | CDOC | 20 | 20 | Complete |
 | Connecticut | Connecticut DOC | 13 | 13 | Complete |
-| Florida | FDC | ~50 major (+ private) | 18 | In progress |
+| Florida | FDC | ~50 major (+ private) | 38 | In progress |
 | Georgia | GDC | 40 | 40 | Complete |
 | Hawaii | HI DCR | 9 | 9 | Complete |
 | Idaho | Idaho DOC | 12 | 12 | Complete |
