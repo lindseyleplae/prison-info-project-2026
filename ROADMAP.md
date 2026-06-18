@@ -107,16 +107,22 @@ McClure [the only women's prison + women's intake + the women's death-sentence d
 (state law requires it); comms via ViaPath (phones) + GettingOut (tablets/video). The minimum-custody
 conservation camps and transitional housing are a separate tier (noted, not paged; two camps close
 July 2026; the former Warm Springs prison closed 2022).
-New York (DOCCS) launched: state overview, all 6 guides, the two data entries, and the first 8
-facility pages — Sing Sing [marquee max, on the Hudson ~30 mi from NYC], Bedford Hills [the
-women's maximum-security prison + women's reception + a women's medical unit], Clinton/Dannemora
-[far-north max], Attica [Western NY max], Elmira [the primary men's reception center], Fishkill
-[medium + a Regional Medical Unit], Green Haven [Hudson Valley max], and Mohawk [medium + the
-statewide Walsh Regional Medical Unit]. New York has no death penalty and no private prisons;
-incoming mail is photocopied at the facility (no off-site vendor); voice calls are free statewide
-(since Aug 2025) via Securus, with tablets/messaging/money via JPay; medical is in-house (no
-private contractor) with CANY as the independent monitor. The system has been closing prisons
-(Great Meadow/Sullivan 2024, Bare Hill 2026); ~33 DOCCS facilities remain to build.
+New York (DOCCS) complete: state overview, all 6 guides, the two data entries, and all 41 open
+DOCCS facility pages. The maximum-security set — Sing Sing, Attica, Clinton/Dannemora, Green Haven,
+Coxsackie, Shawangunk, Upstate [supermax/SHU, Malone], Five Points, Eastern NY, and Auburn; the
+women's prisons Bedford Hills [max + women's reception], Taconic [medium, Bedford Hills], and Albion
+[medium, Orleans County]; the reception/medical hubs Elmira, Wende, Fishkill [RMU], Mohawk [Walsh
+RMU], Marcy + Mid-State [mental-health missions], and Woodbourne [RMU]; the medium-security tier
+Adirondack, Altona, Cape Vincent, Cayuga, Collins, Franklin, Gouverneur, Greene, Groveland, Hudson,
+Orleans, Otisville, Riverview, Ulster, Wallkill, Washington [the open Comstock prison], and Wyoming;
+the ASACTC treatment annex Hale Creek; the Lakeview Shock Incarceration facility [men & women]; the
+minimum-security NYC reentry/work-release facility Queensboro; and the Edgecombe RTF [NYC; no
+standard visiting program; the statewide mail exception]. New York has no death penalty and no
+private prisons; incoming mail is photocopied at the facility (no off-site vendor, except Edgecombe);
+voice calls are free statewide (since Aug 2025) via Securus, with tablets/messaging/money via JPay;
+medical is in-house (no private contractor) with CANY as the independent monitor. Closed prisons
+(Great Meadow/Sullivan 2024, Bare Hill March 2026, Southport 2022, Downstate 2022) are excluded;
+county and NYC jails (Rikers) are a separate tier noted in the overview, not paged.
 Florida (FDC) launched: state overview, all 6 guides, the two data entries, and the first 8 facility
 pages — the three main men's reception centers (Reception and Medical Center [Lake Butler, also the
 prison hospital], Central Florida Reception [Orlando], South Florida Reception [Doral]) plus the
@@ -188,7 +194,7 @@ covers state systems).
 | Nebraska | NDCS | 8 | 8 | Complete |
 | Nevada | NDOC | 6 major (+ camps) | 6 | Complete |
 | New Mexico | NMCD | 9 | 9 | Complete |
-| New York | DOCCS | ~41 | 13 | In progress |
+| New York | DOCCS | 41 | 41 | Complete |
 | North Carolina | NCDAC | 34 major (+ ~20 min-custody) | 34 | Complete |
 | North Dakota | ND DOCR | 5 secure (+ transition tier) | 5 | Complete |
 | Ohio | ODRC | 27 | 27 | Complete |
