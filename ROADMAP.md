@@ -169,7 +169,7 @@ covers state systems).
 | Arkansas | ADC | ~20 | 18 | Complete |
 | Colorado | CDOC | 20 | 20 | Complete |
 | Connecticut | Connecticut DOC | 13 | 13 | Complete |
-| Florida | FDC | ~50 major (+ private) | 8 | In progress |
+| Florida | FDC | ~50 major (+ private) | 18 | In progress |
 | Georgia | GDC | 40 | 40 | Complete |
 | Hawaii | HI DCR | 9 | 9 | Complete |
 | Idaho | Idaho DOC | 12 | 12 | Complete |
