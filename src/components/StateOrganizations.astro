@@ -1,0 +1,32 @@
+---
+// Per-state "Organizations that help families" section for the state overview page.
+// Independent family-support / advocacy / ministry nonprofits, sourced from
+// src/data/state-organizations.ts (verified links only). Renders nothing when a
+// state has no listed organizations.
+import type { StateOrg } from '../data/state-organizations';
+
+interface Props {
+  orgs: StateOrg[];
+}
+
+const { orgs } = Astro.props;
+---
+
+{orgs.length > 0 && (
+  <section id="organizations">
+    <h2>Organizations that help families</h2>
+    <p class="org-intro">
+      Independent organizations in this state that support families of incarcerated
+      people. They are not affiliated with this site, and their services and contact
+      details can change — contact an organization directly to confirm what it offers.
+    </p>
+    <div class="section-card-list">
+      {orgs.map((org) => (
+        <a class="section-card" href={org.url} target="_blank" rel="noopener noreferrer">
+          <h3>{org.name}</h3>
+          <p>{org.description}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+)}

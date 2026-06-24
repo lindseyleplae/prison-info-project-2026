@@ -4,6 +4,8 @@ import PageLayout from '../../../layouts/PageLayout.astro';
 import StartHere from '../../../components/StartHere.astro';
 import TopicIcon from '../../../components/TopicIcon.astro';
 import { topicMap } from '../../../data/topics';
+import { stateOrganizations } from '../../../data/state-organizations';
+import StateOrganizations from '../../../components/StateOrganizations.astro';
 
 export async function getStaticPaths() {
   const [states, guides, facilities] = await Promise.all([
@@ -35,6 +37,8 @@ guides.sort((left, right) => {
 
 facilities.sort((left, right) => left.data.title.localeCompare(right.data.title));
 
+const orgs = stateOrganizations[entry.data.slug] ?? [];
+
 // Group facilities by who they house once a state has enough of them for a
 // flat list to become a wall (small states keep the simple single list).
 // A facility housing both men and women appears in both groups.
@@ -62,6 +66,7 @@ const facilityGroups =
   <nav class="page-jump-links" aria-label="Sections on this page">
     <a href="#state-guides">State guides</a>
     <a href="#facilities">Facilities ({facilities.length})</a>
+    {orgs.length > 0 && <a href="#organizations">Organizations</a>}
   </nav>
 
   <section id="state-guides">
@@ -98,4 +103,6 @@ const facilityGroups =
       </>
     ))}
   </section>
+
+  <StateOrganizations orgs={orgs} />
 </PageLayout>
