@@ -36,9 +36,17 @@ sources:
     url: "https://nebraskalegislature.gov/FloorDocs/109/PDF/Agencies/Inspector_General_of_the_Nebraska_Correctional_System/600_20250915-155923.pdf"
   - name: "CHI Health Creighton University Medical Center — Bergan Mercy (Omaha)"
     url: "https://www.chihealth.com/locations/cumc-bergan-mercy"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+  - name: "WOWT / 10-11 NOW — Nebraska to move juvenile inmates from Omaha facility to Lincoln (April 2, 2026)"
+    url: "https://www.wowt.com/2026/04/02/nebraska-move-juvenile-inmates-omaha-facility-lincoln-cost-cutting-measure/"
+  - name: "Nebraska Public Media — Watchdogs raise questions about plan to move incarcerated youth between facilities (Feb. 10, 2026)"
+    url: "https://nebraskapublicmedia.org/en/news/news-articles/nebraskas-prison-and-child-welfare-watchdogs-raise-questions-about-proposal-to-move-incarcerated-youth-between-facilities/"
+lastVerified: 2026-06-26
+reviewBy: 2026-09-26
 ---
+
+:::callout{variant="warning"}
+**Planned change (2026): the young men held here are being moved to Lincoln.** In April 2026 the Nebraska Department of Correctional Services announced it is vacating this Omaha facility and moving the people sentenced as adults who are held here to a separately-housed unit at the **Reception and Treatment Center** in Lincoln, with that unit scheduled to be ready around **July 1, 2026**. Because NDCS had not yet updated its own facility listings, confirm where the person is actually housed on the **[NDCS inmate locator](https://dcs-inmatesearch.ne.gov/Corrections/COR_input.jsp)** before traveling — the visiting location may move from Omaha to Lincoln.
+:::
 
 :::callout{variant="warning"}
 **This is an adult-system prison for younger males who were sentenced as adults — it is not a juvenile-justice facility.** Newly sentenced men first go through intake at the Reception and Treatment Center in Lincoln, and youthful offenders are then transferred here, so a person may be at the Lincoln intake center before arriving at NCYF. Visits must be scheduled online in advance; confirm the schedule, and that the visitor is approved, by calling **(402) 595-2000** before traveling. Personal mail goes to a scanning center in Maryland, not the prison (see Mail, below).
