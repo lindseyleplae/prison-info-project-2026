@@ -12,12 +12,14 @@ import '../styles/print.css';
 
 const {
   title,
+  seoTitle,
   description,
   image,
   noindex = false,
   structuredData = []
 } = Astro.props as {
   title?: string;
+  seoTitle?: string;
   description?: string;
   image?: string;
   noindex?: boolean;
@@ -26,6 +28,7 @@ const {
 
 const seo = buildSeo({
   title,
+  seoTitle,
   description,
   image,
   noindex,

@@ -5,15 +5,18 @@ import { createBreadcrumbStructuredData } from '../lib/seo';
 
 const {
   title,
+  seoTitle,
   description
 } = Astro.props as {
   title: string;
+  seoTitle?: string;
   description?: string;
 };
 ---
 
 <BaseLayout
   title={title}
+  seoTitle={seoTitle}
   description={description}
   structuredData={[
     createBreadcrumbStructuredData([

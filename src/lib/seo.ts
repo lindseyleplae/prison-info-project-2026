@@ -4,6 +4,11 @@ export type StructuredData = Record<string, unknown>;
 
 export type SeoInput = {
   title?: string;
+  /**
+   * A keyword-richer title for the <title> tag and social share cards, when the
+   * visible page heading should stay short. Falls back to `title` when unset.
+   */
+  seoTitle?: string;
   description?: string;
   canonicalPath?: string;
   image?: string;
@@ -22,7 +27,8 @@ function toAbsoluteUrl(path: string) {
 
 export function buildSeo(input: SeoInput) {
   const description = input.description ?? siteConfig.description;
-  const pageTitle = input.title ? `${input.title} | ${siteConfig.name}` : siteConfig.name;
+  const titleBase = input.seoTitle ?? input.title;
+  const pageTitle = titleBase ? `${titleBase} | ${siteConfig.name}` : siteConfig.name;
   const canonical = input.canonicalPath ? toAbsoluteUrl(input.canonicalPath) : toAbsoluteUrl('/');
 
   return {

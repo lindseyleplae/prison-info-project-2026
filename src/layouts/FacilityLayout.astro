@@ -51,6 +51,7 @@ const facilitySources = [
 
 <BaseLayout
   title={facility.data.title}
+  seoTitle={`${facility.data.title} Visiting Hours, Mail & Phone`}
   description={facility.data.summary ?? facility.data.address}
   structuredData={[
     createBreadcrumbStructuredData(breadcrumbItems),
