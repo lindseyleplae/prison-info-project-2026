@@ -21,7 +21,9 @@ const {
   stateLabel,
   lastReviewed,
   sources = [],
-  relatedNationalGuide
+  relatedNationalGuide,
+  lang = 'en',
+  hasSpanish = false
 } = Astro.props as {
   title: string;
   description?: string;
@@ -30,6 +32,8 @@ const {
   lastReviewed?: Date;
   sources?: Source[];
   relatedNationalGuide?: RelatedGuide;
+  lang?: 'en' | 'es';
+  hasSpanish?: boolean;
 };
 
 const breadcrumbItems = [
@@ -47,6 +51,8 @@ const breadcrumbItems = [
 <BaseLayout
   title={title}
   description={description}
+  lang={lang}
+  hasSpanish={hasSpanish}
   structuredData={[createBreadcrumbStructuredData(breadcrumbItems)]}
 >
   <div class="container guide-grid">

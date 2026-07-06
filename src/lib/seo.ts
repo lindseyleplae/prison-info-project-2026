@@ -21,8 +21,17 @@ export type BreadcrumbInput = {
   href?: string;
 };
 
-function toAbsoluteUrl(path: string) {
+export function toAbsoluteUrl(path: string) {
   return new URL(path, `https://${siteConfig.domain}`).toString();
+}
+
+// Given any page path, return its counterpart path in the other language.
+// English lives at the bare path; Spanish mirrors it under /es with the same slug.
+export function altLangPaths(pathname: string) {
+  const isEs = pathname === '/es' || pathname.startsWith('/es/');
+  const enPath = isEs ? pathname.replace(/^\/es(?=\/|$)/, '') || '/' : pathname;
+  const esPath = isEs ? pathname : pathname === '/' ? '/es/' : `/es${pathname}`;
+  return { isEs, enPath, esPath };
 }
 
 export function buildSeo(input: SeoInput) {

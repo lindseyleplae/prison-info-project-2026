@@ -39,7 +39,7 @@ const stringRecordField = z.record(z.string(), z.string().trim().min(1));
 const fileId = ({ entry }: { entry: string }) => entry.replace(/\.md$/, '');
 
 const nationalGuides = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/national-guides' }),
+  loader: glob({ pattern: '**/*.md', base: './src/content/national-guides', generateId: fileId }),
   schema: z
     .object({
       title: z.string().trim().min(1),

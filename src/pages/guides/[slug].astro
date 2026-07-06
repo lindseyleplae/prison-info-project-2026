@@ -3,15 +3,19 @@ import { getCollection, render } from 'astro:content';
 import GuideLayout from '../../layouts/GuideLayout.astro';
 
 export async function getStaticPaths() {
-  const entries = await getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'en');
+  const [enEntries, esEntries] = await Promise.all([
+    getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'en'),
+    getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'es')
+  ]);
+  const spanishSlugs = new Set(esEntries.map((e) => e.data.slug));
 
-  return entries.map((entry) => ({
+  return enEntries.map((entry) => ({
     params: { slug: entry.data.slug },
-    props: { entry }
+    props: { entry, hasSpanish: spanishSlugs.has(entry.data.slug) }
   }));
 }
 
-const { entry } = Astro.props;
+const { entry, hasSpanish } = Astro.props;
 const { Content, headings } = await render(entry);
 ---
 
@@ -21,6 +25,7 @@ const { Content, headings } = await render(entry);
   headings={headings}
   lastReviewed={entry.data.lastReviewed}
   sources={entry.data.sources}
+  hasSpanish={hasSpanish}
 >
   <Content />
 </GuideLayout>

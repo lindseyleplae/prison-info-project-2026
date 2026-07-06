@@ -3,7 +3,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Feedback from '../components/Feedback.astro';
 import DisclaimerBar from '../components/DisclaimerBar.astro';
-import { buildSeo, createWebsiteStructuredData, type StructuredData } from '../lib/seo';
+import { buildSeo, createWebsiteStructuredData, altLangPaths, toAbsoluteUrl, type StructuredData } from '../lib/seo';
 import '../styles/tokens.css';
 import '../styles/base.css';
 import '../styles/layout.css';
@@ -16,7 +16,9 @@ const {
   description,
   image,
   noindex = false,
-  structuredData = []
+  structuredData = [],
+  lang = 'en',
+  hasSpanish = false
 } = Astro.props as {
   title?: string;
   seoTitle?: string;
@@ -24,7 +26,11 @@ const {
   image?: string;
   noindex?: boolean;
   structuredData?: StructuredData[];
+  lang?: 'en' | 'es';
+  hasSpanish?: boolean;
 };
+
+const { enPath, esPath } = altLangPaths(Astro.url.pathname);
 
 const seo = buildSeo({
   title,
@@ -38,13 +44,21 @@ const seo = buildSeo({
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{seo.title}</title>
     <meta name="description" content={seo.description} />
     <link rel="canonical" href={seo.canonical} />
+    <meta property="og:locale" content={lang === 'es' ? 'es_US' : 'en_US'} />
+    {hasSpanish && (
+      <>
+        <link rel="alternate" hreflang="en" href={toAbsoluteUrl(enPath)} />
+        <link rel="alternate" hreflang="es" href={toAbsoluteUrl(esPath)} />
+        <link rel="alternate" hreflang="x-default" href={toAbsoluteUrl(enPath)} />
+      </>
+    )}
     <meta property="og:type" content="website" />
     <meta property="og:title" content={seo.title} />
     <meta property="og:description" content={seo.description} />
@@ -62,7 +76,7 @@ const seo = buildSeo({
     <a class="skip-link" href="#main-content">Skip to content</a>
     <div class="site-shell">
       <DisclaimerBar />
-      <Header />
+      <Header lang={lang} enPath={enPath} esPath={esPath} hasSpanish={hasSpanish} />
       <main id="main-content" class="site-main">
         <slot />
       </main>
