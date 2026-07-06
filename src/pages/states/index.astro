@@ -2,11 +2,11 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const states = await getCollection('states', ({ data }) => !data.draft);
+const states = await getCollection('states', ({ data }) => !data.draft && data.lang === 'en');
 states.sort((a, b) => a.data.title.localeCompare(b.data.title));
 
-const stateGuides = await getCollection('state-guides', ({ data }) => !data.draft);
-const facilities = await getCollection('facilities', ({ data }) => !data.draft);
+const stateGuides = await getCollection('state-guides', ({ data }) => !data.draft && data.lang === 'en');
+const facilities = await getCollection('facilities', ({ data }) => !data.draft && data.lang === 'en');
 ---
 
 <BaseLayout title="States" description="State-specific prison visiting guides and facility information.">

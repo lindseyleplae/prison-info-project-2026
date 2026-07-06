@@ -3,8 +3,8 @@ import { getCollection } from 'astro:content';
 import { siteConfig, siteNavigation } from '../data/site';
 
 const [guides, tools] = await Promise.all([
-  getCollection('national-guides', ({ data }) => !data.draft),
-  getCollection('tools', ({ data }) => !data.draft)
+  getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'en'),
+  getCollection('tools', ({ data }) => !data.draft && data.lang === 'en')
 ]);
 
 guides.sort((left, right) => (left.data.order ?? 999) - (right.data.order ?? 999) || left.data.title.localeCompare(right.data.title));

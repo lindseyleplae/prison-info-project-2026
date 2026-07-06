@@ -4,8 +4,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 const [homeEntry, guides, states] = await Promise.all([
   getEntry('pages', 'home'),
-  getCollection('national-guides', ({ data }) => !data.draft),
-  getCollection('states', ({ data }) => !data.draft)
+  getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'en'),
+  getCollection('states', ({ data }) => !data.draft && data.lang === 'en')
 ]);
 
 if (!homeEntry) {

@@ -3,7 +3,7 @@ import { getCollection, render } from 'astro:content';
 import GuideLayout from '../../layouts/GuideLayout.astro';
 
 export async function getStaticPaths() {
-  const entries = await getCollection('national-guides', ({ data }) => !data.draft);
+  const entries = await getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'en');
 
   return entries.map((entry) => ({
     params: { slug: entry.data.slug },

@@ -9,9 +9,9 @@ import StateOrganizations from '../../../components/StateOrganizations.astro';
 
 export async function getStaticPaths() {
   const [states, guides, facilities] = await Promise.all([
-    getCollection('states', ({ data }) => !data.draft),
-    getCollection('state-guides', ({ data }) => !data.draft),
-    getCollection('facilities', ({ data }) => !data.draft)
+    getCollection('states', ({ data }) => !data.draft && data.lang === 'en'),
+    getCollection('state-guides', ({ data }) => !data.draft && data.lang === 'en'),
+    getCollection('facilities', ({ data }) => !data.draft && data.lang === 'en')
   ]);
 
   return states.map((entry) => ({

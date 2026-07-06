@@ -19,8 +19,11 @@ export type FacilityIndexItem = {
 
 export function buildFacilityIndex(
   facilities: CollectionEntry<'facilities'>[],
-  states: CollectionEntry<'states'>[]
+  states: CollectionEntry<'states'>[],
+  lang: 'en' | 'es' = 'en'
 ): FacilityIndexItem[] {
+  const routePrefix = lang === 'es' ? '/es' : '';
+
   const stateLookup = new Map(
     states.map((entry) => [
       entry.data.state,
@@ -34,6 +37,10 @@ export function buildFacilityIndex(
   const items: FacilityIndexItem[] = [];
 
   for (const entry of facilities) {
+      if (entry.data.lang !== lang) {
+        continue;
+      }
+
       const stateMeta = stateLookup.get(entry.data.state);
       if (!stateMeta) {
         continue;
@@ -45,7 +52,7 @@ export function buildFacilityIndex(
         state: entry.data.state,
         stateTitle: stateMeta.title,
         stateSlug: stateMeta.slug,
-        route: `/states/${stateMeta.slug}/facilities/${entry.data.slug}/`,
+        route: `${routePrefix}/states/${stateMeta.slug}/facilities/${entry.data.slug}/`,
         city: entry.data.city,
         county: entry.data.county,
         system: entry.data.system,
@@ -60,11 +67,11 @@ export function buildFacilityIndex(
   return items.sort((left, right) => left.title.localeCompare(right.title));
 }
 
-export async function getFacilityIndex() {
+export async function getFacilityIndex(lang: 'en' | 'es' = 'en') {
   const [facilities, states] = await Promise.all([
-    getCollection('facilities', ({ data }) => !data.draft),
-    getCollection('states', ({ data }) => !data.draft)
+    getCollection('facilities', ({ data }) => !data.draft && data.lang === lang),
+    getCollection('states', ({ data }) => !data.draft && data.lang === lang)
   ]);
 
-  return buildFacilityIndex(facilities, states);
+  return buildFacilityIndex(facilities, states, lang);
 }

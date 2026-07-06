@@ -7,10 +7,16 @@ import { prisonContentBlocks } from './src/lib/remark-content-blocks.mjs';
 export default defineConfig({
   output: 'static',
   site: 'https://prisonvisitorguide.org',
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'es'],
+    routing: { prefixDefaultLocale: false }
+  },
   integrations: [
     sitemap({
       // Internal style guide — not search-relevant; the page itself is noindex.
-      filter: (page) => !page.includes('/showcase/')
+      filter: (page) => !page.includes('/showcase/'),
+      i18n: { defaultLocale: 'en', locales: { en: 'en', es: 'es' } }
     })
   ],
   markdown: {

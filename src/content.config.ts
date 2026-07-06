@@ -49,6 +49,8 @@ const nationalGuides = defineCollection({
       order: z.number().int().positive().optional(),
       sources: z.array(sourceField).optional(),
       lastReviewed: z.coerce.date().optional(),
+      sourceReviewed: z.coerce.date().optional(),
+      lang: z.enum(['en', 'es']).default('en'),
       draft: z.boolean().optional().default(false)
     })
     .strict()
@@ -72,6 +74,8 @@ const states = defineCollection({
       terminology: stringRecordField.optional(),
       hotlines: stringRecordField.optional(),
       links: linkField.optional(),
+      sourceReviewed: z.coerce.date().optional(),
+      lang: z.enum(['en', 'es']).default('en'),
       draft: z.boolean().optional().default(false)
     })
     .strict()
@@ -92,6 +96,8 @@ const stateGuides = defineCollection({
       order: z.number().int().positive().optional(),
       sources: z.array(sourceField).optional(),
       lastReviewed: z.coerce.date().optional(),
+      sourceReviewed: z.coerce.date().optional(),
+      lang: z.enum(['en', 'es']).default('en'),
       draft: z.boolean().optional().default(false)
     })
     .strict()
@@ -141,6 +147,8 @@ const facilities = defineCollection({
       sources: z.array(sourceField).optional(),
       lastVerified: z.coerce.date(),
       reviewBy: z.coerce.date(),
+      sourceReviewed: z.coerce.date().optional(),
+      lang: z.enum(['en', 'es']).default('en'),
       draft: z.boolean().optional().default(false)
     })
     .strict()
@@ -154,6 +162,7 @@ const pages = defineCollection({
       slug: slugField,
       description: z.string().trim().min(1).optional(),
       summary: z.string().trim().min(1).optional(),
+      lang: z.enum(['en', 'es']).default('en'),
       draft: z.boolean().optional().default(false)
     })
     .strict()
@@ -169,6 +178,7 @@ const tools = defineCollection({
       summary: z.string().trim().min(1).optional(),
       printLabel: z.string().trim().min(1).optional(),
       updatedAt: z.coerce.date().optional(),
+      lang: z.enum(['en', 'es']).default('en'),
       draft: z.boolean().optional().default(false)
     })
     .strict()

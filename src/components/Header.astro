@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import { siteConfig, siteNavigation } from '../data/site';
 
-const guides = await getCollection('national-guides', ({ data }) => !data.draft);
+const guides = await getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'en');
 
 guides.sort((left, right) => (left.data.order ?? 999) - (right.data.order ?? 999) || left.data.title.localeCompare(right.data.title));
 ---

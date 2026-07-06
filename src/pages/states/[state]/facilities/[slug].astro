@@ -4,8 +4,8 @@ import FacilityLayout from '../../../../layouts/FacilityLayout.astro';
 
 export async function getStaticPaths() {
   const [states, facilities] = await Promise.all([
-    getCollection('states', ({ data }) => !data.draft),
-    getCollection('facilities', ({ data }) => !data.draft)
+    getCollection('states', ({ data }) => !data.draft && data.lang === 'en'),
+    getCollection('facilities', ({ data }) => !data.draft && data.lang === 'en')
   ]);
 
   const stateByCode = new Map(states.map((entry) => [entry.data.state, entry]));

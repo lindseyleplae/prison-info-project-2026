@@ -3,8 +3,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const [states, allFacilities] = await Promise.all([
-  getCollection('states', ({ data }) => !data.draft),
-  getCollection('facilities', ({ data }) => !data.draft)
+  getCollection('states', ({ data }) => !data.draft && data.lang === 'en'),
+  getCollection('facilities', ({ data }) => !data.draft && data.lang === 'en')
 ]);
 
 states.sort((a, b) => a.data.title.localeCompare(b.data.title));

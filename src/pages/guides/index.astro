@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const guides = await getCollection('national-guides', ({ data }) => !data.draft);
+const guides = await getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'en');
 guides.sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
 ---
 
