@@ -106,5 +106,3 @@ For detailed information about visiting and communicating with someone at a Texa
 - [Sending Money](/states/texas/guides/money/) — how to add funds to a TDCJ trust account
 - [Medical & Mental Health](/states/texas/guides/medical/) — healthcare in TDCJ facilities
 - [Transfers](/states/texas/guides/transfers/) — what happens during transfers
-</content>
-</invoke>
