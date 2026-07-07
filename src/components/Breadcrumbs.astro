@@ -1,17 +1,23 @@
 ---
 import { buildBreadcrumbs } from '../lib/breadcrumbs';
+import { t, type Lang } from '../lib/ui-strings';
 
-const { pageTitle, stateLabel } = Astro.props;
+const { pageTitle, stateLabel, lang = 'en' } = Astro.props as {
+  pageTitle?: string;
+  stateLabel?: string;
+  lang?: Lang;
+};
 const items = buildBreadcrumbs({
   pathname: Astro.url.pathname,
   pageTitle,
-  stateLabel
+  stateLabel,
+  lang
 });
 ---
 
 {
   items.length > 1 && (
-    <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <nav class="breadcrumbs" aria-label={t(lang, 'crumb.breadcrumbLabel')}>
       <ol>
         {items.map((item, index) => (
           <li>

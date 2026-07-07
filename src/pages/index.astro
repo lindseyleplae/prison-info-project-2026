@@ -18,7 +18,7 @@ states.sort((left, right) => left.data.title.localeCompare(right.data.title));
 const { Content } = await render(homeEntry);
 ---
 
-<BaseLayout title={homeEntry.data.title} description={homeEntry.data.description}>
+<BaseLayout title={homeEntry.data.title} description={homeEntry.data.description} hasSpanish={true}>
   <div class="container">
     <section class="page-intro">
       <div class="content-width">

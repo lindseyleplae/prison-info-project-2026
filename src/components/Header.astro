@@ -1,68 +1,26 @@
 ---
-import { getCollection } from 'astro:content';
-import { siteConfig, siteNavigation } from '../data/site';
+// Site header dispatcher. English and Spanish headers live in their own
+// top-level components (HeaderEn / HeaderEs) so Astro preserves each one's
+// exact inter-tag whitespace — this is what keeps English pages byte-identical
+// while Spanish pages get localized labels and /es links. The shared menu
+// <script> lives here so it renders once regardless of language.
+import HeaderEn from './HeaderEn.astro';
+import HeaderEs from './HeaderEs.astro';
+import type { Lang } from '../lib/ui-strings';
 
 const { lang = 'en', enPath = '/', esPath = '/es/', hasSpanish = false } = Astro.props as {
-  lang?: 'en' | 'es';
+  lang?: Lang;
   enPath?: string;
   esPath?: string;
   hasSpanish?: boolean;
 };
-
-const guides = await getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'en');
-
-guides.sort((left, right) => (left.data.order ?? 999) - (right.data.order ?? 999) || left.data.title.localeCompare(right.data.title));
 ---
 
-<header class="site-header">
-  <div class="header-inner">
-    <a class="site-title" href="/">{siteConfig.name}</a>
-
-    <button type="button" class="mobile-menu-toggle" aria-expanded="false" aria-controls="primary-nav">
-      Menu
-    </button>
-
-    <nav id="primary-nav" class="site-nav" aria-label="Primary">
-      <div class="nav-group" data-nav-group>
-        <div class="nav-group__trigger">
-          <a class="nav-link" href="/guides/">National Guides</a>
-          <button
-            type="button"
-            class="nav-submenu-toggle"
-            aria-expanded="false"
-            aria-controls="nav-menu-guides"
-            data-submenu-toggle
-          >
-            <span class="sr-only">Toggle National Guides submenu</span>
-            <span aria-hidden="true">+</span>
-          </button>
-        </div>
-        <div id="nav-menu-guides" class="nav-menu">
-          <a href="/guides/" class="nav-menu__view-all">All national guides</a>
-          {guides.map((guide) => (
-            <a href={`/guides/${guide.data.slug}/`}>{guide.data.title}</a>
-          ))}
-        </div>
-      </div>
-
-      <a class="nav-link" href="/states/">States</a>
-
-      {siteNavigation.staticLinks.map((link) => (
-        <a class="nav-link" href={link.href}>
-          {link.label}
-        </a>
-      ))}
-
-      {hasSpanish && (
-        <div class="lang-toggle" aria-label="Language / Idioma">
-          <a class="nav-link" href={enPath} hreflang="en" aria-current={lang === 'en' ? 'true' : undefined}>English</a>
-          <span class="lang-toggle__sep" aria-hidden="true">·</span>
-          <a class="nav-link" href={esPath} hreflang="es" aria-current={lang === 'es' ? 'true' : undefined}>Español</a>
-        </div>
-      )}
-    </nav>
-  </div>
-</header>
+{lang === 'es' ? (
+  <HeaderEs enPath={enPath} esPath={esPath} hasSpanish={hasSpanish} />
+) : (
+  <HeaderEn enPath={enPath} esPath={esPath} hasSpanish={hasSpanish} />
+)}{' '}
 
 <script is:inline>
   const toggle = document.querySelector('.mobile-menu-toggle');

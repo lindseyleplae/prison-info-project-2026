@@ -5,12 +5,14 @@
 // (by name) — honest when the source is a printed policy or an unpublished
 // reference. Renders nothing when there are no sources, so it is safe to drop
 // into any page.
+import { t, type Lang } from '../lib/ui-strings';
+
 interface Source {
   name: string;
   url?: string;
 }
 
-const { sources = [] } = Astro.props as { sources?: Source[] };
+const { sources = [], lang = 'en' } = Astro.props as { sources?: Source[]; lang?: Lang };
 
 // De-duplicate by url (or name when url is absent) so a link surfaced from
 // `links` and repeated in frontmatter does not appear twice.
@@ -24,7 +26,25 @@ const items = sources.filter((source) => {
 });
 ---
 
-{items.length > 0 && (
+{items.length > 0 && lang === 'es' && (
+  <section class="sources" aria-labelledby="sources-heading">
+    <h2 id="sources-heading">{t('es', 'sources.heading')}</h2>
+    <p class="sources__intro">{t('es', 'sources.intro')}</p>
+    <ul class="sources__list">
+      {items.map((source) => (
+        <li>
+          {source.url ? (
+            <a href={source.url} target="_blank" rel="noopener nofollow">{source.name}</a>
+          ) : (
+            <span>{source.name}</span>
+          )}
+        </li>
+      ))}
+    </ul>
+  </section>
+)}
+
+{items.length > 0 && lang !== 'es' && (
   <section class="sources" aria-labelledby="sources-heading">
     <h2 id="sources-heading">Sources</h2>
     <p class="sources__intro">

@@ -1,0 +1,48 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const states = await getCollection('states', ({ data }) => !data.draft && data.lang === 'es');
+states.sort((a, b) => a.data.title.localeCompare(b.data.title));
+
+const stateGuides = await getCollection('state-guides', ({ data }) => !data.draft && data.lang === 'es');
+const facilities = await getCollection('facilities', ({ data }) => !data.draft && data.lang === 'es');
+---
+
+<BaseLayout
+  title="Estados"
+  description="Guías de visitas en prisión e información de instituciones específicas de cada estado."
+  lang="es"
+  hasSpanish={true}
+>
+  <div class="container">
+    <div class="content-width">
+      <h1>Estados</h1>
+      <p class="subtitle">
+        Cada estado administra su sistema penitenciario de manera diferente. Seleccione un estado para ver las reglas de visita específicas,
+        la información de las instituciones y los datos de contacto.
+      </p>
+    </div>
+
+    <div class="content-width section-card-list">
+      {states.map((state) => {
+        const guideCount = stateGuides.filter((guide) => guide.data.state === state.data.state).length;
+        const facilityCount = facilities.filter((facility) => facility.data.state === state.data.state).length;
+
+        return (
+          <a class="section-card" href={`/es/states/${state.data.slug}/`}>
+            <h2>{state.data.title}</h2>
+            <p>{state.data.summary}</p>
+            <p class="meta-line">{guideCount} guías · {facilityCount} instituciones listadas</p>
+          </a>
+        );
+      })}
+    </div>
+
+    <div class="content-width page-outro">
+      <p class="meta">
+        Se agregarán más estados próximamente. <a href="/es/about/">Póngase en contacto</a> si puede ayudar a agregar su estado.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

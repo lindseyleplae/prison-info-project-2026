@@ -1,5 +1,8 @@
 ---
 import { siteConfig } from '../data/site';
+import { t, type Lang } from '../lib/ui-strings';
+
+const { lang = 'en' } = Astro.props as { lang?: Lang };
 
 // Per-page correction path. Feedback renders on every page (via BaseLayout),
 // so it reads the current path and pre-fills the email subject and body. That
@@ -8,14 +11,14 @@ import { siteConfig } from '../data/site';
 // pages and "the visiting page" stops being unambiguous.
 const pathname = Astro.url.pathname;
 const pageUrl = `https://${siteConfig.domain}${pathname}`;
-const subject = `Correction or update: ${pathname}`;
+const subject = `${t(lang, 'feedback.subject')} ${pathname}`;
 const body = [
-  `Page: ${pageUrl}`,
+  `${t(lang, 'feedback.bodyPage')} ${pageUrl}`,
   '',
-  'What needs updating:',
+  t(lang, 'feedback.bodyWhat'),
   '',
   '',
-  'Source (link or document), if you have one:',
+  t(lang, 'feedback.bodySource'),
   ''
 ].join('\n');
 const mailtoHref = `mailto:${siteConfig.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
@@ -23,11 +26,11 @@ const mailtoHref = `mailto:${siteConfig.email}?subject=${encodeURIComponent(subj
 
 <aside class="feedback" aria-labelledby="feedback-heading">
   <div class="feedback-inner">
-    <h2 id="feedback-heading">See something that needs updating?</h2>
-    <p>Prison policies change frequently. If you find outdated information, an error, or have something to add, you can report it for this page.</p>
+    <h2 id="feedback-heading">{t(lang, 'feedback.heading')}</h2>
+    <p>{t(lang, 'feedback.body')}</p>
     <p>
-      <a href={mailtoHref} class="feedback__email">Suggest a correction for this page</a>
+      <a href={mailtoHref} class="feedback__email">{t(lang, 'feedback.cta')}</a>
     </p>
-    <p class="feedback__address">Or email <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.</p>
+    <p class="feedback__address">{t(lang, 'feedback.orEmail')} <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.</p>
   </div>
 </aside>

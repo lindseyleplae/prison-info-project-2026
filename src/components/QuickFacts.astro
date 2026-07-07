@@ -1,15 +1,17 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { t, type Lang } from '../lib/ui-strings';
 
-const { facility, stateTitle, phone, directionsUrl } = Astro.props as {
+const { facility, stateTitle, phone, directionsUrl, lang = 'en' } = Astro.props as {
   facility: CollectionEntry<'facilities'>;
   stateTitle: string;
   phone?: string;
   directionsUrl?: string;
+  lang?: Lang;
 };
 
 const formatDate = (value: Date) =>
-  new Intl.DateTimeFormat('en-US', {
+  new Intl.DateTimeFormat(lang === 'es' ? 'es-US' : 'en-US', {
     month: 'long',
     day: 'numeric',
     year: 'numeric',
@@ -20,33 +22,33 @@ const phoneHref = phone?.replace(/[^\d+]/g, '');
 
 const factGroups = [
   {
-    label: 'Facility details',
+    label: t(lang, 'quickFacts.facilityDetails'),
     facts: [
-      ['State', stateTitle],
-      ['System', facility.data.system],
-      ['Type', facility.data.facilityType],
-      ['Security level', facility.data.securityLevel]
+      [t(lang, 'quickFacts.state'), stateTitle],
+      [t(lang, 'quickFacts.system'), facility.data.system],
+      [t(lang, 'quickFacts.type'), facility.data.facilityType],
+      [t(lang, 'quickFacts.securityLevel'), facility.data.securityLevel]
     ]
   },
   {
-    label: 'Location',
+    label: t(lang, 'quickFacts.location'),
     facts: [
-      ['City', facility.data.city],
-      ['County', facility.data.county],
-      ['Address', facility.data.address]
+      [t(lang, 'quickFacts.city'), facility.data.city],
+      [t(lang, 'quickFacts.county'), facility.data.county],
+      [t(lang, 'quickFacts.address'), facility.data.address]
     ]
   },
   {
-    label: 'Contact and visiting',
+    label: t(lang, 'quickFacts.contactVisiting'),
     facts: [
-      ['Main phone', facility.data.contact.mainPhone],
-      ['Visiting hours', facility.data.visiting?.hours],
-      ['Visiting days', facility.data.visiting?.days]
+      [t(lang, 'quickFacts.mainPhone'), facility.data.contact.mainPhone],
+      [t(lang, 'quickFacts.visitingHours'), facility.data.visiting?.hours],
+      [t(lang, 'quickFacts.visitingDays'), facility.data.visiting?.days]
     ]
   },
   {
-    label: 'Verification',
-    facts: [['Last verified', formatDate(facility.data.lastVerified)]]
+    label: t(lang, 'quickFacts.verification'),
+    facts: [[t(lang, 'quickFacts.lastVerified'), formatDate(facility.data.lastVerified)]]
   }
 ]
   .map((group) => ({
@@ -57,7 +59,7 @@ const factGroups = [
 ---
 
 <aside class="quick-facts">
-  <p class="key-info-label">Quick facts</p>
+  <p class="key-info-label">{t(lang, 'quickFacts.label')}</p>
   {factGroups.map((group) => (
     <section class="quick-facts__group" aria-label={group.label}>
       <dl>
@@ -73,14 +75,22 @@ const factGroups = [
   {(phone || directionsUrl) && (
     <div class="quick-facts__actions">
       {phone && (
-        <a href={`tel:${phoneHref}`} class="btn btn--primary">
-          Call to Verify
-        </a>
+        lang === 'es' ? (
+          <a href={`tel:${phoneHref}`} class="btn btn--primary">{t('es', 'quickFacts.callToVerify')}</a>
+        ) : (
+          <a href={`tel:${phoneHref}`} class="btn btn--primary">
+            Call to Verify
+          </a>
+        )
       )}
       {directionsUrl && (
-        <a href={directionsUrl} class="btn btn--secondary" target="_blank" rel="noopener">
-          Get Directions
-        </a>
+        lang === 'es' ? (
+          <a href={directionsUrl} class="btn btn--secondary" target="_blank" rel="noopener">{t('es', 'quickFacts.getDirections')}</a>
+        ) : (
+          <a href={directionsUrl} class="btn btn--secondary" target="_blank" rel="noopener">
+            Get Directions
+          </a>
+        )
       )}
     </div>
   )}

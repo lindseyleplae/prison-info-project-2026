@@ -60,6 +60,7 @@ const facilityGroups =
       system={entry.data.system}
       stateSlug={entry.data.slug}
       locatorUrl={entry.data.links.inmateLocator}
+      lang="es"
     />
   )}
 
@@ -104,5 +105,5 @@ const facilityGroups =
     ))}
   </section>
 
-  <StateOrganizations orgs={orgs} />
+  <StateOrganizations orgs={orgs} lang="es" />
 </PageLayout>

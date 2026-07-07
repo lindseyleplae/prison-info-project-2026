@@ -1,0 +1,69 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const [homeEntry, guides, states] = await Promise.all([
+  getEntry('pages', 'es/home'),
+  getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'es'),
+  getCollection('states', ({ data }) => !data.draft && data.lang === 'es')
+]);
+
+if (!homeEntry) {
+  throw new Error('Missing pages/es/home.md');
+}
+
+guides.sort((left, right) => (left.data.order ?? 999) - (right.data.order ?? 999) || left.data.title.localeCompare(right.data.title));
+states.sort((left, right) => left.data.title.localeCompare(right.data.title));
+
+const { Content } = await render(homeEntry);
+---
+
+<BaseLayout title={homeEntry.data.title} description={homeEntry.data.description} lang="es" hasSpanish={true}>
+  <div class="container">
+    <section class="page-intro">
+      <div class="content-width">
+        <p class="lede">
+          Prison Visitor Guide es un sitio de referencia gratuito para las familias y amistades de personas encarceladas en los Estados Unidos. Organiza información disponible al público sobre visitas, correo, teléfonos, dinero y derechos — por estado y por institución — para que las reglas que se aplican a su situación estén en un solo lugar.
+        </p>
+      </div>
+    </section>
+
+    <section class="hero-router">
+      <div class="content-width">
+        <h1>¿Qué institución va a visitar?</h1>
+        <p class="lede">
+          Busque por nombre de la institución, ciudad o estado, y luego avance hacia las guías estatales y los detalles específicos de cada institución.
+        </p>
+      </div>
+
+      <form class="search-form content-width" action="/es/facilities/" method="get">
+        <div class="search-row">
+          <label class="sr-only" for="home-facility-query">Busque por nombre de la institución, ciudad o estado</label>
+          <input class="search-input" id="home-facility-query" type="search" name="q" placeholder="San Quentin, Chino, California" />
+          <button class="btn btn--primary" type="submit">Buscar una institución</button>
+          <a class="hero-action" href="/es/facilities/">Directorio de instituciones</a>
+        </div>
+      </form>
+    </section>
+
+    <section class="page-section-grid">
+      <div class="content-width">
+        <Content />
+      </div>
+    </section>
+
+    <section class="page-section-grid" id="states" aria-labelledby="states-heading">
+      <div class="content-width">
+        <h2 id="states-heading">Explorar por estado</h2>
+        <div class="section-card-list">
+          {states.map((state) => (
+            <a class="section-card" href={`/es/states/${state.data.slug}/`}>
+              <h3>{state.data.title}</h3>
+              <p>{state.data.summary ?? `Descripción general del sistema de ${state.data.title}, guías e instituciones.`}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

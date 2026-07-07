@@ -4,15 +4,32 @@
 // src/data/state-organizations.ts (verified links only). Renders nothing when a
 // state has no listed organizations.
 import type { StateOrg } from '../data/state-organizations';
+import { t, type Lang } from '../lib/ui-strings';
 
 interface Props {
   orgs: StateOrg[];
+  lang?: Lang;
 }
 
-const { orgs } = Astro.props;
+const { orgs, lang = 'en' } = Astro.props as Props;
 ---
 
-{orgs.length > 0 && (
+{orgs.length > 0 && lang === 'es' && (
+  <section id="organizations">
+    <h2>{t('es', 'orgs.heading')}</h2>
+    <p class="org-intro">{t('es', 'orgs.intro')}</p>
+    <div class="section-card-list">
+      {orgs.map((org) => (
+        <a class="section-card" href={org.url} target="_blank" rel="noopener noreferrer">
+          <h3>{org.name}</h3>
+          <p>{org.description}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+)}
+
+{orgs.length > 0 && lang !== 'es' && (
   <section id="organizations">
     <h2>Organizations that help families</h2>
     <p class="org-intro">

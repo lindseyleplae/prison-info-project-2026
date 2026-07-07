@@ -1,0 +1,28 @@
+---
+// The "see the national guide" note at the foot of a state guide. Rendered from
+// GuideLayout inside a single {relatedNationalGuide && ...} slot so the
+// surrounding whitespace matches the original one-expression markup. Each
+// language's <p> is top-level here, so Astro emits the English one byte-for-byte
+// (the intro text stays a bare literal, as before) while Spanish is translated.
+// The English branch uses a two-space string ({'  '}) before the link because
+// the original layout emitted two spaces there ({' '} plus a collapsed source
+// newline); in this component context a single {' '} would collapse to one.
+import { t, type Lang } from '../lib/ui-strings';
+
+const { guide, lang = 'en' } = Astro.props as {
+  guide: { title: string; href: string };
+  lang?: Lang;
+};
+---
+
+{lang === 'es' ? (
+  <p class="related-guide">
+    {t('es', 'guide.relatedIntro')}{' '}
+    <a href={guide.href}>{guide.title}</a>.
+  </p>
+) : (
+  <p class="related-guide">
+    For the general, nationwide overview of this topic, see the national guide:{'  '}
+    <a href={guide.href}>{guide.title}</a>.
+  </p>
+)}

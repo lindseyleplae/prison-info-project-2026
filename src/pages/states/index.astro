@@ -9,7 +9,7 @@ const stateGuides = await getCollection('state-guides', ({ data }) => !data.draf
 const facilities = await getCollection('facilities', ({ data }) => !data.draft && data.lang === 'en');
 ---
 
-<BaseLayout title="States" description="State-specific prison visiting guides and facility information.">
+<BaseLayout title="States" description="State-specific prison visiting guides and facility information." hasSpanish={true}>
   <div class="container">
     <div class="content-width">
       <h1>States</h1>

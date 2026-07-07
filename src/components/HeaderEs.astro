@@ -1,0 +1,75 @@
+---
+// Spanish site header. Mirrors HeaderEn.astro with translated chrome labels and
+// /es-prefixed internal links. Kept as its own top-level component so Astro
+// preserves inter-tag whitespace exactly like the English header. The shared
+// menu <script> lives in Header.astro.
+import { getCollection } from 'astro:content';
+import { siteConfig } from '../data/site';
+import { t } from '../lib/ui-strings';
+
+const { enPath = '/', esPath = '/es/', hasSpanish = false } = Astro.props as {
+  enPath?: string;
+  esPath?: string;
+  hasSpanish?: boolean;
+};
+
+const guides = await getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'es');
+
+guides.sort((left, right) => (left.data.order ?? 999) - (right.data.order ?? 999) || left.data.title.localeCompare(right.data.title));
+
+const staticLinks = [
+  { href: '/es/facilities/', label: t('es', 'nav.facilities') },
+  { href: '/es/search/', label: t('es', 'nav.search') },
+  { href: '/es/about/', label: t('es', 'nav.about') }
+];
+---
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-title" href="/es/">{siteConfig.name}</a>
+
+    <button type="button" class="mobile-menu-toggle" aria-expanded="false" aria-controls="primary-nav">
+      {t('es', 'nav.menu')}
+    </button>
+
+    <nav id="primary-nav" class="site-nav" aria-label={t('es', 'nav.primaryLabel')}>
+      <div class="nav-group" data-nav-group>
+        <div class="nav-group__trigger">
+          <a class="nav-link" href="/es/guides/">{t('es', 'nav.nationalGuides')}</a>
+          <button
+            type="button"
+            class="nav-submenu-toggle"
+            aria-expanded="false"
+            aria-controls="nav-menu-guides"
+            data-submenu-toggle
+          >
+            <span class="sr-only">{t('es', 'nav.toggleGuidesSubmenu')}</span>
+            <span aria-hidden="true">+</span>
+          </button>
+        </div>
+        <div id="nav-menu-guides" class="nav-menu">
+          <a href="/es/guides/" class="nav-menu__view-all">{t('es', 'nav.allNationalGuides')}</a>
+          {guides.map((guide) => (
+            <a href={`/es/guides/${guide.data.slug}/`}>{guide.data.title}</a>
+          ))}
+        </div>
+      </div>
+
+      <a class="nav-link" href="/es/states/">{t('es', 'nav.states')}</a>
+
+      {staticLinks.map((link) => (
+        <a class="nav-link" href={link.href}>
+          {link.label}
+        </a>
+      ))}
+
+      {hasSpanish && (
+        <div class="lang-toggle" aria-label={t('es', 'nav.langLabel')}>
+          <a class="nav-link" href={enPath} hreflang="en">English</a>
+          <span class="lang-toggle__sep" aria-hidden="true">·</span>
+          <a class="nav-link" href={esPath} hreflang="es" aria-current="true">Español</a>
+        </div>
+      )}
+    </nav>
+  </div>
+</header>

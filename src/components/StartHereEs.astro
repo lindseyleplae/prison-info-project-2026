@@ -1,0 +1,42 @@
+---
+// Spanish "Start here" crisis path. Mirrors StartHereEn.astro with translated
+// text and /es-prefixed guide links; kept as its own top-level component so its
+// whitespace is handled the same way as the English version.
+import { systemSourceLabels, genericSourceLabels } from '../data/system-source-labels';
+import { t } from '../lib/ui-strings';
+
+const { system, stateSlug, locatorUrl } = Astro.props as {
+  system: string;
+  stateSlug: string;
+  locatorUrl: string;
+};
+
+const locatorLabel = (systemSourceLabels[system] ?? genericSourceLabels).locator;
+const guides = (topic: string) => `/es/states/${stateSlug}/guides/${topic}/`;
+---
+
+<aside class="start-here" aria-labelledby="start-here-heading">
+  <h2 id="start-here-heading">{t('es', 'startHere.heading')}</h2>
+  <ol>
+    <li>
+      <strong>{t('es', 'startHere.step1Strong')}</strong> {t('es', 'startHere.step1a')}
+      <a href={locatorUrl} target="_blank" rel="noopener nofollow">{locatorLabel}</a> {t('es', 'startHere.step1b')}
+    </li>
+    <li>
+      <strong>{t('es', 'startHere.step2Strong')}</strong> {t('es', 'startHere.step2')}
+      <a href={guides('phone-video')}>{t('es', 'startHere.step2Link')}</a>.
+    </li>
+    <li>
+      <strong>{t('es', 'startHere.step3Strong')}</strong> {t('es', 'startHere.step3')}
+      <a href={guides('visiting')}>{t('es', 'startHere.step3Link')}</a>.
+    </li>
+    <li>
+      <strong>{t('es', 'startHere.step4Strong')}</strong> {t('es', 'startHere.step4')}
+      <a href={guides('mail')}>{t('es', 'startHere.step4Link')}</a>.
+    </li>
+    <li>
+      <strong>{t('es', 'startHere.step5Strong')}</strong> {t('es', 'startHere.step5')}
+      <a href={guides('money')}>{t('es', 'startHere.step5Link')}</a>.
+    </li>
+  </ol>
+</aside>

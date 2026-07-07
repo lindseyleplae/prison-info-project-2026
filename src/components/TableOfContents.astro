@@ -1,19 +1,21 @@
 ---
+import { t, type Lang } from '../lib/ui-strings';
+
 type Heading = {
   depth: number;
   slug: string;
   text: string;
 };
 
-const { headings = [] } = Astro.props as { headings?: Heading[] };
+const { headings = [], lang = 'en' } = Astro.props as { headings?: Heading[]; lang?: Lang };
 const tocHeadings = headings.filter((heading) => heading.depth === 2);
 ---
 
 {
   tocHeadings.length > 0 && (
     <aside class="toc">
-      <p class="toc-label">On this page</p>
-      <nav aria-label="Table of contents">
+      <p class="toc-label">{t(lang, 'toc.onThisPage')}</p>
+      <nav aria-label={t(lang, 'toc.label')}>
         <ul class="toc__list">
           {tocHeadings.map((heading) => (
             <li>

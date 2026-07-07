@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Página no encontrada"
+  description="No se pudo encontrar la página que solicitó."
+  lang="es"
+  noindex={true}
+>
+  <div class="container">
+    <article class="page-content content-width">
+      <header class="page-header">
+        <h1>Página no encontrada</h1>
+        <p class="subtitle">
+          No se pudo encontrar la página que solicitó. Es posible que se haya movido
+          o que la dirección sea incorrecta.
+        </p>
+      </header>
+      <p>Use uno de estos enlaces para continuar:</p>
+      <ul>
+        <li><a href="/es/">Inicio</a></li>
+        <li><a href="/es/guides/">Guías nacionales</a> — visitas, mantenerse en contacto, enviar dinero y derechos</li>
+        <li><a href="/es/states/">Estados</a> — información de visitas, correo, teléfono, dinero, atención médica y traslados específica de cada estado</li>
+        <li><a href="/es/search/">Buscar</a> en el sitio</li>
+      </ul>
+    </article>
+  </div>
+</BaseLayout>

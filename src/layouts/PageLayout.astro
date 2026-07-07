@@ -2,6 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { createBreadcrumbStructuredData } from '../lib/seo';
+import { t } from '../lib/ui-strings';
 
 const {
   title,
@@ -16,6 +17,8 @@ const {
   lang?: 'en' | 'es';
   hasSpanish?: boolean;
 };
+
+const sdHomeHref = lang === 'es' ? '/es/' : '/';
 ---
 
 <BaseLayout
@@ -26,14 +29,14 @@ const {
   hasSpanish={hasSpanish}
   structuredData={[
     createBreadcrumbStructuredData([
-      { label: 'Home', href: '/' },
+      { label: t(lang, 'crumb.home'), href: sdHomeHref },
       { label: title, href: Astro.url.pathname }
     ])
   ]}
 >
   <div class="container">
     <article class="page-content content-width">
-      <Breadcrumbs pageTitle={title} />
+      <Breadcrumbs pageTitle={title} lang={lang} />
       <header class="page-header">
         <h1>{title}</h1>
         {description && <p class="subtitle">{description}</p>}

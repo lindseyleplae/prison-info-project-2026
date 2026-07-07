@@ -4,6 +4,7 @@ import Footer from '../components/Footer.astro';
 import Feedback from '../components/Feedback.astro';
 import DisclaimerBar from '../components/DisclaimerBar.astro';
 import { buildSeo, createWebsiteStructuredData, altLangPaths, toAbsoluteUrl, type StructuredData } from '../lib/seo';
+import { t } from '../lib/ui-strings';
 import '../styles/tokens.css';
 import '../styles/base.css';
 import '../styles/layout.css';
@@ -73,15 +74,15 @@ const seo = buildSeo({
     ))}
   </head>
   <body>
-    <a class="skip-link" href="#main-content">Skip to content</a>
+    <a class="skip-link" href="#main-content">{lang === 'es' ? t('es', 'skip.toContent') : 'Skip to content'}</a>
     <div class="site-shell">
-      <DisclaimerBar />
+      <DisclaimerBar lang={lang} />
       <Header lang={lang} enPath={enPath} esPath={esPath} hasSpanish={hasSpanish} />
       <main id="main-content" class="site-main">
         <slot />
       </main>
-      <Feedback />
-      <Footer />
+      <Feedback lang={lang} />
+      <Footer lang={lang} />
     </div>
     {/* Anonymous, cookie-free visit counting (GoatCounter): page URL, referrer,
         browser type, and country only — no cookies, no personal identifiers,

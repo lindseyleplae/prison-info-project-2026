@@ -3,7 +3,9 @@ import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import Sources from '../components/Sources.astro';
 import TableOfContents from '../components/TableOfContents.astro';
+import RelatedGuideNote from '../components/RelatedGuideNote.astro';
 import { createBreadcrumbStructuredData } from '../lib/seo';
+import { t } from '../lib/ui-strings';
 
 type Heading = {
   depth: number;
@@ -36,14 +38,18 @@ const {
   hasSpanish?: boolean;
 };
 
+// Structured-data breadcrumb trail (JSON-LD, not the visible crumbs). Labels
+// and intermediate hrefs follow the page language so the /es pages describe the
+// Spanish trail; English keeps the original labels and bare hrefs unchanged.
+const sdPrefix = lang === 'es' ? '/es' : '';
 const breadcrumbItems = [
-  { label: 'Home', href: '/' },
+  { label: t(lang, 'crumb.home'), href: `${sdPrefix}/` },
   ...(stateLabel
     ? [
-        { label: 'States', href: '/states/' },
-        { label: stateLabel, href: Astro.params.state ? `/states/${Astro.params.state}/` : undefined }
+        { label: t(lang, 'crumb.states'), href: `${sdPrefix}/states/` },
+        { label: stateLabel, href: Astro.params.state ? `${sdPrefix}/states/${Astro.params.state}/` : undefined }
       ]
-    : [{ label: 'Guides', href: '/guides/' }]),
+    : [{ label: t(lang, 'crumb.guides'), href: `${sdPrefix}/guides/` }]),
   { label: title, href: Astro.url.pathname }
 ];
 ---
@@ -57,24 +63,19 @@ const breadcrumbItems = [
 >
   <div class="container guide-grid">
     <article class="guide-content content-width">
-      <Breadcrumbs pageTitle={title} stateLabel={stateLabel} />
+      <Breadcrumbs pageTitle={title} stateLabel={stateLabel} lang={lang} />
       <header class="page-header">
         <h1>{title}</h1>
         {description && <p class="subtitle">{description}</p>}
-        {lastReviewed && <p class="meta">Last reviewed: {lastReviewed.toISOString().slice(0, 10)}</p>}
+        {lastReviewed && <p class="meta">{lang === 'es' ? t('es', 'guide.lastReviewed') : 'Last reviewed:'} {lastReviewed.toISOString().slice(0, 10)}</p>}
       </header>
       <slot />
-      {relatedNationalGuide && (
-        <p class="related-guide">
-          For the general, nationwide overview of this topic, see the national guide:{' '}
-          <a href={relatedNationalGuide.href}>{relatedNationalGuide.title}</a>.
-        </p>
-      )}
-      <Sources sources={sources} />
+      {relatedNationalGuide && <RelatedGuideNote guide={relatedNationalGuide} lang={lang} />}
+      <Sources sources={sources} lang={lang} />
     </article>
 
     <div class="guide-sidebar">
-      <TableOfContents headings={headings} />
+      <TableOfContents headings={headings} lang={lang} />
     </div>
   </div>
 </BaseLayout>

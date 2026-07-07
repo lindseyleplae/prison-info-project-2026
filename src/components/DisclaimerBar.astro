@@ -1,9 +1,16 @@
 ---
 import { siteConfig } from '../data/site';
+import { t, type Lang } from '../lib/ui-strings';
+
+const { lang = 'en' } = Astro.props as { lang?: Lang };
+
+// English keeps reading the canonical disclaimer from siteConfig verbatim so
+// its output never drifts; Spanish uses the translated dictionary string.
+const text = lang === 'es' ? t('es', 'disclaimer.text') : siteConfig.disclaimer;
 ---
 
 <div class="disclaimer-bar" role="banner">
   <div class="disclaimer-bar-inner">
-    {siteConfig.disclaimer}
+    {text}
   </div>
 </div>

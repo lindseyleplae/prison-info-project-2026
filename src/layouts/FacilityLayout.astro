@@ -9,6 +9,7 @@ import Sources from '../components/Sources.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import { createBreadcrumbStructuredData, createFacilityStructuredData } from '../lib/seo';
 import { genericSourceLabels, systemSourceLabels } from '../data/system-source-labels';
+import { t } from '../lib/ui-strings';
 
 type Heading = {
   depth: number;
@@ -30,11 +31,12 @@ const {
   hasSpanish?: boolean;
 };
 
+const sdPrefix = lang === 'es' ? '/es' : '';
 const breadcrumbItems = [
-  { label: 'Home', href: '/' },
-  { label: 'States', href: '/states/' },
-  { label: stateTitle, href: `/states/${Astro.params.state}/` },
-  { label: 'Facilities', href: `/states/${Astro.params.state}/#facilities` },
+  { label: t(lang, 'crumb.home'), href: `${sdPrefix}/` },
+  { label: t(lang, 'crumb.states'), href: `${sdPrefix}/states/` },
+  { label: stateTitle, href: `${sdPrefix}/states/${Astro.params.state}/` },
+  { label: t(lang, 'crumb.facilities'), href: `${sdPrefix}/states/${Astro.params.state}/#facilities` },
   { label: facility.data.title, href: Astro.url.pathname }
 ];
 
@@ -74,12 +76,12 @@ const facilitySources = [
 >
   <div class="container guide-grid">
     <article class="guide-content content-width">
-      <Breadcrumbs pageTitle={facility.data.title} stateLabel={stateTitle} />
+      <Breadcrumbs pageTitle={facility.data.title} stateLabel={stateTitle} lang={lang} />
       <FacilityHero facility={facility.data} stateTitle={stateTitle} />
       {facility.data.summary && <p class="facility-page-summary subtitle">{facility.data.summary}</p>}
-      <StateVisitingRules state={facility.data.state} facilitySystem={facility.data.system} />
+      <StateVisitingRules state={facility.data.state} facilitySystem={facility.data.system} lang={lang} />
       <slot />
-      <Sources sources={facilitySources} />
+      <Sources sources={facilitySources} lang={lang} />
     </article>
 
     <div class="guide-sidebar">
@@ -88,8 +90,9 @@ const facilitySources = [
         stateTitle={stateTitle}
         phone={facility.data.contact.visitingOffice ?? facility.data.contact.mainPhone}
         directionsUrl={facility.data.address ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(facility.data.address)}` : undefined}
+        lang={lang}
       />
-      <TableOfContents headings={headings} />
+      <TableOfContents headings={headings} lang={lang} />
     </div>
   </div>
 </BaseLayout>

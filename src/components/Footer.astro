@@ -1,50 +1,62 @@
 ---
 import { getCollection } from 'astro:content';
-import { siteConfig, siteNavigation } from '../data/site';
+import { siteConfig } from '../data/site';
+import { t, type Lang } from '../lib/ui-strings';
+
+const { lang = 'en' } = Astro.props as { lang?: Lang };
+
+// English pages link to bare paths; Spanish pages mirror them under /es.
+const prefix = lang === 'es' ? '/es' : '';
 
 const [guides, tools] = await Promise.all([
-  getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'en'),
-  getCollection('tools', ({ data }) => !data.draft && data.lang === 'en')
+  getCollection('national-guides', ({ data }) => !data.draft && data.lang === lang),
+  getCollection('tools', ({ data }) => !data.draft && data.lang === lang)
 ]);
 
 guides.sort((left, right) => (left.data.order ?? 999) - (right.data.order ?? 999) || left.data.title.localeCompare(right.data.title));
 tools.sort((left, right) => left.data.title.localeCompare(right.data.title));
+
+const siteLinks = [
+  { href: `${prefix}/about/`, label: t(lang, 'footer.about') },
+  { href: `${prefix}/privacy/`, label: t(lang, 'footer.privacy') },
+  { href: `${prefix}/terms/`, label: t(lang, 'footer.terms') }
+];
 ---
 
 <footer class="footer">
   <div class="footer-inner">
     <div class="footer-grid">
       <section>
-        <h2 class="eyebrow">Guides</h2>
+        <h2 class="eyebrow">{t(lang, 'footer.guides')}</h2>
         <ul>
           {guides.map((guide) => (
             <li>
-              <a href={`/guides/${guide.data.slug}/`}>{guide.data.title}</a>
+              <a href={`${prefix}/guides/${guide.data.slug}/`}>{guide.data.title}</a>
             </li>
           ))}
         </ul>
       </section>
 
       <section>
-        <h2 class="eyebrow">Browse</h2>
+        <h2 class="eyebrow">{t(lang, 'footer.browse')}</h2>
         <ul>
-          <li><a href="/states/">All states</a></li>
-          <li><a href="/facilities/">Find a facility</a></li>
-          <li><a href="/search/">Search</a></li>
+          <li><a href={`${prefix}/states/`}>{t(lang, 'footer.allStates')}</a></li>
+          <li><a href={`${prefix}/facilities/`}>{t(lang, 'footer.findFacility')}</a></li>
+          <li><a href={`${prefix}/search/`}>{t(lang, 'footer.search')}</a></li>
         </ul>
       </section>
 
       <section>
-        <h2 class="eyebrow">Site</h2>
+        <h2 class="eyebrow">{t(lang, 'footer.site')}</h2>
         <ul>
-          {siteNavigation.footerLinks.map((link) => (
+          {siteLinks.map((link) => (
             <li>
               <a href={link.href}>{link.label}</a>
             </li>
           ))}
           {tools.map((tool) => (
             <li>
-              <a href={`/tools/${tool.data.slug}/`}>{tool.data.title}</a>
+              <a href={`${prefix}/tools/${tool.data.slug}/`}>{tool.data.title}</a>
             </li>
           ))}
         </ul>
@@ -52,8 +64,8 @@ tools.sort((left, right) => left.data.title.localeCompare(right.data.title));
     </div>
 
     <div class="footer-bottom">
-      <p>Not affiliated with any corrections department. Information may change without notice.</p>
-      <p>Contact: <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></p>
+      <p>{t(lang, 'footer.disclaimer')}</p>
+      <p>{t(lang, 'footer.contact')} <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></p>
     </div>
   </div>
 </footer>

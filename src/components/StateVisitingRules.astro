@@ -4,18 +4,67 @@
 // spelled out, other rules summarized, with a link to the full state guide.
 // Renders nothing if the state has no entry yet, so new states degrade
 // gracefully instead of showing a broken or empty block.
+//
+// NOTE: the rule text in state-visiting-rules.ts is English-only. On Spanish
+// pages the CHROME labels (heading, "Dress code", "ID", …) are translated and
+// the guide link is /es-prefixed, but the rule values themselves stay as the
+// source data until that data file is translated in a separate pass.
 import { stateVisitingRules } from '../data/state-visiting-rules';
+import { t, type Lang } from '../lib/ui-strings';
 
-const { state, facilitySystem } = Astro.props as { state: string; facilitySystem?: string };
+const { state, facilitySystem, lang = 'en' } = Astro.props as {
+  state: string;
+  facilitySystem?: string;
+  lang?: Lang;
+};
 const rules = stateVisitingRules[state];
 // Only show the statewide card when the facility is actually run by the state
 // system those rules belong to. A privately operated facility in the same state
 // — e.g. a CoreCivic prison holding another state's people — follows its own
 // rules, so the state DOC's card would be wrong. Skip it for non-state operators.
 const showRules = rules && (!facilitySystem || facilitySystem === rules.system);
+
+// Spanish pages link to the /es counterpart of the state visiting guide.
+const guideHref = rules ? (lang === 'es' ? `/es${rules.guideHref}` : rules.guideHref) : '';
 ---
 
-{showRules && (
+{showRules && lang === 'es' && (
+  <aside class="key-info statewide-rules" aria-label={t('es', 'stateRules.ariaLabel')}>
+    <p class="key-info-label">{rules.title}</p>
+    <p class="statewide-rules__intro">
+      {t('es', 'stateRules.introBefore')}{' '}{rules.system}{' '}{t('es', 'stateRules.introAfter')}{' '}
+      <a href={guideHref}>{rules.guideLabel}</a>.
+    </p>
+
+    <p class="statewide-rules__subhead">{t('es', 'stateRules.dressCode')}</p>
+    <ul class="statewide-rules__dress">
+      {rules.dressCode.map((rule) => (
+        <li>{rule}</li>
+      ))}
+    </ul>
+
+    <dl class="statewide-rules__short">
+      <div>
+        <dt>{t('es', 'stateRules.id')}</dt>
+        <dd>{rules.idRule}</dd>
+      </div>
+      <div>
+        <dt>{t('es', 'stateRules.whatToBring')}</dt>
+        <dd>{rules.itemsRule}</dd>
+      </div>
+      <div>
+        <dt>{t('es', 'stateRules.scheduling')}</dt>
+        <dd>{rules.schedulingRule}</dd>
+      </div>
+    </dl>
+
+    <p class="statewide-rules__more">
+      <a href={guideHref}>{t('es', 'stateRules.fullRules')}{' '}{rules.guideLabel}</a>
+    </p>
+  </aside>
+)}
+
+{showRules && lang !== 'es' && (
   <aside class="key-info statewide-rules" aria-label="Statewide visiting rules">
     <p class="key-info-label">{rules.title}</p>
     <p class="statewide-rules__intro">

@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const guides = await getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'es');
+guides.sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
+---
+
+<BaseLayout
+  title="Guías nacionales"
+  description="Guías generales sobre las visitas en prisión, la comunicación, el envío de dinero y los derechos de los visitantes — aplicables en todos los estados."
+  lang="es"
+  hasSpanish={true}
+>
+  <div class="container">
+    <div class="content-width">
+      <h1>Guías nacionales</h1>
+      <p class="subtitle">
+        Información general sobre las visitas en prisión, la comunicación, el envío de dinero y los derechos de los visitantes.
+        Estas guías se aplican de manera general en todos los estados. Para conocer las reglas específicas de cada estado, visite las páginas estatales.
+      </p>
+    </div>
+
+    <div class="content-width section-card-list">
+      {guides.map((guide) => (
+        <a class="section-card" href={`/es/guides/${guide.data.slug}/`}>
+          <h2>{guide.data.title}</h2>
+          {guide.data.description && <p>{guide.data.description}</p>}
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
