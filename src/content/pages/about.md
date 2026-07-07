@@ -28,7 +28,7 @@ Information is updated as policies change. Corrections and suggestions can be su
 
 ## Scope
 
-This site currently covers California and Texas. Additional states are being added over time. Contributions and suggestions for new states and facilities are welcome.
+This site covers the state prison systems of all 50 states. Each state has an overview, six topic guides (visiting, mail, phone and video, money, medical, and transfers), and individual pages for its major state-run facilities. County and municipal jails, immigration detention, and the federal prison system are outside its current scope. Suggestions for additional facilities are welcome.
 
 ## Your Privacy
 

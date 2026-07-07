@@ -29,7 +29,7 @@ La información se actualiza a medida que cambian las políticas. Las correccion
 
 ## Alcance
 
-Este sitio cubre actualmente California y Texas. Se están agregando estados adicionales con el tiempo. Las contribuciones y sugerencias de nuevos estados e instituciones son bienvenidas.
+Este sitio cubre los sistemas penitenciarios estatales de los 50 estados. Cada estado cuenta con una descripción general, seis guías temáticas (visitas, correo, llamadas telefónicas y por video, dinero, atención médica y traslados) y páginas individuales para sus principales instituciones estatales. Las cárceles del condado y municipales, la detención migratoria y el sistema penitenciario federal quedan fuera del alcance actual. Se agradecen las sugerencias de nuevas instituciones.
 
 ## Su privacidad
 
