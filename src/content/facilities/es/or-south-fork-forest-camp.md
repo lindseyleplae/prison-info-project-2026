@@ -4,7 +4,7 @@ slug: south-fork-forest-camp
 state: or
 system: ODOC
 population: men
-summary: "Un remoto campamento de trabajo forestal de mínima seguridad en el Bosque Estatal de Tillamook, dirigido conjuntamente por los departamentos de correcciones y silvicultura de Oregón, donde adultos bajo custodia realizan trabajo forestal y de combate de incendios silvestres. ODOC ha propuesto cerrarlo en 2026."
+summary: "Un remoto campamento de trabajo forestal de mínima seguridad en el Bosque Estatal de Tillamook, dirigido conjuntamente por los departamentos de correcciones y silvicultura de Oregón, donde adultos bajo custodia realizan trabajo forestal y de combate de incendios silvestres. ODOC propuso cerrarlo como medida presupuestaria en 2026, pero el campamento sigue abierto."
 aliases:
   - South Fork
   - SFFC
@@ -38,14 +38,14 @@ sources:
     url: "https://www.tillamookheadlightherald.com/news/tillamook-correction-facilities-on-lists-of-potential-cuts/article_7192a008-dd2f-4ff2-8972-d4959dfccfa8.html"
   - name: "Adventist Health Tillamook — Emergency Room"
     url: "https://www.adventisthealth.org/locations/adventist-health-tillamook-emergency-room/"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-01
+lastVerified: 2026-07-07
+reviewBy: 2026-09-07
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-07-07
 ---
 
 :::callout{variant="warning"}
-**ODOC ha propuesto cerrar South Fork Forest Camp para el 30 de junio de 2026, como medida presupuestaria.** A mediados de 2026, el campamento sigue registrado y en funcionamiento, pero el cierre es una propuesta, no una decisión final — y trasladaría a las personas recluidas aquí a otras prisiones. Antes de viajar, verifique la ubicación actual de la persona en el Oregon Offender Search y confirme que el campamento esté abierto llamando al **(503) 842-2811** (o a Columbia River Correctional Institution, que administra el campamento). Las visitas son los fines de semana en dos sesiones diarias.
+**ODOC propuso cerrar South Fork Forest Camp para el 30 de junio de 2026, como medida presupuestaria.** Esa fecha ya pasó y, a julio de 2026, el campamento sigue registrado y en funcionamiento en el localizador de instalaciones de ODOC — el cierre propuesto no se llevó a cabo en esa fecha. Su futuro a más largo plazo sigue siendo incierto, y un cierre trasladaría a las personas recluidas aquí a otras prisiones. Antes de viajar, verifique la ubicación actual de la persona en el Oregon Offender Search y confirme que el campamento esté abierto llamando al **(503) 842-2811** (o a Columbia River Correctional Institution, que administra el campamento). Las visitas son los fines de semana en dos sesiones diarias.
 :::
 
 :::key-info
@@ -62,14 +62,14 @@ sourceReviewed: 2026-06-13
 
 South Fork Forest Camp, en el Bosque Estatal de Tillamook, es un remoto **campamento de trabajo de mínima seguridad** para hombres, con capacidad para hasta unas **200** personas. Es inusual en varios aspectos: es de **Nivel 1**, la custodia más baja, **sin cerca perimetral**; está **dirigido conjuntamente por el Departamento de Correcciones de Oregón y el Departamento de Silvicultura de Oregón** —la única prisión de Oregón administrada y operada por dos agencias—; y está orientado al **trabajo forestal y de combate de incendios**. Establecido en **1951**, se describe como el campamento de trabajo forestal más antiguo y grande del noroeste del Pacífico, y se mantiene constantemente entre los principales proveedores de cuadrillas de supresión de incendios forestales de ODOC, junto con reforestación, raleo, mantenimiento de senderos y trabajo de ayuda en casos de desastre en el noroeste de Oregón. El campamento se administra como una sede satélite de **Columbia River Correctional Institution** en Portland.
 
-En noviembre de 2025, ODOC identificó a South Fork como candidato para **cierre** en caso de requerirse recortes presupuestarios, con una fecha de cierre propuesta para el **30 de junio de 2026**. A mediados de 2026, el campamento permanece registrado y en funcionamiento, y la propuesta no se había finalizado.
+En noviembre de 2025, ODOC identificó a South Fork como candidato para **cierre** en caso de requerirse recortes presupuestarios, con una fecha de cierre propuesta para el **30 de junio de 2026**. Esa fecha ya pasó; a julio de 2026, el campamento permanece registrado y en funcionamiento en el localizador de instalaciones de ODOC, y el cierre propuesto no se llevó a cabo.
 
 ## Qué hace diferente a South Fork
 
 - **No tiene cerca perimetral** — un verdadero campamento de trabajo abierto, en el nivel de custodia más bajo.
 - **Está dirigido por dos agencias estatales,** correcciones y silvicultura, la única prisión de este tipo en Oregón.
 - **Su trabajo es forestal y contra incendios,** y se encuentra entre los principales proveedores de cuadrillas contra incendios forestales de ODOC.
-- **Se ha propuesto su cierre** en 2026, así que su futuro es incierto — confirme que esté abierto antes de viajar.
+- **Se propuso su cierre** en 2026; esa fecha ya pasó y sigue abierto, pero su futuro a más largo plazo es incierto — confirme que esté abierto antes de viajar.
 
 ## Visitas
 

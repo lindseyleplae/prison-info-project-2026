@@ -4,7 +4,7 @@ slug: south-fork-forest-camp
 state: or
 system: ODOC
 population: men
-summary: "A remote minimum-security forest work camp in the Tillamook State Forest, jointly run by Oregon's corrections and forestry departments, where adults in custody do wildland fire and forestry work. ODOC has proposed closing it in 2026."
+summary: "A remote minimum-security forest work camp in the Tillamook State Forest, jointly run by Oregon's corrections and forestry departments, where adults in custody do wildland fire and forestry work. ODOC proposed closing it as a 2026 budget measure, but the camp remains open."
 aliases:
   - South Fork
   - SFFC
@@ -38,12 +38,12 @@ sources:
     url: "https://www.tillamookheadlightherald.com/news/tillamook-correction-facilities-on-lists-of-potential-cuts/article_7192a008-dd2f-4ff2-8972-d4959dfccfa8.html"
   - name: "Adventist Health Tillamook — Emergency Room"
     url: "https://www.adventisthealth.org/locations/adventist-health-tillamook-emergency-room/"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-01
+lastVerified: 2026-07-07
+reviewBy: 2026-09-07
 ---
 
 :::callout{variant="warning"}
-**ODOC has proposed closing South Fork Forest Camp by June 30, 2026, as a budget measure.** As of mid-2026 the camp is still listed and operating, but the closure is proposed, not final — and it would move the people held here to other prisons. Before traveling, check the person's current location in the Oregon Offender Search and confirm the camp is open by calling **(503) 842-2811** (or Columbia River Correctional Institution, which administers the camp). Visiting is weekends in two daily sessions.
+**ODOC proposed closing South Fork Forest Camp by June 30, 2026, as a budget measure.** That date has passed and, as of July 2026, the camp is still listed and operating on ODOC's facility locator — the proposed closure was not carried out on that date. Its longer-term future remains uncertain, and a closure would move the people held here to other prisons. Before traveling, check the person's current location in the Oregon Offender Search and confirm the camp is open by calling **(503) 842-2811** (or Columbia River Correctional Institution, which administers the camp). Visiting is weekends in two daily sessions.
 :::
 
 :::key-info
@@ -60,14 +60,14 @@ reviewBy: 2026-07-01
 
 South Fork Forest Camp, in the Tillamook State Forest, is a remote **minimum-security work camp** for men, holding up to about **200** people. It is unusual in several ways: it is **Level 1**, the lowest custody, with **no perimeter fence**; it is **jointly operated by the Oregon Department of Corrections and the Oregon Department of Forestry** — the only Oregon prison owned and run by two agencies; and it is built around **forest and wildfire work**. Established in **1951**, it is described as the oldest and largest forest work camp in the Pacific Northwest, and it is consistently among ODOC's top providers of wildfire-suppression crews, along with reforestation, thinning, trail maintenance, and disaster-relief work across northwest Oregon. The camp is administered as a satellite of **Columbia River Correctional Institution** in Portland.
 
-In November 2025, ODOC identified South Fork as a candidate for **closure** if required to make budget cuts, with a proposed closure date of **June 30, 2026**. As of mid-2026 the camp remains listed and operating, and the proposal had not been finalized.
+In November 2025, ODOC identified South Fork as a candidate for **closure** if required to make budget cuts, with a proposed closure date of **June 30, 2026**. That date has since passed; as of July 2026 the camp remains listed and operating on ODOC's facility locator, and the proposed closure was not carried out.
 
 ## What Makes South Fork Different
 
 - **It has no perimeter fence** — a true open work camp at the lowest custody level.
 - **It is run by two state agencies,** corrections and forestry, the only such prison in Oregon.
 - **Its work is wildfire and forestry,** and it is among ODOC's top wildfire-crew providers.
-- **It has been proposed for closure** in 2026, so its future is uncertain — confirm it is open before traveling.
+- **It was proposed for closure** in 2026; that date has passed and it remains open, but its longer-term future is uncertain — confirm it is open before traveling.
 
 ## Visiting
 
