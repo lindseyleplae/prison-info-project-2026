@@ -36,7 +36,7 @@ sources:
   - name: "Bibb Medical Center — Emergency (Centreville)"
     url: "https://www.bibbmedicalcenter.com/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-16
 ---
 
 :::callout{variant="warning"}

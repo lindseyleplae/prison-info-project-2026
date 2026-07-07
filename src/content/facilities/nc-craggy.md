@@ -35,7 +35,7 @@ sources:
   - name: "NCDAC — NCDAC to begin gradual closure of Craggy Correctional Center (May 15, 2026)"
     url: "https://www.dac.nc.gov/news/press-releases/2026/05/15/ncdac-begin-gradual-closure-craggy-correctional-center"
 lastVerified: 2026-06-15
-reviewBy: 2026-09-15
+reviewBy: 2026-09-03
 ---
 
 :::callout{variant="warning"}

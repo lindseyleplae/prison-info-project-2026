@@ -41,7 +41,7 @@ sources:
   - name: "Elmore Community Hospital — Emergency (Wetumpka)"
     url: "https://ivycreekhealth.com/locations/elmore-community-hospital/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-17
 ---
 
 :::callout{variant="warning"}

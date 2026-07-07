@@ -34,7 +34,7 @@ sources:
   - name: "SCDC — Family (Visiting, Mail & Communication)"
     url: "https://www.doc.sc.gov/family"
 lastVerified: 2026-06-15
-reviewBy: 2026-09-15
+reviewBy: 2026-09-25
 ---
 
 :::callout{variant="warning"}

@@ -38,7 +38,7 @@ sources:
   - name: "Monterey County Civil Grand Jury — Salinas Valley State Prison (2015-2016)"
     url: "https://www.monterey.courts.ca.gov/system/files/2015-2016_salinas-valley-state-prison.pdf"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-07-24
 ---
 
 :::callout{variant="warning"}

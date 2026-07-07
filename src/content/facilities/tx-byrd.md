@@ -30,7 +30,7 @@ sources:
   - name: "TDCJ General Information Guide for Families of Inmates (May 2026)"
     url: "https://www.tdcj.texas.gov/documents/General_Information_Guide_for_Families_of_Inmates_English.pdf"
 lastVerified: 2026-06-09
-reviewBy: 2026-09-09
+reviewBy: 2026-10-01
 ---
 
 :::callout{variant="warning"}

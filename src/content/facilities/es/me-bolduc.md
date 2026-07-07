@@ -38,7 +38,7 @@ sources:
   - name: "MaineHealth Pen Bay Hospital — Emergency Department"
     url: "https://www.mainehealth.org/locations/mainehealth-pen-bay-hospital-emergency-department"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-08-24
 lang: es
 sourceReviewed: 2026-06-12
 ---

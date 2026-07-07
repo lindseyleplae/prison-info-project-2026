@@ -34,7 +34,7 @@ sources:
   - name: "St. Vincent's Medical Center — Emergency (Bridgeport)"
     url: "https://stvincents.org/services/emergency-services"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-27
 ---
 
 :::callout{variant="warning"}

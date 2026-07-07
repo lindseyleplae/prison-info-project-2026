@@ -38,7 +38,7 @@ sources:
   - name: "Bon Secours St. Francis Medical Center (Midlothian)"
     url: "https://www.bonsecours.com/locations/emergency-rooms/richmond/st-francis-medical-center-emergency-department"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-10-12
 lang: es
 sourceReviewed: 2026-06-14
 ---

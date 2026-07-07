@@ -34,7 +34,7 @@ sources:
   - name: "Grady Memorial Hospital — Emergency (Atlanta)"
     url: "https://www.gradyhealth.org/locations/grady-memorial-hospital/"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-07
 ---
 
 :::callout{variant="warning"}

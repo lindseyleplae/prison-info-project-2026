@@ -34,7 +34,7 @@ sources:
   - name: "CoreCivic — Facilities"
     url: "https://www.corecivic.com/facilities"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-29
 ---
 
 :::callout{variant="warning"}

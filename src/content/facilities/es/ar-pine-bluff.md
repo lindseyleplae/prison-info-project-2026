@@ -35,7 +35,7 @@ sources:
   - name: "Jefferson Regional Medical Center — Emergency & Trauma (Pine Bluff)"
     url: "https://www.jrmc.org/services/emergency-trauma-services/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-18
 lang: es
 sourceReviewed: 2026-06-13
 ---

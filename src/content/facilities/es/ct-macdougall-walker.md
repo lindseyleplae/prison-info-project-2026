@@ -39,7 +39,7 @@ sources:
   - name: "Baystate Medical Center — Emergency (Springfield, MA)"
     url: "https://www.baystatehealth.org/locations/baystate-medical-center/emergency-medicine"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-28
 lang: es
 sourceReviewed: 2026-06-13
 ---

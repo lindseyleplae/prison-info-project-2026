@@ -36,7 +36,7 @@ sources:
   - name: "Clinch Valley Medical Center — Emergency Room (Richlands)"
     url: "https://www.clinchvalleyhealth.com/emergency-room"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-10-13
 ---
 
 :::callout{variant="warning"}

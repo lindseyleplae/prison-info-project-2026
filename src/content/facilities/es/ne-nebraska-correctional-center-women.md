@@ -39,7 +39,7 @@ sources:
   - name: "York General Hospital — Emergency Services (York)"
     url: "https://www.yorkgeneral.org/services/outpatient/emergency-services"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-07
 lang: es
 sourceReviewed: 2026-06-13
 ---

@@ -37,7 +37,7 @@ sources:
   - name: "Arkansas Valley Regional Medical Center — Emergency (La Junta)"
     url: "https://www.avrmc.org/"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-07-25
 lang: es
 sourceReviewed: 2026-06-14
 ---

@@ -35,7 +35,7 @@ sources:
   - name: "Illinois DOC — Visitation Rules & Information"
     url: "https://idoc.illinois.gov/facilities/visitationrules.html"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-13
 ---
 
 :::callout{variant="warning"}

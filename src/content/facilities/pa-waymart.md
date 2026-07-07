@@ -36,7 +36,7 @@ sources:
   - name: "Wayne Memorial Hospital — Emergency Department (Honesdale)"
     url: "https://www.wmh.org/wayne-memorial-hospital/emergency-department/"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-24
 ---
 
 :::callout{variant="warning"}

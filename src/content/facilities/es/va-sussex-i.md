@@ -41,7 +41,7 @@ sources:
   - name: "Death Penalty Information Center — Virginia"
     url: "https://deathpenaltyinfo.org/state-and-federal-info/state-by-state/virginia"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-10-14
 lang: es
 sourceReviewed: 2026-06-13
 ---

@@ -37,7 +37,7 @@ sources:
   - name: "McLaren Lapeer Region — Emergency Department"
     url: "https://www.mclaren.org/main/locations/emergency-department-at-mclaren-lapeer-region-524"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-28
 ---
 
 :::callout{variant="warning"}

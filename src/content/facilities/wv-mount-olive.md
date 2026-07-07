@@ -38,7 +38,7 @@ sources:
   - name: "Montgomery General Hospital — Emergency"
     url: "https://www.mghwv.com/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-10-19
 ---
 
 :::callout{variant="warning"}

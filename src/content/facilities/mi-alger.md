@@ -37,7 +37,7 @@ sources:
   - name: "Munising Memorial Hospital — Emergency Room Care"
     url: "https://munisingmemorial.org/emergency-room-care/"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-25
 ---
 
 :::callout{variant="warning"}

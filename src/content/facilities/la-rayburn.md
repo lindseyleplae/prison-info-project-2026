@@ -37,7 +37,7 @@ sources:
   - name: "Our Lady of the Angels Hospital — Emergency Department (Bogalusa)"
     url: "https://oloah.org/services/emergency-department/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-08-21
 ---
 
 :::callout{variant="warning"}

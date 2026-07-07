@@ -36,7 +36,7 @@ sources:
   - name: "CDCR In-Prison Programs Available by Location"
     url: "https://www.cdcr.ca.gov/rehabilitation/programs/inprison/mapip/"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-07-23
 ---
 
 :::key-info

@@ -35,7 +35,7 @@ sources:
   - name: "Lund — Kids-A-Part program"
     url: "https://lundvt.org/child-and-family-services/kids-a-part/"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-10-14
 ---
 
 :::key-info

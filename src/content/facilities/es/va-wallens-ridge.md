@@ -38,7 +38,7 @@ sources:
   - name: "Ballad Health — Lonesome Pine Hospital (Big Stone Gap)"
     url: "https://www.balladhealth.org/locations/hospitals/lonesome-pine"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-10-14
 lang: es
 sourceReviewed: 2026-06-13
 ---

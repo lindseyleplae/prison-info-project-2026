@@ -36,7 +36,7 @@ sources:
   - name: "Ochsner Rush Medical Center — Emergency (Meridian)"
     url: "https://www.ochsnerrush.org/hospitals/ochsner-rush-medical-center/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-01
 ---
 
 :::callout{variant="warning"}

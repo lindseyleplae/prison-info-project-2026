@@ -34,7 +34,7 @@ sources:
   - name: "Taylor Regional Hospital — Emergency (Hawkinsville)"
     url: "https://taylorregional.org"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-07
 ---
 
 :::callout{variant="warning"}

@@ -34,7 +34,7 @@ sources:
   - name: "Yale New Haven Hospital — Emergency Services"
     url: "https://www.ynhh.org/services/emergency-services"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-28
 ---
 
 :::callout{variant="warning"}

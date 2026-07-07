@@ -36,7 +36,7 @@ sources:
   - name: "Southern Ohio Medical Center — Emergency Care (Portsmouth)"
     url: "https://www.somc.org/services/emergency-care/"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-18
 lang: es
 sourceReviewed: 2026-06-14
 ---

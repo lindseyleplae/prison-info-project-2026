@@ -36,7 +36,7 @@ sources:
   - name: "Premier Health Miami Valley Hospital — Emergency (Dayton)"
     url: "https://www.premierhealth.com/locations/hospitals/miami-valley-hospital"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-16
 ---
 
 :::callout{variant="warning"}

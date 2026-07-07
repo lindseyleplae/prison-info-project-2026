@@ -40,7 +40,7 @@ sources:
   - name: "Henry Ford Jackson Hospital — Emergency"
     url: "https://www.henryford.com/locations/jackson-hospital"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-08-26
 lang: es
 sourceReviewed: 2026-06-13
 ---

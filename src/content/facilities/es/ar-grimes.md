@@ -36,7 +36,7 @@ sources:
   - name: "Unity Health — Harris Medical Center Emergency Room (Newport)"
     url: "https://www.unity-health.org/services/emergency-room/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-18
 lang: es
 sourceReviewed: 2026-06-13
 ---

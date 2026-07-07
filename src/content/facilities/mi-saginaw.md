@@ -37,7 +37,7 @@ sources:
   - name: "Covenant HealthCare — Emergency Care Center"
     url: "https://www.covenanthealthcare.com/ECC/"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-28
 ---
 
 :::callout{variant="warning"}

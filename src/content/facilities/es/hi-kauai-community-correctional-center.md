@@ -29,7 +29,7 @@ sources:
   - name: "HI DCR Kauai Community Correctional Center"
     url: "https://dcr.hawaii.gov/kccc/"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-08-09
 lang: es
 sourceReviewed: 2026-06-16
 ---

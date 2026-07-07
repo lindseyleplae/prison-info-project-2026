@@ -36,7 +36,7 @@ sources:
   - name: "UVA Health Culpeper Medical Center (Culpeper)"
     url: "https://www.uvahealth.com/locations/Emergency-Department-Culpeper-Medical-Center-LOC0000234610"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-10-12
 ---
 
 :::callout{variant="warning"}

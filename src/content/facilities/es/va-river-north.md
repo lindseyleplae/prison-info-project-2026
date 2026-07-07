@@ -36,7 +36,7 @@ sources:
   - name: "Twin County Regional Hospital — Emergency Room (Galax)"
     url: "https://www.tcrh.org/emergency-room"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-10-14
 lang: es
 sourceReviewed: 2026-06-14
 ---

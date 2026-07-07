@@ -42,7 +42,7 @@ sources:
   - name: "Inspira Medical Center Vineland — Emergency Department"
     url: "https://www.inspirahealthnetwork.org/locations/inspira-medical-center-vineland-emergency-department"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-08
 ---
 
 :::callout{variant="warning"}

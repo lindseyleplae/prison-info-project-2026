@@ -37,7 +37,7 @@ sources:
   - name: "Trinity Health Muskegon — Emergency"
     url: "https://www.trinityhealthmichigan.org/location/trinity-health-muskegon-hospital"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-26
 ---
 
 :::callout{variant="warning"}

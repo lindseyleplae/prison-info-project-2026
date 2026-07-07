@@ -36,7 +36,7 @@ sources:
   - name: "WDOC Policy and Procedure 4.001 — Admission, Transfer and Orientation (effective January 2026)"
     url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
 lastVerified: 2026-06-11
-reviewBy: 2026-09-11
+reviewBy: 2026-10-20
 lang: es
 sourceReviewed: 2026-06-11
 ---

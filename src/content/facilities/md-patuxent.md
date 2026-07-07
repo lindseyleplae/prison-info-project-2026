@@ -34,7 +34,7 @@ sources:
   - name: "Maryland DPSCS — Incarcerated Individual Visitation Services"
     url: "https://dpscs.maryland.gov/inmateservs/inmate_visitation.shtml"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-24
 ---
 
 :::callout{variant="warning"}

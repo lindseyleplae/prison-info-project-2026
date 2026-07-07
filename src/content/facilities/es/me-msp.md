@@ -43,7 +43,7 @@ sources:
   - name: "Maine State Prison — Wikipedia (history)"
     url: "https://en.wikipedia.org/wiki/Maine_State_Prison"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-08-25
 lang: es
 sourceReviewed: 2026-06-12
 ---

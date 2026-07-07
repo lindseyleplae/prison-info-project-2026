@@ -39,7 +39,7 @@ sources:
   - name: "WV DHHR — Welch Community Hospital (emergency care, McDowell County)"
     url: "https://dhhr.wv.gov/officeofhealthfacilities/Pages/Welch-Community-Hospital.aspx"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-10-19
 ---
 
 :::callout{variant="warning"}

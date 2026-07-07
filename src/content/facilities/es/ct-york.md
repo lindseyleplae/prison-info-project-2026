@@ -41,7 +41,7 @@ sources:
   - name: "Lawrence + Memorial Hospital — Emergency (New London)"
     url: "https://www.lmhospital.org/locations/new-london-365-montauk-ave"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-28
 lang: es
 sourceReviewed: 2026-06-13
 ---

@@ -35,7 +35,7 @@ sources:
   - name: "TDCJ Rehabilitation and Reentry Division — Sex Offender Rehabilitation Programs"
     url: "https://www.tdcj.texas.gov/divisions/rrd/sorp.html"
 lastVerified: 2026-06-11
-reviewBy: 2026-09-11
+reviewBy: 2026-10-04
 ---
 
 :::key-info

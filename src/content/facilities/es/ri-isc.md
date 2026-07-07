@@ -38,7 +38,7 @@ sources:
   - name: "RIDOC ISC Media Pamphlet (May 2026)"
     url: "https://doc.ri.gov/media/5056/download?language=en"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-09-25
 lang: es
 sourceReviewed: 2026-06-12
 ---

@@ -37,7 +37,7 @@ sources:
   - name: "Insight Hospital & Medical Center Coldwater — Emergency"
     url: "https://insightcoldwater.org/services/emergency-center/"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-27
 lang: es
 sourceReviewed: 2026-06-14
 ---

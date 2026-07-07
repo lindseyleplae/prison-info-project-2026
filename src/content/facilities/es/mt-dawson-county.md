@@ -28,7 +28,7 @@ sources:
   - name: "Montana DOC — In-Person Visitation"
     url: "https://cor.mt.gov/FriendsandFamily/In-Person-Visitation"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-09-02
 lang: es
 sourceReviewed: 2026-06-16
 ---

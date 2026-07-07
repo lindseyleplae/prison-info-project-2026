@@ -41,7 +41,7 @@ sources:
   - name: "Ballad Health — Norton Community Hospital"
     url: "https://www.balladhealth.org/locations/hospitals/norton-community"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-10-14
 lang: es
 sourceReviewed: 2026-06-13
 ---

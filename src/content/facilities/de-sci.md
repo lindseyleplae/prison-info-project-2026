@@ -35,7 +35,7 @@ sources:
   - name: "DART First State — Route 206 schedule (effective November 2025)"
     url: "https://dartfirststate.com/RiderInfo/Routes/pdfs/winter/rt206.pdf"
 lastVerified: 2026-06-11
-reviewBy: 2026-09-11
+reviewBy: 2026-07-29
 ---
 
 :::key-info

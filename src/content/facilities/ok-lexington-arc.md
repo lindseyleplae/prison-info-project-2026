@@ -31,7 +31,7 @@ sources:
   - name: "Oklahoma DOC — Visitation"
     url: "https://oklahoma.gov/doc/facilities/visitation.html"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-09-20
 ---
 
 :::callout{variant="warning"}

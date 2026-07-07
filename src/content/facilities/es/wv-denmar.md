@@ -40,7 +40,7 @@ sources:
   - name: "Pocahontas Memorial Hospital — Emergency (near Marlinton)"
     url: "https://www.pmhwv.org/patients-and-visitors/how-to-find-us/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-10-18
 lang: es
 sourceReviewed: 2026-06-13
 ---

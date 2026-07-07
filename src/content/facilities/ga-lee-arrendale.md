@@ -35,7 +35,7 @@ sources:
   - name: "Northeast Georgia Medical Center–Habersham — Emergency (Demorest)"
     url: "https://www.nghs.com/locations/habersham"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-06
 ---
 
 :::callout{variant="warning"}

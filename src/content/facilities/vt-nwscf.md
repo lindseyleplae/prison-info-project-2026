@@ -37,7 +37,7 @@ sources:
   - name: "Vermont DOC — Past Daily Population Data (January 2026)"
     url: "https://doc.vermont.gov/content/past-daily-population-data"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-10-15
 ---
 
 :::key-info

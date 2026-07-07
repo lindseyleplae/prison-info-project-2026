@@ -34,7 +34,7 @@ sources:
   - name: "WDOC Wild Horse Program"
     url: "https://corrections.wyo.gov/services-and-programs/wild-horse-program"
 lastVerified: 2026-06-11
-reviewBy: 2026-09-11
+reviewBy: 2026-10-20
 lang: es
 sourceReviewed: 2026-06-11
 ---

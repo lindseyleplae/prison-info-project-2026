@@ -38,7 +38,7 @@ sources:
   - name: "Backus Hospital — Emergency (Norwich)"
     url: "https://hartfordhealthcare.org/locations/backus-hospital"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-27
 ---
 
 :::callout{variant="warning"}

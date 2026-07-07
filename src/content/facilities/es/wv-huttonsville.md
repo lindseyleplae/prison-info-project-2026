@@ -37,7 +37,7 @@ sources:
   - name: "Davis Medical Center — Emergency (Elkins)"
     url: "https://www.davishealthsystem.org/locations/davis-medical-center"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-10-19
 lang: es
 sourceReviewed: 2026-06-13
 ---

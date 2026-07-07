@@ -34,7 +34,7 @@ sources:
   - name: "The Marshall Project — reporting on Wilkinson County (2019)"
     url: "https://www.themarshallproject.org/2019/06/26/corporate-confession-gangs-ran-this-private-prison"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-01
 ---
 
 :::callout{variant="warning"}

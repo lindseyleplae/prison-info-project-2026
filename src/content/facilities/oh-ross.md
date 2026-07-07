@@ -36,7 +36,7 @@ sources:
   - name: "Adena Regional Medical Center — Emergency (Chillicothe)"
     url: "https://www.adena.org/locations/adena-regional-medical-center"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-18
 ---
 
 :::callout{variant="warning"}

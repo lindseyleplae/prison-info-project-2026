@@ -29,7 +29,7 @@ sources:
   - name: "HI DCR Oahu Community Correctional Center"
     url: "https://dcr.hawaii.gov/about/divisions/corrections/occc/"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-08-09
 lang: es
 sourceReviewed: 2026-06-16
 ---

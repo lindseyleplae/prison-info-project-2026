@@ -37,7 +37,7 @@ sources:
   - name: "University of Michigan Health–Sparrow Ionia — Emergency"
     url: "https://www.uofmhealthsparrow.org/our-hospitals-services/um-health-sparrow-hospitals/ionia"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-25
 lang: es
 sourceReviewed: 2026-06-14
 ---

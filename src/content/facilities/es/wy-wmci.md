@@ -33,7 +33,7 @@ sources:
   - name: "WDOC Planning & Reports (quarterly population reports)"
     url: "https://corrections.wyo.gov/about-us/planning-reports"
 lastVerified: 2026-06-11
-reviewBy: 2026-09-11
+reviewBy: 2026-10-20
 lang: es
 sourceReviewed: 2026-06-11
 ---

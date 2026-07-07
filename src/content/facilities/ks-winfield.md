@@ -31,7 +31,7 @@ sources:
   - name: "KDOC — Visitation (In-Person)"
     url: "https://www.doc.ks.gov/visitation-in-person"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-08-19
 ---
 
 :::callout{variant="warning"}

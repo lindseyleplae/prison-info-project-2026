@@ -39,7 +39,7 @@ sources:
   - name: "UAB St. Vincent's St. Clair — Emergency (Pell City)"
     url: "https://uabstvincents.org/locations/uab-st-vincents-st-clair-emergency/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-17
 lang: es
 sourceReviewed: 2026-06-13
 ---

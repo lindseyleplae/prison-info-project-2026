@@ -26,7 +26,7 @@ sources:
   - name: "Idaho DOC — South Boise Women's Correctional Center"
     url: "https://www.idoc.idaho.gov/content/locations/prisons/south-boise-womens-correctional-center"
 lastVerified: 2026-06-17
-reviewBy: 2026-09-17
+reviewBy: 2026-08-12
 ---
 
 :::callout{variant="info"}

@@ -43,7 +43,7 @@ sources:
   - name: "UAB Medical West — Emergency Services (Bessemer)"
     url: "https://medicalwesthospital.org/healthcare-services/emergency-services/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-16
 lang: es
 sourceReviewed: 2026-06-13
 ---

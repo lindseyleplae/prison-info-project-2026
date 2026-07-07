@@ -36,7 +36,7 @@ sources:
   - name: "Baptist Memorial Hospital–Leake — Emergency (Carthage)"
     url: "https://www.baptistonline.org/locations/leake/services"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-01
 ---
 
 :::callout{variant="warning"}

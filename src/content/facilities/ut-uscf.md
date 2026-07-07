@@ -35,7 +35,7 @@ sources:
   - name: "Utah Correctional Facilities Handbook (April 2025)"
     url: "https://corrections.utah.gov/wp-content/uploads/Utah-Correctional-Facilities-Handbook.docx.pdf"
 lastVerified: 2026-06-11
-reviewBy: 2026-09-11
+reviewBy: 2026-10-11
 ---
 
 :::callout{variant="warning"}

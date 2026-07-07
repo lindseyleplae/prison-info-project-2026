@@ -36,7 +36,7 @@ sources:
   - name: "Wellstar Sylvan Grove Medical Center — Emergency (Jackson)"
     url: "https://www.wellstar.org/medical-services/service-lines/emergency-care/sylvan-grove-hospital"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-05
 ---
 
 :::callout{variant="warning"}

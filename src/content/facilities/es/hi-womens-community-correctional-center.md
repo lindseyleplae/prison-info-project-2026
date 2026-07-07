@@ -29,7 +29,7 @@ sources:
   - name: "HI DCR Women's Community Correctional Center"
     url: "https://dcr.hawaii.gov/about/divisions/corrections/about-corrections/wccc/"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-08-10
 lang: es
 sourceReviewed: 2026-06-16
 ---

@@ -33,7 +33,7 @@ sources:
   - name: "ND DOCR — Visiting (Family & Friends)"
     url: "https://www.docr.nd.gov/family-and-friends/"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-09-06
 ---
 
 :::callout{variant="warning"}

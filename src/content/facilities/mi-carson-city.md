@@ -37,7 +37,7 @@ sources:
   - name: "UM Health-Sparrow Carson Hospital — Emergency"
     url: "https://www.uofmhealthsparrow.org/our-hospitals-services/um-health-sparrow-hospitals/carson"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-25
 ---
 
 :::callout{variant="warning"}

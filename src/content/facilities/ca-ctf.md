@@ -36,7 +36,7 @@ sources:
   - name: "City of Soledad — Soledad Marketplace"
     url: "https://www.cityofsoledad.com/departments/community-and-economic-development/economic-development/soledad-marketplace/"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-07-22
 ---
 
 :::callout{variant="warning"}

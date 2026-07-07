@@ -35,7 +35,7 @@ sources:
   - name: "Good Shepherd Medical Center — Emergency Services (Hermiston)"
     url: "https://www.gshealth.org/emergency-services"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-22
 ---
 
 :::callout{variant="warning"}

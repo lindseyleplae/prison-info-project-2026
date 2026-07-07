@@ -33,7 +33,7 @@ sources:
   - name: "MN DOC — Incoming Mail (TextBehind) FAQ"
     url: "https://mn.gov/doc/assets/Mail%20-TextBehind%20-%20IP%20FAQ_tcm1089-655343.pdf"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-08-29
 lang: es
 sourceReviewed: 2026-06-16
 ---

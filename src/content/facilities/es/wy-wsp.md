@@ -36,7 +36,7 @@ sources:
   - name: "WYDOT 511 Service (road conditions)"
     url: "https://www.wyoroad.info/"
 lastVerified: 2026-06-11
-reviewBy: 2026-09-11
+reviewBy: 2026-10-20
 lang: es
 sourceReviewed: 2026-06-11
 ---

@@ -28,7 +28,7 @@ sources:
   - name: "Idaho DOC — Idaho State Correctional Center"
     url: "https://www.idoc.idaho.gov/content/locations/prisons/iscc-icc"
 lastVerified: 2026-06-17
-reviewBy: 2026-09-17
+reviewBy: 2026-08-11
 lang: es
 sourceReviewed: 2026-06-17
 ---

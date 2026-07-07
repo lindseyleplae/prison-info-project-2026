@@ -37,7 +37,7 @@ sources:
   - name: "CCHCS Compassionate Release Emergency Regulations (filed March 2025)"
     url: "https://cchcs.ca.gov/wp-content/uploads/sites/60/Compassionate-Release-Emergency-Regulations.pdf"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-07-22
 ---
 
 :::callout{variant="warning"}

@@ -37,7 +37,7 @@ sources:
   - name: "CHI St. Anthony Hospital — Emergency Care (Pendleton)"
     url: "https://www.sahpendleton.org/services/emergency-care"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-21
 lang: es
 sourceReviewed: 2026-06-13
 ---

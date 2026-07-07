@@ -39,7 +39,7 @@ sources:
   - name: "Heart of the Rockies Regional Medical Center — Emergency (Salida)"
     url: "https://www.hrrmc.com/services/emergency-trauma/"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-07-25
 lang: es
 sourceReviewed: 2026-06-14
 ---

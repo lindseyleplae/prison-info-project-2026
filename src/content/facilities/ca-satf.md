@@ -37,7 +37,7 @@ sources:
   - name: "City of Corcoran — Public Transportation"
     url: "https://cityofcorcoran.ca.gov/i_want_to/find/public_transportation.php"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-07-24
 ---
 
 :::callout{variant="warning"}

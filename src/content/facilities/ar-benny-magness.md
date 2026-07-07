@@ -39,7 +39,7 @@ sources:
   - name: "Izard County Medical Center / Izard Regional Hospital — Emergency (Calico Rock)"
     url: "https://izardregionalhospital.com/services/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-17
 ---
 
 :::callout{variant="warning"}

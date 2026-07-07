@@ -36,7 +36,7 @@ sources:
   - name: "Saline Memorial Hospital — Emergency (Benton)"
     url: "https://www.salinememorial.org/emergency-medicine"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-17
 ---
 
 :::callout{variant="warning"}

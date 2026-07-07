@@ -35,7 +35,7 @@ sources:
   - name: "Piedmont Augusta Hospital — Emergency (Augusta)"
     url: "https://www.piedmont.org/locations/piedmont-augusta"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-04
 ---
 
 :::callout{variant="warning"}

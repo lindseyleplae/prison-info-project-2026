@@ -38,7 +38,7 @@ sources:
   - name: "Phoenixville Hospital (Tower Health) — Emergency Department"
     url: "https://towerhealth.org/locations/emergency-department-phoenixville-hospital"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-24
 ---
 
 :::callout{variant="warning"}

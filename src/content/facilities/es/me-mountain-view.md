@@ -39,7 +39,7 @@ sources:
   - name: "Northern Light Eastern Maine Medical Center — Emergency Care"
     url: "https://northernlighthealth.org/Our-System/Eastern-Maine-Medical-Center/Locations/Emergency-Care"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-08-25
 lang: es
 sourceReviewed: 2026-06-12
 ---

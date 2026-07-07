@@ -37,7 +37,7 @@ sources:
   - name: "Lake Health District — Lake District Hospital (Lakeview)"
     url: "https://lakehealthdistrict.org/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-22
 ---
 
 :::callout{variant="warning"}

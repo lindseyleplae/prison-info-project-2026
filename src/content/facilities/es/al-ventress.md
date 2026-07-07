@@ -36,7 +36,7 @@ sources:
   - name: "Medical Center Barbour — Emergency (Eufaula)"
     url: "https://www.medctrbarbour.org/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-17
 lang: es
 sourceReviewed: 2026-06-13
 ---

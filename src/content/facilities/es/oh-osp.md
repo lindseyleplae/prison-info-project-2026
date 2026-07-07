@@ -36,7 +36,7 @@ sources:
   - name: "Mercy Health – St. Elizabeth Youngstown Hospital — Emergency (Youngstown)"
     url: "https://www.mercy.com/locations/emergency-room/youngstown/mercy-health-st-elizabeth-youngstown-hospital-emergency-department"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-17
 lang: es
 sourceReviewed: 2026-06-14
 ---

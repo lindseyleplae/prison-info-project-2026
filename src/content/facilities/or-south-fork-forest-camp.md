@@ -39,7 +39,7 @@ sources:
   - name: "Adventist Health Tillamook — Emergency Room"
     url: "https://www.adventisthealth.org/locations/adventist-health-tillamook-emergency-room/"
 lastVerified: 2026-07-07
-reviewBy: 2026-09-07
+reviewBy: 2026-09-22
 ---
 
 :::callout{variant="warning"}

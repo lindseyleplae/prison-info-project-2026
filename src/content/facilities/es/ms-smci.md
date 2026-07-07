@@ -37,7 +37,7 @@ sources:
   - name: "George Regional Hospital — Lucedale (emergency care)"
     url: "https://georgeregional.com/our-locations/george-regional-hospital/"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-09-01
 lang: es
 sourceReviewed: 2026-06-12
 ---

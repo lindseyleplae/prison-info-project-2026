@@ -39,7 +39,7 @@ sources:
   - name: "Banner Health — Sterling Regional MedCenter Emergency"
     url: "https://www.bannerhealth.com/locations/sterling/sterling-regional-medcenter"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-27
 ---
 
 :::callout{variant="warning"}

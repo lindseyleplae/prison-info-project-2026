@@ -39,7 +39,7 @@ sources:
   - name: "Unity Health – Harris Medical Center (Newport, emergency)"
     url: "https://www.unity-health.org/locations/unity-health-newport/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-18
 lang: es
 sourceReviewed: 2026-06-13
 ---

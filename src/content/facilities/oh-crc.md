@@ -36,7 +36,7 @@ sources:
   - name: "OhioHealth Grove City Methodist Hospital — Emergency (Grove City)"
     url: "https://www.ohiohealth.com/locations/hospitals/grove-city-methodist-hospital"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-16
 ---
 
 :::callout{variant="warning"}

@@ -40,7 +40,7 @@ sources:
   - name: "Sistersville General Hospital — Emergency Department"
     url: "https://www.mhsystem.org/locations/emergency-department/sistersville-general-hospital/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-10-19
 ---
 
 :::callout{variant="warning"}

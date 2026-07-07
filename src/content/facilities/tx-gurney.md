@@ -33,7 +33,7 @@ sources:
   - name: "Texas H.B. 719 (2021) — repeal of the transfer-facility stay limit"
     url: "https://capitol.texas.gov/tlodocs/87R/billtext/html/HB00719F.htm"
 lastVerified: 2026-06-11
-reviewBy: 2026-09-11
+reviewBy: 2026-10-04
 ---
 
 :::callout{variant="warning"}

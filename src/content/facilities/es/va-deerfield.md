@@ -42,7 +42,7 @@ sources:
   - name: "Bon Secours Southampton Medical Center — Emergency (Franklin)"
     url: "https://www.bonsecours.com/locations/emergency-rooms/hampton-roads/southampton-memorial-hospital"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-10-12
 lang: es
 sourceReviewed: 2026-06-13
 ---

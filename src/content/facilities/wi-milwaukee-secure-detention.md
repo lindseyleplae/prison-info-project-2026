@@ -33,7 +33,7 @@ sources:
   - name: "WI DOC — Visiting Information"
     url: "https://doc.wi.gov/Pages/OffenderInformation/AdultInstitutions/VisitingInformation.aspx"
 lastVerified: 2026-06-15
-reviewBy: 2026-09-15
+reviewBy: 2026-10-17
 ---
 
 :::callout{variant="warning"}

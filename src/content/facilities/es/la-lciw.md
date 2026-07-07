@@ -36,7 +36,7 @@ sources:
   - name: "Our Lady of the Lake Ascension Emergency Room (Gonzales)"
     url: "https://www.fmolhs.org/locations/greater-baton-rouge/our-lady-of-the-lake-ascension-emergency-room"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-08-21
 lang: es
 sourceReviewed: 2026-06-12
 ---

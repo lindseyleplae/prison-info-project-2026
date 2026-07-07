@@ -36,7 +36,7 @@ sources:
   - name: "University Hospitals Elyria Medical Center — Emergency (Elyria)"
     url: "https://www.uhhospitals.org/locations/uh-elyria-medical-center"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-16
 lang: es
 sourceReviewed: 2026-06-14
 ---

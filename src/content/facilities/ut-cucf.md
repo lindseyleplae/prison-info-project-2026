@@ -33,7 +33,7 @@ sources:
   - name: "UDC Department Manual — FD04 Visiting (rev. January 2026)"
     url: "https://public.powerdms.com/UtahDOC/documents/2037055"
 lastVerified: 2026-06-11
-reviewBy: 2026-09-11
+reviewBy: 2026-10-11
 ---
 
 :::key-info

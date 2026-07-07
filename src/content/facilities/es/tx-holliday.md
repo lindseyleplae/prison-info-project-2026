@@ -34,7 +34,7 @@ sources:
   - name: "Texas H.B. 719 (2021) — repeal of the transfer-facility category"
     url: "https://capitol.texas.gov/tlodocs/87R/analysis/html/HB00719E.htm"
 lastVerified: 2026-06-11
-reviewBy: 2026-09-11
+reviewBy: 2026-10-05
 lang: es
 sourceReviewed: 2026-06-11
 ---

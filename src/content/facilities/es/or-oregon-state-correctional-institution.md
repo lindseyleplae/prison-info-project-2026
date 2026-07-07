@@ -37,7 +37,7 @@ sources:
   - name: "Salem Health — Emergency Room (Salem Hospital)"
     url: "https://salemhealth.org/services/emergency-room/emergency-room"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-21
 lang: es
 sourceReviewed: 2026-06-13
 ---

@@ -36,7 +36,7 @@ sources:
   - name: "Chicot Memorial Medical Center — Emergency (Lake Village)"
     url: "https://chicotmemorial.com/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-18
 lang: es
 sourceReviewed: 2026-06-13
 ---

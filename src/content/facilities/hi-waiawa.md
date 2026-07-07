@@ -30,7 +30,7 @@ sources:
   - name: "HI DCR Waiawa Correctional Facility"
     url: "https://dcr.hawaii.gov/wc/"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-08-10
 ---
 
 :::callout{variant="info"}

@@ -30,7 +30,7 @@ sources:
   - name: "TDCJ Inmate Rules and Regulations for Visitation (I-218)"
     url: "https://www.tdcj.texas.gov/documents/cid/Inmate_Rules_and_Regulations_for_Visitation_English.pdf"
 lastVerified: 2026-06-15
-reviewBy: 2026-09-15
+reviewBy: 2026-10-01
 ---
 
 :::key-info

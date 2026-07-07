@@ -42,7 +42,7 @@ sources:
   - name: "HCA Virginia — Henrico Doctors' Hospital Emergency Care"
     url: "https://www.hcavirginia.com/locations/henrico-doctors-hospital/specialties/emergency-care"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-10-14
 ---
 
 :::callout{variant="warning"}

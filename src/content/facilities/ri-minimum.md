@@ -36,7 +36,7 @@ sources:
   - name: "RIDOC For Inmates' Friends, Families, and Visitors"
     url: "https://doc.ri.gov/family-visitors"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-09-25
 ---
 
 :::key-info

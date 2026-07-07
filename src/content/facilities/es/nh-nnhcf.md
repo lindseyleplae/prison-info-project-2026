@@ -44,7 +44,7 @@ sources:
   - name: "Androscoggin Valley Hospital — Emergency Care"
     url: "https://avhnh.org/department/emergency-care/"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-09-08
 lang: es
 sourceReviewed: 2026-06-12
 ---

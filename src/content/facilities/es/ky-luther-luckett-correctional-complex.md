@@ -30,7 +30,7 @@ sources:
   - name: "KY DOC — Adult Institutions"
     url: "https://corrections.ky.gov/facilities/ai/pages/default.aspx"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-08-20
 lang: es
 sourceReviewed: 2026-06-16
 ---

@@ -35,7 +35,7 @@ sources:
   - name: "CDCR — Prisoner's Eligibility to Visit (hospitalized patients)"
     url: "https://www.cdcr.ca.gov/visitors/prisoners-eligibility-to-visit/"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-07-22
 ---
 
 :::callout{variant="warning"}

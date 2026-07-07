@@ -36,7 +36,7 @@ sources:
   - name: "Penn State Health Holy Spirit Medical Center — Emergency (Camp Hill)"
     url: "https://www.pennstatehealth.org/locations/penn-state-health-holy-spirit-medical-center-emergency"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-22
 lang: es
 sourceReviewed: 2026-06-14
 ---

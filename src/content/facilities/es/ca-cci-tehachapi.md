@@ -33,7 +33,7 @@ sources:
   - name: "CCHCS — Coccidioidomycosis (Valley Fever) Care Guide"
     url: "https://cchcs.ca.gov/wp-content/uploads/sites/60/Coccidioidomycosis_Care_Guide.pdf"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-21
 lang: es
 sourceReviewed: 2026-06-13
 ---

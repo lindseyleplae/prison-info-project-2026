@@ -36,7 +36,7 @@ sources:
   - name: "Baptist Medical Center South — Emergency (Montgomery)"
     url: "https://www.baptistfirst.org/location/baptist-medical-center-south"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-17
 ---
 
 :::callout{variant="warning"}

@@ -43,7 +43,7 @@ sources:
   - name: "Legal Aid Justice Center — Lawsuit Concludes at Fluvanna Women's Correctional Center after 14 Years"
     url: "https://www.justice4all.org/news/lawsuit-concludes-at-fluvanna-womens-correctional-center-after-14-years/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-10-12
 ---
 
 :::callout{variant="warning"}

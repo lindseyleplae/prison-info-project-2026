@@ -38,7 +38,7 @@ sources:
   - name: "Chesapeake Regional Medical Center — Emergency Department"
     url: "https://chesapeakeregional.com/locations/emergency-department"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-10-14
 ---
 
 :::callout{variant="warning"}

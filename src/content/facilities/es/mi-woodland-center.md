@@ -37,7 +37,7 @@ sources:
   - name: "University of Michigan Health — Adult Emergency Department"
     url: "https://www.uofmhealth.org/locations-list/adult-emergency-department-university-hospital"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-28
 lang: es
 sourceReviewed: 2026-06-14
 ---

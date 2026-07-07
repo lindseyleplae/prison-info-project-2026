@@ -36,7 +36,7 @@ sources:
   - name: "CHRISTUS St. Michael Hospital — Emergency (Texarkana)"
     url: "https://www.christushealth.org/locations/st-michael-emergency-room"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-19
 ---
 
 :::callout{variant="warning"}

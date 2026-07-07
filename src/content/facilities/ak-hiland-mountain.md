@@ -33,7 +33,7 @@ sources:
   - name: "AK DOC — Friends & Family Handbook"
     url: "https://doc.alaska.gov/institutions/docs/Family%20Handbook%20January%202026.pdf"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-07-14
 ---
 
 :::callout{variant="warning"}

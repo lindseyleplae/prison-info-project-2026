@@ -36,7 +36,7 @@ sources:
   - name: "Greenwood Leflore Hospital — Emergency (closure warning, 2026)"
     url: "https://glh.org/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-01
 lang: es
 sourceReviewed: 2026-06-13
 ---

@@ -35,7 +35,7 @@ sources:
   - name: "OhioHealth Grant Medical Center — Emergency (Columbus)"
     url: "https://www.ohiohealth.com/locations/hospitals/grant-medical-center"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-16
 lang: es
 sourceReviewed: 2026-06-14
 ---

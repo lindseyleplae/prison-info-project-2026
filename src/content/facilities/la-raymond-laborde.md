@@ -39,7 +39,7 @@ sources:
   - name: "Louisiana Political Museum — Raymond J. Laborde"
     url: "https://lapoliticalmuseum.com/inductee/raymond-j-laborde/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-08-21
 ---
 
 :::callout{variant="warning"}

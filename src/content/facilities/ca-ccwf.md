@@ -32,7 +32,7 @@ sources:
   - name: "Condemned Inmate Transfer Program (CITP) — CDCR Capital Punishment"
     url: "https://www.cdcr.ca.gov/capital-punishment/condemned-inmate-transfer-program/"
 lastVerified: 2026-06-09
-reviewBy: 2026-09-09
+reviewBy: 2026-07-21
 ---
 
 :::callout{variant="warning"}

@@ -36,7 +36,7 @@ sources:
   - name: "Meadville Medical Center — Emergency Department"
     url: "https://www.mmchs.org/services/emergency-department/"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-22
 lang: es
 sourceReviewed: 2026-06-14
 ---

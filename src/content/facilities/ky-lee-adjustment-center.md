@@ -28,7 +28,7 @@ sources:
   - name: "CoreCivic — Lee Adjustment Center"
     url: "https://www.corecivic.com/facilities/lee-adjustment-center"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-08-19
 ---
 
 :::callout{variant="warning"}

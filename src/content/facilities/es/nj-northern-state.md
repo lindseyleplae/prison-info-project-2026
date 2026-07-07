@@ -41,7 +41,7 @@ sources:
   - name: "University Hospital — Emergency (Newark)"
     url: "https://www.uhnj.org/services/emergency-medicine/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-09
 lang: es
 sourceReviewed: 2026-06-13
 ---

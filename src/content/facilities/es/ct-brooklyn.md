@@ -36,7 +36,7 @@ sources:
   - name: "Day Kimball Hospital — Emergency (Putnam)"
     url: "https://www.daykimball.org/locations/day-kimball-hospital/hospital-departments/townsend-emergency-medical-center/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-27
 lang: es
 sourceReviewed: 2026-06-13
 ---

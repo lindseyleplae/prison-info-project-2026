@@ -34,7 +34,7 @@ sources:
   - name: "Dodge County Hospital — Emergency (Eastman)"
     url: "https://www.dodgecountyhospital.com"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-07
 lang: es
 sourceReviewed: 2026-06-14
 ---

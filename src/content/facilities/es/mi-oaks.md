@@ -37,7 +37,7 @@ sources:
   - name: "Munson Healthcare Manistee Hospital — Emergency"
     url: "https://www.munsonhealthcare.org/manistee-hospital"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-27
 lang: es
 sourceReviewed: 2026-06-14
 ---

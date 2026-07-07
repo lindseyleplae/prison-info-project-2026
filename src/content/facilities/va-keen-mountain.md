@@ -38,7 +38,7 @@ sources:
   - name: "Buchanan General Hospital — Emergency Room (Grundy)"
     url: "https://www.bgh.org/getpage.php?name=er"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-10-13
 ---
 
 :::callout{variant="warning"}

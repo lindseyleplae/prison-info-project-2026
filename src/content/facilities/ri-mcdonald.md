@@ -39,7 +39,7 @@ sources:
   - name: "RIDOC Women's Facility presentation to the RI legislature (February 2022, FY21 data)"
     url: "https://www.rilegislature.gov/commissions/RIW/commdocs/2%2010%202022%20RIDOC%20Women's%20Facility%20Presentation.pdf"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-09-25
 ---
 
 :::key-info

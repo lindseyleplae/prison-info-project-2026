@@ -30,7 +30,7 @@ sources:
   - name: "Types of Visits — CDCR Visitation Information"
     url: "https://www.cdcr.ca.gov/visitors/types-of-visits/"
 lastVerified: 2026-06-10
-reviewBy: 2026-09-10
+reviewBy: 2026-07-23
 lang: es
 sourceReviewed: 2026-06-10
 ---

@@ -37,7 +37,7 @@ sources:
   - name: "Legacy Emanuel Medical Center — Emergency (Portland)"
     url: "https://www.legacyhealth.org/doctors-and-locations/locations/hospitals/legacy-emanuel-medical-center"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-21
 ---
 
 :::callout{variant="warning"}

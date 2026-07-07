@@ -38,7 +38,7 @@ sources:
   - name: "Ballad Health — Smyth County Community Hospital (Marion)"
     url: "https://www.balladhealth.org/locations/hospitals/smyth-county-community"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-10-13
 lang: es
 sourceReviewed: 2026-06-13
 ---

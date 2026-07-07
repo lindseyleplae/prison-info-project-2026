@@ -38,7 +38,7 @@ sources:
   - name: "Baptist Health Medical Center–Little Rock — Emergency"
     url: "https://www.baptist-health.com/location/baptist-health-medical-center-little-rock"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-19
 lang: es
 sourceReviewed: 2026-06-13
 ---

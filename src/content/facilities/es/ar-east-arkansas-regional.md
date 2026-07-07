@@ -37,7 +37,7 @@ sources:
   - name: "Forrest City Medical Center — Emergency Room"
     url: "https://forrestcitymedicalcenter.com/er/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-18
 lang: es
 sourceReviewed: 2026-06-13
 ---

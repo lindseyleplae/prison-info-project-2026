@@ -37,7 +37,7 @@ sources:
   - name: "RIDOC Video Visitation Information"
     url: "https://doc.ri.gov/media/1551/download"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-09-24
 lang: es
 sourceReviewed: 2026-06-12
 ---

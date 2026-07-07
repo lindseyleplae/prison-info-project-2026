@@ -38,7 +38,7 @@ sources:
   - name: "Claiborne Memorial Medical Center (Homer)"
     url: "https://claibornemedical.com/contact-us/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-08-20
 lang: es
 sourceReviewed: 2026-06-13
 ---

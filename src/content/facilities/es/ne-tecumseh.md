@@ -41,7 +41,7 @@ sources:
   - name: "Johnson County Hospital — Emergency (Tecumseh)"
     url: "https://jchosp.com/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-07
 lang: es
 sourceReviewed: 2026-06-13
 ---

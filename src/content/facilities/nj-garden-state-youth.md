@@ -42,7 +42,7 @@ sources:
   - name: "RWJ University Hospital Hamilton — Emergency Department"
     url: "https://www.rwjbh.org/rwj-university-hospital-hamilton/treatment-care/emergency-room-services/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-08
 ---
 
 :::callout{variant="warning"}

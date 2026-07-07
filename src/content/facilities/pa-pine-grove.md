@@ -36,7 +36,7 @@ sources:
   - name: "Indiana Regional Medical Center — Emergency Department"
     url: "https://www.irmc.org/services/emergency-department/"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-24
 ---
 
 :::callout{variant="warning"}

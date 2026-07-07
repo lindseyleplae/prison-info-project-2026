@@ -36,7 +36,7 @@ sources:
   - name: "Bryan Medical Center — Emergency Departments (Lincoln)"
     url: "https://www.bryanhealth.com/locations/emergency-departments/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-06
 ---
 
 :::callout{variant="warning"}

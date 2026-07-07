@@ -34,7 +34,7 @@ sources:
   - name: "PADOC — Visitor Guide (PDF)"
     url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/Visitor-Guide.pdf"
 lastVerified: 2026-06-15
-reviewBy: 2026-09-15
+reviewBy: 2026-09-22
 lang: es
 sourceReviewed: 2026-06-15
 ---

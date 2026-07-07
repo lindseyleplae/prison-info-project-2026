@@ -34,7 +34,7 @@ sources:
   - name: "TDCJ Death Row Information"
     url: "https://www.tdcj.texas.gov/death_row/dr_facts.html"
 lastVerified: 2026-06-11
-reviewBy: 2026-09-11
+reviewBy: 2026-10-03
 ---
 
 :::callout{variant="info"}

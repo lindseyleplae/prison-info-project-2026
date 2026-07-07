@@ -30,7 +30,7 @@ sources:
   - name: "TDCJ Visitation Portal — Unit Visitation Schedule"
     url: "https://visitation.tdcj.texas.gov/Visitation/viewPublicHoursAction.action"
 lastVerified: 2026-06-09
-reviewBy: 2026-09-09
+reviewBy: 2026-10-10
 ---
 
 :::callout{variant="warning"}

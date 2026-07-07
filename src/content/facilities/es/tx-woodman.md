@@ -37,7 +37,7 @@ sources:
   - name: "TDCJ Offender Orientation Handbook (I-202)"
     url: "https://www.tdcj.texas.gov/documents/Offender_Orientation_Handbook_English.pdf"
 lastVerified: 2026-06-10
-reviewBy: 2026-09-10
+reviewBy: 2026-10-11
 lang: es
 sourceReviewed: 2026-06-10
 ---

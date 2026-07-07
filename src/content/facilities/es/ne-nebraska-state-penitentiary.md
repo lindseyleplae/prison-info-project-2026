@@ -39,7 +39,7 @@ sources:
   - name: "Bryan Medical Center — West Campus Emergency (Lincoln)"
     url: "https://www.bryanhealth.com/locations/profile/emergency-department-bryan-west-campus/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-07
 lang: es
 sourceReviewed: 2026-06-13
 ---

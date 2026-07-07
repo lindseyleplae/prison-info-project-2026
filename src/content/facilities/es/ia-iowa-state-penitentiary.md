@@ -27,7 +27,7 @@ sources:
   - name: "Iowa DOC — Iowa State Penitentiary"
     url: "https://doc.iowa.gov/districts-prisons/iowa-state-penitentiary"
 lastVerified: 2026-06-17
-reviewBy: 2026-09-17
+reviewBy: 2026-08-10
 lang: es
 sourceReviewed: 2026-06-17
 ---

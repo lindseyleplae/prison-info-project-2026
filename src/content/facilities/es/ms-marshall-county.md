@@ -34,7 +34,7 @@ sources:
   - name: "Baptist Memorial Hospital–North Mississippi — Emergency (Oxford)"
     url: "https://www.baptistonline.org/locations/north-mississippi"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-01
 lang: es
 sourceReviewed: 2026-06-13
 ---

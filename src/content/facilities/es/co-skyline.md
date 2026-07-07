@@ -39,7 +39,7 @@ sources:
   - name: "St. Thomas More Hospital — Emergency Department (Cañon City)"
     url: "https://www.mountain.commonspirit.org/location/st-thomas-more-hospital/emergency-department"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-07-27
 lang: es
 sourceReviewed: 2026-06-14
 ---

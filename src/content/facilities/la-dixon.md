@@ -38,7 +38,7 @@ sources:
   - name: "Humane World for Animals — Pen Pals, a one-of-a-kind prison animal shelter"
     url: "https://www.humaneworld.org/en/blog/one-kind-animal-shelter-louisiana"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-08-20
 ---
 
 :::callout{variant="warning"}

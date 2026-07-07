@@ -37,7 +37,7 @@ sources:
   - name: "MyMichigan Medical Center Sault (War Memorial) — Emergency"
     url: "https://www.mymichigan.org/locations/profile/emergency-saultstemarie/"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-27
 lang: es
 sourceReviewed: 2026-06-14
 ---

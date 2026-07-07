@@ -39,7 +39,7 @@ sources:
   - name: "Baptist Health Medical Center–Hot Spring County (Malvern, emergency)"
     url: "https://www.baptist-health.com/locations/baptist-health-medical-center-hot-spring-county"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-18
 lang: es
 sourceReviewed: 2026-06-13
 ---

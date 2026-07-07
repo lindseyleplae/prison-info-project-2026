@@ -37,7 +37,7 @@ sources:
   - name: "Atmore Community Hospital — Emergency (Atmore)"
     url: "https://www.atmorehealth.org/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-16
 ---
 
 :::callout{variant="warning"}

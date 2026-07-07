@@ -41,7 +41,7 @@ sources:
   - name: "West's Coastal Connection — West Bus Service"
     url: "https://westbusservice.com/"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-08-25
 ---
 
 :::callout{variant="warning"}

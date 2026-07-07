@@ -34,7 +34,7 @@ sources:
   - name: "St. Mary's Sacred Heart Hospital — Emergency (Lavonia)"
     url: "https://www.stmaryshealthcaresystem.org/location/st-marys-sacred-heart-hospital"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-08-09
 lang: es
 sourceReviewed: 2026-06-14
 ---

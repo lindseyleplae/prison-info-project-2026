@@ -31,7 +31,7 @@ sources:
   - name: "NCDAC — Prison Visitation"
     url: "https://www.dac.nc.gov/divisions-and-sections/institutions/prison-visitation"
 lastVerified: 2026-06-15
-reviewBy: 2026-09-15
+reviewBy: 2026-09-06
 lang: es
 sourceReviewed: 2026-06-15
 ---

@@ -34,7 +34,7 @@ sources:
   - name: "Missouri DOC — Visiting"
     url: "https://doc.mo.gov/programs/family-friends/visiting"
 lastVerified: 2026-06-15
-reviewBy: 2026-09-15
+reviewBy: 2026-08-30
 ---
 
 :::callout{variant="warning"}

@@ -29,7 +29,7 @@ sources:
   - name: "HI DCR Maui Community Correctional Center"
     url: "https://dcr.hawaii.gov/mccc/"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-08-09
 ---
 
 :::callout{variant="warning"}

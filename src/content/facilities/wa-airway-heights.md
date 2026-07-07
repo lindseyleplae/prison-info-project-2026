@@ -34,7 +34,7 @@ sources:
   - name: "WA DOC — Prison Visits"
     url: "https://doc.wa.gov/visiting/prison-visits"
 lastVerified: 2026-06-15
-reviewBy: 2026-09-15
+reviewBy: 2026-10-15
 ---
 
 :::callout{variant="warning"}

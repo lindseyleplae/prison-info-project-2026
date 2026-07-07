@@ -31,7 +31,7 @@ sources:
   - name: "SD DOC — Visitors"
     url: "https://www.doc.sd.gov/adult-corrections/visitors"
 lastVerified: 2026-06-16
-reviewBy: 2026-09-16
+reviewBy: 2026-09-28
 ---
 
 :::callout{variant="warning"}

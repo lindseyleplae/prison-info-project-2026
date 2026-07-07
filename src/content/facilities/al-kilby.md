@@ -39,7 +39,7 @@ sources:
   - name: "Jackson Hospital — Emergency Care (Montgomery)"
     url: "https://www.jackson.org/services/emergency-care/"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-16
 ---
 
 :::callout{variant="warning"}

@@ -35,7 +35,7 @@ sources:
   - name: "White River Health — Batesville (Emergency)"
     url: "https://whiteriverhealth.org/locations"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-07-19
 lang: es
 sourceReviewed: 2026-06-13
 ---

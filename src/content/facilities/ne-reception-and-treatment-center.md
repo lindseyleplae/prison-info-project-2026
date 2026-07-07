@@ -43,7 +43,7 @@ sources:
   - name: "CHI Health St. Elizabeth — Emergency Department (Lincoln)"
     url: "https://www.chihealth.com/services/emergency-medicine/st-elizabeth-emergency-department"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-09-07
 ---
 
 :::callout{variant="warning"}

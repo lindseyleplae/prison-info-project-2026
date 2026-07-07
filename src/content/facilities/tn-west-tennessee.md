@@ -34,7 +34,7 @@ sources:
   - name: "TDOC — Inmate Visitation"
     url: "https://www.tn.gov/correction/state-prisons/visitation.html"
 lastVerified: 2026-06-14
-reviewBy: 2026-09-14
+reviewBy: 2026-09-29
 ---
 
 :::callout{variant="warning"}

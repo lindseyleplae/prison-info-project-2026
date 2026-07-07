@@ -38,7 +38,7 @@ sources:
   - name: "WVU Medicine United Hospital Center — Emergency (Bridgeport)"
     url: "https://wvumedicine.org/locations/location/?locationId=Department_1274"
 lastVerified: 2026-06-13
-reviewBy: 2026-09-13
+reviewBy: 2026-10-19
 lang: es
 sourceReviewed: 2026-06-13
 ---

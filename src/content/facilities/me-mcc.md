@@ -46,7 +46,7 @@ sources:
   - name: "MaineHealth Maine Medical Center — Emergency Department"
     url: "https://www.mainehealth.org/locations/mainehealth-maine-medical-center-portland-emergency-department"
 lastVerified: 2026-06-12
-reviewBy: 2026-09-12
+reviewBy: 2026-08-25
 ---
 
 :::callout{variant="warning"}
