@@ -3,6 +3,7 @@ import sitemap from '@astrojs/sitemap';
 import remarkDirective from 'remark-directive';
 import remarkGfm from 'remark-gfm';
 import { prisonContentBlocks } from './src/lib/remark-content-blocks.mjs';
+import { esInternalLinks } from './src/lib/remark-es-links.mjs';
 
 export default defineConfig({
   output: 'static',
@@ -20,7 +21,7 @@ export default defineConfig({
     })
   ],
   markdown: {
-    remarkPlugins: [remarkGfm, remarkDirective, prisonContentBlocks],
+    remarkPlugins: [remarkGfm, remarkDirective, prisonContentBlocks, esInternalLinks],
     syntaxHighlight: 'shiki'
   }
 });
