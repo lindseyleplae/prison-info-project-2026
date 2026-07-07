@@ -1,34 +1,30 @@
 ---
 import { getCollection, render } from 'astro:content';
-import PageLayout from '../../../layouts/PageLayout.astro';
-import StartHere from '../../../components/StartHere.astro';
-import TopicIcon from '../../../components/TopicIcon.astro';
-import { topicMap } from '../../../data/topics';
-import { stateOrganizations } from '../../../data/state-organizations';
-import StateOrganizations from '../../../components/StateOrganizations.astro';
+import PageLayout from '../../../../layouts/PageLayout.astro';
+import StartHere from '../../../../components/StartHere.astro';
+import TopicIcon from '../../../../components/TopicIcon.astro';
+import { topicMap } from '../../../../data/topics';
+import { stateOrganizations } from '../../../../data/state-organizations';
+import StateOrganizations from '../../../../components/StateOrganizations.astro';
 
 export async function getStaticPaths() {
-  const [states, guides, facilities, esStates] = await Promise.all([
-    getCollection('states', ({ data }) => !data.draft && data.lang === 'en'),
-    getCollection('state-guides', ({ data }) => !data.draft && data.lang === 'en'),
-    getCollection('facilities', ({ data }) => !data.draft && data.lang === 'en'),
-    getCollection('states', ({ data }) => !data.draft && data.lang === 'es')
+  const [states, guides, facilities] = await Promise.all([
+    getCollection('states', ({ data }) => !data.draft && data.lang === 'es'),
+    getCollection('state-guides', ({ data }) => !data.draft && data.lang === 'es'),
+    getCollection('facilities', ({ data }) => !data.draft && data.lang === 'es')
   ]);
-
-  const spanishStateSlugs = new Set(esStates.map((e) => e.data.slug));
 
   return states.map((entry) => ({
     params: { state: entry.data.slug },
     props: {
       entry,
       guides: guides.filter((guide) => guide.data.state === entry.data.state),
-      facilities: facilities.filter((facility) => facility.data.state === entry.data.state),
-      hasSpanish: spanishStateSlugs.has(entry.data.slug)
+      facilities: facilities.filter((facility) => facility.data.state === entry.data.state)
     }
   }));
 }
 
-const { entry, guides, facilities, hasSpanish } = Astro.props;
+const { entry, guides, facilities } = Astro.props;
 const { Content } = await render(entry);
 
 guides.sort((left, right) => {
@@ -50,13 +46,13 @@ const GROUPING_MIN = 6;
 const facilityGroups =
   facilities.length >= GROUPING_MIN
     ? [
-        { label: "Women's facilities", items: facilities.filter((f) => f.data.population !== 'men') },
-        { label: "Men's facilities", items: facilities.filter((f) => f.data.population !== 'women') }
+        { label: "Instalaciones para mujeres", items: facilities.filter((f) => f.data.population !== 'men') },
+        { label: "Instalaciones para hombres", items: facilities.filter((f) => f.data.population !== 'women') }
       ].filter((group) => group.items.length > 0)
     : [{ label: null, items: facilities }];
 ---
 
-<PageLayout title={entry.data.title} seoTitle={`${entry.data.title} Prison Visiting & Inmate Info`} description={entry.data.summary} hasSpanish={hasSpanish}>
+<PageLayout title={entry.data.title} seoTitle={`${entry.data.title} — Visitas en prisión e información para familias`} description={entry.data.summary} lang="es" hasSpanish={true}>
   <Content />
 
   {entry.data.links?.inmateLocator && (
@@ -68,37 +64,37 @@ const facilityGroups =
   )}
 
   <nav class="page-jump-links" aria-label="Sections on this page">
-    <a href="#state-guides">State guides</a>
-    <a href="#facilities">Facilities ({facilities.length})</a>
-    {orgs.length > 0 && <a href="#organizations">Organizations</a>}
+    <a href="#state-guides">Guías estatales</a>
+    <a href="#facilities">Instalaciones ({facilities.length})</a>
+    {orgs.length > 0 && <a href="#organizations">Organizaciones</a>}
   </nav>
 
   <section id="state-guides">
-    <h2>State guides</h2>
+    <h2>Guías estatales</h2>
     <div class="section-card-list">
       {guides.map((guide) => (
-        <a class="section-card" href={`/states/${entry.data.slug}/guides/${guide.data.topic ?? guide.data.slug}/`}>
+        <a class="section-card" href={`/es/states/${entry.data.slug}/guides/${guide.data.topic ?? guide.data.slug}/`}>
           <h3>
             <TopicIcon name={topicMap.get(guide.data.topic ?? guide.data.slug)?.icon} />
             {guide.data.title}
           </h3>
-          <p class="clamp-2">{guide.data.description ?? guide.data.summary ?? 'State-specific process and policy detail.'}</p>
+          <p class="clamp-2">{guide.data.description ?? guide.data.summary ?? 'Detalles de procesos y políticas específicos del estado.'}</p>
         </a>
       ))}
     </div>
   </section>
 
   <section id="facilities">
-    <h2>Facilities</h2>
+    <h2>Instalaciones</h2>
     {facilityGroups.map((group) => (
       <>
         {group.label && <h3>{group.label}</h3>}
         <div class="section-card-list">
           {group.items.map((facility) => (
-            <a class="section-card" href={`/states/${entry.data.slug}/facilities/${facility.data.slug}/`}>
+            <a class="section-card" href={`/es/states/${entry.data.slug}/facilities/${facility.data.slug}/`}>
               <h3>{facility.data.title}</h3>
               <p>
-                {facility.data.city ?? 'Location pending'}
+                {facility.data.city ?? 'Ubicación pendiente'}
                 {facility.data.securityLevel && ` · ${facility.data.securityLevel}`}
               </p>
             </a>

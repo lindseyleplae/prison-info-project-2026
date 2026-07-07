@@ -57,7 +57,7 @@ const nationalGuides = defineCollection({
 });
 
 const states = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/states' }),
+  loader: glob({ pattern: '**/*.md', base: './src/content/states', generateId: fileId }),
   schema: z
     .object({
       title: z.string().trim().min(1),
@@ -155,7 +155,7 @@ const facilities = defineCollection({
 });
 
 const pages = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/pages' }),
+  loader: glob({ pattern: '**/*.md', base: './src/content/pages', generateId: fileId }),
   schema: z
     .object({
       title: z.string().trim().min(1),
@@ -169,7 +169,7 @@ const pages = defineCollection({
 });
 
 const tools = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/tools' }),
+  loader: glob({ pattern: '**/*.md', base: './src/content/tools', generateId: fileId }),
   schema: z
     .object({
       title: z.string().trim().min(1),

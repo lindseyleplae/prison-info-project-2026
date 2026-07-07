@@ -6,11 +6,15 @@ import { createBreadcrumbStructuredData } from '../lib/seo';
 const {
   title,
   seoTitle,
-  description
+  description,
+  lang = 'en',
+  hasSpanish = false
 } = Astro.props as {
   title: string;
   seoTitle?: string;
   description?: string;
+  lang?: 'en' | 'es';
+  hasSpanish?: boolean;
 };
 ---
 
@@ -18,6 +22,8 @@ const {
   title={title}
   seoTitle={seoTitle}
   description={description}
+  lang={lang}
+  hasSpanish={hasSpanish}
   structuredData={[
     createBreadcrumbStructuredData([
       { label: 'Home', href: '/' },

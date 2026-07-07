@@ -19,11 +19,15 @@ type Heading = {
 const {
   facility,
   stateTitle,
-  headings = []
+  headings = [],
+  lang = 'en',
+  hasSpanish = false
 } = Astro.props as {
   facility: CollectionEntry<'facilities'>;
   stateTitle: string;
   headings?: Heading[];
+  lang?: 'en' | 'es';
+  hasSpanish?: boolean;
 };
 
 const breadcrumbItems = [
@@ -51,8 +55,10 @@ const facilitySources = [
 
 <BaseLayout
   title={facility.data.title}
-  seoTitle={`${facility.data.title} Visiting Hours, Mail & Phone`}
+  seoTitle={lang === 'es' ? `${facility.data.title} — Visitas, correo y teléfono` : `${facility.data.title} Visiting Hours, Mail & Phone`}
   description={facility.data.summary ?? facility.data.address}
+  lang={lang}
+  hasSpanish={hasSpanish}
   structuredData={[
     createBreadcrumbStructuredData(breadcrumbItems),
     createFacilityStructuredData({

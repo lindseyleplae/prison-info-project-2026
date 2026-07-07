@@ -1,18 +1,16 @@
 ---
 import { getCollection, render } from 'astro:content';
-import GuideLayout from '../../../../layouts/GuideLayout.astro';
+import GuideLayout from '../../../../../layouts/GuideLayout.astro';
 
 export async function getStaticPaths() {
-  const [states, guides, nationalGuides, esGuides] = await Promise.all([
-    getCollection('states', ({ data }) => !data.draft && data.lang === 'en'),
-    getCollection('state-guides', ({ data }) => !data.draft && data.lang === 'en'),
-    getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'en'),
-    getCollection('state-guides', ({ data }) => !data.draft && data.lang === 'es')
+  const [states, guides, nationalGuides] = await Promise.all([
+    getCollection('states', ({ data }) => !data.draft && data.lang === 'es'),
+    getCollection('state-guides', ({ data }) => !data.draft && data.lang === 'es'),
+    getCollection('national-guides', ({ data }) => !data.draft && data.lang === 'es')
   ]);
 
   const stateByCode = new Map(states.map((entry) => [entry.data.state, entry]));
   const nationalGuideBySlug = new Map(nationalGuides.map((guide) => [guide.data.slug, guide]));
-  const spanishGuideKeys = new Set(esGuides.map((guide) => `${guide.data.state}:${guide.data.topic ?? guide.data.slug}`));
 
   return guides
     .map((entry) => {
@@ -34,16 +32,15 @@ export async function getStaticPaths() {
           entry,
           stateTitle: state.data.title,
           relatedNationalGuide: national
-            ? { title: national.data.title, href: `/guides/${national.data.slug}/` }
-            : undefined,
-          hasSpanish: spanishGuideKeys.has(`${entry.data.state}:${entry.data.topic ?? entry.data.slug}`)
+            ? { title: national.data.title, href: `/es/guides/${national.data.slug}/` }
+            : undefined
         }
       };
     })
     .filter(Boolean);
 }
 
-const { entry, stateTitle, relatedNationalGuide, hasSpanish } = Astro.props;
+const { entry, stateTitle, relatedNationalGuide } = Astro.props;
 const { Content, headings } = await render(entry);
 ---
 
@@ -55,7 +52,8 @@ const { Content, headings } = await render(entry);
   lastReviewed={entry.data.lastReviewed}
   sources={entry.data.sources}
   relatedNationalGuide={relatedNationalGuide}
-  hasSpanish={hasSpanish}
+  lang="es"
+  hasSpanish={true}
 >
   <Content />
 </GuideLayout>
