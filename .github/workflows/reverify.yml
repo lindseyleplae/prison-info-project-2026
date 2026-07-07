@@ -1,0 +1,128 @@
+name: Weekly re-verification
+
+# Re-checks facility pages that are due against their official sources and, for
+# pages whose facts still hold, refreshes the review dates automatically. Pages
+# whose source changed (or couldn't be read) are never auto-edited — they are
+# reported for a careful human fix. See REVERIFY.md.
+#
+# SAFETY MODEL
+# - Default is REPORT-ONLY: it posts a summary and writes nothing. To arm the
+#   hands-off auto-refresh, set the repository variable REVERIFY_APPLY = true.
+# - Even when armed, the ONLY thing written automatically is a date bump on
+#   pages the model confirmed unchanged. Fact edits are never automated.
+# - Nothing is committed unless the full quality-gate suite passes first.
+
+on:
+  schedule:
+    - cron: '0 8 * * 1' # Mondays 08:00 UTC (before the 14:00 content-audit)
+  workflow_dispatch:
+    inputs:
+      due_within:
+        description: 'Include pages due within N days'
+        default: '7'
+      apply:
+        description: 'Write date bumps + commit this run (overrides REVERIFY_APPLY)'
+        type: boolean
+        default: false
+
+concurrency:
+  group: reverify
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  reverify:
+    name: Re-verify due pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run re-verification
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          REVERIFY_MODEL: ${{ vars.REVERIFY_MODEL || 'claude-haiku-4-5-20251001' }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "ANTHROPIC_API_KEY not set — skipping this run. Add it to the repo"
+            echo "secrets to enable (see REVERIFY.md). Nothing was changed."
+            exit 0
+          fi
+          APPLY=""
+          if [ "${{ vars.REVERIFY_APPLY }}" = "true" ] || [ "${{ inputs.apply }}" = "true" ]; then
+            APPLY="--apply"
+            echo "Mode: ARMED (will commit confirmed date bumps if gates pass)"
+          else
+            echo "Mode: REPORT-ONLY (writes nothing)"
+          fi
+          DUE="${{ inputs.due_within }}"
+          node scripts/reverify.mjs --due-within="${DUE:-7}" --limit=250 $APPLY
+
+      - name: Quality gates (only if pages changed)
+        run: |
+          if git diff --quiet; then
+            echo "No changes to validate."
+          else
+            npx astro check
+            npm run lint:tone
+            npm run build
+            npm run check:links
+            npm run check:freshness
+            REQUIRE_SOURCES=1 npm run check:sources
+          fi
+
+      - name: Commit refreshed dates
+        run: |
+          if git diff --quiet; then
+            echo "Nothing to commit."
+          else
+            git config user.name "reverify-bot"
+            git config user.email "prisonvisitorguide@gmail.com"
+            git add -A src/content
+            git commit -m "Weekly re-verification: refresh confirmed pages ($(date -u +%Y-%m-%d))
+
+          Automated: re-checked due facility pages against their official sources
+          and refreshed lastVerified/reviewBy on the ones whose facts still hold.
+          Pages that changed or could not be verified were left untouched and are
+          listed in the run summary."
+            git push
+          fi
+
+      - name: Publish summary
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f reverify-summary.md ]; then
+            cat reverify-summary.md >> "$GITHUB_STEP_SUMMARY"
+            # Only open an issue when there is something for a human to act on.
+            if grep -qE '^## (Changed|Could not verify)' reverify-summary.md; then
+              gh issue create \
+                --title "Re-verification $(date -u +%Y-%m-%d): pages need review" \
+                --body-file reverify-summary.md \
+                --label "reverify" 2>/dev/null || \
+              gh issue create \
+                --title "Re-verification $(date -u +%Y-%m-%d): pages need review" \
+                --body-file reverify-summary.md || true
+            fi
+          fi
+
+      - name: Upload summary artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reverify-summary
+          path: reverify-summary.md
+          if-no-files-found: ignore

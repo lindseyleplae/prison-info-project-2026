@@ -6,3 +6,6 @@ test-results/
 .claude/
 OUTREACH.md
 outreach/
+
+# Re-verification run output (generated each run)
+reverify-summary.md
