@@ -5,11 +5,13 @@
 // Renders nothing if the state has no entry yet, so new states degrade
 // gracefully instead of showing a broken or empty block.
 //
-// NOTE: the rule text in state-visiting-rules.ts is English-only. On Spanish
-// pages the CHROME labels (heading, "Dress code", "ID", …) are translated and
-// the guide link is /es-prefixed, but the rule values themselves stay as the
-// source data until that data file is translated in a separate pass.
+// NOTE: English rule text lives in state-visiting-rules.ts; the Spanish
+// rendering of the same fields lives in state-visiting-rules.es.ts. On Spanish
+// pages the CHROME labels (heading, "Dress code", "ID", …) and the guide link
+// are localized AND the rule values themselves are overlaid from the Spanish
+// file, falling back to the English text for anything not yet translated.
 import { stateVisitingRules } from '../data/state-visiting-rules';
+import { stateVisitingRulesEs } from '../data/state-visiting-rules.es';
 import { t, type Lang } from '../lib/ui-strings';
 
 const { state, facilitySystem, lang = 'en' } = Astro.props as {
@@ -17,7 +19,12 @@ const { state, facilitySystem, lang = 'en' } = Astro.props as {
   facilitySystem?: string;
   lang?: Lang;
 };
-const rules = stateVisitingRules[state];
+// On Spanish pages, overlay the translated text fields on top of the English
+// entry (which still supplies system + guideHref); untranslated fields or
+// states fall back to the English text.
+const base = stateVisitingRules[state];
+const rules =
+  base && lang === 'es' ? { ...base, ...(stateVisitingRulesEs[state] ?? {}) } : base;
 // Only show the statewide card when the facility is actually run by the state
 // system those rules belong to. A privately operated facility in the same state
 // — e.g. a CoreCivic prison holding another state's people — follows its own

@@ -39,9 +39,15 @@ Copy these across exactly as they appear in English:
 - Keep the **directive-block syntax intact** — `:::callout{variant="warning"}`, `:::key-info`,
   `:::reality-check`, `:::steps` — translate only the human text inside. Never change `variant`
   values or block names.
-- **Internal links** point to the Spanish counterpart: an English `/states/california/guides/mail/`
-  becomes `/es/states/california/guides/mail/` (same slug, `/es` prefix). External links (DOC pages,
-  vendor sites) stay as-is.
+- **Internal links: leave them as the English target in the source file.** Write
+  `/states/california/guides/mail/`, *not* `/es/states/...`. A build-time step (the `esInternalLinks`
+  remark plugin, wired in `astro.config.mjs`) automatically rewrites every in-body internal link to
+  its `/es` counterpart when the page is Spanish — so the Spanish Markdown stays byte-identical to the
+  English and there is no way to accidentally produce a double `/es/es/` prefix. Do not hand-prefix.
+- **Same-page anchors are the one exception** — retarget them to the *translated* heading slug, since
+  they point within the same Spanish page: `](#mail)` → `](#correo)`, `](#visiting)` → `](#visitas)`,
+  `](#money)` → `](#dinero)`. (Cross-page links keep their English slug; only anchors change.)
+- **External links** (DOC pages, vendor sites) stay exactly as-is.
 
 ## Core glossary (EN → ES)
 | English | Spanish |
@@ -73,6 +79,32 @@ Copy these across exactly as they appear in English:
 | schedule / appointment | programar / la cita |
 | reception / intake center | centro de recepción / centro de ingreso (admisión) |
 | release / reentry | liberación / reintegración |
+
+## Corrections & custody terms (standardized across the 50-state rollout)
+Use these renderings so the same concept reads the same on every state's pages. For U.S.-specific
+program names with no clean Spanish equivalent, give the Spanish gloss and keep the English in
+parentheses on first use (as shown).
+
+| English | Spanish |
+|---|---|
+| maximum / medium / minimum security | máxima / media / mínima seguridad |
+| close custody | custodia cerrada |
+| general population | población general |
+| restrictive housing / segregation | régimen restringido / aislamiento |
+| protective custody | custodia protectora |
+| reception / diagnostic center | centro de recepción / centro de diagnóstico |
+| pre-release facility | centro de preliberación |
+| work release | programa de trabajo externo (work release) |
+| state jail *(Texas)* | keep **State Jail** (a Texas facility class — proper name) |
+| death row | el corredor de la muerte |
+| execution chamber | la cámara de ejecución |
+| person under a death sentence | persona condenada a muerte |
+| warden | alcaide *(duty warden → alcaide de turno)* |
+| background check | verificación de antecedentes |
+| trust / commissary account | cuenta fiduciaria / cuenta de comisaría |
+| sick call | solicitud de atención médica (sick call) |
+| committed name | nombre de registro (committed name) |
+| parole / probation | libertad condicional / libertad probatoria (probation) |
 
 ## Standard phrases (use these exact renderings)
 - "Confirm with the facility before traveling." → **"Confirme con la institución antes de viajar."**
