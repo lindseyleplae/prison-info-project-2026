@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import { siteConfig } from '../data/site';
 import { t, type Lang } from '../lib/ui-strings';
+import BrandMark from './BrandMark.astro';
 
 const { lang = 'en' } = Astro.props as { lang?: Lang };
 
@@ -64,6 +65,10 @@ const siteLinks = [
     </div>
 
     <div class="footer-bottom">
+      <div class="footer-brand">
+        <BrandMark size={26} class="footer-brand__mark" />
+        <span>{siteConfig.name}</span>
+      </div>
       <p>{t(lang, 'footer.disclaimer')}</p>
       <p>{t(lang, 'footer.contact')} <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></p>
     </div>

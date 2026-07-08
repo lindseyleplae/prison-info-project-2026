@@ -6,6 +6,7 @@
 // lives once in Header.astro, so it is intentionally absent here.
 import { getCollection } from 'astro:content';
 import { siteConfig, siteNavigation } from '../data/site';
+import BrandMark from './BrandMark.astro';
 
 const { enPath = '/', esPath = '/es/', hasSpanish = false } = Astro.props as {
   enPath?: string;
@@ -20,7 +21,10 @@ guides.sort((left, right) => (left.data.order ?? 999) - (right.data.order ?? 999
 
 <header class="site-header">
   <div class="header-inner">
-    <a class="site-title" href="/">{siteConfig.name}</a>
+    <a class="site-title" href="/">
+      <BrandMark class="site-title__mark" />
+      <span class="site-title__name">{siteConfig.name}</span>
+    </a>
 
     <button type="button" class="mobile-menu-toggle" aria-expanded="false" aria-controls="primary-nav">
       Menu

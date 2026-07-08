@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Prison Visitor Guide">
+  <rect width="48" height="48" rx="11" fill="#3D405B"/>
+  <path d="M24 16.5 Q14.5 13 8 15.5 L8 32.5 Q14.5 30 24 32.5 Z" fill="#FAF9F3"/>
+  <path d="M24 16.5 Q33.5 13 40 15.5 L40 32.5 Q33.5 30 24 32.5 Z" fill="#FAF9F3"/>
+  <rect x="23" y="16.5" width="2" height="16.2" fill="#3D405B"/>
+  <path d="M28.6 14.4 L28.6 22.8 L31 20.6 L33.4 22.8 L33.4 14.2" fill="#B8860B"/>
+</svg>

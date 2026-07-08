@@ -6,6 +6,7 @@
 import { getCollection } from 'astro:content';
 import { siteConfig } from '../data/site';
 import { t } from '../lib/ui-strings';
+import BrandMark from './BrandMark.astro';
 
 const { enPath = '/', esPath = '/es/', hasSpanish = false } = Astro.props as {
   enPath?: string;
@@ -26,7 +27,10 @@ const staticLinks = [
 
 <header class="site-header">
   <div class="header-inner">
-    <a class="site-title" href="/es/">{siteConfig.name}</a>
+    <a class="site-title" href="/es/">
+      <BrandMark class="site-title__mark" />
+      <span class="site-title__name">{siteConfig.name}</span>
+    </a>
 
     <button type="button" class="mobile-menu-toggle" aria-expanded="false" aria-controls="primary-nav">
       {t('es', 'nav.menu')}
