@@ -2,7 +2,7 @@
 title: The Cost of Staying in Touch
 slug: the-cost-of-staying-in-touch
 description: "How prison phone, video, messaging, and money-transfer costs work — the federal caps and their rollback, the states with free calls, and practical ways to pay less."
-order: 6
+order: 5
 sources:
   - name: "FCC — Incarcerated People's Communications Services (IPCS)"
     url: "https://www.fcc.gov/general/ipcs"

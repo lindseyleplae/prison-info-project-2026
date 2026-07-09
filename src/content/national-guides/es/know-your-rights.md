@@ -3,7 +3,7 @@ title: Conozca sus derechos
 slug: know-your-rights
 description: "Qué derechos tiene como visitante, qué se vigila y qué hacer cuando algo sale mal"
 summary: "Qué derechos tiene como visitante, qué se vigila y qué hacer cuando algo sale mal"
-order: 5
+order: 6
 sources:
   - name: "ACLU National Prison Project"
     url: "https://www.aclu.org/issues/prisoners-rights"

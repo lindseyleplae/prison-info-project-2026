@@ -3,7 +3,7 @@ title: Know Your Rights
 slug: know-your-rights
 description: "What rights you have as a visitor, what's monitored, and what to do when something goes wrong"
 summary: "What rights you have as a visitor, what's monitored, and what to do when something goes wrong"
-order: 5
+order: 6
 sources:
   - name: "ACLU National Prison Project"
     url: "https://www.aclu.org/issues/prisoners-rights"
