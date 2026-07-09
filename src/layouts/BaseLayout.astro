@@ -50,6 +50,8 @@ const seo = buildSeo({
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <meta name="theme-color" content="#FAF9F3" />
     <title>{seo.title}</title>
     <meta name="description" content={seo.description} />
@@ -77,6 +79,7 @@ const seo = buildSeo({
   </head>
   <body>
     <a class="skip-link" href="#main-content">{lang === 'es' ? t('es', 'skip.toContent') : 'Skip to content'}</a>
+    <div id="offline-banner" class="offline-banner" role="status" hidden>{t(lang, 'offline.notice')}</div>
     <div class="site-shell">
       <DisclaimerBar lang={lang} />
       <Header lang={lang} enPath={enPath} esPath={esPath} hasSpanish={hasSpanish} />
@@ -98,5 +101,12 @@ const seo = buildSeo({
         src="https://gc.zgo.at/count.js"
       />
     )}
+    {/* Register the service worker (offline support) in production only — it
+        conflicts with the dev server's live reload. */}
+    {import.meta.env.PROD && (
+      <script is:inline set:html={"if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('/sw.js').catch(function(){});});}"} />
+    )}
+    {/* Show the "saved copy" banner whenever the browser reports it is offline. */}
+    <script is:inline set:html={"(function(){var b=document.getElementById('offline-banner');if(!b)return;function u(){b.hidden=navigator.onLine;}window.addEventListener('online',u);window.addEventListener('offline',u);u();})();"} />
   </body>
 </html>

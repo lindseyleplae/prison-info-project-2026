@@ -34,6 +34,7 @@ const strings = {
 
     // Skip link (BaseLayout)
     'skip.toContent': 'Skip to content',
+    'offline.notice': 'You\'re offline. This is a saved copy — confirm details when you\'re back online.',
 
     // Footer
     'footer.guides': 'Guides',
@@ -162,6 +163,7 @@ const strings = {
 
     // Skip link (BaseLayout)
     'skip.toContent': 'Saltar al contenido',
+    'offline.notice': 'Está sin conexión. Esta es una copia guardada; confirme los detalles cuando vuelva a tener conexión.',
 
     // Footer
     'footer.guides': 'Guías',

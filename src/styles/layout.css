@@ -17,6 +17,22 @@
   z-index: 20;
 }
 
+/* Shown only when the browser reports it is offline (toggled by an inline
+   script in BaseLayout). Uses the warning palette, which clears WCAG AA. */
+.offline-banner {
+  background: var(--color-warning-bg);
+  color: var(--color-warning-text);
+  border-bottom: 1px solid var(--color-warning-border);
+  padding: var(--space-2) var(--space-4);
+  text-align: center;
+  font-size: var(--text-sm);
+  line-height: var(--leading-snug);
+}
+
+.offline-banner[hidden] {
+  display: none;
+}
+
 .header-inner,
 .footer-inner {
   width: min(100% - 2rem, var(--page-width));
