@@ -16,6 +16,7 @@ export const siteNavigation = {
   staticLinks: [
     { href: '/facilities/', label: 'Facilities' },
     { href: '/search/', label: 'Search' },
+    { href: '/glossary/', label: 'Glossary' },
     { href: '/about/', label: 'About' }
   ],
   footerLinks: [
