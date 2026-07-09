@@ -50,6 +50,13 @@ const strings = {
     'plan.directions': 'Get directions',
     'plan.more': 'Full visiting rules for this state',
     'plan.findSomeone': 'Find someone (inmate locator)',
+    'getHelp.title': 'Get Help in Your State',
+    'getHelp.description': 'A directory of independent organizations that help families of incarcerated people — family support, visits, legal help, and more — listed by state.',
+    'getHelp.intro': 'These independent organizations help families of incarcerated people — with visits, staying in touch, legal questions, support groups, and more. Find your state below.',
+    'getHelp.disclaimer': 'These organizations are independent and are listed for convenience only. This site is not affiliated with them and does not endorse, screen, or take responsibility for their services. Contact each organization directly, and confirm current details before relying on them.',
+    'getHelp.jumpTo': 'Jump to a state',
+    'getHelp.researchNote': 'Organizations and links were last checked in June 2026. If a link no longer works or a listing is out of date, let us know using the feedback form below.',
+    'footer.getHelp': 'Get help',
 
     // Footer
     'footer.guides': 'Guides',
@@ -194,6 +201,13 @@ const strings = {
     'plan.directions': 'Cómo llegar',
     'plan.more': 'Reglas de visita completas de este estado',
     'plan.findSomeone': 'Buscar a una persona (localizador)',
+    'getHelp.title': 'Obtenga ayuda en su estado',
+    'getHelp.description': 'Un directorio de organizaciones independientes que ayudan a las familias de personas encarceladas — apoyo familiar, visitas, ayuda legal y más — por estado.',
+    'getHelp.intro': 'Estas organizaciones independientes ayudan a las familias de personas encarceladas: con las visitas, mantenerse en contacto, preguntas legales, grupos de apoyo y más. Encuentre su estado más abajo.',
+    'getHelp.disclaimer': 'Estas organizaciones son independientes y se enumeran solo por conveniencia. Este sitio no está afiliado con ellas y no las respalda, examina ni se hace responsable de sus servicios. Comuníquese directamente con cada organización y confirme los detalles vigentes antes de depender de ellas.',
+    'getHelp.jumpTo': 'Ir a un estado',
+    'getHelp.researchNote': 'Las organizaciones y los enlaces se revisaron por última vez en junio de 2026. Si un enlace ya no funciona o una entrada está desactualizada, avísenos con el formulario de comentarios de abajo.',
+    'footer.getHelp': 'Obtener ayuda',
 
     // Footer
     'footer.guides': 'Guías',

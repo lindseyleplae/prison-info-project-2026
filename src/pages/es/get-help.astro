@@ -1,0 +1,9 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import SupportDirectory from '../../components/SupportDirectory.astro';
+import { t } from '../../lib/ui-strings';
+---
+
+<PageLayout title={t('es', 'getHelp.title')} description={t('es', 'getHelp.description')} lang="es" hasSpanish={true}>
+  <SupportDirectory lang="es" />
+</PageLayout>

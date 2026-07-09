@@ -1,0 +1,115 @@
+---
+// "Get help in your state" — a single consolidated view of the SAME per-state
+// organizations already shown on each state overview page. Reads the one source
+// of truth (src/data/state-organizations.ts) so the directory and the state
+// pages can never drift. State names + overview links come from the states
+// content collection (so they stay consistent and localized).
+import { getCollection } from 'astro:content';
+import { stateOrganizations } from '../data/state-organizations';
+import { t, type Lang } from '../lib/ui-strings';
+
+const { lang = 'en' } = Astro.props as { lang?: Lang };
+const prefix = lang === 'es' ? '/es' : '';
+
+const states = await getCollection('states', ({ data }) => data.lang === lang);
+const titleBySlug = new Map(states.map((s) => [s.data.slug, s.data.title]));
+
+const collator = new Intl.Collator(lang === 'es' ? 'es' : 'en');
+const sections = Object.entries(stateOrganizations)
+  .filter(([, orgs]) => orgs.length > 0)
+  .map(([slug, orgs]) => ({ slug, title: titleBySlug.get(slug) ?? slug, orgs }))
+  .sort((a, b) => collator.compare(a.title, b.title));
+---
+
+<p class="get-help__intro subtitle">{t(lang, 'getHelp.intro')}</p>
+
+<aside class="get-help__disclaimer" role="note">
+  <p>{t(lang, 'getHelp.disclaimer')}</p>
+</aside>
+
+<nav class="get-help__jump" aria-label={t(lang, 'getHelp.jumpTo')}>
+  <p class="get-help__jump-label">{t(lang, 'getHelp.jumpTo')}</p>
+  <ul>
+    {sections.map((s) => (
+      <li><a href={`#s-${s.slug}`}>{s.title}</a></li>
+    ))}
+  </ul>
+</nav>
+
+{sections.map((s) => (
+  <section class="get-help__state" id={`s-${s.slug}`}>
+    <h2 class="get-help__state-name"><a href={`${prefix}/states/${s.slug}/`}>{s.title}</a></h2>
+    <ul class="get-help__orgs">
+      {s.orgs.map((org) => (
+        <li class="get-help__org">
+          <p class="get-help__org-head">
+            <a href={org.url} class="get-help__org-name" rel="noopener nofollow">{org.name}</a>
+          </p>
+          <p class="get-help__org-blurb">{org.description}</p>
+        </li>
+      ))}
+    </ul>
+  </section>
+))}
+
+<p class="get-help__note">{t(lang, 'getHelp.researchNote')}</p>
+
+<style>
+  .get-help__disclaimer {
+    background: var(--color-warning-bg);
+    color: var(--color-warning-text);
+    border: 1px solid var(--color-warning-border);
+    border-radius: var(--radius-md);
+    padding: var(--space-3) var(--space-4);
+    margin: 0 0 var(--space-6);
+  }
+  .get-help__disclaimer p { margin: 0; }
+
+  .get-help__jump {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    padding: var(--space-3) var(--space-4);
+    margin: 0 0 var(--space-7);
+    background: var(--color-bg-card);
+  }
+  .get-help__jump-label {
+    margin: 0 0 var(--space-2);
+    font-weight: var(--weight-semibold);
+    font-size: var(--text-sm);
+  }
+  .get-help__jump ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2) var(--space-4);
+  }
+  .get-help__jump li { margin: 0; }
+
+  .get-help__state { margin: 0 0 var(--space-6); }
+  .get-help__state-name {
+    border-bottom: 2px solid var(--color-border);
+    padding-bottom: var(--space-2);
+  }
+  .get-help__orgs { list-style: none; margin: 0; padding: 0; }
+  .get-help__org {
+    margin: 0;
+    padding: var(--space-4) 0;
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .get-help__org:last-child { border-bottom: none; }
+  .get-help__org-head { margin: 0 0 var(--space-1); }
+  .get-help__org-name { font-weight: var(--weight-semibold); }
+  .get-help__org-blurb {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: var(--text-sm);
+    line-height: var(--leading-normal);
+  }
+  .get-help__note {
+    margin: var(--space-7) 0 0;
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+  }
+</style>
