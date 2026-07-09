@@ -6,6 +6,7 @@
 // content collection (so they stay consistent and localized).
 import { getCollection } from 'astro:content';
 import { stateOrganizations } from '../data/state-organizations';
+import { orgDescription } from '../data/state-organizations.es';
 import { t, type Lang } from '../lib/ui-strings';
 
 const { lang = 'en' } = Astro.props as { lang?: Lang };
@@ -45,7 +46,7 @@ const sections = Object.entries(stateOrganizations)
           <p class="get-help__org-head">
             <a href={org.url} class="get-help__org-name" rel="noopener nofollow">{org.name}</a>
           </p>
-          <p class="get-help__org-blurb">{org.description}</p>
+          <p class="get-help__org-blurb">{orgDescription(org, lang)}</p>
         </li>
       ))}
     </ul>

@@ -4,6 +4,7 @@
 // src/data/state-organizations.ts (verified links only). Renders nothing when a
 // state has no listed organizations.
 import type { StateOrg } from '../data/state-organizations';
+import { orgDescription } from '../data/state-organizations.es';
 import { t, type Lang } from '../lib/ui-strings';
 
 interface Props {
@@ -22,7 +23,7 @@ const { orgs, lang = 'en' } = Astro.props as Props;
       {orgs.map((org) => (
         <a class="section-card" href={org.url} target="_blank" rel="noopener noreferrer">
           <h3>{org.name}</h3>
-          <p>{org.description}</p>
+          <p>{orgDescription(org, lang)}</p>
         </a>
       ))}
     </div>
@@ -41,7 +42,7 @@ const { orgs, lang = 'en' } = Astro.props as Props;
       {orgs.map((org) => (
         <a class="section-card" href={org.url} target="_blank" rel="noopener noreferrer">
           <h3>{org.name}</h3>
-          <p>{org.description}</p>
+          <p>{orgDescription(org, lang)}</p>
         </a>
       ))}
     </div>
