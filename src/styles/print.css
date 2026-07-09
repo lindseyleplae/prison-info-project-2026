@@ -16,6 +16,8 @@
   .search-panel,
   .feedback,
   .page-jump-links,
+  .offline-banner,
+  .no-print,
   .skip-link {
     display: none !important;
   }

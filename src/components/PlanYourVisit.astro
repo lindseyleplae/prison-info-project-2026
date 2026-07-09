@@ -1,0 +1,118 @@
+---
+// "Plan your visit" — a compact, printable action checklist rendered near the
+// top of every facility page. QuickFacts (the sidebar) is hidden in print, so
+// this card, in the main column, is what carries the day-of essentials (hours,
+// address, phone) onto the paper families take to the lobby. Assembled entirely
+// from existing facility data, so it scales to every facility with no authoring.
+import type { CollectionEntry } from 'astro:content';
+import { t, type Lang } from '../lib/ui-strings';
+
+const { facility, stateSlug, lang = 'en' } = Astro.props as {
+  facility: CollectionEntry<'facilities'>;
+  stateSlug: string;
+  lang?: Lang;
+};
+
+const d = facility.data;
+const prefix = lang === 'es' ? '/es' : '';
+const visitingHref = `${prefix}/states/${stateSlug}/guides/visiting/`;
+const locator = d.links?.inmateLocator;
+const directionsUrl = d.address
+  ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(d.address)}`
+  : undefined;
+const phoneHref = d.contact?.mainPhone?.replace(/[^\d+]/g, '');
+const daysHours = [d.visiting?.days, d.visiting?.hours].filter(Boolean).join(' · ');
+---
+
+<aside class="plan-visit key-info" aria-label={t(lang, 'plan.title')}>
+  <div class="plan-visit__head">
+    <p class="key-info-label">{t(lang, 'plan.title')}</p>
+    <button type="button" class="plan-visit__print no-print" onclick="window.print()">{t(lang, 'plan.print')}</button>
+  </div>
+
+  <p class="plan-visit__intro">{t(lang, 'plan.introA')} {d.title}. {t(lang, 'plan.introB')}</p>
+
+  <ol class="plan-visit__steps">
+    <li>{t(lang, 'plan.step1')}</li>
+    <li>{t(lang, 'plan.step2')}</li>
+    <li>{t(lang, 'plan.step3')}</li>
+    <li>{t(lang, 'plan.step4')}</li>
+    <li>{t(lang, 'plan.step5')}</li>
+  </ol>
+
+  <dl class="plan-visit__facts">
+    {daysHours && (
+      <div><dt>{t(lang, 'plan.daysHours')}</dt><dd>{daysHours}</dd></div>
+    )}
+    {d.address && (
+      <div>
+        <dt>{t(lang, 'plan.address')}</dt>
+        <dd>{d.address}{directionsUrl && (<> — <a href={directionsUrl}>{t(lang, 'plan.directions')}</a></>)}</dd>
+      </div>
+    )}
+    {d.contact?.mainPhone && (
+      <div><dt>{t(lang, 'plan.phone')}</dt><dd><a href={`tel:${phoneHref}`}>{d.contact.mainPhone}</a></dd></div>
+    )}
+  </dl>
+
+  <p class="plan-visit__more">
+    <a href={visitingHref}>{t(lang, 'plan.more')}</a>
+    {locator && (<> · <a href={locator}>{t(lang, 'plan.findSomeone')}</a></>)}
+  </p>
+</aside>
+
+<style>
+  .plan-visit__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-3);
+  }
+  .plan-visit__print {
+    flex: 0 0 auto;
+    background: var(--color-primary);
+    color: var(--color-text-inverse);
+    border: none;
+    border-radius: var(--radius-sm);
+    padding: var(--space-1) var(--space-3);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-semibold);
+    cursor: pointer;
+  }
+  .plan-visit__print:hover {
+    background: var(--color-primary-hover);
+  }
+  .plan-visit__intro {
+    margin: var(--space-2) 0 var(--space-3);
+    color: var(--color-text-secondary);
+  }
+  .plan-visit__steps {
+    margin: 0 0 var(--space-3);
+    padding-left: 1.35rem;
+    display: grid;
+    gap: var(--space-2);
+  }
+  .plan-visit__facts {
+    margin: 0 0 var(--space-3);
+    display: grid;
+    gap: var(--space-2);
+    border-top: 1px solid var(--color-border);
+    padding-top: var(--space-3);
+  }
+  .plan-visit__facts div {
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+  .plan-visit__facts dt {
+    font-weight: var(--weight-semibold);
+    min-width: 6.5rem;
+  }
+  .plan-visit__facts dd {
+    margin: 0;
+  }
+  .plan-visit__more {
+    margin: 0;
+    font-size: var(--text-sm);
+  }
+</style>

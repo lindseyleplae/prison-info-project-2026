@@ -35,6 +35,21 @@ const strings = {
     // Skip link (BaseLayout)
     'skip.toContent': 'Skip to content',
     'offline.notice': 'You\'re offline. This is a saved copy — confirm details when you\'re back online.',
+    'plan.title': 'Plan your visit',
+    'plan.print': 'Print',
+    'plan.introA': 'A quick checklist for visiting',
+    'plan.introB': 'Confirm the details with the facility before you travel.',
+    'plan.step1': 'Confirm the person is still held here.',
+    'plan.step2': 'Make sure you are on the approved visitor list. Approval can take time, so start early.',
+    'plan.step3': 'Schedule your visit if the facility requires it.',
+    'plan.step4': 'Bring a government-issued photo ID.',
+    'plan.step5': 'Follow the dress code, and bring only what the facility allows — leave everything else in your vehicle.',
+    'plan.daysHours': 'Days & hours',
+    'plan.address': 'Address',
+    'plan.phone': 'Phone',
+    'plan.directions': 'Get directions',
+    'plan.more': 'Full visiting rules for this state',
+    'plan.findSomeone': 'Find someone (inmate locator)',
 
     // Footer
     'footer.guides': 'Guides',
@@ -164,6 +179,21 @@ const strings = {
     // Skip link (BaseLayout)
     'skip.toContent': 'Saltar al contenido',
     'offline.notice': 'Está sin conexión. Esta es una copia guardada; confirme los detalles cuando vuelva a tener conexión.',
+    'plan.title': 'Planifique su visita',
+    'plan.print': 'Imprimir',
+    'plan.introA': 'Una lista rápida para visitar',
+    'plan.introB': 'Confirme los detalles con la institución antes de viajar.',
+    'plan.step1': 'Confirme que la persona sigue recluida aquí.',
+    'plan.step2': 'Asegúrese de estar en la lista de visitantes aprobados. La aprobación puede tardar, así que comience con tiempo.',
+    'plan.step3': 'Programe su visita si la institución lo requiere.',
+    'plan.step4': 'Lleve una identificación con foto emitida por el gobierno.',
+    'plan.step5': 'Cumpla el código de vestimenta y lleve solo lo que la institución permita; deje todo lo demás en su vehículo.',
+    'plan.daysHours': 'Días y horarios',
+    'plan.address': 'Dirección',
+    'plan.phone': 'Teléfono',
+    'plan.directions': 'Cómo llegar',
+    'plan.more': 'Reglas de visita completas de este estado',
+    'plan.findSomeone': 'Buscar a una persona (localizador)',
 
     // Footer
     'footer.guides': 'Guías',
