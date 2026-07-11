@@ -1,23 +1,23 @@
 ---
-title: "Sending Money in Hawaii (HI DCR)"
+title: "Sending Money in Hawaiʻi (HI DCR)"
 slug: money
 state: hi
 topic: money
 relatedNationalGuide: sending-money
 system: "HI DCR"
-description: "How to put money on an inmate's account in Hawaii — through ConnectNetwork for in-state facilities, and through CoreCivic's lockbox or Western Union for Saguaro in Arizona."
+description: "How to put money on an inmate's account in Hawaiʻi — through ConnectNetwork for in-state facilities, and through CoreCivic's lockbox or Western Union for Saguaro in Arizona."
 sources:
   - name: "HI DCR — Monetary Donation Update (ConnectNetwork)"
     url: "https://dcr.hawaii.gov/14541-2/"
   - name: "CoreCivic — How to send funds through Lock Box and Western Union"
     url: "https://www.corecivic.com/hubfs/_facilities/files/How%20to%20send%20funds%20through%20Lock%20Box%20and%20Western%20Union.doc.pdf"
-  - name: "Hawaii Department of Corrections and Rehabilitation"
+  - name: "Hawaiʻi Department of Corrections and Rehabilitation"
     url: "https://dcr.hawaii.gov/"
 lastReviewed: 2026-06-16
 ---
 
 :::key-info{title="Key info"}
-**The method depends on where the inmate is held.** Hawaii holds some sentenced men at the **Saguaro Correctional Center in Eloy, Arizona**, a CoreCivic facility, and money is sent there through a **completely different process** than at Hawaii's in-state facilities. Sending to the wrong place is a common mistake.
+**The method depends on where the inmate is held.** Hawaiʻi holds some sentenced men at the **Saguaro Correctional Center in Eloy, Arizona**, a CoreCivic facility, and money is sent there through a **completely different process** than at Hawaiʻi's in-state facilities. Sending to the wrong place is a common mistake.
 
 **For in-state facilities** (Halawa, Waiawa, Kulani, the Women's Community Correctional Center, and the four Community Correctional Centers): money is deposited through **GTL / ViaPath's ConnectNetwork** — online at [web.connectnetwork.com](https://web.connectnetwork.com) or by phone at **1-877-650-4249**, by credit or debit card. The limit is **$300 per inmate per month**.
 
@@ -28,13 +28,13 @@ lastReviewed: 2026-06-16
 
 ## First confirm where the inmate is held
 
-Hawaii is a unified system, and some sentenced Hawaii men are housed out of state at the **Saguaro Correctional Center in Eloy, Arizona**, a private prison run by **CoreCivic**. The way money is sent is **not the same** for in-state facilities and for Saguaro. Money sent through the wrong channel does not reach the inmate.
+Hawaiʻi is a unified system, and some sentenced Hawaiʻi men are housed out of state at the **Saguaro Correctional Center in Eloy, Arizona**, a private prison run by **CoreCivic**. The way money is sent is **not the same** for in-state facilities and for Saguaro. Money sent through the wrong channel does not reach the inmate.
 
-Confirm the inmate's current facility before sending. Hawaii has no public DCR online inmate locator; families use **VINELink (VINE)** to look someone up. Once the facility is confirmed, follow the matching section below.
+Confirm the inmate's current facility before sending. Hawaiʻi has no public DCR online inmate locator; families use **VINELink (VINE)** to look someone up. Once the facility is confirmed, follow the matching section below.
 
 ## In-state facilities: ConnectNetwork
 
-For inmates at Hawaii's in-state facilities, deposits go through **GTL / ViaPath's ConnectNetwork**, the same vendor that handles phones, tablets, and video.
+For inmates at Hawaiʻi's in-state facilities, deposits go through **GTL / ViaPath's ConnectNetwork**, the same vendor that handles phones, tablets, and video.
 
 To deposit:
 
@@ -59,7 +59,7 @@ This is different from Saguaro, which does have a published mail-in option — s
 
 Saguaro is operated by **CoreCivic**, and money is sent through CoreCivic's systems, not ConnectNetwork. There are two ways to send funds to an inmate at Saguaro.
 
-Both methods identify the inmate by a **commissary number** — a CoreCivic account number of about six or seven digits. This is **not** the same as any Hawaii state ID number, and the sender must use the commissary number, not a state number.
+Both methods identify the inmate by a **commissary number** — a CoreCivic account number of about six or seven digits. This is **not** the same as any Hawaiʻi state ID number, and the sender must use the commissary number, not a state number.
 
 ### By mail (CoreCivic lockbox)
 
@@ -85,10 +85,10 @@ Payment can be made through a **Western Union agent**, the **Send2Corrections ap
 
 ## Money is not accepted at a visit
 
-Money cannot be handed over in the visiting room, at any Hawaii facility or at Saguaro. Funds are added only through the methods above — ConnectNetwork for in-state facilities, and CoreCivic's lockbox or Western Union for Saguaro.
+Money cannot be handed over in the visiting room, at any Hawaiʻi facility or at Saguaro. Funds are added only through the methods above — ConnectNetwork for in-state facilities, and CoreCivic's lockbox or Western Union for Saguaro.
 
 ## Verify Before Acting
 
 :::callout{variant="warning" title="Verify Before Acting"}
-Confirm the inmate's current facility before sending money — the method is different for in-state facilities than for Saguaro in Arizona, and money sent to the wrong place does not arrive. For an inmate at an in-state Hawaii facility, deposit through ConnectNetwork at web.connectnetwork.com or 1-877-650-4249, by credit or debit card, within the $300-per-inmate-per-month limit; funds may be applied to restitution and CVCC fines first. A mailed money-order option for in-state facilities is not published, so confirm any mail-in method with DCR or the facility before sending. For an inmate at Saguaro, send a money order or cashier's check (no personal checks, no cash) to the CoreCivic lockbox in Atlanta, or use Western Union's Send2Corrections — in both cases identify the inmate by the CoreCivic commissary number, not a state ID number. Money is never handed over at a visit.
+Confirm the inmate's current facility before sending money — the method is different for in-state facilities than for Saguaro in Arizona, and money sent to the wrong place does not arrive. For an inmate at an in-state Hawaiʻi facility, deposit through ConnectNetwork at web.connectnetwork.com or 1-877-650-4249, by credit or debit card, within the $300-per-inmate-per-month limit; funds may be applied to restitution and CVCC fines first. A mailed money-order option for in-state facilities is not published, so confirm any mail-in method with DCR or the facility before sending. For an inmate at Saguaro, send a money order or cashier's check (no personal checks, no cash) to the CoreCivic lockbox in Atlanta, or use Western Union's Send2Corrections — in both cases identify the inmate by the CoreCivic commissary number, not a state ID number. Money is never handed over at a visit.
 :::

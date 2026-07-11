@@ -7,11 +7,11 @@ relatedNationalGuide: visiting-basics
 system: "HI DCR"
 description: "Cómo entrar en la lista de visitantes aprobados de una persona encarcelada en Hawái, la programación y las líneas de visita de cada institución, las visitas por video por tableta dentro del estado, el viaje entre islas y el proceso aparte para los aproximadamente 800 hombres alojados fuera del estado en Saguaro, en Arizona."
 sources:
-  - name: "Hawaii DCR — Frequently Called Numbers (facility addresses, phones, visitation hotlines)"
+  - name: "Hawaiʻi DCR — Frequently Called Numbers (facility addresses, phones, visitation hotlines)"
     url: "https://dcr.hawaii.gov/frequently-called-numbers/"
-  - name: "Hawaii DCR — About Corrections"
+  - name: "Hawaiʻi DCR — About Corrections"
     url: "https://dcr.hawaii.gov/about/divisions/corrections/about-corrections/"
-  - name: "Hawaii DCR — Saguaro Correctional Center"
+  - name: "Hawaiʻi DCR — Saguaro Correctional Center"
     url: "https://dcr.hawaii.gov/saguaro-correctional-center/"
   - name: "CoreCivic — Saguaro Correctional Center Visitation"
     url: "https://www.corecivic.com/hubfs/_facilities/files/Saguaro%20Correctional%20Center%20Visitation.pdf"
@@ -48,12 +48,12 @@ Una vez aprobado, un visitante adulto presenta una **identificación con foto em
 
 Hawái **no tiene un portal en línea para reservar visitas en todo el estado**. Los días y horarios de visita se fijan **institución por institución**, y cada institución publica su propio horario de visitas y opera una **línea de visitas**. Las líneas de visita que indica DCR incluyen:
 
-- **Halawa Correctional Facility** (Aiea, Oahu) — visitas (808) 485-3550
-- **Women's Community Correctional Center** (Kailua, Oahu) — visitas (808) 266-9675
-- **Oahu Community Correctional Center** (Honolulu) — visitas (808) 832-1633
+- **Halawa Correctional Facility** (Aiea, Oʻahu) — visitas (808) 485-3550
+- **Women's Community Correctional Center** (Kailua, Oʻahu) — visitas (808) 266-9675
+- **Oʻahu Community Correctional Center** (Honolulu) — visitas (808) 832-1633
 - **Maui Community Correctional Center** (Wailuku) — visitas (808) 243-5861
-- **Hawaii Community Correctional Center** (Hilo) — visitas (808) 933-0522
-- **Kauai Community Correctional Center** (Lihue) — visitas (808) 241-3050 ext. 244
+- **Hawaiʻi Community Correctional Center** (Hilo) — visitas (808) 933-0522
+- **Kauaʻi Community Correctional Center** (Lihue) — visitas (808) 241-3050 ext. 244
 - **Kulani Correctional Facility** (Hilo, isla de Hawái) — visitas (808) 933-1922
 
 Los días y horarios varían según la institución y cambian. En lugar de basarse en un horario fijo, las familias confirman los días y horarios de visita vigentes, y cualquier cita requerida, llamando a la línea de visitas de la institución.
@@ -70,20 +70,20 @@ Para las familias que no pueden viajar a una institución, las visitas por video
 
 ## Viaje entre islas
 
-Tres de las cuatro cárceles y una de las cuatro prisiones están en **islas vecinas** en lugar de Oahu:
+Tres de las cuatro cárceles y una de las cuatro prisiones están en **islas vecinas** en lugar de Oʻahu:
 
 - **Maui Community Correctional Center** — Wailuku, Maui
-- **Hawaii Community Correctional Center** — Hilo, isla de Hawái
-- **Kauai Community Correctional Center** — Lihue, Kauai
+- **Hawaiʻi Community Correctional Center** — Hilo, isla de Hawái
+- **Kauaʻi Community Correctional Center** — Lihue, Kauaʻi
 - **Kulani Correctional Facility** — en la ladera de Mauna Loa, a unas 20 millas al sureste de Hilo, isla de Hawái
 
-Estas son accesibles desde Oahu principalmente por **avión**. Para las familias que no pueden viajar entre islas, la **visita por video por tableta dentro del estado** es la alternativa remota.
+Estas son accesibles desde Oʻahu principalmente por **avión**. Para las familias que no pueden viajar entre islas, la **visita por video por tableta dentro del estado** es la alternativa remota.
 
 ## Dónde se aloja a las personas según el sexo
 
-Las **mujeres** bajo custodia de Hawái —en custodia máxima, media y mínima, tanto sentenciadas como en espera de juicio— están alojadas en el **Women's Community Correctional Center** en Kailua, Oahu, la única prisión para mujeres del estado. A pesar de tener "Community Correctional Center" en su nombre, está clasificada como prisión y no como cárcel.
+Las **mujeres** bajo custodia de Hawái —en custodia máxima, media y mínima, tanto sentenciadas como en espera de juicio— están alojadas en el **Women's Community Correctional Center** en Kailua, Oʻahu, la única prisión para mujeres del estado. A pesar de tener "Community Correctional Center" en su nombre, está clasificada como prisión y no como cárcel.
 
-Los **hombres sentenciados** se clasifican a través de las cárceles de las islas y del **Halawa Correctional Facility**, la prisión para hombres más grande de Hawái, y luego pueden ser colocados en el **Waiawa Correctional Facility** de mínima seguridad (Waipahu, Oahu), el **Kulani Correctional Facility** de mínima seguridad (isla de Hawái), o el **Saguaro Correctional Center** fuera del estado, en Arizona. El tipo de visita y la programación en cada institución siguen las reglas de esa institución.
+Los **hombres sentenciados** se clasifican a través de las cárceles de las islas y del **Halawa Correctional Facility**, la prisión para hombres más grande de Hawái, y luego pueden ser colocados en el **Waiawa Correctional Facility** de mínima seguridad (Waipahu, Oʻahu), el **Kulani Correctional Facility** de mínima seguridad (isla de Hawái), o el **Saguaro Correctional Center** fuera del estado, en Arizona. El tipo de visita y la programación en cada institución siguen las reglas de esa institución.
 
 ## Saguaro Correctional Center (Arizona)
 

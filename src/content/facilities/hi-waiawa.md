@@ -4,7 +4,7 @@ slug: waiawa
 state: hi
 system: "HI DCR"
 population: men
-summary: "A minimum-security Oahu prison for sentenced men nearing release, with substance-abuse treatment, work furlough, and vocational programs."
+summary: "A minimum-security Oʻahu prison for sentenced men nearing release, with substance-abuse treatment, work furlough, and vocational programs."
 aliases:
   - WCF
   - Waiawa
@@ -38,7 +38,7 @@ The mailing address and the street address are different. Incoming mail for an i
 :::
 
 :::key-info
-- **Location:** Waipahu area of Oahu (central/leeward Oahu)
+- **Location:** Waipahu area of Oʻahu (central/leeward Oʻahu)
 - **Population:** Men, minimum custody; sentenced men nearing release
 - **Notable:** KASHBOX residential substance-abuse treatment; work furlough; vocational training
 - **Visitation:** Confirmed with the facility; video visits available through tablets
@@ -46,9 +46,9 @@ The mailing address and the street address are different. Incoming mail for an i
 
 ## Overview
 
-Waiawa Correctional Facility is a minimum-security state prison for men operated by the Hawaii Department of Corrections and Rehabilitation (DCR). It is in the Waipahu area of Oahu and holds sentenced men, with an emphasis on reintegration as people near release.
+Waiawa Correctional Facility is a minimum-security state prison for men operated by the Hawaiʻi Department of Corrections and Rehabilitation (DCR). It is in the Waipahu area of Oʻahu and holds sentenced men, with an emphasis on reintegration as people near release.
 
-Hawaii runs a unified corrections system: with no county jails, DCR operates both the jails that hold pretrial and short-sentence populations and the prisons that hold sentenced felons. Waiawa is one of the system's sentenced-felon prisons, focused on minimum-custody men preparing to return to the community.
+Hawaiʻi runs a unified corrections system: with no county jails, DCR operates both the jails that hold pretrial and short-sentence populations and the prisons that hold sentenced felons. Waiawa is one of the system's sentenced-felon prisons, focused on minimum-custody men preparing to return to the community.
 
 ## What Makes the Waiawa Correctional Facility Different
 
@@ -58,17 +58,17 @@ The facility houses the KASHBOX residential substance-abuse treatment program. I
 
 ## Visiting
 
-The statewide DCR rules above — the approved-visitor-list process, the dress code, ID requirements, and item limits — apply at Waiawa. Visiting in Hawaii is arranged facility by facility; there is no single statewide online scheduler. Confirm the current visiting days, hours, and whether a visit must be booked in advance by calling the facility at (808) 677-6150 before traveling.
+The statewide DCR rules above — the approved-visitor-list process, the dress code, ID requirements, and item limits — apply at Waiawa. Visiting in Hawaiʻi is arranged facility by facility; there is no single statewide online scheduler. Confirm the current visiting days, hours, and whether a visit must be booked in advance by calling the facility at (808) 677-6150 before traveling.
 
-Hawaii facilities also offer video visits. DCR rolled out GTL (ViaPath) tablets statewide, and families connect remotely through video visitation during assigned times. See [Phone & Video Calls](/states/hawaii/guides/phone-video/) for how video visits and accounts work.
+Hawaiʻi facilities also offer video visits. DCR rolled out GTL (ViaPath) tablets statewide, and families connect remotely through video visitation during assigned times. See [Phone & Video Calls](/states/hawaii/guides/phone-video/) for how video visits and accounts work.
 
 ## Getting There
 
-Waiawa Correctional Facility is at 94-560 Kamehameha Highway in the Waipahu area of central/leeward Oahu. This street address is for reaching the facility in person; mail for an inmate uses the P.O. Box (see below).
+Waiawa Correctional Facility is at 94-560 Kamehameha Highway in the Waipahu area of central/leeward Oʻahu. This street address is for reaching the facility in person; mail for an inmate uses the P.O. Box (see below).
 
 ## Mail
 
-Hawaii does not use an off-site mail vendor. Incoming personal mail for an inmate goes directly to the facility through its post-office box, not the street address. Address mail with the inmate's full name and ID number:
+Hawaiʻi does not use an off-site mail vendor. Incoming personal mail for an inmate goes directly to the facility through its post-office box, not the street address. Address mail with the inmate's full name and ID number:
 
 > [Inmate's full name and number]
 > Waiawa Correctional Facility
@@ -82,11 +82,11 @@ Books, magazines, and other publications must be sent directly from the publishe
 Phones, tablets, and video visits run through GTL (ViaPath), billed through ConnectNetwork. Trust-account deposits also go through ConnectNetwork. See the guides below for accounts, costs, and deposit limits.
 
 ## Learn More
-For detailed information about visiting and communicating with someone at a Hawaii facility:
+For detailed information about visiting and communicating with someone at a Hawaiʻi facility:
 
-- [Visiting in Hawaii](/states/hawaii/guides/visiting/) — approval process, dress code, scheduling
+- [Visiting in Hawaiʻi](/states/hawaii/guides/visiting/) — approval process, dress code, scheduling
 - [Mail & Packages](/states/hawaii/guides/mail/) — what you can send and what gets rejected
 - [Phone & Video Calls](/states/hawaii/guides/phone-video/) — accounts, call costs, video visits
 - [Sending Money](/states/hawaii/guides/money/) — how to add funds to an account
-- [Medical & Mental Health](/states/hawaii/guides/medical/) — health care in Hawaii facilities
+- [Medical & Mental Health](/states/hawaii/guides/medical/) — health care in Hawaiʻi facilities
 - [Transfers](/states/hawaii/guides/transfers/) — what happens during transfers

@@ -1,10 +1,10 @@
 ---
-title: "Oahu Community Correctional Center"
+title: "Oʻahu Community Correctional Center"
 slug: oahu-community-correctional-center
 state: hi
 system: "HI DCR"
 population: men
-summary: "La cárcel más grande de Hawái, en el área de Kalihi de Honolulu, que aloja principalmente a hombres en espera de juicio de Oahu, además de hombres sentenciados en un programa de reintegración."
+summary: "La cárcel más grande de Hawái, en el área de Kalihi de Honolulu, que aloja principalmente a hombres en espera de juicio de Oʻahu, además de hombres sentenciados en un programa de reintegración."
 aliases:
   - OCCC
 city: Honolulu
@@ -26,7 +26,7 @@ links:
   official: "https://dcr.hawaii.gov/about/divisions/corrections/occc/"
   inmateLocator: "https://www.vinelink.com/"
 sources:
-  - name: "HI DCR Oahu Community Correctional Center"
+  - name: "HI DCR Oʻahu Community Correctional Center"
     url: "https://dcr.hawaii.gov/about/divisions/corrections/occc/"
 lastVerified: 2026-06-16
 reviewBy: 2026-08-09
@@ -35,35 +35,35 @@ sourceReviewed: 2026-06-16
 ---
 
 :::callout{variant="warning"}
-Oahu Community Correctional Center es principalmente una cárcel. La mayoría de las personas alojadas aquí están en espera de juicio o sentencia, por lo que el estado de custodia y la ubicación de una persona pueden cambiar rápidamente, y alguien puede ser trasladado a otro centro después de la sentencia o clasificación. Confirme la ubicación actual de la persona en [VINELink](https://www.vinelink.com/) antes de viajar o enviar algo.
+Oʻahu Community Correctional Center es principalmente una cárcel. La mayoría de las personas alojadas aquí están en espera de juicio o sentencia, por lo que el estado de custodia y la ubicación de una persona pueden cambiar rápidamente, y alguien puede ser trasladado a otro centro después de la sentencia o clasificación. Confirme la ubicación actual de la persona en [VINELink](https://www.vinelink.com/) antes de viajar o enviar algo.
 :::
 
 :::key-info
-- **Ubicación:** Honolulu (área de Kalihi), Oahu
-- **Población:** Hombres — principalmente en espera de juicio de Oahu, además de hombres sentenciados en un programa de reintegración
-- **Notable:** La cárcel más grande de Hawái; el Centro de Servicios de Ingreso de Oahu está ubicado aquí, y el Laumaka Work Furlough Center opera bajo OCCC a una cuadra de distancia
+- **Ubicación:** Honolulu (área de Kalihi), Oʻahu
+- **Población:** Hombres — principalmente en espera de juicio de Oʻahu, además de hombres sentenciados en un programa de reintegración
+- **Notable:** La cárcel más grande de Hawái; el Centro de Servicios de Ingreso de Oʻahu está ubicado aquí, y el Laumaka Work Furlough Center opera bajo OCCC a una cuadra de distancia
 - **Visitas:** Confirme los días, el horario y cualquier requisito de reserva anticipada con la línea de visitas; las visitas por video están disponibles mediante tabletas
 :::
 
 ## Descripción general
 
-Oahu Community Correctional Center es la cárcel más grande de Hawái, operada por el Departamento de Correcciones y Rehabilitación de Hawái. Está en el área de Kalihi de Honolulu, en Kamehameha Highway.
+Oʻahu Community Correctional Center es la cárcel más grande de Hawái, operada por el Departamento de Correcciones y Rehabilitación de Hawái. Está en el área de Kalihi de Honolulu, en Kamehameha Highway.
 
-Hawái opera un sistema unificado de cárcel y prisión, lo que significa que el Departamento estatal de Correcciones y Rehabilitación administra tanto las funciones de cárcel como de prisión — Hawái no tiene un sistema separado de cárceles de condado. OCCC aloja principalmente a personas en espera de juicio de Oahu, junto con hombres sentenciados en un programa de reintegración. Debido a que funciona principalmente como una cárcel pretrial, la población rota con frecuencia, y el estado de custodia y el alojamiento de una persona pueden cambiar a medida que un caso avanza en el tribunal o después de la sentencia y la clasificación.
+Hawái opera un sistema unificado de cárcel y prisión, lo que significa que el Departamento estatal de Correcciones y Rehabilitación administra tanto las funciones de cárcel como de prisión — Hawái no tiene un sistema separado de cárceles de condado. OCCC aloja principalmente a personas en espera de juicio de Oʻahu, junto con hombres sentenciados en un programa de reintegración. Debido a que funciona principalmente como una cárcel pretrial, la población rota con frecuencia, y el estado de custodia y el alojamiento de una persona pueden cambiar a medida que un caso avanza en el tribunal o después de la sentencia y la clasificación.
 
-## Qué hace diferente al Oahu Community Correctional Center
+## Qué hace diferente al Oʻahu Community Correctional Center
 
-El Centro de Servicios de Ingreso de Oahu está ubicado en OCCC. Se encarga de la evaluación pretrial y el ingreso para Oahu, y es parte de la división separada de Centros de Servicios de Ingreso del Departamento de Correcciones y Rehabilitación, que administra oficinas de evaluación en cada isla principal.
+El Centro de Servicios de Ingreso de Oʻahu está ubicado en OCCC. Se encarga de la evaluación pretrial y el ingreso para Oʻahu, y es parte de la división separada de Centros de Servicios de Ingreso del Departamento de Correcciones y Rehabilitación, que administra oficinas de evaluación en cada isla principal.
 
 OCCC también supervisa el Laumaka Work Furlough Center, una unidad de libertad laboral a una cuadra de distancia. Laumaka aloja a hombres que están trabajando o buscando trabajo en la comunidad y es el sitio del programa de transición Project Bridge. Laumaka opera bajo OCCC en lugar de figurar como un centro separado.
 
-## Se planea una nueva cárcel para Oahu
+## Se planea una nueva cárcel para Oʻahu
 
-Se planea una nueva cárcel para Oahu que reemplazará al envejecido y sobrepoblado OCCC. Se ha seleccionado un sitio en la parte baja de Halawa Valley, y el proyecto está en fase de planificación y diseño a partir de 2025–2026. La cárcel de reemplazo aún no se ha construido, y las cifras y los plazos reportados son estimaciones que han variado entre las fuentes. Hasta que abra el nuevo centro, OCCC sigue siendo la cárcel de Oahu en funcionamiento. Los detalles actuales sobre el proyecto se publican en el sitio oficial del New Oʻahu Jail Project.
+Se planea una nueva cárcel para Oʻahu que reemplazará al envejecido y sobrepoblado OCCC. Se ha seleccionado un sitio en la parte baja de Halawa Valley, y el proyecto está en fase de planificación y diseño a partir de 2025–2026. La cárcel de reemplazo aún no se ha construido, y las cifras y los plazos reportados son estimaciones que han variado entre las fuentes. Hasta que abra el nuevo centro, OCCC sigue siendo la cárcel de Oʻahu en funcionamiento. Los detalles actuales sobre el proyecto se publican en el sitio oficial del New Oʻahu Jail Project.
 
 ## Cómo llegar
 
-Oahu Community Correctional Center está en 2199 Kamehameha Highway, en el área de Kalihi de Honolulu, en la costa sur de Oahu. Está al noroeste del centro de Honolulu y se llega desde la autopista H-1 y Kamehameha Highway. El Aeropuerto Internacional Daniel K. Inouye está a poca distancia hacia el oeste.
+Oʻahu Community Correctional Center está en 2199 Kamehameha Highway, en el área de Kalihi de Honolulu, en la costa sur de Oʻahu. Está al noroeste del centro de Honolulu y se llega desde la autopista H-1 y Kamehameha Highway. El Aeropuerto Internacional Daniel K. Inouye está a poca distancia hacia el oeste.
 
 ## Correo y comunicación
 

@@ -11,7 +11,7 @@ sources:
     url: "https://dcr.hawaii.gov/14541-2/"
   - name: "CoreCivic — How to send funds through Lock Box and Western Union"
     url: "https://www.corecivic.com/hubfs/_facilities/files/How%20to%20send%20funds%20through%20Lock%20Box%20and%20Western%20Union.doc.pdf"
-  - name: "Hawaii Department of Corrections and Rehabilitation"
+  - name: "Hawaiʻi Department of Corrections and Rehabilitation"
     url: "https://dcr.hawaii.gov/"
 lastReviewed: 2026-06-16
 lang: es

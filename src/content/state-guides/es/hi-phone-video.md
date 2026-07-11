@@ -7,7 +7,7 @@ relatedNationalGuide: staying-in-touch
 system: "HI DCR"
 description: "El servicio de teléfono, tableta y video de GTL/ViaPath de Hawái, facturado a través de ConnectNetwork, cómo un familiar configura una cuenta prepagada, y cómo el video de Saguaro (Arizona) se reserva por separado a través de la sucursal continental del estado."
 sources:
-  - name: "Hawaii DCR — Monetary Donation Update (ConnectNetwork)"
+  - name: "Hawaiʻi DCR — Monetary Donation Update (ConnectNetwork)"
     url: "https://dcr.hawaii.gov/14541-2/"
   - name: "CoreCivic — Saguaro Correctional Center Visitation"
     url: "https://www.corecivic.com/hubfs/_facilities/files/Saguaro%20Correctional%20Center%20Visitation.pdf"
@@ -28,7 +28,7 @@ sourceReviewed: 2026-06-16
 
 ## Cómo funcionan las llamadas telefónicas
 
-El proveedor de telefonía de Hawaii DCR es **GTL (ViaPath)**, facturado a través de **ConnectNetwork**. Las llamadas las hace la persona encarcelada desde los teléfonos de la unidad de alojamiento; las familias no pueden llamar. Para recibir llamadas, un amigo o familiar configura una cuenta prepagada **AdvancePay** con ConnectNetwork y le agrega dinero. Una persona encarcelada no puede configurar la cuenta. También está disponible la modalidad de llamadas con débito de la persona encarcelada, pagadas desde su propia cuenta.
+El proveedor de telefonía de Hawaiʻi DCR es **GTL (ViaPath)**, facturado a través de **ConnectNetwork**. Las llamadas las hace la persona encarcelada desde los teléfonos de la unidad de alojamiento; las familias no pueden llamar. Para recibir llamadas, un amigo o familiar configura una cuenta prepagada **AdvancePay** con ConnectNetwork y le agrega dinero. Una persona encarcelada no puede configurar la cuenta. También está disponible la modalidad de llamadas con débito de la persona encarcelada, pagadas desde su propia cuenta.
 
 Configure una cuenta en línea en el sitio web de ConnectNetwork o por teléfono. Tenga a mano el nombre completo y la institución de la persona encarcelada.
 

@@ -9,7 +9,7 @@ aliases:
   - KCF
   - Kulani
 city: Hilo
-county: Hawaii
+county: Hawaiʻi
 address: "Stainback Highway, Hilo, HI 96720"
 securityLevel: "Mínima"
 facilityType: "Prisión estatal"
@@ -43,7 +43,7 @@ Kulani Correctional Facility es una prisión remota de mínima seguridad en la I
 :::key-info
 - **Ubicación:** En la ladera del Mauna Loa, a unas 20 millas al sureste de Hilo, en la isla de Hawái, fuera de Stainback Highway
 - **Población:** Hombres; mínima seguridad
-- **Notable:** Programas de educación, vocacionales y de cultura hawaiana en asociación con Hawaii Community College; trabajo de conservación y silvicultura
+- **Notable:** Programas de educación, vocacionales y de cultura hawaiana en asociación con Hawaiʻi Community College; trabajo de conservación y silvicultura
 - **Correo:** Dirigido al P.O. Box del centro, no a la dirección de la carretera (vea [Correo](#correo))
 :::
 
@@ -51,13 +51,13 @@ Kulani Correctional Facility es una prisión remota de mínima seguridad en la I
 
 Kulani Correctional Facility es una prisión de mínima seguridad para hombres sentenciados operada por el Departamento de Correcciones y Rehabilitación de Hawái (DCR). Se encuentra en la ladera del Mauna Loa, en la isla de Hawái (la Isla Grande), a unas 20 millas al sureste de Hilo, fuera de Stainback Highway. El centro cerró en 2009 y reabrió en julio de 2014.
 
-Hawái opera un sistema correccional unificado: el estado no tiene cárceles de condado, por lo que un solo departamento administra tanto las cárceles pretrial y de sentencias cortas (los Centros Correccionales Comunitarios) como las prisiones para personas sentenciadas. Kulani es una de cuatro prisiones del DCR, y la única ubicada fuera de Oahu.
+Hawái opera un sistema correccional unificado: el estado no tiene cárceles de condado, por lo que un solo departamento administra tanto las cárceles pretrial y de sentencias cortas (los Centros Correccionales Comunitarios) como las prisiones para personas sentenciadas. Kulani es una de cuatro prisiones del DCR, y la única ubicada fuera de Oʻahu.
 
 ## Qué hace diferente a Kulani
 
-Kulani está organizada en torno a la educación, el trabajo y la programación cultural. Ofrece educación de GED y programas vocacionales y de cultura hawaiana impartidos en asociación con Hawaii Community College, junto con trabajo de conservación y silvicultura en los terrenos circundantes, y tratamiento para delincuentes sexuales.
+Kulani está organizada en torno a la educación, el trabajo y la programación cultural. Ofrece educación de GED y programas vocacionales y de cultura hawaiana impartidos en asociación con Hawaiʻi Community College, junto con trabajo de conservación y silvicultura en los terrenos circundantes, y tratamiento para delincuentes sexuales.
 
-Su entorno también es distintivo. Kulani es rural y remota, en la ladera alta del Mauna Loa en lugar de en o cerca de una ciudad. Para las familias en Oahu u otra isla, llegar requiere viaje aéreo interinsular a Hilo, seguido de viaje terrestre hasta el centro. Las visitas por video dentro del estado, mediante tabletas del centro, son una opción que no requiere viaje (vea [Visitas](#visitas)).
+Su entorno también es distintivo. Kulani es rural y remota, en la ladera alta del Mauna Loa en lugar de en o cerca de una ciudad. Para las familias en Oʻahu u otra isla, llegar requiere viaje aéreo interinsular a Hilo, seguido de viaje terrestre hasta el centro. Las visitas por video dentro del estado, mediante tabletas del centro, son una opción que no requiere viaje (vea [Visitas](#visitas)).
 
 ## Visitas
 
@@ -72,7 +72,7 @@ Las reglas estatales del DCR mencionadas arriba —el proceso de lista de visita
 
 ## Cómo llegar
 
-Kulani está en Stainback Highway, en la ladera del Mauna Loa, a unas 20 millas al sureste de Hilo, en la isla de Hawái. Los visitantes que llegan desde Oahu u otra isla viajan por vía aérea a Hilo, y luego continúan por carretera hasta el centro. Hilo ofrece opciones de alojamiento, comidas, combustible y abarrotes; los servicios disminuyen a lo largo de la ruta hacia las tierras altas, en dirección al centro.
+Kulani está en Stainback Highway, en la ladera del Mauna Loa, a unas 20 millas al sureste de Hilo, en la isla de Hawái. Los visitantes que llegan desde Oʻahu u otra isla viajan por vía aérea a Hilo, y luego continúan por carretera hasta el centro. Hilo ofrece opciones de alojamiento, comidas, combustible y abarrotes; los servicios disminuyen a lo largo de la ruta hacia las tierras altas, en dirección al centro.
 
 ## Correo
 

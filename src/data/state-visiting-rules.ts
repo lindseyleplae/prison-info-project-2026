@@ -70,9 +70,9 @@ export const stateVisitingRules: Record<string, StateVisitingRules> = {
     system: 'HI DCR',
     title: 'Statewide rules that apply at HI DCR facilities',
     guideHref: '/states/hawaii/guides/visiting/',
-    guideLabel: 'Visiting in Hawaii',
+    guideLabel: 'Visiting in Hawaiʻi',
     dressCode: [
-      'Dress modestly — Hawaii facilities enforce a visiting dress code that bars revealing, sheer, or provocative clothing, beachwear, and anything resembling what inmates or staff wear; closed-toe footwear is expected.',
+      'Dress modestly — Hawaiʻi facilities enforce a visiting dress code that bars revealing, sheer, or provocative clothing, beachwear, and anything resembling what inmates or staff wear; closed-toe footwear is expected.',
       'Each facility sets and enforces its own specifics and may turn a visitor away for dressing out of code, and electronics are not allowed inside, so confirm the dress code with the facility before traveling.'
     ],
     idRule:
@@ -80,7 +80,7 @@ export const stateVisitingRules: Record<string, StateVisitingRules> = {
     itemsRule:
       'Bring only what the facility allows — most personal items are not permitted in the visiting room. Money for an inmate\'s account at an in-state facility is sent through GTL / ViaPath ConnectNetwork, never handed over at a visit; the Saguaro prison in Arizona uses a separate money process.',
     schedulingRule:
-      'Hawaii has no statewide online scheduler — each facility sets its own visiting days and hours and runs its own visitation hotline, so confirm with the specific facility. Video visits are available through tablets at the in-state facilities. The neighbor-island facilities (on Maui, Kauai, and the Big Island) are reachable from Oahu mainly by air. The roughly 800 men held at the Saguaro Correctional Center in Arizona visit on that prison\'s schedule, with video booked through the state\'s mainland branch. Women are held at the Women\'s Community Correctional Center (Kailua).'
+      'Hawaiʻi has no statewide online scheduler — each facility sets its own visiting days and hours and runs its own visitation hotline, so confirm with the specific facility. Video visits are available through tablets at the in-state facilities. The neighbor-island facilities (on Maui, Kauaʻi, and Hawaiʻi Island) are reachable from Oʻahu mainly by air. The roughly 800 men held at the Saguaro Correctional Center in Arizona visit on that prison\'s schedule, with video booked through the state\'s mainland branch. Women are held at the Women\'s Community Correctional Center (Kailua).'
   },
   mn: {
     system: 'MN DOC',

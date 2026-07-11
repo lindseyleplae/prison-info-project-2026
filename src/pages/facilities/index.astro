@@ -98,7 +98,8 @@ for (const state of states) {
     async function filterDirectory() {
       if (!resultsRoot) return;
 
-      const query = (queryInput?.value || '').trim().toLowerCase();
+      const norm = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[ʻʼ‘’']/g, '').toLowerCase();
+      const query = norm((queryInput?.value || '').trim());
       const state = stateSelect?.value || '';
 
       if (!query && !state) {
@@ -117,7 +118,7 @@ for (const state of states) {
           .join(' ')
           .toLowerCase();
 
-        return matchesState && (!query || haystack.includes(query));
+        return matchesState && (!query || norm(haystack).includes(query));
       });
 
       resultsRoot.replaceChildren();

@@ -5,11 +5,11 @@ state: hi
 topic: mail
 relatedNationalGuide: staying-in-touch
 system: "HI DCR"
-description: "Cómo dirigir el correo personal a una institución de Hawaii DCR, las reglas del sobre que hacen que el correo se rechace, cómo los libros deben provenir de una editorial o un proveedor, y en qué se diferencia el correo a Saguaro, en Arizona."
+description: "Cómo dirigir el correo personal a una institución de Hawaiʻi DCR, las reglas del sobre que hacen que el correo se rechace, cómo los libros deben provenir de una editorial o un proveedor, y en qué se diferencia el correo a Saguaro, en Arizona."
 sources:
-  - name: "Hawaii DCR — Mail Policy (COR.15.02, clearinghouse copy)"
-    url: "https://www.law.umich.edu/special/policyclearinghouse/Documents/Hawaii%20Mail%20Pol'y%20(Pol'y%20COR.15.02).pdf"
-  - name: "Hawaii DCR — Frequently Called Numbers (facility addresses)"
+  - name: "Hawaiʻi DCR — Mail Policy (COR.15.02, clearinghouse copy)"
+    url: "https://www.law.umich.edu/special/policyclearinghouse/Documents/Hawaiʻi%20Mail%20Pol'y%20(Pol'y%20COR.15.02).pdf"
+  - name: "Hawaiʻi DCR — Frequently Called Numbers (facility addresses)"
     url: "https://dcr.hawaii.gov/frequently-called-numbers/"
 lastReviewed: 2026-06-16
 lang: es
@@ -17,7 +17,7 @@ sourceReviewed: 2026-06-16
 ---
 
 :::key-info{title="Información clave"}
-**El correo personal va directamente a la institución.** Hawaii DCR no usa un proveedor de escaneo de correo fuera de las instalaciones. Las cartas, las tarjetas y las fotos se envían a la prisión o cárcel donde está alojada la persona, donde el personal las inspecciona.
+**El correo personal va directamente a la institución.** Hawaiʻi DCR no usa un proveedor de escaneo de correo fuera de las instalaciones. Las cartas, las tarjetas y las fotos se envían a la prisión o cárcel donde está alojada la persona, donde el personal las inspecciona.
 
 **Diríjalo a la persona encarcelada en su institución.** Use el nombre completo y el número de identificación de la persona encarcelada, el nombre de la institución y la dirección postal propia de la institución. Cada institución tiene una dirección distinta, y Waiawa y Kulani usan direcciones postales de apartado (P.O. Box).
 
@@ -41,7 +41,7 @@ Dirija el correo personal con el nombre completo y el número de identificación
 [Ciudad, HI código postal]
 ```
 
-Busque la dirección postal exacta de la institución específica en su página de institución, ya que cada institución de Hawaii DCR tiene una dirección distinta. Dos instituciones usan una **dirección postal de apartado (P.O. Box)** para el correo de las personas encarceladas, que es distinta de su dirección física o de ubicación:
+Busque la dirección postal exacta de la institución específica en su página de institución, ya que cada institución de Hawaiʻi DCR tiene una dirección distinta. Dos instituciones usan una **dirección postal de apartado (P.O. Box)** para el correo de las personas encarceladas, que es distinta de su dirección física o de ubicación:
 
 - **Waiawa Correctional Facility** — P.O. Box 1839, Pearl City, HI 96782
 - **Kulani Correctional Facility** — P.O. Box 4459, Hilo, HI 96720
@@ -84,5 +84,5 @@ Saguaro es operado por CoreCivic, no por DCR, y su manejo del correo sigue las r
 ## Verifique antes de actuar
 
 :::callout{variant="warning" title="Verifique antes de actuar"}
-Envíe las cartas, las tarjetas y las fotos personales directamente a la persona encarcelada en su institución, usando el nombre completo y el número de identificación, el nombre de la institución y la dirección postal propia de la institución; busque esa dirección en la página de la institución específica, y tenga en cuenta que Waiawa y Kulani usan direcciones de apartado (P.O. Box). Incluya siempre el nombre completo del remitente y una dirección de remitente, o el correo se rechaza. Los libros y las revistas deben provenir de una editorial o de un proveedor aprobado. El correo a Saguaro, en Arizona, sigue las reglas de esa prisión y usa una dirección distinta. Las reglas del correo cambian; la política de correo de Hawaii DCR y la propia información de la institución son las fuentes autorizadas.
+Envíe las cartas, las tarjetas y las fotos personales directamente a la persona encarcelada en su institución, usando el nombre completo y el número de identificación, el nombre de la institución y la dirección postal propia de la institución; busque esa dirección en la página de la institución específica, y tenga en cuenta que Waiawa y Kulani usan direcciones de apartado (P.O. Box). Incluya siempre el nombre completo del remitente y una dirección de remitente, o el correo se rechaza. Los libros y las revistas deben provenir de una editorial o de un proveedor aprobado. El correo a Saguaro, en Arizona, sigue las reglas de esa prisión y usa una dirección distinta. Las reglas del correo cambian; la política de correo de Hawaiʻi DCR y la propia información de la institución son las fuentes autorizadas.
 :::

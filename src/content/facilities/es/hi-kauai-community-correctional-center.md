@@ -1,14 +1,14 @@
 ---
-title: "Kauai Community Correctional Center"
+title: "Kauaʻi Community Correctional Center"
 slug: kauai-community-correctional-center
 state: hi
 system: "HI DCR"
 population: men-and-women
-summary: "La cárcel de Kauai, en Lihue, un centro pequeño que aloja a hombres y mujeres en espera de juicio y sentenciados, con visitas telefónicas y por video mediante tabletas."
+summary: "La cárcel de Kauaʻi, en Lihue, un centro pequeño que aloja a hombres y mujeres en espera de juicio y sentenciados, con visitas telefónicas y por video mediante tabletas."
 aliases:
   - KCCC
 city: Lihue
-county: Kauai
+county: Kauaʻi
 address: "3-5351 Kuhio Highway, Lihue, HI 96766"
 securityLevel: "Cárcel (custodia mixta)"
 facilityType: "Cárcel (Centro Correccional Comunitario)"
@@ -26,7 +26,7 @@ links:
   official: "https://dcr.hawaii.gov/kccc/"
   inmateLocator: "https://www.vinelink.com/"
 sources:
-  - name: "HI DCR Kauai Community Correctional Center"
+  - name: "HI DCR Kauaʻi Community Correctional Center"
     url: "https://dcr.hawaii.gov/kccc/"
 lastVerified: 2026-06-16
 reviewBy: 2026-08-09
@@ -35,27 +35,27 @@ sourceReviewed: 2026-06-16
 ---
 
 :::callout{variant="warning"}
-Kauai Community Correctional Center es una cárcel que aloja tanto a hombres como a mujeres, y tanto a personas en espera de juicio como a sentenciadas. El estado de custodia y el alojamiento pueden cambiar, y a veces se traslada a las personas entre centros de Hawái, así que confirme la ubicación actual de la persona en [VINELink](https://www.vinelink.com/) antes de viajar o enviar algo. El centro está en Kauai; llegar desde Oahu u otra isla requiere viaje aéreo interinsular.
+Kauaʻi Community Correctional Center es una cárcel que aloja tanto a hombres como a mujeres, y tanto a personas en espera de juicio como a sentenciadas. El estado de custodia y el alojamiento pueden cambiar, y a veces se traslada a las personas entre centros de Hawái, así que confirme la ubicación actual de la persona en [VINELink](https://www.vinelink.com/) antes de viajar o enviar algo. El centro está en Kauaʻi; llegar desde Oʻahu u otra isla requiere viaje aéreo interinsular.
 :::
 
 :::key-info
-- **Ubicación:** Lihue, Kauai
+- **Ubicación:** Lihue, Kauaʻi
 - **Población:** Hombres y mujeres, custodia mixta; tanto en espera de juicio como sentenciados
-- **Notable:** La cárcel de Kauai; se llega desde otras islas principalmente por vía aérea, con visitas por video mediante tabletas como opción remota
+- **Notable:** La cárcel de Kauaʻi; se llega desde otras islas principalmente por vía aérea, con visitas por video mediante tabletas como opción remota
 - **Visitas:** Confirme los días, el horario y si debe reservarse una visita llamando a la línea de visitas (ext. 244)
 :::
 
 ## Descripción general
 
-Kauai Community Correctional Center (KCCC) es operado por el Departamento de Correcciones y Rehabilitación de Hawái (DCR). Es la cárcel de la isla de Kauai, en Lihue, y es un centro pequeño — con una capacidad reportada de aproximadamente 128 camas. Aloja tanto a hombres como a mujeres.
+Kauaʻi Community Correctional Center (KCCC) es operado por el Departamento de Correcciones y Rehabilitación de Hawái (DCR). Es la cárcel de la isla de Kauaʻi, en Lihue, y es un centro pequeño — con una capacidad reportada de aproximadamente 128 camas. Aloja tanto a hombres como a mujeres.
 
 Hawái opera un sistema correccional unificado: el estado no tiene un sistema separado de cárceles de condado, por lo que el DCR administra tanto las cárceles (los Centros Correccionales Comunitarios) como las prisiones para personas sentenciadas. Los Centros Correccionales Comunitarios alojan principalmente a personas en espera de juicio (pretrial) y a personas que cumplen sentencias más cortas, y también alojan a algunas personas sentenciadas en programas de reintegración y trabajo. KCCC aloja tanto a personas en espera de juicio como a sentenciadas.
 
-## Qué hace diferente al Kauai Community Correctional Center
+## Qué hace diferente al Kauaʻi Community Correctional Center
 
-KCCC sirve a la isla de Kauai. Debido a que el sistema de Hawái es unificado, funciona como una cárcel que aloja tanto a personas en espera de juicio como a sentenciadas en el mismo sitio, en lugar de como una prisión solo para sentenciados. Debido a que es principalmente una cárcel, el estado de custodia y la ubicación de una persona pueden cambiar; VINELink muestra la ubicación actual.
+KCCC sirve a la isla de Kauaʻi. Debido a que el sistema de Hawái es unificado, funciona como una cárcel que aloja tanto a personas en espera de juicio como a sentenciadas en el mismo sitio, en lugar de como una prisión solo para sentenciados. Debido a que es principalmente una cárcel, el estado de custodia y la ubicación de una persona pueden cambiar; VINELink muestra la ubicación actual.
 
-El centro está en Kauai, y no hay carretera ni puente que conecte Kauai con las demás islas de Hawái. Los visitantes que viajan desde Oahu u otra isla llegan a Kauai por vía aérea interinsular, lo que hace que el costo y la programación del viaje sean factores más grandes que en un centro al que una familia pueda llegar en auto. Para las familias que no pueden viajar a la isla, las visitas por video mediante las tabletas del centro son la opción remota práctica (vea Teléfono, video y correo, abajo).
+El centro está en Kauaʻi, y no hay carretera ni puente que conecte Kauaʻi con las demás islas de Hawái. Los visitantes que viajan desde Oʻahu u otra isla llegan a Kauaʻi por vía aérea interinsular, lo que hace que el costo y la programación del viaje sean factores más grandes que en un centro al que una familia pueda llegar en auto. Para las familias que no pueden viajar a la isla, las visitas por video mediante las tabletas del centro son la opción remota práctica (vea Teléfono, video y correo, abajo).
 
 ## Visitas
 
@@ -64,13 +64,13 @@ Las reglas estatales del DCR mencionadas arriba —el proceso de lista de visita
 :::key-info
 - **Programación:** Los días y horarios de visita, y si una visita debe reservarse con anticipación, los establece el centro. Confirme el horario actual llamando a la línea de visitas al (808) 241-3050 ext. 244.
 - **Lista aprobada primero:** Las visitas se realizan mediante la lista de visitantes aprobados de la persona encarcelada. El DCR realiza una verificación de antecedentes antes de aprobar a un visitante.
-- **Visitas por video:** Las visitas por video están disponibles a través de las tabletas del centro, administradas por GTL (ViaPath). Esta es la principal opción remota para las familias que no pueden viajar a Kauai.
+- **Visitas por video:** Las visitas por video están disponibles a través de las tabletas del centro, administradas por GTL (ViaPath). Esta es la principal opción remota para las familias que no pueden viajar a Kauaʻi.
 - **Línea principal:** (808) 241-3050
 :::
 
 ## Cómo llegar
 
-Kauai Community Correctional Center está en 3-5351 Kuhio Highway en Lihue, en la isla de Kauai. Lihue es servida por el Aeropuerto de Lihue. Kauai no está conectada por carretera con las demás islas de Hawái, por lo que los visitantes desde Oahu o una isla vecina llegan por vía aérea y usan carreteras locales o transporte terrestre en la isla para llegar al centro.
+Kauaʻi Community Correctional Center está en 3-5351 Kuhio Highway en Lihue, en la isla de Kauaʻi. Lihue es servida por el Aeropuerto de Lihue. Kauaʻi no está conectada por carretera con las demás islas de Hawái, por lo que los visitantes desde Oʻahu o una isla vecina llegan por vía aérea y usan carreteras locales o transporte terrestre en la isla para llegar al centro.
 
 Los visitantes deben confirmar con el centro los procedimientos de entrada actuales, el lugar de procesamiento de visitantes y qué se puede llevar al predio antes de llegar, ya que generalmente no se permiten dispositivos electrónicos ni artículos personales dentro del área de visitas.
 

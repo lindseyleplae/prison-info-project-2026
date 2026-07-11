@@ -4,7 +4,7 @@ slug: waiawa
 state: hi
 system: "HI DCR"
 population: men
-summary: "Una prisión de mínima seguridad en Oahu para hombres sentenciados próximos a su liberación, con tratamiento por abuso de sustancias, libertad laboral y programas vocacionales."
+summary: "Una prisión de mínima seguridad en Oʻahu para hombres sentenciados próximos a su liberación, con tratamiento por abuso de sustancias, libertad laboral y programas vocacionales."
 aliases:
   - WCF
   - Waiawa
@@ -40,7 +40,7 @@ La dirección postal y la dirección física son diferentes. El correo entrante 
 :::
 
 :::key-info
-- **Ubicación:** Área de Waipahu de Oahu (centro/costa de sotavento de Oahu)
+- **Ubicación:** Área de Waipahu de Oʻahu (centro/costa de sotavento de Oʻahu)
 - **Población:** Hombres, custodia mínima; hombres sentenciados próximos a su liberación
 - **Notable:** Tratamiento residencial por abuso de sustancias KASHBOX; libertad laboral; capacitación vocacional
 - **Visitas:** Confirmadas con el centro; visitas por video disponibles mediante tabletas
@@ -48,7 +48,7 @@ La dirección postal y la dirección física son diferentes. El correo entrante 
 
 ## Descripción general
 
-Waiawa Correctional Facility es una prisión estatal de mínima seguridad para hombres, operada por el Departamento de Correcciones y Rehabilitación de Hawái (DCR). Está en el área de Waipahu de Oahu y aloja a hombres sentenciados, con énfasis en la reintegración a medida que se acercan a la liberación.
+Waiawa Correctional Facility es una prisión estatal de mínima seguridad para hombres, operada por el Departamento de Correcciones y Rehabilitación de Hawái (DCR). Está en el área de Waipahu de Oʻahu y aloja a hombres sentenciados, con énfasis en la reintegración a medida que se acercan a la liberación.
 
 Hawái opera un sistema correccional unificado: al no tener cárceles de condado, el DCR administra tanto las cárceles que alojan a las poblaciones pretrial y de sentencias cortas como las prisiones que alojan a los sentenciados por delitos graves. Waiawa es una de las prisiones del sistema para personas sentenciadas, enfocada en hombres de custodia mínima que se preparan para regresar a la comunidad.
 
@@ -66,7 +66,7 @@ Los centros de Hawái también ofrecen visitas por video. El DCR implementó tab
 
 ## Cómo llegar
 
-Waiawa Correctional Facility está en 94-560 Kamehameha Highway, en el área de Waipahu del centro/sotavento de Oahu. Esta dirección física sirve para llegar al centro en persona; el correo para una persona encarcelada usa el P.O. Box (vea abajo).
+Waiawa Correctional Facility está en 94-560 Kamehameha Highway, en el área de Waipahu del centro/sotavento de Oʻahu. Esta dirección física sirve para llegar al centro en persona; el correo para una persona encarcelada usa el P.O. Box (vea abajo).
 
 ## Correo
 

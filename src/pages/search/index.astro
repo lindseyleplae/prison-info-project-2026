@@ -72,7 +72,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
       const response = await fetch('/facilities.json');
       const facilities = await response.json();
-      const query = (facilityQuery?.value || '').trim().toLowerCase();
+      const norm = (s) => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[ʻʼ‘’']/g, '').toLowerCase();
+      const query = norm((facilityQuery?.value || '').trim());
       const filtered = facilities
         .filter((facility) => {
           if (!query) return false;
@@ -88,7 +89,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             .filter(Boolean)
             .join(' ')
             .toLowerCase();
-          return haystack.includes(query);
+          return norm(haystack).includes(query);
         })
         .slice(0, 8);
 

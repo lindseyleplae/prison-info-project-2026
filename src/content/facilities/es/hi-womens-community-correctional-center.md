@@ -4,7 +4,7 @@ slug: womens-community-correctional-center
 state: hi
 system: "HI DCR"
 population: women
-summary: "La única prisión de mujeres de Hawái, en Kailua, en Oahu, que aloja a mujeres sentenciadas y en espera de juicio en todos los niveles de custodia, y funciona como el centro estatal para mujeres."
+summary: "La única prisión de mujeres de Hawái, en Kailua, en Oʻahu, que aloja a mujeres sentenciadas y en espera de juicio en todos los niveles de custodia, y funciona como el centro estatal para mujeres."
 aliases:
   - WCCC
 city: Kailua
@@ -39,7 +39,7 @@ sourceReviewed: 2026-06-16
 :::
 
 :::key-info
-**Ubicación:** En Kalanianaole Highway, en Kailua, en el lado de barlovento de Oahu
+**Ubicación:** En Kalanianaole Highway, en Kailua, en el lado de barlovento de Oʻahu
 
 **Población:** Mujeres en todos los niveles de custodia, tanto en espera de juicio como sentenciadas
 
@@ -78,10 +78,10 @@ El proceso de aprobación completo está en [Visitas en Hawái](/states/hawaii/g
 
 ## Cómo llegar y estacionamiento
 
-El centro está en Kalanianaole Highway, en Kailua, en el lado de barlovento (este) de Oahu.
+El centro está en Kalanianaole Highway, en Kailua, en el lado de barlovento (este) de Oʻahu.
 
 :::key-info
-**En auto:** Kailua está en el lado de barlovento de Oahu, y se llega desde Honolulu cruzando la cordillera Koolau; el centro está en Kalanianaole Highway
+**En auto:** Kailua está en el lado de barlovento de Oʻahu, y se llega desde Honolulu cruzando la cordillera Koolau; el centro está en Kalanianaole Highway
 
 **Dirección:** 42-477 Kalanianaole Highway, Kailua, HI 96734
 :::

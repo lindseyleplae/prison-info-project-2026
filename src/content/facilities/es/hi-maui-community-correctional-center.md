@@ -55,7 +55,7 @@ Hawái opera un sistema correccional unificado: el estado administra tanto las f
 
 MCCC es la cárcel de la isla de Maui. Las personas recién arrestadas del condado de Maui son procesadas aquí, y el centro aloja una mezcla de personas en espera de juicio y personas que cumplen sentencias. Ofrece un programa de tribunal de drogas, libertad laboral, educación y programas de tratamiento.
 
-Su ubicación insular es un factor práctico para las visitas. MCCC está en Maui, mientras que la mayoría de los demás centros correccionales de Hawái están en Oahu. Llegar a MCCC desde Oahu u otra isla requiere viaje aéreo interinsular. Para las familias que no pueden viajar a Maui, las visitas por video mediante las tabletas del centro son la opción remota práctica.
+Su ubicación insular es un factor práctico para las visitas. MCCC está en Maui, mientras que la mayoría de los demás centros correccionales de Hawái están en Oʻahu. Llegar a MCCC desde Oʻahu u otra isla requiere viaje aéreo interinsular. Para las familias que no pueden viajar a Maui, las visitas por video mediante las tabletas del centro son la opción remota práctica.
 
 ## Visitas
 
@@ -71,7 +71,7 @@ Las reglas estatales del DCR mencionadas arriba —el proceso de lista de visita
 
 ## Cómo llegar y estacionamiento
 
-Maui Community Correctional Center está en 600 Waiale Drive en Wailuku, condado de Maui. Wailuku está en el centro de Maui, cerca de Kahului y del Aeropuerto de Kahului, que ofrece servicio aéreo comercial. Los viajeros desde Oahu u otra isla hawaiana llegan a Maui por vuelo interinsular; no hay conexión por carretera ni transbordador entre las islas.
+Maui Community Correctional Center está en 600 Waiale Drive en Wailuku, condado de Maui. Wailuku está en el centro de Maui, cerca de Kahului y del Aeropuerto de Kahului, que ofrece servicio aéreo comercial. Los viajeros desde Oʻahu u otra isla hawaiana llegan a Maui por vuelo interinsular; no hay conexión por carretera ni transbordador entre las islas.
 
 Confirme con el centro los procedimientos de entrada actuales, el lugar de registro de visitantes y qué se puede llevar al predio antes de llegar, ya que la mayoría de los dispositivos electrónicos y artículos personales no están permitidos dentro del área de visitas.
 

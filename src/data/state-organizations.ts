@@ -233,7 +233,7 @@ export const stateOrganizations: Record<string, StateOrg[]> =
   ],
   "hawaii": [
     {
-      "name": "Hawai'i Friends of Restorative Justice",
+      "name": "Hawaiʻi Friends of Restorative Justice",
       "url": "https://hawaiifriends.org/",
       "description": "Long-running restorative-justice nonprofit that runs Huikahi Reentry Circles — facilitated planning circles bringing together the incarcerated person, their family members, and prison staff to build a written reentry/transition plan; also does training, advocacy, and research."
     }

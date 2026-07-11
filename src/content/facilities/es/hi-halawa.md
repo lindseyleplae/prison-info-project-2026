@@ -4,7 +4,7 @@ slug: halawa
 state: hi
 system: "HI DCR"
 population: men
-summary: "La prisión más grande de Hawái y el centro principal para hombres sentenciados, en Oahu, en Aiea, con secciones de custodia cerrada y seguridad media."
+summary: "La prisión más grande de Hawái y el centro principal para hombres sentenciados, en Oʻahu, en Aiea, con secciones de custodia cerrada y seguridad media."
 aliases:
   - HCF
   - Halawa
@@ -40,15 +40,15 @@ Halawa Correctional Facility es la prisión más grande de Hawái y el centro pr
 :::
 
 :::key-info
-- **Ubicación:** Aiea, en Oahu (condado de Honolulu), en Moanalua Road
+- **Ubicación:** Aiea, en Oʻahu (condado de Honolulu), en Moanalua Road
 - **Población:** Hombres; secciones de custodia cerrada y seguridad media
-- **Función:** La prisión más grande de Hawái y el centro principal para hombres sentenciados; el centro de custodia alta/cerrada y seguridad media en Oahu
+- **Función:** La prisión más grande de Hawái y el centro principal para hombres sentenciados; el centro de custodia alta/cerrada y seguridad media en Oʻahu
 - **Visitas:** Se confirman según el centro — llame a la línea de visitas al (808) 485-3550
 :::
 
 ## Descripción general
 
-Halawa Correctional Facility es una prisión estatal para hombres operada por el Departamento de Correcciones y Rehabilitación de Hawái (DCR). Está en Aiea, en Oahu, y es la prisión más grande de Hawái y el centro principal para hombres sentenciados. Halawa funciona como el centro de custodia alta/cerrada y seguridad media para hombres en el sistema estatal.
+Halawa Correctional Facility es una prisión estatal para hombres operada por el Departamento de Correcciones y Rehabilitación de Hawái (DCR). Está en Aiea, en Oʻahu, y es la prisión más grande de Hawái y el centro principal para hombres sentenciados. Halawa funciona como el centro de custodia alta/cerrada y seguridad media para hombres en el sistema estatal.
 
 Hawái opera un sistema unificado de cárcel y prisión: el estado no tiene cárceles de condado, por lo que el DCR administra tanto los Centros Correccionales Comunitarios (pretrial) como las prisiones para personas sentenciadas. Dentro de esa estructura no existe una sola prisión de recepción para hombres con nombre propio. Los hombres sentenciados se clasifican a través de las cárceles insulares y Halawa, y muchos hombres sentenciados se clasifican en Halawa antes de ser ubicados en Halawa o en otro centro, como las prisiones de mínima seguridad en Waiawa y Kulani, o el Saguaro Correctional Center, bajo contrato, en Arizona. La clasificación de custodia determina el alojamiento y la sección en la que se aloja a una persona, lo que a su vez afecta los arreglos de visita.
 
@@ -71,7 +71,7 @@ Las reglas estatales de HI DCR mencionadas arriba —el proceso de lista de visi
 
 ## Cómo llegar
 
-Halawa Correctional Facility está en 99-902 Moanalua Road, en Aiea, en Oahu, condado de Honolulu. Se encuentra en la zona urbana de Honolulu, cerca del área de Halawa y Aiea. El aeropuerto comercial grande más cercano es el que sirve a Honolulu en Oahu. Los visitantes deben confirmar con el centro los procedimientos de entrada actuales, el lugar de procesamiento de visitantes y qué se puede llevar al predio antes de llegar, ya que generalmente no se permiten dispositivos electrónicos ni artículos personales dentro.
+Halawa Correctional Facility está en 99-902 Moanalua Road, en Aiea, en Oʻahu, condado de Honolulu. Se encuentra en la zona urbana de Honolulu, cerca del área de Halawa y Aiea. El aeropuerto comercial grande más cercano es el que sirve a Honolulu en Oʻahu. Los visitantes deben confirmar con el centro los procedimientos de entrada actuales, el lugar de procesamiento de visitantes y qué se puede llevar al predio antes de llegar, ya que generalmente no se permiten dispositivos electrónicos ni artículos personales dentro.
 
 ## Correo
 
