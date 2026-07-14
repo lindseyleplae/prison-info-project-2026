@@ -45,7 +45,7 @@ Después de un traslado dentro del estado, la lista permanece activa durante 30 
 
 ### Menores
 
-Un visitante menor de 18 años acude con su tutor legal, o con un adulto aprobado que lleve el **permiso escrito y notariado** del tutor que nombre a ese adulto. Los niños también necesitan identificación — sirve cualquier identificación con foto emitida por el gobierno, una tarjeta de Seguro Social o un certificado de nacimiento. Un menor sin acompañante es motivo publicado para rechazar la visita, y una persona condenada por un delito que involucre maltrato infantil no puede recibir visitas de menores sin la aprobación del superintendente.
+Un visitante menor de 18 años acude con su tutor legal, o con un adulto aprobado que lleve el **permiso escrito y notariado** del tutor que nombre a ese adulto. Los niños también necesitan identificación — sirve cualquier identificación con foto emitida por el gobierno, una tarjeta de Seguro Social o un certificado de nacimiento. Son dos requisitos separados: un adulto que no sea el padre, la madre o el tutor legal del niño —un abuelo, una tía o un tío, por ejemplo— necesita **tanto** la identificación del niño **como** el permiso notariado del tutor. El certificado de nacimiento del niño no sustituye ese permiso. Un menor sin acompañante es motivo publicado para rechazar la visita, y una persona condenada por un delito que involucre maltrato infantil no puede recibir visitas de menores sin la aprobación del superintendente.
 
 ## Programación
 

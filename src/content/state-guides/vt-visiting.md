@@ -43,7 +43,7 @@ After an in-state transfer, the list stays active for 30 days at the new facilit
 
 ### Minors
 
-A visitor under 18 comes with their legal guardian, or with an approved adult carrying the guardian's **notarized written permission** naming that adult. Children need identification too — any government-issued photo ID, a Social Security card, or a birth certificate works. An unaccompanied minor is published grounds for turning the visit away, and a person convicted of a crime involving child abuse cannot receive minor visitors without the superintendent's approval.
+A visitor under 18 comes with their legal guardian, or with an approved adult carrying the guardian's **notarized written permission** naming that adult. Children need identification too — any government-issued photo ID, a Social Security card, or a birth certificate works. These are two separate requirements: an adult who is not the child's parent or legal guardian — a grandparent, aunt, or uncle, for example — needs **both** the child's identification **and** the guardian's notarized permission. The child's birth certificate does not stand in for the permission. An unaccompanied minor is published grounds for turning the visit away, and a person convicted of a crime involving child abuse cannot receive minor visitors without the superintendent's approval.
 
 ## Scheduling
 
