@@ -36,7 +36,7 @@ sources:
   - name: "CT Mirror — State to close Radgowski Correctional Center (2021)"
     url: "https://ctmirror.org/2021/09/08/state-to-close-radgowski-correctional-center/"
   - name: "Backus Hospital — Emergency (Norwich)"
-    url: "https://hartfordhealthcare.org/locations/backus-hospital"
+    url: "https://backushospital.org/"
 lastVerified: 2026-06-13
 reviewBy: 2026-07-27
 lang: es

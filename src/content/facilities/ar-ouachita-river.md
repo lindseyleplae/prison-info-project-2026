@@ -37,7 +37,7 @@ sources:
   - name: "Arkansas Advocate — ADC to enter ADA settlement over Ouachita River care (2025)"
     url: "https://arkansasadvocate.com/2025/09/03/arkansas-corrections-division-to-enter-settlement-over-disability-law-violations/"
   - name: "Baptist Health Medical Center–Hot Spring County (Malvern, emergency)"
-    url: "https://www.baptist-health.com/locations/baptist-health-medical-center-hot-spring-county"
+    url: "https://www.baptist-health.org/location/baptist-health-medical-center-hot-spring-county"
 lastVerified: 2026-06-13
 reviewBy: 2026-07-18
 ---

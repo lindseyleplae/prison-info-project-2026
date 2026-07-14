@@ -8,7 +8,7 @@ system: "HI DCR"
 description: "Cómo dirigir el correo personal a una institución de Hawaiʻi DCR, las reglas del sobre que hacen que el correo se rechace, cómo los libros deben provenir de una editorial o un proveedor, y en qué se diferencia el correo a Saguaro, en Arizona."
 sources:
   - name: "Hawaiʻi DCR — Mail Policy (COR.15.02, clearinghouse copy)"
-    url: "https://www.law.umich.edu/special/policyclearinghouse/Documents/Hawaiʻi%20Mail%20Pol'y%20(Pol'y%20COR.15.02).pdf"
+    url: "https://www.law.umich.edu/special/policyclearinghouse/Documents/Hawaii%20Mail%20Pol'y%20(Pol'y%20COR.15.02).pdf"
   - name: "Hawaiʻi DCR — Frequently Called Numbers (facility addresses)"
     url: "https://dcr.hawaii.gov/frequently-called-numbers/"
 lastReviewed: 2026-06-16

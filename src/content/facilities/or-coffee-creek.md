@@ -36,8 +36,8 @@ sources:
     url: "https://www.oregon.gov/doc/intake-and-assessment/pages/home.aspx"
   - name: "ODOC — Visiting Hours"
     url: "https://www.oregon.gov/doc/visiting/pages/visiting-hours.aspx"
-  - name: "Family Preservation Project (YWCA of Greater Portland)"
-    url: "https://www.ywcapdx.org/family-preservation-project"
+  - name: "Family Preservation Project"
+    url: "https://family-preservation-project.org/"
   - name: "Legacy Meridian Park Medical Center — Emergency"
     url: "https://www.legacyhealth.org/Doctors-and-Locations/hospitals/legacy-meridian-park-medical-center"
 lastVerified: 2026-06-13
@@ -67,7 +67,7 @@ Coffee Creek Correctional Facility, in Wilsonville, has two jobs. It is **Oregon
 - **It is Oregon's only women's prison.** Every woman in ODOC custody is held here.
 - **It is the statewide intake point for everyone.** A newly sentenced person of any gender typically begins here, so families of a just-committed man may first locate him at Coffee Creek before he transfers out.
 - **No visits happen during intake.** Because of the intake role, a person in their first weeks generally cannot be visited anywhere, including here — contact is by phone and mail until intake ends.
-- **Parenting support exists.** The YWCA-run **Family Preservation Project** offers therapeutic child visitation and parenting support for incarcerated mothers, alongside ODOC's own parenting programs.
+- **Parenting support exists.** The **Family Preservation Project**, an independent nonprofit, offers therapeutic child visitation and parenting support for incarcerated mothers, alongside ODOC's own parenting programs.
 
 ## Visiting
 

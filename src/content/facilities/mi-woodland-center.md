@@ -33,7 +33,7 @@ sources:
   - name: "MDOC — Woodland Center Correctional Facility"
     url: "https://www.michigan.gov/corrections/prisons/woodland-center-correctional-facility"
   - name: "MDOC — Visiting a Prisoner (statewide visiting standards)"
-    url: "https://www.michigan.gov/corrections/families/visiting-a-prisoner"
+    url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "University of Michigan Health — Adult Emergency Department"
     url: "https://www.uofmhealth.org/locations-list/adult-emergency-department-university-hospital"
 lastVerified: 2026-06-14

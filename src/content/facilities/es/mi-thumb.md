@@ -33,7 +33,7 @@ sources:
   - name: "MDOC — Thumb Correctional Facility"
     url: "https://www.michigan.gov/corrections/prisons/thumb-correctional-facility"
   - name: "MDOC — Visiting a Prisoner (statewide visiting standards)"
-    url: "https://www.michigan.gov/corrections/families/visiting-a-prisoner"
+    url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "McLaren Lapeer Region — Emergency Department"
     url: "https://www.mclaren.org/main/locations/emergency-department-at-mclaren-lapeer-region-524"
 lastVerified: 2026-06-14

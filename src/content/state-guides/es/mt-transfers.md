@@ -7,8 +7,10 @@ relatedNationalGuide: know-your-rights
 system: "MT DOC"
 summary: "Cómo encontrar a alguien bajo custodia de Montana en el localizador ConWeb, cómo funciona la recepción en el Martz Diagnostic Intake Unit (hombres) y la Montana Women's Prison (mujeres), y cómo la escasez de camas del estado dirige a las personas a través de cárceles municipales, centros de evaluación y una prisión fuera del estado."
 sources:
-  - name: "Montana Department of Corrections — Facilities"
-    url: "https://cor.mt.gov/facilities/Facilities"
+  - name: "Montana Department of Corrections — Secure Facilities"
+    url: "https://cor.mt.gov/Facilities/SecureFacilities"
+  - name: "Montana Department of Corrections — Contracted Secure Facilities"
+    url: "https://cor.mt.gov/Facilities/ContractedSecureFacilities"
   - name: "Montana Correctional Offender Network (ConWeb)"
     url: "https://app.mt.gov/conweb/"
 lastReviewed: 2026-06-16

@@ -34,7 +34,7 @@ sources:
   - name: "VADOC — Visiting an Inmate"
     url: "https://vadoc.virginia.gov/family-and-friends/visiting-an-inmate/"
   - name: "Virginia Office of the State Inspector General — Beaumont Correctional Center Inspection Report (2025)"
-    url: "https://www.osig.virginia.gov/inspections-of-state-correctional-facilities/"
+    url: "https://www.osig.virginia.gov/reports/"
   - name: "Bon Secours St. Francis Medical Center (Midlothian)"
     url: "https://www.bonsecours.com/locations/emergency-rooms/richmond/st-francis-medical-center-emergency-department"
 lastVerified: 2026-06-14

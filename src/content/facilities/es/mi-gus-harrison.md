@@ -33,7 +33,7 @@ sources:
   - name: "MDOC — Gus Harrison Correctional Facility"
     url: "https://www.michigan.gov/corrections/prisons/gus-harrison-correctional-facility"
   - name: "MDOC — Visiting a Prisoner (statewide visiting standards)"
-    url: "https://www.michigan.gov/corrections/families/visiting-a-prisoner"
+    url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "ProMedica Charles and Virginia Hickman Hospital — Adrian"
     url: "https://www.promedica.org/locations-and-doctors/location/hospital/promedica-charles-and-virginia-hickman-hospital"
 lastVerified: 2026-06-14

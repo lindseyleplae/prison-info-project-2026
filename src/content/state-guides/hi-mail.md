@@ -8,7 +8,7 @@ system: "HI DCR"
 description: "How to address personal mail to a Hawaiʻi DCR facility, the envelope rules that get mail rejected, how books must come from a publisher or vendor, and how mail to Saguaro in Arizona differs."
 sources:
   - name: "Hawaiʻi DCR — Mail Policy (COR.15.02, clearinghouse copy)"
-    url: "https://www.law.umich.edu/special/policyclearinghouse/Documents/Hawaiʻi%20Mail%20Pol'y%20(Pol'y%20COR.15.02).pdf"
+    url: "https://www.law.umich.edu/special/policyclearinghouse/Documents/Hawaii%20Mail%20Pol'y%20(Pol'y%20COR.15.02).pdf"
   - name: "Hawaiʻi DCR — Frequently Called Numbers (facility addresses)"
     url: "https://dcr.hawaii.gov/frequently-called-numbers/"
 lastReviewed: 2026-06-16

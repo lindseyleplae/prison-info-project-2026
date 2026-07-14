@@ -9,8 +9,8 @@ description: "How Iowa's off-site Pigeonly mail-scanning system works, the exact
 sources:
   - name: "Iowa DOC — How Do I Write an Offender"
     url: "https://doc.iowa.gov/inmate-family-services/how-do-i-write-offender"
-  - name: "Iowa DOC — New Incarcerated Individual Mail Delivery System notice"
-    url: "https://doc.iowa.gov/media/276/download"
+  - name: "Iowa DOC — Incarcerated Individual Correspondence Policy (OP-MTV-01)"
+    url: "https://doc.iowa.gov/media/1319"
 lastReviewed: 2026-06-17
 ---
 

@@ -33,7 +33,7 @@ sources:
   - name: "MDOC — Macomb Correctional Facility"
     url: "https://www.michigan.gov/corrections/prisons/macomb-correctional-facility"
   - name: "MDOC — Visiting a Prisoner (statewide visiting standards)"
-    url: "https://www.michigan.gov/corrections/families/visiting-a-prisoner"
+    url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "McLaren Macomb — Emergency Department"
     url: "https://www.mclaren.org/main/locations/emergency-department-at-mclaren-macomb-436"
 lastVerified: 2026-06-14

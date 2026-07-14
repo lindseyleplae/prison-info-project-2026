@@ -9,8 +9,8 @@ description: "Cómo funciona la atención médica en las prisiones de Montana �
 sources:
   - name: "Montana DOC"
     url: "https://cor.mt.gov/"
-  - name: "Montana State Prison — Clinical Services (department reference)"
-    url: "https://cor.mt.gov/Facilities/FacilityInfoLinksandDocuments/MSPDept.pdf"
+  - name: "Montana State Prison — Health Services Procedure Index"
+    url: "https://cor.mt.gov/DataStatsContractsPoliciesProcedures/Procedures/MSP_Procedures"
 lastReviewed: 2026-06-16
 lang: es
 sourceReviewed: 2026-06-16

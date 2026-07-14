@@ -34,7 +34,7 @@ sources:
   - name: "MDOC — Ionia Correctional Facility"
     url: "https://www.michigan.gov/corrections/prisons/ionia-correctional-facility"
   - name: "MDOC — Visiting a Prisoner (statewide visiting standards)"
-    url: "https://www.michigan.gov/corrections/families/visiting-a-prisoner"
+    url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "University of Michigan Health–Sparrow Ionia — Emergency"
     url: "https://www.uofmhealthsparrow.org/our-hospitals-services/um-health-sparrow-hospitals/ionia"
 lastVerified: 2026-06-14

@@ -33,7 +33,7 @@ sources:
   - name: "MDOC — Kinross Correctional Facility"
     url: "https://www.michigan.gov/corrections/prisons/kinross-correctional-facility"
   - name: "MDOC — Visiting a Prisoner (statewide visiting standards)"
-    url: "https://www.michigan.gov/corrections/families/visiting-a-prisoner"
+    url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "MyMichigan Medical Center Sault (War Memorial) — Emergency"
     url: "https://www.mymichigan.org/locations/profile/emergency-saultstemarie/"
 lastVerified: 2026-06-14

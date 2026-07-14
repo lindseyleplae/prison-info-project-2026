@@ -33,7 +33,7 @@ sources:
   - name: "MDOC — Oaks Correctional Facility"
     url: "https://www.michigan.gov/corrections/prisons/oaks-correctional-facility"
   - name: "MDOC — Visiting a Prisoner (statewide visiting standards)"
-    url: "https://www.michigan.gov/corrections/families/visiting-a-prisoner"
+    url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "Munson Healthcare Manistee Hospital — Emergency"
     url: "https://www.munsonhealthcare.org/manistee-hospital"
 lastVerified: 2026-06-14

@@ -34,7 +34,7 @@ sources:
   - name: "MDOC — Baraga Correctional Facility"
     url: "https://www.michigan.gov/corrections/prisons/baraga-correctional-facility"
   - name: "MDOC — Visiting a Prisoner (statewide visiting standards)"
-    url: "https://www.michigan.gov/corrections/families/visiting-a-prisoner"
+    url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "Baraga County Memorial Hospital — Contact"
     url: "https://bcmh.org/contact/"
 lastVerified: 2026-06-14

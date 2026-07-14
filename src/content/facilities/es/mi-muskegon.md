@@ -33,7 +33,7 @@ sources:
   - name: "MDOC — Muskegon Correctional Facility"
     url: "https://www.michigan.gov/corrections/prisons/muskegon-correctional-facility"
   - name: "MDOC — Visiting a Prisoner (statewide visiting standards)"
-    url: "https://www.michigan.gov/corrections/families/visiting-a-prisoner"
+    url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "Trinity Health Muskegon — Emergency"
     url: "https://www.trinityhealthmichigan.org/location/trinity-health-muskegon-hospital"
 lastVerified: 2026-06-14

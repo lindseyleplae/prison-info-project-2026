@@ -7,8 +7,10 @@ relatedNationalGuide: know-your-rights
 system: "MT DOC"
 summary: "How to find someone in Montana custody on the ConWeb locator, how reception works at the Martz Diagnostic Intake Unit (men) and Montana Women's Prison (women), and how the state's bed shortage routes people through county jails, assessment centers, and an out-of-state prison."
 sources:
-  - name: "Montana Department of Corrections — Facilities"
-    url: "https://cor.mt.gov/facilities/Facilities"
+  - name: "Montana Department of Corrections — Secure Facilities"
+    url: "https://cor.mt.gov/Facilities/SecureFacilities"
+  - name: "Montana Department of Corrections — Contracted Secure Facilities"
+    url: "https://cor.mt.gov/Facilities/ContractedSecureFacilities"
   - name: "Montana Correctional Offender Network (ConWeb)"
     url: "https://app.mt.gov/conweb/"
 lastReviewed: 2026-06-16

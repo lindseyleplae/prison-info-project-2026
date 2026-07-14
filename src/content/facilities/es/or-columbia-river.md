@@ -35,7 +35,7 @@ sources:
   - name: "TriMet — Route 70 (stop at the facility)"
     url: "https://trimet.org/schedules/r070.htm"
   - name: "Legacy Emanuel Medical Center — Emergency (Portland)"
-    url: "https://www.legacyhealth.org/doctors-and-locations/locations/hospitals/legacy-emanuel-medical-center"
+    url: "https://www.legacyhealth.org/doctors-and-locations/hospitals/legacy-emanuel-medical-center"
 lastVerified: 2026-06-13
 reviewBy: 2026-09-21
 lang: es

@@ -35,7 +35,7 @@ sources:
   - name: "CDOC — Contact an Inmate (mail and photocopy policy)"
     url: "https://cdoc.colorado.gov/resources-faq/contact-an-inmate"
   - name: "CDOC — Visitation Rules and Procedures"
-    url: "https://cdoc.colorado.gov/resources-faq/visitation-rules-and-procedures"
+    url: "https://cdoc.colorado.gov/resources-faq/faq/visit-an-incarcerated-individual/visitation-rules-and-procedures"
   - name: "St. Thomas More Hospital — Emergency Department (Cañon City)"
     url: "https://www.mountain.commonspirit.org/location/st-thomas-more-hospital/emergency-department"
 lastVerified: 2026-06-14

@@ -33,7 +33,7 @@ sources:
   - name: "MDOC — Cooper Street Correctional Facility"
     url: "https://www.michigan.gov/corrections/prisons/cooper-street-correctional-facility"
   - name: "MDOC — Visiting a Prisoner (statewide visiting standards)"
-    url: "https://www.michigan.gov/corrections/families/visiting-a-prisoner"
+    url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "Henry Ford Jackson Hospital — Emergency"
     url: "https://www.henryford.com/locations/jackson-hospital"
 lastVerified: 2026-06-14
