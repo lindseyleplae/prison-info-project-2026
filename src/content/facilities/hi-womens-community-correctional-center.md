@@ -28,6 +28,8 @@ links:
 sources:
   - name: "HI DCR Women's Community Correctional Center"
     url: "https://dcr.hawaii.gov/about/divisions/corrections/about-corrections/wccc/"
+  - name: "HI DCR — WCCC Facility Guidelines and Procedures (visiting schedule by population)"
+    url: "https://dcr.hawaii.gov/wccc-facility-guidelines-and-procedures-7-23/"
 lastVerified: 2026-06-16
 reviewBy: 2026-08-10
 ---
@@ -50,6 +52,8 @@ reviewBy: 2026-08-10
 
 Women's Community Correctional Center (WCCC), on Kalanianaole Highway in Kailua, is **Hawaiʻi's only women's prison.** It functions as the statewide facility for women in the custody of the Department of Corrections and Rehabilitation (DCR). Because Hawaiʻi operates a unified corrections system — the state runs both pretrial detention and prisons for sentenced people, and there is no county jail system — WCCC holds women at minimum, medium, and maximum custody, both pretrial (unsentenced) and sentenced.
 
+WCCC holds two distinct groups, and they visit on separate schedules. The **prison population** is the sentenced women. The **jail population** is the pretrial and short-sentence women DCR relocated here from the Oʻahu Community Correctional Center over November–December 2024, as part of an expansion of the Kailua campus; DCR stated in July 2025 that men are the only occupants of OCCC going forward. Check the visiting schedule above against which group applies.
+
 Despite "Community Correctional Center" in its name — a label Hawaiʻi usually applies to its jails — WCCC is classified as a prison.
 
 ## What Makes Women's Community Correctional Center Different
@@ -63,7 +67,7 @@ Despite "Community Correctional Center" in its name — a label Hawaiʻi usually
 The statewide DCR rules above — the approved visitor list, the dress code, ID, and item limits — apply at Women's Community Correctional Center. The facility's own arrangements:
 
 :::key-info
-**Schedule:** Hawaiʻi sets visiting days and hours per facility — confirm the current schedule with WCCC before traveling
+**Schedule:** WCCC runs two separate schedules. **Jail population** (pretrial and short-sentence): Mondays, Wednesdays, and Fridays, 4:00–8:00 p.m. **Prison population** (sentenced): Tuesdays and Thursdays, 4:00–8:00 p.m., and Saturdays, 3:00–7:00 p.m. Confirm which population applies before traveling
 
 **Visitation line:** (808) 266-9675 — call to confirm days, hours, and whether a visit must be booked in advance
 

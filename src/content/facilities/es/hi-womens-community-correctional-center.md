@@ -28,6 +28,8 @@ links:
 sources:
   - name: "HI DCR Women's Community Correctional Center"
     url: "https://dcr.hawaii.gov/about/divisions/corrections/about-corrections/wccc/"
+  - name: "HI DCR — WCCC Facility Guidelines and Procedures (visiting schedule by population)"
+    url: "https://dcr.hawaii.gov/wccc-facility-guidelines-and-procedures-7-23/"
 lastVerified: 2026-06-16
 reviewBy: 2026-08-10
 lang: es
@@ -52,6 +54,8 @@ sourceReviewed: 2026-06-16
 
 Women's Community Correctional Center (WCCC), en Kalanianaole Highway en Kailua, es **la única prisión de mujeres de Hawái.** Funciona como el centro estatal para mujeres bajo custodia del Departamento de Correcciones y Rehabilitación (DCR). Debido a que Hawái opera un sistema correccional unificado —el estado administra tanto la detención pretrial como las prisiones para personas sentenciadas, y no hay un sistema de cárceles de condado—, WCCC aloja a mujeres en custodia mínima, media y máxima, tanto en espera de juicio (no sentenciadas) como sentenciadas.
 
+WCCC aloja a dos grupos distintos, y visitan en horarios separados. La **población de prisión** son las mujeres sentenciadas. La **población de cárcel** son las mujeres en espera de juicio y con condenas cortas que DCR trasladó aquí desde el Oʻahu Community Correctional Center entre noviembre y diciembre de 2024, como parte de una ampliación del campus de Kailua; en julio de 2025 DCR indicó que los hombres son los únicos ocupantes de OCCC en adelante. Verifique el horario de visitas de arriba según el grupo que corresponda.
+
 A pesar de tener "Community Correctional Center" en su nombre —una etiqueta que Hawái generalmente aplica a sus cárceles—, WCCC está clasificado como una prisión.
 
 ## Qué hace diferente a Women's Community Correctional Center
@@ -65,7 +69,7 @@ A pesar de tener "Community Correctional Center" en su nombre —una etiqueta qu
 Las reglas estatales del DCR mencionadas arriba —la lista de visitantes aprobados, el código de vestimenta, la identificación y los límites de artículos— se aplican en Women's Community Correctional Center. Los arreglos propios del centro:
 
 :::key-info
-**Horario:** Hawái establece los días y horarios de visita por centro — confirme el horario actual con WCCC antes de viajar
+**Horario:** WCCC tiene dos horarios separados. **Población de cárcel** (en espera de juicio y condenas cortas): lunes, miércoles y viernes, de 4:00 a 8:00 p.m. **Población de prisión** (sentenciadas): martes y jueves, de 4:00 a 8:00 p.m., y sábados, de 3:00 a 7:00 p.m. Confirme cuál población aplica antes de viajar
 
 **Línea de visitas:** (808) 266-9675 — llame para confirmar los días, el horario y si la visita debe reservarse con anticipación
 

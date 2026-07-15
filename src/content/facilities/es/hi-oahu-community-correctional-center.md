@@ -28,6 +28,8 @@ links:
 sources:
   - name: "HI DCR Oʻahu Community Correctional Center"
     url: "https://dcr.hawaii.gov/about/divisions/corrections/occc/"
+  - name: "HI DCR / New Oʻahu Jail Project Newsletter Vol. 59 — Who is Actually Housed at OCCC (July 2025)"
+    url: "https://newoahujail.hawaii.gov/wp-content/uploads/2025/07/Hawaii-OCCC-Newsletter-Vol-59-July-2025.pdf"
 lastVerified: 2026-06-16
 reviewBy: 2026-08-09
 lang: es
@@ -35,7 +37,7 @@ sourceReviewed: 2026-06-16
 ---
 
 :::callout{variant="warning"}
-Oʻahu Community Correctional Center es principalmente una cárcel. La mayoría de las personas alojadas aquí están en espera de juicio o sentencia, por lo que el estado de custodia y la ubicación de una persona pueden cambiar rápidamente, y alguien puede ser trasladado a otro centro después de la sentencia o clasificación. Confirme la ubicación actual de la persona en [VINELink](https://www.vinelink.com/) antes de viajar o enviar algo.
+Oʻahu Community Correctional Center es principalmente una cárcel. La mayoría de las personas alojadas aquí están en espera de juicio o sentencia, por lo que el estado de custodia y la ubicación de una persona pueden cambiar rápidamente, y alguien puede ser trasladado a otro centro después de la sentencia o clasificación. OCCC además aloja solo a hombres: DCR trasladó a todas las mujeres que antes estaban aquí al **Women's Community Correctional Center** en Kailua entre noviembre y diciembre de 2024, así que una mujer que antes estuvo en OCCC ahora está en WCCC. Confirme la ubicación actual de la persona en [VINELink](https://www.vinelink.com/) antes de viajar o enviar algo.
 :::
 
 :::key-info
