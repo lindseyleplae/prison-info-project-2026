@@ -18,6 +18,7 @@ type RelatedGuide = { title: string; href: string };
 
 const {
   title,
+  seoTitle,
   description,
   headings = [],
   stateLabel,
@@ -28,6 +29,8 @@ const {
   hasSpanish = false
 } = Astro.props as {
   title: string;
+  /** Keyword-richer <title> for search results; the visible h1 keeps `title`. */
+  seoTitle?: string;
   description?: string;
   headings?: Heading[];
   stateLabel?: string;
@@ -56,6 +59,7 @@ const breadcrumbItems = [
 
 <BaseLayout
   title={title}
+  seoTitle={seoTitle}
   description={description}
   lang={lang}
   hasSpanish={hasSpanish}

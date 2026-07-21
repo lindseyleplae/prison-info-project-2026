@@ -42,10 +42,28 @@ export async function getStaticPaths() {
 
 const { entry, stateTitle, relatedNationalGuide } = Astro.props;
 const { Content, headings } = await render(entry);
+
+// Spanish search titles mirror the English ones: lead with the topic wording
+// families search for, plus the state. Terminology follows the ES content
+// ("recluso"), and the visible h1 keeps the shorter editorial title.
+const guideSeoTitles: Record<string, (state: string, system: string) => string> = {
+  visiting: (state, system) => `Visitas en prisiones de ${state} — reglas y horarios (${system})`,
+  mail: (state, system) => `Correo y paquetes a prisiones de ${state} (${system})`,
+  'phone-video': (state, system) => `Llamadas y videollamadas en prisiones de ${state} (${system})`,
+  money: (state, system) => `Cómo enviar dinero a un recluso en ${state} (${system})`,
+  medical: (state, system) => `Atención médica y salud mental en prisiones de ${state} (${system})`,
+  transfers: (state, system) => `Buscar a una persona y traslados en ${state} (${system})`
+};
+const guideTopic = entry.data.topic ?? entry.data.slug;
+const guideSystem = entry.data.system;
+const seoTitle = guideSystem && guideSeoTitles[guideTopic]
+  ? guideSeoTitles[guideTopic](stateTitle, guideSystem)
+  : undefined;
 ---
 
 <GuideLayout
   title={entry.data.title}
+  seoTitle={seoTitle}
   description={entry.data.description ?? entry.data.summary}
   headings={headings}
   stateLabel={stateTitle}

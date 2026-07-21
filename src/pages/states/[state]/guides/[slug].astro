@@ -45,10 +45,29 @@ export async function getStaticPaths() {
 
 const { entry, stateTitle, relatedNationalGuide, hasSpanish } = Astro.props;
 const { Content, headings } = await render(entry);
+
+// Search titles lead with the state and the phrasing families actually type
+// ("arizona prison visiting rules", "sending money to an inmate in ohio").
+// The visible h1 keeps the shorter editorial title. Any guide missing a topic
+// mapping or a system code falls back to that title.
+const guideSeoTitles: Record<string, (state: string, system: string) => string> = {
+  visiting: (state, system) => `${state} Prison Visiting Rules & Hours (${system})`,
+  mail: (state, system) => `${state} Prison Mail Rules & Mailing Address (${system})`,
+  'phone-video': (state, system) => `${state} Prison Phone Calls & Video Visits (${system})`,
+  money: (state, system) => `Sending Money to an Inmate in ${state} (${system})`,
+  medical: (state, system) => `${state} Prison Medical & Mental Health Care (${system})`,
+  transfers: (state, system) => `${state} Inmate Search & Prison Transfers (${system})`
+};
+const guideTopic = entry.data.topic ?? entry.data.slug;
+const guideSystem = entry.data.system;
+const seoTitle = guideSystem && guideSeoTitles[guideTopic]
+  ? guideSeoTitles[guideTopic](stateTitle, guideSystem)
+  : undefined;
 ---
 
 <GuideLayout
   title={entry.data.title}
+  seoTitle={seoTitle}
   description={entry.data.description ?? entry.data.summary}
   headings={headings}
   stateLabel={stateTitle}
