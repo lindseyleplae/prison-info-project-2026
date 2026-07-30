@@ -19,8 +19,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "sábado, domingo y días feriados estatales (confirme con la institución)"
-  hours: "Confirme el horario de visitas vigente con la institución"
+  days: "sábado, domingo y días feriados estatales"
+  hours: "Sáb-dom y feriados estatales, 9:00 AM - 3:00 PM"
   scheduling: "Por cita a través del portal de visitas en línea de GDC; el visitante debe estar aprobado primero en la lista de la persona."
   contactVisits: true
 links:
@@ -48,7 +48,7 @@ sourceReviewed: 2026-06-15
 
 **Datos destacados:** Una prisión de seguridad media para hombres con programas académicos, vocacionales y de consejería; la institución opera un departamento de bomberos y una planta de producción de huevos
 
-**Visitas:** Sábado, domingo y días feriados por cita — confirme el horario vigente con la institución
+**Visitas:** Sábado, domingo y días feriados por cita, de 9:00 a. m. a 3:00 p. m.
 :::
 
 ## Descripción general
@@ -67,7 +67,7 @@ Montgomery State Prison, en Mt. Vernon/Alston Road en Mount Vernon, condado de M
 Las reglas estatales de GDC mencionadas arriba — la lista de visitantes aprobados, el código de vestimenta, la identificación y los límites de artículos — se aplican en Montgomery State Prison. Los arreglos propios de la institución:
 
 :::key-info
-**Días y horario:** Sábado, domingo y días feriados estatales — confirme el horario vigente con la institución
+**Días y horario:** Sábado, domingo y días feriados estatales, de 9:00 a. m. a 3:00 p. m.
 
 **Programación:** Por cita a través del portal de visitas en línea de GDC; el visitante debe estar aprobado primero en la lista de la persona
 

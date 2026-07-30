@@ -19,8 +19,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "sábado, domingo y días feriados estatales (confirme con la institución)"
-  hours: "Confirme el horario de visitas vigente con la institución"
+  days: "sábado, domingo y días feriados estatales"
+  hours: "Sáb-dom y feriados estatales, 9:00 AM - 3:00 PM"
   scheduling: "Por cita a través del portal de visitas en línea de GDC; el visitante debe estar aprobado primero en la lista de la persona."
   contactVisits: true
 links:
@@ -48,7 +48,7 @@ sourceReviewed: 2026-06-15
 
 **Datos destacados:** Cuenta con camas de observación de salud mental dentro de su sección médica; funciona como institución anfitriona de los Centros de Transición de Columbus y de Charles D. Hudson
 
-**Visitas:** Sábado, domingo y días feriados por cita — confirme el horario vigente con la institución
+**Visitas:** Sábado, domingo y días feriados por cita, de 9:00 a. m. a 3:00 p. m.
 :::
 
 ## Descripción general

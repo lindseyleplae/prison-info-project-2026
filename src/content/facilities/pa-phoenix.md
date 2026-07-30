@@ -32,7 +32,7 @@ sources:
   - name: "PADOC — SCI Phoenix"
     url: "https://www.pa.gov/agencies/cor/state-prisons/sci-phoenix"
   - name: "PADOC — Visitor Guide (PDF)"
-    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/Visitor-Guide.pdf"
+    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/visitor-guide.pdf"
   - name: "Tribune-Democrat — Some PA death-row inmates now housed at SCI Somerset (Jan 2024)"
     url: "https://www.tribdem.com/news/doc-some-pa-death-row-inmates-now-housed-at-sci-somerset/article_45098f48-d73f-11ee-ab3f-83550be27726.html"
   - name: "Phoenixville Hospital (Tower Health) — Emergency Department"

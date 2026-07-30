@@ -19,8 +19,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "sábado, domingo y días feriados estatales (confirme con la institución)"
-  hours: "Confirme el horario de visitas vigente de la institución"
+  days: "sábado, domingo y días feriados estatales"
+  hours: "Sáb-dom y feriados estatales, 9:00 AM - 3:00 PM"
   scheduling: "Con cita a través del portal de visitas en línea de GDC; el visitante debe estar aprobado previamente en la lista de la persona."
   contactVisits: true
 links:
@@ -48,7 +48,7 @@ sourceReviewed: 2026-06-15
 
 **Datos destacados:** Abrió en 1994; aloja a hombres adultos en nueve unidades de alojamiento y ocho dormitorios abiertos, con un equipo C.E.R.T. y una estación de bomberos en el lugar
 
-**Visitas:** Sábado, domingo y feriados, con cita — confirme el horario vigente con la institución
+**Visitas:** Sábado, domingo y feriados, con cita, de 9:00 a. m. a 3:00 p. m.
 :::
 
 ## Descripción general
@@ -67,7 +67,7 @@ Calhoun State Prison, en Main Street en Morgan, en el condado de Calhoun, es una
 Las reglas estatales de GDC mencionadas arriba —la lista de visitantes aprobados, el código de vestimenta, la identificación y los límites de objetos— se aplican en Calhoun State Prison. Las disposiciones propias de la institución:
 
 :::key-info
-**Días y horarios:** Sábado, domingo y días feriados estatales — confirme el horario vigente con la institución
+**Días y horarios:** Sábado, domingo y días feriados estatales, de 9:00 a. m. a 3:00 p. m.
 
 **Programación:** Con cita a través del portal de visitas en línea de GDC; el visitante debe estar aprobado previamente en la lista de la persona, y las solicitudes para una semana determinada se aceptan de lunes a miércoles
 :::

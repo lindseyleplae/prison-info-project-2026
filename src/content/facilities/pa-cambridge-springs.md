@@ -32,7 +32,7 @@ sources:
   - name: "PADOC — SCI Cambridge Springs"
     url: "https://www.pa.gov/agencies/cor/state-prisons/sci-cambridge-springs"
   - name: "PADOC — Visitor Guide (PDF)"
-    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/Visitor-Guide.pdf"
+    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/visitor-guide.pdf"
   - name: "Meadville Medical Center — Emergency Department"
     url: "https://www.mmchs.org/services/emergency-department/"
 lastVerified: 2026-06-14

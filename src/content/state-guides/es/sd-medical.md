@@ -8,7 +8,7 @@ system: "SD DOC"
 description: "Cómo funciona la atención médica en las prisiones de Dakota del Sur — SD DOC Health Services dentro del sistema, atención especializada y de telemedicina a través de Avera, atención de salud mental y el proceso de quejas."
 sources:
   - name: "SD DOC — Health Services (Medical Services)"
-    url: "https://www.doc.sd.gov/adult-corrections/health-services"
+    url: "https://www.doc.sd.gov/adult-corrections/clinical-services"
   - name: "South Dakota Department of Corrections"
     url: "https://doc.sd.gov/"
 lastReviewed: 2026-06-16

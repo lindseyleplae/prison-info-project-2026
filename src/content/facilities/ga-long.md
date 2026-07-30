@@ -20,8 +20,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "Saturday, Sunday, and state holidays (confirm with the facility)"
-  hours: "Confirm the facility's current visiting hours"
+  days: "Saturday, Sunday, and state holidays"
+  hours: "Sat-Sun and state holidays, 9:00 AM - 3:00 PM"
   scheduling: "By appointment through GDC's online visitation portal; the visitor must first be approved on the person's list."
   contactVisits: true
 links:
@@ -66,7 +66,7 @@ Long Unit, on US Highway 84 east of Ludowici in Long County, is a **medium-secur
 The statewide GDC rules above — the approved visitor list, the dress code, ID, and item limits — apply at Long Unit. The facility's own arrangements:
 
 :::key-info
-**Days and hours:** Saturday, Sunday, and state holidays — confirm the current hours with the facility
+**Days and hours:** Saturday, Sunday, and state holidays, 9:00 a.m. - 3:00 p.m.
 
 **Scheduling:** By appointment through GDC's online visitation portal; the visitor must first be approved on the person's list, and requests for a given week are accepted Monday through Wednesday
 :::

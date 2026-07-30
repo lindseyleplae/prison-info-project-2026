@@ -32,7 +32,7 @@ sources:
   - name: "PADOC — SCI Pine Grove"
     url: "https://www.pa.gov/agencies/cor/state-prisons/sci-pine-grove"
   - name: "PADOC — Visitor Guide (PDF)"
-    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/Visitor-Guide.pdf"
+    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/visitor-guide.pdf"
   - name: "Indiana Regional Medical Center — Emergency Department"
     url: "https://www.irmc.org/services/emergency-department/"
 lastVerified: 2026-06-14

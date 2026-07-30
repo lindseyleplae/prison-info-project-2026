@@ -20,7 +20,7 @@ providers:
   phone: "Securus"
 visiting:
   days: "Sábado, domingo y feriados estatales (confirme con la institución)"
-  hours: "Confirme el horario de visitas vigente con la institución"
+  hours: "Sáb-dom y feriados estatales, 9:00 AM - 3:00 PM"
   scheduling: "Con cita previa a través del portal de visitas en línea de GDC; el visitante debe estar aprobado primero en la lista de la persona. Al ser una prisión de mayor seguridad, las visitas pueden estar más restringidas — confirme las reglas vigentes de la institución."
   contactVisits: true
 links:
@@ -67,7 +67,7 @@ Hays State Prison, en Underwood Drive en Trion, condado de Chattooga, es una **p
 Las reglas estatales de GDC mencionadas arriba —la lista de visitantes aprobados, el código de vestimenta, la identificación y los límites de objetos— se aplican en Hays State Prison. Los arreglos propios de la institución:
 
 :::key-info
-**Días y horarios:** Sábado, domingo y feriados estatales — confirme el horario vigente con la institución
+**Días y horarios:** Sábado, domingo y feriados estatales, de 9:00 a. m. a 3:00 p. m.
 
 **Prisión de mayor seguridad:** Como institución de seguridad cerrada, las visitas pueden estar más restringidas; confirme las reglas vigentes de la institución y la elegibilidad de la persona
 

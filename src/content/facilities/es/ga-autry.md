@@ -19,8 +19,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "sábado, domingo y días feriados estatales (confirme con la institución)"
-  hours: "Confirme el horario de visitas vigente de la institución"
+  days: "sábado, domingo y días feriados estatales"
+  hours: "Sáb-dom y feriados estatales, 9:00 AM - 3:00 PM"
   scheduling: "Con cita a través del portal de visitas en línea de GDC; el visitante debe estar aprobado previamente en la lista de la persona."
   contactVisits: true
 links:
@@ -66,7 +66,7 @@ Autry State Prison, en Mount Zion Church Road en Pelham, en el condado de Mitche
 Las reglas estatales de GDC mencionadas arriba —la lista de visitantes aprobados, el código de vestimenta, la identificación y los límites de objetos— se aplican en Autry State Prison. Las disposiciones propias de la institución:
 
 :::key-info
-**Días y horarios:** Sábado, domingo y días feriados estatales — confirme el horario vigente con la institución
+**Días y horarios:** Sábado, domingo y días feriados estatales, de 9:00 a. m. a 3:00 p. m.
 
 **Programación:** Con cita a través del portal de visitas en línea de GDC; el visitante debe estar aprobado previamente en la lista de la persona, y las solicitudes para una semana determinada se aceptan de lunes a miércoles
 :::

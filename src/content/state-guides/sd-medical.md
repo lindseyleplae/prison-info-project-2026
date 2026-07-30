@@ -8,7 +8,7 @@ system: "SD DOC"
 description: "How health care works in South Dakota prisons — in-house SD DOC Health Services, specialty and telemedicine care through Avera, mental-health care, and the grievance process."
 sources:
   - name: "SD DOC — Health Services (Medical Services)"
-    url: "https://www.doc.sd.gov/adult-corrections/health-services"
+    url: "https://www.doc.sd.gov/adult-corrections/clinical-services"
   - name: "South Dakota Department of Corrections"
     url: "https://doc.sd.gov/"
 lastReviewed: 2026-06-16

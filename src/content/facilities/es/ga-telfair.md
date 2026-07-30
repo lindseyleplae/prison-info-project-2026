@@ -20,7 +20,7 @@ providers:
   phone: "Securus"
 visiting:
   days: "Sábado, domingo y días feriados estatales (confirme con la institución)"
-  hours: "Confirme con la institución los horarios de visita vigentes"
+  hours: "Sáb-dom y feriados estatales, 9:00 AM - 3:00 PM"
   scheduling: "Con cita previa a través del portal de visitas en línea de GDC; el visitante debe estar aprobado primero en la lista de la persona. Al ser una prisión de mayor seguridad, las visitas pueden estar más restringidas — confirme las reglas vigentes con la institución."
   contactVisits: true
 links:

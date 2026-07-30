@@ -10,7 +10,7 @@ sources:
   - name: "Massachusetts DOC"
     url: "https://www.mass.gov/orgs/massachusetts-department-of-correction"
   - name: "Massachusetts DOC — Visiting an Incarcerated Individual"
-    url: "https://www.mass.gov/how-to/visit-an-inmate-in-massachusetts"
+    url: "https://www.mass.gov/guides/visiting-someone-in-a-massachusetts-prison"
 lastReviewed: 2026-06-14
 lang: es
 sourceReviewed: 2026-06-14

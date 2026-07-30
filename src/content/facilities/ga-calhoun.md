@@ -19,8 +19,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "Saturday, Sunday, and state holidays (confirm with the facility)"
-  hours: "Confirm the facility's current visiting hours"
+  days: "Saturday, Sunday, and state holidays"
+  hours: "Sat-Sun and state holidays, 9:00 AM - 3:00 PM"
   scheduling: "By appointment through GDC's online visitation portal; the visitor must first be approved on the person's list."
   contactVisits: true
 links:
@@ -46,7 +46,7 @@ reviewBy: 2026-08-05
 
 **Notable:** Opened in 1994; houses adult men across nine housing units and eight open dormitories, with a C.E.R.T. team and an on-site fire station
 
-**Visitation:** Saturday, Sunday, and holidays by appointment — confirm the current hours with the facility
+**Visitation:** Saturday, Sunday, and holidays by appointment, 9:00 a.m. - 3:00 p.m.
 :::
 
 ## Overview
@@ -65,7 +65,7 @@ Calhoun State Prison, on Main Street in Morgan in Calhoun County, is a **medium-
 The statewide GDC rules above — the approved visitor list, the dress code, ID, and item limits — apply at Calhoun State Prison. The facility's own arrangements:
 
 :::key-info
-**Days and hours:** Saturday, Sunday, and state holidays — confirm the current hours with the facility
+**Days and hours:** Saturday, Sunday, and state holidays, 9:00 a.m. - 3:00 p.m.
 
 **Scheduling:** By appointment through GDC's online visitation portal; the visitor must first be approved on the person's list, and requests for a given week are accepted Monday through Wednesday
 :::

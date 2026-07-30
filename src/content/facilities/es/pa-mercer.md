@@ -32,7 +32,7 @@ sources:
   - name: "PADOC — SCI Mercer"
     url: "https://www.pa.gov/agencies/cor/state-prisons/sci-mercer"
   - name: "PADOC — Visitor Guide (PDF)"
-    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/Visitor-Guide.pdf"
+    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/visitor-guide.pdf"
 lastVerified: 2026-06-15
 reviewBy: 2026-09-24
 lang: es

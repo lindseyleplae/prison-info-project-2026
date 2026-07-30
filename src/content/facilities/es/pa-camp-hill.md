@@ -32,7 +32,7 @@ sources:
   - name: "PADOC — SCI Camp Hill"
     url: "https://www.pa.gov/agencies/cor/state-prisons/sci-camp-hill"
   - name: "PADOC — Visitor Guide (PDF)"
-    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/Visitor-Guide.pdf"
+    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/visitor-guide.pdf"
   - name: "Penn State Health Holy Spirit Medical Center — Emergency (Camp Hill)"
     url: "https://www.pennstatehealth.org/locations/penn-state-health-holy-spirit-medical-center-emergency"
 lastVerified: 2026-06-14

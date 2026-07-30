@@ -10,7 +10,7 @@ sources:
   - name: "PADOC — Inmate Visitation"
     url: "https://www.pa.gov/agencies/cor/find-or-contact-inmate/inmate-visitation"
   - name: "PADOC — Visitor Guide (PDF)"
-    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/Visitor-Guide.pdf"
+    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/visitor-guide.pdf"
   - name: "PADOC — DC-ADM 812, Inmate Visiting Privileges"
     url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/about-us/doc-policies/812-inmate-visiting-privileges.pdf"
 lastReviewed: 2026-06-14

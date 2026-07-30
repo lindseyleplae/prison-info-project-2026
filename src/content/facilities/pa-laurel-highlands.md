@@ -32,7 +32,7 @@ sources:
   - name: "PADOC — SCI Laurel Highlands"
     url: "https://www.pa.gov/agencies/cor/state-prisons/sci-laurel-highlands"
   - name: "PADOC — Visitor Guide (PDF)"
-    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/Visitor-Guide.pdf"
+    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/visitor-guide.pdf"
   - name: "UPMC Somerset — Emergency Medicine (Somerset)"
     url: "https://www.upmc.com/services/emergency-medicine/locations/west-central-pa/somerset"
 lastVerified: 2026-06-14

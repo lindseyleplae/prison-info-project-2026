@@ -21,7 +21,7 @@ providers:
   phone: "Securus"
 visiting:
   days: "Sábado, domingo y feriados estatales (confirme con la institución)"
-  hours: "Confirme el horario de visitas vigente con la institución"
+  hours: "Sáb-dom y feriados estatales, 9:00 AM - 3:00 PM"
   scheduling: "Con cita previa a través del portal de visitas en línea de GDC; el visitante debe estar aprobado primero en la lista de la persona."
   contactVisits: true
 links:
@@ -49,7 +49,7 @@ sourceReviewed: 2026-06-15
 
 **Datos destacados:** Administra programas académicos, vocacionales y de capacitación en el trabajo; alberga una estación de bomberos
 
-**Visitas:** Sábado, domingo y feriados estatales con cita previa — confirme el horario vigente con la institución
+**Visitas:** Sábado, domingo y feriados estatales con cita previa, de 9:00 a. m. a 3:00 p. m.
 :::
 
 ## Descripción general
@@ -68,7 +68,7 @@ Long Unit, en la US Highway 84 al este de Ludowici, condado de Long, es una **pr
 Las reglas estatales de GDC mencionadas arriba —la lista de visitantes aprobados, el código de vestimenta, la identificación y los límites de objetos— se aplican en Long Unit. Los arreglos propios de la institución:
 
 :::key-info
-**Días y horarios:** Sábado, domingo y feriados estatales — confirme el horario vigente con la institución
+**Días y horarios:** Sábado, domingo y feriados estatales, de 9:00 a. m. a 3:00 p. m.
 
 **Programación:** Con cita previa a través del portal de visitas en línea de GDC; el visitante debe estar aprobado primero en la lista de la persona, y las solicitudes para una semana determinada se aceptan de lunes a miércoles
 :::

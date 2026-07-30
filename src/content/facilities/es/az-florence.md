@@ -26,11 +26,13 @@ visiting:
   contactVisits: true
   videoVisits: true
 links:
-  official: "https://corrections.az.gov/florence"
+  official: "https://corrections.az.gov/adcrr-prisons"
   inmateLocator: "https://corrections.az.gov/inmate-data-search"
 sources:
-  - name: "ADCRR — ASPC-Florence"
-    url: "https://corrections.az.gov/florence"
+  - name: "ADCRR — Prisiones (lista de complejos)"
+    url: "https://corrections.az.gov/adcrr-prisons"
+  - name: "ADCRR — Death Row Information"
+    url: "https://corrections.az.gov/death-row/death-row-information"
   - name: "ADCRR — Visitation"
     url: "https://corrections.az.gov/visitation"
 lastVerified: 2026-06-14

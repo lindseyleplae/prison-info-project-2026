@@ -10,7 +10,7 @@ sources:
   - name: "SCDC — Family (Visiting, Mail & Communication)"
     url: "https://www.doc.sc.gov/family"
   - name: "ViaPath Technologies — Payments"
-    url: "https://www.viapath.com/payments-2-2/"
+    url: "https://web.connectnetwork.com/payment-options/"
 lastReviewed: 2026-06-14
 ---
 

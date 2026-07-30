@@ -32,7 +32,7 @@ sources:
   - name: "PADOC — SCI Muncy"
     url: "https://www.pa.gov/agencies/cor/state-prisons/sci-muncy"
   - name: "PADOC — Visitor Guide (PDF)"
-    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/Visitor-Guide.pdf"
+    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/visitor-guide.pdf"
   - name: "UPMC Muncy — Emergency Medicine"
     url: "https://www.upmc.com/services/emergency-medicine/locations/north-central-pa/muncy"
 lastVerified: 2026-06-14

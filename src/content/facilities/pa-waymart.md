@@ -32,7 +32,7 @@ sources:
   - name: "PADOC — SCI Waymart"
     url: "https://www.pa.gov/agencies/cor/state-prisons/sci-waymart"
   - name: "PADOC — Visitor Guide (PDF)"
-    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/Visitor-Guide.pdf"
+    url: "https://www.pa.gov/content/dam/copapwp-pagov/en/cor/documents/services/visitor-guide.pdf"
   - name: "Wayne Memorial Hospital — Emergency Department (Honesdale)"
     url: "https://www.wmh.org/wayne-memorial-hospital/emergency-department/"
 lastVerified: 2026-06-14
