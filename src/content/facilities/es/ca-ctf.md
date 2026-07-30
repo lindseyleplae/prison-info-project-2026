@@ -17,7 +17,7 @@ facilityType: "Prisión estatal"
 contact:
   mainPhone: "(831) 678-3951"
   visitingOffice: "(831) 678-3951 ext. 5071"
-  mailingAddress: "Inmate mail by facility: A & B — P.O. Box 705; C — P.O. Box 689, Soledad, CA 93960"
+  mailingAddress: "Correo por centro: A y B — P.O. Box 705; C — P.O. Box 689; D — P.O. Box 690, Soledad, CA 93960"
 providers:
   phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
@@ -59,11 +59,11 @@ sourceReviewed: 2026-06-12
 
 El Correctional Training Facility comenzó en 1947 como un campamento agrícola de San Quentin y creció hasta convertirse en el complejo de tres centros que, en 1968, cambió el nombre "Soledad State Prison" por uno que reflejaba su misión educativa y vocacional. El antiguo nombre nunca salió del uso cotidiano — pero la institución de hoy es una prisión de población general de Nivel I-II y la segunda más grande de CDCR por población, con alrededor de 4,270 hombres a aproximadamente 152 por ciento de la capacidad de diseño.
 
-Dos de sus tres centros (A y B) funcionan como unidades de programación no designadas; la Facility C — que CDCR aún llama "Central" en sus avisos de visita — aloja población general de Nivel II más la unidad de segregación administrativa. La Facility D cerró en 2021. El catálogo de programación coincide con el nombre: industrias penitenciarias desde muebles hasta textiles, oficios vocacionales desde mecánica automotriz hasta soldadura, estudios académicos hasta el nivel universitario, y una larga lista de autoayuda que incluye Friends Outside y un Family Liaison Service Specialist en el sitio para ayudar con la reunificación.
+Dos de sus tres centros (A y B) funcionan como unidades de programación no designadas; la Facility C — que CDCR aún llama "Central" en sus avisos de visita — aloja población general de Nivel II más la unidad de segregación administrativa. Se informó que la Facility D cerró en 2021, pero el CDCR todavía publica una dirección postal para la Facility D, así que consulte el localizador para saber en qué centro está la persona en lugar de suponerlo. El catálogo de programación coincide con el nombre: industrias penitenciarias desde muebles hasta textiles, oficios vocacionales desde mecánica automotriz hasta soldadura, estudios académicos hasta el nivel universitario, y una larga lista de autoayuda que incluye Friends Outside y un Family Liaison Service Specialist en el sitio para ayudar con la reunificación.
 
 ## Qué distingue al Correctional Training Facility
 
-- **El correo se clasifica por centro:** A y B usan P.O. Box 705, la Facility C usa P.O. Box 689 — el apartado equivocado retrasa el correo, así que confirme primero el centro de la persona. Y la prisión equivocada es un riesgo real aquí: los apartados de Salinas Valley son completamente distintos.
+- **El correo se clasifica por centro:** A y B usan P.O. Box 705, la Facility C usa P.O. Box 689 y el CDCR también indica la Facility D en el P.O. Box 690 — el apartado equivocado retrasa el correo, así que confirme primero el centro de la persona. Y la prisión equivocada es un riesgo real aquí: los apartados de Salinas Valley son completamente distintos.
 - **La programación es estricta y rota:** la VSA es el único canal — la regla publicada indica que las solicitudes por correo electrónico no se revisan — la ventana va de 8 días a 5 días antes de cada día de visita, y CTF publica qué centros se están programando cada semana.
 - **El transporte forma parte de la visita:** a los visitantes de la Facility A/B se los recoge en la zona cubierta junto al estacionamiento de visitantes, y el autobús conducido por un oficial pasa cada 30 minutos, a las :15 y :45 de cada hora. Los visitantes de la Facility C pueden esperar allí o caminar hasta la entrada Central.
 - **La regla del certificado de nacimiento no tiene excepciones:** una copia certificada por cada menor en cada visita, incluso los niños que ya han visitado antes — a los visitantes que no la tengan no se les admite.

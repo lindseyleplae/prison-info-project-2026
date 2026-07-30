@@ -17,7 +17,7 @@ facilityType: "State Prison"
 contact:
   mainPhone: "(831) 678-3951"
   visitingOffice: "(831) 678-3951 ext. 5071"
-  mailingAddress: "Inmate mail by facility: A & B — P.O. Box 705; C — P.O. Box 689, Soledad, CA 93960"
+  mailingAddress: "Inmate mail by facility: A & B — P.O. Box 705; C — P.O. Box 689; D — P.O. Box 690, Soledad, CA 93960"
 providers:
   phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
@@ -57,11 +57,11 @@ reviewBy: 2026-07-22
 
 The Correctional Training Facility began in 1947 as a San Quentin farming camp and grew into the three-facility complex that, in 1968, traded the name "Soledad State Prison" for one reflecting its education and vocational mission. The old name never left everyday use — but the institution today is a Level I-II general-population prison and CDCR's second largest by population, with about 4,270 men at roughly 152 percent of design capacity.
 
-Two of its three facilities (A and B) run as non-designated programming units; Facility C — which CDCR still calls "Central" in its visiting notices — holds Level II general population plus the administrative segregation unit. Facility D closed in 2021. The programming catalog matches the name: prison industries from furniture to textiles, vocational trades from auto mechanics to welding, academics through college, and a long self-help list including Friends Outside and an on-site Family Liaison Service Specialist for reunification help.
+Two of its three facilities (A and B) run as non-designated programming units; Facility C — which CDCR still calls "Central" in its visiting notices — holds Level II general population plus the administrative segregation unit. Facility D was reported closed in 2021, but CDCR still publishes a Facility D inmate mailing address, so check the locator for the person's current facility rather than assuming. The programming catalog matches the name: prison industries from furniture to textiles, vocational trades from auto mechanics to welding, academics through college, and a long self-help list including Friends Outside and an on-site Family Liaison Service Specialist for reunification help.
 
 ## What Makes the Correctional Training Facility Different
 
-- **Mail sorts by facility:** A and B use P.O. Box 705, Facility C uses P.O. Box 689 — the wrong box slows mail, so confirm the person's facility first. And the wrong *prison* is a real risk here: Salinas Valley's boxes are entirely different.
+- **Mail sorts by facility:** A and B use P.O. Box 705, Facility C uses P.O. Box 689, and CDCR also lists Facility D at P.O. Box 690 — the wrong box slows mail, so confirm the person's facility first. And the wrong *prison* is a real risk here: Salinas Valley's boxes are entirely different.
 - **Scheduling is strict and rotates:** VSA is the only channel — the posted rule says email requests are not reviewed — the window runs from 8 days to 5 days before each visit day, and CTF posts which facilities are being scheduled each week.
 - **A shuttle is part of the visit:** Facility A/B visitors are picked up at the covered area by the visitor lot, with the officer-driven bus cycling every 30 minutes at :15 and :45 past the hour. Facility C visitors can wait there or walk to the Central entrance.
 - **The birth-certificate rule has no exceptions:** a certified copy for every minor at every visit, even children who have visited before — visitors without one are not admitted.
