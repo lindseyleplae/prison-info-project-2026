@@ -54,12 +54,24 @@ const facilitySources = [
   ...(facility.data.sources ?? []),
   links.inmateLocator ? { name: locatorLabel, url: links.inmateLocator } : null
 ].filter((entry): entry is { name: string; url: string } => Boolean(entry));
+
+// Search-result meta description. The `summary` describes what the prison IS,
+// which reads well on the page but buries the words families search for. Lead
+// the <meta description> with the practical intent — visiting hours, rules,
+// mailing address, phone — plus the unique facility name, system, and location,
+// so the Google snippet answers the query. The visible on-page summary
+// (rendered below) is unchanged.
+const metaLoc = facility.data.city ? `${facility.data.city}, ${stateTitle}` : stateTitle;
+const metaDescription =
+  lang === 'es'
+    ? `Visitas en ${facility.data.title}: horarios, reglas para visitantes, dirección postal y teléfono del centro ${facility.data.system} en ${metaLoc}.`
+    : `Visiting ${facility.data.title}: hours, approved-visitor rules, mailing address, and phone for the ${facility.data.system} facility in ${metaLoc}.`;
 ---
 
 <BaseLayout
   title={facility.data.title}
   seoTitle={lang === 'es' ? `${facility.data.title} — Visitas, correo y teléfono` : `${facility.data.title} Visiting Hours, Mail & Phone`}
-  description={facility.data.summary ?? facility.data.address}
+  description={metaDescription}
   lang={lang}
   hasSpanish={hasSpanish}
   structuredData={[
