@@ -29,8 +29,20 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Check page freshness
+      # Freshness is REPORTED but does not fail the job. Some pages can never
+      # auto-clear (states with no per-facility source URL; DOC sites that 403
+      # automated requests), so a blocking freshness step (a) aborted the run
+      # before the external-link scan below ever executed, hiding genuinely dead
+      # links for weeks, and (b) would keep this audit permanently red, which is
+      # how earlier real failures went unnoticed. The re-verifier works this
+      # backlog down; deploy.yml is unaffected either way.
+      - name: Check page freshness (reported, non-blocking)
+        continue-on-error: true
         run: npm run check:freshness
 
+      # This is the actionable check: a red audit means cited sources 404'd and
+      # need fixing. `if: always()` guarantees it runs even if the step above
+      # is skipped or errors for an unrelated reason.
       - name: Check external links
+        if: always()
         run: npm run check:external-links
