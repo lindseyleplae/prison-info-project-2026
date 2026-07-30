@@ -16,11 +16,12 @@ facilityType: "Women's Prison & Reception Center"
 contact:
   mainPhone: "(559) 665-5531"
   visitingOffice: "(559) 665-5531 ext. 7600"
+  mailingAddress: "Incarcerated person's name and CDCR number, P.O. Box 1508, Chowchilla, CA 93610"
 providers:
   phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
   days: "Friday-Sunday"
-  hours: "8:30 AM - 3:00 PM (Sat-Sun)"
+  hours: "Fri 11:30 AM - 6:00 PM (processing from 12:00 PM); Sat-Sun 8:30 AM - 3:00 PM"
   scheduling: "Appointments through CDCR's Visitation Scheduling Application (VSA); walk-ins are processed first come, first served."
   contactVisits: true
 links:
@@ -69,7 +70,7 @@ CDCR posts CCWF's schedule, processing cutoffs, and family-visit instructions on
 :::key-info
 **Hours:**
 - Saturday-Sunday: 8:30 a.m. - 3:00 p.m.
-- Friday: visiting is offered, and processing begins at 12:00 p.m. — CDCR's posted Friday hours contain an internal inconsistency, so confirm the Friday window by phone before traveling
+- Friday: 11:30 a.m. - 6:00 p.m., with processing beginning at 12:00 p.m. CDCR's visiting page prints the Friday start as "11:30 p.m.," which cannot be correct alongside a 6:00 p.m. end; the same page lists 11:30 a.m. arrival for Friday, and CDCR's other institutions post an 11:30 a.m. Friday start. Confirm by phone if the exact window matters to your travel.
 - Non-contact visits: one hour in length
 
 **Processing cutoffs:** Visitors are not processed after 4:30 p.m. on Friday or 1:30 p.m. on Saturday and Sunday. Arrival on grounds is allowed up to 30 minutes before processing begins (Friday 12:00 p.m., Saturday-Sunday 9:00 a.m.).

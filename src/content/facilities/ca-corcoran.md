@@ -57,6 +57,7 @@ The institution's structure affects visiting more than at most single-mission pr
 - The prison includes a licensed 50-bed correctional treatment center, 24 mental health crisis beds, and an outpatient housing unit.
 - Corcoran also supports large prison-industry operations, including dairy, milk packaging, laundry, warehouse, and maintenance programs.
 - Visiting rules vary by facility and custody level. CDCR posts separate appointment procedures for Facilities 3A, 3B, 4A, 4B, and treatment-related housing.
+- **Incarcerated-person mail goes to a different P.O. Box for each facility**, not to the institution's box. CDCR lists: Facility 3A — P.O. Box 3461; 3B — P.O. Box 3466; 3C — P.O. Box 3471; 4A — P.O. Box 3476; 4B — P.O. Box 3481; and Facility Z, Minimum Support Facility, Hospital, and Firehouse — P.O. Box 3456, all Corcoran, CA 93212. Address mail with the person's name and CDCR number, and confirm which facility they are housed on before sending. The institution's own address, P.O. Box 8800, Corcoran, CA 93212-8309, is for business mail.
 
 ## Visiting Hours and Procedures
 

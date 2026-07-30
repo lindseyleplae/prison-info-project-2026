@@ -16,11 +16,12 @@ facilityType: "Prisión de mujeres y centro de recepción"
 contact:
   mainPhone: "(559) 665-5531"
   visitingOffice: "(559) 665-5531 ext. 7600"
+  mailingAddress: "Nombre de la persona encarcelada y número del CDCR, P.O. Box 1508, Chowchilla, CA 93610"
 providers:
   phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
   days: "Viernes a domingo"
-  hours: "8:30 AM - 3:00 PM (sábado y domingo)"
+  hours: "Vie 11:30 AM - 6:00 PM (procesamiento desde las 12:00 PM); sáb. y dom. 8:30 AM - 3:00 PM"
   scheduling: "Citas a través de la Aplicación de Programación de Visitas (Visitation Scheduling Application, VSA) del CDCR; las visitas sin cita se atienden por orden de llegada."
   contactVisits: true
 links:
@@ -71,7 +72,7 @@ El CDCR publica el horario de CCWF, los cortes de procesamiento y las instruccio
 :::key-info
 **Horario:**
 - Sábado y domingo: 8:30 a. m. - 3:00 p. m.
-- Viernes: se ofrecen visitas y el procesamiento comienza a las 12:00 p. m.; el horario del viernes publicado por el CDCR tiene una inconsistencia interna, así que confirme el horario del viernes por teléfono antes de viajar
+- Viernes: de 11:30 a. m. a 6:00 p. m., y el procesamiento comienza a las 12:00 p. m. La página de visitas del CDCR indica que el viernes comienza a las "11:30 p. m.", lo cual no puede ser correcto si termina a las 6:00 p. m.; esa misma página señala la llegada del viernes a las 11:30 a. m., y otras instituciones del CDCR publican un inicio de 11:30 a. m. los viernes. Confirme por teléfono si el horario exacto es importante para su viaje.
 - Visitas sin contacto: una hora de duración
 
 **Cortes de procesamiento:** No se procesa a los visitantes después de las 4:30 p. m. el viernes ni de la 1:30 p. m. el sábado y el domingo. Se permite la llegada al lugar hasta 30 minutos antes de que comience el procesamiento (viernes 12:00 p. m.; sábado y domingo 9:00 a. m.).

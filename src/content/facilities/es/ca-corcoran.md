@@ -59,6 +59,7 @@ La estructura de la institución afecta las visitas más que en la mayoría de l
 - La prisión incluye un centro de tratamiento correccional con licencia de 50 camas, 24 camas de crisis de salud mental y una unidad de alojamiento ambulatorio.
 - Corcoran también sostiene grandes operaciones de industria penitenciaria, entre ellas programas de lechería, envasado de leche, lavandería, almacén y mantenimiento.
 - Las reglas de visita varían según el centro y el nivel de custodia. El CDCR publica procedimientos de cita aparte para los centros 3A, 3B, 4A, 4B y el alojamiento relacionado con tratamiento.
+- **El correo para las personas encarceladas va a un apartado postal distinto según el centro**, no al apartado de la institución. El CDCR indica: Centro 3A — P.O. Box 3461; 3B — P.O. Box 3466; 3C — P.O. Box 3471; 4A — P.O. Box 3476; 4B — P.O. Box 3481; y el Centro Z, el Centro de Apoyo Mínimo, el hospital y la estación de bomberos — P.O. Box 3456, todos en Corcoran, CA 93212. Escriba el nombre de la persona y su número del CDCR, y confirme en qué centro está alojada antes de enviar el correo. La dirección de la institución, P.O. Box 8800, Corcoran, CA 93212-8309, es para correo administrativo.
 
 ## Horarios y procedimientos de visita
 
