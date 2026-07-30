@@ -21,7 +21,7 @@ providers:
   video: "Securus"
 visiting:
   days: "Set by the facility; apply through the Missouri DOC online visiting application"
-  hours: "Confirm the facility's current visiting schedule"
+  hours: "Confirme el horario de visitas vigente de la institución"
   scheduling: "Every visitor must first be approved on the person's visitor list through the Missouri DOC online visiting application (web.mo.gov/doc/pubVisit). Visiting for men in maximum-security or restrictive housing may be non-contact and may differ from general population."
   contactVisits: true
   videoVisits: true

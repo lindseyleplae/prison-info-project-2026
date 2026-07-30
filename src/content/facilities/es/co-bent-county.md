@@ -24,7 +24,7 @@ providers:
 visiting:
   days: "Friday, Saturday, and Sunday, 10:00 a.m.–3:50 p.m. (processing begins 9:30 a.m.; no admittance after 2:00 p.m.)"
   hours: "10:00 a.m.–3:50 p.m. on visiting days"
-  scheduling: "By appointment — email bccfvisiting@corecivic.com (or call the facility) with each visitor's name and date of birth, the person's name and DOC number, and a callback number. In-state visitors may schedule up to 14 days ahead; an approved CDOC visiting application must be on file."
+  scheduling: "Con cita: escriba a bccfvisiting@corecivic.com (o llame a la institución) con el nombre y la fecha de nacimiento de cada visitante, el nombre y el número del DOC de la persona, y un número de devolución de llamada. Los visitantes que viven en Colorado pueden programar hasta con 14 días de anticipación; debe haber una solicitud de visita del CDOC aprobada en el expediente."
   contactVisits: true
 links:
   official: "https://cdoc.colorado.gov/facilities/private-prisons/bent-county-correctional-facility"

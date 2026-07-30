@@ -21,9 +21,9 @@ providers:
   phone: "Securus"
   video: "Microsoft Teams"
 visiting:
-  days: "By appointment; separate schedules for juvenile and adult-age residents"
+  days: "Con cita; hay horarios distintos para los residentes menores de edad y los de edad adulta"
   hours: "One-hour visits; windows differ for juvenile and adult-age residents — check the current schedule"
-  scheduling: "Visits are by appointment through the DOC request form (not walk-in). Juvenile residents are allowed more visits (up to 5 a week) than adult-age residents (up to 3 a week). Both contact and non-contact sessions are scheduled; confirm the type and times for the specific person."
+  scheduling: "Las visitas son con cita mediante el formulario de solicitud del DOC (no sin cita previa). Los residentes menores de edad tienen derecho a más visitas (hasta 5 por semana) que los residentes de edad adulta (hasta 3 por semana). Se programan sesiones tanto de contacto como sin contacto; confirme el tipo y los horarios para la persona en particular."
   contactVisits: true
 links:
   official: "https://portal.ct.gov/doc/facility/manson-yi"

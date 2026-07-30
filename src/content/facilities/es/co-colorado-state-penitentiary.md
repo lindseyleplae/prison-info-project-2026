@@ -22,9 +22,9 @@ providers:
   phone: "Securus"
   video: "Securus"
 visiting:
-  days: "By appointment (confirm with the visiting office)"
-  hours: "Confirm when scheduling"
-  scheduling: "By appointment at least 7 days ahead — call (719) 269-5252 or email. Whether a visit is contact or non-contact depends on the person's housing unit, so confirm their eligibility first."
+  days: "Con cita (confirme con la oficina de visitas)"
+  hours: "Confirme al programar"
+  scheduling: "Con cita, con al menos 7 días de anticipación: llame al (719) 269-5252 o escriba por correo electrónico. Que la visita sea de contacto o sin contacto depende de la unidad de alojamiento de la persona, así que confirme primero su elegibilidad."
   contactVisits: true
 links:
   official: "https://cdoc.colorado.gov/facilities/canon-city/colorado-state-penitentiary"

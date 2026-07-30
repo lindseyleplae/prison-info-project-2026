@@ -19,9 +19,9 @@ providers:
   phone: "Securus"
   video: "Microsoft Teams"
 visiting:
-  days: "In-person by housing unit (no Wednesdays); video by appointment"
+  days: "En persona, por unidad de alojamiento (no hay visitas los miércoles); por video, con cita"
   hours: "One-hour blocks, morning through evening — check the current schedule"
-  scheduling: "All in-person visits at New Haven are non-contact (through glass), assigned by housing unit; no visits on Wednesdays. In-person visits no longer need to be pre-scheduled (since December 2024); up to 2 visitors per visit, two in-person and one video visit a week. Video visits are scheduled through the DOC request form."
+  scheduling: "Todas las visitas en persona en New Haven son sin contacto (a través de un vidrio) y se asignan por unidad de alojamiento; no hay visitas los miércoles. Las visitas en persona ya no necesitan programarse con anticipación (desde diciembre de 2024); hasta 2 visitantes por visita, y dos visitas en persona y una por video a la semana. Las visitas por video se programan mediante el formulario de solicitud del DOC."
   contactVisits: false
 links:
   official: "https://portal.ct.gov/doc/facility/new-haven-cc"

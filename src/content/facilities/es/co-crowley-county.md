@@ -24,7 +24,7 @@ providers:
 visiting:
   days: "Scheduling window Thursday–Monday; CDOC posts the visiting day/hour schedule in a separate document — confirm the current days and hours with the facility"
   hours: "Not listed inline by CDOC — confirm with the facility"
-  scheduling: "By appointment — call (719) 267-3548 ext. 23898 (Thu–Mon 8:30 a.m.–3:30 p.m.) or email crowleyvisitation@corecivic.com with the visitors' names, the person's name and CDOC number, and the requested date; an approved CDOC visiting application must be on file."
+  scheduling: "Con cita: llame al (719) 267-3548 ext. 23898 (de jueves a lunes, de 8:30 a. m. a 3:30 p. m.) o escriba a crowleyvisitation@corecivic.com con los nombres de los visitantes, el nombre y el número del CDOC de la persona, y la fecha solicitada; debe haber una solicitud de visita del CDOC aprobada en el expediente."
   contactVisits: true
 links:
   official: "https://cdoc.colorado.gov/facilities/private-prisons/crowley-county-correctional-facility"

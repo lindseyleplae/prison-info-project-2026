@@ -20,9 +20,9 @@ providers:
   phone: "Securus"
   video: "Microsoft Teams"
 visiting:
-  days: "In-person by housing unit (no Wednesdays); video by appointment"
+  days: "En persona, por unidad de alojamiento (no hay visitas los miércoles); por video, con cita"
   hours: "One-hour blocks, morning through evening — check the current schedule"
-  scheduling: "All in-person visits at Hartford are non-contact (through glass), assigned by housing unit; no visits on Wednesdays. Up to 2 visitors per visit, up to 3 visits a week. Video visits are scheduled through the DOC request form."
+  scheduling: "Todas las visitas en persona en Hartford son sin contacto (a través de un vidrio) y se asignan por unidad de alojamiento; no hay visitas los miércoles. Hasta 2 visitantes por visita; se permiten dos visitas en persona por semana. Las visitas por video se programan mediante el formulario de solicitud del DOC."
   contactVisits: false
 links:
   official: "https://portal.ct.gov/doc/facility/hartford-cc"

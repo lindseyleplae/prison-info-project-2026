@@ -19,7 +19,7 @@ providers:
   video: "ViaPath"
 visiting:
   days: "Set by each facility; visits are by appointment only"
-  hours: "Confirm the facility's current visiting schedule"
+  hours: "Confirme el horario de visitas vigente de la institución"
   scheduling: "Every visitor must be approved on the offender's visiting list first (the incarcerated person mails an application to each prospective visitor). Visits are by appointment only — call or email the prison to schedule; there is no statewide online scheduler. Visits are generally limited to one per week, up to two hours, with up to three approved visitors."
   contactVisits: true
 links:

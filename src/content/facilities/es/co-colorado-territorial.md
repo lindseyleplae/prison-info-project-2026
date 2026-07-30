@@ -23,8 +23,8 @@ providers:
   video: "Securus"
 visiting:
   days: "Friday, Saturday, and Sunday by appointment (specific processing windows apply)"
-  hours: "By appointment; confirm the processing windows when scheduling"
-  scheduling: "By appointment — call (719) 269-4226 or email doc_ctcf_visiting@state.co.us (Mon–Thu 8:30 a.m.–3:30 p.m.), no more than 7 days ahead. An approved visiting application must be on file; a person may not be visited by the same visitor more than two days in a week."
+  hours: "Con cita; confirme los horarios de procesamiento al programar"
+  scheduling: "Con cita: llame al (719) 269-4226 o escriba a doc_ctcf_visiting@state.co.us (lunes a jueves, de 8:30 a. m. a 3:30 p. m.), con no más de 7 días de anticipación. Debe haber una solicitud de visita aprobada en el expediente; una persona no puede recibir al mismo visitante más de dos días por semana."
   contactVisits: true
 links:
   official: "https://cdoc.colorado.gov/facilities/canon-city/colorado-territorial-correctional-facility"

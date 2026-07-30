@@ -19,7 +19,7 @@ providers:
   video: "Securus"
 visiting:
   days: "Set by the facility"
-  hours: "Confirm the facility's current visiting schedule"
+  hours: "Confirme el horario de visitas vigente de la institución"
   scheduling: "Every visitor must be on the inmate's approved visitor list first. Because the facility is operated under contract by MTC, its visiting schedule and arrangements are set locally — confirm the current details directly with the facility."
   contactVisits: true
 links:

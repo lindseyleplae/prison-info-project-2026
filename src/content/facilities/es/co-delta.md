@@ -24,7 +24,7 @@ providers:
 visiting:
   days: "Weekends, 9:00 a.m.–3:45 p.m. (by appointment)"
   hours: "9:00 a.m.–3:45 p.m. on visiting days"
-  scheduling: "By appointment — call (970) 874-7614 or email doc_dcc_visiting_staff@state.co.us by 1:30 p.m. the Wednesday before the weekend. An approved visiting application must be on file."
+  scheduling: "Con cita: llame al (970) 874-7614 o escriba a doc_dcc_visiting_staff@state.co.us antes de la 1:30 p. m. del miércoles previo al fin de semana. Debe haber una solicitud de visita aprobada en el expediente."
   contactVisits: true
 links:
   official: "https://cdoc.colorado.gov/facilities/delta-correctional-center"

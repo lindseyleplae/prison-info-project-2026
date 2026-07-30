@@ -24,7 +24,7 @@ providers:
 visiting:
   days: "Friday, Saturday, Sunday"
   hours: "8:30 AM-3:00 PM (processing 8:15-10 AM and 11:30 AM-1:15 PM)"
-  scheduling: "By appointment — call (303) 307-2544 or email up to 7 days ahead. A person may visit Friday plus Saturday or Friday plus Sunday, not both weekend days."
+  scheduling: "Con cita: llame al (303) 307-2544 o escriba por correo electrónico hasta con 7 días de anticipación. Una persona puede recibir visita el viernes y el sábado, o el viernes y el domingo, pero no ambos días del fin de semana."
   contactVisits: true
 links:
   official: "https://cdoc.colorado.gov/facilities/denver-complex/denver-womens-correctional-facility"

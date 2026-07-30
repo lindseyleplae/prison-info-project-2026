@@ -19,7 +19,7 @@ providers:
   video: "Securus"
 visiting:
   days: "Set by the facility"
-  hours: "Confirm the facility's current visiting schedule"
+  hours: "Confirme el horario de visitas vigente de la institución"
   scheduling: "Every visitor must be on the inmate's approved visitor list first; visits are arranged with the facility (there is no statewide scheduler). Visits during reception/intake may be limited. Confirm with the facility."
   contactVisits: true
 links:

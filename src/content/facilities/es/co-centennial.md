@@ -22,9 +22,9 @@ providers:
   phone: "Securus"
   video: "Securus"
 visiting:
-  days: "By appointment; CDOC does not post fixed visiting days online — confirm with the facility"
-  hours: "By appointment; confirm when scheduling"
-  scheduling: "By appointment — call (719) 269-5572 or email doc_ccf_visiting@state.co.us. In-person, non-contact, and video visits are offered (Securus); the format depends on the person's housing. An approved visiting application must be on file first."
+  days: "Con cita; el CDOC no publica en línea días fijos de visita; confirme con la institución"
+  hours: "Con cita; confirme al programar"
+  scheduling: "Con cita: llame al (719) 269-5572 o escriba a doc_ccf_visiting@state.co.us. Se ofrecen visitas en persona, sin contacto y por video (Securus); el formato depende del alojamiento de la persona. Primero debe haber una solicitud de visita aprobada en el expediente."
   contactVisits: true
 links:
   official: "https://cdoc.colorado.gov/facilities/canon-city/centennial-correctional-facility"

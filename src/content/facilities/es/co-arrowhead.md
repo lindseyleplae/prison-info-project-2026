@@ -22,9 +22,9 @@ providers:
   phone: "Securus"
   video: "Securus"
 visiting:
-  days: "By appointment, seven days a week — video visits or pre-approved special visits only (no standard in-person contact visiting)"
-  hours: "By appointment; confirm available times when scheduling"
-  scheduling: "By appointment, scheduled at least a week ahead; an approved visiting application must be on file. Register through the East Cañon Complex Visiting Center — email DOC_ecc-visiting@state.co.us or call (719) 269-5603."
+  days: "Con cita, los siete días de la semana; solo visitas por video o visitas especiales aprobadas de antemano (no hay visitas de contacto en persona estándar)"
+  hours: "Con cita; confirme los horarios disponibles al programar"
+  scheduling: "Con cita, programada con al menos una semana de anticipación; debe haber una solicitud de visita aprobada en el expediente. Regístrese a través del Centro de Visitas del Complejo East Cañon: escriba a DOC_ecc-visiting@state.co.us o llame al (719) 269-5603."
   contactVisits: false
 links:
   official: "https://cdoc.colorado.gov/facilities/canon-city/arrowhead-correctional-center"

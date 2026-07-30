@@ -24,7 +24,7 @@ providers:
 visiting:
   days: "Buena Vista Correctional Facility (BVCF): Friday and Saturday, 9:00 a.m.–2:30 p.m. Buena Vista Minimum Center (BVMC): Sunday and Monday, 9:00 a.m.–2:30 p.m."
   hours: "9:00 a.m.–2:30 p.m. on visiting days"
-  scheduling: "By appointment — email doc_bvcc_visiting@state.co.us or mail an application to P.O. Box 2017, Buena Vista, CO 81211. An approved visiting application must be on file; confirm which part of the complex (BVCF or BVMC) holds the person."
+  scheduling: "Con cita: escriba a doc_bvcc_visiting@state.co.us o envíe una solicitud por correo a P.O. Box 2017, Buena Vista, CO 81211. Debe haber una solicitud de visita aprobada en el expediente; confirme en qué parte del complejo (BVCF o BVMC) se encuentra la persona."
   contactVisits: true
 links:
   official: "https://cdoc.colorado.gov/facilities/buena-vista-correctional-complex"

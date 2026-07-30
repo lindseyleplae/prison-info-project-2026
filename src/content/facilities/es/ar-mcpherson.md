@@ -24,7 +24,7 @@ providers:
 visiting:
   days: "Saturdays and Sundays for routine visits; frequency depends on the inmate's class"
   hours: "Not posted online per unit — call the unit's Visitation Clerk to confirm"
-  scheduling: "Visits are pre-scheduled through the TeleGov portal or the unit's Visitation Clerk"
+  scheduling: "Las visitas se programan con anticipación a través del portal TeleGov o con el encargado de visitas de la unidad"
   contactVisits: true
 links:
   official: "https://doc.arkansas.gov/facilities/mcpherson-unit/"

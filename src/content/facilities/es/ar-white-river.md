@@ -20,7 +20,7 @@ providers:
   phone: "Securus"
   video: "Securus"
 visiting:
-  days: "Confirm with the facility — not posted online"
+  days: "Confirme con la institución; no se publican en línea"
   hours: "Not posted online — call the facility to confirm"
   scheduling: "ADC has not published this center's visiting days or hours. As a short-term supervision-sanction center, visiting may differ from a standard prison — confirm by calling (870) 793-7970."
   contactVisits: true
