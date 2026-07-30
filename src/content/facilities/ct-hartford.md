@@ -22,7 +22,7 @@ providers:
 visiting:
   days: "In-person by housing unit (no Wednesdays); video by appointment"
   hours: "One-hour blocks, morning through evening — check the current schedule"
-  scheduling: "All in-person visits at Hartford are non-contact (through glass), assigned by housing unit; no visits on Wednesdays. Up to 2 visitors per visit, up to 3 visits a week. Video visits are scheduled through the DOC request form."
+  scheduling: "All in-person visits at Hartford are non-contact (through glass), assigned by housing unit; no visits on Wednesdays. Up to 2 visitors per visit. Two in-person visits per week are allowed. Video visits are scheduled through the DOC request form."
   contactVisits: false
 links:
   official: "https://portal.ct.gov/doc/facility/hartford-cc"

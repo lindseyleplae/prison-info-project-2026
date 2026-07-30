@@ -24,7 +24,7 @@ providers:
 visiting:
   days: "Weekdays plus a weekend day; weekend split by inmate number"
   hours: "Morning, afternoon, and evening blocks; confirm the facility schedule"
-  scheduling: "In-person visits are walk-in (not pre-scheduled); video visits are scheduled through the DOC's online request form. Saturdays are for even inmate numbers, Sundays for odd."
+  scheduling: "In-person visits are walk-in (not pre-scheduled); video visits are scheduled through the DOC's online request form. Eligible people are allowed two visits Monday-Friday, plus one weekend visit (Saturday-Sunday) that may be in person or by video."
   contactVisits: true
 links:
   official: "https://portal.ct.gov/doc/facility/york-ci"

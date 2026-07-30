@@ -22,7 +22,7 @@ providers:
 visiting:
   days: "In-person by housing unit, daily; video by appointment"
   hours: "One-hour visits in morning, afternoon, and evening blocks — check the current schedule"
-  scheduling: "In-person social visits are contact, walk-in, and one hour, assigned by housing unit on a rotating schedule — confirm the person's unit and the current week's schedule first. Up to 3 visitors. Video visits are scheduled through the DOC request form."
+  scheduling: "In-person social visits are contact, walk-in, and one hour, assigned by housing unit on a rotating schedule — confirm the person's unit and the current week's schedule first. Up to 3 visitors. Two in-person visits and one video visit per week are allowed. Video visits are scheduled through the DOC request form."
   contactVisits: true
 links:
   official: "https://portal.ct.gov/doc/facility/osborn-ci"

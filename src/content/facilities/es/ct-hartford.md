@@ -72,7 +72,7 @@ Las reglas estatales de Connecticut DOC mencionadas arriba —la lista de aproba
 :::key-info
 **Con contacto vs. sin contacto:** Todas las visitas son sin contacto (a través de un panel de vidrio, hablando por teléfono)
 
-**En persona:** Asignadas por unidad de alojamiento, en bloques de una hora; no hay visitas los miércoles; hasta 2 visitantes por visita, hasta 3 visitas por semana
+**En persona:** Asignadas por unidad de alojamiento, en bloques de una hora; no hay visitas los miércoles; hasta 2 visitantes por visita; se permiten dos visitas en persona por semana
 
 **Video:** Las videollamadas gratuitas se programan a través del formulario de solicitud del DOC; vea la guía de teléfono y video
 
