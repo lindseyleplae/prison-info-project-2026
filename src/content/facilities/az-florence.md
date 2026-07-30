@@ -40,7 +40,7 @@ reviewBy: 2026-07-20
 ---
 
 :::callout{variant="warning"}
-**ASPC-Florence is the historic Florence complex; its general population was largely closed in 2022, and many people who were held here were moved to other complexes.** Confirm on the ADCRR Inmate Data Search which complex actually holds the person before planning a visit. The complex's Central Unit remains in use and houses the state's execution chamber. Personal mail does not go to the prison — Arizona routes it to an off-site center (see Mail, below).
+**ADCRR no longer lists ASPC-Florence among its prisons.** The historic Florence complex's general population was largely closed in 2022, and as of 2026 the complex does not appear on ADCRR's published list of state prisons or in its inmate mailing-address table — so almost no one is held here, and mail addressed to Florence for an incarcerated person is unlikely to reach them. Confirm on the ADCRR Inmate Data Search which complex actually holds the person before planning a visit or sending anything. The complex's Central Unit remains in use and houses the state's execution chamber. Personal mail does not go to the prison — Arizona routes it to an off-site center (see Mail, below).
 :::
 
 :::key-info

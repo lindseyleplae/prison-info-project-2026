@@ -42,7 +42,7 @@ sourceReviewed: 2026-06-14
 ---
 
 :::callout{variant="warning"}
-**ASPC-Florence es el histórico complejo de Florence; su población general se cerró en gran parte en 2022, y muchas de las personas que estaban aquí fueron trasladadas a otros complejos.** Confirme en el ADCRR Inmate Data Search qué complejo aloja realmente a la persona antes de planificar una visita. La Central Unit del complejo sigue en uso y alberga la cámara de ejecución del estado. El correo personal no va a la prisión: Arizona lo dirige a un centro externo (vea Correo, más abajo).
+**El ADCRR ya no incluye a ASPC-Florence entre sus prisiones.** La población general del histórico complejo de Florence se cerró en gran parte en 2022 y, a partir de 2026, el complejo no aparece en la lista publicada de prisiones estatales del ADCRR ni en su tabla de direcciones postales para personas encarceladas; por eso casi nadie está alojado aquí y es poco probable que el correo dirigido a Florence llegue a la persona. Confirme en el ADCRR Inmate Data Search qué complejo aloja realmente a la persona antes de planificar una visita. La Central Unit del complejo sigue en uso y alberga la cámara de ejecución del estado. El correo personal no va a la prisión: Arizona lo dirige a un centro externo (vea Correo, más abajo).
 :::
 
 :::key-info

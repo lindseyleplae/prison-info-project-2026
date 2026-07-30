@@ -5,14 +5,14 @@ state: az
 abbreviation: AZ
 system: ADCRR
 systemFullName: "Arizona Department of Corrections, Rehabilitation and Reentry (ADCRR)"
-summary: "Guides and facility information for Arizona, where the Department of Corrections, Rehabilitation and Reentry runs 10 state prison complexes — each with several units — plus privately operated prisons that hold state inmates, while people awaiting trial or serving jail sentences are held in county jails run by elected sheriffs."
+summary: "Guides and facility information for Arizona, where the Department of Corrections, Rehabilitation and Reentry runs nine state prison complexes — each with several units — plus privately operated prisons that hold state inmates, while people awaiting trial or serving jail sentences are held in county jails run by elected sheriffs."
 links:
   inmateLocator: "https://corrections.az.gov/inmate-data-search"
 facilityCount: 8
 lastReviewed: 2026-06-14
 ---
 
-The Arizona Department of Corrections, Rehabilitation and Reentry (ADCRR) runs the state's prison system — about **10 state prison complexes**, each made up of several **units** with different security levels, plus **privately operated prisons** (run by the GEO Group and CoreCivic) that hold ADCRR-sentenced men under contract. Together the system holds roughly **35,000 people**. ADCRR's materials generally use the word *inmate*; this site uses neutral terms. Because each complex contains multiple units, visiting days, hours, and rules are organized **at the unit level** — so confirm details for the specific unit where the person is held.
+The Arizona Department of Corrections, Rehabilitation and Reentry (ADCRR) runs the state's prison system — **nine state prison complexes** (Douglas, Eyman, Lewis, Perryville, Phoenix, Safford, Tucson, Winslow, and Yuma), each made up of several **units** with different security levels, plus **privately operated prisons** (run by the GEO Group and CoreCivic) that hold ADCRR-sentenced men under contract. Together the system holds roughly **35,000 people**. ADCRR's materials generally use the word *inmate*; this site uses neutral terms. Because each complex contains multiple units, visiting days, hours, and rules are organized **at the unit level** — so confirm details for the specific unit where the person is held.
 
 Where a person is held turns first on **the sentence**. A person sentenced to **state prison** is held in an **ADCRR complex** (or a contracted private prison); people awaiting trial or serving jail sentences are held in a **county jail** run by one of Arizona's 15 county sheriffs, which sets its own rules and is **not** in the ADCRR inmate search.
 

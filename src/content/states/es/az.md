@@ -5,7 +5,7 @@ state: az
 abbreviation: AZ
 system: ADCRR
 systemFullName: "Arizona Department of Corrections, Rehabilitation and Reentry (ADCRR)"
-summary: "Guías e información sobre las instituciones de Arizona, donde el Department of Corrections, Rehabilitation and Reentry administra 10 complejos penitenciarios estatales —cada uno con varias unidades— más prisiones de operación privada que alojan a reclusos estatales, mientras que las personas en espera de juicio o cumpliendo condenas de cárcel están en cárceles del condado administradas por alguaciles (sheriffs) electos."
+summary: "Guías e información sobre las instituciones de Arizona, donde el Department of Corrections, Rehabilitation and Reentry administra nueve complejos penitenciarios estatales —cada uno con varias unidades— más prisiones de operación privada que alojan a reclusos estatales, mientras que las personas en espera de juicio o cumpliendo condenas de cárcel están en cárceles del condado administradas por alguaciles (sheriffs) electos."
 links:
   inmateLocator: "https://corrections.az.gov/inmate-data-search"
 facilityCount: 8
@@ -14,7 +14,7 @@ lang: es
 sourceReviewed: 2026-06-14
 ---
 
-El Arizona Department of Corrections, Rehabilitation and Reentry (ADCRR) administra el sistema penitenciario del estado: unos **10 complejos penitenciarios estatales**, cada uno formado por varias **unidades** con distintos niveles de seguridad, más **prisiones de operación privada** (administradas por el GEO Group y CoreCivic) que alojan bajo contrato a hombres sentenciados por ADCRR. En conjunto, el sistema aloja aproximadamente a **35,000 personas**. Los materiales de ADCRR suelen usar la palabra *inmate* (recluso); este sitio usa términos neutrales. Como cada complejo contiene varias unidades, los días, horarios y reglas de visita se organizan **al nivel de la unidad**, así que confirme los detalles para la unidad específica donde está la persona.
+El Arizona Department of Corrections, Rehabilitation and Reentry (ADCRR) administra el sistema penitenciario del estado: **nueve complejos penitenciarios estatales** (Douglas, Eyman, Lewis, Perryville, Phoenix, Safford, Tucson, Winslow y Yuma), cada uno formado por varias **unidades** con distintos niveles de seguridad, más **prisiones de operación privada** (administradas por el GEO Group y CoreCivic) que alojan bajo contrato a hombres sentenciados por ADCRR. En conjunto, el sistema aloja aproximadamente a **35,000 personas**. Los materiales de ADCRR suelen usar la palabra *inmate* (recluso); este sitio usa términos neutrales. Como cada complejo contiene varias unidades, los días, horarios y reglas de visita se organizan **al nivel de la unidad**, así que confirme los detalles para la unidad específica donde está la persona.
 
 El lugar donde una persona está alojada depende primero de **la condena**. Una persona sentenciada a **prisión estatal** está alojada en un **complejo de ADCRR** (o en una prisión privada contratada); las personas en espera de juicio o cumpliendo condenas de cárcel están en una **cárcel del condado** administrada por uno de los 15 alguaciles (sheriffs) de condado de Arizona, que establece sus propias reglas y **no** aparece en la búsqueda de reclusos de ADCRR.
 
