@@ -33,8 +33,8 @@ sources:
     url: "https://portal.ct.gov/doc/facility/bridgeport-cc-directions"
   - name: "St. Vincent's Medical Center — Emergency (Bridgeport)"
     url: "https://stvincents.org/services/emergency-services"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-27
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

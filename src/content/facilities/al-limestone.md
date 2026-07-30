@@ -38,8 +38,8 @@ sources:
     url: "https://clearinghouse.net/case/12402/"
   - name: "Athens-Limestone Hospital — Emergency Department"
     url: "https://www.athenslimestonehospital.com/emergency-department"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-17
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

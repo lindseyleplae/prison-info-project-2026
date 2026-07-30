@@ -35,10 +35,10 @@ sources:
     url: "https://doc.alabama.gov/docs/AdminRegs/AR303.pdf"
   - name: "Bibb Medical Center — Emergency (Centreville)"
     url: "https://www.bibbmedicalcenter.com/"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-16
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-07-30
 ---
 
 :::callout{variant="warning"}

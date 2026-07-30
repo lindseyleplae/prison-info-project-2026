@@ -38,10 +38,10 @@ sources:
     url: "https://cdoc.colorado.gov/facilities/pueblo-campus/la-vista-correctional-facility"
   - name: "HCA HealthONE — Rose Medical Center, Central Park ER (24/7)"
     url: "https://www.healthonecares.com/locations/central-park-er"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-26
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-07-30
 ---
 
 :::callout{variant="warning"}

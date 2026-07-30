@@ -29,8 +29,8 @@ sources:
     url: "https://doc.alaska.gov/institutions"
   - name: "AK DOC — Friends & Family Handbook"
     url: "https://doc.alaska.gov/institutions/docs/Family%20Handbook%20January%202026.pdf"
-lastVerified: 2026-06-16
-reviewBy: 2026-07-15
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

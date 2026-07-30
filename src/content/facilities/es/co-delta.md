@@ -38,10 +38,10 @@ sources:
     url: "https://cdoc.colorado.gov/resources-faq/contact-an-inmate"
   - name: "Delta Health (Delta County Memorial Hospital) — Emergency (Delta)"
     url: "https://deltahealthco.org/"
-lastVerified: 2026-06-14
-reviewBy: 2026-07-26
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-07-30
 ---
 
 :::callout{variant="warning"}

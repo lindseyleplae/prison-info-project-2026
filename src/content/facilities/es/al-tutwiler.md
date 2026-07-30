@@ -40,10 +40,10 @@ sources:
     url: "https://alabamareflector.com/2024/09/27/u-s-department-of-justice-scales-back-its-oversight-of-tutwiler-prison-for-women/"
   - name: "Elmore Community Hospital — Emergency (Wetumpka)"
     url: "https://ivycreekhealth.com/locations/elmore-community-hospital/"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-17
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-07-30
 ---
 
 :::callout{variant="warning"}

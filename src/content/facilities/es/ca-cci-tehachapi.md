@@ -32,10 +32,10 @@ sources:
     url: "https://www.cdcr.ca.gov/visitors/"
   - name: "CCHCS — Coccidioidomycosis (Valley Fever) Care Guide"
     url: "https://cchcs.ca.gov/wp-content/uploads/sites/60/Coccidioidomycosis_Care_Guide.pdf"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-21
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-07-30
 ---
 
 :::key-info

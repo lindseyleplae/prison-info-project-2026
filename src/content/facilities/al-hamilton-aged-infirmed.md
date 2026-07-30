@@ -36,8 +36,8 @@ sources:
     url: "https://doc.alabama.gov/docs/AdminRegs/AR303.pdf"
   - name: "North Mississippi Medical Center–Hamilton — Emergency (Hamilton)"
     url: "https://www.nmhs.net/locations/north-mississippi-medical-center-hamilton"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-16
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

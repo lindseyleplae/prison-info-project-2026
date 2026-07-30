@@ -33,8 +33,8 @@ sources:
     url: "https://gdc.georgia.gov/friends-and-family/visit-inmate/visitation"
   - name: "Emanuel Medical Center — Emergency (Swainsboro)"
     url: "https://www.emanuelmedical.org"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-05
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

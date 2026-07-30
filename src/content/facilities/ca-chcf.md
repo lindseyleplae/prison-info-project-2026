@@ -34,8 +34,8 @@ sources:
     url: "https://cchcs.ca.gov/phi-phone-numbers/"
   - name: "CDCR — Prisoner's Eligibility to Visit (hospitalized patients)"
     url: "https://www.cdcr.ca.gov/visitors/prisoners-eligibility-to-visit/"
-lastVerified: 2026-06-12
-reviewBy: 2026-07-22
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

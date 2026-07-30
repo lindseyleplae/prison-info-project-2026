@@ -38,10 +38,10 @@ sources:
     url: "https://en.wikipedia.org/wiki/Sterling_Correctional_Facility"
   - name: "Banner Health — Sterling Regional MedCenter Emergency"
     url: "https://www.bannerhealth.com/locations/sterling/sterling-regional-medcenter"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-27
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-07-30
 ---
 
 :::callout{variant="warning"}

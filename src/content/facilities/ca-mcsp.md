@@ -35,8 +35,8 @@ sources:
     url: "https://www.cdcr.ca.gov/news/2016/04/19/cdcr-dedicates-new-housing-facilities-at-mule-creek-state-prison"
   - name: "CDCR In-Prison Programs Available by Location"
     url: "https://www.cdcr.ca.gov/rehabilitation/programs/inprison/mapip/"
-lastVerified: 2026-06-12
-reviewBy: 2026-07-23
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::key-info

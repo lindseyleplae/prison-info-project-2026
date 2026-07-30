@@ -31,8 +31,8 @@ sources:
     url: "https://www.mtctrains.com/facility/gadsden-correctional-facility/"
   - name: "FDC — Corrections Offender Network"
     url: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
-lastVerified: 2026-06-18
-reviewBy: 2026-07-31
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

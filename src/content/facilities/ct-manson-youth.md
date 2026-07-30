@@ -37,8 +37,8 @@ sources:
     url: "https://www.justice.gov/archives/opa/pr/justice-department-secures-agreement-connecticut-department-correction-protect-children"
   - name: "MidState Medical Center — Emergency Room (Meriden)"
     url: "https://midstatemedical.org/services/emergency-room"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-28
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

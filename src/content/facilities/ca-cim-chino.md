@@ -29,8 +29,8 @@ links:
 sources:
   - name: "CDCR Visitation"
     url: "https://www.cdcr.ca.gov/visitors/"
-lastVerified: 2026-04-28
-reviewBy: 2026-07-22
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

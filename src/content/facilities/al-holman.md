@@ -40,8 +40,8 @@ sources:
     url: "https://www.wsfa.com/2020/01/29/adoc-closes-holman-prisons-main-facility-inmates-moved/"
   - name: "Atmore Community Hospital — Emergency (Atmore)"
     url: "https://www.atmorehealth.org/"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-16
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

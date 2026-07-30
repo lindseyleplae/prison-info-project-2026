@@ -37,8 +37,8 @@ sources:
     url: "https://cdoc.colorado.gov/resources-faq/contact-an-inmate"
   - name: "St. Thomas More Hospital — Emergency Department (Cañon City)"
     url: "https://www.mountain.commonspirit.org/location/st-thomas-more-hospital/emergency-department"
-lastVerified: 2026-06-14
-reviewBy: 2026-07-26
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

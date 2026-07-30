@@ -31,8 +31,8 @@ sources:
     url: "https://www.geogroup.com/facilities/south-bay-correctional-and-rehabilitation-facility/"
   - name: "FDC — Corrections Offender Network"
     url: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
-lastVerified: 2026-06-18
-reviewBy: 2026-08-03
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

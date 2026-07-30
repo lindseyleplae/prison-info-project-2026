@@ -38,8 +38,8 @@ sources:
     url: "https://doc.alabama.gov/inmatesearch.aspx"
   - name: "Jackson Hospital — Emergency Care (Montgomery)"
     url: "https://www.jackson.org/services/emergency-care/"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-16
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

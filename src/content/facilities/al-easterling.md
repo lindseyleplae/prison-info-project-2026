@@ -35,8 +35,8 @@ sources:
     url: "https://doc.alabama.gov/docs/AdminRegs/AR303.pdf"
   - name: "Medical Center Barbour — Emergency (Eufaula)"
     url: "https://www.medctrbarbour.org/"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-16
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

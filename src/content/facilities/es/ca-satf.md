@@ -36,10 +36,10 @@ sources:
     url: "https://www.cdcr.ca.gov/research/wp-content/uploads/sites/174/2026/06/Tpop1d260610.pdf"
   - name: "City of Corcoran — Public Transportation"
     url: "https://cityofcorcoran.ca.gov/i_want_to/find/public_transportation.php"
-lastVerified: 2026-06-12
-reviewBy: 2026-07-24
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 lang: es
-sourceReviewed: 2026-06-12
+sourceReviewed: 2026-07-30
 ---
 
 :::callout{variant="warning"}

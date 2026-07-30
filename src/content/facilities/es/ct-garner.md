@@ -37,10 +37,10 @@ sources:
     url: "https://portal.ct.gov/-/media/doc/pdf/monthlystat/stat01012026.pdf"
   - name: "Danbury Hospital — Emergency Department"
     url: "https://www.nuvancehealth.org/locations/danbury-hospital"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-28
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-07-30
 ---
 
 :::callout{variant="warning"}

@@ -37,8 +37,8 @@ sources:
     url: "https://www.vera.org/news/dispatches-from-t-r-u-e/how-connecticut-reimagines-prison-for-young-men"
   - name: "MidState Medical Center — Emergency (Meriden)"
     url: "https://midstatemedical.org/services/emergency-room"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-27
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}

@@ -31,10 +31,10 @@ sources:
     url: "https://www.cdcr.ca.gov/visitors/"
   - name: "CDCR — California Rehabilitation Center to close by fall 2026"
     url: "https://www.cdcr.ca.gov/news/2025/08/04/california-rehabilitation-center-to-close-by-fall-2026/"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-22
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-07-30
 ---
 
 :::callout{variant="warning"}

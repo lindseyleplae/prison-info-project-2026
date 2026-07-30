@@ -42,10 +42,10 @@ sources:
     url: "https://www.justice.gov/crt/case-document/file/1149971/download"
   - name: "UAB Medical West — Emergency Services (Bessemer)"
     url: "https://medicalwesthospital.org/healthcare-services/emergency-services/"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-16
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-07-30
 ---
 
 :::callout{variant="warning"}

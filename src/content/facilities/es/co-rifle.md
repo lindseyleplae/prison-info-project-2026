@@ -38,10 +38,10 @@ sources:
     url: "https://www.cpr.org/2025/08/09/corrections-facility-evacuated-as-lee-fire-spreads-southeast-becomes-states-6th-largest-of-all-time/"
   - name: "Grand River Health — Emergency (Rifle)"
     url: "https://grandriverhealth.org/services/grand-river-health-rifle/"
-lastVerified: 2026-06-14
-reviewBy: 2026-07-26
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-07-30
 ---
 
 :::callout{variant="warning"}

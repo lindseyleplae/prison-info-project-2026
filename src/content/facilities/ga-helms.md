@@ -31,8 +31,8 @@ sources:
     url: "https://gdc.georgia.gov/locations/helms-facility"
   - name: "GDC — Visitation"
     url: "https://gdc.georgia.gov/friends-and-family/visit-inmate/visitation"
-lastVerified: 2026-06-15
-reviewBy: 2026-08-06
+lastVerified: 2026-07-30
+reviewBy: 2026-10-28
 ---
 
 :::callout{variant="warning"}
