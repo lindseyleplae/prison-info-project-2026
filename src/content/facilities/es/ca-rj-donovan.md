@@ -20,7 +20,7 @@ providers:
   phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
   days: "Viernes a domingo"
-  hours: "8:00 AM - 2:30 PM (sáb-dom)"
+  hours: "Vie 12:00 PM - 6:30 PM; sáb-dom 8:00 AM - 2:30 PM"
   scheduling: "Citas a través de la Aplicación de Programación de Visitas (VSA) de CDCR; se aceptan visitas sin cita en los horarios publicados, pero no para visitas sin contacto ni de vivienda restringida."
   contactVisits: true
 links:

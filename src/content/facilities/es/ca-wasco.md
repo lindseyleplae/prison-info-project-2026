@@ -20,7 +20,7 @@ providers:
   phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
   days: "Viernes a domingo"
-  hours: "8:00 AM - 2:30 PM (sáb-dom)"
+  hours: "Vie 12:00 PM - 6:30 PM; sáb-dom 8:00 AM - 2:30 PM"
   scheduling: "Las visitas al centro de recepción son solo con cita a través del sistema de programación de CDCR; los horarios para visitas sin cita existen únicamente para los patios de población general A y M."
 links:
   official: "https://www.cdcr.ca.gov/facility-locator/wsp/"

@@ -19,7 +19,7 @@ providers:
   phone: "ViaPath (GTL) — transitioning to Securus (2026)"
 visiting:
   days: "Friday-Sunday"
-  hours: "8:30 AM - 2:30 PM (Sat-Sun)"
+  hours: "Fri 11:30 AM - 5:30 PM; Sat-Sun 8:30 AM - 2:30 PM"
   scheduling: "Appointments open the Thursday of the prior week at 6:30 a.m. through CDCR's scheduling system and close Tuesday at 6:00 a.m.; walk-ins are allowed in posted windows."
 links:
   official: "https://www.cdcr.ca.gov/facility-locator/nksp/"
