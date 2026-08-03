@@ -33,10 +33,10 @@ sources:
     url: "https://gdc.georgia.gov/friends-and-family/visit-inmate/visitation"
   - name: "Taylor Regional Hospital — Emergency (Hawkinsville)"
     url: "https://taylorregional.org"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-07
+lastVerified: 2026-08-03
+reviewBy: 2026-11-01
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-08-03
 ---
 
 :::callout{variant="warning"}

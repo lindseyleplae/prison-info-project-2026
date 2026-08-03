@@ -36,8 +36,8 @@ sources:
     url: "https://doc.delaware.gov/views/contactus.blade.shtml"
   - name: "Delaware DOC FY2024 Annual Report (April 2025)"
     url: "https://doc.delaware.gov/assets/documents/annual_report/DOC_2024AnnualReport.pdf"
-lastVerified: 2026-06-11
-reviewBy: 2026-07-29
+lastVerified: 2026-08-03
+reviewBy: 2026-11-01
 ---
 
 :::key-info

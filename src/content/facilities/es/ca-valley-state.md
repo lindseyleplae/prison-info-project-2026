@@ -29,10 +29,10 @@ links:
 sources:
   - name: "Visiting Status for Valley State Prison"
     url: "https://www.cdcr.ca.gov/visitors/facility/valley-state-prison/"
-lastVerified: 2026-06-10
-reviewBy: 2026-07-24
+lastVerified: 2026-08-03
+reviewBy: 2026-11-01
 lang: es
-sourceReviewed: 2026-06-10
+sourceReviewed: 2026-08-03
 ---
 
 :::callout{variant="warning"}

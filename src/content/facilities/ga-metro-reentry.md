@@ -33,8 +33,8 @@ sources:
     url: "https://gdc.georgia.gov/friends-and-family/visit-inmate/visitation"
   - name: "Grady Memorial Hospital — Emergency (Atlanta)"
     url: "https://www.gradyhealth.org/locations/grady-memorial-hospital/"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-07
+lastVerified: 2026-08-03
+reviewBy: 2026-11-01
 ---
 
 :::callout{variant="warning"}

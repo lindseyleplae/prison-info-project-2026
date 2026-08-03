@@ -34,8 +34,8 @@ sources:
     url: "https://portal.ct.gov/-/media/doc/pdf/visit/visiting-schedules-2026/visiting-schedule-hcc-04-26.pdf"
   - name: "Hartford Hospital — Emergency"
     url: "https://hartfordhospital.org/services/emergency-room"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-28
+lastVerified: 2026-08-03
+reviewBy: 2026-11-01
 ---
 
 :::callout{variant="warning"}

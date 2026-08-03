@@ -31,10 +31,10 @@ sources:
     url: "https://gdc.georgia.gov/locations/telfair-state-prison"
   - name: "GDC — Visitation"
     url: "https://gdc.georgia.gov/friends-and-family/visit-inmate/visitation"
-lastVerified: 2026-06-15
-reviewBy: 2026-08-08
+lastVerified: 2026-08-03
+reviewBy: 2026-11-01
 lang: es
-sourceReviewed: 2026-06-15
+sourceReviewed: 2026-08-03
 ---
 
 :::callout{variant="warning"}

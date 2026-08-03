@@ -28,8 +28,8 @@ links:
 sources:
   - name: "HI DCR Hawaiʻi Community Correctional Center"
     url: "https://dcr.hawaii.gov/about/divisions/corrections/about-corrections/hccc/"
-lastVerified: 2026-06-16
-reviewBy: 2026-08-09
+lastVerified: 2026-08-03
+reviewBy: 2026-11-01
 ---
 
 :::callout{variant="warning"}

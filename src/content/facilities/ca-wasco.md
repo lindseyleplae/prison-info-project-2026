@@ -30,8 +30,8 @@ sources:
     url: "https://www.cdcr.ca.gov/visitors/facility/wasco-state-prison/"
   - name: "Types of Visits — CDCR Visitation Information"
     url: "https://www.cdcr.ca.gov/visitors/types-of-visits/"
-lastVerified: 2026-06-10
-reviewBy: 2026-07-25
+lastVerified: 2026-08-03
+reviewBy: 2026-11-01
 ---
 
 :::callout{variant="warning"}

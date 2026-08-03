@@ -29,10 +29,10 @@ links:
 sources:
   - name: "HI DCR Halawa Correctional Facility"
     url: "https://dcr.hawaii.gov/halawa/"
-lastVerified: 2026-06-16
-reviewBy: 2026-08-09
+lastVerified: 2026-08-03
+reviewBy: 2026-11-01
 lang: es
-sourceReviewed: 2026-06-16
+sourceReviewed: 2026-08-03
 ---
 
 :::callout{variant="warning"}

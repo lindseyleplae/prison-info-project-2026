@@ -30,10 +30,10 @@ sources:
     url: "https://dcr.hawaii.gov/about/divisions/corrections/occc/"
   - name: "HI DCR / New Oʻahu Jail Project Newsletter Vol. 59 — Who is Actually Housed at OCCC (July 2025)"
     url: "https://newoahujail.hawaii.gov/wp-content/uploads/2025/07/Hawaii-OCCC-Newsletter-Vol-59-July-2025.pdf"
-lastVerified: 2026-06-16
-reviewBy: 2026-08-09
+lastVerified: 2026-08-03
+reviewBy: 2026-11-01
 lang: es
-sourceReviewed: 2026-06-16
+sourceReviewed: 2026-08-03
 ---
 
 :::callout{variant="warning"}

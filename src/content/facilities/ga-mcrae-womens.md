@@ -33,8 +33,8 @@ sources:
     url: "https://gdc.georgia.gov/friends-and-family/visit-inmate/visitation"
   - name: "Dodge County Hospital — Emergency (Eastman)"
     url: "https://www.dodgecountyhospital.com"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-07
+lastVerified: 2026-08-03
+reviewBy: 2026-11-01
 ---
 
 :::callout{variant="warning"}

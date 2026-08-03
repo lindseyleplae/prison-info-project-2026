@@ -30,8 +30,8 @@ links:
 sources:
   - name: "HI DCR Kulani Correctional Facility"
     url: "https://dcr.hawaii.gov/about/divisions/corrections/about-corrections/kcf/"
-lastVerified: 2026-06-16
-reviewBy: 2026-08-09
+lastVerified: 2026-08-03
+reviewBy: 2026-11-01
 ---
 
 :::callout{variant="warning"}
