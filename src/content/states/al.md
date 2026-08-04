@@ -7,7 +7,7 @@ system: ADOC
 systemFullName: "Alabama Department of Corrections (ADOC)"
 summary: "Guides and facility information for Alabama, where the Department of Corrections runs about 14 major state prisons plus work centers — and where, because of crowding, many state-sentenced people wait in county jails for a prison bed."
 links:
-  inmateLocator: "https://doc.alabama.gov/inmatesearch.aspx"
+  inmateLocator: "https://www.doc.alabama.gov/inmate/inmate-search/"
 facilityCount: 14
 lastReviewed: 2026-06-13
 ---

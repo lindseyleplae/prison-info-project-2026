@@ -27,15 +27,15 @@ visiting:
   scheduling: "All visits must be pre-scheduled and approved (ADOC Administrative Regulation 303); death-row and restrictive-housing visits may be non-contact — confirm the process with the facility"
   contactVisits: true
 links:
-  official: "https://doc.alabama.gov/facility.aspx?loc=33"
-  inmateLocator: "https://doc.alabama.gov/inmatesearch.aspx"
+  official: "https://www.doc.alabama.gov/facilities/william-c-holman/"
+  inmateLocator: "https://www.doc.alabama.gov/inmate/inmate-search/"
 sources:
   - name: "ADOC — William C. Holman Correctional Facility"
-    url: "https://doc.alabama.gov/facility.aspx?loc=33"
+    url: "https://www.doc.alabama.gov/facilities/william-c-holman/"
   - name: "ADOC — Administrative Regulation 303 (Visitation, 2025)"
-    url: "https://doc.alabama.gov/docs/AdminRegs/AR303.pdf"
+    url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "ADOC — Alabama Death Row"
-    url: "https://doc.alabama.gov/deathrow.aspx"
+    url: "https://www.doc.alabama.gov/inmate/death-row/"
   - name: "WSFA — ADOC closes Holman's main facility (Jan 2020)"
     url: "https://www.wsfa.com/2020/01/29/adoc-closes-holman-prisons-main-facility-inmates-moved/"
   - name: "Atmore Community Hospital — Emergency (Atmore)"

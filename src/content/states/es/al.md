@@ -7,7 +7,7 @@ system: ADOC
 systemFullName: "Alabama Department of Corrections (ADOC)"
 summary: "Guías e información sobre las instituciones de Alabama, donde el Departamento Penitenciario administra unas 14 prisiones estatales principales además de centros de trabajo, y donde, por la sobrepoblación, muchas personas sentenciadas por el estado esperan en cárceles del condado a que se libere un cupo en prisión."
 links:
-  inmateLocator: "https://doc.alabama.gov/inmatesearch.aspx"
+  inmateLocator: "https://www.doc.alabama.gov/inmate/inmate-search/"
 facilityCount: 14
 lastReviewed: 2026-06-13
 lang: es

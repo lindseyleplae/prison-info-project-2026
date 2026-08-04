@@ -27,17 +27,17 @@ visiting:
   scheduling: "All visits must be pre-scheduled and approved (ADOC Administrative Regulation 303); confirm the process with the facility"
   contactVisits: true
 links:
-  official: "https://doc.alabama.gov/facility.aspx?loc=2"
-  inmateLocator: "https://doc.alabama.gov/inmatesearch.aspx"
+  official: "https://www.doc.alabama.gov/facilities/william-e-donaldson/"
+  inmateLocator: "https://www.doc.alabama.gov/inmate/inmate-search/"
 sources:
   - name: "ADOC — William E. Donaldson Correctional Facility"
-    url: "https://doc.alabama.gov/facility.aspx?loc=2"
+    url: "https://www.doc.alabama.gov/facilities/william-e-donaldson/"
   - name: "ADOC — Administrative Regulation 303 (Visitation, 2025)"
-    url: "https://doc.alabama.gov/docs/AdminRegs/AR303.pdf"
+    url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "ADOC — Alabama Death Row (primary housing at Holman)"
-    url: "https://doc.alabama.gov/deathrow.aspx"
+    url: "https://www.doc.alabama.gov/inmate/death-row/"
   - name: "ADOC — William C. Holman Correctional Facility (notes additional death-row housing at Donaldson)"
-    url: "https://doc.alabama.gov/facility.aspx?loc=33"
+    url: "https://www.doc.alabama.gov/facilities/william-c-holman/"
   - name: "U.S. Dept. of Justice — Investigation of Alabama's Prisons for Men"
     url: "https://www.justice.gov/crt/case-document/file/1149971/download"
   - name: "UAB Medical West — Emergency Services (Bessemer)"

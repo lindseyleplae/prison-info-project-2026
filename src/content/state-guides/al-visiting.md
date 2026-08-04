@@ -8,11 +8,11 @@ system: ADOC
 description: "How to get on an Alabama inmate's approved list, the no-tan dress code (inmates wear white), the $30 vending rule, and why all visits must be pre-scheduled with up to a 60-day wait after intake."
 sources:
   - name: "ADOC — Administrative Regulation 303 (Visitation, 2025)"
-    url: "https://doc.alabama.gov/docs/AdminRegs/AR303.pdf"
+    url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "ADOC — Administrative Regulation 338 (Inmate Property; clothing colors)"
-    url: "https://doc.alabama.gov/docs/AdminRegs/AR338.pdf"
+    url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "ADOC — Facility directory (visiting hours by facility)"
-    url: "https://doc.alabama.gov/facaddr.aspx"
+    url: "https://www.doc.alabama.gov/facilities/"
 lastReviewed: 2026-06-13
 ---
 

@@ -10,9 +10,9 @@ sources:
   - name: "Access Corrections — Secure Deposits (Alabama)"
     url: "https://www.accesscorrections.com/"
   - name: "ADOC — Sending Money to an Inmate"
-    url: "https://doc.alabama.gov/inmatemoney.aspx"
+    url: "https://www.doc.alabama.gov/inmate/"
   - name: "ADOC — Inmate Search (AIS number lookup)"
-    url: "https://doc.alabama.gov/inmatesearch.aspx"
+    url: "https://www.doc.alabama.gov/inmate/inmate-search/"
 lastReviewed: 2026-06-13
 ---
 

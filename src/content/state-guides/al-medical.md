@@ -8,9 +8,9 @@ system: ADOC
 description: "Alabama's $4 medical co-pay and its exemptions, the private health-care contractor, how families can raise a health concern, and the fact that Alabama has no independent prison ombudsman."
 sources:
   - name: "ADOC — Administrative Regulation 703 (Inmate Medical Co-Pay)"
-    url: "https://doc.alabama.gov/docs/AdminRegs/AR703.pdf"
+    url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "ADOC — Inmate Medical Records"
-    url: "https://doc.alabama.gov/MedicalRecords.aspx"
+    url: "https://www.doc.alabama.gov/inmate/"
   - name: "U.S. Dept. of Justice — Investigation of Alabama's Prisons for Men (findings)"
     url: "https://www.justice.gov/crt/case-document/file/1149971/download"
 lastReviewed: 2026-06-13

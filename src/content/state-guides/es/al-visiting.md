@@ -8,11 +8,11 @@ system: ADOC
 description: "Cómo entrar en la lista de visitantes aprobados de un recluso de Alabama, el código de vestimenta que prohíbe el color canela (los reclusos visten de blanco), la regla de $30 para las máquinas expendedoras, y por qué todas las visitas deben programarse con antelación con una espera de hasta 60 días tras el ingreso."
 sources:
   - name: "ADOC — Administrative Regulation 303 (Visitation, 2025)"
-    url: "https://doc.alabama.gov/docs/AdminRegs/AR303.pdf"
+    url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "ADOC — Administrative Regulation 338 (Inmate Property; clothing colors)"
-    url: "https://doc.alabama.gov/docs/AdminRegs/AR338.pdf"
+    url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "ADOC — Facility directory (visiting hours by facility)"
-    url: "https://doc.alabama.gov/facaddr.aspx"
+    url: "https://www.doc.alabama.gov/facilities/"
 lastReviewed: 2026-06-13
 lang: es
 sourceReviewed: 2026-06-13

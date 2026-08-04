@@ -8,7 +8,7 @@ system: ADOC
 description: "Alabama's single communications vendor (ICSolutions), the per-minute call cost, the tablet messaging system, and why video pricing should be confirmed at the source."
 sources:
   - name: "ADOC — New Inmate Communication Services Provider (ICSolutions, Aug 2025)"
-    url: "https://doc.alabama.gov/docs/ICSolutionsNotice-English.pdf"
+    url: "https://www.doc.alabama.gov/digital-mail-for-inmates/"
   - name: "ICS Corrections — Alabama DOC (account setup, rates)"
     url: "https://icscorrections.com/facilities/al_doc.html"
 lastReviewed: 2026-06-13

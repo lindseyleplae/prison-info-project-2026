@@ -27,13 +27,13 @@ visiting:
   scheduling: "All visits must be pre-scheduled and approved (ADOC Administrative Regulation 303); this is a maximum-security facility, so confirm whether the person's visits are contact or non-contact"
   contactVisits: true
 links:
-  official: "https://doc.alabama.gov/facility.aspx?loc=21"
-  inmateLocator: "https://doc.alabama.gov/inmatesearch.aspx"
+  official: "https://www.doc.alabama.gov/facilities/william-e-donaldson/1"
+  inmateLocator: "https://www.doc.alabama.gov/inmate/inmate-search/"
 sources:
   - name: "ADOC — St. Clair Correctional Facility"
-    url: "https://doc.alabama.gov/facility.aspx?loc=21"
+    url: "https://www.doc.alabama.gov/facilities/william-e-donaldson/1"
   - name: "ADOC — Administrative Regulation 303 (Visitation, 2025)"
-    url: "https://doc.alabama.gov/docs/AdminRegs/AR303.pdf"
+    url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "Equal Justice Initiative — St. Clair litigation"
     url: "https://eji.org/cases/st-clair/"
   - name: "UAB St. Vincent's St. Clair — Emergency (Pell City)"

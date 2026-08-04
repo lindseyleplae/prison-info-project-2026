@@ -8,9 +8,9 @@ system: ADOC
 description: "Cómo saber si una persona está en una prisión estatal de Alabama o en una cárcel del condado, por qué muchas personas sentenciadas por el estado esperan en cárceles del condado, los centros de recepción en Kilby y Tutwiler, y cómo encontrar a alguien con la ADOC Inmate Search."
 sources:
   - name: "ADOC — Inmate Search"
-    url: "https://doc.alabama.gov/inmatesearch.aspx"
+    url: "https://www.doc.alabama.gov/inmate/inmate-search/"
   - name: "ADOC — Facilities directory"
-    url: "https://doc.alabama.gov/facaddr.aspx"
+    url: "https://www.doc.alabama.gov/facilities/"
   - name: "VINELink — Alabama (AlaVINE victim notification)"
     url: "https://www.vinelink.com/"
 lastReviewed: 2026-06-13

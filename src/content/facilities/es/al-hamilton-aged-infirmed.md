@@ -27,13 +27,13 @@ visiting:
   scheduling: "Todas las visitas deben programarse y aprobarse previamente (Reglamento Administrativo 303 de ADOC); confirme el proceso con el centro"
   contactVisits: true
 links:
-  official: "https://doc.alabama.gov/facility.aspx?loc=30"
-  inmateLocator: "https://doc.alabama.gov/inmatesearch.aspx"
+  official: "https://www.doc.alabama.gov/facilities/hamilton/"
+  inmateLocator: "https://www.doc.alabama.gov/inmate/inmate-search/"
 sources:
   - name: "ADOC — Hamilton Aged & Infirmed Center"
-    url: "https://doc.alabama.gov/facility.aspx?loc=30"
+    url: "https://www.doc.alabama.gov/facilities/hamilton/"
   - name: "ADOC — Administrative Regulation 303 (Visitation, 2025)"
-    url: "https://doc.alabama.gov/docs/AdminRegs/AR303.pdf"
+    url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "North Mississippi Medical Center–Hamilton — Emergency (Hamilton)"
     url: "https://www.nmhs.net/locations/north-mississippi-medical-center-hamilton"
 lastVerified: 2026-07-30

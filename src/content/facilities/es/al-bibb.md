@@ -26,13 +26,13 @@ visiting:
   scheduling: "Todas las visitas deben programarse y aprobarse previamente (Reglamento Administrativo 303 de ADOC); confirme el proceso con el centro"
   contactVisits: true
 links:
-  official: "https://doc.alabama.gov/facility.aspx?loc=39"
-  inmateLocator: "https://doc.alabama.gov/inmatesearch.aspx"
+  official: "https://www.doc.alabama.gov/facilities/bibb/"
+  inmateLocator: "https://www.doc.alabama.gov/inmate/inmate-search/"
 sources:
   - name: "ADOC — Bibb Correctional Facility"
-    url: "https://doc.alabama.gov/facility.aspx?loc=39"
+    url: "https://www.doc.alabama.gov/facilities/bibb/"
   - name: "ADOC — Administrative Regulation 303 (Visitation, 2025)"
-    url: "https://doc.alabama.gov/docs/AdminRegs/AR303.pdf"
+    url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "Bibb Medical Center — Emergency (Centreville)"
     url: "https://www.bibbmedicalcenter.com/"
 lastVerified: 2026-07-30

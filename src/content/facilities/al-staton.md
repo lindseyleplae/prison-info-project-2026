@@ -26,13 +26,13 @@ visiting:
   scheduling: "All visits must be pre-scheduled and approved (ADOC Administrative Regulation 303); confirm the process with the facility"
   contactVisits: true
 links:
-  official: "https://doc.alabama.gov/facility.aspx?loc=16"
-  inmateLocator: "https://doc.alabama.gov/inmatesearch.aspx"
+  official: "https://www.doc.alabama.gov/facilities/staton/"
+  inmateLocator: "https://www.doc.alabama.gov/inmate/inmate-search/"
 sources:
   - name: "ADOC — Staton Correctional Facility"
-    url: "https://doc.alabama.gov/facility.aspx?loc=16"
+    url: "https://www.doc.alabama.gov/facilities/staton/"
   - name: "ADOC — Administrative Regulation 303 (Visitation, 2025)"
-    url: "https://doc.alabama.gov/docs/AdminRegs/AR303.pdf"
+    url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "Baptist Medical Center South — Emergency (Montgomery)"
     url: "https://www.baptistfirst.org/location/baptist-medical-center-south"
 lastVerified: 2026-07-30

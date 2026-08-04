@@ -27,15 +27,15 @@ visiting:
   scheduling: "All visits must be pre-scheduled and approved (ADOC Administrative Regulation 303); a newly arrived person may be transferred within weeks, so confirm the person is still here before traveling"
   contactVisits: true
 links:
-  official: "https://doc.alabama.gov/facility.aspx?loc=36"
-  inmateLocator: "https://doc.alabama.gov/inmatesearch.aspx"
+  official: "https://www.doc.alabama.gov/facilities/kilby/"
+  inmateLocator: "https://www.doc.alabama.gov/inmate/inmate-search/"
 sources:
   - name: "ADOC — Kilby Correctional Facility"
-    url: "https://doc.alabama.gov/facility.aspx?loc=36"
+    url: "https://www.doc.alabama.gov/facilities/kilby/"
   - name: "ADOC — Administrative Regulation 303 (Visitation, 2025)"
-    url: "https://doc.alabama.gov/docs/AdminRegs/AR303.pdf"
+    url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "ADOC — Inmate Search (AIS number lookup)"
-    url: "https://doc.alabama.gov/inmatesearch.aspx"
+    url: "https://www.doc.alabama.gov/inmate/inmate-search/"
   - name: "Jackson Hospital — Emergency Care (Montgomery)"
     url: "https://www.jackson.org/services/emergency-care/"
 lastVerified: 2026-07-30

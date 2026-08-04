@@ -8,11 +8,11 @@ system: ADOC
 description: "Por qué el correo personal de Alabama ahora va a un centro de escaneo en San Antonio y llega a la persona como imágenes en una tableta, cómo dirigirlo con el AIS number, qué sigue yendo a la institución, y la regla de que los libros solo se aceptan de una editorial o librería."
 sources:
   - name: "ADOC — Inmate Mail Has Gone Digital (family flyer, Oct 2025)"
-    url: "https://www.doc.alabama.gov/docs/ICMail-Family.pdf"
+    url: "https://www.doc.alabama.gov/digital-mail-for-inmates/"
   - name: "ADOC — Administrative Regulation 448 (Inmate Mail)"
-    url: "https://doc.alabama.gov/docs/adminregs/ar448.pdf"
+    url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "ADOC — Inmate Search (AIS number lookup)"
-    url: "https://doc.alabama.gov/inmatesearch.aspx"
+    url: "https://www.doc.alabama.gov/inmate/inmate-search/"
 lastReviewed: 2026-06-13
 lang: es
 sourceReviewed: 2026-06-13

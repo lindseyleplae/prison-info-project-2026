@@ -8,9 +8,9 @@ system: ADOC
 description: "How to tell whether someone is in an Alabama state prison or a county jail, why many state-sentenced people wait in county jails, the reception centers at Kilby and Tutwiler, and how to find someone with the ADOC Inmate Search."
 sources:
   - name: "ADOC — Inmate Search"
-    url: "https://doc.alabama.gov/inmatesearch.aspx"
+    url: "https://www.doc.alabama.gov/inmate/inmate-search/"
   - name: "ADOC — Facilities directory"
-    url: "https://doc.alabama.gov/facaddr.aspx"
+    url: "https://www.doc.alabama.gov/facilities/"
   - name: "VINELink — Alabama (AlaVINE victim notification)"
     url: "https://www.vinelink.com/"
 lastReviewed: 2026-06-13
