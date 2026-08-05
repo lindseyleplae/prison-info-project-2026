@@ -32,5 +32,12 @@ const mailtoHref = `mailto:${siteConfig.email}?subject=${encodeURIComponent(subj
       <a href={mailtoHref} class="feedback__email">{t(lang, 'feedback.cta')}</a>
     </p>
     <p class="feedback__address">{t(lang, 'feedback.orEmail')} <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.</p>
+
+    <div class="feedback__scope">
+      <h3 class="feedback__scope-heading">{t(lang, 'feedback.scopeHeading')}</h3>
+      <p>{t(lang, 'feedback.scopeBody')}</p>
+      <p>{t(lang, 'feedback.scopeRedirect')}</p>
+      <p>{t(lang, 'feedback.scopePrivacy')}</p>
+    </div>
   </div>
 </aside>

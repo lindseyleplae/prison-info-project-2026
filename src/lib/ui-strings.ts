@@ -92,7 +92,20 @@ const strings = {
     // Feedback
     'feedback.heading': 'See something that needs updating?',
     'feedback.body':
-      'Prison policies change frequently. If you find outdated information, an error, or have something to add, you can report it for this page.',
+      'Prison policies change frequently. If you find outdated information or an error on this page, you can report it.',
+    // Scope note. Readers arrive on a page listing a prison's hours, mailing
+    // address, and phone number, which can read as the facility's own page, and
+    // then meet an email address — so people send visitation applications,
+    // ask where someone is held, and report conditions here. Those requests
+    // reach no one who can act on them. State plainly what this site is not,
+    // and point each request at the channel that can actually handle it.
+    'feedback.scopeHeading': 'What this site can and cannot do',
+    'feedback.scopeBody':
+      'This is an independent reference site. It is not a prison, and it is not a corrections department. It cannot look up where someone is held, schedule or approve a visit, accept visitation applications or other forms, pass messages or money to someone inside, or receive reports about conditions, medical care, or staff.',
+    'feedback.scopeRedirect':
+      'Those requests go to the facility or the state corrections department directly. The facility phone number and official page are listed above, and each state\'s guides link its inmate locator and its grievance and oversight contacts.',
+    'feedback.scopePrivacy':
+      'Please do not send Social Security numbers, dates of birth, identification documents, or completed forms. Nobody here can process them.',
     'feedback.cta': 'Suggest a correction for this page',
     'feedback.orEmail': 'Or email',
     'feedback.subject': 'Correction or update:',
@@ -244,7 +257,14 @@ const strings = {
     // Feedback
     'feedback.heading': '¿Ve algo que deba actualizarse?',
     'feedback.body':
-      'Las políticas penitenciarias cambian con frecuencia. Si encuentra información desactualizada, un error, o tiene algo que agregar, puede reportarlo para esta página.',
+      'Las políticas penitenciarias cambian con frecuencia. Si encuentra información desactualizada o un error en esta página, puede reportarlo.',
+    'feedback.scopeHeading': 'Lo que este sitio puede y no puede hacer',
+    'feedback.scopeBody':
+      'Este es un sitio de referencia independiente. No es una prisión ni un departamento correccional. No puede buscar dónde está alojada una persona, programar ni aprobar una visita, recibir solicitudes de visita u otros formularios, entregar mensajes o dinero a una persona encarcelada, ni recibir reportes sobre las condiciones, la atención médica o el personal.',
+    'feedback.scopeRedirect':
+      'Esas solicitudes se dirigen directamente a la institución o al departamento correccional del estado. El teléfono de la institución y su página oficial aparecen más arriba, y las guías de cada estado enlazan su localizador de reclusos y sus contactos de quejas y supervisión.',
+    'feedback.scopePrivacy':
+      'Por favor no envíe números de Seguro Social, fechas de nacimiento, documentos de identidad ni formularios completados. Aquí nadie puede tramitarlos.',
     'feedback.cta': 'Sugiera una corrección para esta página',
     'feedback.orEmail': 'O escriba a',
     'feedback.subject': 'Corrección o actualización:',
