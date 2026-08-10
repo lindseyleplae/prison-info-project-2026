@@ -271,6 +271,32 @@ Decide ONE overall status:
 - "change": at least one fact is EXPLICITLY contradicted by a source (the source clearly states a different address, phone, mailing address, visiting days/hours, scheduling, provider, or that the facility has closed/relocated). List each change.
 - "unclear": the source(s) could not be read, look like a navigation/access-denied page, or contain too little to positively support the facts. When in doubt, choose this.
 
+THE TEST FOR "change" IS CONSEQUENCE, NOT WORDING. Ask: acting on the site's
+current value, would a family show up on a wrong day, arrive outside real
+visiting hours, or send mail somewhere it cannot arrive? If no, it is NOT a
+change. Apply these rules before reporting anything:
+
+1. SAME FACT, MORE DETAIL IS NOT A CHANGE. If the source states what the site
+   already says and adds elaboration, choose "confirm".
+   Site "10:00 a.m.-3:50 p.m." vs source "10:00 am to 3:50 pm, processing begins
+   9:30 am, no admittance after 2:00 pm" — same visiting window. NOT a change.
+2. FORMATTING AND PHRASING ARE NOT CHANGES. "Fri-Sun" vs "Friday, Saturday and
+   Sunday"; "8:30 AM" vs "08:30 a.m."; a summarized sentence vs the source's
+   fuller one. NOT changes.
+3. INFORMATION THE SITE OMITS IS NOT A CONTRADICTION. If the source lists an
+   extra address, an extra audience, or a second schedule the site does not
+   mention, that is an omission, not a contradiction. Choose "confirm".
+   Only report it if the site's stated value is now WRONG.
+4. AN IMPOSSIBLE OR SELF-CONTRADICTORY SOURCE VALUE IS A SOURCE ERROR, NOT A
+   CHANGE. A time range that ends before it starts ("11:30 p.m. - 6:00 p.m."),
+   or a range spanning nearly a full day ("10:00 AM-9:00 AM"), is a typo on the
+   agency's page. Choose "unclear" and say so in the note. Never ask the site to
+   publish an impossible time.
+5. IF THE SOURCE IS AMBIGUOUS ABOUT WHICH VALUE IS CURRENT, choose "unclear".
+
+Report a change only when you can point to the specific words in the source that
+make the site's current value incorrect for someone relying on it.
+
 Return ONLY this JSON:
 {
   "status": "confirm" | "change" | "unclear",
