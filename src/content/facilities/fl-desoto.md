@@ -15,7 +15,7 @@ address: "13617 S.E. Highway 70, Arcadia, FL 34266-7800"
 securityLevel: "Mixed custody (men)"
 facilityType: "State Prison"
 contact:
-  mainPhone: "(863) 485-1300"
+  mainPhone: "(863) 494-3727"
   mailingAddress: "13617 S.E. Highway 70, Arcadia, FL 34266-7800"
 providers:
   phone: "ViaPath"

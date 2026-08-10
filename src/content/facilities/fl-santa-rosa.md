@@ -14,7 +14,7 @@ address: "5850 East Milton Road, Milton, FL 32583"
 securityLevel: "Close management / mixed custody (men)"
 facilityType: "State Prison"
 contact:
-  mainPhone: "(850) 981-5200"
+  mainPhone: "(850) 983-5800"
   mailingAddress: "5850 East Milton Road, Milton, FL 32583"
 providers:
   phone: "ViaPath"

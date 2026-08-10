@@ -15,7 +15,7 @@ address: "35 Apalachee Drive, Sneads, FL 32460"
 securityLevel: "Custodia mixta (hombres)"
 facilityType: "Prisión estatal"
 contact:
-  mainPhone: "(850) 593-9501"
+  mainPhone: "(850) 718-0688"
   mailingAddress: "35 Apalachee Drive, Sneads, FL 32460"
 providers:
   phone: "ViaPath"

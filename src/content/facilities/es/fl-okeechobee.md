@@ -13,7 +13,7 @@ address: "3420 NE 168th Street, Okeechobee, FL 34972"
 securityLevel: "Custodia mixta (hombres)"
 facilityType: "Prisión estatal"
 contact:
-  mainPhone: "(863) 824-1003"
+  mainPhone: "(863) 462-5400"
   mailingAddress: "3420 NE 168th Street, Okeechobee, FL 34972"
 providers:
   phone: "ViaPath"

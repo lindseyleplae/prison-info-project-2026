@@ -13,7 +13,7 @@ address: "3950 Tiger Bay Road, Daytona Beach, FL 32124"
 securityLevel: "Custodia mixta (hombres)"
 facilityType: "Prisión estatal"
 contact:
-  mainPhone: "(386) 323-1002"
+  mainPhone: "(386) 323-1070"
   mailingAddress: "3950 Tiger Bay Road, Daytona Beach, FL 32124"
 providers:
   phone: "ViaPath"

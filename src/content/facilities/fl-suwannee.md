@@ -14,7 +14,7 @@ address: "5964 U.S. Highway 90, Live Oak, FL 32060"
 securityLevel: "Mixed/close custody (men)"
 facilityType: "State Prison"
 contact:
-  mainPhone: "(386) 963-6601"
+  mainPhone: "(386) 963-6530"
   mailingAddress: "5964 U.S. Highway 90, Live Oak, FL 32060"
 providers:
   phone: "ViaPath"

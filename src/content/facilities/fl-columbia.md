@@ -14,7 +14,7 @@ address: "216 SE Corrections Way, Lake City, FL 32025"
 securityLevel: "Mixed custody + close management (men)"
 facilityType: "State Prison"
 contact:
-  mainPhone: "(386) 754-7601"
+  mainPhone: "(386) 754-7600"
   mailingAddress: "216 SE Corrections Way, Lake City, FL 32025"
 providers:
   phone: "ViaPath"

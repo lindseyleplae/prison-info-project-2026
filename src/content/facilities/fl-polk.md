@@ -13,7 +13,7 @@ address: "10800 Evans Road, Polk City, FL 33868-6925"
 securityLevel: "Mixed custody (men)"
 facilityType: "State Prison"
 contact:
-  mainPhone: "(863) 984-1452"
+  mainPhone: "(863) 984-2273"
   mailingAddress: "10800 Evans Road, Polk City, FL 33868-6925"
 providers:
   phone: "ViaPath"

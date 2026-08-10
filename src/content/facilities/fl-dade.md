@@ -13,7 +13,7 @@ address: "19000 SW 377th Street, Florida City, FL 33034"
 securityLevel: "Mixed custody (men) — mental-health mission"
 facilityType: "State Prison"
 contact:
-  mainPhone: "(305) 242-1710"
+  mainPhone: "(305) 242-1900"
   mailingAddress: "19000 SW 377th Street, Florida City, FL 33034"
 providers:
   phone: "ViaPath"

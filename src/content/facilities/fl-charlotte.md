@@ -13,7 +13,7 @@ address: "33123 Oil Well Road, Punta Gorda, FL 33955"
 securityLevel: "Mixed custody (men)"
 facilityType: "State Prison"
 contact:
-  mainPhone: "(941) 833-8001"
+  mainPhone: "(941) 833-8100"
   mailingAddress: "33123 Oil Well Road, Punta Gorda, FL 33955"
 providers:
   phone: "ViaPath"

@@ -14,7 +14,7 @@ address: "4455 Sam Mitchell Drive, Chipley, FL 32428"
 securityLevel: "Reception and classification (men)"
 facilityType: "Reception Center"
 contact:
-  mainPhone: "(850) 773-0201"
+  mainPhone: "(850) 773-6100"
   mailingAddress: "4455 Sam Mitchell Drive, Chipley, FL 32428"
 providers:
   phone: "ViaPath"

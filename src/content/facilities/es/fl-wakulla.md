@@ -14,7 +14,7 @@ address: "110 Melaleuca Drive, Crawfordville, FL 32327"
 securityLevel: "Custodia mixta (hombres)"
 facilityType: "Prisión estatal"
 contact:
-  mainPhone: "(850) 617-0701"
+  mainPhone: "(850) 410-1895"
   mailingAddress: "110 Melaleuca Drive, Crawfordville, FL 32327"
 providers:
   phone: "ViaPath"

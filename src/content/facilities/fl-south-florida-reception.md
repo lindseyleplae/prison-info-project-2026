@@ -14,7 +14,7 @@ address: "14000 NW 41st Street, Doral, FL 33178"
 securityLevel: "Reception and classification (men)"
 facilityType: "Reception Center"
 contact:
-  mainPhone: "(305) 717-0213"
+  mainPhone: "(305) 592-9567"
   mailingAddress: "14000 NW 41st Street, Doral, FL 33178"
 providers:
   phone: "ViaPath"
