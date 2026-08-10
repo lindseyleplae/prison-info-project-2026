@@ -20,8 +20,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "Saturday, Sunday, and state holidays"
-  hours: "9:00 a.m. – 3:00 p.m. (confirm with the facility)"
+  days: "General population: Saturday and Sunday. Protective custody/segregation: Tuesday and Wednesday (one visit per week)"
+  hours: "9:00 AM - 3:00 PM"
   scheduling: "By appointment through GDC's online visitation portal; the visitor must first be approved on the person's list. Requests for a given week are accepted Monday through Wednesday."
   contactVisits: true
 links:

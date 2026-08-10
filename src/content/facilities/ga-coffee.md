@@ -20,8 +20,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "Saturday, Sunday, and state holidays (confirm with the facility)"
-  hours: "Confirm the facility's current visiting hours"
+  days: "Alternating by last name: Saturday (M-Z), Sunday (A-L); state holidays"
+  hours: "9:00 AM - 3:00 PM"
   scheduling: "By appointment through GDC's online visitation portal; the visitor must first be approved on the person's list."
   contactVisits: true
 links:

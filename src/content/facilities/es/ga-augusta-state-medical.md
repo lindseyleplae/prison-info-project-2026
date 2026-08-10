@@ -20,8 +20,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "sábado, domingo y días feriados estatales"
-  hours: "9:00 a. m. – 3:00 p. m. (confirme con la institución)"
+  days: "Población general: sábado y domingo. Custodia protectora/segregación: martes y miércoles (una visita por semana)"
+  hours: "9:00 AM - 3:00 PM"
   scheduling: "Con cita a través del portal de visitas en línea de GDC; el visitante debe estar aprobado previamente en la lista de la persona. Las solicitudes para una semana determinada se aceptan de lunes a miércoles."
   contactVisits: true
 links:

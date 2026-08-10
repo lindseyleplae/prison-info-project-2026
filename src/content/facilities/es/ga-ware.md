@@ -19,9 +19,9 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "Sábado, domingo y días feriados estatales (confirme con la institución)"
-  hours: "Confirme con la institución los horarios de visita vigentes"
-  scheduling: "Con cita previa a través del portal de visitas en línea de GDC; el visitante debe estar aprobado primero en la lista de la persona. Al ser una prisión de mayor seguridad, las visitas pueden estar más restringidas — confirme las reglas vigentes con la institución."
+  days: "Población general: sábado, domingo y todos los días feriados estatales. Tier II: miércoles y viernes"
+  hours: "9:00-11:00 AM y 1:00-3:00 PM"
+  scheduling: "Con cita previa a través del portal de visitas en línea de GDC; el visitante debe estar aprobado primero en la lista de la persona. Al ser una prisión de mayor seguridad, las visitas pueden estar más restringidas — confirme las reglas vigentes con la institución. Ware también exige llamar con al menos un día de anticipación a la secretaría del alcaide: (912) 285-6432."
   contactVisits: true
 links:
   official: "https://gdc.georgia.gov/locations/ware-state-prison"

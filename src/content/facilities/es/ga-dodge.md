@@ -19,8 +19,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "sábado, domingo y días feriados estatales (confirme con la institución)"
-  hours: "Confirme el horario de visitas vigente de la institución"
+  days: "Población general: sábado, domingo y días feriados estatales. Segregación: martes y jueves (sin feriados)"
+  hours: "Población general 9:00 AM - 3:00 PM; segregación 9:00 AM - 11:00 AM"
   scheduling: "Con cita a través del portal de visitas en línea de GDC; el visitante debe estar aprobado previamente en la lista de la persona."
   contactVisits: true
 links:

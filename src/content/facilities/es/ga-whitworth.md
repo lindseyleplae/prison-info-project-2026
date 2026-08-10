@@ -19,8 +19,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "Sábado, domingo y días feriados estatales"
-  hours: "9:00 a. m. – 3:00 p. m. (confirme con la institución)"
+  days: "Alternados según el apellido: sábado (M-Z), domingo (A-L); días feriados estatales"
+  hours: "9:00 AM - 3:00 PM"
   scheduling: "Con cita previa a través del portal de visitas en línea de GDC; el visitante debe estar aprobado primero en la lista de la persona. Las solicitudes para una semana determinada se aceptan de lunes a miércoles."
   contactVisits: true
 links:

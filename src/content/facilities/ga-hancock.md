@@ -19,8 +19,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "Saturday, Sunday, and state holidays (confirm with the facility)"
-  hours: "Confirm the facility's current visiting hours"
+  days: "General population: Saturday, Sunday, and state holidays. Tier I and Tier II: Tuesday and Thursday"
+  hours: "General population 9:00 AM - 3:00 PM; Tier I and Tier II 9:00 AM - 11:00 AM"
   scheduling: "By appointment through GDC's online visitation portal; the visitor must first be approved on the person's list. As a higher-security prison, visiting may be more restricted — confirm the facility's current rules."
   contactVisits: true
 links:

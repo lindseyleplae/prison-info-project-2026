@@ -19,8 +19,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "Saturday, Sunday, and state holidays (confirm with the facility)"
-  hours: "Confirm the facility's current visiting hours"
+  days: "General population: Saturday, Sunday, and state holidays. Segregation: Tuesday and Thursday (no holidays)"
+  hours: "General population 9:00 AM - 3:00 PM; segregation 9:00 AM - 11:00 AM"
   scheduling: "By appointment through GDC's online visitation portal; the visitor must first be approved on the person's list."
   contactVisits: true
 links:

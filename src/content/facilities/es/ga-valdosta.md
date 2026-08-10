@@ -19,8 +19,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "Sábado, domingo y días feriados estatales (confirme con la institución)"
-  hours: "Confirme con la institución los horarios de visita vigentes"
+  days: "Población general: sábado, domingo y días feriados estatales. Tier: lunes y miércoles (excepto feriados estatales)"
+  hours: "Población general 9:00 AM - 3:00 PM; Tier 8:30 AM - 2:30 PM"
   scheduling: "Con cita previa a través del portal de visitas en línea de GDC; el visitante debe estar aprobado primero en la lista de la persona. Al ser una prisión de mayor seguridad, las visitas pueden estar más restringidas — confirme las reglas vigentes con la institución."
   contactVisits: true
 links:

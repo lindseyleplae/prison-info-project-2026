@@ -19,9 +19,9 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "Saturday, Sunday, and state holidays (confirm with the facility)"
-  hours: "Confirm the facility's current visiting hours"
-  scheduling: "By appointment through GDC's online visitation portal; the visitor must first be approved on the person's list. As a higher-security prison, visiting may be more restricted — confirm the facility's current rules."
+  days: "General population: Saturday, Sunday, and all state holidays. Tier II: Wednesday and Friday"
+  hours: "9:00-11:00 AM and 1:00-3:00 PM"
+  scheduling: "By appointment through GDC's online visitation portal; the visitor must first be approved on the person's list. As a higher-security prison, visiting may be more restricted — confirm the facility's current rules. Ware also requires a call at least one day ahead — the Warden's Secretary at (912) 285-6432."
   contactVisits: true
 links:
   official: "https://gdc.georgia.gov/locations/ware-state-prison"

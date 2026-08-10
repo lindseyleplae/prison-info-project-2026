@@ -19,8 +19,8 @@ contact:
 providers:
   phone: "Securus"
 visiting:
-  days: "Saturday, Sunday, and state holidays (confirm with the facility)"
-  hours: "Confirm the facility's current visiting hours"
+  days: "Saturday and Sunday, plus state holidays — the dorm assignment sets the time"
+  hours: "8:30 AM - 12:30 PM and 1:30 PM - 5:30 PM"
   scheduling: "By appointment through GDC's online visitation portal; the visitor must first be approved on the person's list."
   contactVisits: true
 links:
