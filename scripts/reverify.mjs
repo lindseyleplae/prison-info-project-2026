@@ -369,9 +369,24 @@ async function confirmPage(page) {
   }
 }
 
+// ---- dismissed findings ----
+// See scripts/reverify-dismissed.json. Each entry silences ONE field on ONE
+// page, so any other field on that page still reports normally.
+let DISMISSED = [];
+try {
+  const raw = await fs.readFile(new URL('./reverify-dismissed.json', import.meta.url), 'utf8');
+  DISMISSED = JSON.parse(raw).dismissed ?? [];
+} catch (e) {
+  console.warn(`no dismissal list loaded (${e.code || e.message}) — reporting everything`);
+}
+function isDismissed(rel, field) {
+  const norm = (p) => p.replace(/\\/g, '/');
+  return DISMISSED.some((d) => norm(d.file) === norm(rel) && d.field === field);
+}
+
 // ---- run ----
 const due = await collectDue();
-const results = { confirmed: [], changed: [], flagged: [] };
+const results = { confirmed: [], changed: [], flagged: [], dismissedCount: 0 };
 
 for (const page of due) {
   const facts = currentFacts(page.data, page.body);
@@ -400,7 +415,19 @@ for (const page of due) {
     await confirmPage(page);
     results.confirmed.push({ rel, title: facts.title, note: verdict.note });
   } else if (verdict.status === 'change') {
-    results.changed.push({ rel, title: facts.title, changes: verdict.changes || [], note: verdict.note });
+    // Drop findings a human already checked against the source and rejected.
+    // These recur every week because the agency's page still carries the error,
+    // so no prompt wording stops them. A page whose only findings are dismissed
+    // is treated as confirmed — it was verified, just not by the model.
+    const kept = (verdict.changes || []).filter((c) => !isDismissed(rel, c.field));
+    const dropped = (verdict.changes || []).length - kept.length;
+    if (dropped) results.dismissedCount += dropped;
+    if (kept.length === 0 && dropped > 0) {
+      await confirmPage(page);
+      results.confirmed.push({ rel, title: facts.title, note: 'only previously-dismissed findings' });
+    } else {
+      results.changed.push({ rel, title: facts.title, changes: kept, note: verdict.note });
+    }
   } else {
     results.flagged.push({ rel, title: facts.title, note: verdict.note });
   }
@@ -418,6 +445,12 @@ lines.push('');
 lines.push(`- ✅ **${results.confirmed.length}** confirmed unchanged${APPLY ? ' → dates refreshed' : ' (dry-run: not written)'}`);
 lines.push(`- ✏️ **${results.changed.length}** changed at the source → need a careful bilingual edit`);
 lines.push(`- ⚠️ **${results.flagged.length}** could not be verified → left untouched`);
+if (results.dismissedCount) {
+  lines.push(
+    `- 🔕 **${results.dismissedCount}** finding(s) previously checked against the source and dismissed ` +
+      '(see `scripts/reverify-dismissed.json`)'
+  );
+}
 lines.push('');
 if (results.changed.length) {
   lines.push('## Changed — please review and update (EN + ES)');

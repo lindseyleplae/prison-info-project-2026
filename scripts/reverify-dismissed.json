@@ -1,0 +1,33 @@
+{
+  "_readme": [
+    "Findings a human checked against the official source and found to be wrong.",
+    "The re-verifier keeps re-reporting these every week because the agency's own",
+    "page still contains the error, so no prompt change will stop them. Suppressing",
+    "them keeps the weekly report worth reading.",
+    "",
+    "ONLY add an entry after opening the agency's page yourself and confirming our",
+    "value is the correct one. Record what you saw and when. An entry silences one",
+    "field on one page, never a whole page, so a genuine change to any other field",
+    "is still reported.",
+    "",
+    "Remove an entry when the agency fixes its page, or when our value changes and",
+    "the dismissal no longer describes reality. `checkedOn` is there so a stale",
+    "dismissal is easy to spot."
+  ],
+  "dismissed": [
+    {
+      "file": "src/content/facilities/ca-ccwf.md",
+      "field": "visitingHours",
+      "reason": "CDCR's visiting-status page prints Friday as '11:30 p.m. - 6:00 p.m.', which is impossible (it ends before it starts) and is a typo for 11:30 a.m. Valley State Prison, CCWF's sister prison in Chowchilla with identical Sat-Sun hours, posts 11:30 a.m. Our page states 11:30 a.m. and is correct.",
+      "checkedOn": "2026-07-30",
+      "source": "https://www.cdcr.ca.gov/visitors/facility/central-california-womens-facility/"
+    },
+    {
+      "file": "src/content/facilities/co-la-vista.md",
+      "field": "mailingAddress",
+      "reason": "Reported as ZIP 81003. CDOC's own facility page reads 'PO BOX 3, Pueblo, CO. 81002', which is what we publish. Applying the reported change would break a working mailing address.",
+      "checkedOn": "2026-07-30",
+      "source": "https://cdoc.colorado.gov/facilities/pueblo-campus/la-vista-correctional-facility"
+    }
+  ]
+}
