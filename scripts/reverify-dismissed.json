@@ -28,6 +28,20 @@
       "reason": "Reported as ZIP 81003. CDOC's own facility page reads 'PO BOX 3, Pueblo, CO. 81002', which is what we publish. Applying the reported change would break a working mailing address.",
       "checkedOn": "2026-07-30",
       "source": "https://cdoc.colorado.gov/facilities/pueblo-campus/la-vista-correctional-facility"
+    },
+    {
+      "file": "src/content/facilities/il-stateville.md",
+      "field": "operatingStatus",
+      "reason": "IDOC's facility page carries a statistics block reading 'Population: 422 ... (as of 6/30/24)'. That snapshot predates the 2025 court-ordered transfer of the population, so the model reads it as evidence the prison is fully operational. Our page describes the transition accurately and is more current than the figure on the page.",
+      "checkedOn": "2026-08-10",
+      "source": "https://idoc.illinois.gov/facilities/allfacilities/facility.stateville-correctional-center.html"
+    },
+    {
+      "file": "src/content/facilities/il-stateville.md",
+      "field": "scheduling",
+      "reason": "Same stale 6/30/24 population block; the model infers normal operations from it.",
+      "checkedOn": "2026-08-10",
+      "source": "https://idoc.illinois.gov/facilities/allfacilities/facility.stateville-correctional-center.html"
     }
   ]
 }
