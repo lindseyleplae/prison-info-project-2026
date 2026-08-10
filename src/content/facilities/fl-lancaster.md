@@ -4,13 +4,13 @@ slug: lancaster
 state: fl
 system: FDC
 population: men
-summary: "A youthful-offender men's institution near Trenton in north-central Florida."
+summary: "A men's institution near Trenton in north-central Florida, listed by FDC as an adult institution after previously operating as a dedicated youthful-offender prison."
 aliases:
   - Lancaster CI
 city: Trenton
 county: Gilchrist
 address: "3449 S.W. State Road 26, Trenton, FL 32693"
-securityLevel: "Youthful-offender (men)"
+securityLevel: "Adult institution (men)"
 facilityType: "State Prison"
 contact:
   mainPhone: "(352) 463-4100"
@@ -37,26 +37,26 @@ reviewBy: 2026-08-01
 ---
 
 :::callout{variant="warning"}
-**Lancaster Correctional Institution is a youthful-offender men's institution near Trenton in north-central Florida.** Confirm the person's current institution on the FDC Corrections Offender Network before traveling, and confirm the institution's current visiting days, hours, and rules. Incoming personal mail is scanned off-site (see Mail, below).
+**Lancaster Correctional Institution is a men's institution near Trenton in north-central Florida. FDC now lists it as an adult institution; it previously operated as one of the department's dedicated youthful-offender prisons.** Confirm the person's current institution on the FDC Corrections Offender Network before traveling, and confirm the institution's current visiting days, hours, and rules. Incoming personal mail is scanned off-site (see Mail, below).
 :::
 
 :::key-info
 **Location:** Near Trenton, Gilchrist County, in north-central Florida
 
-**Population:** Men — youthful-offender
+**Population:** Men — FDC lists the institution as adult
 
-**Notable:** A dedicated youthful-offender institution for males adjudicated as adults, roughly ages 15–24, with an emphasis on education and career technical training
+**Notable:** Long one of FDC's dedicated youthful-offender prisons, with an emphasis on education and career technical training; FDC's current listing categorizes it as an adult institution
 
 **Visitation:** By reservation after approval; confirm the institution's current schedule
 :::
 
 ## Overview
 
-Lancaster Correctional Institution is a **youthful-offender men's institution** near Trenton in Gilchrist County, in north-central Florida. It is operated by the Florida Department of Corrections, holds males adjudicated as adults who are roughly ages 15 to 24, and has a capacity of about 544.
+Lancaster Correctional Institution is a **men's institution** near Trenton in Gilchrist County, in north-central Florida. It is operated by the Florida Department of Corrections and has a capacity of about 544. FDC's institution listing now categorizes it as an **adult** institution; it operated for years as one of the department's dedicated youthful-offender prisons, so confirm the current population and programs with the institution.
 
 ## What Makes Lancaster Different
 
-- **It is one of FDC's dedicated youthful-offender prisons,** holding males adjudicated as adults who are roughly ages 15 to 24.
+- **It operated for years as one of FDC's dedicated youthful-offender prisons,** holding males adjudicated as adults in the roughly 15-to-24 range; FDC's current listing categorizes the institution as adult.
 - **It emphasizes education,** including Special Education and Title I services that reflect the young population, along with career technical education.
 - **It offers career technical programs,** including Marine Service Technology, Masonry, Commercial Foods and Culinary, and Environmental Services.
 - **The institution shown in the offender search can change** if the person is transferred.

@@ -22,8 +22,8 @@ providers:
   phone: "Securus"
   video: "Securus"
 visiting:
-  days: "Friday, Saturday, and Sunday, 10:00 a.m.–3:50 p.m. (processing begins 9:30 a.m.; no admittance after 2:00 p.m.)"
-  hours: "10:00 a.m.–3:50 p.m. on visiting days"
+  days: "Friday, Saturday, and Sunday (holidays included)"
+  hours: "10:00 a.m.–3:50 p.m.; processing 9:30–10:00 a.m., resuming about 12:00 p.m. — no re-entry once you leave"
   scheduling: "By appointment — email bccfvisiting@corecivic.com (or call the facility) with each visitor's name and date of birth, the person's name and DOC number, and a callback number. In-state visitors may schedule up to 14 days ahead; an approved CDOC visiting application must be on file."
   contactVisits: true
 links:

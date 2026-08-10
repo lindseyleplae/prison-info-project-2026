@@ -22,8 +22,8 @@ providers:
   phone: "Securus"
   video: "Securus"
 visiting:
-  days: "Friday, Saturday, and Sunday, 10:00 a.m.–3:50 p.m. (processing begins 9:30 a.m.; no admittance after 2:00 p.m.)"
-  hours: "10:00 a.m.–3:50 p.m. on visiting days"
+  days: "Viernes, sábado y domingo (incluidos los días feriados)"
+  hours: "10:00 a.m.–3:50 p.m.; el registro es de 9:30 a 10:00 a.m. y se reanuda alrededor de las 12:00 p.m.; no se permite volver a entrar si sale"
   scheduling: "Con cita: escriba a bccfvisiting@corecivic.com (o llame a la institución) con el nombre y la fecha de nacimiento de cada visitante, el nombre y el número del DOC de la persona, y un número de devolución de llamada. Los visitantes que viven en Colorado pueden programar hasta con 14 días de anticipación; debe haber una solicitud de visita del CDOC aprobada en el expediente."
   contactVisits: true
 links:

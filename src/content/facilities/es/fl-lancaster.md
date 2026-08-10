@@ -4,13 +4,13 @@ slug: lancaster
 state: fl
 system: FDC
 population: men
-summary: "Una institución de hombres para delincuentes juveniles cerca de Trenton, en el centro-norte de Florida."
+summary: "Una institución de hombres cerca de Trenton, en el centro-norte de Florida, que el FDC ahora clasifica como institución para adultos tras haber funcionado como prisión dedicada a delincuentes juveniles."
 aliases:
   - Lancaster CI
 city: Trenton
 county: Gilchrist
 address: "3449 S.W. State Road 26, Trenton, FL 32693"
-securityLevel: "Delincuentes juveniles (hombres)"
+securityLevel: "Institución para adultos (hombres)"
 facilityType: "Prisión estatal"
 contact:
   mainPhone: "(352) 463-4100"
@@ -39,26 +39,26 @@ sourceReviewed: 2026-06-18
 ---
 
 :::callout{variant="warning"}
-**Lancaster Correctional Institution es una institución de hombres para delincuentes juveniles cerca de Trenton, en el centro-norte de Florida.** Confirme la institución vigente de la persona en el Corrections Offender Network de FDC antes de viajar, y confirme los días, horarios y reglas de visita vigentes de la institución. El correo personal entrante se escanea fuera del sitio (vea Correo, más abajo).
+**Lancaster Correctional Institution es una institución de hombres cerca de Trenton, en el centro-norte de Florida. El FDC ahora la clasifica como institución para adultos; anteriormente funcionó como una de las prisiones dedicadas a delincuentes juveniles del departamento.** Confirme la institución vigente de la persona en el Corrections Offender Network de FDC antes de viajar, y confirme los días, horarios y reglas de visita vigentes de la institución. El correo personal entrante se escanea fuera del sitio (vea Correo, más abajo).
 :::
 
 :::key-info
 **Ubicación:** Cerca de Trenton, condado de Gilchrist, en el centro-norte de Florida
 
-**Población:** Hombres — delincuentes juveniles
+**Población:** Hombres — el FDC clasifica la institución como para adultos
 
-**Datos destacados:** Una institución dedicada a delincuentes juveniles varones sentenciados como adultos, de aproximadamente 15 a 24 años, con énfasis en educación y capacitación técnica profesional
+**Datos destacados:** Durante años fue una de las prisiones del FDC dedicadas a delincuentes juveniles, con énfasis en educación y capacitación técnica profesional; la clasificación actual del FDC es institución para adultos
 
 **Visitas:** Con reserva después de la aprobación; confirme el horario vigente de la institución
 :::
 
 ## Descripción general
 
-Lancaster Correctional Institution es una **institución de hombres para delincuentes juveniles** cerca de Trenton, en el condado de Gilchrist, en el centro-norte de Florida. Es operada por el Departamento de Correcciones de Florida, aloja a varones sentenciados como adultos que tienen aproximadamente entre 15 y 24 años, y tiene una capacidad de aproximadamente 544.
+Lancaster Correctional Institution es una **institución de hombres** cerca de Trenton, en el condado de Gilchrist, en el centro-norte de Florida. Es operada por el Departamento de Correcciones de Florida y tiene una capacidad de aproximadamente 544. El listado actual del FDC la clasifica como institución para **adultos**; durante años funcionó como una de las prisiones dedicadas a delincuentes juveniles del departamento, así que confirme la población y los programas vigentes con la institución.
 
 ## Qué hace diferente a Lancaster
 
-- **Es una de las prisiones dedicadas de FDC para delincuentes juveniles,** que aloja a varones sentenciados como adultos de aproximadamente 15 a 24 años.
+- **Durante años fue una de las prisiones dedicadas del FDC para delincuentes juveniles,** que alojaba a varones sentenciados como adultos de aproximadamente 15 a 24 años; el listado actual del FDC clasifica la institución como para adultos.
 - **Da énfasis a la educación,** incluidos los servicios de Educación Especial y Título I que reflejan a la población joven, junto con la educación técnica profesional.
 - **Ofrece programas técnicos profesionales,** incluidos Tecnología de Servicio Marino, Albañilería, Alimentos Comerciales y Culinaria, y Servicios Ambientales.
 - **La institución que aparece en la búsqueda de reclusos puede cambiar** si la persona es trasladada.
