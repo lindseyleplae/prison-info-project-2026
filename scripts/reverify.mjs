@@ -118,27 +118,101 @@ async function collectDue() {
   return due.slice(0, LIMIT);
 }
 
+// Extract readable text from raw HTML, the same way for both fetch paths.
+function htmlToText(html) {
+  const $ = cheerio.load(html);
+  $('script, style, noscript, svg').remove();
+  return $('body').text().replace(/\s+/g, ' ').trim().slice(0, MAX_SOURCE_CHARS);
+}
+
+// A shared headless browser, launched only if something actually needs it.
+// Launching costs a few seconds, so runs whose sources all answer a plain fetch
+// never pay for it.
+let browserPromise = null;
+let browserUnavailable = false;
+
+async function getBrowser() {
+  if (browserUnavailable) return null;
+  if (!browserPromise) {
+    browserPromise = (async () => {
+      const { chromium } = await import('playwright');
+      return chromium.launch({ args: ['--disable-dev-shm-usage'] });
+    })().catch((e) => {
+      // No browser binary (or no Playwright) — degrade to fetch-only rather
+      // than failing the run. Those pages just stay "could not verify".
+      console.warn(`browser fallback unavailable: ${e.message}`);
+      browserUnavailable = true;
+      return null;
+    });
+  }
+  return browserPromise;
+}
+
+export async function closeBrowser() {
+  if (!browserPromise) return;
+  const b = await browserPromise.catch(() => null);
+  if (b) await b.close().catch(() => {});
+}
+
+// Some DOC sites refuse a scripted request (403) or render their content with
+// JavaScript, so a plain fetch returns a shell. Florida, Arkansas, and Arizona
+// all do this, which is why ~170 of their pages could never be auto-verified —
+// not because anything was wrong with them. A real browser reads them fine.
+async function fetchViaBrowser(url) {
+  const browser = await getBrowser();
+  if (!browser) return { ok: false, reason: 'browser unavailable' };
+  let context;
+  try {
+    context = await browser.newContext({ userAgent: UA });
+    const page = await context.newPage();
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: FETCH_TIMEOUT_MS });
+    // Give client-rendered content a moment to populate, but never hang on a
+    // page that keeps a socket open (chat widgets, analytics beacons).
+    await page.waitForLoadState('networkidle', { timeout: 5000 }).catch(() => {});
+    const text = htmlToText(await page.content());
+    if (text.length < 200) return { ok: false, reason: 'thin page (browser)' };
+    return { ok: true, text, via: 'browser' };
+  } catch (e) {
+    return { ok: false, reason: `browser: ${e.message.split('\n')[0].slice(0, 60)}` };
+  } finally {
+    await context?.close().catch(() => {});
+  }
+}
+
 async function fetchText(url) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
+  let plain;
   try {
     const res = await fetch(url, {
       redirect: 'follow',
       signal: controller.signal,
       headers: { 'user-agent': UA, accept: 'text/html,application/xhtml+xml' },
     });
-    if (!res.ok) return { ok: false, reason: `HTTP ${res.status}` };
-    const html = await res.text();
-    const $ = cheerio.load(html);
-    $('script, style, noscript, svg').remove();
-    const text = $('body').text().replace(/\s+/g, ' ').trim().slice(0, MAX_SOURCE_CHARS);
-    if (text.length < 200) return { ok: false, reason: 'thin/JS-only page' };
-    return { ok: true, text };
+    if (!res.ok) plain = { ok: false, reason: `HTTP ${res.status}`, status: res.status };
+    else {
+      const text = htmlToText(await res.text());
+      plain = text.length < 200 ? { ok: false, reason: 'thin/JS-only page' } : { ok: true, text };
+    }
   } catch (e) {
-    return { ok: false, reason: e.name === 'AbortError' ? 'timeout' : 'network error' };
+    plain = { ok: false, reason: e.name === 'AbortError' ? 'timeout' : 'network error' };
   } finally {
     clearTimeout(timer);
   }
+
+  if (plain.ok) return plain;
+
+  // Retry in a browser only for the failures a browser can actually fix:
+  // bot-blocking and JS-rendered pages. A 404 means the source genuinely moved
+  // (the content audit reports those separately), and a network error or
+  // timeout will not improve — retrying either would just burn time.
+  const worthRetrying =
+    plain.reason === 'thin/JS-only page' ||
+    (plain.status && plain.status !== 404 && plain.status !== 410);
+  if (!worthRetrying) return plain;
+
+  const viaBrowser = await fetchViaBrowser(url);
+  return viaBrowser.ok ? viaBrowser : { ...plain, reason: `${plain.reason}; ${viaBrowser.reason}` };
 }
 
 // Pick up to two sources: the official facility page, plus any "visiting" source.
@@ -338,3 +412,7 @@ if (results.flagged.length) {
 const summary = lines.join('\n');
 await fs.writeFile('reverify-summary.md', summary + '\n');
 console.log(summary);
+
+// Release the headless browser if the fallback ever launched one; without this
+// the process hangs on an open Chromium.
+await closeBrowser();

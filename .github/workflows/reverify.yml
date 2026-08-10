@@ -50,6 +50,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # Needed by the script's browser fallback, which reads DOC sites that
+      # block scripted requests or render with JavaScript. If this step is ever
+      # removed the script degrades to fetch-only rather than failing.
+      - name: Install Chromium for the browser fallback
+        run: npx playwright install --with-deps chromium
+
       - name: Run re-verification
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
