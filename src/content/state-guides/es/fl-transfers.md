@@ -10,7 +10,7 @@ sources:
   - name: "FDC — Corrections Offender Network"
     url: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
   - name: "FDC — Institutions"
-    url: "https://fdc.myflorida.com/ci/index.html"
+    url: "https://www.fdc.myflorida.com/institutions/institutions-list/"
 lastReviewed: 2026-06-14
 lang: es
 sourceReviewed: 2026-06-14

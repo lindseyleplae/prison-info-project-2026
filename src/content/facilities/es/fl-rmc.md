@@ -27,11 +27,11 @@ visiting:
   contactVisits: true
   videoVisits: true
 links:
-  official: "https://fdc.myflorida.com/ci/index.html"
+  official: "https://www.fdc.myflorida.com/institutions/institutions-list/209"
   inmateLocator: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
 sources:
   - name: "FDC — Institutions"
-    url: "https://fdc.myflorida.com/ci/index.html"
+    url: "https://www.fdc.myflorida.com/institutions/institutions-list/209"
   - name: "FDC — Corrections Offender Network"
     url: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
 lastVerified: 2026-06-14

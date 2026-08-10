@@ -26,11 +26,11 @@ visiting:
   contactVisits: true
   videoVisits: true
 links:
-  official: "https://fdc.myflorida.com/institutions/list-of-major-institutions/florida-womens-reception-center"
+  official: "https://www.fdc.myflorida.com/institutions/institutions-list/368"
   inmateLocator: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
 sources:
   - name: "FDC — Florida Women's Reception Center"
-    url: "https://fdc.myflorida.com/institutions/list-of-major-institutions/florida-womens-reception-center"
+    url: "https://www.fdc.myflorida.com/institutions/institutions-list/368"
   - name: "FDC — Corrections Offender Network"
     url: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
 lastVerified: 2026-06-18
