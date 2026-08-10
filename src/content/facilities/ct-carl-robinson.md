@@ -22,8 +22,8 @@ providers:
   phone: "Securus"
   video: "Microsoft Teams"
 visiting:
-  days: "In-person by housing unit (weekday evenings and weekends); video by appointment"
-  hours: "One-hour visits in morning, afternoon, and evening blocks — check the current schedule"
+  days: "In-person and video on the schedules CT DOC posts for the facility (current schedules effective July 27, 2026)"
+  hours: "Evening in-person visiting 6:00 p.m. - 9:00 p.m."
   scheduling: "In-person social visits are contact and one hour, scheduled in advance and assigned by housing unit on a rotating weekly schedule — confirm the person's building and book for the current week first, or the visit cannot be accommodated. Video visits are scheduled through the DOC request form. Up to 3 visitors."
   contactVisits: true
 links:

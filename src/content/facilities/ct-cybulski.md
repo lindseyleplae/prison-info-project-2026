@@ -21,8 +21,8 @@ providers:
   phone: "Securus"
   video: "Microsoft Teams"
 visiting:
-  days: "In-person by last-name group (split A-K / L-Z across the week); video by appointment"
-  hours: "Evening and weekend sessions — check the current schedule"
+  days: "In-person by last name: A-K Tuesday/Thursday/Sunday and Saturday; L-Z Wednesday/Friday/Saturday and Sunday. Video by appointment"
+  hours: "Evenings 6:00-9:00 p.m.; weekend daytime sessions 8:00-10:00 a.m. and 12:00-2:00 p.m."
   scheduling: "In-person visits are walk-in (first come, first served), scheduled by the person's last-name group on set days. Video visits are scheduled through the DOC request form."
   contactVisits: true
 links:

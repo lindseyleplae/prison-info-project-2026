@@ -21,8 +21,8 @@ providers:
   phone: "Securus"
   video: "Microsoft Teams"
 visiting:
-  days: "Presencial por unidad de alojamiento, los siete días de la semana; por video con cita"
-  hours: "Visitas de una hora en bloques de mañana, tarde y noche — consulte el horario vigente"
+  days: "En persona, para la población general, según el último dígito del número de la persona (impar/par); video con cita"
+  hours: "Las visitas en persona duran una hora; las visitas por video, 45 minutos"
   scheduling: "Las visitas presenciales son sin cita previa, asignadas por unidad de alojamiento según un calendario rotativo — confirme primero la unidad de la persona y el calendario de la semana vigente. Si una visita es de contacto o sin contacto depende de la unidad de alojamiento. Las visitas por video se programan a través del formulario de solicitud del DOC."
   contactVisits: true
 links:

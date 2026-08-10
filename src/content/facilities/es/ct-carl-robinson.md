@@ -22,8 +22,8 @@ providers:
   phone: "Securus"
   video: "Microsoft Teams"
 visiting:
-  days: "Presencial por unidad de alojamiento (noches entre semana y fines de semana); por video con cita"
-  hours: "Visitas de una hora en bloques de mañana, tarde y noche — consulte el horario vigente"
+  days: "En persona y por video según los calendarios que el CT DOC publica para la institución (calendarios vigentes desde el 27 de julio de 2026)"
+  hours: "Visitas en persona por la noche, de 6:00 p. m. a 9:00 p. m."
   scheduling: "Las visitas sociales presenciales son de contacto y de una hora, programadas con anticipación y asignadas por unidad de alojamiento según un calendario rotativo semanal — confirme el edificio de la persona y reserve para la semana vigente primero, o la visita no podrá realizarse. Las visitas por video se programan a través del formulario de solicitud del DOC. Hasta 3 visitantes."
   contactVisits: true
 links:

@@ -21,8 +21,8 @@ providers:
   phone: "Securus"
   video: "Microsoft Teams"
 visiting:
-  days: "Presencial por grupo de apellido (dividido A-K / L-Z a lo largo de la semana); por video con cita"
-  hours: "Sesiones de noche y fin de semana — consulte el horario vigente"
+  days: "En persona según el apellido: A-K martes/jueves/domingo y sábado; L-Z miércoles/viernes/sábado y domingo. Video con cita"
+  hours: "Noches de 6:00 a 9:00 p. m.; sesiones diurnas de fin de semana de 8:00 a 10:00 a. m. y de 12:00 a 2:00 p. m."
   scheduling: "Las visitas presenciales son sin cita previa (por orden de llegada), programadas según el grupo de apellido de la persona en días establecidos. Las visitas por video se programan a través del formulario de solicitud del DOC."
   contactVisits: true
 links:

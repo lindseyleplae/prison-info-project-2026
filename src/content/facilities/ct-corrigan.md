@@ -21,8 +21,8 @@ providers:
   phone: "Securus"
   video: "Microsoft Teams"
 visiting:
-  days: "In-person by housing unit, seven days a week; video by appointment"
-  hours: "One-hour visits in morning, afternoon, and evening blocks — check the current schedule"
+  days: "In-person for general population is set by the last digit of the person's number (odd/even); video by appointment"
+  hours: "In-person visits are one hour; video visits are 45 minutes"
   scheduling: "In-person visits are walk-in, assigned by housing unit on a rotating schedule — confirm the person's unit and the current week's schedule first. Whether a visit is contact or non-contact depends on the housing unit. Video visits are scheduled through the DOC request form."
   contactVisits: true
 links:
