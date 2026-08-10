@@ -30,6 +30,8 @@ links:
 sources:
   - name: "GDC — Lee Arrendale State Prison"
     url: "https://gdc.georgia.gov/locations/lee-arrendale-state-prison"
+  - name: "Georgia Public Broadcasting — Georgia women's prison to be downsized, inmates to transfer to former federal lockup"
+    url: "https://www.gpb.org/news/2023/01/20/georgia-womens-prison-be-downsized-inmates-transfer-former-federal-lockup"
   - name: "GDC — Visitation"
     url: "https://gdc.georgia.gov/friends-and-family/visit-inmate/visitation"
   - name: "Northeast Georgia Medical Center–Habersham — Emergency (Demorest)"
@@ -41,7 +43,9 @@ sourceReviewed: 2026-06-14
 ---
 
 :::callout{variant="warning"}
-**Lee Arrendale es el centro estatal de ingreso y diagnóstico de Georgia para mujeres — todas las mujeres que ingresan a GDC se procesan aquí antes del traslado, por lo que una mujer recién sentenciada puede estar aquí solo brevemente.** Las mujeres en estado de diagnóstico generalmente no son elegibles para recibir visitas hasta que llegan a una prisión permanente. Confirme dónde está detenida la persona en el Find an Offender de GDC antes de viajar. Lee Arrendale también es la prisión de mujeres más grande de Georgia y alberga el corredor de la muerte del estado para mujeres. El correo personal se envía a la institución con el número de identificación de GDC de la persona (ver Correo, más abajo).
+**El papel de Lee Arrendale está cambiando, y con él puede cambiar el lugar donde está alojada una mujer.** El GDC ha indicado que planea reducir la prisión a un centro de transición de aproximadamente 112 camas y trasladar a unas 1,000 mujeres a otras prisiones femeninas, incluida la prisión estatal de McRae que abrió en 2025. La propia página del GDC todavía describe a Lee Arrendale como una prisión de mujeres con capacidad para unas 1,476 personas, así que hasta dónde ha avanzado el cambio no queda claro en la información publicada. **Confirme dónde está alojada la persona en el Find an Offender del GDC antes de viajar** y confirme las visitas con la institución que realmente la aloja.
+
+Lee Arrendale también es el centro estatal de ingreso y diagnóstico de Georgia para mujeres: las mujeres que ingresan al GDC se procesan aquí antes del traslado, por lo que una mujer recién sentenciada puede estar aquí solo brevemente. Las mujeres en estado de diagnóstico generalmente no son elegibles para recibir visitas hasta que llegan a una prisión permanente. Lee Arrendale también es la prisión de mujeres más grande de Georgia y alberga el corredor de la muerte del estado para mujeres. El correo personal se envía a la institución con el número de identificación de GDC de la persona (ver Correo, más abajo).
 :::
 
 :::key-info

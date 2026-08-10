@@ -30,6 +30,8 @@ links:
 sources:
   - name: "GDC — Lee Arrendale State Prison"
     url: "https://gdc.georgia.gov/locations/lee-arrendale-state-prison"
+  - name: "Georgia Public Broadcasting — Georgia women's prison to be downsized, inmates to transfer to former federal lockup"
+    url: "https://www.gpb.org/news/2023/01/20/georgia-womens-prison-be-downsized-inmates-transfer-former-federal-lockup"
   - name: "GDC — Visitation"
     url: "https://gdc.georgia.gov/friends-and-family/visit-inmate/visitation"
   - name: "Northeast Georgia Medical Center–Habersham — Emergency (Demorest)"
@@ -39,7 +41,9 @@ reviewBy: 2026-08-06
 ---
 
 :::callout{variant="warning"}
-**Lee Arrendale is Georgia's statewide women's intake and diagnostic center — all women entering GDC are processed here before transfer, so a newly sentenced woman may be here only briefly.** Women in diagnostic status are generally not eligible for visitation until they reach a permanent prison. Confirm where the person is held on GDC's Find an Offender before traveling. Lee Arrendale is also Georgia's largest women's prison and holds the state's death row for women. Personal mail goes to the facility with the person's GDC ID number (see Mail, below).
+**Lee Arrendale's role is changing, and where a woman is held may change with it.** GDC has said it intends to reduce the prison to a roughly 112-bed transitional center and move about 1,000 women to other women's prisons, including the state-run prison at McRae that opened in 2025. GDC's own facility page still describes Lee Arrendale as a women's prison with capacity for about 1,476, so how far the change has gone is not clear from published information. **Confirm where the person is held on GDC's Find an Offender before traveling**, and confirm visiting with the facility that actually holds her.
+
+Lee Arrendale is also Georgia's statewide women's intake and diagnostic center — women entering GDC are processed here before transfer, so a newly sentenced woman may be here only briefly. Women in diagnostic status are generally not eligible for visitation until they reach a permanent prison. Lee Arrendale is also Georgia's largest women's prison and holds the state's death row for women. Personal mail goes to the facility with the person's GDC ID number (see Mail, below).
 :::
 
 :::key-info
