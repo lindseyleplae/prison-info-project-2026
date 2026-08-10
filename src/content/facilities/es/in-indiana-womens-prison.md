@@ -33,10 +33,10 @@ sources:
     url: "https://www.in.gov/idoc/facilities/adult/indiana-womens-prison/"
   - name: "IDOC — Visitation"
     url: "https://www.in.gov/idoc/divisions/support-hub/visitation/"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-16
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-08-10
 ---
 
 :::callout{variant="warning"}
