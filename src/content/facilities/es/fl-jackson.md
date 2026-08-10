@@ -32,10 +32,10 @@ sources:
     url: "https://fdc.myflorida.com/institutions/institutions-list/jackson-correctional-institution"
   - name: "FDC — Corrections Offender Network"
     url: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
-lastVerified: 2026-06-17
-reviewBy: 2026-08-01
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 lang: es
-sourceReviewed: 2026-06-17
+sourceReviewed: 2026-08-10
 ---
 
 :::callout{variant="warning"}
