@@ -33,8 +33,8 @@ sources:
     url: "https://www.in.gov/idoc/facilities/adult/wabash-valley-correctional-facility/"
   - name: "IDOC — Visitation"
     url: "https://www.in.gov/idoc/divisions/support-hub/visitation/"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-17
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 ---
 
 :::callout{variant="warning"}

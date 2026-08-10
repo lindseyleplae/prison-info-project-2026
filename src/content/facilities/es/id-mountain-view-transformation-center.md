@@ -25,10 +25,10 @@ links:
 sources:
   - name: "Idaho DOC — Mountain View Transformation Center"
     url: "https://www.idoc.idaho.gov/content/locations/prisons/mountain-view-transformation-center"
-lastVerified: 2026-06-17
-reviewBy: 2026-08-11
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 lang: es
-sourceReviewed: 2026-06-17
+sourceReviewed: 2026-08-10
 ---
 
 :::key-info

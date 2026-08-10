@@ -25,8 +25,8 @@ links:
 sources:
   - name: "Idaho DOC — St. Anthony Work Camp"
     url: "https://www.idoc.idaho.gov/content/locations/prisons/st-anthony-work-camp"
-lastVerified: 2026-06-17
-reviewBy: 2026-08-12
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 ---
 
 :::key-info

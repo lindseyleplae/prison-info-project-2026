@@ -25,8 +25,8 @@ links:
 sources:
   - name: "Idaho DOC — Pocatello Women's Correctional Center"
     url: "https://www.idoc.idaho.gov/content/locations/prisons/pocatello-womens-correctional-center"
-lastVerified: 2026-06-17
-reviewBy: 2026-08-12
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 ---
 
 :::callout{variant="warning"}

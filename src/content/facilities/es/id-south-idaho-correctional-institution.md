@@ -26,10 +26,10 @@ links:
 sources:
   - name: "Idaho DOC — South Idaho Correctional Institution"
     url: "https://www.idoc.idaho.gov/content/locations/prisons/south-idaho-correctional-institution"
-lastVerified: 2026-06-17
-reviewBy: 2026-08-12
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 lang: es
-sourceReviewed: 2026-06-17
+sourceReviewed: 2026-08-10
 ---
 
 :::callout{variant="info"}

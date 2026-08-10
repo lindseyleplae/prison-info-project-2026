@@ -34,8 +34,8 @@ sources:
     url: "https://idoc.illinois.gov/facilities/allfacilities/facility.kewanee-life-skills-re-entry-center.html"
   - name: "Illinois DOC — Visitation Rules & Information"
     url: "https://idoc.illinois.gov/facilities/visitationrules.html"
-lastVerified: 2026-06-15
-reviewBy: 2026-08-14
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 ---
 
 :::callout{variant="warning"}

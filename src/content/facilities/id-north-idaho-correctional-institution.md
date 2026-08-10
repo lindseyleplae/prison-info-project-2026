@@ -24,8 +24,8 @@ links:
 sources:
   - name: "Idaho DOC — North Idaho Correctional Institution"
     url: "https://www.idoc.idaho.gov/content/locations/prisons/north_idaho_correctional_institution"
-lastVerified: 2026-06-17
-reviewBy: 2026-08-12
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 ---
 
 :::callout{variant="info"}

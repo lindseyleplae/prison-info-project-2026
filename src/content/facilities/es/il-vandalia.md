@@ -34,10 +34,10 @@ sources:
     url: "https://idoc.illinois.gov/facilities/allfacilities/facility.vandalia-correctional-center.html"
   - name: "Illinois DOC — Visitation Rules & Information"
     url: "https://idoc.illinois.gov/facilities/visitationrules.html"
-lastVerified: 2026-06-15
-reviewBy: 2026-08-15
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 lang: es
-sourceReviewed: 2026-06-15
+sourceReviewed: 2026-08-10
 ---
 
 :::callout{variant="warning"}

@@ -34,10 +34,10 @@ sources:
     url: "https://idoc.illinois.gov/facilities/allfacilities/facility.graham-correctional-center.html"
   - name: "Illinois DOC — Visitation Rules & Information"
     url: "https://idoc.illinois.gov/facilities/visitationrules.html"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-13
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-08-10
 ---
 
 :::callout{variant="warning"}

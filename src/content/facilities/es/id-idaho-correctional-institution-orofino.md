@@ -24,10 +24,10 @@ links:
 sources:
   - name: "Idaho DOC — Idaho Correctional Institution-Orofino"
     url: "https://www.idoc.idaho.gov/content/locations/prisons/idaho_correctional_institution_orofino"
-lastVerified: 2026-06-17
-reviewBy: 2026-08-11
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 lang: es
-sourceReviewed: 2026-06-17
+sourceReviewed: 2026-08-10
 ---
 
 :::key-info

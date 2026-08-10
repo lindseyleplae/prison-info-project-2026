@@ -29,8 +29,8 @@ links:
 sources:
   - name: "Visiting Status for R J Donovan Correctional Facility"
     url: "https://www.cdcr.ca.gov/visitors/facility/r-j-donovan-correctional-facility/"
-lastVerified: 2026-06-09
-reviewBy: 2026-07-24
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 ---
 
 :::key-info

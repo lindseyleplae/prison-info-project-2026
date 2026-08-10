@@ -29,10 +29,10 @@ sources:
     url: "https://www.cdcr.ca.gov/visitors/facility/north-kern-state-prison/"
   - name: "Types of Visits — CDCR Visitation Information"
     url: "https://www.cdcr.ca.gov/visitors/types-of-visits/"
-lastVerified: 2026-06-10
-reviewBy: 2026-07-23
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 lang: es
-sourceReviewed: 2026-06-10
+sourceReviewed: 2026-08-10
 ---
 
 :::callout{variant="warning"}
