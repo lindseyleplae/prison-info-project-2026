@@ -31,8 +31,8 @@ sources:
     url: "https://gdc.georgia.gov/locations/hays-state-prison"
   - name: "GDC — Visitation"
     url: "https://gdc.georgia.gov/friends-and-family/visit-inmate/visitation"
-lastVerified: 2026-06-15
-reviewBy: 2026-08-06
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 ---
 
 :::callout{variant="warning"}

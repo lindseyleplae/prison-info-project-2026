@@ -33,10 +33,10 @@ sources:
     url: "https://portal.ct.gov/-/media/doc/pdf/visit/visitnewhavenpdf.pdf"
   - name: "Yale New Haven Hospital — Emergency Services"
     url: "https://www.ynhh.org/services/emergency-services"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-28
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-10
 ---
 
 :::callout{variant="warning"}

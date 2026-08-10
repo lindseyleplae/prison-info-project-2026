@@ -34,10 +34,10 @@ sources:
     url: "https://fdc.myflorida.com/ci/314.html"
   - name: "FDC — Corrections Offender Network"
     url: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-02
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-08-10
 ---
 
 :::callout{variant="warning"}

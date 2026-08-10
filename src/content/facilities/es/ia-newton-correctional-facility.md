@@ -26,10 +26,10 @@ links:
 sources:
   - name: "Iowa DOC — Newton Correctional Facility"
     url: "https://doc.iowa.gov/districts-prisons/newton-correctional-facility"
-lastVerified: 2026-06-17
-reviewBy: 2026-08-11
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 lang: es
-sourceReviewed: 2026-06-17
+sourceReviewed: 2026-08-10
 ---
 
 :::callout{variant="warning"}

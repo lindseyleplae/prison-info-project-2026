@@ -30,10 +30,10 @@ links:
 sources:
   - name: "CDCR Visitation"
     url: "https://www.cdcr.ca.gov/visitors/"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-24
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-10
 ---
 
 :::key-info

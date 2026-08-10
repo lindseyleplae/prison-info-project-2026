@@ -27,8 +27,8 @@ links:
 sources:
   - name: "CoreCivic Saguaro Correctional Center Visitation"
     url: "https://www.corecivic.com/hubfs/_facilities/files/Saguaro%20Correctional%20Center%20Visitation.pdf"
-lastVerified: 2026-06-16
-reviewBy: 2026-08-09
+lastVerified: 2026-08-10
+reviewBy: 2026-11-08
 ---
 
 :::callout{variant="warning"}
