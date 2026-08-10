@@ -4,7 +4,7 @@ slug: bay
 state: fl
 system: FDC
 population: men
-summary: "A privately operated men's prison in Panama City, run by the GEO Group under contract with the Florida Department of Corrections."
+summary: "A privately operated men's prison in Panama City, run by Management & Training Corporation (MTC) under contract with the Florida Department of Corrections."
 aliases:
   - Bay CF
   - Bay Correctional Facility
@@ -27,7 +27,7 @@ links:
   official: "https://www.fdc.myflorida.com/institutions/institutions-list/bay-correctional-facility"
   inmateLocator: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
 sources:
-  - name: "GEO Group — Bay Correctional and Rehabilitation Facility"
+  - name: "FDC — Bay Correctional and Rehabilitation Facility"
     url: "https://www.fdc.myflorida.com/institutions/institutions-list/bay-correctional-facility"
   - name: "FDC — Corrections Offender Network"
     url: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
@@ -36,26 +36,26 @@ reviewBy: 2026-07-29
 ---
 
 :::callout{variant="warning"}
-**Bay Correctional and Rehabilitation Facility is a privately operated men's prison run by the GEO Group under contract with the Florida Department of Corrections, with the contract monitored by the Florida Department of Management Services; the people held here are in FDC custody and appear on the FDC Corrections Offender Network.** Confirm the person's current institution on the FDC Corrections Offender Network before traveling, and confirm the institution's current visiting days, hours, and rules. Incoming personal mail is scanned off-site (see Mail, below).
+**Bay Correctional and Rehabilitation Facility is a privately operated men's prison run by Management & Training Corporation (MTC) under contract with the Florida Department of Corrections, with the contract monitored by the Florida Department of Management Services; the people held here are in FDC custody and appear on the FDC Corrections Offender Network.** Confirm the person's current institution on the FDC Corrections Offender Network before traveling, and confirm the institution's current visiting days, hours, and rules. Incoming personal mail is scanned off-site (see Mail, below).
 :::
 
 :::key-info
 **Location:** In Panama City, Bay County, in the Florida Panhandle
 
-**Population:** Men — medium custody; privately operated by the GEO Group
+**Population:** Men — medium custody; privately operated by Management & Training Corporation (MTC)
 
-**Notable:** A general-population men's prison with reentry programming, operated by the GEO Group for FDC
+**Notable:** A general-population men's prison with reentry programming, operated by Management & Training Corporation (MTC) for FDC
 
 **Visitation:** By the FDC approved-visitor process, arranged with the facility; confirm the current schedule
 :::
 
 ## Overview
 
-Bay Correctional and Rehabilitation Facility is a **privately operated men's prison** in Panama City, Bay County, in the Florida Panhandle. It is operated by the GEO Group under contract with the Florida Department of Corrections, holds men in medium custody (with minimum and community custody), and has a capacity of about 985.
+Bay Correctional and Rehabilitation Facility is a **privately operated men's prison** in Panama City, Bay County, in the Florida Panhandle. It is operated by Management & Training Corporation (MTC) under contract with the Florida Department of Corrections, holds men in medium custody (with minimum and community custody), and has a capacity of about 985.
 
 ## What Makes Bay Different
 
-- **It is privately operated by the GEO Group** under contract with FDC, with the contract monitored by the Florida Department of Management Services; the people held here remain in FDC custody and appear on the FDC Corrections Offender Network.
+- **It is privately operated by Management & Training Corporation (MTC)** under contract with FDC, with the contract monitored by the Florida Department of Management Services; the people held here remain in FDC custody and appear on the FDC Corrections Offender Network.
 - **It offers reentry programming,** including adult basic education, literacy and GED instruction, horticulture vocational training, and substance-abuse treatment.
 - **Bay County is in the Central Time zone,** so confirm whether visiting and call times are posted in Central Time.
 - **Money deposits may use the operator's path.** Because the facility is privately operated for FDC, deposits may go through the operator's vendor (ViaPath/ConnectNetwork) rather than the FDC-standard method; confirm the current method in [Sending Money](/states/florida/guides/money/).

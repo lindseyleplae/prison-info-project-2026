@@ -4,7 +4,7 @@ slug: bay
 state: fl
 system: FDC
 population: men
-summary: "Una prisión de hombres operada de forma privada en Panama City, dirigida por el GEO Group bajo contrato con el Florida Department of Corrections."
+summary: "Una prisión de hombres operada de forma privada en Panama City, dirigida por el Management & Training Corporation (MTC) bajo contrato con el Florida Department of Corrections."
 aliases:
   - Bay CF
   - Bay Correctional Facility
@@ -27,7 +27,7 @@ links:
   official: "https://www.fdc.myflorida.com/institutions/institutions-list/bay-correctional-facility"
   inmateLocator: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
 sources:
-  - name: "GEO Group — Bay Correctional and Rehabilitation Facility"
+  - name: "FDC — Bay Correctional and Rehabilitation Facility"
     url: "https://www.fdc.myflorida.com/institutions/institutions-list/bay-correctional-facility"
   - name: "FDC — Corrections Offender Network"
     url: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
@@ -38,26 +38,26 @@ sourceReviewed: 2026-06-18
 ---
 
 :::callout{variant="warning"}
-**Bay Correctional and Rehabilitation Facility es una prisión de hombres operada de forma privada por el GEO Group bajo contrato con el Florida Department of Corrections, con el contrato supervisado por el Florida Department of Management Services; las personas alojadas aquí están bajo custodia de FDC y aparecen en el Corrections Offender Network de FDC.** Confirme la institución actual de la persona en el Corrections Offender Network de FDC antes de viajar, y confirme los días, horarios y reglas de visita vigentes de la institución. El correo personal entrante se escanea fuera del sitio (vea Correo, más abajo).
+**Bay Correctional and Rehabilitation Facility es una prisión de hombres operada de forma privada por el Management & Training Corporation (MTC) bajo contrato con el Florida Department of Corrections, con el contrato supervisado por el Florida Department of Management Services; las personas alojadas aquí están bajo custodia de FDC y aparecen en el Corrections Offender Network de FDC.** Confirme la institución actual de la persona en el Corrections Offender Network de FDC antes de viajar, y confirme los días, horarios y reglas de visita vigentes de la institución. El correo personal entrante se escanea fuera del sitio (vea Correo, más abajo).
 :::
 
 :::key-info
 **Ubicación:** En Panama City, condado de Bay, en el Panhandle de Florida
 
-**Población:** Hombres — custodia media; operada de forma privada por el GEO Group
+**Población:** Hombres — custodia media; operada de forma privada por el Management & Training Corporation (MTC)
 
-**Datos destacados:** Una prisión de hombres de población general con programas de reintegración, operada por el GEO Group para FDC
+**Datos destacados:** Una prisión de hombres de población general con programas de reintegración, operada por el Management & Training Corporation (MTC) para FDC
 
 **Visitas:** Mediante el proceso de visitante aprobado de FDC, gestionado con la instalación; confirme el horario vigente
 :::
 
 ## Descripción general
 
-Bay Correctional and Rehabilitation Facility es una **prisión de hombres operada de forma privada** en Panama City, condado de Bay, en el Panhandle de Florida. Es operada por el GEO Group bajo contrato con el Florida Department of Corrections, aloja a hombres en custodia media (con custodia mínima y comunitaria), y tiene una capacidad de aproximadamente 985.
+Bay Correctional and Rehabilitation Facility es una **prisión de hombres operada de forma privada** en Panama City, condado de Bay, en el Panhandle de Florida. Es operada por el Management & Training Corporation (MTC) bajo contrato con el Florida Department of Corrections, aloja a hombres en custodia media (con custodia mínima y comunitaria), y tiene una capacidad de aproximadamente 985.
 
 ## Qué hace diferente a Bay
 
-- **Es operada de forma privada por el GEO Group** bajo contrato con FDC, con el contrato supervisado por el Florida Department of Management Services; las personas alojadas aquí permanecen bajo custodia de FDC y aparecen en el Corrections Offender Network de FDC.
+- **Es operada de forma privada por el Management & Training Corporation (MTC)** bajo contrato con FDC, con el contrato supervisado por el Florida Department of Management Services; las personas alojadas aquí permanecen bajo custodia de FDC y aparecen en el Corrections Offender Network de FDC.
 - **Ofrece programas de reintegración,** que incluyen educación básica para adultos, alfabetización e instrucción para el GED, capacitación vocacional en horticultura y tratamiento contra el abuso de sustancias.
 - **El condado de Bay está en la zona horaria Central,** por lo que se debe confirmar si los horarios de visita y llamadas se publican en hora Central.
 - **Los depósitos de dinero pueden usar la vía del operador.** Debido a que la instalación es operada de forma privada para FDC, los depósitos pueden pasar por el proveedor del operador (ViaPath/ConnectNetwork) en lugar del método estándar de FDC; confirme el método vigente en la guía [Enviar dinero](/states/florida/guides/money/).

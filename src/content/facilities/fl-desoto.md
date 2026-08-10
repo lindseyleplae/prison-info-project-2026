@@ -22,7 +22,7 @@ providers:
   video: "JPay"
 visiting:
   days: "Set by the institution; many institutions require an advance reservation after the visitor is approved"
-  hours: "Confirm the institution's current visiting schedule"
+  hours: "9:00 a.m. - 3:00 p.m. EST (as posted by FDC)"
   scheduling: "Every visitor must be approved on the person's visitor list (Form DC6-111A). Confirm the institution's current days, hours, and how to reserve a visit."
   contactVisits: true
   videoVisits: true

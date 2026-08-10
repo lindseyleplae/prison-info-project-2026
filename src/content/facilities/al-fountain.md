@@ -4,7 +4,7 @@ slug: fountain
 state: al
 system: ADOC
 population: men
-summary: "A medium-security men's prison on a large rural property north of Atmore, next to Holman, with extensive vocational and agricultural programs."
+summary: "A maximum-security men's prison on a large rural property north of Atmore, next to Holman, with extensive vocational and agricultural programs."
 aliases:
   - Fountain
   - Fountain CF
@@ -12,7 +12,7 @@ aliases:
 city: Atmore
 county: Escambia
 address: "9677 Highway 21 N, Atmore, AL 36503"
-securityLevel: "Medium custody (men)"
+securityLevel: "Maximum security (men)"
 facilityType: "Correctional Facility"
 contact:
   mainPhone: "(251) 368-8122"
@@ -56,11 +56,11 @@ reviewBy: 2026-07-16
 
 ## Overview
 
-G.K. Fountain Correctional Facility, on Highway 21 about seven miles north of Atmore in Escambia County, is a **medium-security men's prison** holding about **1,270 men**. It sits on a roughly **8,200-acre property** — one of the largest prison sites in the state — next to Holman on the same Highway 21 corridor. Fountain runs broad vocational and agricultural programs, including trades training through **Ingram State Technical College** (welding, auto body and mechanics, HVAC, carpentry, and barbering) and cattle and crop operations. It opened in **1928**, making it one of ADOC's oldest prisons.
+G.K. Fountain Correctional Facility, on Highway 21 about seven miles north of Atmore in Escambia County, is a **maximum-security men's prison** holding about **1,270 men**. It sits on a roughly **8,200-acre property** — one of the largest prison sites in the state — next to Holman on the same Highway 21 corridor. Fountain runs broad vocational and agricultural programs, including trades training through **Ingram State Technical College** (welding, auto body and mechanics, HVAC, carpentry, and barbering) and cattle and crop operations. It opened in **1928**, making it one of ADOC's oldest prisons.
 
 ## What Makes Fountain Different
 
-- **It is a medium-security men's prison** on a roughly 8,200-acre property, one of the largest in the system.
+- **It is a maximum-security men's prison** on a roughly 8,200-acre property, one of the largest in the system.
 - **It sits next to Holman** on the same Highway 21 corridor, so families confirm which of the two prisons holds the person.
 - **It runs broad vocational training** through Ingram State Technical College, plus agricultural operations.
 - **It is one of ADOC's oldest prisons,** opened in 1928.

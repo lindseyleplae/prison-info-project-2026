@@ -20,7 +20,7 @@ providers:
   video: "JPay"
 visiting:
   days: "Establecidos por la institución; muchas instituciones requieren una reserva anticipada después de que se aprueba al visitante"
-  hours: "Confirme el horario de visitas vigente de la institución"
+  hours: "9:00 a.m. - 3:00 p.m. EST (según lo publica el FDC)"
   scheduling: "Todo visitante debe estar aprobado en la lista de visitantes de la persona (Formulario DC6-111A). Confirme los días, horarios vigentes de la institución y cómo reservar una visita."
   contactVisits: true
   videoVisits: true

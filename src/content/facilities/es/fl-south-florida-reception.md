@@ -21,7 +21,7 @@ providers:
   video: "JPay"
 visiting:
   days: "Limitados durante la recepción; muchas instituciones exigen una reserva anticipada después de que el visitante sea aprobado"
-  hours: "Confirme el horario de visitas vigente de la institución"
+  hours: "9:00 a.m. - 3:00 p.m. EST (según lo publica el FDC)"
   scheduling: "Todo visitante debe estar aprobado en la lista de visitantes de la persona (Formulario DC6-111A, solicitado en la institución permanente). Un hombre recién ingresado en recepción tiene visitas limitadas hasta la clasificación y el traslado. Confirme las reglas vigentes."
   contactVisits: true
   videoVisits: true

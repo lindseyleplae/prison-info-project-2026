@@ -12,7 +12,7 @@ aliases:
 city: Atmore
 county: Escambia
 address: "9677 Highway 21 N, Atmore, AL 36503"
-securityLevel: "Custodia media (hombres)"
+securityLevel: "Máxima seguridad (hombres)"
 facilityType: "Centro correccional"
 contact:
   mainPhone: "(251) 368-8122"

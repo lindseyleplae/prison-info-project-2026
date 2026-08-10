@@ -21,7 +21,7 @@ providers:
   video: "JPay"
 visiting:
   days: "Limited during reception; many institutions require an advance reservation after the visitor is approved"
-  hours: "Confirm the institution's current visiting schedule"
+  hours: "9:00 a.m. - 3:00 p.m. EST (as posted by FDC)"
   scheduling: "Every visitor must be approved on the person's visitor list (Form DC6-111A, requested at the permanent institution). A newly committed man in reception has limited visiting until classification and transfer. Confirm the current rules."
   contactVisits: true
   videoVisits: true
