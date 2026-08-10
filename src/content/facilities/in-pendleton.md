@@ -16,7 +16,7 @@ securityLevel: "Maximum security (men), with a minimum-security unit"
 facilityType: "State Prison"
 contact:
   mainPhone: "(765) 778-7107"
-  mailingAddress: "4490 W. Reformatory Road, Pendleton, IN 46064"
+  mailingAddress: "Pendleton Correctional Facility, PO Box 460, Phoenix, MD 21131 (personal mail; legal mail and packages go to the facility)"
 providers:
   phone: "ViaPath"
   video: "ViaPath"
@@ -95,7 +95,7 @@ Pendleton and nearby Anderson have the full range of gas, food, and lodging. The
 
 ## Mail
 
-Incoming personal mail goes to the prison, but the incarcerated person receives a **photocopy**, not the original. Indiana does not use an off-site mail vendor — each prison's mailroom opens and **photocopies** incoming letters and photos in black and white and delivers the copy. Address mail with the person's full name and IDOC number to the facility's mailing address (above). **Legal mail** is opened in the person's presence, and **books** must be new and shipped directly from a publisher or retailer. Full rules are in [Mail & Packages](/states/indiana/guides/mail/).
+**Personal mail no longer goes to the prison.** Indiana now routes it to an off-site processing center: address it to the person's full name and IDOC number, Pendleton Correctional Facility, PO Box 460, Phoenix, MD 21131. Since **July 31, 2026**, personal mail sent to the facility is **returned to sender**. Attorney-client privileged mail, packages, and parcels still go directly to the facility. **Legal mail** is opened in the person's presence, and **books** must be new and shipped directly from a publisher or retailer. Full rules are in [Mail & Packages](/states/indiana/guides/mail/).
 
 ## Learn More
 

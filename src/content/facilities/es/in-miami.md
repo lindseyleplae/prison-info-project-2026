@@ -15,7 +15,7 @@ securityLevel: "Mediana-alta seguridad (hombres), con una unidad de mínima segu
 facilityType: "Prisión estatal"
 contact:
   mainPhone: "(765) 689-8920"
-  mailingAddress: "3038 W. 850 S., Bunker Hill, IN 46914"
+  mailingAddress: "Miami Correctional Facility, PO Box 460, Phoenix, MD 21131 (personal mail; legal mail and packages go to the facility)"
 providers:
   phone: "ViaPath"
   video: "ViaPath"
@@ -96,7 +96,7 @@ La sala de emergencia de 24 horas más cercana es **Dukes Memorial Hospital**, e
 
 ## Correo
 
-El correo personal entrante llega a la prisión, pero la persona encarcelada recibe una **fotocopia**, no el original. Indiana no utiliza un proveedor externo de correo — la sala de correo de cada prisión abre y **fotocopia** las cartas y fotos entrantes en blanco y negro y entrega la copia. Dirija el correo con el nombre completo de la persona y el número de IDOC a la dirección postal de la institución (arriba). El **correo legal** se abre en presencia de la persona, y los **libros** deben ser nuevos y enviados directamente por una editorial o minorista. Las reglas completas están en [Correo y paquetes](/states/indiana/guides/mail/).
+**El correo personal ya no se envía a la prisión.** Indiana ahora lo dirige a un centro de procesamiento externo: diríjalo con el nombre completo de la persona y su número de IDOC a Miami Correctional Facility, PO Box 460, Phoenix, MD 21131. Desde el **31 de julio de 2026**, el correo personal enviado a la institución se **devuelve al remitente**. El correo legal (abogado-cliente), los paquetes y las encomiendas siguen yendo directamente a la institución. El **correo legal** se abre en presencia de la persona, y los **libros** deben ser nuevos y enviados directamente por una editorial o minorista. Las reglas completas están en [Correo y paquetes](/states/indiana/guides/mail/).
 
 ## Más información
 

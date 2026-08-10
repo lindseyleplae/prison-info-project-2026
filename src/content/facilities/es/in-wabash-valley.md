@@ -15,7 +15,7 @@ securityLevel: "Máxima y mínima seguridad (hombres), con unidades de estatus r
 facilityType: "Prisión estatal"
 contact:
   mainPhone: "(812) 398-5050"
-  mailingAddress: "6908 S. Old US Highway 41, Carlisle, IN 47838"
+  mailingAddress: "Wabash Valley Correctional Facility, PO Box 460, Phoenix, MD 21131 (personal mail; legal mail and packages go to the facility)"
 providers:
   phone: "ViaPath"
   video: "ViaPath"
@@ -96,7 +96,7 @@ La sala de emergencias de 24 horas más cercana es **Sullivan County Community H
 
 ## Correo
 
-El correo personal entrante llega a la prisión, pero la persona encarcelada recibe una **fotocopia**, no el original. Indiana no usa un proveedor externo de correo — la sala de correo de cada prisión abre y **fotocopia** las cartas y fotos entrantes en blanco y negro, y entrega la copia. Dirija el correo con el nombre completo de la persona y su número de IDOC a la dirección postal del centro (arriba). El **correo legal** se abre en presencia de la persona, y los **libros** deben ser nuevos y enviarse directamente desde una editorial o un vendedor minorista. Las reglas completas están en [Correo y paquetes](/states/indiana/guides/mail/).
+**El correo personal ya no se envía a la prisión.** Indiana ahora lo dirige a un centro de procesamiento externo: diríjalo con el nombre completo de la persona y su número de IDOC a Wabash Valley Correctional Facility, PO Box 460, Phoenix, MD 21131. Desde el **31 de julio de 2026**, el correo personal enviado a la institución se **devuelve al remitente**. Los paquetes y las encomiendas siguen yendo directamente a la institución. El **correo legal** se abre en presencia de la persona, y los **libros** deben ser nuevos y enviarse directamente desde una editorial o un vendedor minorista. Las reglas completas están en [Correo y paquetes](/states/indiana/guides/mail/).
 
 ## Más información
 

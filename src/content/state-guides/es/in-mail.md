@@ -5,7 +5,7 @@ state: in
 topic: mail
 relatedNationalGuide: staying-in-touch
 system: Indiana DOC
-description: "Cómo maneja Indiana el correo entrante —las cartas personales y las fotos las fotocopia en blanco y negro la sala de correo de cada prisión y se entregan como copias, en lugar de enviarse a un proveedor externo— además de cómo funcionan el correo legal, los libros y los mensajes digitales a través de GettingOut."
+description: "Cómo maneja Indiana el correo entrante —el correo personal ahora va a un centro de procesamiento externo en Phoenix, Maryland, y el correo enviado a la prisión se devuelve al remitente— además de cómo funcionan el correo legal, los paquetes, los libros y los mensajes digitales a través de GettingOut."
 sources:
   - name: "IDOC — Mail and Packages"
     url: "https://www.in.gov/idoc/divisions/support-hub/mail-and-packages/"
@@ -17,7 +17,7 @@ sourceReviewed: 2026-06-14
 ---
 
 :::key-info{title="Información clave"}
-**El correo personal entrante llega a la prisión, pero la persona recibe una fotocopia.** La sala de correo de cada prisión abre y **fotocopia la correspondencia general en blanco y negro**, y luego entrega la copia: la persona encarcelada recibe una copia, no el original. Indiana **no** usa un proveedor externo de correo.
+**El correo personal ya no se envía a la prisión.** Indiana dirige el correo personal entrante a un **centro de procesamiento externo**: diríjalo con el nombre completo de la persona, su número de IDOC y el nombre de la institución a **PO Box 460, Phoenix, MD 21131**. Desde el **31 de julio de 2026**, el correo personal enviado a la dirección de la prisión se **devuelve al remitente**.
 
 **Dirija el correo a la persona a la institución donde permanece:** nombre completo, número del IDOC y la dirección postal de la prisión. Confirme primero la ubicación actual en el localizador de reclusos.
 
@@ -30,7 +30,7 @@ sourceReviewed: 2026-06-14
 
 ## Cómo funciona el correo entrante
 
-Indiana maneja el correo entrante de forma distinta a los estados que usan un proveedor externo de escaneo. La **sala de correo de cada prisión** abre e inspecciona la **correspondencia general** entrante —cartas, tarjetas y fotos— y la **fotocopia en blanco y negro**. La persona encarcelada recibe la **fotocopia**, por lo general en unas 48 horas, y el original no se entrega. **No hay centro de procesamiento externo**; el correo llega a la prisión donde permanece la persona.
+Indiana ahora usa un **centro de procesamiento externo** para el correo personal, como muchos estados. La **correspondencia general** entrante —cartas, tarjetas y fotos— va a **PO Box 460, Phoenix, MD 21131**, dirigida con el nombre completo de la persona, su número de IDOC y el nombre de la institución donde se encuentra. El IDOC indica que, después del **31 de julio de 2026**, el correo personal enviado al lugar equivocado se **devuelve al remitente**, así que el correo dirigido a la prisión no llega a la persona. Confirme con la institución cómo se entrega el correo procesado, ya que el IDOC no ha publicado ese detalle en un solo lugar.
 
 Dirija el correo personal con el **nombre completo con el que la persona fue ingresada y su número del IDOC** a la **dirección postal de la institución donde permanece**:
 
@@ -41,7 +41,7 @@ Dirija el correo personal con el **nombre completo con el que la persona fue ing
 Como la prisión que aparece en el localizador de reclusos puede cambiar tras un traslado, **confirme la institución actual de la persona antes de enviar**.
 
 :::callout{variant="tip"}
-Cada página de institución en este sitio indica la dirección postal de esa prisión. Incluya siempre el **número del IDOC** de la persona para que la sala de correo pueda asociar el correo con la persona correcta.
+Cada página de institución en este sitio indica la dirección que debe usar. Incluya siempre el **número del IDOC** y el **nombre de la institución** para que el centro de procesamiento pueda asociar el correo con la persona correcta.
 :::
 
 ## Correo legal
