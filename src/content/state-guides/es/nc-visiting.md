@@ -17,7 +17,7 @@ sourceReviewed: 2026-06-15
 ---
 
 :::key-info{title="Información clave"}
-**Primero, entre en la lista de aprobados.** La persona encarcelada envía por correo una solicitud a cada posible visitante (hasta 18). El formulario completado se envía a la prisión donde está alojada la persona.
+**Primero, entre en la lista de aprobados.** La persona encarcelada envía por correo una solicitud a cada posible visitante (hasta 18). El formulario completado se envía a la prisión donde está alojada la persona, **no** a la dirección de escaneo de TextBehind en Maryland que Carolina del Norte usa para el correo personal.
 
 **Las visitas son únicamente con cita previa,** que se coordina con la prisión específica por teléfono o correo electrónico. **No hay un programador en línea a nivel estatal.**
 
@@ -30,7 +30,7 @@ La regla que rige es la NCDAC Visitation Policy **D.0200.**
 
 ## Cómo entrar en la lista de visitantes aprobados
 
-Nadie puede visitar hasta ser un visitante aprobado, y **la persona encarcelada inicia el proceso.** La persona encarcelada envía por correo una solicitud a cada posible visitante, hasta **18 solicitudes.** Cada posible visitante completa el formulario y lo devuelve a la **prisión donde está alojada la persona encarcelada.**
+Nadie puede visitar hasta ser un visitante aprobado, y **la persona encarcelada inicia el proceso.** La persona encarcelada envía por correo una solicitud a cada posible visitante, hasta **18 solicitudes.** Cada posible visitante completa el formulario y lo devuelve a la **prisión donde está alojada la persona encarcelada.** Carolina del Norte envía las cartas, tarjetas y fotos personales a un proveedor de escaneo fuera del estado, en Maryland, pero una solicitud de visita no es correo personal para la persona encarcelada: es un formulario para la prisión y va a la dirección de la prisión. Enviarla al proveedor de escaneo no la hará llegar al personal de visitas. Consulte [Correo y paquetes](/states/north-carolina/guides/mail/).
 
 Con la solicitud se adjunta documentación:
 

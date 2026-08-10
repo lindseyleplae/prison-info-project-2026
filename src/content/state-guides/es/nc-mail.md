@@ -21,7 +21,7 @@ sourceReviewed: 2026-06-15
 
 **Los originales y cualquier paquete incluido con el correo personal se devuelven al remitente.** La carta física no se entrega.
 
-**El correo legal y los libros van a la institución, no a Maryland.** El correo legal va directamente a la prisión; los libros y las publicaciones van a la dirección física de la prisión.
+**El correo legal, los libros y las solicitudes de visita van a la institución, no a Maryland.** El correo legal va directamente a la prisión; los libros y las publicaciones van a la dirección física de la prisión; la solicitud de visita completada va a la prisión donde está la persona, no al proveedor de escaneo.
 
 **El nombre y el apellido completos del remitente deben aparecer en la dirección del remitente.**
 :::

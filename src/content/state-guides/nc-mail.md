@@ -19,7 +19,7 @@ lastReviewed: 2026-06-15
 
 **Originals and any packages enclosed with personal mail are returned to the sender.** The physical letter is not delivered.
 
-**Legal mail and books go to the facility — not to Maryland.** Legal mail goes to the prison directly; books and publications go to the prison's street address.
+**Legal mail, books, and visitation applications go to the facility — not to Maryland.** Legal mail goes to the prison directly; books and publications go to the prison's street address; a completed visitor application goes to the prison where the person is housed, not to the scanning vendor.
 
 **The sender's full first and last name must appear in the return address.**
 :::
@@ -40,7 +40,7 @@ Phoenix, MD 21131
 The return address must include the sender's **full first and last name**.
 
 :::callout{variant="warning"}
-Personal mail sent to the prison's own address instead of the TextBehind box in Maryland is returned to the sender. Money enclosed with a personal letter is also returned — see [Sending Money](/states/north-carolina/guides/money/) for how to deposit funds. The full prison name must be unabbreviated so the scanning vendor can route the digital copy to the correct facility.
+Personal mail sent to the prison's own address instead of the TextBehind box in Maryland is returned to the sender. This applies to letters, cards, and photos for the incarcerated person — not to a completed visitor application, which goes to the prison itself (see [Visiting](/states/north-carolina/guides/visiting/)). Money enclosed with a personal letter is also returned — see [Sending Money](/states/north-carolina/guides/money/) for how to deposit funds. The full prison name must be unabbreviated so the scanning vendor can route the digital copy to the correct facility.
 :::
 
 ## Legal and privileged mail
@@ -58,5 +58,5 @@ Packages are handled **through the facility**, not through the TextBehind scanni
 ## Verify Before Acting
 
 :::callout{variant="warning" title="Verify Before Acting"}
-Send personal letters, cards, and photos to the TextBehind address in Maryland (P.O. Box 247, Phoenix, MD 21131) with the full prison name and the person's OPUS number, but send legal mail, books, and packages to the facility — look up that facility's street address on the NCDAC site, since each one differs. Mail rules change; the NCDAC Offender Mail page is the authoritative source.
+Send personal letters, cards, and photos to the TextBehind address in Maryland (P.O. Box 247, Phoenix, MD 21131) with the full prison name and the person's OPUS number, but send legal mail, books, packages, and completed visitor applications to the facility — look up that facility's street address on the NCDAC site, since each one differs. Mail rules change; the NCDAC Offender Mail page is the authoritative source.
 :::

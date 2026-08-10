@@ -15,7 +15,7 @@ lastReviewed: 2026-06-15
 ---
 
 :::key-info{title="Key info"}
-**Get on the approved list first.** The incarcerated person mails an application to each prospective visitor (up to 18). The completed form goes to the prison where the person is housed.
+**Get on the approved list first.** The incarcerated person mails an application to each prospective visitor (up to 18). The completed form goes to the prison where the person is housed — **not** to the TextBehind scanning address in Maryland that North Carolina uses for personal mail.
 
 **Visits are by appointment only,** arranged with the specific prison by phone or email. There is **no statewide online scheduler.**
 
@@ -28,7 +28,7 @@ The governing rule is the NCDAC Visitation Policy **D.0200.**
 
 ## Getting on the approved visitor list
 
-No one may visit until they are an approved visitor, and the **incarcerated person starts the process.** The incarcerated person mails an application to each prospective visitor — up to **18 applications.** Each prospective visitor completes the form and returns it to the **prison where the incarcerated person is housed.**
+No one may visit until they are an approved visitor, and the **incarcerated person starts the process.** The incarcerated person mails an application to each prospective visitor — up to **18 applications.** Each prospective visitor completes the form and returns it to the **prison where the incarcerated person is housed.** North Carolina routes personal letters, cards, and photos to an off-site scanning vendor in Maryland, but a visitor application is not personal mail to the incarcerated person — it is a form for the prison, and it goes to the prison's own address. Sending it to the scanning vendor will not get it to the visitation staff. See [Mail & Packages](/states/north-carolina/guides/mail/).
 
 Documentation is attached with the application:
 
