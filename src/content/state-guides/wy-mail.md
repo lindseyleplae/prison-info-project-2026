@@ -8,7 +8,7 @@ system: WDOC
 description: "How to address mail so it isn't returned, what can go in a letter, Wyoming's publisher-only book rule, and why packages from home are prohibited."
 sources:
   - name: "WDOC Policy and Procedure 5.401 — Inmate Mail (effective March 2026)"
-    url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
+    url: "https://corrections.wyo.gov/about-us/policies-procedures-and-forms"
   - name: "WDOC Offender Locator — Frequently Asked Questions"
     url: "https://wdoc-loc.wyo.gov/Home/Faq"
   - name: "WDOC Facilities"

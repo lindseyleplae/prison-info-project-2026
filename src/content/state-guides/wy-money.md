@@ -10,13 +10,13 @@ sources:
   - name: "WDOC Money Transfers"
     url: "https://corrections.wyo.gov/facilities/money-transfers"
   - name: "WDOC Policy and Procedure 5.401 — Inmate Mail (effective March 2026)"
-    url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
+    url: "https://corrections.wyo.gov/about-us/policies-procedures-and-forms"
   - name: "WDOC Policy and Procedure 1.109 — Inmate Trust Funds (effective June 2025)"
-    url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
+    url: "https://corrections.wyo.gov/about-us/policies-procedures-and-forms"
   - name: "WDOC Policy and Procedure 1.103 — Disbursement of Inmate Earnings (effective December 2025)"
-    url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
+    url: "https://corrections.wyo.gov/about-us/policies-procedures-and-forms"
   - name: "WDOC Policy and Procedure 1.114 — Inmate Commissary (effective November 2025)"
-    url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
+    url: "https://corrections.wyo.gov/about-us/policies-procedures-and-forms"
 lastReviewed: 2026-06-11
 ---
 

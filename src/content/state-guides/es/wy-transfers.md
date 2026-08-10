@@ -14,9 +14,9 @@ sources:
   - name: "WDOC Planning & Reports (annual and quarterly population reports)"
     url: "https://corrections.wyo.gov/about-us/planning-reports"
   - name: "WDOC Policy and Procedure 5.400 — Inmate Visiting (effective May 2026)"
-    url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
+    url: "https://corrections.wyo.gov/about-us/policies-procedures-and-forms"
   - name: "WDOC Policy and Procedure 4.101 — Inmate Classification (effective October 2025)"
-    url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
+    url: "https://corrections.wyo.gov/about-us/policies-procedures-and-forms"
   - name: "Why Wyoming sent 240 inmates to a Mississippi prison (WyoFile)"
     url: "https://wyofile.com/why-wyoming-sent-240-inmates-to-a-mississippi-prison/"
 lastReviewed: 2026-06-11

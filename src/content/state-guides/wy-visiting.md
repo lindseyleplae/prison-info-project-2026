@@ -10,7 +10,7 @@ sources:
   - name: "WDOC Visitation"
     url: "https://corrections.wyo.gov/facilities/visitation"
   - name: "WDOC Policy and Procedure 5.400 — Inmate Visiting (effective May 2026)"
-    url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
+    url: "https://corrections.wyo.gov/about-us/policies-procedures-and-forms"
   - name: "WDOC Form 534 — Visiting Rules (revised March 2026)"
     url: "https://corrections.wyo.gov/facilities/visitation"
 lastReviewed: 2026-06-11

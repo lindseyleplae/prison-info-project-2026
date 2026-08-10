@@ -8,7 +8,7 @@ system: WDOC
 description: "Cómo funcionan las llamadas desde las prisiones de Wyoming en el sistema ICSolutions — la lista de 20 números, los límites diarios, los tipos de cuenta y las visitas por video desde casa."
 sources:
   - name: "WDOC Policy and Procedure 5.402 — Inmate Telephone Access (effective July 2026)"
-    url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
+    url: "https://corrections.wyo.gov/about-us/policies-procedures-and-forms"
   - name: "WDOC Visitation (video visiting documents)"
     url: "https://corrections.wyo.gov/facilities/visitation"
   - name: "The Visitor by ICSolutions — Wyoming Department of Corrections"

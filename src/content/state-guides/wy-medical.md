@@ -10,9 +10,9 @@ sources:
   - name: "WDOC Inmate Crisis Line & Mental Health Resources"
     url: "https://corrections.wyo.gov/inmate-crisis-line-mental-health-resources"
   - name: "WDOC Policy and Procedure 4.307 — Inmate Access to Health Care (effective October 2025)"
-    url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
+    url: "https://corrections.wyo.gov/about-us/policies-procedures-and-forms"
   - name: "WDOC Policy and Procedure 3.100 — Inmate/Offender Communication and Grievance Procedure (effective August 2024)"
-    url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
+    url: "https://corrections.wyo.gov/about-us/policies-procedures-and-forms"
   - name: "NaphCare — Wyoming Department of Corrections partnership announcement (May 2024)"
     url: "https://www.naphcare.com/news/wyoming-department-of-corrections-and-naphcare-announce-partnership-to-provide-comprehensive-healthcare-services-statewide"
 lastReviewed: 2026-06-11

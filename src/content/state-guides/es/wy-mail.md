@@ -8,7 +8,7 @@ system: WDOC
 description: "Cómo dirigir el correo para que no lo devuelvan, qué puede ir en una carta, la regla de Wyoming de libros solo desde el editor, y por qué se prohíben los paquetes enviados desde casa."
 sources:
   - name: "WDOC Policy and Procedure 5.401 — Inmate Mail (effective March 2026)"
-    url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
+    url: "https://corrections.wyo.gov/about-us/policies-procedures-and-forms"
   - name: "WDOC Offender Locator — Frequently Asked Questions"
     url: "https://wdoc-loc.wyo.gov/Home/Faq"
   - name: "WDOC Facilities"

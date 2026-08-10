@@ -34,7 +34,7 @@ sources:
   - name: "WDOC Planning & Reports (FY2025 annual report, quarterly population reports)"
     url: "https://corrections.wyo.gov/about-us/planning-reports"
   - name: "WDOC Policy and Procedure 4.001 — Admission, Transfer and Orientation (effective January 2026)"
-    url: "https://corrections.wyo.gov/about-us/department-policies-procedures-and-forms"
+    url: "https://corrections.wyo.gov/about-us/policies-procedures-and-forms"
 lastVerified: 2026-06-11
 reviewBy: 2026-10-20
 lang: es
