@@ -36,8 +36,8 @@ sources:
     url: "https://gdc.georgia.gov/friends-and-family/visit-inmate/visitation"
   - name: "Northeast Georgia Medical Center–Habersham — Emergency (Demorest)"
     url: "https://www.nghs.com/locations/habersham"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-06
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

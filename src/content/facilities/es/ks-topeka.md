@@ -30,10 +30,10 @@ sources:
     url: "https://www.doc.ks.gov/facilities/tcf"
   - name: "KDOC — Visitation (In-Person)"
     url: "https://www.doc.ks.gov/visitation-in-person"
-lastVerified: 2026-06-16
-reviewBy: 2026-08-18
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 lang: es
-sourceReviewed: 2026-06-16
+sourceReviewed: 2026-08-17
 ---
 
 :::callout{variant="warning"}

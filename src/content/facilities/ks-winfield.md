@@ -30,8 +30,8 @@ sources:
     url: "https://www.doc.ks.gov/facilities/wcf"
   - name: "KDOC — Visitation (In-Person)"
     url: "https://www.doc.ks.gov/visitation-in-person"
-lastVerified: 2026-06-16
-reviewBy: 2026-08-19
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

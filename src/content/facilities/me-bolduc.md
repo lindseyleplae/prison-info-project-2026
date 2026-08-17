@@ -37,8 +37,8 @@ sources:
     url: "https://www.maine.gov/corrections/bolduc/contact"
   - name: "MaineHealth Pen Bay Hospital — Emergency Department"
     url: "https://www.mainehealth.org/locations/mainehealth-pen-bay-hospital-emergency-department"
-lastVerified: 2026-06-12
-reviewBy: 2026-08-24
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

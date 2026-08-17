@@ -31,8 +31,8 @@ sources:
     url: "https://corrections.ky.gov/Facilities/AI/KCIW/Pages/default.aspx"
   - name: "KY DOC — KCIW Visiting Information"
     url: "https://corrections.ky.gov/Facilities/AI/KCIW/Pages/visitinginformation.aspx"
-lastVerified: 2026-06-16
-reviewBy: 2026-08-19
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

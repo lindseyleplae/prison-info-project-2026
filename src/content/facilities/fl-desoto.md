@@ -34,8 +34,8 @@ sources:
     url: "https://fdc.myflorida.com/institutions/institutions-list/desoto-annex"
   - name: "FDC — Corrections Offender Network"
     url: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
-lastVerified: 2026-06-17
-reviewBy: 2026-07-30
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

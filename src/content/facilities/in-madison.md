@@ -33,8 +33,8 @@ sources:
     url: "https://www.in.gov/idoc/facilities/adult/madison-correctional-facility/"
   - name: "IDOC — Visitation"
     url: "https://www.in.gov/idoc/divisions/support-hub/visitation/"
-lastVerified: 2026-06-15
-reviewBy: 2026-08-16
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

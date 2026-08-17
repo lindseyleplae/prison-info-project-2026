@@ -33,8 +33,8 @@ sources:
     url: "https://www.in.gov/idoc/facilities/adult/south-bend-community-re-entry-center/"
   - name: "IDOC — Visitation"
     url: "https://www.in.gov/idoc/divisions/support-hub/visitation/"
-lastVerified: 2026-06-15
-reviewBy: 2026-08-17
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

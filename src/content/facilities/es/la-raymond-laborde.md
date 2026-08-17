@@ -38,10 +38,10 @@ sources:
     url: "https://www.bunkiegeneral.com/services/24-hour-emergency-room/"
   - name: "Louisiana Political Museum — Raymond J. Laborde"
     url: "https://lapoliticalmuseum.com/inductee/raymond-j-laborde/"
-lastVerified: 2026-06-13
-reviewBy: 2026-08-21
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-17
 ---
 
 :::callout{variant="warning"}

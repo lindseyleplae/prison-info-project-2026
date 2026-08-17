@@ -31,8 +31,8 @@ sources:
     url: "https://www.fdc.myflorida.com/institutions/institutions-list/bay-correctional-facility"
   - name: "FDC — Corrections Offender Network"
     url: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
-lastVerified: 2026-06-18
-reviewBy: 2026-07-29
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

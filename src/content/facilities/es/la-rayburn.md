@@ -36,10 +36,10 @@ sources:
     url: "https://www.northshorecollege.edu/campuses-centers/rayburn-correctional-center/index"
   - name: "Our Lady of the Angels Hospital — Emergency Department (Bogalusa)"
     url: "https://oloah.org/services/emergency-department/"
-lastVerified: 2026-06-13
-reviewBy: 2026-08-21
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-17
 ---
 
 :::callout{variant="warning"}

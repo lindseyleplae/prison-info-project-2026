@@ -33,10 +33,10 @@ sources:
     url: "https://www.in.gov/idoc/facilities/adult/rockville-correctional-facility/"
   - name: "IDOC — Visitation"
     url: "https://www.in.gov/idoc/divisions/support-hub/visitation/"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-17
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-08-17
 ---
 
 :::callout{variant="warning"}

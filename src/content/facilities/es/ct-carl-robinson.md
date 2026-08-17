@@ -36,10 +36,10 @@ sources:
     url: "https://portal.ct.gov/-/media/doc/pdf/visit/visiting-schedules-2025/visiting-schedule-crci-in-person-visits-eff-031025.pdf"
   - name: "Johnson Memorial Hospital — Emergency (Stafford Springs)"
     url: "https://www.trinityhealthofne.org/location/johnson-memorial-hospital"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-27
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-17
 ---
 
 :::callout{variant="warning"}

@@ -34,8 +34,8 @@ sources:
     url: "https://gdc.georgia.gov/friends-and-family/visit-inmate/visitation"
   - name: "Piedmont Augusta Hospital — Emergency (Augusta)"
     url: "https://www.piedmont.org/locations/piedmont-augusta"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-04
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

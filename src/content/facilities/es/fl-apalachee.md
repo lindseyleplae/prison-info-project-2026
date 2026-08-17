@@ -34,10 +34,10 @@ sources:
     url: "https://fdc.myflorida.com/institutions/institutions-list/apalachee-correctional-institution-east-unit"
   - name: "FDC — Corrections Offender Network"
     url: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
-lastVerified: 2026-06-17
-reviewBy: 2026-07-29
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 lang: es
-sourceReviewed: 2026-06-17
+sourceReviewed: 2026-08-17
 ---
 
 :::callout{variant="warning"}

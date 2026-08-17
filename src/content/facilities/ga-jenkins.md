@@ -31,8 +31,8 @@ sources:
     url: "https://gdc.georgia.gov/locations/jenkins-correctional-facility"
   - name: "GDC — Visitation"
     url: "https://gdc.georgia.gov/friends-and-family/visit-inmate/visitation"
-lastVerified: 2026-06-15
-reviewBy: 2026-08-06
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

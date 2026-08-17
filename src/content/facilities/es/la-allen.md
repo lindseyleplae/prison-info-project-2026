@@ -36,10 +36,10 @@ sources:
     url: "https://www.allenhealth.org/services/emergency-care"
   - name: "Louisiana DPS&C — Facility Directory"
     url: "https://doc.la.gov/location/"
-lastVerified: 2026-06-13
-reviewBy: 2026-08-20
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-17
 ---
 
 :::callout{variant="warning"}

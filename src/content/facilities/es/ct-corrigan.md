@@ -37,10 +37,10 @@ sources:
     url: "https://ctmirror.org/2021/09/08/state-to-close-radgowski-correctional-center/"
   - name: "Backus Hospital — Emergency (Norwich)"
     url: "https://backushospital.org/"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-27
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-17
 ---
 
 :::callout{variant="warning"}

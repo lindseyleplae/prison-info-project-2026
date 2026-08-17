@@ -27,8 +27,8 @@ sources:
     url: "https://corrections.ky.gov/facilities/ai/pages/default.aspx"
   - name: "CoreCivic — Lee Adjustment Center"
     url: "https://www.corecivic.com/facilities/lee-adjustment-center"
-lastVerified: 2026-06-16
-reviewBy: 2026-08-19
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

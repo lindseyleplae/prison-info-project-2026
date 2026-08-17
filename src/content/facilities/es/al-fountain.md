@@ -36,10 +36,10 @@ sources:
     url: "https://www.doc.alabama.gov/about/administrative-regulations/"
   - name: "Atmore Community Hospital — Emergency (Atmore)"
     url: "https://www.atmorehealth.org/"
-lastVerified: 2026-06-13
-reviewBy: 2026-07-16
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-17
 ---
 
 :::callout{variant="warning"}

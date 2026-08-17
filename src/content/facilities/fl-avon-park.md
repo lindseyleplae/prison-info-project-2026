@@ -32,8 +32,8 @@ sources:
     url: "https://fdc.myflorida.com/institutions/institutions-list/avon-park-correctional-institution"
   - name: "FDC — Corrections Offender Network"
     url: "https://pubapps.fdc.myflorida.com/OffenderSearch/"
-lastVerified: 2026-06-17
-reviewBy: 2026-07-29
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

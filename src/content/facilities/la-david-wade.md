@@ -37,8 +37,8 @@ sources:
     url: "https://thelensnola.org/2024/07/24/torturous-judge-places-solitary-confinement-and-mental-health-care-at-david-wade-prison-under-federal-oversight/"
   - name: "Claiborne Memorial Medical Center (Homer)"
     url: "https://claibornemedical.com/contact-us/"
-lastVerified: 2026-06-13
-reviewBy: 2026-08-20
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

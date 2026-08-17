@@ -33,10 +33,10 @@ sources:
     url: "https://dpscs.maryland.gov/locations/drc.shtml"
   - name: "Maryland DPSCS — Incarcerated Individual Visitation Services"
     url: "https://dpscs.maryland.gov/inmateservs/inmate_visitation.shtml"
-lastVerified: 2026-06-15
-reviewBy: 2026-08-23
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 lang: es
-sourceReviewed: 2026-06-15
+sourceReviewed: 2026-08-17
 ---
 
 :::callout{variant="warning"}

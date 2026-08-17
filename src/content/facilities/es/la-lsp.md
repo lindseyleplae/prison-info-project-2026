@@ -38,10 +38,10 @@ sources:
     url: "https://angolarodeo.com/"
   - name: "West Feliciana Hospital — Emergency Care (St. Francisville)"
     url: "https://www.wfph.org/specialty/emergency-care/"
-lastVerified: 2026-06-12
-reviewBy: 2026-08-21
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 lang: es
-sourceReviewed: 2026-06-12
+sourceReviewed: 2026-08-17
 ---
 
 :::callout{variant="warning"}

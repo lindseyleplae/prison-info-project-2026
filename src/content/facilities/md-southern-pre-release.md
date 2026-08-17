@@ -33,8 +33,8 @@ sources:
     url: "https://dpscs.maryland.gov/agencies/phone_list.pdf"
   - name: "Maryland DPSCS — Incarcerated Individual Visitation Services"
     url: "https://dpscs.maryland.gov/inmateservs/inmate_visitation.shtml"
-lastVerified: 2026-06-15
-reviewBy: 2026-08-24
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}

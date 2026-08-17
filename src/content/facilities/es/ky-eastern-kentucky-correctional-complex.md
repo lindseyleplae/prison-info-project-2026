@@ -29,10 +29,10 @@ sources:
     url: "https://corrections.ky.gov/Facilities/AI/EKCC/Pages/default.aspx"
   - name: "KY DOC — Adult Institutions"
     url: "https://corrections.ky.gov/facilities/ai/pages/default.aspx"
-lastVerified: 2026-06-16
-reviewBy: 2026-08-19
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 lang: es
-sourceReviewed: 2026-06-16
+sourceReviewed: 2026-08-17
 ---
 
 :::callout{variant="warning"}

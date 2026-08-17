@@ -31,8 +31,8 @@ sources:
     url: "https://doc.la.gov/wp-content/uploads/2024/01/EHCC-PREA-Audit-Report-2023.pdf"
   - name: "Ochsner Medical Complex – Iberville (Plaquemine)"
     url: "https://www.ochsner.org/locations/ochsner-medical-complex-iberville/"
-lastVerified: 2026-06-12
-reviewBy: 2026-08-21
+lastVerified: 2026-08-17
+reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}
