@@ -72,7 +72,7 @@ Lee Arrendale State Prison, on Gainesville Highway in Alto, Habersham County, is
 The statewide GDC rules above — the approved visitor list, the dress code, ID, and item limits — apply at Lee Arrendale. The facility's own arrangements:
 
 :::key-info
-**Days and hours:** Saturday, Sunday, and state holidays, generally 9:00 a.m. to 3:00 p.m. — confirm with the facility
+**Days and hours (as GDC publishes them):** By last name — A-K on Saturdays, L-Z on Sundays, 9:00 a.m. to 3:00 p.m., with all visitors admitted on state holidays. **This is GDC's posted schedule, and readers report the facility no longer operates as a prison, so confirm it still applies before travelling.**
 
 **Diagnostic status:** A woman in intake is generally not eligible for visits until she reaches a permanent prison
 

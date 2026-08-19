@@ -74,7 +74,7 @@ Lee Arrendale State Prison, en Gainesville Highway en Alto, condado de Habersham
 Las reglas estatales de GDC mencionadas arriba —la lista de visitantes aprobados, el código de vestimenta, la identificación y los límites de objetos— se aplican en Lee Arrendale. Los arreglos propios de la institución:
 
 :::key-info
-**Días y horarios:** Sábado, domingo y feriados estatales, generalmente de 9:00 a. m. a 3:00 p. m. — confirme con la institución
+**Días y horarios (según los publica el GDC):** Según el apellido: A-K los sábados, L-Z los domingos, de 9:00 a. m. a 3:00 p. m., y todos los visitantes en los días feriados estatales. **Este es el calendario publicado por el GDC, y algunos lectores informan que la institución ya no funciona como prisión, así que confirme que siga vigente antes de viajar.**
 
 **Estado de diagnóstico:** Una mujer en ingreso generalmente no es elegible para visitas hasta que llega a una prisión permanente
 
