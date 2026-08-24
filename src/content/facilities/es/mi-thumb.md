@@ -36,10 +36,10 @@ sources:
     url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "McLaren Lapeer Region — Emergency Department"
     url: "https://www.mclaren.org/main/locations/emergency-department-at-mclaren-lapeer-region-524"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-28
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-08-24
 ---
 
 :::callout{variant="warning"}

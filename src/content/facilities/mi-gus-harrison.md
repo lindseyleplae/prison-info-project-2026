@@ -36,8 +36,8 @@ sources:
     url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "ProMedica Charles and Virginia Hickman Hospital — Adrian"
     url: "https://www.promedica.org/locations-and-doctors/location/hospital/promedica-charles-and-virginia-hickman-hospital"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-26
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 ---
 
 :::callout{variant="warning"}

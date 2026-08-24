@@ -33,10 +33,10 @@ sources:
     url: "https://corrections.az.gov/phoenix-west"
   - name: "ADCRR — Visitation"
     url: "https://corrections.az.gov/visitation"
-lastVerified: 2026-06-17
-reviewBy: 2026-07-20
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 lang: es
-sourceReviewed: 2026-06-17
+sourceReviewed: 2026-08-24
 ---
 
 :::callout{variant="warning"}

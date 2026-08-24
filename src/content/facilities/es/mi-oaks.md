@@ -36,10 +36,10 @@ sources:
     url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "Munson Healthcare Manistee Hospital — Emergency"
     url: "https://www.munsonhealthcare.org/manistee-hospital"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-27
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-08-24
 ---
 
 :::callout{variant="warning"}

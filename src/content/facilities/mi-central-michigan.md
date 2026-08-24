@@ -36,8 +36,8 @@ sources:
     url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "MyMichigan Medical Center Alma — Emergency"
     url: "https://www.mymichigan.org/locations/profile/emergency-department-alma/"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-26
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 ---
 
 :::callout{variant="warning"}

@@ -39,8 +39,8 @@ sources:
     url: "https://en.wikipedia.org/wiki/Charles_Egeler_Reception_and_Guidance_Center"
   - name: "Henry Ford Jackson Hospital — Emergency"
     url: "https://www.henryford.com/locations/jackson-hospital"
-lastVerified: 2026-06-13
-reviewBy: 2026-08-26
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 ---
 
 :::callout{variant="warning"}

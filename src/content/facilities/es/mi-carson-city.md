@@ -36,10 +36,10 @@ sources:
     url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "UM Health-Sparrow Carson Hospital — Emergency"
     url: "https://www.uofmhealthsparrow.org/our-hospitals-services/um-health-sparrow-hospitals/carson"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-25
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-08-24
 ---
 
 :::callout{variant="warning"}

@@ -33,10 +33,10 @@ sources:
     url: "https://corrections.az.gov/lewis"
   - name: "ADCRR — Visitation"
     url: "https://corrections.az.gov/visitation"
-lastVerified: 2026-06-14
-reviewBy: 2026-07-20
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-08-24
 ---
 
 :::callout{variant="warning"}

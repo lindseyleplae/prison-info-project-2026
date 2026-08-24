@@ -36,10 +36,10 @@ sources:
     url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "University of Michigan Health — Adult Emergency Department"
     url: "https://www.uofmhealth.org/locations-list/adult-emergency-department-university-hospital"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-28
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-08-24
 ---
 
 :::callout{variant="warning"}

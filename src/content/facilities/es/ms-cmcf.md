@@ -36,10 +36,10 @@ sources:
     url: "https://www.justice.gov/d9/2024-02/2024.02.26_ms_doc_findings_report_it_508_reviewed_0.pdf"
   - name: "Merit Health Rankin — Brandon"
     url: "https://www.merithealthrankin.com/"
-lastVerified: 2026-06-12
-reviewBy: 2026-08-31
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 lang: es
-sourceReviewed: 2026-06-12
+sourceReviewed: 2026-08-24
 ---
 
 :::callout{variant="warning"}

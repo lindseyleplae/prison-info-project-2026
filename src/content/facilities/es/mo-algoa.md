@@ -33,10 +33,10 @@ sources:
     url: "https://doc.mo.gov/doc-family/acc"
   - name: "Missouri DOC — Visiting"
     url: "https://doc.mo.gov/programs/family-friends/visiting"
-lastVerified: 2026-06-15
-reviewBy: 2026-08-29
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 lang: es
-sourceReviewed: 2026-06-15
+sourceReviewed: 2026-08-24
 ---
 
 :::callout{variant="warning"}

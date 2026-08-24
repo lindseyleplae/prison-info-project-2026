@@ -45,10 +45,10 @@ sources:
     url: "https://www.mainepublic.org/news/2023-05-31/new-maine-correctional-center-in-windham-officially-opened-wednesday"
   - name: "MaineHealth Maine Medical Center — Emergency Department"
     url: "https://www.mainehealth.org/locations/mainehealth-maine-medical-center-portland-emergency-department"
-lastVerified: 2026-06-12
-reviewBy: 2026-08-25
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 lang: es
-sourceReviewed: 2026-06-12
+sourceReviewed: 2026-08-24
 ---
 
 :::callout{variant="warning"}

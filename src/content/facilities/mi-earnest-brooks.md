@@ -36,8 +36,8 @@ sources:
     url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "Trinity Health Muskegon — Emergency"
     url: "https://www.trinityhealthmichigan.org/location/trinity-health-muskegon-hospital"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-26
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 ---
 
 :::callout{variant="warning"}

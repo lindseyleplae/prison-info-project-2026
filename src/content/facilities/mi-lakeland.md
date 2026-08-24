@@ -36,8 +36,8 @@ sources:
     url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "Insight Hospital & Medical Center Coldwater — Emergency"
     url: "https://insightcoldwater.org/services/emergency-center/"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-27
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 ---
 
 :::callout{variant="warning"}

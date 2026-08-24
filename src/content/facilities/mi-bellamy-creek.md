@@ -36,8 +36,8 @@ sources:
     url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "University of Michigan Health–Sparrow Ionia — Emergency"
     url: "https://www.uofmhealthsparrow.org/our-hospitals-services/um-health-sparrow-hospitals/ionia"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-25
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 ---
 
 :::callout{variant="warning"}

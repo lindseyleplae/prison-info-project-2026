@@ -38,8 +38,8 @@ sources:
     url: "https://en.wikipedia.org/wiki/Marquette_Branch_Prison"
   - name: "UP Health System – Marquette — Emergency"
     url: "https://www.uphealthsystem.com/emergency-room"
-lastVerified: 2026-06-13
-reviewBy: 2026-08-27
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 ---
 
 :::callout{variant="warning"}

@@ -42,10 +42,10 @@ sources:
     url: "https://www.mainehealth.org/locations/mainehealth-pen-bay-hospital-emergency-department"
   - name: "Maine State Prison — Wikipedia (history)"
     url: "https://en.wikipedia.org/wiki/Maine_State_Prison"
-lastVerified: 2026-06-12
-reviewBy: 2026-08-25
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 lang: es
-sourceReviewed: 2026-06-12
+sourceReviewed: 2026-08-24
 ---
 
 :::callout{variant="warning"}

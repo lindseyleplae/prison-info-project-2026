@@ -36,8 +36,8 @@ sources:
     url: "https://www.michigan.gov/corrections/for-families/visiting-a-prisoner"
   - name: "Helen Newberry Joy Hospital — Emergency"
     url: "https://hnjh.org/"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-27
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 ---
 
 :::callout{variant="warning"}

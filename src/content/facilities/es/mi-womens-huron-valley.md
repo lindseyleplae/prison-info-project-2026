@@ -38,10 +38,10 @@ sources:
     url: "https://bridgemi.com/michigan-government/mold-medical-failures-alleged-at-michigan-womens-prison/"
   - name: "Trinity Health Ann Arbor Hospital — Emergency"
     url: "https://www.trinityhealthmichigan.org/location/trinity-health-emergency-ann-arbor-hospital"
-lastVerified: 2026-06-13
-reviewBy: 2026-08-28
+lastVerified: 2026-08-24
+reviewBy: 2026-11-22
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-24
 ---
 
 :::callout{variant="warning"}
