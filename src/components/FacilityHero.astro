@@ -1,9 +1,11 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { t, type Lang } from '../lib/ui-strings';
 
-const { facility, stateTitle } = Astro.props as {
+const { facility, stateTitle, lang = 'en' } = Astro.props as {
   facility: CollectionEntry<'facilities'>['data'];
   stateTitle: string;
+  lang?: Lang;
 };
 
 const meta = [facility.securityLevel, facility.facilityType, facility.system].filter(Boolean).join(' · ');
@@ -14,7 +16,7 @@ const location = [
 ].filter(Boolean).join(', ');
 const verifyPhone = facility.contact.visitingOffice ?? facility.contact.mainPhone;
 const verifyPhoneHref = verifyPhone.replace(/[^\d+]/g, '');
-const formattedLastVerified = new Intl.DateTimeFormat('en-US', {
+const formattedLastVerified = new Intl.DateTimeFormat(lang === 'es' ? 'es' : 'en-US', {
   month: 'long',
   year: 'numeric',
   timeZone: 'UTC'
@@ -29,13 +31,14 @@ const formattedLastVerified = new Intl.DateTimeFormat('en-US', {
   )}
   <h1 class="facility-hero__name">{facility.title}</h1>
   {location && <p class="facility-hero__location">{location}</p>}
+  <p class="facility-hero__identity">{t(lang, 'hero.identity')}</p>
   <div class="facility-hero__verify">
     <p>
-      Visiting schedules change without notice. <strong>Always call before traveling.</strong>
+      {t(lang, 'hero.verifyLead')} <strong>{t(lang, 'hero.verifyStrong')}</strong>
     </p>
     <a href={`tel:${verifyPhoneHref}`} class="btn btn--primary btn--large">
-      Call Visiting Office: {verifyPhone}
+      {t(lang, 'hero.callButton')} {verifyPhone}
     </a>
-    <span class="facility-hero__updated">Info last verified: {formattedLastVerified}</span>
+    <span class="facility-hero__updated">{t(lang, 'hero.lastVerified')} {formattedLastVerified}</span>
   </div>
 </header>

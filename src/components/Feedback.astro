@@ -31,7 +31,12 @@ const mailtoHref = `mailto:${siteConfig.email}?subject=${encodeURIComponent(subj
     <p>
       <a href={mailtoHref} class="feedback__email">{t(lang, 'feedback.cta')}</a>
     </p>
-    <p class="feedback__address">{t(lang, 'feedback.orEmail')} <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a>.</p>
+    {/* No bare address here — it was the magnet for misdirected mail (forms,
+        reports, questions about a person). The contact page routes each of
+        those to the channel that can act, then shows the address for site
+        corrections. The prefilled correction link above keeps working for
+        people whose browser opens mail links. */}
+    <p class="feedback__address">{t(lang, 'feedback.contactPre')} <a href={`${lang === 'es' ? '/es' : ''}/contact/`}>{t(lang, 'feedback.contactLinkText')}</a>.</p>
 
     <div class="feedback__scope">
       <h3 class="feedback__scope-heading">{t(lang, 'feedback.scopeHeading')}</h3>

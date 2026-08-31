@@ -77,6 +77,18 @@ const strings = {
     // prison parking lots with no signal.
     'footer.installHint':
       'This site can be saved to a phone\'s home screen: open the browser menu and choose "Add to Home Screen." Pages that have been opened continue to work without a signal.',
+    'footer.contactPage': 'Contact',
+
+    // Facility hero. A facility page leads with the prison's name, address, and
+    // phone, which reads as the prison's own page — people were emailing this
+    // site their visitation forms. The identity line disowns officialdom at the
+    // point of maximum confusion and immediately hands over the real channel
+    // (the call button directly below it).
+    'hero.identity': 'An independent guide — not the facility\'s own website. The phone number below reaches the facility directly.',
+    'hero.verifyLead': 'Visiting schedules change without notice.',
+    'hero.verifyStrong': 'Always call before traveling.',
+    'hero.callButton': 'Call Visiting Office:',
+    'hero.lastVerified': 'Info last verified:',
 
     // Breadcrumbs
     'crumb.home': 'Home',
@@ -93,7 +105,7 @@ const strings = {
 
     // Disclaimer bar
     'disclaimer.text':
-      'This site is for informational purposes only and does not constitute legal advice. It is not affiliated with any corrections department or government agency. Information is compiled from publicly available sources and may not reflect current policies. Always verify details directly with the facility before visiting.',
+      'This site is for informational purposes only and does not constitute legal advice. It is an independent website — not a prison, not a corrections department, and not a government agency — and it cannot contact a facility on anyone\'s behalf. Information is compiled from publicly available sources and may not reflect current policies. Always verify details directly with the facility before visiting.',
 
     // Feedback
     'feedback.heading': 'See something that needs updating?',
@@ -114,6 +126,12 @@ const strings = {
       'Please do not send Social Security numbers, dates of birth, identification documents, or completed forms. Nobody here can process them.',
     'feedback.cta': 'Suggest a correction for this page',
     'feedback.orEmail': 'Or email',
+    // The bare email address that used to sit here was the magnet for
+    // misdirected mail — visitation forms, questions about a person, reports
+    // about conditions. The contact page routes each of those to the channel
+    // that can act before it shows an address.
+    'feedback.contactPre': 'Other ways to reach the site — and where requests about a person in custody go — are on the',
+    'feedback.contactLinkText': 'contact page',
     'feedback.subject': 'Correction or update:',
     'feedback.bodyPage': 'Page:',
     'feedback.bodyWhat': 'What needs updating:',
@@ -244,6 +262,12 @@ const strings = {
     'footer.contact': 'Contacto:',
     'footer.installHint':
       'Este sitio se puede guardar en la pantalla de inicio de un teléfono: abra el menú del navegador y elija "Agregar a la pantalla de inicio". Las páginas que ya se abrieron siguen funcionando sin señal.',
+    'footer.contactPage': 'Contacto',
+    'hero.identity': 'Una guía independiente — no es el sitio web propio de la institución. El número de teléfono de abajo comunica directamente con la institución.',
+    'hero.verifyLead': 'Los horarios de visita cambian sin previo aviso.',
+    'hero.verifyStrong': 'Llame siempre antes de viajar.',
+    'hero.callButton': 'Llamar a la oficina de visitas:',
+    'hero.lastVerified': 'Información verificada por última vez:',
 
     // Breadcrumbs
     'crumb.home': 'Inicio',
@@ -260,7 +284,7 @@ const strings = {
 
     // Disclaimer bar
     'disclaimer.text':
-      'Este sitio tiene fines únicamente informativos y no constituye asesoría legal. No está afiliado con ningún departamento penitenciario ni agencia gubernamental. La información se recopila de fuentes disponibles al público y puede no reflejar las políticas vigentes. Verifique siempre los detalles directamente con la institución antes de visitar.',
+      'Este sitio tiene fines únicamente informativos y no constituye asesoría legal. Es un sitio web independiente —no es una prisión, ni un departamento penitenciario, ni una agencia gubernamental— y no puede comunicarse con una institución en nombre de nadie. La información se recopila de fuentes disponibles al público y puede no reflejar las políticas vigentes. Verifique siempre los detalles directamente con la institución antes de visitar.',
 
     // Feedback
     'feedback.heading': '¿Ve algo que deba actualizarse?',
@@ -275,6 +299,8 @@ const strings = {
       'Por favor no envíe números de Seguro Social, fechas de nacimiento, documentos de identidad ni formularios completados. Aquí nadie puede tramitarlos.',
     'feedback.cta': 'Sugiera una corrección para esta página',
     'feedback.orEmail': 'O escriba a',
+    'feedback.contactPre': 'Otras formas de comunicarse con el sitio —y adónde dirigir las solicitudes sobre una persona encarcelada— están en la',
+    'feedback.contactLinkText': 'página de contacto',
     'feedback.subject': 'Corrección o actualización:',
     'feedback.bodyPage': 'Página:',
     'feedback.bodyWhat': 'Qué necesita actualizarse:',

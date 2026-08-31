@@ -6,7 +6,7 @@ export const siteConfig = {
   description:
     'Factual prison visiting, communication, money, and rights information organized by state and facility.',
   disclaimer:
-    'This site is for informational purposes only and does not constitute legal advice. It is not affiliated with any corrections department or government agency. Information is compiled from publicly available sources and may not reflect current policies. Always verify details directly with the facility before visiting.',
+    'This site is for informational purposes only and does not constitute legal advice. It is an independent website — not a prison, not a corrections department, and not a government agency — and it cannot contact a facility on anyone\'s behalf. Information is compiled from publicly available sources and may not reflect current policies. Always verify details directly with the facility before visiting.',
   social: {
     github: 'https://github.com/lindseyleplae/prison-info-project-2026'
   }

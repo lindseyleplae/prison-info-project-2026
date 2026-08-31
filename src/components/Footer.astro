@@ -19,6 +19,7 @@ tools.sort((left, right) => left.data.title.localeCompare(right.data.title));
 
 const siteLinks = [
   { href: `${prefix}/about/`, label: t(lang, 'footer.about') },
+  { href: `${prefix}/contact/`, label: t(lang, 'footer.contactPage') },
   { href: `${prefix}/privacy/`, label: t(lang, 'footer.privacy') },
   { href: `${prefix}/terms/`, label: t(lang, 'footer.terms') }
 ];
@@ -73,7 +74,11 @@ const siteLinks = [
       </div>
       <p>{t(lang, 'footer.disclaimer')}</p>
       <p>{t(lang, 'footer.installHint')}</p>
-      <p>{t(lang, 'footer.contact')} <a href={`mailto:${siteConfig.email}`}>{siteConfig.email}</a></p>
+      {/* No bare email address here. It was the easiest thing for someone
+          hunting "email the prison" to grab — visitation forms and reports
+          about conditions arrived at the site's inbox. The Contact entry under
+          "Site" above routes those requests to the facility or the state
+          before it shows an address. */}
     </div>
   </div>
 </footer>

@@ -90,7 +90,7 @@ const metaDescription =
   <div class="container guide-grid">
     <article class="guide-content content-width">
       <Breadcrumbs pageTitle={facility.data.title} stateLabel={stateTitle} lang={lang} />
-      <FacilityHero facility={facility.data} stateTitle={stateTitle} />
+      <FacilityHero facility={facility.data} stateTitle={stateTitle} lang={lang} />
       {facility.data.summary && <p class="facility-page-summary subtitle">{facility.data.summary}</p>}
       <PlanYourVisit facility={facility} stateSlug={Astro.params.state} lang={lang} />
       <StateVisitingRules state={facility.data.state} facilitySystem={facility.data.system} lang={lang} />

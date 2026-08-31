@@ -640,6 +640,14 @@ h3 + .steps {
   font-size: var(--text-lg);
 }
 
+/* Identity line: quiet but adjacent to the facility name, because the page —
+   prison name, address, phone — reads as the prison's own site. */
+.facility-hero__identity {
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  margin-top: var(--space-1);
+}
+
 .facility-hero__verify {
   display: grid;
   gap: var(--space-3);
