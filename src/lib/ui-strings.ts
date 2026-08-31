@@ -71,6 +71,12 @@ const strings = {
     'footer.terms': 'Terms',
     'footer.disclaimer': 'Not affiliated with any corrections department. Information may change without notice.',
     'footer.contact': 'Contact:',
+    // Surfaces the PWA install path in plain words. The site is installable and
+    // works offline once installed, but browsers bury "Add to Home Screen", so
+    // almost nobody finds it on their own — and offline pages matter most in
+    // prison parking lots with no signal.
+    'footer.installHint':
+      'This site can be saved to a phone\'s home screen: open the browser menu and choose "Add to Home Screen." Pages that have been opened continue to work without a signal.',
 
     // Breadcrumbs
     'crumb.home': 'Home',
@@ -236,6 +242,8 @@ const strings = {
     'footer.disclaimer':
       'No está afiliado con ningún departamento penitenciario. La información puede cambiar sin previo aviso.',
     'footer.contact': 'Contacto:',
+    'footer.installHint':
+      'Este sitio se puede guardar en la pantalla de inicio de un teléfono: abra el menú del navegador y elija "Agregar a la pantalla de inicio". Las páginas que ya se abrieron siguen funcionando sin señal.',
 
     // Breadcrumbs
     'crumb.home': 'Inicio',
