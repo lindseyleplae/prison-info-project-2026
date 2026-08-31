@@ -35,8 +35,8 @@ sources:
     url: "https://corrections.nebraska.gov/sites/default/files/2026-01/205.02%20%282025%29%20-%20VISITING.pdf"
   - name: "CHI Health Creighton University Medical Center — University Campus (Omaha)"
     url: "https://www.chihealth.com/locations/cumc-university-campus"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-07
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 ---
 
 :::callout{variant="warning"}

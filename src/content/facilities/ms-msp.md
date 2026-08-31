@@ -37,8 +37,8 @@ sources:
     url: "https://www.justice.gov/d9/press-releases/attachments/2022/04/20/mdoc_parchman_findings_report_0.pdf"
   - name: "Bolivar Medical Center — Emergency Room (Cleveland)"
     url: "https://www.bolivarmedical.com/services/emergency-room"
-lastVerified: 2026-06-12
-reviewBy: 2026-09-01
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 ---
 
 :::callout{variant="warning"}

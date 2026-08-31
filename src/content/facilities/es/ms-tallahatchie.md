@@ -37,10 +37,10 @@ sources:
     url: "https://cor.mt.gov/Facilities/ContractedSecureFacilities"
   - name: "Northwest Mississippi Regional Medical Center — Clarksdale"
     url: "https://nwmrmc.org/"
-lastVerified: 2026-06-12
-reviewBy: 2026-09-01
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 lang: es
-sourceReviewed: 2026-06-12
+sourceReviewed: 2026-08-31
 ---
 
 :::callout{variant="warning"}

@@ -36,10 +36,10 @@ sources:
     url: "https://nebraskalegislature.gov/FloorDocs/109/PDF/Agencies/Inspector_General_of_the_Nebraska_Correctional_System/600_20250915-155923.pdf"
   - name: "CHI Health Creighton University Medical Center — Bergan Mercy (Omaha)"
     url: "https://www.chihealth.com/locations/cumc-bergan-mercy"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-07
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-31
 ---
 
 :::callout{variant="warning"}

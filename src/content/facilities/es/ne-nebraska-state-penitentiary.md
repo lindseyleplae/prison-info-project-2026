@@ -38,10 +38,10 @@ sources:
     url: "https://deathpenaltyinfo.org/state-and-federal-info/state-by-state/nebraska"
   - name: "Bryan Medical Center — West Campus Emergency (Lincoln)"
     url: "https://www.bryanhealth.com/locations/profile/emergency-department-bryan-west-campus/"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-07
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-31
 ---
 
 :::callout{variant="warning"}

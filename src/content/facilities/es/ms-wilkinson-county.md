@@ -33,10 +33,10 @@ sources:
     url: "https://www.mdoc.ms.gov/sites/default/files/Monthly_Fact_Sheets/2025_Monthly%20Fact%20Sheet_September.pdf"
   - name: "The Marshall Project — reporting on Wilkinson County (2019)"
     url: "https://www.themarshallproject.org/2019/06/26/corporate-confession-gangs-ran-this-private-prison"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-01
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-31
 ---
 
 :::callout{variant="warning"}

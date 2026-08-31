@@ -35,10 +35,10 @@ sources:
     url: "https://caselaw.findlaw.com/court/us-dis-crt-s-d-mis-nor-div-nor-div/2070115.html"
   - name: "Ochsner Rush Medical Center — Emergency (Meridian)"
     url: "https://www.ochsnerrush.org/hospitals/ochsner-rush-medical-center/"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-01
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-31
 ---
 
 :::callout{variant="warning"}

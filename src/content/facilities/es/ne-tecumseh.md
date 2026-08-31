@@ -40,10 +40,10 @@ sources:
     url: "https://deathpenaltyinfo.org/state-and-federal-info/state-by-state/nebraska"
   - name: "Johnson County Hospital — Emergency (Tecumseh)"
     url: "https://jchosp.com/"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-07
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-31
 ---
 
 :::callout{variant="warning"}

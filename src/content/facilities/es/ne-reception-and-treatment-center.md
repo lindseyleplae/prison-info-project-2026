@@ -42,10 +42,10 @@ sources:
     url: "https://nebraskalegislature.gov/FloorDocs/109/PDF/Agencies/Inspector_General_of_the_Nebraska_Correctional_System/600_20250915-155923.pdf"
   - name: "CHI Health St. Elizabeth — Emergency Department (Lincoln)"
     url: "https://www.chihealth.com/services/emergency-medicine/st-elizabeth-emergency-department"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-07
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-08-31
 ---
 
 :::callout{variant="warning"}

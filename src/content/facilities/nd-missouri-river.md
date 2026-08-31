@@ -30,8 +30,8 @@ sources:
     url: "https://www.docr.nd.gov/adult-facilities"
   - name: "ND DOCR — Visiting (Family & Friends)"
     url: "https://www.docr.nd.gov/family-and-friends/"
-lastVerified: 2026-06-16
-reviewBy: 2026-09-06
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 ---
 
 :::callout{variant="warning"}

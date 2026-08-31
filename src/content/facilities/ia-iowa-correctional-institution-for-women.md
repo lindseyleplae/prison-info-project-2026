@@ -26,8 +26,8 @@ links:
 sources:
   - name: "Iowa DOC — Iowa Correctional Institution for Women"
     url: "https://doc.iowa.gov/districts-prisons/iowa-correctional-institution-women"
-lastVerified: 2026-06-17
-reviewBy: 2026-08-10
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 ---
 
 :::callout{variant="warning"}

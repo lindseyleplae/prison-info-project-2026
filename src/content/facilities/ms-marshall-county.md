@@ -33,8 +33,8 @@ sources:
     url: "https://www.mdoc.ms.gov/family-friends/frequently-asked-questions"
   - name: "Baptist Memorial Hospital–North Mississippi — Emergency (Oxford)"
     url: "https://www.baptistonline.org/locations/north-mississippi"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-01
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 ---
 
 :::callout{variant="warning"}

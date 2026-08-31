@@ -30,8 +30,8 @@ sources:
     url: "https://cor.mt.gov/Facilities/SecureFacilities"
   - name: "Montana DOC — In-Person Visitation"
     url: "https://cor.mt.gov/FriendsandFamily/In-Person-Visitation"
-lastVerified: 2026-06-16
-reviewBy: 2026-09-02
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 ---
 
 :::callout{variant="warning"}

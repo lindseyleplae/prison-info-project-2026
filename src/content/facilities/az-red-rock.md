@@ -33,8 +33,8 @@ sources:
     url: "https://corrections.az.gov/red-rock-correctional-center"
   - name: "ADCRR — Visitation"
     url: "https://corrections.az.gov/visitation"
-lastVerified: 2026-06-15
-reviewBy: 2026-07-20
+lastVerified: 2026-08-31
+reviewBy: 2026-11-29
 ---
 
 :::callout{variant="warning"}
