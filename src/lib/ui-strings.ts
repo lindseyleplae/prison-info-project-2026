@@ -148,6 +148,8 @@ const strings = {
 
     // Guide layout
     'guide.lastReviewed': 'Last reviewed:',
+    'tool.updated': 'Updated:',
+    'tool.print': 'Print this page',
     'guide.relatedIntro': 'For the general, nationwide overview of this topic, see the national guide:',
 
     // StartHere
@@ -317,6 +319,8 @@ const strings = {
 
     // Guide layout
     'guide.lastReviewed': 'Última revisión:',
+    'tool.updated': 'Actualizado:',
+    'tool.print': 'Imprimir esta página',
     'guide.relatedIntro': 'Para ver la descripción general de este tema a nivel nacional, consulte la guía nacional:',
 
     // StartHere

@@ -3,18 +3,25 @@ import { getCollection, render } from 'astro:content';
 import ToolLayout from '../../layouts/ToolLayout.astro';
 
 export async function getStaticPaths() {
-  const entries = await getCollection('tools', ({ data }) => !data.draft);
+  // The lang guard matters: ES twins share the EN slug, so an unguarded query
+  // would emit duplicate routes (the same trap every other collection's EN
+  // route already guards against).
+  const [entries, esEntries] = await Promise.all([
+    getCollection('tools', ({ data }) => !data.draft && data.lang === 'en'),
+    getCollection('tools', ({ data }) => !data.draft && data.lang === 'es')
+  ]);
+  const spanishSlugs = new Set(esEntries.map((entry) => entry.data.slug));
 
   return entries.map((entry) => ({
     params: { slug: entry.data.slug },
-    props: { entry }
+    props: { entry, hasSpanish: spanishSlugs.has(entry.data.slug) }
   }));
 }
 
-const { entry } = Astro.props;
+const { entry, hasSpanish } = Astro.props;
 const { Content } = await render(entry);
 ---
 
-<ToolLayout title={entry.data.title} description={entry.data.description ?? entry.data.summary} updatedAt={entry.data.updatedAt}>
+<ToolLayout title={entry.data.title} description={entry.data.description ?? entry.data.summary} updatedAt={entry.data.updatedAt} hasSpanish={hasSpanish}>
   <Content />
 </ToolLayout>

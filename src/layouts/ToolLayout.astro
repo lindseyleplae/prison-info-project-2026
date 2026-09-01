@@ -2,37 +2,47 @@
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { createBreadcrumbStructuredData } from '../lib/seo';
+import { t, type Lang } from '../lib/ui-strings';
 
 const {
   title,
   description,
-  updatedAt
+  updatedAt,
+  lang = 'en',
+  hasSpanish = false
 } = Astro.props as {
   title: string;
   description?: string;
   updatedAt?: Date;
+  lang?: Lang;
+  hasSpanish?: boolean;
 };
+
+// Structured-data breadcrumbs follow the page language, matching GuideLayout.
+const sdPrefix = lang === 'es' ? '/es' : '';
 ---
 
 <BaseLayout
   title={title}
   description={description}
+  lang={lang}
+  hasSpanish={hasSpanish}
   structuredData={[
     createBreadcrumbStructuredData([
-      { label: 'Home', href: '/' },
-      { label: 'Tools' },
+      { label: t(lang, 'crumb.home'), href: `${sdPrefix}/` },
+      { label: t(lang, 'crumb.tools') },
       { label: title, href: Astro.url.pathname }
     ])
   ]}
 >
   <div class="container">
     <article class="tool-content content-width">
-      <Breadcrumbs pageTitle={title} />
+      <Breadcrumbs pageTitle={title} lang={lang} />
       <header class="page-header">
         <h1>{title}</h1>
         {description && <p class="subtitle">{description}</p>}
-        {updatedAt && <p class="meta">Updated: {updatedAt.toISOString().slice(0, 10)}</p>}
-        <p><button class="button" type="button" onclick="window.print()">Print this page</button></p>
+        {updatedAt && <p class="meta">{t(lang, 'tool.updated')} {updatedAt.toISOString().slice(0, 10)}</p>}
+        <p><button class="button" type="button" onclick="window.print()">{t(lang, 'tool.print')}</button></p>
       </header>
       <slot />
     </article>
