@@ -33,10 +33,10 @@ sources:
     url: "https://doc.nv.gov/Facilities/ESP_Facility/"
   - name: "NDOC — Visiting Information"
     url: "https://doc.nv.gov/Inmates/Visiting/Home/"
-lastVerified: 2026-06-14
-reviewBy: 2026-09-10
+lastVerified: 2026-09-07
+reviewBy: 2026-12-06
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-09-07
 ---
 
 :::callout{variant="warning"}

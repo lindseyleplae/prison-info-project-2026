@@ -40,10 +40,10 @@ sources:
     url: "https://en.wikipedia.org/wiki/East_Jersey_State_Prison"
   - name: "RWJ University Hospital Rahway — Emergency Department"
     url: "https://www.rwjbh.org/rwj-university-hospital-rahway/treatment-care/emergency-department/"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-08
+lastVerified: 2026-09-07
+reviewBy: 2026-12-06
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-09-07
 ---
 
 :::callout{variant="warning"}

@@ -43,8 +43,8 @@ sources:
     url: "https://dspace.njstatelib.org/server/api/core/bitstreams/df604e5f-2b36-4a91-8b9f-e571db6752a2/content"
   - name: "Capital Health at Deborah — Emergency Services (Browns Mills)"
     url: "https://www.capitalhealth.org/our-locations/emergency-department-at-deborah"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-08
+lastVerified: 2026-09-07
+reviewBy: 2026-12-06
 ---
 
 :::callout{variant="warning"}

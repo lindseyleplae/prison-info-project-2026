@@ -30,10 +30,10 @@ sources:
     url: "https://www.cd.nm.gov/divisions/adult-prisons/nmcd-prison-facilities/central-new-mexico-correctional-facility/"
   - name: "NMCD — Visitation"
     url: "https://www.cd.nm.gov/constituent-services/family-and-offender-resources/visitation/"
-lastVerified: 2026-06-16
-reviewBy: 2026-09-09
+lastVerified: 2026-09-07
+reviewBy: 2026-12-06
 lang: es
-sourceReviewed: 2026-06-16
+sourceReviewed: 2026-09-07
 ---
 
 :::callout{variant="warning"}

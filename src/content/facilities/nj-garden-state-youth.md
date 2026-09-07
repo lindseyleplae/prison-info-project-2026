@@ -41,8 +41,8 @@ sources:
     url: "https://www.nj.gov/corrections/pdf/PREA/2016/2016_PREAGYCF_REPORT.pdf"
   - name: "RWJ University Hospital Hamilton — Emergency Department"
     url: "https://www.rwjbh.org/rwj-university-hospital-hamilton/treatment-care/emergency-room-services/"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-08
+lastVerified: 2026-09-07
+reviewBy: 2026-12-06
 ---
 
 :::callout{variant="warning"}

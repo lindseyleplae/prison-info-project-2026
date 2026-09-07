@@ -30,8 +30,8 @@ sources:
     url: "https://www.cd.nm.gov/divisions/adult-prisons/nmcd-prison-facilities/western-new-mexico-correctional-facility/"
   - name: "NMCD — Visitation"
     url: "https://www.cd.nm.gov/constituent-services/family-and-offender-resources/visitation/"
-lastVerified: 2026-06-16
-reviewBy: 2026-09-10
+lastVerified: 2026-09-07
+reviewBy: 2026-12-06
 ---
 
 :::callout{variant="warning"}

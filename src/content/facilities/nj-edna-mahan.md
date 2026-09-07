@@ -41,8 +41,8 @@ sources:
     url: "https://www.justice.gov/opa/press-release/file/1268391/dl"
   - name: "Hunterdon Medical Center — Emergency (Flemington)"
     url: "https://www.hunterdonhealth.org/locations/hunterdon-medical-center"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-08
+lastVerified: 2026-09-07
+reviewBy: 2026-12-06
 ---
 
 :::callout{variant="warning"}
