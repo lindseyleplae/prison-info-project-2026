@@ -40,8 +40,8 @@ sources:
     url: "https://family-preservation-project.org/"
   - name: "Legacy Meridian Park Medical Center — Emergency"
     url: "https://www.legacyhealth.org/Doctors-and-Locations/hospitals/legacy-meridian-park-medical-center"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-20
+lastVerified: 2026-09-14
+reviewBy: 2026-12-13
 ---
 
 :::callout{variant="warning"}

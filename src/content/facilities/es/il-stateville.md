@@ -34,10 +34,10 @@ sources:
     url: "https://idoc.illinois.gov/rebuild.html"
   - name: "WTTW — Final Men Transferred Out of Stateville Prison (March 2025)"
     url: "https://news.wttw.com/2025/03/25/final-men-transferred-out-stateville-prison-facility-s-100-year-history-comes-close"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-15
+lastVerified: 2026-09-14
+reviewBy: 2026-12-13
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-09-14
 ---
 
 :::callout{variant="warning"}

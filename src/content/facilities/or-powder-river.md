@@ -36,8 +36,8 @@ sources:
     url: "https://newdirectionsnw.org/alternative-incarceration-program/"
   - name: "Saint Alphonsus Medical Center Baker City — Emergency"
     url: "https://www.saintalphonsus.org/baker-city"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-21
+lastVerified: 2026-09-14
+reviewBy: 2026-12-13
 ---
 
 :::callout{variant="warning"}

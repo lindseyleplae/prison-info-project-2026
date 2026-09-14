@@ -33,10 +33,10 @@ sources:
     url: "https://dpscs.maryland.gov/locations/mciw.shtml"
   - name: "Maryland DPSCS — Incarcerated Individual Visitation Services"
     url: "https://dpscs.maryland.gov/inmateservs/inmate_visitation.shtml"
-lastVerified: 2026-06-14
-reviewBy: 2026-08-24
+lastVerified: 2026-09-14
+reviewBy: 2026-12-13
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-09-14
 ---
 
 :::callout{variant="warning"}

@@ -30,8 +30,8 @@ sources:
     url: "https://oklahoma.gov/doc/facilities.html"
   - name: "Oklahoma DOC — Visitation"
     url: "https://oklahoma.gov/doc/facilities/visitation.html"
-lastVerified: 2026-06-16
-reviewBy: 2026-09-19
+lastVerified: 2026-09-14
+reviewBy: 2026-12-13
 ---
 
 :::callout{variant="warning"}

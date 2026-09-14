@@ -35,10 +35,10 @@ sources:
     url: "https://dam.assets.ohio.gov/image/upload/drc.ohio.gov/Forms/76-VIS-01.pdf"
   - name: "Memorial Hospital (Memorial Health) — Emergency (Marysville)"
     url: "https://memorialohio.com/services/emergency-medicine/"
-lastVerified: 2026-06-14
-reviewBy: 2026-09-17
+lastVerified: 2026-09-14
+reviewBy: 2026-12-13
 lang: es
-sourceReviewed: 2026-06-14
+sourceReviewed: 2026-09-14
 ---
 
 :::callout{variant="warning"}

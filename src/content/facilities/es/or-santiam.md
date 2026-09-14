@@ -36,10 +36,10 @@ sources:
     url: "https://www.salemreporter.com/2026/03/05/oregon-prisons-will-cut-visitation-hours-to-curb-overtime-costs-doc-says/"
   - name: "Salem Health — Emergency Room (Salem Hospital)"
     url: "https://salemhealth.org/services/emergency-room/emergency-room"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-21
+lastVerified: 2026-09-14
+reviewBy: 2026-12-13
 lang: es
-sourceReviewed: 2026-06-13
+sourceReviewed: 2026-09-14
 ---
 
 :::callout{variant="warning"}

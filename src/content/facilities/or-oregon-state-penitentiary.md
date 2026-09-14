@@ -42,8 +42,8 @@ sources:
     url: "https://www.oregon.gov/doc/Documents/inmate-profile.pdf"
   - name: "Salem Health — Salem Hospital Emergency"
     url: "https://salemhealth.org/services/emergency-room/emergency-room"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-21
+lastVerified: 2026-09-14
+reviewBy: 2026-12-13
 ---
 
 :::callout{variant="warning"}

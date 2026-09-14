@@ -34,8 +34,8 @@ sources:
     url: "https://www.oregon.gov/doc/visiting/pages/visiting-hours.aspx"
   - name: "St. Charles Madras — Emergency Medicine"
     url: "https://stcharleshealthcare.org/locations/st-charles-madras-emergency-medicine"
-lastVerified: 2026-06-13
-reviewBy: 2026-09-21
+lastVerified: 2026-09-14
+reviewBy: 2026-12-13
 ---
 
 :::callout{variant="warning"}

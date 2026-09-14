@@ -36,10 +36,10 @@ sources:
     url: "https://www.justice.gov/d9/2024-02/2024.02.26_ms_doc_findings_report_it_508_reviewed_0.pdf"
   - name: "George Regional Hospital — Lucedale (emergency care)"
     url: "https://georgeregional.com/our-locations/george-regional-hospital/"
-lastVerified: 2026-06-12
-reviewBy: 2026-09-01
+lastVerified: 2026-09-14
+reviewBy: 2026-12-13
 lang: es
-sourceReviewed: 2026-06-12
+sourceReviewed: 2026-09-14
 ---
 
 :::callout{variant="warning"}
