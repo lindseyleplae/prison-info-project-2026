@@ -4,15 +4,16 @@ slug: lee-arrendale
 state: ga
 system: GDC
 population: women
-summary: "Georgia's largest women's prison and its statewide women's intake center, in Alto — where women entering the system are processed, and which holds the state's death row for women."
+summary: "Long Georgia's largest women's prison and its statewide women's intake center, in Alto — organizations working with women in GDC custody report it has been converted to a transitional center, so confirm a person's location on GDC's locator first."
 aliases:
   - Lee Arrendale
   - Arrendale
   - LASP
+  - Arrendale Transitional Center
 city: Alto
 county: Habersham
 address: "2023 Gainesville Highway S, Alto, GA 30510"
-securityLevel: "Close security — women's diagnostic center (women)"
+securityLevel: "In transition — reported converted to a transitional center (women)"
 facilityType: "State Prison"
 contact:
   mainPhone: "(706) 776-4700"
@@ -30,65 +31,68 @@ links:
 sources:
   - name: "GDC — Lee Arrendale State Prison"
     url: "https://gdc.georgia.gov/locations/lee-arrendale-state-prison"
+  - name: "GDC — Arrendale Transitional Center"
+    url: "https://gdc.georgia.gov/locations/arrendale-transitional-center"
   - name: "Georgia Public Broadcasting — Georgia women's prison to be downsized, inmates to transfer to former federal lockup"
     url: "https://www.gpb.org/news/2023/01/20/georgia-womens-prison-be-downsized-inmates-transfer-former-federal-lockup"
   - name: "GDC — Visitation"
     url: "https://gdc.georgia.gov/friends-and-family/visit-inmate/visitation"
   - name: "Northeast Georgia Medical Center–Habersham — Emergency (Demorest)"
     url: "https://www.nghs.com/locations/habersham"
-lastVerified: 2026-08-17
+lastVerified: 2026-09-18
 reviewBy: 2026-11-15
 ---
 
 :::callout{variant="warning"}
-**Lee Arrendale's role is changing, and readers report the change has already happened.** GDC announced it would reduce the prison to a roughly 112-bed transitional center and move about 1,000 women to other women's prisons, including the state-run prison at McRae that opened in 2025. Readers have since told this site that Lee Arrendale is no longer operating as a prison and now functions as a transitional center. GDC's published information has not caught up: as of the date below, its facility list still shows **Lee Arrendale State Prison** (special mission, capacity about 1,476) alongside a separate **Arrendale Transitional Center** (minimum security, capacity about 117) at the same address in Alto. **Confirm where the person is held on GDC's Find an Offender before traveling**, and confirm visiting with the facility that actually holds her.
+**Organizations that work directly with women in GDC custody report that Lee Arrendale no longer operates as a prison and now functions as a transitional center.** That matches the plan GDC announced in 2023: wind down the prison, move roughly 1,000 women to other women's prisons — including the state-run women's prison at McRae that opened in 2025 — and keep a small transitional center on the Alto campus. GDC's own published pages have not been updated to reflect a completed change: as of the date below, its facility list still shows **Lee Arrendale State Prison** (special mission, capacity about 1,476) alongside the **Arrendale Transitional Center** (minimum security, about 117 beds, phone (706) 776-0845, mail to P.O. Box 186, Alto, GA 30510) on the same campus.
 
-Lee Arrendale is also Georgia's statewide women's intake and diagnostic center — women entering GDC are processed here before transfer, so a newly sentenced woman may be here only briefly. Women in diagnostic status are generally not eligible for visitation until they reach a permanent prison. Lee Arrendale is also Georgia's largest women's prison and holds the state's death row for women. Personal mail goes to the facility with the person's GDC ID number (see Mail, below).
+What this means in practice: **check GDC's Find an Offender before doing anything else.** A woman previously held at Lee Arrendale may now be at McRae Women's Facility, Pulaski, Whitworth, Emanuel, or another facility, and each has its own visiting arrangements and mailing address. If the locator shows the person at Arrendale, call the facility to confirm which operation holds her and how visiting works before traveling or sending mail.
 :::
 
 :::key-info
+**Status:** In transition — GDC announced the prison's conversion to a small transitional center, and organizations working with women in the system report the conversion has taken place; GDC's published facility information does not yet reflect it
+
 **Location:** On Gainesville Highway (GA-365 corridor) in Alto, Habersham County, about 75 miles northeast of Atlanta
 
-**Population:** Women in close security — capacity about 1,476, including women being received and classified and women under a death sentence
+**Historically:** Georgia's largest women's prison and its statewide women's diagnostic/intake center; housed the state's death row for women; home to the only all-female inmate fire station in the nation
 
-**Notable:** Georgia's largest women's prison and statewide women's diagnostic/intake center; holds the state's death row for women; home to the only all-female inmate fire station in the nation
-
-**Visitation:** Saturday, Sunday, and holidays by appointment; women in diagnostic status are generally not eligible for visits until they reach a permanent prison
+**Visitation:** GDC still posts a Saturday/Sunday appointment schedule for the prison — confirm with the facility before traveling
 :::
 
 ## Overview
 
-Lee Arrendale State Prison, on Gainesville Highway in Alto, Habersham County, is **Georgia's largest women's prison and its statewide women's diagnostic and intake center**. Women entering the GDC system are processed here, where they are assessed — medically, psychologically, and educationally — and assigned a security level and a permanent facility. Because of that role, a newly sentenced woman may be at Lee Arrendale only briefly before transfer, so the prison shown in the inmate search can change. Lee Arrendale is a **close-security** facility with capacity for about **1,476 women**, and it also holds the state's **death row for women**.
+Lee Arrendale, on Gainesville Highway in Alto, Habersham County, has long been **Georgia's largest women's prison and its statewide women's diagnostic and intake center** — a close-security facility with capacity for about 1,476 women, housing the state's death row for women. In 2023, GDC announced it would convert the site to a roughly 112-bed minimum-security transitional center and transfer most of the population to other women's prisons, a move tied to the opening of the state-run women's prison at McRae in January 2025.
 
-## What Makes Lee Arrendale Different
+Organizations that work directly with women in GDC custody have since told this site the conversion has happened — that the site now operates as the **Arrendale Transitional Center**, a small work-release facility, rather than as a prison. GDC has not announced the change on its website, which still lists both the prison and the transitional center, and it has not published where the women's diagnostic function or death-row housing now sit. For any individual woman, the authoritative answer is **GDC's Find an Offender**, which shows her current facility.
 
-- **It is Georgia's largest women's prison** and the statewide diagnostic and intake center, so women entering the system are processed here before transferring to a permanent prison.
-- **Visits are limited during intake** — women in diagnostic status are generally not eligible for visitation until they reach a permanent prison.
-- **It holds the state's death row for women.**
-- **It is home to the only all-female inmate fire station in the nation.**
+## What This Means for Families
+
+- **A woman who was at Lee Arrendale may have been transferred.** Check the locator before traveling, sending mail, or submitting a visiting application — applications go to the specific facility that holds the person.
+- **Intake may no longer happen here.** GDC has long processed newly sentenced women at Lee Arrendale for diagnostic assessment; GDC has not published a replacement intake site. The locator shows where a newly received woman actually is.
+- **The transitional center is a different operation.** It is a minimum-security work-release facility of about 117 beds with its own phone, (706) 776-0845, and its own mailing address, P.O. Box 186, Alto, GA 30510. Transitional centers run their own visiting arrangements — contact the center directly.
 
 ## Visiting
 
-The statewide GDC rules above — the approved visitor list, the dress code, ID, and item limits — apply at Lee Arrendale. The facility's own arrangements:
+The statewide GDC rules — the approved visitor list, the dress code, ID, and item limits — apply at GDC facilities, including transitional centers. As of the date at the top of this page:
 
 :::key-info
-**Days and hours (as GDC publishes them):** By last name — A-K on Saturdays, L-Z on Sundays, 9:00 a.m. to 3:00 p.m., with all visitors admitted on state holidays. **This is GDC's posted schedule, and readers report the facility no longer operates as a prison, so confirm it still applies before travelling.**
-
-**Diagnostic status:** A woman in intake is generally not eligible for visits until she reaches a permanent prison
+**Days and hours (as GDC still publishes them for the prison):** By last name — A-K on Saturdays, L-Z on Sundays, 9:00 a.m. to 3:00 p.m., with all visitors admitted on state holidays. **Organizations working with women in GDC custody report the facility no longer operates as a prison, so call before relying on this schedule.**
 
 **Scheduling:** By appointment through GDC's online visitation portal; the visitor must first be approved on the person's list, and requests for a given week are accepted Monday through Wednesday
+
+**Transitional center residents:** Visiting at the Arrendale Transitional Center is arranged with the center itself — call (706) 776-0845
 :::
 
 The full approval process is in [Visiting in Georgia](/states/georgia/guides/visiting/).
 
 ## Getting There and Parking
 
-The prison is on Gainesville Highway in Alto, along the GA-365 corridor northeast of Atlanta.
+The facility is on Gainesville Highway in Alto, along the GA-365 corridor northeast of Atlanta.
 
 :::key-info
 **By car:** About 75 miles northeast of Atlanta — take Interstate 985 to GA-365 north past Gainesville, then to Gainesville Highway (GA-13) at Alto
 
-**By transit:** There is no public transit to the prison; a private vehicle is required
+**By transit:** There is no public transit to the facility; a private vehicle is required
 :::
 
 Distances are approximate, based on map routing. Visitor parking is on site.
@@ -99,7 +103,7 @@ Alto, Cornelia, and Gainesville have the closest gas, food, and lodging; Atlanta
 
 ## Mail
 
-Personal mail goes to the facility, addressed with the person's full name and **GDC ID number**. Georgia is moving toward centralized mail handling, so confirm the current mailing address before sending. Books and magazines must come from a publisher or established retailer, and legal mail is opened only in the person's presence. Full rules are in [Mail & Packages](/states/georgia/guides/mail/).
+**Confirm the person's location on the locator before mailing anything** — mail sent to a facility that no longer holds the person is delayed or returned. Mail to someone the locator shows at this site goes to the address the locator lists, with the person's full name and **GDC ID number**; the prison's published address is P.O. Box 709 and the transitional center's is P.O. Box 186, both in Alto, GA 30510. Books and magazines must come from a publisher or established retailer, and legal mail is opened only in the person's presence. Full rules are in [Mail & Packages](/states/georgia/guides/mail/).
 
 ## Learn More
 

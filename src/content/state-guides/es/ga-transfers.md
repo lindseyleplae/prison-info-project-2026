@@ -21,7 +21,7 @@ sourceReviewed: 2026-06-14
 
 **Las personas con condena estatal a menudo esperan en las cárceles del condado.** Una persona puede permanecer en la cárcel del condado durante semanas mientras ya está "bajo custodia del GDC" en los papeles.
 
-**Las personas que ingresan recientemente pasan por una prisión de diagnóstico** — los hombres en la **GDCP en Jackson**, las mujeres en la **Lee Arrendale en Alto** — durante unos diez días hábiles de evaluación.
+**Las personas que ingresan recientemente pasan por una prisión de diagnóstico** — los hombres en la **GDCP en Jackson**, las mujeres históricamente en la **Lee Arrendale en Alto** (una conversión reportada; vea la nota más abajo) — durante unos diez días hábiles de evaluación.
 
 **Encuentre a una persona con la herramienta Find an Offender del GDC** (por nombre o por número de identificación del GDC); las personas en las cárceles del condado y de la ciudad están en el **registro del alguacil**, y las personas en prisiones federales están en el **localizador de la Bureau of Prisons**.
 :::
@@ -37,7 +37,7 @@ Una complicación específica de Georgia: a menudo hay una **brecha** en la que 
 Después de la **sentencia**, la persona permanece en la **cárcel del condado** — donde ahora se hace su clasificación de seguridad — hasta que el GDC la recoge y la lleva a una **prisión de diagnóstico** durante unos **diez días hábiles** de evaluación médica, de salud mental y de programación:
 
 - **Hombres:** **Georgia Diagnostic and Classification State Prison (GDCP)** en **Jackson**.
-- **Mujeres:** **Lee Arrendale State Prison** en **Alto**.
+- **Mujeres:** históricamente la **Lee Arrendale State Prison** en **Alto**. El GDC anunció la conversión de esa prisión en un centro de transición, y organizaciones que trabajan con mujeres bajo custodia del GDC informan que el cambio ya ocurrió; el GDC no ha publicado un sitio de ingreso que la reemplace, así que consulte el localizador para saber dónde está realmente una mujer recién ingresada.
 
 Después del diagnóstico, la persona **se traslada a una prisión permanente** acorde con su nivel de seguridad y **permanece allí hasta la liberación o un traslado administrativo**.
 
@@ -56,5 +56,5 @@ El GDC **por lo general no notifica a las familias** cuando una persona es **tra
 ## Verifique antes de actuar
 
 :::callout{variant="warning" title="Verifique antes de actuar"}
-Consulte primero Find an Offender; si la persona no aparece, es posible que siga en una cárcel del condado o de la ciudad — incluidas las personas con condena estatal en espera de ser recogidas — así que consulte el registro del alguacil, y consulte el localizador de la Bureau of Prisons para la custodia federal. Cuente con que una persona recién sentenciada pase por una prisión de diagnóstico (GDCP en Jackson para los hombres, Lee Arrendale en Alto para las mujeres) antes de trasladarse a una institución permanente. Debido a que el GDC por lo general no notifica a las familias sobre los traslados, confirme la ubicación actual en el localizador antes de viajar y antes de enviar una solicitud de visita, ya que esta va a la institución específica.
+Consulte primero Find an Offender; si la persona no aparece, es posible que siga en una cárcel del condado o de la ciudad — incluidas las personas con condena estatal en espera de ser recogidas — así que consulte el registro del alguacil, y consulte el localizador de la Bureau of Prisons para la custodia federal. Cuente con que una persona recién sentenciada pase por una prisión de diagnóstico antes de trasladarse a una institución permanente — la GDCP en Jackson para los hombres; para las mujeres, históricamente Lee Arrendale en Alto, cuya conversión reportada en un centro de transición hace que el localizador sea la única respuesta confiable sobre dónde está una mujer recién ingresada. Debido a que el GDC por lo general no notifica a las familias sobre los traslados, confirme la ubicación actual en el localizador antes de viajar y antes de enviar una solicitud de visita, ya que esta va a la institución específica.
 :::

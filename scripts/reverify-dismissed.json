@@ -42,6 +42,20 @@
       "reason": "Same stale 6/30/24 population block; the model infers normal operations from it.",
       "checkedOn": "2026-08-10",
       "source": "https://idoc.illinois.gov/facilities/allfacilities/facility.stateville-correctional-center.html"
+    },
+    {
+      "file": "src/content/facilities/ga-lee-arrendale.md",
+      "field": "operatingStatus",
+      "reason": "GDC's page still presents Lee Arrendale as an operating 1,476-capacity prison, so the model reads our reported-conversion framing as a mismatch. Two independent organizations working with women in GDC custody (incl. Motherhood Beyond Bars, 2026-08) report the site now operates only as the Arrendale Transitional Center; GDC's page is the stale side. Remove this entry when GDC updates its listing — that update should then flow into the page.",
+      "checkedOn": "2026-09-18",
+      "source": "https://gdc.georgia.gov/locations/lee-arrendale-state-prison"
+    },
+    {
+      "file": "src/content/facilities/ga-lee-arrendale.md",
+      "field": "visitingHours",
+      "reason": "Same stale GDC page: it still posts the A-K Saturday / L-Z Sunday prison schedule. Our page reports that schedule as GDC-published with a conversion caveat, which the model reads as a discrepancy.",
+      "checkedOn": "2026-09-18",
+      "source": "https://gdc.georgia.gov/locations/lee-arrendale-state-prison"
     }
   ]
 }

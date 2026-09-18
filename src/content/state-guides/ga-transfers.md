@@ -19,7 +19,7 @@ lastReviewed: 2026-06-14
 
 **State-sentenced people often wait in county jails.** A person can sit in the county jail for weeks while already "in GDC custody" on paper.
 
-**New arrivals go through a diagnostic prison** — men at **GDCP in Jackson**, women at **Lee Arrendale in Alto** — for about ten business days of assessment.
+**New arrivals go through a diagnostic prison** — men at **GDCP in Jackson**, women historically at **Lee Arrendale in Alto** (a reported conversion; see the note below) — for about ten business days of assessment.
 
 **Find someone with GDC's Find an Offender tool** (by name or GDC ID); county and city jail inmates are on the **sheriff's roster**, and federal prisoners are in the **Bureau of Prisons locator**.
 :::
@@ -35,7 +35,7 @@ A complication specific to Georgia: there is often a **gap** where a sentenced p
 After **sentencing**, a person stays in the **county jail** — where their security classification is now done — until GDC picks them up and takes them to a **diagnostic prison** for about **ten business days** of medical, mental-health, and programming assessment:
 
 - **Men:** **Georgia Diagnostic and Classification State Prison (GDCP)** in **Jackson**.
-- **Women:** **Lee Arrendale State Prison** in **Alto**.
+- **Women:** historically **Lee Arrendale State Prison** in **Alto**. GDC announced that prison's conversion to a transitional center, and organizations working with women in GDC custody report the change has taken place; GDC has not published a replacement intake site, so check the locator for where a newly received woman actually is.
 
 After diagnostics, the person **transfers to a permanent prison** matched to their security level and **remains there until release or an administrative transfer**.
 
@@ -54,5 +54,5 @@ GDC does **not generally notify families** when a person is **transferred betwee
 ## Verify Before Acting
 
 :::callout{variant="warning" title="Verify Before Acting"}
-Check Find an Offender first; if the person is not listed, they may still be in a county or city jail — including state-sentenced people awaiting pickup — so check the sheriff's roster, and check the Bureau of Prisons locator for federal custody. Expect a newly sentenced person to go through a diagnostic prison (GDCP in Jackson for men, Lee Arrendale in Alto for women) before moving to a permanent facility. Because GDC does not generally notify families of transfers, confirm the current location on the locator before traveling and before sending a visiting application, since it goes to the specific facility.
+Check Find an Offender first; if the person is not listed, they may still be in a county or city jail — including state-sentenced people awaiting pickup — so check the sheriff's roster, and check the Bureau of Prisons locator for federal custody. Expect a newly sentenced person to go through a diagnostic prison before moving to a permanent facility — GDCP in Jackson for men; for women, historically Lee Arrendale in Alto, whose reported conversion to a transitional center means the locator is the only reliable answer for where a newly received woman is. Because GDC does not generally notify families of transfers, confirm the current location on the locator before traveling and before sending a visiting application, since it goes to the specific facility.
 :::
